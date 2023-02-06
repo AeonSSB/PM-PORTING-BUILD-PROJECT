@@ -1,0 +1,61 @@
+00 = Mario
+01 = Donkey Kong
+02 = Link
+03 = Samus
+04 = Zero Suit Samus
+05 = Yoshi
+06 = Kirby
+07 = Fox
+08 = Pikachu
+09 = Luigi
+10 = Captain Falcon
+11 = Ness
+12 = Bowser / Giga Bowser
+13 = Peach
+14 = Zelda
+15 = Sheik
+16 = Ice Climbers
+17 = Marth
+18 = Mr. Game & Watch
+19 = Falco
+20 = Ganondorf
+21 = Wario / Wario-Man
+22 = Meta Knight
+23 = Pit
+24 = Olimar
+25 = Lucas
+26 = Diddy Kong
+27 = Pokemon Trainer
+28 = Charizard
+29 = Squirtle
+30 = Ivysaur
+31 = Dedede
+32 = Lucario
+33 = Ike
+34 = R.O.B.
+35 = Jigglypuff
+36 = Toon Link
+37 = Wolf
+38 = Snake
+39 = Sonic
+40 = Mewtwo
+41 = Roy
+42 = Knuckles
+
+Each costume slot is paired up with a 16-bit value XXYY as follows:
+XX = team info
+YY = costume ID
+
+if XX = 00, Red Team
+if XX = 01, Blue Team
+if XX = 03, Green Team
+
+Other values are useless and were probably for debugging purposes in Brawl.
+PM has several alts that share XX values when not on teams with no consequences known.
+
+When you are finished adding costumes, make sure to add 0C00 to the end of the list of your costumes so that the game does not search for more!
+
+The last true costume values should be no later than 0x62-0x63! The 0x64-0x65 is leeway so that 50 costumes can still have a 0C00 footer.
+
+WARNING!! Do not place any Wario costume ID at 0xF (15), 0x1F (31), 0x2F (47) or 0x3F (63). These break the game if you try to load Wario-Man
+from the CSS. There are enough IDs to still give him 50, so simply select a different value instead of using those specific four.
