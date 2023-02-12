@@ -8,9 +8,9 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/LegacyTE/Replays.asm
 .include Source/Netplay/Net-StageFiles.asm
 .include Source/Project+/CustomRequirements.asm
-.include Source/Project+/Shake.asm
+# .include Source/Project+/Shake.asm
 .include Source/Project+/CStick.asm
-.include Source/Project+/LedgeGrab.asm
+# .include Source/Project+/LedgeGrab.asm
 .include Source/Project+/ScreenKO.asm
 .include Source/Project+/Timeout.asm
 .include Source/Project+/UCF.asm
