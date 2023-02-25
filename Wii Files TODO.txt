@@ -1,1 +1,0 @@
-Figure out what to take out from the dolpin version of the files and then copy paste dolphin files in the wii files with the dolphin only files removed
