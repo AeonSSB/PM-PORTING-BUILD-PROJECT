@@ -1,0 +1,164 @@
+To do:
+- Import 3.6 gameplay and EX structure once all known bugs are fixed
+  (as this build and PM Porting share some edited files, port the changes in one version to the
+  other to ensure we don't lose anything; all the changes have been documented)
+  - THEN Implement SSEEX features and Roy & Mewtwo levels
+      (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
+
+
+In the CSS:
+- Ensure the new placement for stars and numbers of games won is not bugged like in vanilla P+
+- Perfect the CSP crop with a mask and slight movements in the 3D space
+- Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
+  (change Mewtwo's UI only after PM Porting is... well, ported)
+- Replace the blue of the assets with a shade based on the build's brand as we have a final logo
+
+
+In the two Rules menus:
+- Manage the stage slots considered by the game for random selection
+  - THEN Manage the included button alts in the code that counts them to be only R and Z
+  - THEN Rename Peach's Castle, Yoshi's Island and others if needed in the random selection
+- Replace the blue of the assets with a shade based on the build's brand as we have a final logo
+
+
+In stages:
+- Replace the Project+ textures in PS2 with Project M's ones
+- Check if Autumn Dream Land's water needs changes
+  - THEN Do a quality check of the other alts
+- Some stages including Kongo Jungle have invisible targets that big hitboxes in the Z-axis hit,
+  move them where nothing can possibly hit them or remove them if possible
+- In Bowser's Castle, player 2 Ganon can fall through the stage after dropping the angel platform
+  or at least he used to be able to, and he shouldn't
+- A rock in Distant Planet has a texture error, fix it in both Brawl and PM's stages as well as
+  the planned GHZ alt we're making
+- Fix Lugia's idle animation in the dedicated Metal Cavern alt once the stage is done
+
+
+In the SSS:
+- Fix the stage preview's shadow's crop
+- Replace the placeholder texture with a proper "-> Page 4", remake the others too if a template
+  is not found
+- Rename the following stages in their names' textures:
+  *Secret+ to Twisty Trials Galaxy 
+  *Rumble Falls to Rumble Falls (Brawl)
+  *Castle Siege to Castle Siege (Brawl)
+- Add the stages (pac, param, modules, sawnd) and UI to their emtpy slots in pages 1 and 4
+  - THEN Add the alts for page 1's slots that exist
+  - THEN Port Spain's water visual cue on all three FoD stages
+  - THEN Make the page 1 and 2 alts that don't exist yet
+  - THEN Adjust crates and barrels for all stages
+  - THEN Set from Common2 the stages loaded in Classic Mode
+  - THEN Check if All-Star and other modes need the same fix in Classic Mode for the loaded stages
+  [After all stages' individual changes are done]
+  - THEN Make Rules banners for each slot
+  - THEN Make banners for each slot
+  - THEN Make the My Music menu identical to the SSS
+  - THEN Make an horizontal version of the SSS and a toggle for it
+    (and import WI build's "STAGE SELECT" text animation?
+    also note that previews of the horizontal SSS should be based on PM, not TE)
+- Add stats icons above the previews (Z axis) for the stages in page 1
+- Port 50CC for SSS to have stocks in the upper left corner of the screen after we do characters'
+  cosmetics
+- Replace the blue with a shade based on the build's brand after we have a final logo
+- Replace the "Project M" texture with our final logo?
+
+
+To do elsewhere:
+- Match Brawl's tracklists and manage extra music from there
+  (Ensure tracklists include all Brawl and Melee tracks, and also arrangements of the 64 tracks)
+  - THEN Import music from the sound selection
+  - THEN Check if menus like Replay can have custom tracklists
+  - THEN Check if it's possible to make the added tracks appear in the Music menu
+    (Not My Music, the Brawl menu dedicated to music of the game itself rather than stages)
+- Ensure STGResult displays 3.6 and other relevant information on the version like our title
+- Make HD textures for the result screen's port information work
+- Make the descriptions of ALC and Buffer in the two Rules menus say "for beginners" or similar
+- Make UI that notifies if a port is using ALC or buffer (or tilt stick too?)
+- Make custom StrapXX files with the build's brand, optimized in file size like P+'s ones
+  - THEN Rename HD textures for it
+- Make a custom title screen with the build's brand, and make the logo appear in Brawl's intro
+  - THEN Rename HD textures for it
+- Remake the aspect ratio image in the settings once we have a final logo
+- Remove unnecessary HD textures (stage icons, names, banners etc.)
+- Apply all the following misc fixes:
+  *Fix the corruption of Firefox and other textures (all are caused by one of Sonic's files)
+  *Ensure Kirby's Roy hair is updated to match default Roy's one after we finish Roy's costumes
+  *A missing HD texture on the Subspace Emissary icon from the main menu?
+  *Snake's Win3 uses a knife sound by accident, can we fix this?
+  *Replace the outdated ZSS trophy texture
+  *Toon Link's Down Taunt had a texture error, fix it if P+ 2.3.2 didn't yet or if PM Porting
+   restores it
+- Make all macros visible on screen when needed to:
+  *LRAstart on pause
+  *LRAYstart on pause
+  *LRDpadDown for debug mode on some menus
+  *LR when selecting a stage brings back to the CSS
+  (any other?)
+
+
+To do in the Code Menu:
+- Ensure these Code Menu options are included and can you see in-game if settings are not default:
+  *Green flash when actionable
+  *Yellow flash with SDI inputs
+  *Grab Trade Behavior (Manaphy)
+  *Balloon Hit Behavior
+  *Hitfalling
+- Make L-R-A-START, salty runback, debug mode, stage alts, Wario-man and Giga Bowser
+  accessible through analog L and R presses too (from 80% of a press? a value that does not need
+  the spring under the button, not sure on the one to use)
+  *And any other code that uses L and R I might have forgotten
+- Add the EX characters toggle once we decide on which fighters to include, and port their files
+  (they'll unlikely have 18 costumes like the main cast; maybe 9 or 6)
+  (Code Menu toggle or, even better, button in the CSS itself)
+
+
+To do in Dolphin:
+- Create a custom theme after the build's brand
+- Dolphin Software icon themed after the build's brand
+- Dolphin Launchers banner themed after the build's brand
+- Custom Dolphin window icons (Open, Refresh etc.) themed after the build's brand
+- Make sure Bird's Replay Manager works as intended
+- Remove the autoupdater
+- Rename the emulator with the build's brand
+
+
+To do at the very end:
+- Remove all collect.vff and leave only one in the folder that loads it
+- Reset music frequency and tags once the build is done
+- Make sure there aren't screenshots, unused HD textures or dumped textures on Dolphin
+- Convert HD textures to .dds (might not be compatible with rollback)
+- Re-set the SD card path if edited
+- Update the credits of each character's alts and each stage in credits.txt
+- Update LegacyTE_PSA_edits.txt with all characters and add it to pf/fighter
+- Have the following Dolphin settings:
+  *Set Default ISO to ./Games
+  *Theme: the custom one themed after the build's brand
+  *Aspect Ratio: Stretch to Window
+  *Widescreen Hack
+  *Internal Resolution: 3x
+  *Load Custom Textures
+- Make a document that introduces to the build and/or charts with:
+  *tracks used (and info similarly to how P+ handles this)
+  *costumes featured
+  *stages featured
+
+--------------------------------------------------------------------------------------------------
+
+Character-specific notes:
+- Fix Fierce Deity's sword trail
+- Ensure any other trail uses the correct colours if costume-dependent
+- Restore Melee Fox's Shine model
+- Add Gen 2 shiny intro for costumes that need it
+- Ensure Final Smash eyes of characters like Puff and Ness work properly
+
+Legal stage-specific notes for 1:1s:
+- Use the plugins for stage legality on every alt and check framerate on console;
+  the following data should match:
+  *stagePosition
+  *most of the STPM (aside from character wind and shadows)
+  *collisions
+  *collision type (Olimar can desync with a different type)
+
+If you edit the collision type (changing wood to metal) you may accidentally desync Olimar.
+You have to manually go to the collision data file and change the soil (which is usually
+the default) and change the GFX and SFX number on it

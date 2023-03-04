@@ -1,0 +1,3 @@
+- Snake's Win3 uses a knife sound by accident
+- Some stages including Kongo Jungle have invisible targets that big hitboxes in the Z-axis hit
+- In Bowser's Castle, player 2 Ganon can fall through the stage after dropping the angel platform

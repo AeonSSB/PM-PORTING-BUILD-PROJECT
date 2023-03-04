@@ -1,0 +1,9 @@
+selmap
+	3,234 KB works (3.15 MB - 3,310,601 bytes)
+	3,236 KB breaks (3.15 MB - 3,313,199 bytes)
+selcharacter2
+	669 KB (684,785 bytes, maybe a little more)
+	671 KB breaks
+menumain
+	5,861 KB works (5.72 MB - 6,000,728 bytes)
+	5,862 KB breaks (5.72 MB - 6,001,874 bytes)

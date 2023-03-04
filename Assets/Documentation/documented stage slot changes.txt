@@ -1,0 +1,67 @@
+------Added slots---------------------------------------------------
+- Delfino Plaza              0x3D      0x513F
+- Mushroomy Kingdom          0x3E      0x5240
+- Bridge of Eldin            0x3F      0x5341
+- Skyloft                    0x40      0x5442
+- Pokémon Stadium 2 (Brawl)  0x41      0x5543
+- New Pork City              0x42      0x5644
+- 75m                        0x43      0x5745
+- Mario Bros.                0x44      0x5846  (and spawn point fix)
+- Green Hill Zone (Brawl)    0x45      0x5947
+- Super Happy Tree           0x46      0x5A48
+- Sector Z                   0x47      0x5B49
+- Pokémon Stadium            0x48      0x5C4A
+- Venom                      0x49      0x5D4B
+- Brinstar                   0x50      0x5E4C
+- Green Greens               0x51      0x5F4D
+- Mute City                  0x52      0x604E
+- Twisty Trials Galaxy       0x53      0x614F
+- Tiny FD                    0x4E      0x6250
+- Rumble Falls               0x4F      0x6351
+- Castle Siege               0x56      0x6A58
+- Metal Cavern (64)          0x57      0x6B59
+- Kingdom Adventure          0x58      0x6C5A
+- Bob-Omb Battlefield        0x59      0x6D5B
+- Mushroom Gorge             0x5A      0x6E5C
+- Minecart Madness           0x5B      0x6F5D
+- Oil Drum Alley             0x5C      0x705E
+- Landing Site               0x5D      0x715F
+- Yoshi's Cookie             0x5E      0x7260
+- Yoshi's Story (Beta)       0x5F      0x7361
+- Cookie Country             0x60      0x7462
+- White Wafers               0x61      0x7563
+- Sky Islands                0x62      0x7664
+- Sky Temple                 0x63      0x7765
+- The Final Battle           0x67      0x7B69
+- Planet Papetoon            0x68      0x7C6A
+- Sprout Tower               0x69      0x7D6B
+- Poke Floats 2              0x6A      0x7E6C
+- Aeropolis                  0x6B      0x7F6D
+- Wario's Castle             0x6C      0x806E
+- Waluigi Land               0x6D      0x816F
+- Dead Line                  0x6E      0x8270
+- Radical Highway            0x6F      0x8371
+- Dracula's Castle           0x70      0x8472
+- Spiral Mountain            0x71      0x8573
+- Clanker's Cavern           0x72      0x8674
+- Venus Lighthouse           0x73      0x8775
+- Lunar Horizon              0x74      0x8876
+- Hammer Express             0x75      0x8977
+
+------Replaced slots------------------------------------------------
+- Bell Tower -> Kongo Falls              0x34      0x482B
+- Dead Line -> Great Bay                 0x30      0x4427
+- Clock Town -> Peach's Castle (Melee)   0x2E      0x4225
+- Subspace -> Mushroom Kingdom (Melee)   0x3A      0x4E31
+- Minecart Madness -> Brinstar Depths    0x32      0x4629
+- Cookie Country -> Mushroom Kingdom II  0x36      0x4A2D
+- Venus Lighthouse -> Icicle Mountain    0x37      0x4B2E
+- Dracula's Castle -> Flat Zone          0x2C      0x4023
+
+------Name changes applied in UI and IDs----------------------------
+- Peach's Castle -> Peach's Castle (64)
+- Dinosaur Land -> Yoshi's Island (Melee)
+- Mushroom Kingdom -> Mushroom Kingdom (64)
+- Yoshi's Island -> Yoshi's Island (Brawl)
+- Castle Siege -> Castle Siege (Brawl)
+- Rumble Falls -> Rumble Falls (Brawl)

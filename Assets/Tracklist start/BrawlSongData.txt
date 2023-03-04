@@ -1,0 +1,370 @@
+Parsed from http://opensa.dantarion.com/wiki/Song_IDs and smashbros_sound.brsar
+
+
+Stage Name 						SongID	Filename	Volume	Approx. Frequency
+ 
+Smash Bros. Brawl Stages
+
+BATTLEFIELD	
+Battlefield	 					26FC 	X04		80	100
+Menu (Super Smash Bros. Melee)				27EE 	T02		80	100
+Battlefield Ver. 2 					2711 	X25		70 	10
+Battlefield (Melee)					2813 	W21		50	10
+Multi-Man Melee 1 (Melee)				2815 	W23 		54	10
+
+FINAL DESTINATION
+Final Destination	 				26FD 	X05		80	100 
+Credits (Super Smash Bros.)				27ED 	T01		72 	20	
+Opening (Super Smash Bros. Melee)			27EF 	T03 		80	20
+Final Destination (Melee)				2817 	W25		52 	20	
+Giga Bowser (Melee)					281D 	W31		60	20
+
+DELFINO PLAZA	
+Delfino Plaza						2720 	A13 		80	100
+Title / Ending (Super Mario World)			271A 	A07 		80	20
+Main Theme (New Super Mario Bros.)			271B 	A08		85 	20
+Ricco Harbor 						2721 	A14		96 	20
+Main Theme (Super Mario 64) 				2722 	A15		80 	20
+
+LUIGI'S MANSION
+Luigi's Mansion Theme 					271C 	A09 		80	100
+Castle / Boss Fortress (Super Mario World / SMB 3) 	2719 	A06 		80	20
+Airship Theme (Super Mario Bros. 3)			2718 	A05 		85	20
+Tetris: Type A						27CC 	Q10 		80	20
+Tetris: Type B						27CD 	Q11 		80	20
+
+MUSHROOMY KINGDOM (GROUND)	
+Ground Theme (Super Mario Bros.)			2714 	A01 		80	100
+Ground Theme 2 (Super Mario Bros.)			2723 	A16  		80	20
+Gritzy Desert						271D 	A10 		80	20
+
+MUSHROOMY KINGDOM (UNDERGROUND)	
+Underground Theme (Super Mario Bros.)			2715 	A02		80	100
+Underwater Theme (Super Mario Bros.)			2716 	A03 		80	20
+Underground Theme (Super Mario Land)			2717 	A04		80	20
+
+MARIO CIRCUIT	
+Mario Circuit 						2725 	A20 		80	100
+Luigi Circuit 						2726 	A21 		80	30
+Waluigi Pinball 					2727 	A22 		80	30
+Rainbow Road 						2728 	A23		80	30
+Mario Tennis / Mario Golf				27D5 	R05 		80	10
+Excite Truck						27DE 	R14		80	10
+Title (3D Hot Rally)					27CB 	Q09 		80	5
+
+75 M	
+Donkey Kong 						272C 	B04 		85	100
+Opening (Donkey Kong)					272B 	B03 		85	55
+25m BGM 						2731 	B09 		80	30
+
+RUMBLE FALLS
+Jungle Level Ver.2					2729 	B01 		85	100
+Jungle Level						2730 	B08		85 	30
+King K.Rool / Ship Deck 2				272D 	B05 		80	30
+Bramble Blast						272E 	B06 		85	30
+Battle for Storm Hill 					272F 	B07 		75	30	
+DK Jungle 1 Theme (Barrel Blast)			2732 	B10 		75	10
+The Map Page / Bonus Level 				272A 	B02 		85	10
+ 	
+PIRATE SHIP
+Dragon Roost Island					2741 	C15 		85	100
+The Great Sea 						2742 	C16 		80	30
+Tal Tal Heights 					2739 	C07 		75	30			
+Song of Storms						273C 	C10 		85	30
+Gerudo Valley 						273F 	C13 		80	15
+Molgera Battle 						273D 	C11 		85	10		
+Village of the Blue Maiden 				273E 	C12 		80	10
+Termina Field						2740 	C14 		90	10
+
+BRIDGE OF ELDIN	
+Main Theme (The Legend of Zelda) 			2734 	C02 		70	100
+Ocarina of Time Medley 					273B 	C09 		80	30
+Title (The Legend of Zelda)				2733 	C01 		75	20
+The Dark World						2736 	C04 		95	20	
+Hidden Mountain & Forest 				2737 	C05 		80	20
+Hyrule Field Theme 					273A 	C08 		80	10
+Main Theme (Twilight Princess)				2743 	C17		80 	25	
+The Hidden Village					2744 	C18 		80	5	
+Midna's Lament						2745 	C19 		80	5
+
+NORFAIR	
+Main Theme (Metroid) 					2746 	D01		80	100
+Ending (Metroid) 					2748 	D03 		70	20
+Norfair 						2747 	D02 		80	20
+Theme of Samus Aran, Space Warrior			274A 	D05 		95	20
+Battle Scene / Final Boss (Golden Sun)			27DC 	R12 		85	10
+Marionation Gear 					27D7 	R07 		80	10
+
+FRIGATE ORPHEON	
+Vs. Ridley 						2749 	D04 		80	100
+Vs. Parasite Queen 					274D 	D08 		80	30
+Opening / Menu (Metroid Prime) 				274C 	D07 		80	10
+Sector 1 						274B 	D06 		90	10
+Vs. Meta Ridley						274E 	D09 		90	10
+Multiplayer (Metroid Prime 2)				274F 	D10 		75	10
+
+YOSHI'S ISLAND	
+Obstacle Course (Spring/Summer)				2751 	E02 		80	100	
+Obstacle Course (Fall/Winter)				2756 	E07 		80	100
+Ending (Yoshi's Story) 					2750 	E01		85	40
+Yoshi's Island						2752 	E03 		80	10
+Flower Field						2754 	E05 		80	10
+Wildlands						2755 	E06 		80	10
+
+HALBERD	
+Meta Knight's Revenge 					275C 	F06 		80	100
+The Legendary Air Ride Machine				2757 	F01 		92	50
+Gourmet Race						275B 	F05 		95	30
+Butter Building 					275A 	F04 		75	10
+King Dedede's Theme 					2758 	F02 		80	10
+Squeak Squad Theme					2762 	F12 		80	10
+Vs. Marx 						275D 	F07 		85	5
+0² Battle 						275E 	F08 		80	5
+Boss Theme Medley					2759 	F03		85	5
+Checker Knights 					2760 	F10		70	10
+Forest / Nature Area					275F 	F09 		85	10
+Frozen Hillside 					2761 	F11		80	5
+
+LYLAT CRUISE
+Space Armada 						276C 	G10		80	100
+Corneria 						2764 	G02		85	20
+Main Theme (Star Fox)					2763 	G01 		80	20
+Main Theme (Star Fox 64)				2765 	G03 		70	20
+Area 6 							2766 	G04 		80	20
+Area 6 Ver. 2 						276D 	G11 		80	10
+Star Wolf 						2767 	G05 		80	10
+Star Wolf (Star Fox: Assault)				276B 	G09 		80	10
+Space Battleground 					2769 	G07 		80	10
+Break Through the Ice 					276A 	G08		80	10
+Tunnel Scene (X)					27CE 	Q12 		80	5	
+
+POKEMON STADIUM 2 	
+Pokémon Main Theme 					276E 	H01 		80	100
+Road to Viridian City (From Pallet Town / Pewter City) 	2770 	H03 		70	20
+Pokémon Center		 				276F 	H02		80	20
+Pokémon Gym / Evolution					2771 	H04 		73	20
+Wild Pokémon Battle! (Ruby / Sapphire)			2772 	H05 		80	20
+
+SPEAR PILLAR	
+Victory Road 						2773 	H06		80	100
+Dialga / Palkia Battle at Spear Pillar!			2775 	H08 		80	20
+Wild Pokémon Battle! (Diamond / Pearl)			2774 	H07		85	15
+Team Galactic Battle!				 	2776 	H09 		80	15	
+Route 209						2777 	H10		80	5
+
+PORT TOWN AERO DIVE	
+Mute City 						2778 	I01 		80	100
+Fire Field 						277A 	I03 		75	20
+White Land 						2779 	I02 		70	20
+Car Select 						277B 	I04 		90	10
+Dream Chaser 						277C 	I05 		85	10		
+Devil's Call in Your Heart 				277D 	I06 		80	10
+Climb Up! And Get The Last Chance!			277E 	I07 		85	10
+Brain Cleaner						277F 	I08		80	10
+Shotgun Kiss 						2780 	I09		80	10
+Planet Colors 						2781 	I10 		80	10
+Golden Forest (1080°Snowboarding) 			27D9 	R09 		80	5
+Mach Rider (Melee) 					2810 	W18		45	5
+	
+SUMMIT	
+Ice Climber 						27C9 	Q07 		80	100		
+Balloon Trip						27C8 	Q06 		80	20
+Shin Onigashima 					27CA 	Q08 		80	20
+Clu Clu Land 						27C7 	Q05 		80	20
+Icicle Mountain (Melee) 				280B 	W13 		63	20
+	
+FLAT ZONE 2	
+Flat Zone 2 						27D4 	R04 		80	100
+Chill (Dr. Mario)					27C6 	Q04 		85	30
+Flat Zone (Melee) 					280C 	W14 		54	20
+	
+CASTLE SIEGE 
+Fire Emblem Theme 					2783 	J02 		110	100	
+With Mila's Divine Protection (Celica Map 1) 		2785 	J04 		80	20
+Attack 							2789 	J08 		80	20
+Preparing to Advance 					2787 	J06 		80	20
+Winning Road - Roy's Hope 				2788 	J07 		80	15
+Shadow Dragon Medley 					2784 	J03 		80	15
+Ike's Theme 						278E 	J13 		80	15
+Against the Dark Knight					278A 	J09 		75	10
+Crimean Army Sortie 					278B 	J10 		80	10
+Power-Hungry Fool 					278C 	J11 		80	
+Victory Is Near 					278D 	J12 		80	10
+Fire Emblem (Melee) 					280F 	W17 		80	10
+
+WARIOWARE, INC.	
+WarioWare, Inc. 					27A1 	M01 		80	100
+WarioWare, Inc. Medley					27A2 	M02		85	35
+Ashley's Song 						27A8 	M08 		80	15
+Ashley's Song (JP) 					27A7 	M07 		80	5
+Mike's Song						27A6 	M06 		80	15
+Mike's Song (JP) 					27A5 	M05 		80	5
+Mona Pizza's Song 					27A4 	M04 		80	15
+Mona Pizza's Song (JP)					27A3 	M03		80	5
+
+DISTANT PLANET	
+Main Theme (Pikmin) 					279E 	L06 		90	100		
+World Map (Pikmin 2)					2799 	L01		80	20
+Stage Clear / Title (Pikmin)				279F 	L07		85	20
+Forest of Hope						279A 	L02 		90	20
+Ai no Uta 						279C 	L04 		70	20	
+Ai no Uta (French Version) 				27A0 	L08 		75	5
+Tane no Uta 						279D 	L05 		75	20
+Environmental Noises 					279B 	L03		80	5	 
+Title (Big Brain Academy)				27D8 	R08 		80	5
+
+SKYWORLD	
+Underworld						27BF 	P01		80	100
+Skyworld						27C1 	P03 		80	35
+Title (Kid Icarus) 					27C0 	P02 		80	10
+Kid Icarus Original Medley				27C2 	P04 		80	10
+	
+MARIO BROS.	
+Mario Bros. 						2724 	A17 		80	100
+Gyromite 						27C4 	Q02 		80	10
+Famicom Medley 						27C3 	Q01 		70	10
+Power-Up Music 						27CF 	Q13		70	10
+Douchuumen (Nazo no Murasamejo)				27D0 	Q14		80	10
+	
+NEW PORK CITY	
+Porky's Theme					 	2795 	K07 		80	100
+Unfounded Revenge / Smashing Song of Praise 		2797 	K09		80	30
+Mother 3 Love Theme 					2796 	K08 		80	10
+You Call This a Utopia?! 				2798 	K10 		90	10
+Humoresque of a Little Dog 				2793 	K05 		85	10
+Snowman 						278F 	K01 		85	5
+
+SMASHVILLE	
+Title (Animal Crossing) 				27B3 	N01		83	100
+Go K.K. Rider! 						27B4 	N02 		80	20
+2:00 a.m. 						27B5 	N03		80	20
+Town Hall and Tom Nook's Store 				27B8 	N06		85	20
+The Roost						27B7 	N05		85	20
+
+SHADOW MOSES ISLAND
+MGS4 ～Theme of Love～ Smash Bros. Brawl Version 	27E7 	S06 		80	100	
+Encounter 						27E3 	S02 		80	35
+Theme of Tara 						27E4 	S03 		80	35
+Battle in the Base 					27E9 	S08 		80	10
+Yell "Dead Cell" 					27E5 	S04 		80	10
+Cavern  						27E8 	S07 		80	10
+Snake Eater (Instrumental) 				27E6 	S05 		80	10
+Theme of Solid Snake					27EB 	S10		80	10
+Calling to the Night 					27EC 	S11 		90	10
+	
+GREEN HILL ZONE	
+Green Hill Zone 					27F2 	U01 		80	100
+Angel Island Zone					27F5 	U04 		80	20
+Scrap Brain Zone					27F3 	U02 		80	20
+Emerald Hill Zone 					27F4 	U03 		80	20
+Sonic Boom						27F7 	U06 		80	20
+Super Sonic Racing 					27F8 	U07 		80	20
+Open Your Heart 					27F9 	U08 		80	20
+Live & Learn 						27FA 	U09 		80	20
+Sonic Heroes 						27FB 	U10 		80	20
+Right There, Ride On					27FC 	U11 		80	20
+HIS WORLD (Instrumental)				27FD 	U12 		80	20
+Seven Rings In Hand					27FE 	U13 		85	20
+	
+PICTOCHAT	
+PictoChat 						27D2 	R02 		85	100
+Mii Channel 						27DA 	R10		80	20
+Wii Shop Channel 					27DB 	R11		80	20
+Brain Age: Train Your Brain in Minutes a Day		27DF 	R15 		80	20
+Opening Theme (Wii Sports) 				27E0 	R16		80	15
+Charge! (Wii Play) 					27E1 	R17 		80	15
+Shaberu! DS Cooking Navi 				27DD 	R13 		80	10
+Lip's Theme (Panel de Pon) 				27D6 	R06 		75	10
+Dr. Mario (Melee) 					2812 	W20 		63	10
+
+HANENBOW
+"ELECTRO" 						27D3 	R03 		100	
+	
+Smash Bros. Melee Stages
+
+TEMPLE 	
+Great Temple / Temple 					2735 	C03 		80	100	
+Temple (Melee) 						2816 	W24 		45	35
+	
+YOSHI'S ISLAND 	
+Yoshi's Island (Melee)  				2803 	W05		35	100
+Super Mario Bros. 3 (Melee) 				280D 	W15 		63	35
+	
+JUNGLE JAPES	
+Jungle Japes (Melee)					2801 	W03		70	100
+Kong Jungle (Melee)					2818 	W26 		60	35
+ 	
+ONETT	
+Mother (Melee) 						280A 	W12 		52	100
+Mother 2 (Melee) 					2811 	W19		40	35
+
+GREEN GREENS 	
+Green Greens (Melee)					2805 	W07 		68	100
+Fountain of Dreams (Melee) 				2804 	W06 		54	35
+	
+POKEMON STADIUM 	
+Pokémon Stadium (Melee) 				2807 	W09 		63	100
+Battle Theme (Melee)  					280E 	W16 		54	35
+Poké Floats (Melee)  					2808 	W10 		40	35
+	
+RAINBOW CRUISE 	
+Rainbow Cruise (Melee)					2800 	W02 		63	100
+Princess Peach's Castle (Melee) 			27FF 	W01		63	35
+
+CORNERIA	
+Corneria (Melee)					2806 	W08 		48	100	
+Venom (Melee)						281A 	W28 		48	35
+
+BIG BLUE	
+Big Blue (Melee)					2809 	W11 		55	100	
+Mute City (Melee) 					281B 	W29 		40	35
+
+BRINSTAR	
+Brinstar (Melee) 					2819 	W27 		45	100
+Brinstar Depths (Melee) 				2802 	W04		63	35
+	
+MENU	
+Menu 1	 						26FA 	X02 		70	100	
+Menu 2 	 						26FB 	X03 		75	2
+Menu (Melee) 						281C 	W30 		58	1
+Super Smash Bros. Brawl Main Theme			26F9 	X01 		80	0
+
+OTHERS
+Online Practice Stage 	 				26FF	X07		80				
+Results Display Screen 	 				2700	X08		80
+Tournament Registration 	 			2701	X09		80
+Tournament Grid 	 				2702	X10		80
+Tournament Match End 	 				2703	X11		80	
+Classic: Intro	[Note: Does not exist]			2704	X12		0		
+Classic: Results Screen 	 			2705	X13		85
+Classic: Ending	 [Note: Does not exist]			2706	X14		0
+All-Star Rest Area	 				2707	X15		80		
+Home-Run Contest  	 				2708	X16		80	
+Cruel Brawl						2709	X17		80		
+Boss Battle 	 					270A	X18		80		
+Trophy Gallery 	 					270B	X19		80
+Sticker Album / Album / Chronicle			270C	X20 		80
+Coin Launcher 						270D	X21		80
+Chronicle						270E	X22		80
+Stage Builder	 					270F	X23		80
+How to Play [Note: Does not exist]			2710	X24		0
+"Get Jingle"						2711	X25		70
+Target Smash!!	 					2712	X26		80
+Adventure Map	 					281F	Y01		73			
+Step: The Plain 		 			2820	Y02		80
+Step: The Cave	 					2821	Y03		80
+Step: Subspace 	 					2822	Y04		80
+Step: Subspace Ver.2  					282C	Y14		80
+Step: Subspace Ver.3 	 				282D	Y15		80
+Boss Battle Song 1					2823	Y05		80
+SSE Results						2824	X13		85
+Boss Battle Song 2 	 				2825 	Y07		90
+Save Point						2826 	Y08		105
+SSE DK Jungle						2827	Y09		80
+SSE Luigi Mansion					2828	Y10		80	
+Halberd Interior					2829	Y11		80
+SSE Data Select	 [Note: silent]				282A	000		0
+SSE Brinstar						282B	Y13		80
+Halberd Moving						282E	Y16		90
+"ADV17"							282F	Y17		85
+Credits 	 					2713	X27		80
