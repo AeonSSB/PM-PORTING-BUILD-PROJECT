@@ -1,10 +1,3 @@
-## Re-uploaded June 2021 since the original mediafire link died.
-
-Original post by Syvkal
-http://forums.kc-mm.com/index.php?topic=79470
-
-#############################################
-
 # Virtual SD Sync
 v0.1.3.2
 

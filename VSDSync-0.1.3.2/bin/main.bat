@@ -22,7 +22,6 @@ ROBOCOPY "%BUILD_DIR:\=\\%" "%SD_CARD_MOUNT_DRIVE_LETTER:\=\\%:\\." ^
     /NS ^
     /NP ^
     /NJH ^
-    /XD ".git" ^
     %PURGE_COMMAND%
 IF %ERRORLEVEL% GEQ 8 goto error
 
