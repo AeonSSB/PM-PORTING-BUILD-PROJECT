@@ -5,8 +5,8 @@ string[4] |
 "/fighter/%s%s%s%s",   |
 "/fighter/%s%s%02d%s", |
 "AltR",                |
-"AltZ"                 |
-@ $80546FB0
+"00"                 |		# Setting this to "00", and pointing both the AltR and AltZ cases to this.
+@ $80546FB0					# Forces Alt Costumes to load the default Etc. file instead! - QuickLava
 
 op NOP @ $8084D2A4
 HOOK @ $8084D104
@@ -76,9 +76,9 @@ SetDark:
 SetFake:
 	addi r7, r17, 0x18;		b stringEtcName	# "Fake"
 SetAltZ:
-	ori r7, r4, 0x6FDB;  	b stringEtcName	# "AltZ"
+	ori r7, r4, 0x6FDB;  	b stringEtcName	# "00"
 SetAltR:
-	ori r7, r4, 0x6FD6 					# "AltR"			
+	ori r7, r4, 0x6FDB 					# "00"			
 stringEtcName:
 	ori r4, r4, 0x6FB0	# "/fighter/%s%s%s%s"
 }
