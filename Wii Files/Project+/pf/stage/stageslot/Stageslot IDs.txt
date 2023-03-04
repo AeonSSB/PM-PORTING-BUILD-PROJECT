@@ -5,19 +5,19 @@
 05 - Metal Cavern
 06 - Bowser's Castle
 07 - Kongo Jungle
-08 - Rumble Falls
+08 - Rumble Falls (Brawl)
 09 - Pirate Ship
 0B - Norfair
 0C - Frigate Orpheon
-0D - Yoshi's Island
+0D - Yoshi's Island (Brawl)
 0E - Halberd
 13 - Lylat Cruise
 14 - Saffron City
 15 - Spear Pillar
 16 - Port Town
-17 - Infinite Glacier
-18 - Flat Zone
-19 - Castle Siege
+17 - Summit
+18 - Flat Zone 2
+19 - Castle Siege (Brawl)
 1C - Wario Land
 1D - Distant Planet
 1E - Skyworld
@@ -36,7 +36,7 @@
 2C - Onett
 2D - Dream Land
 2E - Pokemon Stadium 2
-2F - Peach Castle
+2F - Peach's Castle (64)
 30 - Corneria
 31 - Big Blue
 32 - Planet Zebes
@@ -47,20 +47,68 @@
 37 - Training Room (written as Training)
 38 - Break the Targets (Break the Targets Stages)
 39 - Staff Roll (Credits roll background used in the Solo Modes)
-40 - Dracula's Castle
+40 - Flat Zone
 41 - Mario Circuit
-42 - Clock Town
+42 - Peach's Castle (Melee)
 43 - Sky Sanctuary
-44 - Dead Line
-45 - Dinosaur Land
-46 - Minecart Madness
+44 - Great Bay
+45 - Yoshi's Island (Melee)
+46 - Brinstar Depths
 47 - Golden Temple
-48 - Bell Tower
+48 - Kongo Falls
 49 - Metroid Lab
-4A - Cookie Country
-4B - Venus Lighthouse
-4C - Mushroom Kingdom
-4D - WarioWare
-4E - Subspace
+4A - Mushroom Kingdom II
+4B - Icicle Mountain
+4C - Mushroom Kingdom (64)
+4D - WarioWare, Inc.
+4E - Mushroom Kingdom (Melee)
 4F - Rainbow Cruise
 50 - Poke Floats
+51 - Delfino Plaza
+52 - Mushroomy Kingdom
+53 - Bridge of Eldin
+54 - Skyloft
+55 - Pokemon Stadium 2 (Brawl)
+56 - New Pork City
+57 - 75m
+58 - Mario Bros.
+59 - Green Hill Zone (Brawl)
+5A - Super Happy Tree
+5B - Sector Z
+5C - Pokemon Stadium
+5D - Venom
+5E - Brinstar
+5F - Green Greens
+60 - Mute City
+61 - Twisty Trials Galaxy
+62 - Tiny FD
+63 - Rumble Falls (written as Rumble Falls NL)
+6A - Castle Siege (written as Castle Siege Plus)
+6B - Metal Cavern (64) (written as Metal Cavern Retro)
+6C - Kingdom Adventure
+6D - Bob-Omb Battlefield
+6E - Mushroom Gorge
+6F - Minecart Madness
+70 - Oil Drum Alley
+71 - Landing Site
+72 - Yoshi's Cookie
+73 - Yoshi's Story (Beta)
+74 - Cookie Country
+75 - White Wafers
+76 - Sky Islands
+77 - Sky Temple
+7B - The Final Battle
+7C - Planet Papetoon
+7D - Sprout Tower
+7E - Poke Floats 2
+7F - Aeropolis
+80 - Wario's Castle
+81 - Waluigi Land
+82 - Dead Line
+83 - Radical Highway
+84 - Dracula's Castle
+85 - Spiral Mountain
+86 - Clanker's Cavern
+87 - Venus Lighthouse
+88 - Lunar Horizon
+89 - Subspace

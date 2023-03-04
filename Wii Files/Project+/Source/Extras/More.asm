@@ -5,3 +5,7 @@
 
 #.include source/Extras/USBGecko.asm 		# Adds support for Gecko codes passed in by a USB Gecko
 
+#####################################
+Disable DPad on the SSS [PyotrLuzhin]
+#####################################
+* 046B6058 48000058

@@ -417,7 +417,7 @@ SpecialCase:
 #default: r3 = 0x2000
 
 # Below is a temp fix until I make the above modular
-op cmplwi r0, 5 @ $80949FC0	# Normally 0x1F (Famicom), allows Mario Bros to load properly from Metal Cavern
+op cmplwi r0, 0x58 @ $80949FC0	# Normally 0x1F (Famicom), allows Mario Bros to load properly from Metal Cavern
 
 # Miscellaneous stage ID 
 .alias WarioWare = 0x4D
