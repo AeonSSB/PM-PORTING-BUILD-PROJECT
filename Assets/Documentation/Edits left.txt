@@ -80,6 +80,8 @@ To do elsewhere:
 - Apply all the following misc fixes:
   *Ensure Kirby's Roy hair is updated to match default Roy's one after we finish Roy's costumes
   *A missing HD texture on the Subspace Emissary icon from the main menu?
+  *Snake's Win3 uses a knife sound by accident, fix this after PM Porting is done
+  *Fix the corruption of Firefox and other textures (all are caused by one of Sonic's files)
   *Replace the outdated ZSS trophy texture
   *Toon Link's Down Taunt had a texture error, fix it if P+ 2.3.2 didn't yet or if PM Porting
    restores it
@@ -157,3 +159,8 @@ Legal stage-specific notes for 1:1s:
 If you edit the collision type (changing wood to metal) you may accidentally desync Olimar.
 You have to manually go to the collision data file and change the soil (which is usually
 the default) and change the GFX and SFX number on it
+
+--------------------------------------------------------------------------------------------------
+
+Edits done:
+- Ensured the new placement for stars and numbers of games won is not bugged like in vanilla P+
