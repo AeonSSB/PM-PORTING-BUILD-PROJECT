@@ -1,7 +1,5 @@
 To do:
 - Import 3.6 gameplay and EX structure once all known bugs are fixed
-  (as this build and PM Porting share some edited files, port the changes in one version to the
-  other to ensure we don't lose anything; all the changes have been documented)
   - THEN Implement SSEEX features and Roy & Mewtwo levels
       (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
 
