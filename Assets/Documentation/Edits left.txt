@@ -5,7 +5,6 @@ To do:
 
 
 In the CSS:
-- Ensure the new placement for stars and numbers of games won is not bugged like in vanilla P+
 - Perfect the CSP crop with a mask and slight movements in the 3D space
 - Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
   (change Mewtwo's UI only after PM Porting is... well, ported)
