@@ -1,0 +1,181 @@
+﻿DataSize0x98
+07C Par00 A
+080 Par01 6
+084 Par02 8
+088 Par03 1
+08C Art0
+090 Art1
+094 Art2
+
+Art0
+2-2
+034 Par00-0 8
+
+Art1
+3-3
+034 Par01-0 2
+
+Art2
+9-2
+030 Par02D3 8
+034 Par02-0 2
+
+Par00
+Fatigue/Stamina
+
+0x0
+Max stamina
+
+0x4
+Fatigue Value decreased every second
+
+0x8
+Fatigue value decreased per attack
+
+0xC
+Fatigue value increased for every second pokemon is in pokeball
+
+0x10
+kb multiplier at "weakest" stamina (0x24)
+
+0x14
+Enter stamina wait animation (tired) when Fatigue falls below this value
+
+0x18
+Fatigue multiplier when KO'd
+
+0x1C
+Weakness multiplier
+
+0x20
+Resistance multiplier
+
+0x24
+"Weakest" stamina level
+
+Par01
+Bullet Seed
+
+*0x0
+Frames between seeds
+
+0x4
+Vertical momentum of article
+
+0x8
+Article's starting Y Offset
+
+*0xC
+How many frames you continue doing bullet seed after holding B
+
+*0x10
+Max frames you can hold B to continue attacking
+
+*0x14
+No Description Available.
+
+Par02
+Razor Leaf
+
+0x0
+Tilt speed
+
+*0x4
+Buffer (in frames) for differentiating tilt input from Smash input
+
+0x8
+Smash speed
+
+*0xC
+Landing detection? (affects how the leaf interacts with the floor)
+
+0x10
+X offset grounded
+
+0x14
+Y offset grounded
+
+0x18
+X offset aerial
+
+0x1C
+Y offset aerial
+
+Par03
+ExtraParams3
+
+*0x0
+No Description Available.
+
+Par00-0
+Razor Leaf Attribute
+
+*0x0
+Duration
+
+0x4
+Horizontal deceleration on tilt leaf
+
+0x8
+Something with rotation??? (Causes jerkiness in rotation)
+
+0xC
+Rotation angle??? (set to zero causes no rotation at all, can also cause jerkiness)
+
+0x10
+Random Launch Trajectory upon spawn
+
+*0x14
+No Description Available.
+
+0x18
+Affects trajectory angles while in the air
+
+0x1C
+Unsure, but a value higher than 1 causes random super-fast leaves
+
+Par01-0
+Bullet Seed Attribute
+
+*0x0
+Frame duration of article
+
+0x4
+No Description Available.
+
+Par02D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Par02-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+

@@ -1,0 +1,235 @@
+﻿DataSize0x9C
+07C Par00 A
+080 Par01 14
+084 Par02 1
+088 Par03 5
+08C Par04 3
+090 Art0
+094 Art1
+098 Art2
+
+Art0
+1-1
+034 Par00-0 6
+
+Art1
+5-5
+034 Par01-0 8
+038 Par01-1 A
+
+Art2
+2-2
+
+Par00
+Fatigue/Stamina
+
+0x0
+Max stamina
+
+0x4
+Fatigue Value decreased every second
+
+0x8
+Fatigue value decreased per attack
+
+0xC
+Fatigue value increased for every second pokemon is in pokeball
+
+0x10
+kb multiplier at "weakest" stamina (0x24)
+
+0x14
+Enter stamina wait animation (tired) when Fatigue falls below this value
+
+0x18
+Fatigue multiplier when KO'd
+
+0x1C
+Weakness multiplier
+
+0x20
+Resistance multiplier
+
+0x24
+"Weakest" stamina level
+
+Par01
+Flamethrower
+
+0x0
+Initial angle
+
+0x4
+Flame spread randomness
+
+0x8
+Max angle upwards
+
+0xC
+Max angle downwards
+
+0x10
+Turning speed
+
+0x14
+Turning speed/max rotation?
+
+*0x18
+Amount of frames spent firing after releasing B
+
+0x1C
+Max Speed / Distance Charge
+
+0x20
+Min Speed / Distance Charge
+
+0x24
+Max Size Charge
+
+0x28
+Min Size Charge
+
+0x2C
+Speed / Distance Recharge Rate
+
+0x30
+Size Recharge Rate
+
+0x34
+Speed / Distance Drain Rate
+
+0x38
+Size Drain Rate
+
+*0x3C
+Frame count for something?
+
+*0x40
+Frames between flames (smaller it is the more rumble you get)
+
+0x44
+How far away flame starts horizontally
+
+0x48
+How far away flame starts horizontally
+
+0x4C
+No Description Available.
+
+Par02
+Rock Smash
+
+0x0
+No Description Available.
+
+Par03
+Fly
+
+0x0
+ ?? (read on upB)
+
+0x4
+ ?? (read on upB)
+
+0x8
+ ?? (100 makes you move left/right and down)
+
+0xC
+How much you can slide on landing
+
+0x10
+ ?? (read on upB)
+
+Par04
+FlyExtra?
+
+0x0
+ ?? (read on upB)
+
+0x4
+Gravity
+
+0x8
+No Description Available.
+
+Par00-0
+FlameThrower Attribute
+
+0x0
+Landing detection
+
+*0x4
+Frame count before hitboxes (only) are deleted
+
+*0x8
+Frame count something?
+
+0xC
+Flame speed
+
+0x10
+Horizontal momentum of flames
+
+*0x14
+No Description Available.
+
+Par01-0
+RockSmash Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Par01-1
+ExtraParams1
+
+Data0
+No Description Available.
+
+Data1
+No Description Available.
+
+Data2
+No Description Available.
+
+Data3
+No Description Available.
+
+Data4
+No Description Available.
+
+Data5
+No Description Available.
+
+Data6
+No Description Available.
+
+Flags7
+No Description Available.
+
+*Data8
+No Description Available.
+
+*Data9
+No Description Available.
+

@@ -1,0 +1,271 @@
+﻿DataSize0xA4
+07C Par00 4
+080 Par01 8
+084 Par02 E
+088 Par03 6
+08C Par04 7
+090 Par05 A
+094 Art0
+098 Art1
+09C Art2
+0A0 Art3
+
+Art0
+2-2
+034 Par00-0 C
+
+Art1
+1-1
+034 Par01-0 6
+
+Art2
+1-2
+034 Par02-0 1
+
+Art3
+1-1
+034 Par03-0 3
+
+Par00
+Nayru's Love
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+Horizontal momentum preservation (less = more)
+
+0xC
+Vertical momentum
+
+Par01
+Din's Fire
+
+*0x0
+No Description Available.
+
+*0x4
+Frame you start falling
+
+*0x8
+ ?? (read on startup)
+
+0xC
+X offset
+
+0x10
+Y offset
+
+0x14
+Falling gravity
+
+0x18
+ ?? (read when releasing B)
+
+*0x1C
+ ?? (not read)
+
+Par02
+Farore's Wind
+
+0x0
+horizontal momentum preservation (smaller = higher)
+
+0x4
+vertical momentum preservation (smaller = higher)
+
+0x8
+Vertical momentum preservation
+
+0xC
+Something with momentum preservation?
+
+*0x10
+Travel distance (in frames)
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+Par03
+ExtraParams3
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Par04
+Light Arrow
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Par05
+ExtraParams5
+
+*0x0
+Bone
+
+0x4
+Break threshold
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size
+
+0x18
+Reflected projectile damage multiplier
+
+0x1C
+Reflected projectile speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Par00-0
+Din's Fire Attribute
+
+0x0
+Max Travel Distance in frames
+
+0x4
+Frames where damage grows with distance
+
+0x8
+Initial hit+GFX size
+
+0xC
+Terminal hit+GFX size
+
+*0x10
+Firing angle
+
+0x14
+Initial speed
+
+0x18
+Acceleration
+
+0x1C
+ ?? (read during startup)
+
+0x20
+ ?? (higher than 1.0 you can't maneuver up/down)
+
+0x24
+Up/Down maneuverability
+
+0x28
+Maximum curve projectile can angle (high numbers allow reversing direction)
+
+0x2C
+Detonation Timer
+
+Par01-0
+Din's Fire 2 Attribute
+
+0x0
+ ?? (read on explosion)
+
+0x4
+Initial Hitbox size multiplier
+
+0x8
+Terminal Hitbox size multiplier
+
+0xC
+Initial damage
+
+0x10
+Damage growth rate
+
+*0x14
+No Description Available.
+
+Par02-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par03-0
+Light Arrow Attribute
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+

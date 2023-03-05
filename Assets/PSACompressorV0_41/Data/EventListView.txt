@@ -1,0 +1,344 @@
+﻿00010100
+1
+frames=\X
+
+00020100
+1
+frames=\X
+
+00040100
+V
+FFFFFFFF-Infinite
+XDefault-\D times
+
+000A0200
+01
+\X: \X
+
+000A0400
+01
+\X: \X \C \X
+
+000B0200
+01
+\X: \X
+
+000B0400
+01
+\X: \X \C \X
+
+000C0200
+01
+\X: \X
+
+000C0400
+01
+\X: \X \C \X
+
+000D0200
+01
+\X: \X
+
+000D0400
+01
+\X: \X \C \X
+
+02000300
+1
+ID=\X, Action=\X, Requirement=\X
+
+02000400
+1
+ID=\X, Action=\X, Requirement=\X:\X
+
+02000600
+1
+ID=\X, Action=\X, Requirement=\X: \X \C \X
+
+02010200
+1
+Action=\X, Requirement=\X
+
+02010300
+1
+Action=\X, Requirement=\X: \X
+
+02010500
+1
+Action=\X, Requirement=\X: \X \C \X
+
+02040200
+01
+\X: \X
+
+02040400
+01
+\X: \X \C \X
+
+02050300
+1
+Interrupt ID=\X, Status ID=\X, Requirement=\X
+
+02050400
+1
+Interrupt ID=\X, Status ID=\X, Requirement=\X: \X
+
+02050600
+1
+Interrupt ID=\X, Status ID=\X, Requirement=\X: \X \C \X
+
+020A0100
+V
+00000001-Ground Special
+00000002-Ground Item
+00000003-Ground Grab
+00000004-Ground Attack
+00000005-Ground Dodge
+00000006-Ground Guard
+00000007-Ground Jump
+00000008-Ground (Other)
+00000009-Landing
+0000000A-Ledge Grab
+0000000B-Air Special
+0000000C-Air Item Throw
+0000000D-Air Tether
+0000000E-Air Dodge
+0000000F-Air Attack
+00000010-Footstool
+00000011-Wall Jump
+00000012-Air Jump
+00000013-Fall Through Platform (Squat Only)
+XDefault-Undefined(\D)
+
+04000100
+1
+Sub Action=\X
+
+04000200
+1
+Sub Action=\X, pass frame=\X
+
+04020200
+01
+\X: \X
+
+04020400
+01
+\X: \X \C \X
+
+04030200
+01
+\X: \X
+
+04030400
+01
+\X: \X \C \X
+
+040C0100
+1
+Sub Action=\X
+
+040C0200
+1
+Sub Action=\X, pass frame=\X
+
+06000D00
+C
+ID=\H0048, Damage=\X01, ShieldDamage=\H0404, direction=\X02, WeightKnockback=\H0304, KnockbackGrowth=\H0348, BaseKnockback=\H0448, Size=\X05, Bone=\H0004, X Offset=\X06, Y Offset=\X07, Z Offset=\X08, TripRate=\X09, HitlagMultiplier=\X10, SDIMultiplier=\X11, Flags=\F12
+
+06010200
+1
+ID=\X, Damage=\X
+
+06020200
+1
+ID=\X, Size=\X
+
+06050100
+V
+00000000-Normal
+00000001-Invincible
+00000002-Intangible
+00000003-Intangible No Flashing
+00000004-Intangible Quick Flashing
+XDefault-Undefined(\D)
+
+060A0800
+1
+ID=\X, Bone=\X, Size=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, Action=\X, Air/Ground=\X
+
+060E1100
+1
+ID=\X, Bone=\X, Damage=\X, direction=\X, KnockbackGrowth=\X, WeightKnockback=\X, BaseKnockback=\X, Element=\X, \X, \X, \X, \X, \X, \X, \X, \X, \X
+
+06140200
+1
+ID=\X, Damage=\X
+
+06150F00
+C
+ID=\H0048, Damage=\X01, ShieldDamage=\H0404, direction=\X02, WeightKnockback=\H0304, KnockbackGrowth=\H0348, BaseKnockback=\H0448, Size=\X05, Bone=\H0004, X Offset=\X06, Y Offset=\X07, Z Offset=\X08, TripRate=\X09, HitlagMultiplier=\X10, SDIMultiplier=\X11, Flags=\F12, RehitRate=\X13, SpecialFlags=\F14
+
+06192F00
+1
+ID=\X, Segment=\X, Bone=\X, Damage=\X, Scalar=\X, Angle=\X, KnockbackGrowth=\X, Scalar=\X, WeightKnockback=\X Scalar=\X, BaseKnockback=\X, Scalar=\X, Size=\X, Scalar=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, Effect=\X, TripRate=\X, HitlagMultiplier=\X, SDIMultiplier=\X, Clank=\X, Rebound=\X, ShieldDamage=\X, Sound Level=\X, Sound=\X, Air/Ground=\X, Direct/Indirect=\X, Type=\X, Hit Bit=\X, Boolean=\X, Value=\X, Boolean=\X, Shieldability=\X, Reflectability=\X, Absorbability=\X, Rehit Rate=\X, Piercing=\X, Boolean=\X, Angle Flip=\X, Grabby=\X, Team Damage=\X, Hitlag Disable=\X, Boolean=\X, Flinchless=\X, Stretchy=\X, Variable=\X
+
+061B0500
+1
+ID=\X, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X
+
+06241000
+1
+Type=\X, \X, Bone=\X, Size=\X, 1st X Offset=\X, 1st Y Offset=\X, 1st Z Offset=\X, 2nd X Offset=\X, 2nd Y Offset=\X, 2nd Z Offset=\X, DamageMultiplier=\X, SpeedMultiplier=\X, Threshold=\X, \X, \X, \X
+
+08000100
+V
+00000000-Can pass through stage objects
+00000001-Can drop off side of stage
+00000002-Can't drop off side of stage
+00000005-In Air; Can leave stage vertically
+XDefault-Undefined(\D)
+
+0E000100
+V
+00000000-In Air
+00000001-Floating On Ground
+00000006-On Ground
+0000000A-In Air, Uninfluenceable
+0000000F-Grounded TransN Movement
+00000011-Aerial TransN Movement
+00000032-Stop
+XDefault-Undefined(\D)
+
+0E010200
+1
+Horizontal Speed=\X, Vertical Speed=\X
+
+0E080400
+1
+Horizontal Speed=\X, Vertical Speed=\X, \X, Add/Set=\X
+
+11001000
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Random X Offset=\X, Random Y Offset=\X, Random Z Offset=\X, Random X Rotate=\X, Random Y Rotate=\X, Random Z Rotate=\X, Depends by Bone Rotation=\X
+
+11010A00
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Terminate with Action=\X
+
+11020A00
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Terminate with Action=\X
+
+11031400
+1
+ID=\X, Blur=\X, 1st Bone=\X, 1st X Offset=\X, 1st Y Offset=\X, 1st Z Offset=\X, 2nd Bone=\X, 2nd X Offset=\X, 2nd Y Offset=\X, 2nd Z Offset=\X, \X, Graphic=\X, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X
+
+11041700
+1
+ID=\X, Blur=\X, 1st Bone=\X, 1st X Offset=\X, 1st Y Offset=\X, 1st Z Offset=\X, 2nd Bone=\X, 2nd X Offset=\X, 2nd Y Offset=\X, 2nd Z Offset=\X, \X, Graphic=\X, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, \X, \X, Glow Scale=\X
+
+11170700
+1
+Undefined=\X, Transition time=\X, Red=\X, Green=\X, Blue=\X, Alpha=\X, \X
+
+11190A00
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Terminate with Action=\X
+
+111A1000
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Random X Offset=\X, Random Y Offset=\X, Random Z Offset=\X, Random X Rotate=\X, Random Y Rotate=\X, Random Z Rotate=\X, Depends by Bone Rotation=\X
+
+111B1000
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Random X Offset=\X, Random Y Offset=\X, Random Z Offset=\X, Random X Rotate=\X, Random Y Rotate=\X, Random Z Rotate=\X, Depends by Bone Rotation=\X
+
+111C1000
+1
+File#=\H, Graphic=\H, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, Random X Offset=\X, Random Y Offset=\X, Random Z Offset=\X, Random X Rotate=\X, Random Y Rotate=\X, Random Z Rotate=\X, Depends by Bone Rotation=\X
+
+12000200
+C
+\X01 = \X00
+
+12010200
+C
+\X01 += \X00
+
+12020200
+C
+\X01 -= \X00
+
+12030100
+1
+\X++
+
+12040100
+1
+\X--
+
+12060200
+C
+\X01 = \X00
+
+12070200
+C
+\X01 += \X00
+
+12080200
+C
+\X01 -= \X00
+
+120A0100
+1
+\X = true
+
+120B0100
+1
+\X = false
+
+120D0200
+C
+\X01 *= \X00
+
+120E0200
+C
+\X01 /= \X00
+
+120F0200
+C
+\X01 *= \X00
+
+12100200
+C
+\X01 /= \X00
+
+1A040500
+1
+Zoom Time=\X, Undefined=\X, Distance=\X, X Rotate=\X, Y Rotate=\X
+
+1E000200
+V
+00000000-Normal,
+00000001-Super Armor,
+00000002-Knockback Armor,
+00000003-Damage Armor,
+XDefault-Undefined(\D)
+XDefault-\X
+
+21010400
+1
+Red=\X, Green=\X, Blue=\X, Alpha=\X
+
+21020500
+1
+Transition time=\X, Red=\X, Green=\X, Blue=\X, Alpha=\X
+
+21050600
+1
+Red=\X, Green=\X, Blue=\X, Alpha=\X, Light Source X=\X, Light Source Y=\X
+
+21070500
+1
+Transition time=\X, Red=\X, Green=\X, Blue=\X, Alpha=\X
