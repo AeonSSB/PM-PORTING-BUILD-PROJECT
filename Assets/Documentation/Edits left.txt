@@ -82,6 +82,7 @@ To do elsewhere:
   *A missing HD texture on the Subspace Emissary icon from the main menu?
   *Snake's Win3 uses a knife sound by accident, fix this after PM Porting is done
   *Fix the corruption of Firefox and other textures (all are caused by one of Sonic's files)
+   after PM Porting is done
   *Replace the outdated ZSS trophy texture
   *Toon Link's Down Taunt had a texture error, fix it if P+ 2.3.2 didn't yet or if PM Porting
    restores it
@@ -141,7 +142,7 @@ To do at the very end:
 
 --------------------------------------------------------------------------------------------------
 
-Character-specific notes:
+Character-specific notes (any has to be done after PM Porting):
 - Fix Fierce Deity's sword trail
 - Ensure any other trail uses the correct colours if costume-dependent
 - Restore Melee Fox's Shine model
