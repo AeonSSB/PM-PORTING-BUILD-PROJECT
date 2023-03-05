@@ -79,7 +79,6 @@ To do elsewhere:
 - Remake the aspect ratio image in the settings once we have a final logo
 - Remove unnecessary HD textures (stage icons, names, banners etc.)
 - Apply all the following misc fixes:
-  *Fix the corruption of Firefox and other textures (all are caused by one of Sonic's files)
   *Ensure Kirby's Roy hair is updated to match default Roy's one after we finish Roy's costumes
   *A missing HD texture on the Subspace Emissary icon from the main menu?
   *Snake's Win3 uses a knife sound by accident, can we fix this?
