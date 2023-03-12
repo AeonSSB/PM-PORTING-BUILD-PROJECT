@@ -31,7 +31,7 @@ TABLE_1:
 0x1E, | # Sky Sanctuary Zone
 0x20, | # Yoshi's Story
 0x4F, | # Rumble Falls
-0x56, | # Castle Siege
+0x50, | # Castle Siege
 0x18  | # Fountain of Dreams
 
 TABLE_2:
@@ -160,8 +160,8 @@ half[109] |	# Stage Count + 2
 0x5442, 0x5543, 0x5644, 0x5745,	| # Skyloft, Pokemon Stadium 2 (Brawl), New Pork City, 75m
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
-0x604E, 0x614F, 0x6250, 0x6351, | # Mute City, Twisty Trials Galaxy, Tiny FD, Rumble Falls
-0x6A58, 0x6B59, 0x6C5A, 0x6D5B, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
+0x604E, 0x614F, 0x8C7A, 0x8B79, | # Mute City, Twisty Trials Galaxy, Tiny FD, Rumble Falls
+0x8D7B, 0x6B59, 0x6C5A, 0x6D5B, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
 0x6E5C, 0x6F5D, 0x705E, 0x715F, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
 0x7260, 0x7361, 0x7462, 0x7563, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
 0x7664, 0x7765, 0x7B69, 0x7C6A, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
