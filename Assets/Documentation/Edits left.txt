@@ -29,6 +29,7 @@ In stages:
 - A rock in Distant Planet has a texture error, fix it in both Brawl and PM's stages as well as
   the planned GHZ alt we're making
 - Fix Lugia's idle animation in the dedicated Metal Cavern alt once the stage is done
+- Hardcode even spawn points for doubles when 2v2 team match happens regardless of ports
 
 
 In the SSS:
