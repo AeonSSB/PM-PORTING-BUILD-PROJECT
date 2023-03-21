@@ -19,6 +19,7 @@ In the two Rules menus:
 
 
 In stages:
+- Rebrand the Castle Siege slot to Temple of Time and Castle Siege (Brawl)'s one to Castle Siege
 - Replace the Project+ textures in PS2 with Project M's ones
 - Check if Autumn Dream Land's water needs changes
   - THEN Do a quality check of the other alts
