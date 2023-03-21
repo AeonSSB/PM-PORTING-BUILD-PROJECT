@@ -1,7 +1,7 @@
 To do:
-- Import 3.6 gameplay and EX structure once all known bugs are fixed
-  - THEN Implement SSEEX features and Roy & Mewtwo levels
-      (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
+- Fix all known bugs related to gameplay not being 1:1 with 3.6
+- Implement SSEEX features and Roy & Mewtwo levels
+    (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
 
 
 In the CSS:
@@ -34,6 +34,7 @@ In stages:
 
 
 In the SSS:
+- Make R switch pages
 - Fix the stage preview's shadow's crop
 - Replace the placeholder texture with a proper "-> Page 4", remake the others too if a template
   is not found
@@ -100,9 +101,10 @@ To do in the Code Menu:
   *Grab Trade Behavior (Manaphy)
   *Balloon Hit Behavior
   *Hitfalling
-- Make L-R-A-START, salty runback, debug mode, stage alts, Wario-man and Giga Bowser
-  accessible through analog L and R presses too (from 80% of a press? a value that does not need
-  the spring under the button, not sure on the one to use)
+- Make L-R-A-START, salty runback, debug mode, stage alts, Wario-man and Giga Bowser, stage page
+  switch etc. accessible through analog L and R presses too (from 80% of a press? a value that
+  does not need the spring under the button of GCC, not sure on the one to use; digital press
+  should still work)
   *And any other code that uses L and R I might have forgotten
 - Add the EX characters toggle once we decide on which fighters to include, and port their files
   (they'll unlikely have 18 costumes like the main cast; maybe 9 or 6)
@@ -163,6 +165,7 @@ the default) and change the GFX and SFX number on it
 --------------------------------------------------------------------------------------------------
 
 Edits done:
+- Imported 3.6 gameplay and EX structure
 - Ensured the new placement for stars and numbers of games won is not bugged like in vanilla P+
 - Snake's Win3 uses a knife sound by accident in PM, this has been fixed
 - Sonic.pac causes corruption of Firefox and other textures, this has been fixed
