@@ -34,7 +34,6 @@ In stages:
 
 
 In the SSS:
-- Make R switch pages
 - Fix the stage preview's shadow's crop
 - Replace the placeholder texture with a proper "-> Page 4", remake the others too if a template
   is not found
@@ -97,7 +96,8 @@ To do elsewhere:
 To do in the Code Menu:
 - Ensure these Code Menu options are included and can you see in-game if settings are not default:
   *Green flash when actionable
-  *Yellow flash with SDI inputs
+  *Yellow flash when in IASA
+  *Orange flash with SDI inputs
   *Grab Trade Behavior (Manaphy)
   *Balloon Hit Behavior
   *Hitfalling
@@ -169,3 +169,4 @@ Edits done:
 - Ensured the new placement for stars and numbers of games won is not bugged like in vanilla P+
 - Snake's Win3 uses a knife sound by accident in PM, this has been fixed
 - Sonic.pac causes corruption of Firefox and other textures, this has been fixed
+- Made R switch pages
