@@ -102,12 +102,12 @@ TABLE_3:
 
 TABLE_4:
 	byte[30] |
-0x57, | # Metal Cavern (64)
-0x58, | # Kingdom Adventure
-0x75, | # Subspace
-0x59, | # Bob-Omb Battlefield
-0x5A, | # Mushroom Gorge
-0x5B, | # Minecart Madness
+0x9F, | # Metal Cavern (64)
+0x94, | # Kingdom Adventure
+0x9D, | # Subspace
+0x9C, | # Bob-Omb Battlefield
+0x9B, | # Mushroom Gorge
+0x9C, | # Minecart Madness
 0x5C, | # Oil Drum Alley
 0x21, | # Golden Temple
 0x5D, | # Landing Site
@@ -123,13 +123,13 @@ TABLE_4:
 0x6A, | # Poke Floats 2
 0x6B, | # Aeropolis
 0x6C, | # Wario's Castle
-0x6D, | # Waluigi Land
-0x6E, | # Dead Line
-0x6F, | # Radical Highway
-0x70, | # Dracula's Castle
-0x71, | # Spiral Mountain
-0x72, | # Clanker's Cavern
-0x73, | # Venus Lighthouse
+0x95, | # Waluigi Land
+0x96, | # Dead Line
+0x97, | # Radical Highway
+0x98, | # Dracula's Castle
+0x99, | # Spiral Mountain
+0x9A, | # Clanker's Cavern
+0x9B, | # Venus Lighthouse
 0x74, | # Lunar Horizon
 0x2B  | # Training Room
 
