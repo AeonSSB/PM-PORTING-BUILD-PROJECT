@@ -416,6 +416,76 @@ HOOK @ $806ec4d4
 
 op lbz r6,0x5FA(r4) @ $806ec610   # Use advSaveData->numReserveStocks instead of advSelchrResult->numSelectedFighters 
 
+##########################################################################
+!Stamina Behaviour is Defined Individually Per Fighter v1.1 [Kapedani, Eon]
+##########################################################################
+CODE @ $80861c38    # ftOutsideEventPresenter::notifyOutsideEventSetDamage
+{
+    lwz r10, 0x0(r3)    # \
+    lwz r10,0x8(r10)    # |  Check if ftOwner->ftOwnerData->hitPointMax was set  
+    cmpwi r10, 0x0      # |
+    beq- 0x18           # /
+}
+
+CODE @ $808619a0    # ftOutsideEventPresenter::addDamage
+{
+    lwz r10, 0x0(r3)    # \
+    lwz r10,0x8(r10)    # |  Check if ftOwner->ftOwnerData->hitPointMax was set  
+    cmpwi r10, 0x0      # |
+    beq- 0x18           # /
+}
+
+CODE @ $808616ac    # ftOutsideEventPresenter::onDamage
+{
+    lwz r10, 0x0(r3)    # \
+    lwz r10,0x8(r10)    # |  Check if ftOwner->ftOwnerData->hitPointMax was set  
+    cmpwi r10, 0x0      # |
+    beq- 0x18           # /
+}
+
+CODE @ $80843354    # Fighter::setCurry
+{
+    lwz	r12, 0x003C(r3)     # \
+    lwz	r12, 0x02EC(r12)    # | Fighter->getOwner()
+    mtctr r12               # |
+    bctrl                   # /
+    lwz r10, 0x0(r3)    # \
+    lwz r10,0x8(r10)    # | Check if ftOwner->ftOwnerData->hitPointMax was set  
+    cmpwi r10, 0x0      # |
+    beq- 0x58           # /
+}
+
+CODE @ $80840dcc    # Fighter::notifyEventAddDamage
+{
+    mr r3, r31              # \
+    lwz	r12, 0x003C(r3)     # |
+    lwz	r12, 0x02EC(r12)    # | Fighter->getOwner()
+    mtctr r12               # |
+    bctrl                   # /
+    lwz r10, 0x0(r3)    # \
+    lwz r10,0x8(r10)    # | Check if ftOwner->ftOwnerData->hitPointMax was set  
+    cmpwi r10, 0x0      # |
+    beq- 0x58           # / 
+}
+
+CODE @ $80840c40 # Fighter::notifyEventOnDamage
+{
+    mr r3, r29              # \
+    lwz	r12, 0x003C(r3)     # |
+    lwz	r12, 0x02EC(r12)    # | Fighter->getOwner()
+    mtctr r12               # |
+    bctrl                   # /
+    lwz r10, 0x0(r3)    # \
+    lwz r10,0x8(r10)    # | Check if ftOwner->ftOwnerData->hitPointMax was set  
+    cmpwi r10, 0x0      # |
+    beq- 0x58           # /  
+}
+
+# Fighter::onDeadEnd (check is skipped by PM Stamina)
+
+# TODO: ftDamageTransactorImpl::getDamageForReaction
+
+
 #############################################################################
 !Change filename of figdisp.pac to figdisx.pac Except During SSE [Kapedani]
 #############################################################################
@@ -446,3 +516,4 @@ HOOK @ $81169fa0
     li r12, 0x70            # \ Change filename back to figdisp.pac
     stb r12, -0x4131(r31)   # /
 }
+
