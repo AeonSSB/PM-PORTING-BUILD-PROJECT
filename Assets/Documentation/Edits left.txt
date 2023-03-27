@@ -1,8 +1,5 @@
 To do:
 - Fix all known bugs related to gameplay not being 1:1 with 3.6
-- Implement SSEEX features and Roy & Mewtwo levels
-    (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
-
 
 In the CSS:
 - Perfect the CSP crop with a mask and slight movements in the 3D space
@@ -170,3 +167,5 @@ Edits done:
 - Sonic.pac causes corruption of Firefox and other textures, this has been fixed
 - Made R switch pages
 - Replaced the Project+ textures in PS2 with Project M's ones
+- Implemented SSEEX features and Roy & Mewtwo levels
+    (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
