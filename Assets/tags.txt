@@ -82,6 +82,7 @@ PM
 FRATM
 RAR
 HOG
+UR#1!
 
 Remove:
 - MOTO
