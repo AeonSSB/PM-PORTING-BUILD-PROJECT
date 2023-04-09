@@ -102,8 +102,8 @@ TABLE_3:
 
 TABLE_4:
 	byte[30] |
-0x9F, | # Metal Cavern (64)
-0x94, | # Kingdom Adventure
+0x51, | # Metal Cavern (64)
+0x52, | # Kingdom Adventure
 0x9D, | # Subspace
 0x9C, | # Bob-Omb Battlefield
 0x9B, | # Mushroom Gorge
