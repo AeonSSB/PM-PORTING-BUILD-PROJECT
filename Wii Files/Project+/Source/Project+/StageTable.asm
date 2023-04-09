@@ -104,34 +104,34 @@ TABLE_4:
 	byte[30] |
 0x51, | # Metal Cavern (64)
 0x52, | # Kingdom Adventure
-0x9D, | # Subspace
-0x9C, | # Bob-Omb Battlefield
-0x9B, | # Mushroom Gorge
-0x9C, | # Minecart Madness
-0x5C, | # Oil Drum Alley
-0x21, | # Golden Temple
-0x5D, | # Landing Site
-0x5E, | # Yoshi's Cookie
-0x5F, | # Yoshi's Story (Beta)
-0x60, | # Cookie Country
-0x61, | # White Wafers
-0x62, | # Sky Islands
-0x63, | # Sky Temple
-0x67, | # The Final Battle
-0x68, | # Planet Papetoon
-0x69, | # Sprout Tower
-0x6A, | # Poke Floats 2
-0x6B, | # Aeropolis
-0x6C, | # Wario's Castle
-0x95, | # Waluigi Land
-0x96, | # Dead Line
-0x97, | # Radical Highway
-0x98, | # Dracula's Castle
-0x99, | # Spiral Mountain
-0x9A, | # Clanker's Cavern
-0x9B, | # Venus Lighthouse
-0x74, | # Lunar Horizon
-0x2B  | # Training Room
+0x53, | # Subspace
+0x54, | # Bob-Omb Battlefield
+0x55, | # Mushroom Gorge
+0x56, | # Minecart Madness
+0x57, | # Oil Drum Alley
+0x58, | # Golden Temple
+0x59, | # Landing Site
+0x5A, | # Yoshi's Cookie
+0x5B, | # Yoshi's Story (Beta)
+0x5C, | # Cookie Country
+0x5D, | # White Wafers
+0x5E, | # Sky Islands
+0x5F, | # Sky Temple
+0x60, | # The Final Battle
+0x61, | # Planet Papetoon
+0x62, | # Sprout Tower
+0x63, | # Poke Floats 2
+0x64, | # Aeropolis
+0x65, | # Wario's Castle
+0x66, | # Waluigi Land
+0x67, | # Dead Line
+0x68, | # Radical Highway
+0x69, | # Dracula's Castle
+0x6A, | # Spiral Mountain
+0x6B, | # Clanker's Cavern
+0x6C, | # Venus Lighthouse
+0x6D, | # Lunar Horizon
+0x6E  | # Training Room
 
 
 TABLE_5:	# Unused
