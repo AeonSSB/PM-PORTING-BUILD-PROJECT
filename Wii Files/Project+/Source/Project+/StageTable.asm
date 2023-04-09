@@ -168,7 +168,7 @@ half[109] |	# Stage Count + 2
 0x7D6B, 0x7E6C, 0x7F6D, 0x806E, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
 0x816F, 0x8270, 0x8371, 0x8472, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
 0x8573, 0x8674, 0x8775, 0x8876, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
-0x8977							| # Hammer Express
+0x8977      					| # Hammer Express
 
 
 SkipStageTables:
