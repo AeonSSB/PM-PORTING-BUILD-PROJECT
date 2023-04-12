@@ -32,7 +32,8 @@ TABLE_1:
 0x20, | # Yoshi's Story
 0x4F, | # Rumble Falls
 0x50, | # Castle Siege
-0x18  | # Fountain of Dreams
+0x18, | # Fountain of Dreams
+0x6F  | # Frigate Husk
 
 TABLE_2:
 	byte[30] |
@@ -138,7 +139,7 @@ TABLE_5:	# Unused
 
 TABLE_STAGES:
 # Table of icon<->stage slot associations
-half[109] |	# Stage Count + 2
+half[110] |	# Stage Count + 2
 | # OLD SLOTS
 0x0101, 0x0202, 0x0303, 0x0404, | # Battlefield, Final Destination, Delfino's Secret, Luigi's Mansion
 0x0505, 0x0606, 0x0707, 0x0808, | # Metal Cavern, Bowser's Castle, Kongo Jungle, Rumble Falls (Brawl)
@@ -168,15 +169,15 @@ half[109] |	# Stage Count + 2
 0x7D6B, 0x7E6C, 0x7F6D, 0x806E, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
 0x816F, 0x8270, 0x8371, 0x8472, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
 0x8573, 0x8674, 0x8775, 0x8876, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
-0x8977      					| # Hammer Express
+0x8977, 0x9A78      			| # Hammer Express, Frigate Husk
 
 
 SkipStageTables:
 .RESET
 
-byte 17 @ $806B929C # Page 1
+byte 18 @ $806B929C # Page 1
 byte 30 @ $806B92A4 # Page 2
 byte 30 @ $80496002 # Page 3
 byte 30 @ $80496003 # Page 4
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 107 @ $800AF673 # Stage Count
+byte 108 @ $800AF673 # Stage Count
