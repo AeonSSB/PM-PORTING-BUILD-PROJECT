@@ -15,7 +15,7 @@ Stage Select Screen Table Data
 .GOTO->SkipStageTables
 
 TABLE_1:
-	byte[17] |
+	byte[18] |
 0x0A, | # Metroid Lab
 0x15, | # Wario Land
 0x02, | # Delfino's Secret
@@ -161,15 +161,15 @@ half[110] |	# Stage Count + 2
 0x5442, 0x5543, 0x5644, 0x5745,	| # Skyloft, Pokemon Stadium 2 (Brawl), New Pork City, 75m
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
-0x604E, 0x614F, 0x8C7A, 0x8B79, | # Mute City, Twisty Trials Galaxy, Tiny FD, Rumble Falls
-0x8D7B, 0x6B59, 0x6C5A, 0x6D5B, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
-0x6E5C, 0x6F5D, 0x705E, 0x715F, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
-0x7260, 0x7361, 0x7462, 0x7563, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
-0x7664, 0x7765, 0x7B69, 0x7C6A, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
-0x7D6B, 0x7E6C, 0x7F6D, 0x806E, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
-0x816F, 0x8270, 0x8371, 0x8472, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
-0x8573, 0x8674, 0x8775, 0x8876, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
-0x8977, 0x9A78      			| # Hammer Express, Frigate Husk
+0x604E, 0x614F, 0x6250, 0x6351, | # Mute City, Twisty Trials Galaxy, Tiny FD, Rumble Falls
+0x817A, 0x6553, 0x6654, 0x6755, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
+0x6856, 0x6957, 0x6A58, 0x6B59, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
+0x6B5A, 0x6C5B, 0x6D5C, 0x6E5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
+0x6F5E, 0x705F, 0x7160, 0x7261, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
+0x7362, 0x7463, 0x7564, 0x7665, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
+0x7766, 0x7867, 0x7968, 0x7A69, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
+0x7B6A, 0x7C6B, 0x7D6C, 0x7E6D, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
+0x7F6E, 0x806F      			| # Hammer Express, Frigate Husk
 
 
 SkipStageTables:
