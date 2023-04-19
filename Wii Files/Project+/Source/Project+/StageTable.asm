@@ -164,12 +164,12 @@ half[110] |	# Stage Count + 2
 0x604E, 0x614F, 0x6250, 0x6351, | # Mute City, Twisty Trials Galaxy, Tiny FD, Rumble Falls
 0x817A, 0x6553, 0x6654, 0x6755, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
 0x6856, 0x6957, 0x6A58, 0x6B59, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
-0x6B5A, 0x6C5B, 0x6D5C, 0x6E5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
-0x6F5E, 0x705F, 0x7160, 0x7261, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
-0x7362, 0x7463, 0x7564, 0x7665, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
-0x7766, 0x7867, 0x7968, 0x7A69, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
-0x7B6A, 0x7C6B, 0x7D6C, 0x7E6D, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
-0x7F6E, 0x806F      			| # Hammer Express, Frigate Husk
+0x6C5A, 0x6D5B, 0x6E5C, 0x6F5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
+0x705E, 0x715F, 0x7260, 0x7361, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
+0x7462, 0x7563, 0x7664, 0x7765, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
+0x7866, 0x7967, 0x7A68, 0x7B69, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
+0x7C6A, 0x7D6B, 0x7E6C, 0x7F6D, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
+0x806E, 0x816F      			| # Hammer Express, Frigate Husk
 
 
 SkipStageTables:
