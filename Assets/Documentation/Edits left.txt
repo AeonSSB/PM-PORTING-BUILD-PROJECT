@@ -19,6 +19,7 @@ In stages:
 - Rebrand the Castle Siege slot to Temple of Time and Castle Siege (Brawl)'s one to Castle Siege
 - Check if Autumn Dream Land's water needs changes
   - THEN Do a quality check of the other alts
+    - Fix Peach's Castle (Melee)'s window and trees priority; remake the character lighting
 - Some stages including Kongo Jungle have invisible targets that big hitboxes in the Z-axis hit,
   move them where nothing can possibly hit them or remove them if possible
 - In Bowser's Castle, player 2 Ganon can fall through the stage after dropping the angel platform
