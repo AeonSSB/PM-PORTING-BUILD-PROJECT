@@ -1,0 +1,190 @@
+The list is missing Blender credits and costume IDs, which will be added later on.
+2 G&W costumes need credits
+
+
+WARIO
+XX - Plumber Wario from Brawl
+XX - Red Plumber Wario from Brawl
+XX - Brown Plumber Wario from Brawl
+XX - Green Plumber Wario from Brawl
+XX - White Plumber Wario from Brawl
+XX - Blue Plumber Wario from Brawl
+XX - Biker Wario from Brawl
+XX - Red Biker Wario from Brawl
+XX - Blue Biker Wario from Brawl
+XX - Green Biker Wario from Brawl
+XX - Yellow Biker Wario from Brawl
+XX - Black Biker Wario from Brawl
+XX - Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+XX - Red Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+XX - Blue Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+XX - Green Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+XX - Yellow Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+XX - Black Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+
+
+MARIO
+XX - Default Mario from Brawl
+XX - Fire Mario from Brawl
+XX - Blue Mario from Brawl
+XX - Green Mario from Brawl
+XX - Black Mario from Brawl
+XX - Wario Mario from Brawl
+XX - Sunshine Mario by SJS, starwaffle
+XX - Dr. Mario by PMDT, cleanup by SJ and Xenthos
+XX - Black Dr. Mario by PMDT, cleanup by SJ and Xenthos
+XX - Red Dr. Mario by PMDT, cleanup by SJ and Xenthos
+XX - Green Dr. Mario by PMDT, cleanup by SJ and Xenthos
+XX - Blue Dr. Mario by PMDT, cleanup by SJ and Xenthos
+XX - Yellow Dr. Mario by JeffMii with credit to PMDT, SJ, Xenthos
+XX - Builder Mario 2.0 by SJ
+XX - Blue Builder Mario 2.0 by SJ
+XX - Green Builder Mario 2.0 by SJ
+XX - Flying Builder Mario 2.0 by SJ
+XX - Yellow Builder Mario 2.0 by Aeon with credit to SJ
+
+
+LUIGI
+XX - Default Luigi from Brawl
+XX - Orange Luigi from Brawl
+XX - Red Luigi from Brawl
+XX - Blue Luigi from Brawl
+XX - Fire Luigi from Brawl
+XX - Purple Luigi from Brawl
+XX - Choco Banana Luigi by N!ck with credit to Smash 2
+XX - Anime Luigi by Moe
+XX - Mr. L by PMDT, optimizations by Snoe, revamp by SJ and tyleto
+XX - Red Mr. L by Ale64, Aeon with credit to PMDT, Snoe, SJ and tyleto
+XX - Blue Mr. L by Ale64, Aeon with credit to PMDT, Snoe, SJ and tyleto
+XX - White Mr. L by PMDT, optimizations by Snoe, revamp by SJ and tyleto
+XX - Yellow Mr. L by Ale64 with credit to tyleto, Snoe and SJ
+XX - Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro; revamp by SJ, Xenthos, and StarWaffle
+XX - Red Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro, MetalLegacy; revamp by SJ, Xenthos, and StarWaffle
+XX - Blue Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro, MetalLegacy; revamp by SJ, Xenthos, and StarWaffle
+XX - Purple Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro, MetalLegacy; revamp by SJ, Xenthos, and StarWaffle
+XX - Yellow Casino Luigi 2.0 by Moe with credit to Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, Ryztiq, KTH, Wumb0, Pyro, MetalLegacy, SJ, Xenthos and StarWaffle
+
+
+PEACH
+XX - Default Peach from Brawl
+XX - Orange Peach from Brawl
+XX - Red Peach from Brawl
+XX - Blue Peach from Brawl
+XX - Green Peach from Brawl
+XX - White Peach from Brawl
+XX - Yellow Peach by Moe
+XX - Black Daisy Peach by Ale64
+XX - Fire Peach by PMDT with updates by the P+ Art team
+XX - Shadow Queen V3 by Shranux with credit to PMDT
+XX - Blue Shadow Queen V3 by Shranux with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044 and MetalLegacy
+XX - Green Shadow Queen V3 by Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044 and MetalLegacy
+XX - Yellow Shadow Queen V3 by Shranux with credit to PMDT
+XX - Human Shroob by Shranux
+XX - Sunshine Peach by mawwwk with updates by the P+ Art team, credit to the PMDT
+XX - Blue Sunshine Peach by Aeon with credit to mawwwk, P+ Art team, PMDT
+XX - Green Sunshine Peach by Aeon with credit to mawwwk, P+ Art team, PMDT
+XX - Yellow Sunshine Peach by Aeon with credit to mawwwk, P+ Art team, PMDT
+
+
+YOSHI
+XX - Default Yoshi from Brawl
+XX - Red Yoshi from Brawl
+XX - Blue Yoshi from Brawl
+XX - Yellow Yoshi from Brawl
+XX - Pink Yoshi from Brawl
+XX - Cyan Yoshi from Brawl
+XX - Black Yoshi by SJS
+XX - White Yoshi by SJS
+XX - Purple Yoshi by PMDT
+XX - Orange Yoshi by PMDT
+XX - Brown Yoshi by mawwwk
+XX - Yoshi Cookie by MetalLegacy
+XX - Dorrie Yoshi by EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+XX - Plessie-Red Dorrie Yoshi by mawwwk, with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
+XX - Cave-Green Dorrie Yoshi by mawwwk, with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
+XX - Yellow Dorrie Yoshi by Aeon with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+XX - Purple Dorrie Yoshi by Aeon with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+XX - Magenta Dorrie Yoshi by Aeon with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+
+
+DIDDY KONG
+XX - Default Diddy Kong from Brawl
+XX - Yellow Diddy Kong from Brawl
+XX - Pink Diddy Kong from Brawl
+XX - Purple Diddy Kong from Brawl
+XX - Green Diddy Kong from Brawl
+XX - Blue Diddy Kong from Brawl
+XX - Brown Diddy Kong by PMDT
+XX - Nintendo 64 Diddy Kong by Dapperman
+XX - Hooded Diddy by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron
+XX - Red Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Green Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Yellow Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Black Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+XX - Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+XX - Dalton Green Cowboy Diddy Kong by Aeon with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+XX - Lucky Luke Yellow Cowboy Diddy Kong by CAeon with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+XX - Purple Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+
+
+WOLF
+XX - Default Wolf from Brawl
+XX - Red Wolf by PMDT
+XX - Black Wolf from Brawl
+XX - Green Wolf by PMDT
+XX - Blue Wolf from Brawl
+XX - White Wolf by PMDT
+XX - Red Wolf from Brawl
+XX - Yellow Wolf by Aeon
+XX - Pirate Wolf by PMDT
+XX - Red Pirate Wolf by PMDT
+XX - Green Pirate Wolf by PMDT
+XX - Blue Pirate Wolf by PMDT
+XX - Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
+XX - Red Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
+XX - Purple Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
+XX - Green Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
+XX - Yellow Pilot Wolf by Aeon with credit to Layell, Mr. DapperMan, Joe T.E.
+
+
+ICE CLIMBERS
+XX - Default Ice Climbers from Brawl
+XX - Red Ice Climbers by Aeon
+XX - Blue Ice Climbers by Aeon
+XX - Black Ice Climbers from Brawl
+XX - Green Ice Climbers by Aeon
+XX - Yellow Ice Climbers by Aeon
+XX - White Ice Climbers by Aeon
+XX - Purple & Orange Ice Climbers by Aeon with credit to Prim8, FroznHobo
+XX - Bear Suit Climbers by PMDT, with edits by soopercool101, Snoe, Aeon
+XX - Red Bear Suit Climbers PM Alt (Updated) by MetalLegacy, soopercool101, Snoe, Aeon with credit to the PMDT
+XX - Blue Bear Suit Climbers PM Alt (Updated) by MetalLegacy, soopercool101, Snoe with credit to the PMDT
+XX - Green Bear Suit Climbers PM Alt (Updated) by MetalLegacy, soopercool101, Snoe, Aeon with credit to the PMDT
+XX - Yellow Bear Suit Climbers PM Alt (Updated) by Aeon with credit to MetalLegacy, soopercool101, Snoe, PMDT
+XX - Tundra Climbers by Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Red Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Blue Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Green Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Yellow Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+
+
+MR. GAME & WATCH
+XX - Default Mr. Game & Watch from Brawl
+XX - Red Mr. Game & Watch by PMDT
+XX - Yellow Mr. Game & Watch by PMDT
+XX - Blue Mr. Game & Watch by PMDT
+XX - Green Mr. Game & Watch by PMDT
+XX - Cyan Mr. Game & Watch by PMDT
+XX - White Mr. Game & Watch by PMDT
+XX - Pink Mr. Game & Watch by PMDT
+XX - Purple Mr. Game & Watch by PMDT
+XX - Console Mr. Game & Watch by Ca$inoWolf
+XX - Orange Mr. Game & Watch by Legacy TE development team
+XX - Olive Mr. Game & Watch by Legacy TE development team
+XX - Magenta Mr. Game & Watch by Legacy TE development team
+XX - Brown Mr. Game & Watch by Legacy TE development team
+XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
+XX - Prismo Mr. Game & Watch by???
+XX - Purple Mr. Game & Watch by???
+XX - Mint Mr. Game & Watch by SJS
