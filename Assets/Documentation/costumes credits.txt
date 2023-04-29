@@ -1,5 +1,5 @@
 The list is missing Blender credits and costume IDs, which will be added later on.
-2 G&W costumes need credits
+1 G&W costume needs credits
 
 
 WARIO
@@ -185,6 +185,6 @@ XX - Olive Mr. Game & Watch by Legacy TE development team
 XX - Magenta Mr. Game & Watch by Legacy TE development team
 XX - Brown Mr. Game & Watch by Legacy TE development team
 XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
-XX - Prismo Mr. Game & Watch by???
+XX - Prismo Mr. Game & Watch by Eiji
 XX - Purple Mr. Game & Watch by???
 XX - Mint Mr. Game & Watch by SJS
