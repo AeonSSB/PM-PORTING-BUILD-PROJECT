@@ -148,6 +148,27 @@ XX - Green Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan wit
 XX - Yellow Pilot Wolf by Aeon with credit to Layell, Mr. DapperMan, Joe T.E.
 
 
+FOX
+XX - Default Fox from Brawl
+XX - Black Fox from Brawl
+XX - Red Fox from Brawl
+XX - Green Fox from Brawl
+XX - Blue Fox from Brawl
+XX - White Fox from Brawl
+XX - Yellow Fox by Moe
+XX - Layton Fox by Aeon
+XX - Lucas Platinum Fox by Aeon
+XX - Melee Fox by PMDT, additional edits by Snoe
+XX - Melee Red Fox by PMDT, additional edits by Snoe
+XX - Melee Green Fox by PMDT, additional edits by Snoe
+XX - 64 Blue Fox by PMDT, additional edits by Snoe
+XX - Yellow Melee Fox by Aeon with credit to PMDT, Snoe
+XX - Pokémon Ranger Melee Fox by Aeon with credit to PMDT, Snoe
+XX - Purple Melee Fox by Aeon with credit to mawwwk, PMDT, Snoe
+XX - Black Melee Fox by Moe with credit to PMDT
+XX - SNES Melee Fox by Layell with credit to PMDT
+
+
 ICE CLIMBERS
 XX - Default Ice Climbers from Brawl
 XX - Red Ice Climbers by Aeon
