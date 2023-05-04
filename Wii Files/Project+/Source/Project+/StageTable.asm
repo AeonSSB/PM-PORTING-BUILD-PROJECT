@@ -14,6 +14,7 @@ Stage Select Screen Table Data
 .BA->$80495D14
 .GOTO->SkipStageTables
 
+
 TABLE_1:
 	byte[18] |
 0x0A, | # Metroid Lab
@@ -33,7 +34,7 @@ TABLE_1:
 0x4F, | # Rumble Falls
 0x50, | # Castle Siege
 0x18, | # Fountain of Dreams
-0x6F  | # Frigate Husk
+0x21  | # Frigate Husk
 
 TABLE_2:
 	byte[30] |
@@ -132,7 +133,8 @@ TABLE_4:
 0x6B, | # Clanker's Cavern
 0x6C, | # Venus Lighthouse
 0x6D, | # Lunar Horizon
-0x6E  | # Training Room
+0x2B  | # Training Room
+
 
 
 TABLE_5:	# Unused
