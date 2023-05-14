@@ -230,3 +230,24 @@ XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
 XX - Prismo Mr. Game & Watch by Eiji
 XX - Purple Mr. Game & Watch by???
 XX - Mint Mr. Game & Watch by SJS
+
+
+SNAKE
+XX - Default Snake from Brawl
+XX - Red Snake from Brawl
+XX - Blue Snake by PMDT
+XX - White Snake from Brawl
+XX - Green Snake from Brawl
+XX - Brown Snake from Brawl
+XX - Blue Snake from Brawl
+XX - Purple Snake by ilikepizza107 with credit to RoboticCyborg
+XX - Big Boss by PMDT
+XX - Red Big Boss by ledgerewskie, Codex-9, Taiko with credit to the PMDT
+XX - Blue Big Boss by ledgerewskie, Codex-9, Taiko with credit to the PMDT
+XX - Black Big Boss by ledgerewskie, Codex-9, Taiko with credit to the PMDT
+XX - Klmk Big Boss by jaystring
+XX - Banana Big Boss by jaystring
+XX - Anubis Big Boss by jaystring
+XX - MGS1 Snake Revamp by VirtualBeef with credit to AlGeorgeRomo, Moe, Smash 2 Team, Brawl Minus Team, Shranux, Models124717, jaystring
+XX - Iroquois Pliskin by King Draco
+XX - Tuxedo MGS3 Snake by jaystring, with additional edits by Layell and mawwwk
