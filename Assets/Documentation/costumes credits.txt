@@ -1,5 +1,5 @@
 The list is missing Blender credits and costume IDs, which will be added later on.
-1 G&W costume needs credits
+
 
 
 WARIO
@@ -15,12 +15,12 @@ XX - Blue Biker Wario from Brawl
 XX - Green Biker Wario from Brawl
 XX - Yellow Biker Wario from Brawl
 XX - Black Biker Wario from Brawl
-XX - Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
-XX - Red Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
-XX - Blue Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
-XX - Green Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
-XX - Yellow Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
-XX - Black Tycoon Wario V2 by Moblin, Xenthos, ColonelBirdstrong, SJS, with credit to malistaticy, davidvkimball, Layell
+XX - Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
+XX - Red Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
+XX - Blue Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
+XX - Green Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
+XX - Yellow Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
+XX - Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
 
 
 MARIO
@@ -31,17 +31,17 @@ XX - Green Mario from Brawl
 XX - Black Mario from Brawl
 XX - Wario Mario from Brawl
 XX - Sunshine Mario by SJS, starwaffle
-XX - Dr. Mario by PMDT, cleanup by SJ and Xenthos
-XX - Black Dr. Mario by PMDT, cleanup by SJ and Xenthos
-XX - Red Dr. Mario by PMDT, cleanup by SJ and Xenthos
-XX - Green Dr. Mario by PMDT, cleanup by SJ and Xenthos
-XX - Blue Dr. Mario by PMDT, cleanup by SJ and Xenthos
+XX - Dr. Mario by PMDT, SJ, Xenthos
+XX - Black Dr. Mario by PMDT, SJ, Xenthos
+XX - Red Dr. Mario by PMDT, SJ, Xenthos
+XX - Green Dr. Mario by PMDT, SJ, Xenthos
+XX - Blue Dr. Mario by PMDT, SJ, Xenthos
 XX - Yellow Dr. Mario by JeffMii with credit to PMDT, SJ, Xenthos
-XX - Builder Mario 2.0 by SJ
-XX - Blue Builder Mario 2.0 by SJ
-XX - Green Builder Mario 2.0 by SJ
-XX - Flying Builder Mario 2.0 by SJ
-XX - Yellow Builder Mario 2.0 by Aeon with credit to SJ
+XX - Builder Mario by SJ
+XX - Flying Builder Mario by SJ
+XX - Green Builder Mario by SJ
+XX - Blue Builder Mario by SJ
+XX - Yellow Builder Mario by Efisio with credit to SJ
 
 
 LUIGI
@@ -53,16 +53,16 @@ XX - Fire Luigi from Brawl
 XX - Purple Luigi from Brawl
 XX - Choco Banana Luigi by N!ck with credit to Smash 2
 XX - Anime Luigi by Moe
-XX - Mr. L by PMDT, optimizations by Snoe, revamp by SJ and tyleto
-XX - Red Mr. L by Ale64, Aeon with credit to PMDT, Snoe, SJ and tyleto
-XX - Blue Mr. L by Ale64, Aeon with credit to PMDT, Snoe, SJ and tyleto
-XX - White Mr. L by PMDT, optimizations by Snoe, revamp by SJ and tyleto
-XX - Yellow Mr. L by Ale64 with credit to tyleto, Snoe and SJ
-XX - Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro; revamp by SJ, Xenthos, and StarWaffle
-XX - Red Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro, MetalLegacy; revamp by SJ, Xenthos, and StarWaffle
-XX - Blue Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro, MetalLegacy; revamp by SJ, Xenthos, and StarWaffle
-XX - Purple Casino Luigi 2.0 by Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, credit to Ryztiq for fixing the lighting, KTH for the original model, Wumb0, Pyro, MetalLegacy; revamp by SJ, Xenthos, and StarWaffle
-XX - Yellow Casino Luigi 2.0 by Moe with credit to Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, Ryztiq, KTH, Wumb0, Pyro, MetalLegacy, SJ, Xenthos and StarWaffle
+XX - Mr. L by PMDT, Snoe, SJ, tyleto
+XX - Red Mr. L by Ale64, Efisio with credit to PMDT, Snoe, SJ, tyleto
+XX - Blue Mr. L by Ale64, Efisio with credit to PMDT, Snoe, SJ, tyleto
+XX - White Mr. L by PMDT, optimizations by Snoe, revamp by SJ, tyleto
+XX - Yellow Mr. L by Ale64 with credit to tyleto, Snoe, SJ
+XX - Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
+XX - Red Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
+XX - Blue Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
+XX - Purple Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
+XX - Yellow Casino Luigi by Moe with credit to Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, Ryztiq, KTH, Wumb0, Pyro, MetalLegacy, SJ, Xenthos, StarWaffle
 
 
 PEACH
@@ -74,16 +74,16 @@ XX - Green Peach from Brawl
 XX - White Peach from Brawl
 XX - Yellow Peach by Moe
 XX - Black Daisy Peach by Ale64
-XX - Fire Peach by PMDT with updates by the P+ Art team
-XX - Shadow Queen V3 by Shranux with credit to PMDT
-XX - Blue Shadow Queen V3 by Shranux with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044 and MetalLegacy
-XX - Green Shadow Queen V3 by Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044 and MetalLegacy
-XX - Yellow Shadow Queen V3 by Shranux with credit to PMDT
+XX - Fire Peach by PMDT, P+ Art team
+XX - Shadow Queen by PMDT, Shranux
+XX - Blue Shadow Queen by Shranux with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+XX - Green Shadow Queen by Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+XX - Yellow Shadow Queen by Shranux with credit to PMDT
 XX - Human Shroob by Shranux
-XX - Sunshine Peach by mawwwk with updates by the P+ Art team, credit to the PMDT
-XX - Blue Sunshine Peach by Aeon with credit to mawwwk, P+ Art team, PMDT, Ale64
-XX - Green Sunshine Peach by Aeon with credit to mawwwk, P+ Art team, PMDT, Ale64
-XX - Yellow Sunshine Peach by Aeon with credit to mawwwk, P+ Art team, PMDT, Ale64
+XX - Sunshine Peach by mawwwk, P+ Art team with credit to PMDT
+XX - Blue Sunshine Peach by Efisio, Ale64 with credit to mawwwk, P+ Art team, PMDT
+XX - Green Sunshine Peach by Efisio, Ale64 with credit to mawwwk, P+ Art team, PMDT
+XX - Yellow Sunshine Peach by Efisio, Ale64 with credit to mawwwk, P+ Art team, PMDT
 
 
 BOWSER
@@ -93,18 +93,18 @@ XX - Red Bowser from Brawl
 XX - Blue Bowser from Brawl
 XX - White Bowser from Brawl
 XX - Brown Bowser from Brawl
-XX - Red Mario Golf Bowser by Ale64 with credit to Ubergruvin, Aeon
+XX - Red Mario Golf Bowser by Ale64 with credit to Ubergruvin, Efisio
 XX - Blue Mario Golf Bowser by Ale64
 XX - Smash 4 Yellow Bowser by Moe
-XX - Dry Bowser by PMDT with updates by the P+ Art Team
-XX - Red Dry Bowser Recolor by Aeon with credit to LnktheWolf
-XX - Blue Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Aeon
-XX - Green Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Aeon
-XX - Brown Dry Bowser by Dapperman
-XX - Gold Dry Bowser by Aeon
-XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64
-XX - Pink Dry Bowser by Ale64 with credit to Aeon
-XX - Purple Dry Bowser by Ale64 with credit to Zeuvia
+XX - Dry Bowser by PMDT, P+ Art Team
+XX - Red Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT, P+ Art Team
+XX - Blue Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT, P+ Art Team
+XX - Green Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT, P+ Art Team
+XX - Gold Dry Bowser by Efisio with credit to PMDT, P+ Art Team
+XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64, PMDT, P+ Art Team
+XX - Brown Dry Bowser by Dapperman with credit to PMDT, P+ Art Team
+XX - Pink Dry Bowser by Ale64 with credit to Efisio, PMDT, P+ Art Team
+XX - Purple Dry Bowser by Ale64 with credit to Zeuvia, PMDT, P+ Art Team
 
 
 YOSHI
@@ -121,11 +121,11 @@ XX - Orange Yoshi by PMDT
 XX - Brown Yoshi by mawwwk
 XX - Yoshi Cookie by MetalLegacy
 XX - Dorrie Yoshi by EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
-XX - Plessie-Red Dorrie Yoshi by mawwwk, with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
-XX - Cave-Green Dorrie Yoshi by mawwwk, with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
-XX - Yellow Dorrie Yoshi by Aeon with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
-XX - Purple Dorrie Yoshi by Aeon with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
-XX - Magenta Dorrie Yoshi by Aeon with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+XX - Plessie-Red Dorrie Yoshi by mawwwk with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
+XX - Cave-Green Dorrie Yoshi by mawwwk with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
+XX - Yellow Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+XX - Purple Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+XX - Magenta Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
 
 
 DIDDY KONG
@@ -144,8 +144,8 @@ XX - Yellow Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron
 XX - Black Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
 XX - Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 XX - Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-XX - Dalton Green Cowboy Diddy Kong by Aeon with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-XX - Lucky Luke Yellow Cowboy Diddy Kong by CAeon with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+XX - Dalton Green Cowboy Diddy Kong by Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+XX - Lucky Luke Yellow Cowboy Diddy Kong by Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 XX - Purple Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 
 
@@ -157,16 +157,16 @@ XX - Green Wolf by PMDT
 XX - Blue Wolf from Brawl
 XX - White Wolf by PMDT
 XX - Red Wolf from Brawl
-XX - Yellow Wolf by Aeon
+XX - Yellow Wolf by Efisio
 XX - Pirate Wolf by PMDT
 XX - Red Pirate Wolf by PMDT
 XX - Green Pirate Wolf by PMDT
 XX - Blue Pirate Wolf by PMDT
-XX - Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
-XX - Red Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
-XX - Purple Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
-XX - Green Pilot Wolf by Layell, based on Hybrid Wolf REDUX by Mr. DapperMan with credit to Joe T.E.
-XX - Yellow Pilot Wolf by Aeon with credit to Layell, Mr. DapperMan, Joe T.E.
+XX - Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
+XX - Red Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
+XX - Green Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
+XX - Purple Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
+XX - Yellow Pilot Wolf by Efisio with credit to Layell, Mr. DapperMan, Joe T.E.
 
 
 FOX
@@ -177,38 +177,59 @@ XX - Green Fox from Brawl
 XX - Blue Fox from Brawl
 XX - White Fox from Brawl
 XX - Yellow Fox by Moe
-XX - Layton Fox by Aeon
-XX - Lucas Platinum Fox by Aeon
-XX - Melee Fox by PMDT, additional edits by Snoe
-XX - Melee Red Fox by PMDT, additional edits by Snoe
-XX - Melee Green Fox by PMDT, additional edits by Snoe
-XX - 64 Blue Fox by PMDT, additional edits by Snoe
-XX - Yellow Melee Fox by Aeon with credit to PMDT, Snoe
-XX - Pokémon Ranger Melee Fox by Aeon with credit to PMDT, Snoe
-XX - Purple Melee Fox by Aeon with credit to mawwwk, PMDT, Snoe
+XX - Layton Fox by Efisio
+XX - Lucas Platinum Fox by Efisio
+XX - Melee Fox by PMDT with credit to Snoe
+XX - Melee Red Fox by PMDT with credit to Snoe
+XX - Melee Green Fox by PMDT with credit to Snoe
+XX - 64 Blue Fox by PMDT with credit to Snoe
+XX - Yellow Melee Fox by Efisio with credit to PMDT, Snoe
+XX - Pokémon Ranger Melee Fox by Efisio with credit to PMDT, Snoe
+XX - Purple Melee Fox by Efisio with credit to mawwwk, PMDT, Snoe
 XX - Black Melee Fox by Moe with credit to PMDT
 XX - SNES Melee Fox by Layell with credit to PMDT
 
 
 ICE CLIMBERS
 XX - Default Ice Climbers from Brawl
-XX - Red Ice Climbers by Aeon
-XX - Blue Ice Climbers by Aeon
+XX - Red Ice Climbers by Efisio
+XX - Blue Ice Climbers by Efisio
 XX - Black Ice Climbers from Brawl
-XX - Green Ice Climbers by Aeon
-XX - Yellow Ice Climbers by Aeon
-XX - White Ice Climbers by Aeon
-XX - Purple & Orange Ice Climbers by Aeon with credit to Prim8, FroznHobo
-XX - Bear Suit Climbers by PMDT, with edits by soopercool101, Snoe, Aeon
-XX - Red Bear Suit Climbers PM Alt (Updated) by MetalLegacy, soopercool101, Snoe, Aeon with credit to the PMDT
-XX - Blue Bear Suit Climbers PM Alt (Updated) by MetalLegacy, soopercool101, Snoe with credit to the PMDT
-XX - Green Bear Suit Climbers PM Alt (Updated) by MetalLegacy, soopercool101, Snoe, Aeon with credit to the PMDT
-XX - Yellow Bear Suit Climbers PM Alt (Updated) by Aeon with credit to MetalLegacy, soopercool101, Snoe, PMDT
+XX - Green Ice Climbers by Efisio
+XX - Yellow Ice Climbers by Efisio
+XX - White Ice Climbers by Efisio
+XX - Purple & Orange Ice Climbers by Efisio with credit to Prim8, FroznHobo
+XX - Bear Suit Climbers by PMDT with credit to soopercool101, Snoe, Efisio
+XX - Red Bear Suit Climbers by MetalLegacy, soopercool101, Snoe, Efisio with credit to PMDT
+XX - Blue Bear Suit Climbers by MetalLegacy, soopercool101, Snoe with credit to PMDT
+XX - Green Bear Suit Climbers by MetalLegacy, soopercool101, Snoe, Efisio with credit to PMDT
+XX - Yellow Bear Suit Climbers by Efisio with credit to MetalLegacy, soopercool101, Snoe, PMDT
 XX - Tundra Climbers by Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Red Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Blue Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Green Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Yellow Tundra Climbers by Aeon with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Red Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Blue Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Green Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+XX - Yellow Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+
+
+TOON LINK
+XX - Default Toon Link from Brawl
+XX - Red Toon Link from Brawl
+XX - Blue Toon Link from Brawl
+XX - Purple Toon Link from Brawl
+XX - Brown Toon Link from Brawl
+XX - Black Toon Link from Brawl
+XX - Yellow Toon Link by tyleto, Efisio
+XX - Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
+XX - Green Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
+XX - Red Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
+XX - Yellow Outset Toon Link by Moe with credit to Efisio, PMDT, Moblin, SJS, StarWaffle
+XX - Purple Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJS, StarWaffle
+XX - Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+XX - Green Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+XX - Red Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+XX - Yellow Linebeck Toon Link by Efisio with credit to EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub, DemonBoy, PMDT, SJS, StarWaffle
+XX - Black Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+XX - Conductor Toon Link by SJS, DemonBoy with credit to PMDT
 
 
 MR. GAME & WATCH
@@ -228,7 +249,7 @@ XX - Magenta Mr. Game & Watch by Legacy TE development team
 XX - Brown Mr. Game & Watch by Legacy TE development team
 XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
 XX - Prismo Mr. Game & Watch by Eiji
-XX - Purple Mr. Game & Watch by???
+XX - Purple Mr. Game & Watch by Shy
 XX - Mint Mr. Game & Watch by SJS
 
 
@@ -242,12 +263,12 @@ XX - Brown Snake from Brawl
 XX - Blue Snake from Brawl
 XX - Purple Snake by ilikepizza107 with credit to RoboticCyborg
 XX - Big Boss by PMDT
-XX - Red Big Boss by ledgerewskie, Codex-9, Taiko with credit to the PMDT
-XX - Blue Big Boss by ledgerewskie, Codex-9, Taiko with credit to the PMDT
-XX - Black Big Boss by ledgerewskie, Codex-9, Taiko with credit to the PMDT
+XX - Red Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
+XX - Blue Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
+XX - Black Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
 XX - Klmk Big Boss by jaystring
 XX - Banana Big Boss by jaystring
 XX - Anubis Big Boss by jaystring
 XX - MGS1 Snake Revamp by VirtualBeef with credit to AlGeorgeRomo, Moe, Smash 2 Team, Brawl Minus Team, Shranux, Models124717, jaystring
 XX - Iroquois Pliskin by King Draco
-XX - Tuxedo MGS3 Snake by jaystring, with additional edits by Layell and mawwwk
+XX - Tuxedo MGS3 Snake by jaystring with credit to Layell, mawwwk
