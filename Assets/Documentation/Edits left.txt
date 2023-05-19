@@ -1,9 +1,11 @@
 To do:
 - Fix all known bugs related to gameplay not being 1:1 with 3.6
+- Port the remaining P+ 2.4 files
+- Fix the issues of the same-costume code
 - Check for unused/unnecessary codes to remove like ShorthopMacro in Source/Extras
 
 In the CSS:
-- Perfect the CSP crop with a mask and slight movements in the 3D space
+  - Perfect the CSP crop with a mask and slight movements in the 3D space further?
 - Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
   (change Mewtwo's UI only after PM Porting is... well, ported)
 - Replace the blue of the assets with a shade based on the build's brand as we have a final logo
