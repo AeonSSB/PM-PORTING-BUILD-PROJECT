@@ -1,0 +1,9 @@
+- Reverted ICs functionality to v2.3.2
+- Fixed error in soundbank code that broke SFX in certain matchups
+- Fixed bug that would prevent rumble from being activated/deactivated on the default player tag
+- Fixed Wolf02 (Green), Dedede AltZ, and Dedede AltR from crashing the game
+- Fixed clipping present on the GHZ revamp on some Dolphin setups
+- Visual cleanups on the Venus Lighthouse R and Z alts
+- Renamed Temple's R-alt to match the usual naming convention
+- Adjusted comments in StageTable.asm to match the new stages
+- Build version updated to v2.4.1
