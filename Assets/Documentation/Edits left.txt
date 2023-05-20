@@ -5,17 +5,16 @@ To do:
 - Check for unused/unnecessary codes to remove like ShorthopMacro in Source/Extras
 
 In the CSS:
-  - Perfect the CSP crop with a mask and slight movements in the 3D space further?
 - Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
   (change Mewtwo's UI only after PM Porting is... well, ported)
-- Replace the blue of the assets with a shade based on the build's brand as we have a final logo
+- Replace the blue of the assets with a shade based on the build's brand
 
 
 In the two Rules menus:
 - Manage the stage slots considered by the game for random selection
   - THEN Manage the included button alts in the code that counts them to be only R and Z
   - THEN Rename Peach's Castle, Yoshi's Island and others if needed in the random selection
-- Replace the blue of the assets with a shade based on the build's brand as we have a final logo
+- Replace the blue of the assets with a shade based on the build's brand
 
 
 In stages:
@@ -58,7 +57,7 @@ In the SSS:
 - Add stats icons above the previews (Z axis) for the stages in page 1
 - Port 50CC for SSS to have stocks in the upper left corner of the screen after we do characters'
   cosmetics
-- Replace the blue with a shade based on the build's brand after we have a final logo
+- Replace the blue with a shade based on the build's brand
 - Replace the "Project M" texture with our final logo?
 
 
@@ -77,7 +76,7 @@ To do elsewhere:
   - THEN Rename HD textures for it
 - Make a custom title screen with the build's brand, and make the logo appear in Brawl's intro
   - THEN Rename HD textures for it
-- Remake the aspect ratio image in the settings once we have a final logo
+- Remake the aspect ratio image in the settings
 - Remove unnecessary HD textures (stage icons, names, banners etc.)
 - Apply all the following misc fixes:
   *Ensure Kirby's Roy hair is updated to match default Roy's one after we finish Roy's costumes
@@ -173,3 +172,4 @@ Edits done:
 - Replaced the Project+ textures in PS2 with Project M's ones
 - Implemented SSEEX features and Roy & Mewtwo levels
     (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
+- Perfected the CSP crop in sc_selcharacter
