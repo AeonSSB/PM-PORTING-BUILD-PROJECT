@@ -151,7 +151,7 @@ half[110] |	# Stage Count + 2
 0x1915, 0x1C16, 0x1D17, 0x1E18, | # Castle Siege (Brawl), Wario Land, Distant Planet, Skyworld
 0x1F19, 0x201A, 0x211B, 0x221C, | # Fountain of Dreams, Fourside, Smashville, Shadow Moses Island
 0x231D, 0x241E, 0x4326, 0x2932, | # Green Hill Zone, PictoChat, Sky Sanctuary, Temple
-0x2A33, 0x472A, 0x2C35, 0x2D36, | # Yoshi's Story, Golden Temple, Onett, Dream Land
+0x2A33, 0x8371, 0x2C35, 0x2D36, | # Yoshi's Story, Twisty Trials Galaxy, Onett, Dream Land
 0x2F37, 0x3038, 0x3139, 0x323A, | # Peach's Castle (64), Corneria, Big Blue, Planet Zebes
 0x2E3B, 0xFF64, 0xFF64, 0x373C, | # Pokemon Stadium 2, NOTHING, NOTHING, Training Room
 | # NEW SLOTS
@@ -163,15 +163,15 @@ half[110] |	# Stage Count + 2
 0x5442, 0x5543, 0x5644, 0x5745,	| # Skyloft, Pokemon Stadium 2 (Brawl), New Pork City, 75m
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
-0x604E, 0x614F, 0x6250, 0x6351, | # Mute City, Twisty Trials Galaxy, Tiny FD, Rumble Falls
-0x817A, 0x6553, 0x6654, 0x6755, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
+0x604E, 0x816F, 0x8472, 0x6351, | # Mute City, Frigate Husk, Tiny FD, Rumble Falls
+0x817A, 0x6553, 0x8270, 0x6755, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
 0x6856, 0x6957, 0x6A58, 0x6B59, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
 0x6C5A, 0x6D5B, 0x6E5C, 0x6F5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
 0x705E, 0x715F, 0x7260, 0x7361, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
 0x7462, 0x7563, 0x7664, 0x7765, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
 0x7866, 0x7967, 0x7A68, 0x7B69, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
 0x7C6A, 0x7D6B, 0x7E6C, 0x7F6D, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
-0x806E, 0x816F      			| # Hammer Express, Frigate Husk
+0x806E, 0x472A      			| # Hammer Express, Golden Temple
 
 
 SkipStageTables:
