@@ -32,7 +32,7 @@ TABLE_1:
 0x1E, | # Sky Sanctuary Zone
 0x20, | # Yoshi's Story
 0x4F, | # Rumble Falls
-0x50, | # Castle Siege
+0x50, | # Temple of Time
 0x18, | # Fountain of Dreams
 0x21  | # Frigate Husk
 
@@ -55,7 +55,7 @@ TABLE_2:
 0x41, | # Pokemon Stadium 2 (Brawl)
 0x10, | # Spear Pillar
 0x11, | # Port Town Aero Dive
-0x14, | # Castle Siege (Brawl)
+0x14, | # Castle Siege
 0x39, | # WarioWare, Inc.
 0x16, | # Distant Planet
 0x42, | # New Pork City
@@ -148,7 +148,7 @@ half[110] |	# Stage Count + 2
 0x0909, 0x330A, 0x492C, 0x0C0C, | # Pirate Ship, Hyrule Castle, Metroid Lab, Frigate Orpheon
 0x0D0D, 0x0E0E, 0x130F, 0x1410, | # Yoshi's Island (Brawl), Halberd, Lylat Cruise, Saffron City
 0x1511, 0x1612, 0x1713, 0x1814, | # Spear Pillar, Port Town Aero Dive, Summit, Flat Zone 2
-0x1915, 0x1C16, 0x1D17, 0x1E18, | # Castle Siege (Brawl), Wario Land, Distant Planet, Skyworld
+0x1915, 0x1C16, 0x1D17, 0x1E18, | # Castle Siege, Wario Land, Distant Planet, Skyworld
 0x1F19, 0x201A, 0x211B, 0x221C, | # Fountain of Dreams, Fourside, Smashville, Shadow Moses Island
 0x231D, 0x241E, 0x4326, 0x2932, | # Green Hill Zone, PictoChat, Sky Sanctuary, Temple
 0x2A33, 0x8371, 0x2C35, 0x2D36, | # Yoshi's Story, Twisty Trials Galaxy, Onett, Dream Land
@@ -164,7 +164,7 @@ half[110] |	# Stage Count + 2
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
 0x604E, 0x816F, 0x8472, 0x6351, | # Mute City, Frigate Husk, Tiny FD, Rumble Falls
-0x817A, 0x6553, 0x8270, 0x6755, | # Castle Siege, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
+0x817A, 0x6553, 0x8270, 0x6755, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
 0x6856, 0x6957, 0x6A58, 0x6B59, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
 0x6C5A, 0x6D5B, 0x6E5C, 0x6F5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
 0x705E, 0x715F, 0x7260, 0x7361, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
