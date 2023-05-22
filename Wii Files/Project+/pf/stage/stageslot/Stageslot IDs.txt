@@ -17,7 +17,7 @@
 16 - Port Town
 17 - Summit
 18 - Flat Zone 2
-19 - Castle Siege (Brawl)
+19 - Castle Siege
 1C - Wario Land
 1D - Distant Planet
 1E - Skyworld
@@ -83,7 +83,7 @@
 61 - Twisty Trials Galaxy
 62 - Tiny FD
 63 - Rumble Falls (written as Rumble Falls NL)
-6A - Castle Siege (written as Castle Siege Plus)
+6A - Temple of Time
 6B - Metal Cavern (64) (written as Metal Cavern Retro)
 6C - Kingdom Adventure
 6D - Bob-Omb Battlefield
