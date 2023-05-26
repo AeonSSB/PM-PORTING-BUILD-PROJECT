@@ -34,6 +34,7 @@ In the two Rules menus:
 - Add a third option in Auto L-Cancel, "Per port", that makes the code in the code menu for
   per port ALC work; make it so that if this toggle in the Rules is set to either Off or On,
   that code doesn't work
+  *Do the same for Input Buffer
 
 
 In stages:
@@ -79,7 +80,9 @@ In the SSS:
 - Replace the blue with a shade based on the build's brand
 
 
-To do elsewhere:
+Elsewhere:
+- Make icons visible near a BP when the port has ALC and/or Input Buffer active
+  - THEN make the textures and HD textures
 - Apply the changes from the .txt with the custom tags
 - Add the necessary textures and HD textures for yellow team
 - Add the "Yellow team!" quote over "Green team!"
@@ -88,7 +91,7 @@ To do elsewhere:
 - "Net-MyMusic.asm is missing Salty Runback Expansion Stage Music Fix and the other MyMusic
   address fix" as of 2.3.2, take the fixes if in the current P+ or make them
 - Show which characters one has picked for All-Star mode battles while still in the CSS
-- If possible, restore the "Tourney" icon over "Codes" and make it load a normal versus but with
+- If possible, replace the "Rotation" icon with "Tourney" and make it load a normal versus but with
   a fixed ruleset you can change from a code menu toggle; if that's not possible, implement the WI
   build's ruleset freeze toggle
 - Ensure tracklists include all Brawl and Melee tracks, and also arrangements of the 64 tracks
@@ -125,7 +128,7 @@ To do elsewhere:
   (any other?)
 
 
-To do in the Code Menu:
+In the Code Menu:
 - Ensure these Code Menu options are included and can you see in-game if settings are not default:
   *Green flash when actionable
   *Yellow flash when in IASA
@@ -150,7 +153,7 @@ To do in the Code Menu:
   *Code Menu toggle or, even better, button in the CSS itself
 
 
-To do in Dolphin:
+In Dolphin:
 - Remove unnecessary HD textures (stage icons, names, banners etc.)
 - Create a custom theme after the build's brand
 - Dolphin Software icon themed after the build's brand
@@ -161,7 +164,7 @@ To do in Dolphin:
 - Rename the emulator with the build's brand
 
 
-To do at the very end:
+At the very end:
 - Remove all collect.vff and leave only one in the folder that loads it
 - Reset music frequency and tags once the build is done
 - Make sure there aren't screenshots, unused HD textures or dumped textures on Dolphin
