@@ -1,8 +1,24 @@
 To do:
 - Fix all known bugs related to gameplay not being 1:1 with 3.6
+  *Snake's grenade timing
+  *Ice Climbers' P+ infinite
+  *Kirby's hats
+  *C-stick behaviour after Samus' SWD
+  *Dedede's Waddledash
+- Fix the lag on console
 - Port the remaining P+ 2.4 files
-- Fix the issues of the same-costume code
-- Check for unused/unnecessary codes to remove like ShorthopMacro in Source/Extras
+- Recolor Peach's turnips
+- Implement P+ GFX except Dry Bowser's blue fire
+  *Remake the Snake C4 effect
+  *Make all Pokémon costumes with shinies have their sparkles, and when needed add the Gen 2
+   specific one
+  *Ensure both Kirby and Falco have the laser hue change in P+ for color blindness implemented,
+   P+ missed one of them (at least in previous versions)
+- Check if P+ has new victory animations we can use
+- Fix the issues of the same-costume code (atm only costume 1 can be shared and returning to the
+  CSS immediately changes it to the next one for lower ports)
+- Remove unused/unnecessary codes like ShorthopMacro in Source/Extras, check if there are more
+
 
 In the CSS:
 - Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
@@ -18,9 +34,11 @@ In the two Rules menus:
 
 
 In stages:
-- Rebrand the Castle Siege slot to Temple of Time and Castle Siege (Brawl)'s one to Castle Siege
-- Check if Autumn Dream Land's water needs changes
-  - THEN Do a quality check of the other alts
+- Replace the blue in the Result stage with a shade based on the build's brand
+- Port the wall from PM GHZ to P+'s one
+- Port P+'s visual improvements of Delfino's Secret to the original one
+- Check if Autumn Dream Land's water needs changes and add a pile of leaves from the GMO Fall file
+- Do a quality check of all other stages
     - Fix Peach's Castle (Melee)'s window and trees priority; remake the character lighting
 - Some stages including Kongo Jungle have invisible targets that big hitboxes in the Z-axis hit,
   move them where nothing can possibly hit them or remove them if possible
@@ -29,19 +47,18 @@ In stages:
 - A rock in Distant Planet has a texture error, fix it in both Brawl and PM's stages as well as
   the planned GHZ alt we're making
 - Fix Lugia's idle animation in the dedicated Metal Cavern alt once the stage is done
+- Make the button alts that are unfinished
 - Hardcode even spawn points for doubles when 2v2 team match happens regardless of ports
 
 
 In the SSS:
-- Fix the stage preview's shadow's crop
+- Add the assets dedicated for L and Z alts that turn visible when used in the slot you hover on
+- Make the cursor start on the center of the stage slots instead of the center of the screen
+- Fix the stage previews' UI assets to make them all appear properly when every slot is selected
 - Replace the placeholder texture with a proper "-> Page 4", remake the others too if a template
   is not found
-- Rename the following stages in their names' textures:
-  *Secret+ to Twisty Trials Galaxy 
-  *Rumble Falls to Rumble Falls (Brawl)
-  *Castle Siege to Castle Siege (Brawl)
-- Add the stages (pac, param, modules, sawnd) and UI to their emtpy slots in pages 1 and 4
-  - THEN Add the alts for page 1's slots that exist
+- Add the stages (pac, param, modules, sawnd) and UI (except final banners) to their empty slots
+  in pages 1 and 4, well as the button alts for page 1 that exist plus the Training Room alts
   - THEN Port Spain's water visual cue on all three FoD stages
   - THEN Make the page 1 and 2 alts that don't exist yet
   - THEN Adjust crates and barrels for all stages
@@ -58,37 +75,51 @@ In the SSS:
 - Port 50CC for SSS to have stocks in the upper left corner of the screen after we do characters'
   cosmetics
 - Replace the blue with a shade based on the build's brand
-- Replace the "Project M" texture with our final logo?
 
 
 To do elsewhere:
-- Match Brawl's tracklists and manage extra music from there
-  (Ensure tracklists include all Brawl and Melee tracks, and also arrangements of the 64 tracks)
+- Apply the changes from the .txt with the custom tags
+- Add the necessary textures and HD textures for yellow team
+- Add the "Yellow team!" quote over "Green team!"
+- Update all the "Congratulations!" images that need to be replaced
+- Make the custom crop for the Result Screen Portraits?
+- "Net-MyMusic.asm is missing Salty Runback Expansion Stage Music Fix and the other MyMusic
+  address fix" as of 2.3.2, take the fixes if in the current P+ or make them
+- Show which characters one has picked for All-Star mode battles while still in the CSS
+- If possible, restore the "Tourney" icon over "Codes" and make it load a normal versus but with
+  a fixed ruleset you can change from a code menu toggle; if that's not possible, implement the WI
+  build's ruleset freeze toggle
+- Ensure tracklists include all Brawl and Melee tracks, and also arrangements of the 64 tracks
   - THEN Import music from the sound selection
-  - THEN Check if menus like Replay can have custom tracklists
-  - THEN Check if it's possible to make the added tracks appear in the Music menu
-    (Not My Music, the Brawl menu dedicated to music of the game itself rather than stages)
-- Ensure STGResult displays 3.6 and other relevant information on the version like our title
-- Make HD textures for the result screen's port information work
+- Check how menus like Replay can have custom tracklists (document all of Brawl's menus if
+  possible)
+- Check if it's possible to make the added tracks appear in the Music menu
+  (Not My Music, the Brawl menu dedicated to music of the game itself rather than stages)
+- Make HD textures for the result screen's port information work (bit color depth might be related)
+- Implement the All-star mode stock fix after we finish characters' cosmetics
 - Make the descriptions of ALC and Buffer in the two Rules menus say "for beginners" or similar
-- Make UI that notifies if a port is using ALC or buffer (or tilt stick too?)
+- Replace the grass in the "ways to play" screen with a Smashbox and have an HD texture too
+  (note that the screen alters images' proportions)
+- Make UI that notifies if a port is using ALC or buffer (and tilt stick too if EU doesn't make it
+  legal in 3.6)
 - Make custom StrapXX files with the build's brand, optimized in file size like P+'s ones
   - THEN Rename HD textures for it
 - Make a custom title screen with the build's brand, and make the logo appear in Brawl's intro
   - THEN Rename HD textures for it
-- Remake the aspect ratio image in the settings
-- Remove unnecessary HD textures (stage icons, names, banners etc.)
+- Fix Latias' spawn
+- Fix the black eyes Mewtwo and Fox can get on stages like Spear Pillar
 - Apply all the following misc fixes:
   *Ensure Kirby's Roy hair is updated to match default Roy's one after we finish Roy's costumes
   *A missing HD texture on the Subspace Emissary icon from the main menu?
   *Replace the outdated ZSS trophy texture
   *Toon Link's Down Taunt had a texture error, fix it if P+ 2.3.2 didn't yet or if PM Porting
    restores it
-- Make all macros visible on screen when needed to:
+- Make all macros visible on screen when needed to?
   *LRAstart on pause
   *LRAYstart on pause
   *LRDpadDown for debug mode on some menus
   *LR when selecting a stage brings back to the CSS
+  *all tag-related button effects
   (any other?)
 
 
@@ -100,17 +131,25 @@ To do in the Code Menu:
   *Grab Trade Behavior (Manaphy)
   *Balloon Hit Behavior
   *Hitfalling
+- Fix the red flash on failed L-Cancel (If ALC is on for a port, it also activates Red Flash on
+  failed LC even if that's currently OFF)
+- Ensure P+ didn't change anything about Subspace other than addressing crashes and check that
+  SSEEX features can't be turned on by accident at least before the end of the main campaign, so
+  that Subspace speedruns are unchanged from vanilla 3.6
 - Make L-R-A-START, salty runback, debug mode, stage alts, Wario-man and Giga Bowser, stage page
   switch etc. accessible through analog L and R presses too (from 80% of a press? a value that
   does not need the spring under the button of GCC, not sure on the one to use; digital press
   should still work)
   *And any other code that uses L and R I might have forgotten
-- Add the EX characters toggle once we decide on which fighters to include, and port their files
-  (they'll unlikely have 18 costumes like the main cast; maybe 9 or 6)
-  (Code Menu toggle or, even better, button in the CSS itself)
+- Add T+'s secondary code menu (and try to address issues if there still are any)
+- After everything else, add the EX characters toggle once we decide on which fighters to include
+  as well as their files (uncertain)
+  *They'll unlikely have 18 costumes like the main cast; maybe 9 or 6
+  *Code Menu toggle or, even better, button in the CSS itself
 
 
 To do in Dolphin:
+- Remove unnecessary HD textures (stage icons, names, banners etc.)
 - Create a custom theme after the build's brand
 - Dolphin Software icon themed after the build's brand
 - Dolphin Launchers banner themed after the build's brand
