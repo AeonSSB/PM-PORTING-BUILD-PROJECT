@@ -34,7 +34,6 @@ In the two Rules menus:
 
 
 In stages:
-- Replace the blue in the Result stage with a shade based on the build's brand
 - Port the wall from PM GHZ to P+'s one
 - Port P+'s visual improvements of Delfino's Secret to the original one
 - Check if Autumn Dream Land's water needs changes and add a pile of leaves from the GMO Fall file
