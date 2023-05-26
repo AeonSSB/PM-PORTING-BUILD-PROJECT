@@ -31,6 +31,9 @@ In the two Rules menus:
   - THEN Manage the included button alts in the code that counts them to be only R and Z
   - THEN Rename Peach's Castle, Yoshi's Island and others if needed in the random selection
 - Replace the blue of the assets with a shade based on the build's brand
+- Add a third option in Auto L-Cancel, "Per port", that makes the code in the code menu for
+  per port ALC work; make it so that if this toggle in the Rules is set to either Off or On,
+  that code doesn't work
 
 
 In stages:
