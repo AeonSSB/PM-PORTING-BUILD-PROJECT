@@ -88,7 +88,12 @@ Elsewhere:
 - Apply the changes from the .txt with the custom tags
 - Add the necessary textures and HD textures for yellow team
 - Add the "Yellow team!" quote over "Green team!"
-- Update all the "Congratulations!" images that need to be replaced (like DK's one)
+- Update all the "Congratulations!" images that need to be replaced
+  *Mario's classic mode
+  *Donkey Kong's all star mode
+  *Bowser's all star mode
+  *Ice Climbers' all star mode
+  *Lucario's all star mode
 - Make the custom crop for the Result Screen Portraits?
 - "Net-MyMusic.asm is missing Salty Runback Expansion Stage Music Fix and the other MyMusic
   address fix" as of 2.3.2, take the fixes if in the current P+ or make them
