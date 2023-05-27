@@ -17,7 +17,7 @@
 0x4F	Rumble Falls
 0x50	Castle Siege
 0x18	Fountain of Dreams
-0x6F	Frigate Husk
+0x21	Frigate Husk
 
 --- Table 2 ---
 == Hex ID	Stage Name ==
@@ -38,7 +38,7 @@
 0x41	Pokemon Stadium 2 (Brawl)
 0x10	Spear Pillar
 0x11	Port Town Aero Dive
-0x14	Castle Siege (Brawl)
+0x14	Castle Siege
 0x39	WarioWare, Inc.
 0x16	Distant Planet
 0x42	New Pork City
@@ -116,7 +116,7 @@
 0x6B	Clanker's Cavern
 0x6C	Venus Lighthouse
 0x6D	Lunar Horizon
-0x6E	Training Room
+0x2B	Training Room
 
 
 --- Table of Icons/Stage Slot Associations ---
@@ -154,7 +154,7 @@
 0x4326	Sky Sanctuary
 0x2932	Temple
 0x2A33	Yoshi's Story
-0x472A	Golden Temple
+0x8371	Twisty Trials Galaxy
 0x2C35	Onett
 0x2D36	Dream Land
 0x2F37	Peach's Castle (64)
@@ -198,12 +198,12 @@
 0x5E4C	Brinstar
 0x5F4D	Green Greens
 0x604E	Mute City
-0x614F	Twisty Trials Galaxy
-0x6250	Tiny FD
+0x816F	Frigate Husk
+0x8472	Tiny FD
 0x6351	Rumble Falls
-0x817A	Castle Siege
+0x817A	Temple of Time
 0x6553	Metal Cavern (64)
-0x6654	Kingdom Adventure
+0x8270	Kingdom Adventure
 0x6755	Bob-Omb Battlefield
 0x6856	Mushroom Gorge
 0x6957	Minecart Madness
@@ -230,7 +230,7 @@
 0x7E6C	Venus Lighthouse
 0x7F6D	Lunar Horizon
 0x806E	Hammer Express
-0x816F	Frigate Husk
+0x472A	Golden Temple
 
 Page 1 = 18 Stages
 Page 2 = 30 Stages
