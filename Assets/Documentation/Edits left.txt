@@ -23,7 +23,6 @@ To do:
 
 In the CSS:
 - Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
-  (change Mewtwo's UI only after PM Porting is... well, ported)
 - Replace the blue of the assets with a shade based on the build's brand
 - Update the crop of the flash that appears when selecting a character to match the most recent
   CSP crop
