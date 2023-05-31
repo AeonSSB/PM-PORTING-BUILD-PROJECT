@@ -101,7 +101,7 @@ XX - Red Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT, P+ Art Te
 XX - Blue Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT, P+ Art Team
 XX - Green Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT, P+ Art Team
 XX - Gold Dry Bowser by Efisio with credit to PMDT, P+ Art Team
-XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64, PMDT, P+ Art Team
+XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64, Efisio, PMDT, P+ Art Team
 XX - Brown Dry Bowser by Dapperman with credit to PMDT, P+ Art Team
 XX - Pink Dry Bowser by Ale64 with credit to Efisio, PMDT, P+ Art Team
 XX - Purple Dry Bowser by Ale64 with credit to Zeuvia, PMDT, P+ Art Team
@@ -122,7 +122,7 @@ XX - Red Giga Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT
 XX - Blue Giga Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT
 XX - Green Giga Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT
 XX - Gold Giga Dry Bowser by Efisio with credit to PMDT
-XX - Dark Bones Giga Dry Bowser by Vinegar with credit to PMDT
+XX - Dark Bones Giga Dry Bowser by Vinegar with credit to Efisio, PMDT
 XX - Brown Giga Dry Bowser by Dapperman, MetalLegacy with credit to PMDT
 XX - Pink Giga Dry Bowser by Ale64 with credit to Efisio, PMDT
 XX - Purple Giga Dry Bowser by Ale64 with credit to Zeuvia, PMDT
