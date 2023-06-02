@@ -18,6 +18,7 @@ To do:
 - Check if P+ has new victory animations we can use
 - Fix the issues of the same-costume code (atm only costume 1 can be shared and returning to the
   CSS immediately changes it to the next one for lower ports)
+- Implement the code for uncapped damage ratio
 - Implement the code for music on stages
   *If possible, fix the visual oddity after selecting a track
 - Remove unused/unnecessary codes like ShorthopMacro in Source/Extras, check if there are more
