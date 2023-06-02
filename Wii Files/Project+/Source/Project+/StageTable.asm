@@ -164,7 +164,7 @@ half[110] |	# Stage Count + 2
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
 0x604E, 0x816F, 0x8472, 0x6351, | # Mute City, Frigate Husk, Tiny FD, Rumble Falls
-0x817A, 0x6553, 0x8270, 0x6755, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
+0x857A, 0x6553, 0x8270, 0x6755, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
 0x6856, 0x6957, 0x6A58, 0x6B59, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
 0x6C5A, 0x6D5B, 0x6E5C, 0x6F5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
 0x705E, 0x715F, 0x7260, 0x7361, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
