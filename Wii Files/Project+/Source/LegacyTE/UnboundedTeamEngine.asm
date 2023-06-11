@@ -1,5 +1,7 @@
 #######################################################################
 [Legacy TE] Unbounded Team Color Engine EX Variant [DukeItOut, DesiacX]
+#
+# 1.1: Adjusted to accomodate Mdl+Tex splitting
 #######################################################################
 CODE @ $806998D0
 {
@@ -29,6 +31,7 @@ HOOK @ $800AF520			# team color implementation
   	rlwinm r0, r3, 4, 0, 27
   	rlwinm r8, r5, 1, 0, 30
   	lbzx r9, r7, r4
+	andi. r9, r9, 0xF		# Lower nybble
   	add r3, r6, r0
   	lwz r7, 8(r3)
   	add r3, r7, r8
@@ -37,6 +40,7 @@ HOOK @ $800AF520			# team color implementation
   	li r25, -1
 get_last:
   	lbz r0, 0(r3); 
+	andi. r0, r0, 0xF		# Lower nybble
 	cmpw r0, r9; 		bne- not_a_match
   	addi r25, r25, 0x1
   	mr r27, r5
@@ -53,6 +57,7 @@ continue_b:
 continue:
   	lbz r0, 0(r3)
   	cmplwi r0, 0xC;		beq+ end
+	andi. r0, r0, 0xF		# Lower nybble
   	cmpw r0, r9;		beq+ found_match
   	b continue_b			# Loop if not found
 end:
@@ -82,9 +87,6 @@ HOOK @ $80696628
   	stw r28, 0x14(r1);  stw r27, 0x10(r1);  stw r26, 0x0C(r1)
   	lbz r31, 0x1C4(r30)				# get team subcolor
   	mr r26, r0			//r0 has "team color"
-  	cmpwi r26, 0x2; bne- notGreen	//if trying to find green team
-  	li r26, 0x3			//it's 3, not 2
-notGreen:
   	li r27, 0x0; li r28, 0x0; li r29, 0x0; li r30, 0x0
   	lis r5, 0x817D; addi r5, r5, 0x52A0	//access costume data
   	rlwinm r0, r3, 4, 21, 27		//r3 = character instance ID, used as an index
@@ -98,7 +100,8 @@ loop:
 start:
  	lbz r30, 0(r3)
   	cmpwi r30, 0xC;  beq- abort	//came across the footer for the data table, terminate attempt to go past
-  	cmpw r26, r30;   bne+ loop	//but the code can still wrap around
+  	andi. r30, r30, 0xF		# Lower nybble
+	cmpw r26, r30;   bne+ loop	//but the code can still wrap around
   	mr r29, r6
   	cmpw r28, r31; 
 	addi r28, r28, 0x1; 
@@ -116,10 +119,6 @@ HOOK @ $800AF524		//team color preservation on SSS
   	lwz r0,  0x1C0(r24)
   	lbz r31, 0x1C4(r24)
   	mr r26, r0
-  	cmpwi r0, 0x2
-  	bne- notGreen
-  	li r26, 0x3
-notGreen:
  	li r27, 0x0; li r28, 0x0; li r29, 0x0; li r30, 0x0
   	lis r5, 0x817D; addi r5, r5, 0x52A0
   	rlwinm r0, r3, 4, 21, 27
@@ -131,20 +130,22 @@ loop:
   	addi r3, r3, 0x2
   	addi r6, r6, 0x1
 start:
-  	lbz r30, 0(r3); cmpwi r30, 0xC; beq- abort
-  		 	cmpw r26, r30;  bne+ loop
+  	lbz r30, 0(r3);		
+	cmpwi r30, 0xC;		beq- abort
+	andi. r30, r30, 0xF		# Lower nybble
+  	cmpw r26, r30;		bne+ loop
   	mr r29, r6
   	cmpw r28, r31; 
   	addi r28, r28, 0x1
   	blt+ loop
 abort:
   	mr r3, r29
-  	lwz r0, 32(r1); lwz r30, 28(r1); lwz r29, 24(r1)
-  	lwz r28, 20(r1); lwz r27, 16(r1); lwz r26, 12(r1)
+  	lwz r0, 0x20(r1); lwz r30, 0x1C(r1); lwz r29, 0x18(r1)
+  	lwz r28, 0x14(r1); lwz r27, 0x10(r1); lwz r26, 0xC(r1)
   	addi r1, r1, 0x30
   	blr 
 }
-op NOP 		@ $80685C18
+op NOP 			@ $80685C18
 op mr r5, r0	@ $80685C08
 HOOK @ $80685C10 # Retainment of team color upon reentering CSS
 {
@@ -155,17 +156,13 @@ HOOK @ $80685C10 # Retainment of team color upon reentering CSS
   	lis r29, 0x817D
   	ori r29, r29, 0x52A0
   	add r29, r29, r28
-  	lis r28, 0xFFFF
- 	ori r28, r28, 0xFFFF
+  	li r28, -1
   	lwz r29, 8(r29)
   	cmplw r29, r28;	beq- alreadyMatched
  	mr r26, r3
   	li r30, 0x0
   	li r28, 0x0
   	li r27, 0x0
-  	cmpwi r26, 0x2; bne- notGreen
-  	li r26, 0x3
-notGreen:
   	b start
 loop:
   	addi r29, r29, 0x2
@@ -173,6 +170,7 @@ loop:
 start:
   	lbz r30, 0(r29)
   	cmpwi r30, 0xC; beq- abort
+	andi. r30, r30, 0xF		# Lower nybble
   	cmpw r30, r26;  bne+ loop
   	lbz r30, 1(r29)
  	cmpw r28, r0;	beq- abort
@@ -186,4 +184,4 @@ alreadyMatched:
   	addi r1, r1, 0x20
 }
 
-op b 0x2c0 @ $80698b74 #disables wario specific team colour coding that conflicts with system 
+op b 0x2C0 @ $80698b74 #disables wario specific team colour coding that conflicts with system 

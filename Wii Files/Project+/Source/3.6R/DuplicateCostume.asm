@@ -1,10 +1,13 @@
 ##################################################
-Allow selection of same Costume ID [ilikepizza107]
+Allow selection of same Costume ID [QuickLava]
 ##################################################
-op li r0, 0 @ $8069A2C0 # for increasing costume IDs
-op li r0, 0 @ $8069A3D0 # for decreasing costume IDs
-op nop @ $80696FE0 # when initally hovering over the character
-op nop @ $8069841C # ensure it stays at the same ID when switching from player -> CPU -> None
+op cmpwi r29, 0x7FFF @ $80696FD8
+op cmpwi r5, 0x7FFF @ $80698414
+op cmpwi r27, 0x7FFF @ $806984B4
+op cmpwi r26, 0x7FFF @ $8069A3C8
+op cmpwi r26, 0x7FFF @ $8069A2B8
+op blr @ $80684DCC
+op li r3, 1 @ $806D1C68
 
 ####################################################################
 Allow character shading in Versus Matches [ilikepizza107, QuickLava]
