@@ -1,9 +1,10 @@
-####################################################
+######################################################
 Green Team is Yellow Team [ilikepizza107, QuickLava]
 
 Requires Team Coloured Shields V2 from RSBE01 to 
-be removed
-####################################################
+be removed, as well as edited info.pac + STGRESULT.pac
+CLR0s, and at least one yellow costume per character
+######################################################
 word 0x00010200 @ $805A21F0   # search for Yellow costumes, not Green ones!
 word 0x00010200 @ $806A0DA8   # choose yellow costumes in-game!
 word 0x00010200 @ $806A0EAC   # CLR0 UI Elements, excluding the hand
