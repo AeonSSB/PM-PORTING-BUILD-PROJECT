@@ -98,7 +98,7 @@
 76 - Sky Islands
 77 - Sky Temple
 7B - The Final Battle
-7C - Planet Papetoon
+7C - Spiral Mountain
 7D - Sprout Tower
 7E - Poke Floats 2
 7F - Aeropolis
@@ -107,7 +107,7 @@
 82 - Dead Line
 83 - Radical Highway
 84 - Dracula's Castle
-85 - Spiral Mountain
+85 - Planet Papetoon
 86 - Clanker's Cavern
 87 - Venus Lighthouse
 88 - Lunar Horizon
