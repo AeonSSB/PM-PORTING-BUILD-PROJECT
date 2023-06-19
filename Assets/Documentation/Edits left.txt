@@ -1,5 +1,4 @@
 To do:
-- Update Spiral Mountain with the console fix once it's ready
 - Take the updated Lunar Horizon and PS2 transformations 1:1s from WI P+
 - Fix all known bugs related to gameplay not being 1:1 with 3.6
   *Snake's grenade timing
