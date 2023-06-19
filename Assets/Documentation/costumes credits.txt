@@ -51,7 +51,7 @@ XX - Red Luigi from Brawl
 XX - Blue Luigi from Brawl
 XX - Fire Luigi from Brawl
 XX - Purple Luigi from Brawl
-XX - Choco Banana Luigi by N!ck with credit to Smash 2
+XX - Choco Banana Luigi by N!ck with credit to Smash 2 Team
 XX - Anime Luigi by Moe
 XX - Mr. L by PMDT, Snoe, SJ, tyleto
 XX - Red Mr. L by Ale64, Efisio with credit to PMDT, Snoe, SJ, tyleto
@@ -74,16 +74,16 @@ XX - Green Peach from Brawl
 XX - White Peach from Brawl
 XX - Yellow Peach by Moe
 XX - Black Daisy Peach by Ale64
-XX - Fire Peach by PMDT, P+ Art team
+XX - Fire Peach by PMDT, Art+
 XX - Shadow Queen by PMDT, Shranux
 XX - Blue Shadow Queen by Shranux with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
 XX - Green Shadow Queen by Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
 XX - Yellow Shadow Queen by Shranux with credit to PMDT
 XX - Human Shroob by Shranux
-XX - Sunshine Peach by mawwwk, P+ Art team with credit to PMDT
-XX - Blue Sunshine Peach by Efisio, Ale64 with credit to mawwwk, P+ Art team, PMDT
-XX - Green Sunshine Peach by Efisio, Ale64 with credit to mawwwk, P+ Art team, PMDT
-XX - Yellow Sunshine Peach by Efisio, Ale64 with credit to mawwwk, P+ Art team, PMDT
+XX - Sunshine Peach by mawwwk, Art+ with credit to PMDT
+XX - Blue Sunshine Peach by Efisio, Ale64 with credit to mawwwk, Art+, PMDT
+XX - Green Sunshine Peach by Efisio, Ale64 with credit to mawwwk, Art+, PMDT
+XX - Yellow Sunshine Peach by Efisio, Ale64 with credit to mawwwk, Art+, PMDT
 
 
 BOWSER
@@ -96,15 +96,15 @@ XX - Brown Bowser from Brawl
 XX - Red Mario Golf Bowser by Ale64 with credit to Ubergruvin, Efisio
 XX - Blue Mario Golf Bowser by Ale64
 XX - Smash 4 Yellow Bowser by Moe
-XX - Dry Bowser by PMDT, P+ Art Team
-XX - Red Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT, P+ Art Team
-XX - Blue Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT, P+ Art Team
-XX - Green Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT, P+ Art Team
-XX - Gold Dry Bowser by Efisio with credit to PMDT, P+ Art Team
-XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64, Efisio, PMDT, P+ Art Team
-XX - Brown Dry Bowser by Dapperman with credit to PMDT, P+ Art Team
-XX - Pink Dry Bowser by Ale64 with credit to Efisio, PMDT, P+ Art Team
-XX - Purple Dry Bowser by Ale64 with credit to Zeuvia, PMDT, P+ Art Team
+XX - Dry Bowser by PMDT, Art+
+XX - Red Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT, Art+
+XX - Blue Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT, Art+
+XX - Green Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT, Art+
+XX - Gold Dry Bowser by Efisio with credit to PMDT, Art+
+XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64, Efisio, PMDT, Art+
+XX - Brown Dry Bowser by Dapperman with credit to PMDT, Art+
+XX - Pink Dry Bowser by Ale64 with credit to Efisio, PMDT, Art+
+XX - Purple Dry Bowser by Ale64 with credit to Zeuvia, PMDT, Art+
 
 
 GIGA BOWSER
@@ -147,6 +147,27 @@ XX - Cave-Green Dorrie Yoshi by mawwwk with credit to EggTimer, Ryztiq, sooperco
 XX - Yellow Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
 XX - Purple Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
 XX - Magenta Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+
+
+DONKEY KONG
+XX - Default Donkey Kong from Brawl
+XX - Black Donkey Kong from Brawl
+XX - Red Donkey Kong from Brawl
+XX - Blue Donkey Kong from Brawl
+XX - Green Donkey Kong from Brawl
+XX - White Donkey Kong by PMDT
+XX - Yellow Donkey Kong by Ale64 with credit to SJS, ASF1ink, StarWaffle
+XX - Purple Donkey Kong by Ale64 with credit to SJS, ASF1ink, StarWaffle
+XX - Red Mango Donkey Kong by mawwwk
+XX - Light Blue Donkey Kong by PrincessRosalina, Apples
+XX - Tan Donkey Kong by mawwwk
+XX - Manky Donkey Kong by Ale64
+XX - Boxer Donkey Kong by Art+, SJS, Kirbeast, tyleto with credit to PMDT
+XX - Blue Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT
+XX - Green Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT
+XX - Gold Boxer DK by Art+, SJS, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy
+XX - Pink Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT, MetalLegacy, davidvkimball
+XX - Melee Green Boxer DK by Ale64 with credit to Art+, SJS, Kirbeast, tyleto, PMDT
 
 
 DIDDY KONG
@@ -254,24 +275,24 @@ XX - Conductor Toon Link by SJS, DemonBoy with credit to PMDT
 
 
 ZERO SUIT SAMUS
-XX - SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Brawl Blue SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Brawl Pink SJS ZSS Rebuild by Ale64 with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Purple SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Green SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Blue SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Black SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Red SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Brawl Blue SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Brawl Pink SJS ZSS Rebuild by Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Purple SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Green SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Blue SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Black SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Red SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Forest Green SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Gold SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Mirage SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Gold SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Mirage SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Brawl ZSS Definitive Edition by Cahalan
-XX - Super Metroid SJS ZSS by Layell, Shranux with credit to Program, DarkMysteryMan, Moe, PMDT, Windhunter, Ryztiq, jiang, Pik, davidvkimball, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin, Shranux, Snoe
-XX - White Ending SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin
-XX - Fusion SJS ZSS Rebuild by Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin
+XX - Super Metroid SJS ZSS by Layell, Shranux with credit to Program, DarkMysteryMan, Moe, PMDT, Windhunter, Ryztiq, jiang, Pik, davidvkimball, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin, Shranux, Snoe
+XX - White Ending SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin
+XX - Fusion SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin
 XX - Zero Suit Samus Bailey by TheDarkMysteryMan, Moblin with credit to the PMDT
-XX - Zero Mission Outfit ZSS by davidvkimball, MarioDox, Ca$inoWolf, Shranux with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin, Snoe
-XX - Cadet Zero Suit Samus by Ryztiq, ART+, SJS, Nanobuds, Spex130, Shranux
+XX - Zero Mission Outfit ZSS by davidvkimball, MarioDox, Ca$inoWolf, Shranux with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin, Snoe
+XX - Cadet Zero Suit Samus by Ryztiq, Art+, SJS, Nanobuds, Spex130, Shranux
 
 
 MR. GAME & WATCH
@@ -285,10 +306,10 @@ XX - White Mr. Game & Watch by PMDT
 XX - Pink Mr. Game & Watch by PMDT
 XX - Purple Mr. Game & Watch by PMDT
 XX - Console Mr. Game & Watch by Ca$inoWolf
-XX - Orange Mr. Game & Watch by Legacy TE development team
-XX - Olive Mr. Game & Watch by Legacy TE development team
-XX - Magenta Mr. Game & Watch by Legacy TE development team
-XX - Brown Mr. Game & Watch by Legacy TE development team
+XX - Orange Mr. Game & Watch by Legacy TE Team
+XX - Olive Mr. Game & Watch by Legacy TE Team
+XX - Magenta Mr. Game & Watch by Legacy TE Team
+XX - Brown Mr. Game & Watch by Legacy TE Team
 XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
 XX - Prismo Mr. Game & Watch by Eiji
 XX - Purple Mr. Game & Watch by Shy
