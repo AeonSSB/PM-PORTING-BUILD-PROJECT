@@ -13,4 +13,6 @@ word 0x01020300 @ $806A1004   # hand
 word 0x02070000 @ $805A23AC   # in-battle UI (requires modified CLR0 colors in info.pac, specifically InfArrow_TopN_0, InfFace_TopN__0, InfMark_TopN__0, and InfPlynm_TopN__0)
 op mr r4, r23 @ $8081DEEC     # \
 op mr r4, r23 @ $8081DEF4     # / Yellow shields and death plumes
-
+word 0x59454C4C @ $8045B62C   # \
+word 0x4F572054 @ $8045B630   #  | YELLOW TEAM on the results screen
+word 0x45414D00 @ $8045B634   # / 
