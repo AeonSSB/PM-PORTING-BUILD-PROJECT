@@ -59,6 +59,7 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/P+Ex/SpeedModifier.asm
 .include Source/P+Ex/WarMode.asm
 
+.include Source/3.6R/ResultsClear.asm
 .include Source/3.6R/SSSPageAdvance.asm
 .include Source/3.6R/DuplicateCostume.asm
 .include Source/3.6R/YellowTeam.asm
