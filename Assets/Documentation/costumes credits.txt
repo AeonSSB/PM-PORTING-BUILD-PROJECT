@@ -61,8 +61,8 @@ XX - Yellow Mr. L by Ale64 with credit to tyleto, Snoe, SJ
 XX - Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
 XX - Red Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
 XX - Blue Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
-XX - Purple Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
 XX - Yellow Casino Luigi by Moe with credit to Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, Ryztiq, KTH, Wumb0, Pyro, MetalLegacy, SJ, Xenthos, StarWaffle
+XX - Purple Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
 
 
 PEACH
@@ -179,11 +179,11 @@ XX - Green Diddy Kong from Brawl
 XX - Blue Diddy Kong from Brawl
 XX - Brown Diddy Kong by PMDT
 XX - Nintendo 64 Diddy Kong by Dapperman
-XX - Hooded Diddy by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron
-XX - Red Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Green Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Yellow Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Black Hooded Diddy recolor by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Red Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Green Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Yellow Hooded Diddy Kong by Art+, SJ, tyle, Efisio with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+XX - Black Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
 XX - Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 XX - Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 XX - Dalton Green Cowboy Diddy Kong by Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
