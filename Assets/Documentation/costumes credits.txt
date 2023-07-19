@@ -232,6 +232,27 @@ XX - Black Melee Fox by Moe with credit to PMDT
 XX - SNES Melee Fox by Layell with credit to PMDT
 
 
+FALCO
+XX - Default Falco from Brawl
+XX - Orange Falco from Brawl
+XX - Blue Falco from Brawl
+XX - Red Falco from Brawl
+XX - Green Falco from Brawl
+XX - Black Falco from Brawl
+XX - Panther Falco by MetalLegacy, mawwwk
+XX - Saru Falco by Ale64 with credit to Efisio
+XX - Trunks Falco by Ale64 with credit to Efisio
+XX - Melee Falco by PMDT
+XX - Red Melee Falco by PMDT
+XX - Green Melee Falco by PMDT
+XX - Blue Melee Falco by PMDT
+XX - Yellow Melee Falco by Efisio
+XX - Pink Melee Falco by Layell with credit to PMDT
+XX - Purple Melee Falco by Moe
+XX - Emerald Melee Falco by Ale64 with credit to Wesai
+XX - Black Melee Falco by Ale64 with credit to Smash Remix
+
+
 ICE CLIMBERS
 XX - Default Ice Climbers from Brawl
 XX - Red Ice Climbers by Efisio
