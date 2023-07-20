@@ -274,6 +274,27 @@ XX - Green Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistati
 XX - Yellow Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
 
 
+LINK
+XX - Default Link from Brawl
+XX - Red Link from Brawl
+XX - Blue Link from Brawl
+XX - White Link from Brawl
+XX - Yellow Link from Brawl
+XX - Dark Link from Brawl
+XX - Purple Link by Cahalan
+XX - Brown Link by Cahalan
+XX - Ordon Link by Cahalan, Malicious Bugman
+XX - OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Red OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Blue OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Black OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Lavender OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Yellow OoT Link by Efisio with credit to Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Pink OoT Link by Efisio with credit to Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Orange OoT Link by Efisio with credit to Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+XX - Fierce Diety Link by Moe, AlGeorgeRomo, Bird of Light, Skilar, SJS, fireball, tyleto, Xenthos, SatoshiKura, Crixler, ledgerewskie, Layell, Aghanim, PizzaDog, Jigglypoof21, Draco, Mach 7, Nanobuds, Theytah with credit to PMDT
+
+
 TOON LINK
 XX - Default Toon Link from Brawl
 XX - Red Toon Link from Brawl
