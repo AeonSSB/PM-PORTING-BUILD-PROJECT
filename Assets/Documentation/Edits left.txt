@@ -7,19 +7,17 @@ To do:
   *C-stick behaviour after Samus' SWD
   *Dedede's Waddledash
 - Fix the lag on console
-- Port the remaining P+ 2.4 files
+- Port the remaining P+ 2.4.2 files
 - Recolor Peach's turnips
-- Implement P+ GFX except Dry Bowser's blue fire
+- Implement P+ GFX except Dry Bowser's blue fire and Ganondorf's Up Tilt
   *Remake the Snake C4 effect
   *Make all Pokémon costumes with shinies have their sparkles, and when needed add the Gen 2
    specific one
   *Ensure both Kirby and Falco have the laser hue change in P+ for color blindness implemented,
    P+ missed one of them (at least in previous versions)
 - Check if P+ has new victory animations we can use
-- Fix the issues of the same-costume code (atm only costume 1 can be shared and returning to the
-  CSS immediately changes it to the next one for lower ports)
 - Implement the code for uncapped damage ratio
-- Implement the code for music on stages
+- Implement the code for music selection before stages
   *If possible, fix the visual oddity after selecting a track
 - Remove unused/unnecessary codes like ShorthopMacro in Source/Extras, check if there are more
 
@@ -63,8 +61,6 @@ In the SSS:
 - Add the assets dedicated for L and Z alts that turn visible when used in the slot you hover on
 - Make the cursor start on the center of the stage slots instead of the center of the screen
 - Fix the stage slots' UI assets to make them all appear properly when every slot is selected
-- Replace the placeholder texture with a proper "-> Page 4", remake the others too if a template
-  is not found
 - Add the stages (pac, param, modules, sawnd) and UI (except final banners) to their empty slots
   in pages 1 and 4, well as the button alts for page 1 that exist plus the Training Room alts
   - THEN Port Spain's water visual cue on all three FoD stages
@@ -115,8 +111,7 @@ Elsewhere:
 - Make the descriptions of ALC and Buffer in the two Rules menus say "for beginners" or similar
 - Replace the grass in the "ways to play" screen with a Smashbox and have an HD texture too
   (note that the screen alters images' proportions)
-- Make UI that notifies if a port is using ALC or buffer (and tilt stick too if EU doesn't make it
-  legal in 3.6)
+- Make UI that notifies if a port is using ALC or buffer
 - Make custom StrapXX files with the build's brand, optimized in file size like P+'s ones
   - THEN Rename HD textures for it
 - Make a custom title screen with the build's brand, and make the logo appear in Brawl's intro
@@ -127,8 +122,8 @@ Elsewhere:
   *Ensure Kirby's Roy hair is updated to match default Roy's one after we finish Roy's costumes
   *A missing HD texture on the Subspace Emissary icon from the main menu?
   *Replace the outdated ZSS trophy texture
-  *Toon Link's Down Taunt had a texture error, fix it if P+ 2.3.2 didn't yet or if PM Porting
-   restores it
+  *Toon Link's Down Taunt had a texture error, fix it if P+ 2.3.2 and above didn't yet or if PM
+   Porting restores it
 - Make all macros visible on screen when needed to?
   *LRAstart on pause
   *LRAYstart on pause
@@ -175,6 +170,7 @@ In Dolphin:
 
 
 At the very end:
+- Replace the PM website in the loading screen with a link or message related to Reloaded
 - Remove all collect.vff and leave only one in the folder that loads it
 - Reset music frequency and tags once the build is done
 - Make sure there aren't screenshots, unused HD textures or dumped textures on Dolphin
