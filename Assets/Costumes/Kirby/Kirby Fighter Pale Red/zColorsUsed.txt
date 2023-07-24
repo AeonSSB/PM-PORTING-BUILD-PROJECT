@@ -1,0 +1,8 @@
+Skin: B0564D
+Cheek: 822B33
+Eye Base: 000000
+Iris: 163283
+Eye Highlight: D8D9D8
+Shoe: 361F1E
+Falco "Feather": A7393C
+Snake Beard: 4A2E19
