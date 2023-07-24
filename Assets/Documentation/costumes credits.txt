@@ -346,7 +346,7 @@ XX - Green SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff
 XX - Blue SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Black SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Red SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Forest Green SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, ART+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Forest Green SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Gold SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Mirage SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Brawl ZSS Definitive Edition by Cahalan
@@ -356,6 +356,27 @@ XX - Fusion SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuf
 XX - Zero Suit Samus Bailey by TheDarkMysteryMan, Moblin with credit to the PMDT
 XX - Zero Mission Outfit ZSS by davidvkimball, MarioDox, Ca$inoWolf, Shranux with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin, Snoe
 XX - Cadet Zero Suit Samus by Ryztiq, Art+, SJS, Nanobuds, Spex130, Shranux
+
+
+KIRBY
+XX - Default Kirby from Brawl
+XX - Yellow Kirby from Brawl
+XX - Blue Kirby from Brawl
+XX - Red Kirby from Brawl
+XX - Green Kirby from Brawl
+XX - White Kirby from Brawl
+XX - Black Kirby by PMDT
+XX - Purple Kirby by PMDT
+XX - Fighter Kirby by Nanobuds, SJS with credit to PMDT, Reserved, Snoe, T+DT
+XX - Yellow Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
+XX - Sapphire Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
+XX - Air Ride Red Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
+XX - Melee Green Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
+XX - Cowboy Kirby by SJS, Xenthos, Art+
+XX - Sepia Cowboy Kirby by SJS, Xenthos, Art+
+XX - Lavender Cowboy Kirby by SJS, Xenthos, Art+
+XX - Snow Cowboy Kirby by SJS, Xenthos, Art+
+XX - Emerald Cowboy Kirby by SJS, Xenthos, Art+
 
 
 MR. GAME & WATCH
