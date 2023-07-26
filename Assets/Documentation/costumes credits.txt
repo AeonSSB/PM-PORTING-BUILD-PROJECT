@@ -165,7 +165,7 @@ XX - Manky Donkey Kong by Ale64
 XX - Boxer Donkey Kong by Art+, SJS, Kirbeast, tyleto with credit to PMDT
 XX - Blue Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT
 XX - Green Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT
-XX - Gold Boxer DK by Art+, SJS, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy
+XX - Gold Boxer DK by Art+, SJS, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
 XX - Pink Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT, MetalLegacy, davidvkimball
 XX - Melee Green Boxer DK by Ale64 with credit to Art+, SJS, Kirbeast, tyleto, PMDT
 
@@ -332,7 +332,7 @@ XX - Clone Ball Armored Mewtwo by Ale64
 XX - Shadow Mewtwo by Moblin, davidvkimball, MetalLegacy, Efisio, Ale64 with credit to Moe, Jaystring
 XX - Green Shadow Mewtwo by Ale64 with credit to Efisio
 XX - Red Shadow Mewtwo by Ale64 with credit to Efisio
-XX - Blue Shadow Mewtwo by Ale64 with credit to Efisio
+XX - Blue Shadow Mewtwo by Ale64 with credit to Darquezze306
 XX - Yellow Shadow Mewtwo by Ale64 with credit to Efisio
 XX - Pokkén Player 2 Shadow Mewtwo by Ale64 with credit to Efisio
 
@@ -368,10 +368,10 @@ XX - White Kirby from Brawl
 XX - Black Kirby by PMDT
 XX - Purple Kirby by PMDT
 XX - Fighter Kirby by Nanobuds, SJS with credit to PMDT, Reserved, Snoe, T+DT
-XX - Yellow Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
-XX - Sapphire Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
-XX - Air Ride Red Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
-XX - Melee Green Fighter Kirby by Ale64, Efisio with credit to Nanobuds, SJS, PMDT, Reserved, Snoe
+XX - Yellow Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
+XX - Sapphire Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
+XX - Air Ride Red Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
+XX - Melee Green Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
 XX - Cowboy Kirby by SJS, Xenthos, Art+
 XX - Sepia Cowboy Kirby by SJS, Xenthos, Art+
 XX - Lavender Cowboy Kirby by SJS, Xenthos, Art+
