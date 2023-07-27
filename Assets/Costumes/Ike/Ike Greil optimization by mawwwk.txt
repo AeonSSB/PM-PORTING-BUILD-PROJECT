@@ -1,0 +1,3 @@
+To cut about 150 KB total from Ike Greil recolors:
+- convert the Ike05 texture to CMPR from RGB
+- set the urisokami texture to CI8 from RGB
