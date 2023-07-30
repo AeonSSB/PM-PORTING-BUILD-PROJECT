@@ -349,13 +349,34 @@ XX - Brawl Green Squirtle Remake by Ale64 with credit to Efisio
 XX - Brawl Blue Squirtle Remake by Ale64 with credit to Efisio
 XX - Brawl Brown Squirtle Remake by Ale64 with credit to Efisio
 XX - Tyrantrum Squirtle by Ale64 with credit to Efisio
-XX - Lime Squirtle by Ale64 with credit to Efisio
+XX - Lime Squirtle by Ale64 with credit to MetalLegacy, Efisio
 XX - Shinobi Squirtle by PMDT
 XX - White Shinobi Squirtle by PMDT
 XX - Red Shinobi Squirtle by MetalLegacy, Ale64 with credit to LnktheWolf, PMDT
 XX - Green Shinobi Squirtle by MetalLegacy, Ale64 with credit to LnktheWolf, PMDT
 XX - Scorpion Shinobi Squirtle by Ale64 with credit to Efisio, PMDT
 XX - Koga Shinobi Squirtle by Layell, Ale64 with credit to PMDT, Codex-9
+
+
+IVYSAUR
+XX - Default Ivysaur from Brawl
+XX - Red Ivysaur by PMDT
+XX - Shiny Ivysaur by PMDT
+XX - Blue Ivysaur by PMDT, Ale64
+XX - Purple Ivysaur by PMDT
+XX - White Ivysaur by PMDT, Ale64
+XX - Black Ivysaur by PMDT
+XX - Brawl Red Ivysaur Remake by Ale64 with credit to Efisio
+XX - Brawl Green Ivysaur Remake by Ale64 with credit to Efisio
+XX - Brawl Blue Ivysaur Remake by Ale64 with credit to Efisio
+XX - Brawl Brown Ivysaur Remake by Ale64 with credit to Efisio
+XX - Yellow Ivysaur by Efisio, MarioDox
+XX - Substitute Ivysaur by LnktheWolf, Art+, Nanobuds, Moblin, Ryztiq
+XX - Red Substitute Ivysaur by Ale64 with credit to LnktheWolf, Art+, Nanobuds, Moblin, Ryztiq
+XX - Dark Blue Substitute Ivysaur by LnktheWolf, Art+, Nanobuds, Moblin, Ryztiq
+XX - Yellow Substitute Ivysaur by LnktheWolf, Art+, Nanobuds, Moblin, Ryztiq
+XX - Pink Substitute Ivysaur by LnktheWolf, Nanobuds, Moblin, Ryztiq with credit to Art+, Layell
+XX - Purple Substitute Ivysaur by Ale64 with credit to LnktheWolf, Art+, Nanobuds, Moblin, Ryztiq
 
 
 ZERO SUIT SAMUS
