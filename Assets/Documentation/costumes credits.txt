@@ -421,6 +421,27 @@ XX - Snow Cowboy Kirby by SJS, Xenthos, Art+
 XX - Emerald Cowboy Kirby by SJS, Xenthos, Art+
 
 
+META KNIGHT
+XX - Default Meta Knight from Brawl
+XX - White Meta Knight from Brawl
+XX - Red Meta Knight from Brawl
+XX - Green Meta Knight from Brawl
+XX - Blue Meta Knight from Brawl
+XX - Pink Meta Knight from Brawl
+XX - Kirby's Adventure Meta Knight by tyleto, Efisio
+XX - Parallel Meta Knight by Efisio with credit to Layell
+XX - Dark Meta Knight by SJS, tyleto, KingJigglypuff with credit to PMDT
+XX - Galacta Meta Knight by SJS
+XX - Beta Galacta Meta Knight by Efisio with credit to SJS
+XX - Samurai Meta Knight by Art+, Dapperman, SJS, tyleto
+XX - Morpho Knight by Art+, SJS, tryptech, KingJigglypuff with credit to PMDT
+XX - Morpho Knight EX by Art+, SJS, tryptech, KingJigglypuff, Efisio with credit to PMDT
+XX - Golden Morpho Knight by Efisio, jetfantastic with credit to PMDT, Art+, SJS, tryptech, KingJigglypuff
+XX - Blue Morpho Knight by Art+, SJS, tryptech, KingJigglypuff, Efisio with credit to PMDT
+XX - Green Morpho Knight by Efisio, LnktheWolf with credit to PMDT, Art+, SJS, tryptech, KingJigglypuff
+XX - Violet Morpho Knight by Efisio, Layell with credit to PMDT, Art+, SJS, tryptech, KingJigglypuff
+
+
 IKE
 XX - Default Ike from Brawl
 XX - Yellow Ike from Brawl
