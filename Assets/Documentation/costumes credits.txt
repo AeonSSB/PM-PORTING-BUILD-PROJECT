@@ -274,6 +274,48 @@ XX - Green Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistati
 XX - Yellow Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
 
 
+ZELDA
+XX - Default Zelda from Brawl
+XX - Red Zelda from Brawl
+XX - Blue Zelda from Brawl
+XX - Purple Zelda from Brawl
+XX - Green Zelda from Brawl
+XX - Black Zelda from Brawl
+XX - Yellow Zelda by Ale64 with credit to Efisio
+XX - Boss Zelda by UnbuiltThunder
+XX - White Zelda by Moe
+XX - OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+XX - Red OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+XX - Blue OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+XX - Green OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+XX - Classic OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+XX - Yellow OoT Zelda by Ale64 with credit to Efisio, jetfantastic, Layell, SJS, tyleto, Art+, PMDT
+XX - Bloody OoT Zelda by Efisio, Ale64 with credit to Maxwell, SJS, tyleto, Layell, Art+, PMDT
+XX - Orange OoT Zelda by Ale64 with credit to Efisio
+XX - Hilda OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+
+
+SHEIK
+XX - Default Sheik from Brawl
+XX - Red Sheik from Brawl
+XX - Blue Sheik from Brawl
+XX - Purple Sheik from Brawl
+XX - Green Sheik from Brawl
+XX - Black Sheik from Brawl
+XX - Yellow Sheik by Efisio
+XX - Master Quest Sheik by UnbuiltThunder
+XX - White Sheik by Moe
+XX - OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Red OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Blue OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Green OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Purple OoT Sheik by Efisio with credit to SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Yellow Sheik by Efisio with credit to jetfantastic, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Bloody OoT Sheik by Efisio with credit to Maxwell, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Orange OoT Sheik by Efisio with credit to Viny, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+XX - Lorule OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+
+
 LINK
 XX - Default Link from Brawl
 XX - Red Link from Brawl
