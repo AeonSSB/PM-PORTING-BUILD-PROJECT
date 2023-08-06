@@ -1,7 +1,10 @@
 BATTLEFIELD
 Battlefield by PMDT, DukeItOut, Mawwwk
-L - Battlefield (Melee) by the PMDT, sporksparks, DukeItOut
+L - Battlefield (Melee) by PMDT, sporksparks, DukeItOut
 Z - Swamp Winter Battlefield by Kirbeast, FireStarMarth, t_MÃ­stico_t, nikeru, Axloid, Efisio
+
+FRIGATE HUSK
+Frigate Husk by Art+, Yorch, GRAND AZEL, SJ, mawwwk, Motobug
 
 YOSHI'S STORY
 Yoshi's Story by Mewtwo2000 with credit to Oshtoby
@@ -10,3 +13,14 @@ Z - Shy Guy's Toy Box by Nezha B. Rose, Survivian with credit to WorseDoughnut, 
 
 SPIRAL MOUNTAIN
 Spiral Mountain by Nezha, Azel, Survivian, Layell, Kapedani, Tyleto, Mewtwo2000, Monkazoie, SoN1c2001 with credit to King Bob Gaming, Dranakar, Slapsmash Team
+
+TINY FD
+Tiny FD by Santieur52, Melody with credit to MarioDox, Xerom, Mewtwo2000, PMDT
+
+WARIO LAND
+Wario Land by PMDT with credit to Kirbeast
+L - Wario's Castleware by MarioDox with credit to HeroTechne, AlGeorgeRomo, Smash 2 Team, WorseDoughnut, Nezha the Scout, PMDT, Kirbeast
+Z - Base - Macintosh Plus Ware Redux by Kirbeast with credit to PMDT, bizzozeron
+
+
+-Add the 3 fixed Wario Lands
