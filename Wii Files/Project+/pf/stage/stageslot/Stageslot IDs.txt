@@ -103,7 +103,7 @@
 7E - Poke Floats 2
 7F - Aeropolis
 80 - Wario's Castle
-81 - Waluigi Land
+81 - Frigate Husk
 82 - Dead Line
 83 - Radical Highway
 84 - Dracula's Castle
