@@ -81,9 +81,7 @@
 5F - Green Greens
 60 - Mute City
 61 - Twisty Trials Galaxy
-62 - Tiny FD
 63 - Rumble Falls (written as Rumble Falls NL)
-6A - Temple of Time
 6B - Metal Cavern (64) (written as Metal Cavern Retro)
 6C - Kingdom Adventure
 6D - Bob-Omb Battlefield
@@ -106,8 +104,8 @@
 81 - Frigate Husk
 82 - Dead Line
 83 - Radical Highway
-84 - Dracula's Castle
-85 - Planet Papetoon
+84 - Tiny FD
+85 - Temple of Time
 86 - Clanker's Cavern
 87 - Venus Lighthouse
 88 - Lunar Horizon
