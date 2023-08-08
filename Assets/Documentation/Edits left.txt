@@ -196,8 +196,8 @@ At the very end:
 
 --------------------------------------------------------------------------------------------------
 
-Character-specific notes (any has to be done after PM Porting):
-- Fix Fierce Deity's sword trail
+Character-specific notes:
+- Fix Fierce Deity's sword and the trail
 - Ensure any other trail uses the correct colours if costume-dependent
 - Restore Melee Fox's Shine model
 - Add Gen 2 shiny intro for costumes that need it
