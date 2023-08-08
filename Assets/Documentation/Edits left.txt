@@ -15,7 +15,6 @@ To do:
    specific one
   *Ensure both Kirby and Falco have the laser hue change in P+ for color blindness implemented,
    P+ missed one of them (at least in previous versions)
-- Check if P+ has new victory animations we can use
 - Implement the code for uncapped damage ratio
 - Implement the code for music selection before stages
   *If possible, fix the visual oddity after selecting a track
@@ -43,17 +42,22 @@ In the two Rules menus:
 In stages:
 - Port the wall from PM GHZ to P+'s one
 - Port P+'s visual improvements of Delfino's Secret to the original one
-- Check if Autumn Dream Land's water needs changes and add a pile of leaves from the GMO Fall file
+- Edit the water in Autumn Dream Land
 - Do a quality check of all other stages
     - Fix Peach's Castle (Melee)'s window and trees priority; remake the character lighting
+    - Remake the character lighting also for Kongo Falls and Great Bay, maybe also
+      Hyrule Castle, PS1, Mushroom Kingdom (Melee), Big Blue, Mushroom Kingdom II and
+      Icicle Mountain
+    - Icicle Mountain also lost a platform in the port from Melee, it needs to be restored
 - Some stages including Kongo Jungle have invisible targets that big hitboxes in the Z-axis hit,
   move them where nothing can possibly hit them or remove them if possible
+    - Check which stages other than Kongo Jungle have this issue
 - In Bowser's Castle, player 2 Ganon can fall through the stage after dropping the angel platform
   or at least he used to be able to, and he shouldn't
 - A rock in Distant Planet has a texture error, fix it in both Brawl and PM's stages as well as
   the planned GHZ alt we're making
-- Fix Lugia's idle animation in the dedicated Metal Cavern alt once the stage is done
 - Make the button alts that are unfinished
+- Complete the other edits mentioned in the google sheet
 - Hardcode even spawn points for doubles when 2v2 team match happens regardless of ports
 
 
