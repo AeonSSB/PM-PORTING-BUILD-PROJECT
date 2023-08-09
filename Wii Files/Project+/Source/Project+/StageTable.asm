@@ -164,14 +164,14 @@ half[110] |	# Stage Count + 2
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
 0x604E, 0x816F, 0x8472, 0x6351, | # Mute City, Frigate Husk, Tiny FD, Rumble Falls
-0x857A, 0x6553, 0x8270, 0x6755, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Bob-Omb Battlefield
-0x6856, 0x6957, 0x6A58, 0x6B59, | # Mushroom Gorge, Minecart Madness, Oil Drum Alley, Landing Site
-0x6C5A, 0x6D5B, 0x6E5C, 0x6F5D, | # Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country, White Wafers
-0x705E, 0x715F, 0x7260, 0x7361, | # Sky Islands, Sky Temple, The Final Battle, Planet Papetoon
-0x7462, 0x7563, 0x7664, 0x7765, | # Sprout Tower, Poke Floats 2, Aeropolis, Wario's Castle
-0x7866, 0x7967, 0x7A68, 0x7B69, | # Waluigi Land, Dead Line, Radical Highway, Dracula's Castle
-0x7C6A, 0x7D6B, 0x7E6C, 0x7F6D, | # Spiral Mountain, Clanker's Cavern, Venus Lighthouse, Lunar Horizon
-0x806E, 0x472A      			| # Hammer Express, Golden Temple
+0x857A, 0x6553, 0x8270, 0x806E, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Subspace
+0x6755, 0x6856, 0x6957, 0x6A58, | # Bob-Omb Battlefield, Mushroom Gorge, Minecart Madness, Oil Drum Alley
+0x6B59, 0x6C5A, 0x6D5B, 0x6E5C, | # Landing Site, Yoshi's Cookie, Yoshi's Story (Beta), Cookie Country
+0x6F5D, 0x705E, 0x715F, 0x7260, | # White Wafers, Sky Islands, Sky Temple, The Final Battle
+0x7361, 0x7462, 0x7563, 0x7664, | # Planet Papetoon, Sprout Tower, Poke Floats 2, Aeropolis
+0x7765, 0x7866, 0x7967, 0x7A68, | # Wario's Castle, Waluigi Land, Dead Line, Radical Highway
+0x7B69, 0x7C6A, 0x7D6B, 0x7E6C, | # Dracula's Castle, Spiral Mountain, Clanker's Cavern, Venus Lighthouse
+0x7F6D, 0x472A			   		| # Lunar Horizon, Golden Temple
 
 
 SkipStageTables:
