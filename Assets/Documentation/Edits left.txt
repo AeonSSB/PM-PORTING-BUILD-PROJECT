@@ -30,8 +30,29 @@ In the CSS:
 
 In the two Rules menus:
 - Manage the stage slots considered by the game for random selection
-  - THEN Manage the included button alts in the code that counts them to be only R and Z
+  - THEN Manage the included button alts in the code that counts them to be only L and Z
   - THEN Rename Peach's Castle, Yoshi's Island and others if needed in the random selection
+      - Information on current Random, to work with in different ways depending on how much
+	control we have on that menu and its stage loading:
+	- Stage slot:
+	  - Rumble Falls (Brawl) only loads the PM stage and not Brawl's too
+	- Random feature:
+	  - Rumble Falls in Random loads Rumble Falls (Brawl)
+	  - Golden Temple in Random loads Twisty Trials Galaxy;
+	    its image may not show the cosmetic revamp
+	- Cosmetic:
+	  - Delfino's Secret's image may not show the cosmetic update
+	  - Metal Cavern's image may not show the cosmetic update
+	  - Yoshi's Story's image may not show the cosmetic update
+	  - Rumble Falls has the PM stage's preview
+	  - Metroid Lab will need its name and image replaced once we complete Ceres Space Colony
+	  - Dream Land's image in Random hasn't been updated to show the mesh edit
+	  - Castle Siege's image in Random hasn't been updated to show the Brawl stage over P+'s
+	  - Distant Planet has the PM stage's preview
+	  - Infinite Glacier in Random hasn't been renamed to Summit, nor the image has been updated
+	  - Skyworld has the PM stage's preview
+	  - Sky Sanctuary Zone's image has not been updated to show the cosmetic revamp
+	    - In general, Random images and previews may get upgrades
 - Replace the blue of the assets with a shade based on the build's brand
 - Add a third option in Auto L-Cancel, "Per port", that makes the code in the code menu for
   per port ALC work; make it so that if this toggle in the Rules is set to either Off or On,
