@@ -85,9 +85,9 @@
 65 - Metal Cavern (64) (written as Metal Cavern Retro)
 67 - Bob-Omb Battlefield
 68 - Mushroom Gorge
-6F - Minecart Madness
-70 - Oil Drum Alley
-71 - Landing Site
+69 - Minecart Madness
+6A - Oil Drum Alley
+6B - Crateria
 72 - Yoshi's Cookie
 73 - Yoshi's Story (Beta)
 74 - Cookie Country
