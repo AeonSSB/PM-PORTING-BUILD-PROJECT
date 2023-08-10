@@ -35,7 +35,7 @@
 2B - Jungle Japes
 2C - Onett
 2D - Dream Land
-2E - Pokemon Stadium 2
+2E - Pokémon Stadium 2
 2F - Peach's Castle (64)
 30 - Corneria
 31 - Big Blue
@@ -63,24 +63,23 @@
 4D - WarioWare, Inc.
 4E - Mushroom Kingdom (Melee)
 4F - Rainbow Cruise
-50 - Poke Floats
+50 - Poké Floats
 51 - Delfino Plaza
 52 - Mushroomy Kingdom
 53 - Bridge of Eldin
 54 - Skyloft
-55 - Pokemon Stadium 2 (Brawl)
+55 - Pokémon Stadium 2 (Brawl)
 56 - New Pork City
 57 - 75m
 58 - Mario Bros.
 59 - Green Hill Zone (Brawl)
 5A - Super Happy Tree
 5B - Sector Z
-5C - Pokemon Stadium
+5C - Pokémon Stadium
 5D - Venom
 5E - Brinstar
 5F - Green Greens
 60 - Mute City
-61 - Twisty Trials Galaxy
 63 - Rumble Falls (written as Rumble Falls NL)
 65 - Metal Cavern (64) (written as Metal Cavern Retro)
 67 - Bob-Omb Battlefield
@@ -92,19 +91,24 @@
 6D - Yoshi's Story (Beta)
 6E - Cookie Country
 6F - White Wafers
-76 - Sky Islands
-77 - Sky Temple
-7B - Another Dimension
+70 - Sky Islands
+71 - Sky Temple
+72 - Another Dimension
+73 - Planet Papetoon
+74 - Sprout Tower
+75 - Poké Floats 2
+76 - Aeropolis
+77 - Wario's Castle
+79 - Dead Line
+7A - Radical Highway
+7B - Dracula's Castle
 7C - Spiral Mountain
-7D - Sprout Tower
-7E - Poke Floats 2
-7F - Aeropolis
+7D - Clanker's Cavern
+7E - Venus Lighthouse
 80 - Subspace
 81 - Frigate Husk
 82 - Kingdom Adventure
-83 - Radical Highway
+83 - Twisty Trials Galaxy
 84 - Tiny FD
 85 - Temple of Time
-86 - Clanker's Cavern
-87 - Venus Lighthouse
 88 - Lunar Horizon

@@ -83,6 +83,7 @@ In stages:
 
 
 In the SSS:
+- Fix the order of the slots for Subspace and Golden Temple to match the google sheet
 - Add the assets dedicated for L and Z alts that turn visible when used in the slot you hover on
 - Make the cursor start on the center of the stage slots instead of the center of the screen
 - Fix the stage slots' UI assets to make them all appear properly when every slot is selected
@@ -214,6 +215,8 @@ At the very end:
   *tracks used (and info similarly to how P+ handles this)
   *costumes featured
   *stages featured
+- Create a website to promote Project M 3.6R
+
 
 --------------------------------------------------------------------------------------------------
 
