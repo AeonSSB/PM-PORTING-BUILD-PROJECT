@@ -88,10 +88,10 @@
 69 - Minecart Madness
 6A - Oil Drum Alley
 6B - Crateria
-72 - Yoshi's Cookie
-73 - Yoshi's Story (Beta)
-74 - Cookie Country
-75 - White Wafers
+6C - Yoshi's Cookie
+6D - Yoshi's Story (Beta)
+6E - Cookie Country
+6F - White Wafers
 76 - Sky Islands
 77 - Sky Temple
 7B - Another Dimension
