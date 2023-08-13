@@ -178,6 +178,7 @@ In the Code Menu:
   should still work)
   *And any other code that uses L and R I might have forgotten
 - Add T+'s secondary code menu (and try to address issues if there still are any)
+- Fix Wario loading (in P+ it currently loads Biker Wario with plumber's cosmetics)
 - After everything else, add the EX characters toggle once we decide on which fighters to include
   as well as their files (uncertain)
   *They'll unlikely have 18 costumes like the main cast; maybe 9 or 6
