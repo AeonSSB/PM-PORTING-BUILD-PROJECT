@@ -9,12 +9,13 @@ To do:
 - Fix the lag on console
 - Port the remaining P+ 2.4.2 files
 - Recolor Peach's turnips
-- Implement P+ GFX except Dry Bowser's blue fire and Ganondorf's Up Tilt
+- Implement P+ GFX except Ganondorf's Up Tilt
   *Remake the Snake C4 effect
   *Make all Pokémon costumes with shinies have their sparkles, and when needed add the Gen 2
    specific one
   *Ensure both Kirby and Falco have the laser hue change in P+ for color blindness implemented,
    P+ missed one of them (at least in previous versions)
+- Port the random potion from P+ on Toon Link's taunt
 - Implement the code for uncapped damage ratio
 - Implement the code for music selection before stages
   *If possible, fix the visual oddity after selecting a track
@@ -22,8 +23,11 @@ To do:
 
 
 In the CSS:
-- Manage every character's costumes and UI (and replace stocks in if_adv_mngr too for Subspace)
+- Manage every character's costumes and UI
+  - Then replace stocks in if_adv_mngr too for Subspace
+  - Then replace info_corps.pac to fix stocks in All-Star mode
 - Replace the blue of the assets with a shade based on the build's brand
+- Restore the old rules' shape one and the two behind them, make the Versus shape less tall
 - Update the crop of the flash that appears when selecting a character to match the most recent
   CSP crop
 
@@ -34,8 +38,6 @@ In the two Rules menus:
   - THEN Rename Peach's Castle, Yoshi's Island and others if needed in the random selection
       - Information on current Random, to work with in different ways depending on how much
 	control we have on that menu and its stage loading:
-	- Stage slot:
-	  - Rumble Falls (Brawl) only loads the PM stage and not Brawl's too
 	- Random feature:
 	  - Rumble Falls in Random loads Rumble Falls (Brawl)
 	  - Golden Temple in Random loads Twisty Trials Galaxy;
@@ -108,6 +110,7 @@ In the SSS:
 
 
 Elsewhere:
+- Restore the diamond background of PM's main menu
 - Make icons visible near a BP when the port has ALC and/or Input Buffer active
   - THEN make the textures and HD textures
 - Apply the changes from the .txt with the custom tags
@@ -160,6 +163,7 @@ Elsewhere:
 
 
 In the Code Menu:
+- Rename the Project+ folder to 3.6R (or another name if it can't have ".")
 - Ensure these Code Menu options are included and can you see in-game if settings are not default:
   *Green flash when actionable
   *Yellow flash when in IASA
@@ -252,3 +256,4 @@ Edits done:
 - Implemented SSEEX features and Roy & Mewtwo levels
     (not Knuckles, Giga Bowser or Wario-man unless we add every character from the EX toggle)
 - Perfected the CSP crop in sc_selcharacter
+- Patch the tether glitch for Yoshi's Story
