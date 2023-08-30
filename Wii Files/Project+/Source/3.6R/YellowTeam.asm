@@ -16,3 +16,4 @@ op mr r4, r23 @ $8081DEF4     # / Yellow shields and death plumes
 word 0x59454C4C @ $8045B62C   # \
 word 0x4F572054 @ $8045B630   #  | YELLOW TEAM on the results screen
 word 0x45414D00 @ $8045B634   # / 
+word 0x00000002 @ $80408A40   # Player name on results screen green -> yellow
