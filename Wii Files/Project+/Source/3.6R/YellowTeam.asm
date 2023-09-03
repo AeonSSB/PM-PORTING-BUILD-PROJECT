@@ -17,3 +17,4 @@ word 0x59454C4C @ $8045B62C   # \
 word 0x4F572054 @ $8045B630   #  | YELLOW TEAM on the results screen
 word 0x45414D00 @ $8045B634   # / 
 word 0x00000002 @ $80408A40   # Player name on results screen green -> yellow
+word 0x40400000 @ $8045ACD8   # Panel/"Ready for the Next Battle" text green -> yellow
