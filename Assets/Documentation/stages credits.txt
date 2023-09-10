@@ -3,21 +3,17 @@ PAGE 1
 
 BATTLEFIELD by PMDT, DukeItOut, Mawwwk
 L - Battlefield (Melee) by PMDT, sporksparks, DukeItOut
-Z - Swamp Winter Battlefield by Kirbeast, FireStarMarth, t_Mistico_t, nikeru, Axloid, Efisio
 
 DELFINO'S SECRET by PMDT
 
 DREAM LAND by PMDT with credit to Jkl72
 L - Autumn Dream Land by MetalLegacy, Ryztiq, mawwwk with credit to XtremeDragon, Yohan1044, Jkl72, Yorch, Efisio
-Z - Great Deku Tree Dream Land by FingerStripes
 
 FINAL DESTINATION by PMDT
 L - Melee-Brawl Final Destination by MarioDox, Xerom, Mewtwo2000, PMDT
-Z - Retro Finale: Final Destination 64 by Cahalan, C2P0, Ryztiq
 
 FOUNTAIN OF DREAMS by PMDT with credit to Mewtwo2000
 L - Crystal Cave of Dreams by Moblin, Dranakar, Scout, WorseDoughnut, DukeItOut, mawwwk with credit to Mewtwo2000
-Z - Fairy Fountain by Yorch with credit to Mewtwo2000
 
 FRIGATE HUSK by Art+, Yorch, GRAND AZEL, SJ, mawwwk, Motobug
 
@@ -26,7 +22,6 @@ L - Green Hill Zone Generations by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, ty
 
 METAL CAVERN by P+DT, DukeItOut, Ryztiq
 L - Mushroomy Cavern by Motobug, davidvkimball, Scout, Wyld with credit to Skeleton, LlamaJuice, jlclpepe, PMDT
-Z - Whirl Islands Cavern by mawwwk with credit to Dranakar, Yohan1044, WorseDoughnut, davidvkimball, Lensho
 
 POKEMON STADIUM 2 by PMDT with credit to Mewtwo2000, mawwwk, Layell, Kirbeast
 L - Ho-Oh Stadium 2 by Yohan1044 with credit to Scout, davidvkimball, LazyRed, Mewtwo2000, mawwwk, LenSho, Kirbeast, Layell
@@ -35,25 +30,21 @@ RUMBLE FALLS by PMDT
 L - Clanker's Falls by Nezha, Survivian, WTails (wario358), Starwaffle, Mewtwo2000, Demonslayerx8, soopercool101, fudgepop01, MarioDox, Eon with credit to Yorch2296, davidvkimball, Dranakar, PMEX Remix Team
 
 SKY SANCTUARY ZONE by nnebf, GRAND AZEL, Yorch with credit to Burrotis/SoN1c2001, Noserus
-Z - Chaos Angel by Nezha, Layell, Kirbeast, GRAND AZEL
+L - Chaos Angel by Nezha, Layell, Kirbeast, GRAND AZEL
 
 SMASHVILLE from Brawl (Y -> K.K. Concert)
 L - Sakuraville by t_Mistico_t with credit to rihuganon, davidvkimball, DukeItOut (Y -> K.K. Concert)
-Z - Beachville by Moblin with credit to pharoahfawcett, rihuganon, mawwwk (Y -> K.K. Concert)
 
 TEMPLE OF TIME by Yorch, GRAND AZEL, mawwwk, Link Tahuterasu Spirit, Skilar the Creative Caveman, SJ, nnebf, Kirbeast, DukeItOut, Motobug
 L - OoT Temple of Time by Art+, GRAND AZEL, Motobug, Kapedani, SJ, Yorch with credit to Dranakar, davidvkimball, Yohan1044
-Z - New Siege by Yorch with credit to PMDT
 
 TINY FD by Santieur52, Melody with credit to MarioDox, Xerom, Mewtwo2000, PMDT
 
 WARIO LAND by PMDT with credit to Kirbeast
 L - Wario's Castleware by MarioDox with credit to HeroTechne, AlGeorgeRomo, Smash 2 Team, WorseDoughnut, Nezha the Scout, PMDT, Kirbeast
-Z - Base - Macintosh Plus Ware Redux by Kirbeast with credit to PMDT, bizzozeron
 
 YOSHI'S STORY by Mewtwo2000 with credit to Oshtoby
 L - Yoshi's Fortune by Ryztiq with credit to Dranakar, Wingedkoopa67, ALM5252
-Z - Shy Guy's Toy Box by Nezha B. Rose, Survivian with credit to WorseDoughnut, Ca$ino Wolf, Pleasant250, Moosehunter, PAVGN, zelda23, Goldtex, InkxtheSquid, Link Tahuterasu Spirit
 
 
 
