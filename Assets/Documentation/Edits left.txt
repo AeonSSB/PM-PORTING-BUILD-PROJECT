@@ -85,14 +85,12 @@ In stages:
 
 
 In the SSS:
-- Fix the order of the slots for Subspace and Golden Temple to match the google sheet
-- Add the assets dedicated for L and Z alts that turn visible when used in the slot you hover on
+- Make the stage preview template
+    - Add stats textures above the previews (Z axis) for the stages in page 1
+    - Add the assets dedicated for L alts that turn visible when used in the slot you hover on
+    - Restore game icons above the series icons?
 - Make the cursor start on the center of the stage slots instead of the center of the screen
-- Fix the stage slots' UI assets to make them all appear properly when every slot is selected
-- Add the stages (pac, param, modules, sawnd) and UI (except final banners) to their empty slots
-  in pages 1 and 4, well as the button alts for page 1 that exist plus the Training Room alts
-  - THEN Port Spain's water visual cue on all three FoD stages
-  - THEN Make the page 1 and 2 alts that don't exist yet
+- Add the remaning stages (in red in the chart) and update what needs changes (in yellow)
   - THEN Adjust crates and barrels for all stages
   - THEN Set from Common2 the stages loaded in Classic Mode
   - THEN Check if All-Star and other modes need the same fix in Classic Mode for the loaded stages
@@ -100,10 +98,8 @@ In the SSS:
   - THEN Make Rules banners for each slot
   - THEN Make banners for each slot
   - THEN Make the My Music menu identical to the SSS
-  - THEN Make an horizontal version of the SSS and a toggle for it
-    (and import WI build's "STAGE SELECT" text animation?
-    also note that previews of the horizontal SSS should be based on PM, not TE)
-- Add stats icons above the previews (Z axis) for the stages in page 1
+  - THEN Make the horizontal version of the SSS and a toggle for it
+    (and import WI build's "STAGE SELECT" text animation?)
 - Port 50CC for SSS to have stocks in the upper left corner of the screen after we do characters'
   cosmetics
 - Replace the blue with a shade based on the build's brand
@@ -137,6 +133,7 @@ Elsewhere:
   (Not My Music, the Brawl menu dedicated to music of the game itself rather than stages)
 - Make HD textures for the result screen's port information work (bit color depth might be related)
 - Implement the All-star mode stock fix after we finish characters' cosmetics
+    - (Is is the same mentioned in the CSS section of the text?)
 - Make the descriptions of ALC and Buffer in the two Rules menus say "for beginners" or similar
 - Replace the grass in the "ways to play" screen with a Smashbox and have an HD texture too
   (note that the screen alters images' proportions)
@@ -163,7 +160,7 @@ Elsewhere:
 
 
 In the Code Menu:
-- Rename the Project+ folder to 3.6R (or another name if it can't have ".")
+- Rename the Project+ folder to 3.6R (or something like Reloaded if it can't have ".")
 - Ensure these Code Menu options are included and can you see in-game if settings are not default:
   *Green flash when actionable
   *Yellow flash when in IASA
