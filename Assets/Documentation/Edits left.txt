@@ -1,7 +1,6 @@
 To do:
 - Take the updated Lunar Horizon and PS2 transformations 1:1s from WI P+
 - Fix all known bugs related to gameplay not being 1:1 with 3.6
-  *Snake's grenade timing
   *Ice Climbers' P+ infinite
   *Kirby's hats
   *C-stick behaviour after Samus' SWD
@@ -69,6 +68,7 @@ In stages:
     - Check which stages other than Kongo Jungle have this issue
 - In Bowser's Castle, player 2 Ganon can fall through the stage after dropping the angel platform
   or at least he used to be able to, and he shouldn't
+- Ensure every stage has the crates properly assigned
 - Complete the other edits mentioned in the google sheet
 - Hardcode even spawn points for doubles when 2v2 team match happens regardless of ports
 
@@ -80,7 +80,6 @@ In the SSS:
     - Restore game icons above the series icons?
 - Make the cursor start on the center of the stage slots instead of the center of the screen
 - Add the remaning stages (in red in the chart) and update what needs changes (in yellow)
-  - THEN Adjust crates and barrels for all stages
   - THEN Set from Common2 the stages loaded in Classic Mode
   - THEN Check if All-Star and other modes need the same fix in Classic Mode for the loaded stages
   [After all stages' individual changes are done]
