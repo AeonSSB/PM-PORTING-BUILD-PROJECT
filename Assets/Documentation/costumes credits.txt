@@ -72,18 +72,18 @@ XX - Red Peach from Brawl
 XX - Blue Peach from Brawl
 XX - Green Peach from Brawl
 XX - White Peach from Brawl
-XX - Yellow Peach by Moe
-XX - Black Daisy Peach by Ale64
+XX - Yellow Peach by Efisio, Moe
 XX - Fire Peach by PMDT, Art+
-XX - Shadow Queen by PMDT, Shranux
-XX - Blue Shadow Queen by Shranux with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-XX - Green Shadow Queen by Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-XX - Yellow Shadow Queen by Shranux with credit to PMDT
-XX - Human Shroob by Shranux
 XX - Sunshine Peach by mawwwk, Art+ with credit to PMDT
-XX - Blue Sunshine Peach by Efisio, Ale64 with credit to mawwwk, Art+, PMDT
-XX - Green Sunshine Peach by Efisio, Ale64 with credit to mawwwk, Art+, PMDT
-XX - Yellow Sunshine Peach by Efisio, Ale64 with credit to mawwwk, Art+, PMDT
+XX - Red Sunshine Peach by Efisio with credit to N!ck, mawwwk, Art+, PMDT
+XX - Blue Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+XX - Green Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+XX - Yellow Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+XX - Shadow Queen by PMDT, Shranux
+XX - Red Shadow Queen by Efisio with credit to Shranux, PMDT
+XX - Blue Shadow Queen by Shranux, Efisio with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+XX - Green Shadow Queen by Efisio, Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+XX - Yellow Shadow Queen by Shranux, Efisio with credit to PMDT
 
 
 BOWSER
