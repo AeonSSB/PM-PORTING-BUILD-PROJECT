@@ -80,10 +80,10 @@ XX - Blue Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMD
 XX - Green Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
 XX - Yellow Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
 XX - Shadow Queen by PMDT, Shranux
-XX - Red Shadow Queen by Efisio with credit to Shranux, PMDT
-XX - Blue Shadow Queen by Shranux, Efisio with credit to PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-XX - Green Shadow Queen by Efisio, Ale64 with credit to Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-XX - Yellow Shadow Queen by Shranux, Efisio with credit to PMDT
+XX - Red Shadow Queen by Efisio with credit to N!ck, Shranux, PMDT
+XX - Blue Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+XX - Green Shadow Queen by Efisio, Ale64 with credit to N!ck, Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+XX - Yellow Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT
 
 
 BOWSER

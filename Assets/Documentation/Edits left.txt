@@ -105,6 +105,11 @@ Elsewhere:
   *Bowser's all star mode
   *Ice Climbers' all star mode
   *Lucario's all star mode
+  *Roy's all star mode
+  *Roy's classic mode
+- Update all the event images that need to be replaced
+  *Event 30 (Sonics)
+	(apparently the texture's in 2 locations, menu\single\event_list and menu2\sc_sel_event)
 - Make the custom crop for the Result Screen Portraits?
 - "Net-MyMusic.asm is missing Salty Runback Expansion Stage Music Fix and the other MyMusic
   address fix" as of 2.3.2, take the fixes if in the current P+ or make them
