@@ -1,0 +1,286 @@
+To do:
+- Which assets require their palettes to be regenerated after doing replacements?
+- Which menus have each set of textures located in the game?
+
+The cases where textures include all costumes are mentioned.
+Note that PM builds tend to omit the "_en" part of the file's name.
+
+-------------------------------------------------------------------------
+
+BPs:
+
+
+info\portrite
+
+"InfFace[number].brres"'s textures (all costumes)
+
+-------------------------------------------------------------------------
+
+CSPs:
+
+
+menu\common\char_bust_tex
+
+"MenSelchrFaceB[number].brres"'s textures (all costumes)
+
+
+menu\selcharacter
+
+"char_bust_tex_lz77.pac"'s Misc Datas' textures named "MenSelchrFaceB.[number]"
+
+
+menu2
+
+"sc_selcharacter_en.pac"'s char_bust_tex_lz77's Misc Datas' textures named "MenSelchrFaceB.[number]"
+
+-------------------------------------------------------------------------
+
+Stocks:
+
+
+info2
+
+"info_corps_en.pac"'s Misc Data [110]'s textures named "InfStc.[number]" (all costumes)
+
+"info_corps_mg_en.pac"'s Misc Data [110]'s textures named "InfStc.[number]" (all costumes)
+
+[NOT VANILLA BRAWL] "info.pac"'s Misc Data [30]'s textures named "InfStc.[number]" (all costumes)
+
+
+menu\common
+
+"StockFace1pTex_en.brres"'s textures named "InfStc.[number]"
+
+"StockFaceTex_en.brres"'s textures named "InfStc.[number]" (all costumes)
+
+
+menu2
+
+"if_adv_mngr_en.pac"'s Misc Data [8]'s textures named "InfStc.[number]"
+
+"sc_adv_seal_en.pac"'s Misc Data [140]'s textures named "InfStc.[number]"
+
+"sc_selcharacter_en.pac"'s Misc Data [90]'s textures named "InfStc.[number]" (all costumes)
+
+"sc_selmap_en.pac"'s Misc Data [40]'s textures named "InfStc.[number]" (all costumes)
+
+
+stage\melee
+
+"STGRESULT.pac"'s Misc Data [120]'s textures (all costumes)
+
+Note:
+Misc Data [110]'s AnmTexPat's InfStockFace file handles the palettes. This file NEEDS to be
+ported from info2\info.pac after adding stock textures there and generating PAT0 for each.
+
+-------------------------------------------------------------------------
+
+Replay icons:
+
+
+menu\collection
+
+"Replay_en.brres"'s textures named "MenReplayChr.[number]"
+
+
+menu\main
+
+"MenuMain_en.pac"'s Texture Data [11]'s textures named "MenReplayChr.[number]"
+
+
+menu\single
+
+"event_list_en.brres"'s textures named "MenReplayChr.[number]"
+
+
+menu2
+
+"mu_menumain_en.pac"'s Texture Data [11]'s textures named "MenReplayChr.[number]"
+
+"sc_sel_event_en.pac"'s Misc Data [40]'s textures named "MenReplayChr.[number]"
+
+-------------------------------------------------------------------------
+
+Records icons:
+
+
+menu\main
+
+"MenuMain_en.pac"'s Texture Data [11]'s textures named "MenWifiListIcn.[number]"
+
+
+menu\wifi
+
+"wifi_friend_list_en.brres"'s textures named "MenWifiListIcn.[number]"
+
+
+menu2
+
+"mu_menumain_en.pac"'s Texture Data [11]'s textures named "MenWifiListIcn.[number]"
+
+-------------------------------------------------------------------------
+
+CSS icons:
+
+
+menu\adventure
+
+"selchrcd_common_en.brres"'s textures named "MenSelchrChrFace.[number]"
+
+
+menu\adventure\comer_tex
+
+"tex_face[number].brres"'s textures
+
+
+menu\common
+
+"CharaFaceTex_en.brres"'s textures named "MenSelchrChrFace.[number]"
+
+
+menu2
+
+"sc_adv_seal_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrFace.[number]"
+
+"sc_selcharacter_en"'s Misc Data [70]'s textures named "MenSelchrChrFace.[number]"
+
+-------------------------------------------------------------------------
+
+Classic mode preview (render, 2 names, eyes, edited series icon):
+
+
+menu\intro\enter
+
+"chr[number].brres"'s textures
+
+-------------------------------------------------------------------------
+
+Classic Mode Credits portrait
+
+
+stage\melee
+
+"STGCHARAROLL.pac"'s textures named "ChrRollFighter.[number]"
+
+-------------------------------------------------------------------------
+
+Trophy preview:
+
+
+menu\collection
+
+"Figure_en.brres"'s textures named "MenCollDisply.[number]"
+
+
+toy\figdisp
+
+"figdisp.pac" and "figdisp[number].brres"'s textures
+
+
+stage\melee
+
+"STGCHARAROLL.pac"'s textures named "ChrRollFigure.[number]"
+
+-------------------------------------------------------------------------
+
+CSS names:
+
+
+menu\adventure
+
+"selchrcd_common_en.brres"'s textures named "MenSelchrChrNmS.[number]"
+
+
+menu\common
+
+"CharaFaceTex_en.brres"'s textures named "MenSelchrChrNmS.[number]"
+
+
+menu2
+
+"sc_adv_seal_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"sc_selcharacter_en"'s Misc Data [70]'s textures named "MenSelchrChrNmS.[number]"
+
+-------------------------------------------------------------------------
+
+Names:
+
+
+info
+
+"Info_en.brres"'s textures named "MenSelchrChrNmS.[number]"
+
+
+info2
+
+"info_boss_battle_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_boss_battle_mg_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_corps_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_corps_mg_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_homerun_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_homerun_mg_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_mg_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_training_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+"info_training_mg_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNmS.[number]"
+
+
+menu\selcharacter
+
+"multi_en.brres"'s textures named "MenSelchrChrNm.[number]"
+
+
+menu\wifi
+
+"wifi_watch_en.brres"'s textures named "MenSelchrChrNm.[number]"
+
+
+menu2
+
+"if_adv_mngr_en.pac"'s Misc Data [0]'s textures named "MenSelchrChrNmS.[number]"
+
+"sc_selcharacter_en.pac"'s Misc Data [30]'s textures named "MenSelchrChrNm.[number]"
+
+-------------------------------------------------------------------------
+
+Opening sunset characters:
+
+
+menu\titleloop
+
+"sunset_en.brres"'s textures
+
+
+menu2
+
+"sc_title_en.pac"'s Misc Data [50]'s textures
+
+-------------------------------------------------------------------------
+
+Classic and All Star mode ending images:
+
+
+menu\intro\ending
+
+"EndingAll[number].pac"'s Model Data [4]'s texture
+
+"EndingSimple[number].pac"'s Model Data [4]'s texture
+
+-------------------------------------------------------------------------
+
+Challenger Approaching silhouettes:
+
+
+menu\cmnwindow\challenger
+
+"Challenger[number].pac"'s Model Data [1]'s texture "GmSimpleChr[number]"
