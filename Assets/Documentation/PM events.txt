@@ -1,0 +1,195 @@
+From the SmashWiki:
+
+"Most events either have infinite time due to stage changes (such as The Yoshi Team of 50) or
+automatically fail the players from time limits quickly reaching 0 seconds (such as All MINE! and
+The Great Remodeling Battle).
+In events that allow choosing any character, choosing Mewtwo or Roy will make the game think that
+Lucario or Marth, respectively, have been chosen in terms of whenever or not Lucario and Marth
+should wear an alternate costume. Event 40 is a recreation of Melee's Showdown (with Mewtwo as an
+opponent), where selecting Lucario has the same effect."
+
+Not sure if this has been fixed in P+.
+
+
+Ensure the proper stage is loaded in all events: even many from vanilla Brawl are loaded from the
+SD in P+ rather than the iso and that requires us to set again many locations.
+P+ makes some slots chosen in common2 redirect to button alts for some events through ASLHelper.asm,
+which is inside Source\LegacyTE. Not sure of other things this file does.
+
+
+
+Documentation of PM events with notes on issues like event icons, character icons and stage/music
+mismatch to address as well as trivia that give more context to the changes.
+
+
+1p
+
+1 - Two Trouble Kings (Mario vs Bowser and DDD on Delfino)
+	Note: in Brawl this event takes place in Delfino Plaza, but maybe DS suits the fight better
+2 - Landmaster Ignition (Fox using Final Smash vs Sheik and Meta Knight on Corneria)
+3 - Pink Ball Repulsion (Meta Knight stopping Kirby from surviving after the initial Halberd phase)
+4 - A Skyworld Engagement (Pit vs the Dark Pit costume on PM Skyworld)
+	Note: this event in Brawl has Pit fight Warios while he destroys the platforms; the PM
+	      version is more interesting although maybe repetitive with #18
+5 - Become the Champion! (Ivysaur vs Squirtle on Saffron City)
+	Oddities: icon being Ivy and Squirlte on another stage;
+		  Mewtwo mentioned as the player and with PT's icon;
+		  the fight being on Saffron City - although being on PS2 would repeat #8's theme,
+		  ignoring repetitions, since the event has 3 stocks per player it'd be nice to
+		  have one stock per Pokémon simulating a PT without switches;
+		  Brawl has a similar event, ignoring repetitions with #8, where it's a 3 stock PT
+		  ditto with one party member locked out as its stock is gone; if it's possible to
+		  give both the player and the CPU one stock with each Pokémon in an All-Star
+		  Versus-like scenario, that on PM PS2 would be the best update to this event
+6 - Bird in Darkest Night (black Falco vs G&W on a Brinstar that becomes fully dark)
+	Note: Brawl here has Super Bowser Bros., a neat unique event where you need to reach the
+	      end of the level in Mushroomy Kingdom with 1 stock as you deal with CPU Marios
+7 - Diddy Kong Panic (DK vs many small Diddy Kongs on Bowser's Castle hazard on)
+	Oddities: PM Bowser's Castle doesn't fit the event much, nor the music suits the stage;
+		  the description mentions a lost race... and in fact the Brawl version has this
+		  same event run on Mario Circuit which solves the issue; the old icon should also
+		  be restored;
+		  also, seems like this event crashes in Hard Mode on vanilla 3.6, that should be
+		  fixed if not done already
+8 - Go! Triple Finish! (Pikachu vs Squirtle, Ivysaur and Charizard on PM PS2)
+	Oddities: the opposing trio has different costumes but the defaults in the icon;
+		  seems like this happens in Brawl too, but with Squirtle being red instead of
+		  PM green; all should have default, or at worst we can arrange a fitting
+		  combination of costumes for them in this event
+9 - Clash of Swords (Ike vs Link and Roy on PM Battlefield)
+	Oddities: is... the icon showing PM Castle Siege? Music is also from FE but that suits the
+		  event theme at least;
+		  this is the second event PM replaces entirely, here Ike fights two Diddys and a
+		  giant DK as Brawl Castle Siege transforms, it's called The Monster Beneath the
+		  Earth
+10 - All-Star Battle Regulars (any character vs the first 8 fighters on PM FD)
+11 - Yoshi's Rainbow (ICs vs 6 Yoshis that need to be defeated in order on Yoshi's Story)
+	Note: Rainbow Cruise like in Brawl suits this event better
+12 - Sleeping in the Eggs (Yoshi vs Pikachu and Kirby in Brawl Yoshi's Island)
+13 - Dragoon Strike (Kirby defeating 3 Warios on Halberd with Dragoon parts)
+14 - Sproutage of the Flower Pikmin (Olimar waiting vs Pikachu and Jigglypuff on PM Distant Planet)
+	Note: Brawl Distant Planet could suit this event better
+15 - The Hammer of the King (Dedede and 2 more vs a giant metal one on Smashville)
+16 - Power Suit ON! (ZSS on Frigate Orpheon vs 2 more ZSSs waiting for her Final Smash)
+17 - Brisk Expedition (Ice Climbers vs white Ivysaur and DK on Infinite Glacier)
+	Note: third fully replaced event, in Brawl there's Super Waterfall Climb where Zelda climbs
+	      Brawl Rumble Falls while surviving from 2 ICs CPUs with infinite stocks; neat event
+18 - Dark Link Duel (Link vs Dark Link at 200 HP on Hyrule Temple)
+	Note: this event in Brawl is in Bridge of Eldin and the icon shows that as well; it's a
+	      better setting than Hyrule Castle and should be restored
+19 - Metal Battle in Metal Cavern (Metal Wario vs Metal Mario and Luigi on asymmetric Metal Cavern)
+	Note: in Brawl this event is called Wario Bros. and takes place in Mario Bros. without the
+	      Metal gimmick; I find PM's version to be an improvement
+20 - All-Star Battle x 1 (any character vs 8 Brawl newcomers on PM Battlefield)
+	Oddities: Charizard replaced PT, but PT is still in the event icon; the description
+		  could be updated to replace "eight" with "eig- ahem! Ten" and the fight have
+		  Squirtle and Ivysaur added to the pool of enemies
+21 - Visit to Onett (Lucas vs Ness on Onett)
+22 - Monkeys Unite (Diddy and Giant DK vs Sheik and Lucario on PM Rumble Falls)
+23 - Kirby's Mass Attack (any character vs many Kirbies on PM Dreamland)
+	Note: another replacement from Brawl, where originally there's Molten Norfair with Samus
+	      having to enter the capsule when the lava hits against Fox and Captain Falcon, all
+	      three at 300%
+24 - Come On, Blue Falcon (Captain Falcon with his Final Smash vs 2 R.O.B.s on Port Town Aero Dive)
+25 - The Aura Is With Me (Lucario vs Sheik and Ness on PM PS2)
+26 - The Slow and Easy Life (Ness vs Olimars on Smashville K.K. version)
+27 - Three-Beast Carnage (R.O.B. vs giant Bowser, Charizard and DK on Fourside)
+	Note: this event originally takes place in New Pork City; not sure on the best stage there
+	      as the theme may be better reflected on New Pork, but gameplay-wise Fourside could be
+	      best
+28 - Don't Get Hit (Captain Falcon vs Fox and Marth on PM Battlefield)
+	Note: of course this event isn't in Brawl; there we have Flower Blooms in the Echoes with
+	      Peach having to turn Hanenbow leaves on while an Olimar CPU fights her;
+	      this event could run Melee Battlefield instead of the Brawl themed PM one
+29 - All-Star Semifinal Regulars (any character vs the 4 unlockables from Smash 64 on Yoshi's Story)
+	Oddities: Yoshi's Story and Brawl's Melee intro remix don't clash well...
+	          In Brawl this event takes place on... Yoshi's Island Melee? It's not much better,
+		  we should select another stage ourselves
+30 - Sonic Boom (Sonic vs 15 Sonics on PM GHZ)
+	Note: TAS gameplay shows one CPU's BP looking corrupted, not sure if it's just due to the
+	      speed at which the CPUs are defeated and replaced
+31 - The Ultimate Bodyguard (Marth and Zelda vs many Ganondorfs on PM Castle Siege)
+	Oddities: the icon seems to show a different stage...? But Brawl's like that too
+32 - The Bowser Challenge (any character vs 3 Bowsers on FoD)
+	Note: TAS gameplay shows corrupted music in this event; it's SMB Underground which
+	      also mismatches the stage;
+	      in Brawl the event Bird in Darkest Night is there instead of #6!
+33 - Advent of the Evil King (Ganondorf vs Link, Zelda and Pit on Temple)
+34 - All-Star Battle Melee (any character vs 8 Melee newcomers on PM PS2)
+	Oddities: mismatch between stage and Brawl's Melee CSS remix, which Brawl also has...
+35 - The Visitor to Flat Zone (G&W vs black Toon Link, Peach and Jigglypuff on Flat Zone 2)
+36 - High-Tech Special Forces (Snake vs Samus, Captain Falcon and Wolf on Shadow Moses Island)
+37 - The Pirate Airship (Toon Link vs 2 Yoshis on Pirate Ship)
+38 - The Wolf Hunts the Fox (Wolf vs Fox and Falco on Lylat Cruise)
+39 - All-Star Battle x2 (any character vs 8 newcomers on Infinite Glacier)
+	Oddities: stage mismatch with the theme and sped up joke Brawl theme; in Brawl this event
+		  is in Skyworld with "Menu 1" from Brawl, better stage with similar mismatch issue
+40 - The Final Battle (any character vs Giga Bowser, Mewtwo and Ganondorf on PM FD)
+41 - The FINAL Final Battle (any character vs Sonic, Snake and mega Mario on PM FD)
+
+5 Brawl-only 1p events: Super Bowser Bros., The Monster Beneath the Earth, Super Waterfall Climb,
+			Molten Norfair, Flower Blooms in the Echoes.
+
+Only if events can go beyond 41 I would aim to restore them as extra events, with "The FINAL FINAL
+Final Battle" where you fight Mewtwo and Roy with any character on PM FD as an extra 47th.
+If that's not doable we should scrap the idea.
+
+
+Co-op
+
+1 - Two Trouble Kings (Mario & Kirby vs Bowser and Dedede on Delfino)
+	Note: in Brawl this event takes place in Delfino Plaza, but maybe DS suits the fight better
+2 - Master the Pokémon Tag Battle (PT & Pikachu vs 3 stock Charizard and 1 stock Mewtwo on Saffron)
+	Oddities: the first CPU could alternate PT's trio between stocks; Saffron is not as good of
+		  a pick as PM PS2 which the image also seems to show; player 1 is Ivysaur so the
+		  character icon should reflect that;
+		  in Brawl it's PT & Pikachu vs an identical team and with the switch lockout
+		  gimmick, we should copy the same gimmick like in the single player version of the
+		  event if possible
+3 - Fastest, Shortest, Sudden Death (Yoshi & DDD vs Lucas and Pit on Wario Land)
+	Oddities: the icon shows FD instead of WL... and that same icon is in Brawl...
+4 - The War of Rumble Falls (DK and Diddy vs Diddy, DDD, Zard, giant Bowser and giant DK on PM RF)
+	Note: Brawl has another event here, The DK Tag Calamity with DK and Diddy fighting 4 Diddys
+	      and 1 DK on Mario Circuit with the help of the Lighting item, so it's a co-op version
+	      of #7
+5 - The Yoshi Team of 50 (MK & Pit vs 50 Yoshis on Peach's Castle 64 HD)
+	Note: the event suits Rainbow Cruise better like in Brawl
+6 - Unwanted Suitors (Zelda & ZSS vs invisible Luigi and Falcon on Port Town)
+7 - Battle of the Dark Sides (Link & Samus vs dark versions on Hyrule Castle)
+	Oddities: the icon shows Bridge of Eldin, also Link and Samus have normal costumes being
+		  Dark Link and Purple Samus - the event should function like in Brawl with 2
+		  shadows on Bridge of Eldin
+8 - All MINE! (Wario & Bowser vs Mario and Luigi on PM Skyworld)
+9 - Those Who Wait in Onett (Lucas & Ness vs Luigi and Yoshi on Onett)
+10 - The R.O.B.'s of Tomorrow (Lucario & ICs vs 5 R.O.B.s with two being giant on Infinite Glacier)
+	Note: not sure on what fits better here between Infinite Glacier, Summit and anything else
+11 - Treasure Tussle (Luigi & Peach vs Marth and Ike on Luigi's Mansion)
+	Note: in Brawl this event is called The Great Remodeling Battle and has a different
+	      description, requiring players not to damage the stage; we should restore name and
+	      description from Brawl and make the stage be loaded from the iso for this event
+12 - Come Back, Falcon Flyer! (Falcon & Olimar vs Samus and PM Blue Samus on Big Blue)
+	Oddities: the icon shows Falcon with Final Smash aura but isn't using it...? And Brawl does
+		  the same
+13 - Blades of the Quick and Mighty (Marth & Ike vs Link, MK and Roy on Temple)
+	Note: this event has Ganondorf instead of Roy in Brawl, but Roy suits it better
+14 - The Dark Guardians (Ganondorf and Wolf vs giant Zard and DK on Fourside)
+	Note: Brawl has New Pork City here, but Fourside should work better
+15 - Four Swords Brawl (Toon Link & Toon Link vs two more on Pirate Ship)
+16 - Where you At? (Falcon & Fox vs Fox on PM Battlefield)
+	Oddities: the event could use Melee Battlefield instead; here Brawl has Jigglypuff's Great
+		  Comeback where Puff and G&W fight Lucas and Ness on Castle siege
+17 - Sonic & Mario (Sonic & Mario vs other Sonic and Mario on PM GHZ)
+18 - The New Weapon of Shadow Moses (Snake & R.O.B. vs two R.O.B.s on Shadow Moses Island)
+19 - Shadow of Andross (Fox & Falco vs Wolf on Lylat Cruise)
+20 - The Final Battle for Two (any character vs Wario, DDD, Wolf, MK, Ganon & Bowser on PM FD)
+21 - The True All-Star Battle (any character vs the full roster on PM Battlefield)
+	Oddities: the intended track is PM's CSS theme, which doesn't suit the fight;
+		  also, only Charizard of the trio fights you - ZSS and Sheik are there but not
+		  Zelda and Samus so it almost makes sense, but still the trio is technically
+		  separate individuals, so...
+
+2 Brawl-only co-op events: The DK Tag Calamity, Jigglypuff's Great Comeback
+
+Only if co-op events can go beyond 21 I would aim to restore them as extra events, with an extra
+24th event I would think about.
+If that's not doable we should scrap the idea.

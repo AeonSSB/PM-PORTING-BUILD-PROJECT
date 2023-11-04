@@ -125,7 +125,7 @@ Elsewhere:
   (Not My Music, the Brawl menu dedicated to music of the game itself rather than stages)
 - Make HD textures for the result screen's port information work (bit color depth might be related)
 - Implement the All-star mode stock fix after we finish characters' cosmetics
-    - (Is is the same mentioned in the CSS section of the text?)
+    - (Is it the same mentioned in the CSS section of the text?)
 - Make the descriptions of ALC and Buffer in the two Rules menus say "for beginners" or similar
 - Replace the grass in the "ways to play" screen with a Smashbox and have an HD texture too
   (note that the screen alters images' proportions)
