@@ -9,5 +9,5 @@ float -23.5 @ $806B9204 // Bottom: -23.5
 ##################################################
 Default SSS Cursor Position [standardtoaster, SOJ]
 ##################################################
-float   0.25 @ $806B901C
-float -18.45 @ $806B9020
+float 16.5 @ $806B901C # x position
+float -14 @ $806B9020 # y position
