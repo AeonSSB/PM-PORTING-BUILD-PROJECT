@@ -1,0 +1,53 @@
+Differences from TE and P+ to port:
+
+Mewtwo		Colored trails for the tail like in P+
+Sonic		Has etc trails for the spindashes on different color costumes PAC based;
+		ensure side B and down B trails are differenciated like in P+
+DK		Bruising on boxer DK PSA based
+Lucario		Shiny has sparkles PSA Based;
+		P+ added subtle different trail colors based on meter strength
+Ike		P+ sword trails (check these with Ike players, an outdated white trail was
+		not liked but apparently Ike got a new one later on that matches the Brawl
+		artstyle better);
+		ensure sword shape changes are considered for both Armored Ike and Greil Ike
+		if needed
+Meta Knight	Different GFX for sword shape changes
+Zard		Shiny has sparkles, add gen 2 shiny sparkles and sound for gen 2 shiny
+Ivysaur		Shiny has sparles;
+		razor leaf changes glow on certain costumes PSA Based;
+		add gen 2 shiny sfx and gfx if needed;
+		Ivysaur gained a new victory animation
+Pikachu		Shiny has sparkles PSA Based, add gen 2 shiny sfx and gfx if needed
+Pit		Arrow color varies on costumes PSA and Model Based;
+		sword trails and similar effects change based on alts too
+Mario		Ensure capes either match PM or P+'s management of their colours
+Link		P+ sword trails (and fix Fierce Deity's one);
+		implement alt models for Bow, Boomerang and Hookshot;
+Toon Link 	Implement the different sword effects for alts for sword shape changes
+Jigglypuff	Add gen 2 shiny sfx and gfx if needed
+Rob		Wii rob light is blue PSA Based
+Squirtle	Shiny sparkles PSA Based, add gen 2 shiny sfx and gfx if needed
+Ganondorf	Sword taunt draws model from PAC
+Peach		Ensure models spawned have unique textures for the costumes (Fsmash,
+		Toads too?), and make new hues for turnips based on the feedback in
+		the server
+Snake		C4 edit in the server
+Samus		In P+ she got the color flash effects on the beam switch taunt adjusted,
+		they blink out oddly in PM
+Kirby & Falco	Make the accessibility edit on the hue for laser match
+Yoshi		Egg break GFX
+
+
+   P+ changes deliberately keeping out:
+   - Ganon Up Tilt dark GFX
+   - Mario Fair fire/electric GFX
+
+
+   Unsure on:
+   - blue fire for Dry Bowser, needs testing to see how it looks with Flame Breath
+   - Scrapped PM intro animation for Link
+
+
+To check:
+- Is the GFX of Mewtwo having stored a fully charged Shadow Ball different between vanilla
+  3.6, P+ and current 3.6R?
