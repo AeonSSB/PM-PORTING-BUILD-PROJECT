@@ -1,0 +1,37 @@
+CSS:
+- CSS icons
+- CSPs
+- Stocks (Classic, All Star)
+
+In-game:
+- BPs
+- Stocks
+
+Result Screen:
+- CSPs
+- Stocks
+
+Event Match:
+- Replay icons
+
+Subspace save slots menu:
+- Records icons
+
+Subspace sticker menu:
+- CSS icons
+
+Subspace character select for a level:
+- CSS icons
+
+Subspace level:
+- BPs
+- Stocks
+
+Group Records:
+- Replay icons
+- Records icons
+
+Wifi menus:
+- Records icons (can their replacements be tested in-game?)
+
+Subspace clear: extra BP-like texture to be added manually

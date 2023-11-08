@@ -1,7 +1,3 @@
-The list is missing Blender credits and costume IDs, which will be added later on.
-
-
-
 WARIO
 XX - Plumber Wario from Brawl
 XX - Red Plumber Wario from Brawl
@@ -66,24 +62,25 @@ XX - Purple Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0
 
 
 PEACH
-XX - Default Peach from Brawl
-XX - Orange Peach from Brawl
-XX - Red Peach from Brawl
-XX - Blue Peach from Brawl
-XX - Green Peach from Brawl
-XX - White Peach from Brawl
-XX - Yellow Peach by Efisio, Moe
-XX - Fire Peach by PMDT, Art+
-XX - Sunshine Peach by mawwwk, Art+ with credit to PMDT
-XX - Red Sunshine Peach by Efisio with credit to N!ck, mawwwk, Art+, PMDT
-XX - Blue Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
-XX - Green Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
-XX - Yellow Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
-XX - Shadow Queen by PMDT, Shranux
-XX - Red Shadow Queen by Efisio with credit to N!ck, Shranux, PMDT
-XX - Blue Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-XX - Green Shadow Queen by Efisio, Ale64 with credit to N!ck, Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-XX - Yellow Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT
+Scene by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Peach from Brawl
+- Orange Peach from Brawl
+- Red Peach from Brawl
+- Blue Peach from Brawl
+- Green Peach from Brawl
+- White Peach from Brawl
+- Yellow Peach by Efisio, Moe
+- Fire Peach by PMDT, Art+
+- Sunshine Peach by mawwwk, Art+ with credit to PMDT
+- Red Sunshine Peach by Efisio with credit to N!ck, mawwwk, Art+, PMDT
+- Blue Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+- Green Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+- Yellow Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+- Shadow Queen by PMDT, Shranux
+- Red Shadow Queen by Efisio with credit to N!ck, Shranux, PMDT
+- Blue Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+- Green Shadow Queen by Efisio, Ale64 with credit to N!ck, Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+- Yellow Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT
 
 
 BOWSER
@@ -317,24 +314,25 @@ XX - Lorule OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
 
 
 LINK
-XX - Default Link from Brawl
-XX - Red Link from Brawl
-XX - Blue Link from Brawl
-XX - White Link from Brawl
-XX - Yellow Link from Brawl
-XX - Dark Link from Brawl
-XX - Purple Link by Cahalan
-XX - Brown Link by Cahalan
-XX - Ordon Link by Cahalan, Malicious Bugman
-XX - OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Red OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Blue OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Black OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Lavender OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+, Efisio with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Yellow OoT Link by Efisio with credit to Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Pink OoT Link by Efisio with credit to Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Orange OoT Link by Efisio with credit to Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-XX - Fierce Diety Link by Moe, AlGeorgeRomo, Bird of Light, Skilar, SJS, fireball, tyleto, Xenthos, SatoshiKura, Crixler, ledgerewskie, Layell, Aghanim, PizzaDog, Jigglypoof21, Draco, Mach 7, Nanobuds, Theytah with credit to PMDT
+Scene by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Link from Brawl
+- Red Link from Brawl
+- Blue Link from Brawl
+- White Link from Brawl
+- Yellow Link from Brawl
+- Dark Link from Brawl
+- Purple Link by Cahalan
+- Brown Link by Cahalan
+- Ordon Link by Cahalan, Malicious Bugman
+- OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Red OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Blue OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Black OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- White OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+, Efisio with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Yellow OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Pink OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Orange OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Fierce Deity Link by Moe, AlGeorgeRomo, Bird of Light, Skilar, SJS, fireball, tyleto, Xenthos, SatoshiKura, Crixler, ledgerewskie, Layell, Aghanim, PizzaDog, Jigglypoof21, Draco, Mach 7, Nanobuds, Theytah with credit to PMDT
 
 
 TOON LINK
