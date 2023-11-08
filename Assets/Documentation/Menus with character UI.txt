@@ -34,4 +34,4 @@ Group Records:
 Wifi menus:
 - Records icons (can their replacements be tested in-game?)
 
-Subspace clear: extra BP-like texture to be added manually
+Classic Mode clear: extra BP-like texture to be added manually
