@@ -32,6 +32,11 @@ Group Records:
 - Records icons
 
 Wifi menus:
-- Records icons (can their replacements be tested in-game?)
+- Records icons
 
-Classic Mode clear: extra BP-like texture to be added manually
+Classic Mode preview:
+- full body render
+- eyes
+
+Classic Mode clear:
+- extra texture similar to a Records icon
