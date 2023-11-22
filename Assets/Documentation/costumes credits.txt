@@ -420,24 +420,25 @@ XX - Purple Substitute Ivysaur by Ale64 with credit to LnktheWolf, Art+, Nanobud
 
 
 CHARIZARD
-XX - Default Charizard from Brawl
-XX - White Charizard by PMDT
-XX - Blue Charizard by PMDT
-XX - Green Charizard by PMDT
-XX - Shiny Charizard by PMDT
-XX - Cyan Charizard by PMDT
-XX - Brawl Red Charizard Remake by Ale64 with credit to Efisio
-XX - Brawl Green Charizard Remake by Ale64 with credit to Efisio
-XX - Brawl Blue Charizard Remake by Ale64 with credit to Efisio
-XX - Brawl Brown Charizard Remake by Ale64 with credit to Efisio
-XX - GSC Shiny Charizard by Ale64
-XX - Haxorus Charizard by Ale64 with credit to Efisio, Rexy, Layell
-XX - Armored Charizard by PMDT
-XX - Black Armored Charizard by PMDT, Layell
-XX - Lugia Armored Charizard by Ale64 with credit to Efisio, Rexy, PMDT
-XX - Emerald Armored Charizard by Ale64 with credit to Efisio, PMDT
-XX - DPPt Shiny Armored Charizard by Ale64 with credit to Efisio, PMDT
-XX - Ampharos Armored Charizard by Ale64 with credit to Efisio, PMDT
+Scene by Efisio with credit to Cahalan, Mach7, PMHD Team, Armored Charizard pose by Efisio with credit to PMDT
+- Default Charizard from Brawl
+- White Charizard by Efisio with credit to N!ck, PMDT
+- Blue Charizard by Efisio with credit to N!ck, PMDT
+- Green Charizard by Efisio with credit to N!ck, PMDT
+- Shiny Charizard by Efisio with credit to N!ck, PMDT
+- Light Blue Charizard by Efisio with credit to N!ck, PMDT
+- Brawl Red Charizard by Efisio with credit to N!ck, Brawl
+- Brawl Green Charizard by Efisio with credit to N!ck, Ale64, Brawl
+- Brawl Blue Charizard by Efisio with credit to N!ck, Ale64, Brawl
+- Brawl Brown Charizard by Efisio with credit to N!ck, Ale64, Brawl
+- GSC Shiny Charizard by Ale64
+- Brown Charizard by Ale64, Efisio with credit to Rexy, Layell, N!ck
+- Armored Charizard by PMDT
+- White Armored Charizard by PMDT, Layell
+- Blue Armored Charizard by Ale64 with credit to Efisio, Rexy, PMDT
+- Green Armored Charizard by Ale64, Efisio with credit to N!ck, PMDT
+- Red Armored Charizard by Ale64, Efisio with credit to N!ck, PMDT
+- Yellow Armored Charizard by Ale64 with credit to Efisio, PMDT
 
 
 ZERO SUIT SAMUS
