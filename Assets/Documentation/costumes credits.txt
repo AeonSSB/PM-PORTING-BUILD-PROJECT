@@ -357,24 +357,25 @@ XX - Conductor Toon Link by SJS, DemonBoy with credit to PMDT
 
 
 MEWTWO
-XX - Default Mewtwo by PMDT
-XX - Shiny Mewtwo by PMDT
-XX - Red Mewtwo by PMDT
-XX - Blue Mewtwo by PMDT
-XX - Brown Mewtwo by PMDT
-XX - Yellow Mewtwo by Efisio with credit to Moe
-XX - Armored Mewtwo by PMDT
-XX - Gold Armored Mewtwo by PMDT, Ale64
-XX - Rocket Armored Mewtwo by PMDT, Ale64
-XX - Emerald Armored Mewtwo by Ale64, Efisio
-XX - Blue Armored Mewtwo by Ale64, Efisio with credit to LnktheWolf
-XX - Clone Ball Armored Mewtwo by Ale64
-XX - Shadow Mewtwo by Moblin, davidvkimball, MetalLegacy, Efisio, Ale64 with credit to Moe, Jaystring
-XX - Green Shadow Mewtwo by Ale64 with credit to Efisio
-XX - Red Shadow Mewtwo by Ale64 with credit to Efisio
-XX - Blue Shadow Mewtwo by Ale64 with credit to Darquezze306
-XX - Yellow Shadow Mewtwo by Ale64 with credit to Efisio
-XX - Pokkén Player 2 Shadow Mewtwo by Ale64 with credit to Efisio
+Scene by Efisio with credit to Cahalan, Mach7, PMHD Team, default Mewtwo pose by the PMHD Team
+- Default Mewtwo by PMDT
+- Shiny Mewtwo by PMDT
+- Red Mewtwo by PMDT
+- Blue Mewtwo by PMDT
+- Grey Mewtwo by PMDT
+- Yellow Mewtwo by Efisio with credit to Moe, PMDT
+- Brown Mewtwo by Efisio with credit to N!ck, PMDT
+- Cyan Mewtwo with credit to N!ck, PMDT
+- Shadow Mewtwo by Moblin, davidvkimball, MetalLegacy, Efisio, Ale64 with credit to Moe, Jaystring, PMDT
+- Armored Mewtwo by PMDT
+- Yellow Armored Mewtwo by PMDT, Ale64, Efisio with credit to N!ck
+- Red Armored Mewtwo by PMDT, Ale64, Efisio
+- Green Armored Mewtwo by Ale64, Efisio with credit to N!ck, PMDT
+- Blue Armored Mewtwo by Ale64, Efisio with credit to LnktheWolf, N!ck, PMDT
+- Pink Armored Mewtwo by Ale64, Efisio with credit to N!ck, PMDT
+- Orange Armored Mewtwo by Efisio, Ale64 with credit to N!ck, PMDT
+- White Armored Mewtwo by Efisio, Ale64 with credit to N!ck, PMDT
+- Black Armored Mewtwo by Efisio, Ale64 with credit to N!ck, PMDT
 
 
 SQUIRTLE
