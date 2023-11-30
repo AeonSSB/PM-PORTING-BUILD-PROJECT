@@ -27,8 +27,6 @@ In the CSS:
   - Then replace info_corps.pac to fix stocks in All-Star mode
 - Replace the blue of the assets with a shade based on the build's brand
 - Restore the old rules' shape one and the two behind them, make the Versus shape less tall
-- Update the crop of the flash that appears when selecting a character to match the most recent
-  CSP crop
 
 
 In the two Rules menus:
