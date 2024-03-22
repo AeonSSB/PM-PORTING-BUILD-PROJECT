@@ -1,0 +1,49 @@
+Notes on files from Project+'s "2.4.2 to 2.5.2" download:
+
+- Unsure about how the files in Project+/Source/ProjectM can affect gameplay in ways that
+  derail from 3.6 behaviour
+	- The content of Project+/Source/ProjectM/SpecialModes should be safe
+
+- Unsure about Project+/Source/Project+/Hurtbox.asm too
+
+- At first glance, I get the impression that some codes are meant to perform the same ways
+  as older ones but in a more readable format
+
+- Inside Project+/Source/Project+ check if the new StageFiles.asm and StageTable.asm have changes
+  we should port to our own files and aren't only about stages Project+ added
+
+- I don't know where that's stored, but we shouldn't include the "Sword trails visible during
+  hitlag" code
+
+_________________________________________________________________________________________________
+
+Remembering that our build takes P+EX as a base alongside initial edits by Pyro for 3.6 gameplay
+porting, it'd be best to have a backup of P+ 2.3.2 and the latest P+EX for any needed comparison
+between files.
+
+A quick way to check for any unwanted change in physics after porting files would be to test the
+Stomping Tantrum tech, as we know it's not in P+.
+
+_________________________________________________________________________________________________
+
+I recommend we handle any files from pf/fighter separately at a later time unless specific codes
+require us to do otherwise.
+From these files we generally have to take and port individual things to avoid accidental moveset
+changes. Said things can be checked from the patch notes in P+'s website.
+For example:
+
+- From FitPokeLizardon we need to take what makes an ember appear during his lounging victory
+  pose, assuming we didn't address this on our own already. Needs a check in-game.
+
+- Ganondorf facial expressions during sword taunt attack (the punch is not in 3.6 iirc)
+
+_________________________________________________________________________________________________
+
+When it comes to stages, we should take the files from melee_No_Item_EX and replace the stages we
+use with the updated ones, then mass update all stages in the build for the new item features
+through the dedicated plugin. Do note that of our stages PS2 Bell Tower and Poké Floats 2 break
+with that plugin, those need to be updated manually. (P+ also mentions Bell Tower, but it's a
+stage we're not using)
+One important note is that we happened to update stages ourselves at times. When replacing a
+stage with the equivalent from melee_No_Item_EX we should check the file history of our stage on
+github to look for any updates we happened to make.
