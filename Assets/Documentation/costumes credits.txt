@@ -20,24 +20,25 @@ XX - Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit t
 
 
 MARIO
-XX - Default Mario from Brawl
-XX - Fire Mario from Brawl
-XX - Blue Mario from Brawl
-XX - Green Mario from Brawl
-XX - Black Mario from Brawl
-XX - Wario Mario from Brawl
-XX - Sunshine Mario by SJS, starwaffle
-XX - Dr. Mario by PMDT, SJ, Xenthos
-XX - Black Dr. Mario by PMDT, SJ, Xenthos
-XX - Red Dr. Mario by PMDT, SJ, Xenthos
-XX - Green Dr. Mario by PMDT, SJ, Xenthos
-XX - Blue Dr. Mario by PMDT, SJ, Xenthos
-XX - Yellow Dr. Mario by JeffMii with credit to PMDT, SJ, Xenthos
-XX - Builder Mario by SJ
-XX - Flying Builder Mario by SJ
-XX - Green Builder Mario by SJ
-XX - Blue Builder Mario by SJ
-XX - Yellow Builder Mario by Efisio with credit to SJ
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Mario from Brawl
+- Fire Mario from Brawl
+- Brawl Blue Mario from Brawl
+- Green Mario from Brawl
+- Black Mario from Brawl
+- Yellow Mario from Brawl
+- Orange Mario by Mach7
+- Blue Mario by Mach7
+- Builder Mario by SJ
+- Dr. Mario by PMDT, SJ, Xenthos
+- Black Dr. Mario by PMDT, SJ, Xenthos
+- Red Dr. Mario by PMDT, SJ, Xenthos
+- Green Dr. Mario by PMDT, SJ, Xenthos
+- Blue Dr. Mario by PMDT, SJ, Xenthos
+- Yellow Dr. Mario by JeffMii with credit to PMDT, SJ, Xenthos
+- Purple Dr. Mario by Moe with credit to PMDT, Legacy TE Team, SJ, Xenthos
+- Brown Dr. Mario by Efisio with credit to PMDT, SJ, Xenthos
+- Pink Dr. Mario by Efisio with credit to PMDT, SJ, Xenthos
 
 
 LUIGI
@@ -62,7 +63,7 @@ XX - Purple Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0
 
 
 PEACH
-Scene by Efisio with credit to Cahalan, Mach7, PMHD Team
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Default Peach from Brawl
 - Orange Peach from Brawl
 - Red Peach from Brawl
@@ -84,45 +85,47 @@ Scene by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 BOWSER
-XX - Default Bowser from Brawl
-XX - Black Bowser from Brawl
-XX - Red Bowser from Brawl
-XX - Blue Bowser from Brawl
-XX - White Bowser from Brawl
-XX - Brown Bowser from Brawl
-XX - Red Mario Golf Bowser by Ale64 with credit to Ubergruvin, Efisio
-XX - Blue Mario Golf Bowser by Ale64
-XX - Smash 4 Yellow Bowser by Moe
-XX - Dry Bowser by PMDT, Art+
-XX - Red Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT, Art+
-XX - Blue Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT, Art+
-XX - Green Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT, Art+
-XX - Gold Dry Bowser by Efisio with credit to PMDT, Art+
-XX - Dark Bones Dry Bowser by Vinegar with credit to Ale64, Efisio, PMDT, Art+
-XX - Brown Dry Bowser by Dapperman with credit to PMDT, Art+
-XX - Pink Dry Bowser by Ale64 with credit to Efisio, PMDT, Art+
-XX - Purple Dry Bowser by Ale64 with credit to Zeuvia, PMDT, Art+
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Bowser from Brawl
+- Black Bowser from Brawl
+- Brawl Red Bowser from Brawl
+- Brawl Blue Bowser from Brawl
+- White Bowser from Brawl
+- Brown Bowser from Brawl
+- Red Bowser by Efisio with credit to N!ck, Ale64, Ubergruvin
+- Blue Bowser by Efisio with credit to N!ck, Ale64
+- Green Bowser by Efisio with credit to N!ck
+- Yellow Bowser by Efisio with credit to N!ck, Moe
+- Albino Bowser by Efisio
+- Reptile Bowser by Efisio
+- Dry Bowser by PMDT, Art+
+- Red Dry Bowser by Efisio with credit to LnktheWolf, PMDT, Art+
+- Blue Dry Bowser by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT, Art+
+- Green Dry Bowser by Ale64 with credit to LnktheWolf, Efisio, PMDT, Art+
+- Gold Dry Bowser by Efisio with credit to PMDT, Art+
+- Purple Dry Bowser by Ale64 with credit to Zeuvia, PMDT, Art+
 
 
 GIGA BOWSER
-XX - Giga Bowser from Brawl
-XX - Black Giga Bowser by PMDT
-XX - Red Giga Bowser by PMDT
-XX - Blue Giga Bowser by PMDT
-XX - White Giga Bowser by PMDT
-XX - Brown Giga Bowser by PMDT
-XX - Red Mario Golf Giga Bowser by Ale64 with credit to Ubergruvin, Efisio
-XX - Blue Mario Golf Giga Bowser by Ale64
-XX - Smash 4 Yellow Giga Bowser by Moe
-XX - Giga Dry Bowser by PMDT
-XX - Red Giga Dry Bowser Recolor by Efisio with credit to LnktheWolf, PMDT
-XX - Blue Giga Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT
-XX - Green Giga Dry Bowser Recolor by Ale64 with credit to LnktheWolf, Efisio, PMDT
-XX - Gold Giga Dry Bowser by Efisio with credit to PMDT
-XX - Dark Bones Giga Dry Bowser by Vinegar with credit to Efisio, PMDT
-XX - Brown Giga Dry Bowser by Dapperman, MetalLegacy with credit to PMDT
-XX - Pink Giga Dry Bowser by Ale64 with credit to Efisio, PMDT
-XX - Purple Giga Dry Bowser by Ale64 with credit to Zeuvia, PMDT
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Giga Bowser from Brawl
+- Black Giga Bowser by PMDT
+- Brawl Red Giga Bowser by PMDT
+- Brawl Blue Giga Bowser by PMDT
+- White Giga Bowser by PMDT
+- Brown Giga Bowser by PMDT
+- Red Giga Bowser by Ale64 with credit to Efisio, N!ck, Ubergruvin
+- Blue Giga Bowser by Ale64 with credit to Efisio, N!ck
+- Green Giga Bowser by Ale64 with credit to Efisio, N!ck
+- Yellow Giga Bowser by Ale64 with credit to Efisio, N!ck, Moe
+- Albino Giga Bowser by Ale64 with credit to Efisio
+- Reptile Giga Bowser by Ale64 with credit to Efisio
+- Giga Dry Bowser by PMDT
+- Red Giga Dry Bowser by Efisio, Ale64 with credit to LnktheWolf, PMDT
+- Blue Giga Dry Bowser by Ale64 with credit to LnktheWolf, Nanobuds, Efisio, PMDT
+- Green Giga Dry Bowser by Ale64 with credit to LnktheWolf, Efisio, PMDT
+- Gold Giga Dry Bowser by Efisio, Ale64 with credit to PMDT
+- Purple Giga Dry Bowser by Ale64 with credit to Zeuvia, PMDT
 
 
 YOSHI
@@ -272,49 +275,49 @@ XX - Yellow Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistat
 
 
 ZELDA
-XX - Default Zelda from Brawl
-XX - Red Zelda from Brawl
-XX - Blue Zelda from Brawl
-XX - Purple Zelda from Brawl
-XX - Green Zelda from Brawl
-XX - Black Zelda from Brawl
-XX - Yellow Zelda by Ale64 with credit to Efisio
-XX - Boss Zelda by UnbuiltThunder
-XX - White Zelda by Moe
-XX - OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-XX - Red OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-XX - Blue OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-XX - Green OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-XX - Classic OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-XX - Yellow OoT Zelda by Ale64 with credit to Efisio, jetfantastic, Layell, SJS, tyleto, Art+, PMDT
-XX - Bloody OoT Zelda by Efisio, Ale64 with credit to Maxwell, SJS, tyleto, Layell, Art+, PMDT
-XX - Orange OoT Zelda by Ale64 with credit to Efisio
-XX - Hilda OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Default Zelda from Brawl
+- Red Zelda from Brawl
+- Blue Zelda from Brawl
+- Purple Zelda from Brawl
+- Green Zelda from Brawl
+- Black Zelda from Brawl
+- Yellow Zelda by Ale64 with credit to Efisio
+- Boss Zelda by UnbuiltThunder, Efisio
+- White Zelda by Moe
+- OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Red OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Blue OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Classic OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Green OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Yellow OoT Zelda by Ale64 with credit to Efisio, jetfantastic, Layell, SJS, tyleto, Art+, PMDT
+- Royal Red OoT Zelda by Efisio, Ale64 with credit to Maxwell, SJS, tyleto, Layell, Art+, PMDT
+- Orange OoT Zelda by Ale64 with credit to Efisio
+- Hilda OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
 
 
 SHEIK
-XX - Default Sheik from Brawl
-XX - Red Sheik from Brawl
-XX - Blue Sheik from Brawl
-XX - Purple Sheik from Brawl
-XX - Green Sheik from Brawl
-XX - Black Sheik from Brawl
-XX - Yellow Sheik by Efisio
-XX - Master Quest Sheik by UnbuiltThunder
-XX - White Sheik by Moe
-XX - OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Red OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Blue OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Green OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Purple OoT Sheik by Efisio with credit to SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Yellow Sheik by Efisio with credit to jetfantastic, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Bloody OoT Sheik by Efisio with credit to Maxwell, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Orange OoT Sheik by Efisio with credit to Viny, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-XX - Lorule OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Default Sheik from Brawl
+- Red Sheik from Brawl
+- Blue Sheik from Brawl
+- Purple Sheik from Brawl
+- Green Sheik from Brawl
+- Black Sheik from Brawl
+- Yellow Sheik by Efisio
+- Master Quest Sheik by UnbuiltThunder, Efisio
+- White Sheik by Moe
+- OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Red OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Blue OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Purple OoT Sheik by Efisio with credit to SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Green OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Yellow Sheik by Efisio with credit to jetfantastic, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Royal Red OoT Sheik by Efisio with credit to Maxwell, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Orange OoT Sheik by Efisio with credit to Viny, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Lorule OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
 
 
 LINK
-Scene by Efisio with credit to Cahalan, Mach7, PMHD Team, OoT Link pose by tryptech
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, OoT Link pose by tryptech
 - Default Link from Brawl
 - Red Link from Brawl
 - Blue Link from Brawl
@@ -357,7 +360,7 @@ XX - Conductor Toon Link by SJS, DemonBoy with credit to PMDT
 
 
 MEWTWO
-Scene by Efisio with credit to Cahalan, Mach7, PMHD Team, default Mewtwo pose by the PMHD Team
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, default Mewtwo pose by the PMHD Team
 - Default Mewtwo by PMDT
 - Shiny Mewtwo by PMDT
 - Red Mewtwo by PMDT
@@ -421,7 +424,7 @@ XX - Purple Substitute Ivysaur by Ale64 with credit to LnktheWolf, Art+, Nanobud
 
 
 CHARIZARD
-Scene by Efisio with credit to Cahalan, Mach7, PMHD Team, Armored Charizard pose by Efisio with credit to PMDT
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Armored Charizard pose by Efisio with credit to PMDT
 - Default Charizard from Brawl
 - White Charizard by Efisio with credit to N!ck, PMDT
 - Blue Charizard by Efisio with credit to N!ck, PMDT
