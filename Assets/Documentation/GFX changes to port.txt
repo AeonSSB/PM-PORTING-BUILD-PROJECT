@@ -25,7 +25,7 @@ Link		P+ sword trails (and fix Fierce Deity's one);
 		implement alt models for Bow, Boomerang and Hookshot;
 Toon Link 	Implement the different sword effects for alts for sword shape changes
 Jigglypuff	Add gen 2 shiny sfx and gfx if needed
-Rob		Wii rob light is blue PSA Based
+Rob		Wii ROB light is blue PSA Based, Virtual Boy ROB is red and black
 Squirtle	Shiny sparkles PSA Based, add gen 2 shiny sfx and gfx if needed
 Ganondorf	Sword taunt draws model from PAC
 Peach		Ensure models spawned have unique textures for the costumes (Fsmash,

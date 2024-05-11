@@ -1,4 +1,5 @@
 To do:
+- Test that port priority behaves like 3.6 with 2 Snakes
 - Take the updated Lunar Horizon and PS2 transformations 1:1s from WI P+
 - Fix all known bugs related to gameplay not being 1:1 with 3.6
   *Ice Climbers' P+ infinite
@@ -6,7 +7,7 @@ To do:
   *C-stick behaviour after Samus' SWD
   *Dedede's Waddledash
 - Fix the lag on console
-- Port the remaining P+ 2.4.2 files
+- Port the P+ 2.4.1-2.5.2 files
 - Recolor Peach's turnips
 - Implement P+ GFX except Ganondorf's Up Tilt
   *Remake the Snake C4 effect
@@ -16,17 +17,26 @@ To do:
    P+ missed one of them (at least in previous versions)
 - Port the random potion from P+ on Toon Link's taunt
 - Implement the code for uncapped damage ratio
-- Implement the code for music selection before stages
-  *If possible, fix the visual oddity after selecting a track
+- Implement the code for music selection before stages (last update from Squidgy: december 2023)
+  *See if the current version of the code shows any visual oddity after selecting a track
+  *https://github.com/squidgy617/BrawlCodes/blob/master/MusicSelect.asm
+  *https://youtu.be/u14dE9Y7ulA?si=YO8AaeJku0iEd1LE
 - Remove unused/unnecessary codes like ShorthopMacro in Source/Extras, check if there are more
+- Add Fudgepop's AI revamp for CPUs
+- If possible, make a code that changes the pairings of Wario and Wario-man in Team Battles
+  *If default plumber Wario is picked for Yellow Team, a purple Wario-man would normally appear...
 
 
 In the CSS:
 - Manage every character's costumes and UI
   - Then replace stocks in if_adv_mngr too for Subspace
   - Then replace info_corps.pac to fix stocks in All-Star mode
-- Replace the blue of the assets with a shade based on the build's brand
-- Restore the old rules' shape one and the two behind them, make the Versus shape less tall
+- Restore the old rules' shape one and the two behind them, make the shape behind Versus less tall
+  with Santieur
+- Restore the yellow in the Versus texture
+- Remake the rainbow Versus texture for Team Battles to give yellow the same space as the other 3
+- Add the custom colours feature for ports
+  *https://discord.com/channels/198478686565957632/988103964081930280/1179142237058248754
 
 
 In the two Rules menus:
@@ -52,7 +62,6 @@ In the two Rules menus:
 	  - Skyworld has the PM stage's preview
 	  - Sky Sanctuary Zone's image has not been updated to show the cosmetic revamp
 	    - In general, Random images and previews may get upgrades
-- Replace the blue of the assets with a shade based on the build's brand
 - Add a third option in Auto L-Cancel, "Per port", that makes the code in the code menu for
   per port ALC work; make it so that if this toggle in the Rules is set to either Off or On,
   that code doesn't work
@@ -72,11 +81,10 @@ In stages:
 
 
 In the SSS:
+- Fix the placement of 2nd and 3rd slots in the 18-slot arrangement, used in Page 1
 - Make the stage preview template
     - Add stats textures above the previews (Z axis) for the stages in page 1
     - Add the assets dedicated for L alts that turn visible when used in the slot you hover on
-    - Restore game icons above the series icons?
-- Make the cursor start on the center of the stage slots instead of the center of the screen
 - Add the remaning stages (in red in the chart) and update what needs changes (in yellow)
   - THEN Set from Common2 the stages loaded in Classic Mode
   - THEN Check if All-Star and other modes need the same fix in Classic Mode for the loaded stages
@@ -88,15 +96,23 @@ In the SSS:
     (and import WI build's "STAGE SELECT" text animation?)
 - Port 50CC for SSS to have stocks in the upper left corner of the screen after we do characters'
   cosmetics
-- Replace the blue with a shade based on the build's brand
 
 
 Elsewhere:
+- If possible, replace the Rotation icon in the red menu with one that's just normal versus but with
+  a locked ruleset
+- Some custom taunts from P+ that don't have hitboxes could be ported over
+  *Oddly enough, Toon Link in 3.6R puts up the mask even without pressing B after the taunt
+- Saw that in vanilla 3.6 (tested on Waga) you can shield after a dash back after 4 frames have
+  passed from the dash back, for faster shields you have to pivot manually and press shield.
+  Here however you only need 2 frames to pass, afaik it's a thing P+ changed
 - Make icons visible near a BP when the port has ALC and/or Input Buffer active
   - THEN make the textures and HD textures
 - Apply the changes from the .txt with the custom tags
-- Add the necessary textures and HD textures for yellow team
-- Add the "Yellow team!" quote over "Green team!"
+- Restore Green team and add Yellow team as 4th
+	- The code is missing proper stats count in the result screen
+- Update Event Match, Classic mode and All-Star mode after finishing the work on stage files to
+  make the events load the correct stages or at all, revamp the levels where necessary
 - Update all the "Congratulations!" images that need to be replaced
   *Mario's classic mode
   *Donkey Kong's all star mode
@@ -111,7 +127,7 @@ Elsewhere:
 - Make the custom crop for the Result Screen Portraits?
 - "Net-MyMusic.asm is missing Salty Runback Expansion Stage Music Fix and the other MyMusic
   address fix" as of 2.3.2, take the fixes if in the current P+ or make them
-- Show which characters one has picked for All-Star mode battles while still in the CSS
+- Show which characters one has picked for All-Star Versus battles while still in the CSS
 - If possible, replace the "Rotation" icon with "Tourney" and make it load a normal versus but with
   a fixed ruleset you can change from a code menu toggle; if that's not possible, implement the WI
   build's ruleset freeze toggle
@@ -122,12 +138,10 @@ Elsewhere:
 - Check if it's possible to make the added tracks appear in the Music menu
   (Not My Music, the Brawl menu dedicated to music of the game itself rather than stages)
 - Make HD textures for the result screen's port information work (bit color depth might be related)
-- Implement the All-star mode stock fix after we finish characters' cosmetics
-    - (Is it the same mentioned in the CSS section of the text?)
 - Make the descriptions of ALC and Buffer in the two Rules menus say "for beginners" or similar
 - Replace the grass in the "ways to play" screen with a Smashbox and have an HD texture too
   (note that the screen alters images' proportions)
-- Make UI that notifies if a port is using ALC or buffer
+- Make UI that notifies in the SSS if a port is using ALC or buffer
 - Make custom StrapXX files with the build's brand, optimized in file size like P+'s ones
   - THEN Rename HD textures for it
 - Make a custom title screen with the build's brand, and make the logo appear in Brawl's intro
@@ -147,6 +161,8 @@ Elsewhere:
   *LR when selecting a stage brings back to the CSS
   *all tag-related button effects
   (any other?)
+- Add Wario-man and Giga Bowser to Subspace as L-loads of Wario and Bowser now that they can enter
+  doors (check if this push has been done already)
 
 
 In the Code Menu:
@@ -178,6 +194,7 @@ In the Code Menu:
 
 In Dolphin:
 - Remove unnecessary HD textures (stage icons, names, banners etc.)
+- Make HD textures for Yellow team and other assets not covered by CSProject that may need
 - Create a custom theme after the build's brand
 - Dolphin Software icon themed after the build's brand
 - Dolphin Launchers banner themed after the build's brand
@@ -208,6 +225,7 @@ At the very end:
   *costumes featured
   *stages featured
 - Create a website to promote Project M 3.6R
+- Create a Stream Tool and a Top8er for 3.6R
 
 
 --------------------------------------------------------------------------------------------------

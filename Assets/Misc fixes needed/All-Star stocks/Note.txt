@@ -1,0 +1,1 @@
+This file doesn't use the 0000 format. Mario is 001, DK is 011, etc.
