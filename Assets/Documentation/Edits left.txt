@@ -41,7 +41,7 @@ In the CSS:
 
 In the two Rules menus:
 - Manage the stage slots considered by the game for random selection
-  - THEN Manage the included button alts in the code that counts them to be only L and Z
+  - THEN Manage the included button alts in the code that counts them to be only L
   - THEN Rename Peach's Castle, Yoshi's Island and others if needed in the random selection
       - Information on current Random, to work with in different ways depending on how much
 	control we have on that menu and its stage loading:
@@ -99,8 +99,7 @@ In the SSS:
 
 
 Elsewhere:
-- If possible, replace the Rotation icon in the red menu with one that's just normal versus but with
-  a locked ruleset
+
 - Some custom taunts from P+ that don't have hitboxes could be ported over
   *Oddly enough, Toon Link in 3.6R puts up the mask even without pressing B after the taunt
 - Saw that in vanilla 3.6 (tested on Waga) you can shield after a dash back after 4 frames have
@@ -108,7 +107,7 @@ Elsewhere:
   Here however you only need 2 frames to pass, afaik it's a thing P+ changed
 - Make icons visible near a BP when the port has ALC and/or Input Buffer active
   - THEN make the textures and HD textures
-- Apply the changes from the .txt with the custom tags
+- Add the custom tags from the dedicated .txt
 - Restore Green team and add Yellow team as 4th
 	- The code is missing proper stats count in the result screen
 - Update Event Match, Classic mode and All-Star mode after finishing the work on stage files to
@@ -124,7 +123,6 @@ Elsewhere:
 - Update all the event images that need to be replaced
   *Event 30 (Sonics)
 	(apparently the texture's in 2 locations, menu\single\event_list and menu2\sc_sel_event)
-- Make the custom crop for the Result Screen Portraits?
 - "Net-MyMusic.asm is missing Salty Runback Expansion Stage Music Fix and the other MyMusic
   address fix" as of 2.3.2, take the fixes if in the current P+ or make them
 - Show which characters one has picked for All-Star Versus battles while still in the CSS
@@ -231,7 +229,7 @@ At the very end:
 --------------------------------------------------------------------------------------------------
 
 Character-specific notes:
-- Fix Fierce Deity's sword and the trail
+- Fix Fierce Deity's sword trail
 - Ensure any other trail uses the correct colours if costume-dependent
 - Restore Melee Fox's Shine model
 - Add Gen 2 shiny intro for costumes that need it
