@@ -1,0 +1,15 @@
+Nunchuck Z undoes the stage strikes
+No Button Page Flip
+=================================
+For GCC & Wii Classic (ZL/ZR are GCC Z):
+Start goes to My Music
+Y strikes a ton of stages & leaves CS, FD, BF, Lylat, Dream Land, YI, PS2 available.
+Z undoes stage strikes from both X & Y
+X is individual Stage Striking
+No Button Page Flip
+=================================
+Sideways Wiimote:
+"Plus" goes to My Music
+"Minus" is stage strike
+"A" undoes stage strike
+No Button Page Flip
