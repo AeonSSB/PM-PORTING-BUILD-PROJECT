@@ -1,0 +1,6 @@
+Project+\pf\fighter\captain\FitCaptain04.pac
+Project+\pf\fighter\yoshi\FitYoshi08.pac
+Project+\pf\fighter\yoshi\FitYoshi09.pac
+
+Project+\pf\stage\melee\STGPOKEFLOATS_L_POKEFLOATS2.PAC
+Project+\pf\stage\melee\STGPOKEFLOATS_Z_PS1.pac

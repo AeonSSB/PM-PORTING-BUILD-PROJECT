@@ -1,3 +1,0 @@
-Project+\pf\fighter\dedede\FitDededeMotionEtc.pac
-
-Project+\Source\Project+\CSSCustomControls.asm
