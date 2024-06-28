@@ -4506,7 +4506,7 @@ HOOK @ $806971C0                # Address = $(ba + 0x006971C0)
 {
 	cmpwi r4, -0x1
 	bne loc_0x008
-	lwz r12, 0x1dc(r3)
+	lwz r12, 0x1b0(r3)
 	lis r11, 0x804e
 	rlwimi r11, r12, 2, 16, 29      # (Mask: 0x00003fff)
 	lwz r11, 0x2f4(r11)
