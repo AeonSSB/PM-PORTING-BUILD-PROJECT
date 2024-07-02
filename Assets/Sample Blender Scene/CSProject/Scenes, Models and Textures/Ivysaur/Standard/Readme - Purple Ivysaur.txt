@@ -1,0 +1,1 @@
+Set the bulb's Specular to 0 when rendering Purple Ivysaur
