@@ -360,7 +360,7 @@ XX - Conductor Toon Link by SJS, DemonBoy with credit to PMDT
 
 
 MEWTWO
-Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, default Mewtwo pose by the PMHD Team
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Default Mewtwo pose by the PMHD Team
 - Default Mewtwo by PMDT
 - Shiny Mewtwo by PMDT
 - Red Mewtwo by PMDT
@@ -528,6 +528,28 @@ XX - Red Greil Ike by AlGeorgeRomo, Mach 7
 XX - Blue Greil Ike by AlGeorgeRomo, Mach 7, Layell
 XX - Green Greil Ike by AlGeorgeRomo, Mach 7, Layell
 XX - Gray Greil Ike by Brawl Minus Team
+
+
+MARTH
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Holy War Marth pose by the PMHD Team
+- Default Marth from Brawl
+- Red Marth from Brawl
+- Green Marth from Brawl
+- Black Marth from Brawl
+- White Marth from Brawl
+- Purple Marth by PMDT
+- Blue Marth from Brawl
+- Yellow Marth by Cahalan
+- Caeda Marth by Cahalan
+- Ordinary Soldier Marth by Cahalan
+- Red 2.0 Marth by Cahalan
+- TE Brown Marth by Cahalan with credit to bizzozeron, Layell, KidNeptune101, MarioDox
+- Holy War Marth by PMDT, Snoe
+- Red Holy War Marth by PMDT, Snoe
+- Green Holy War Marth by PMDT, Snoe
+- Blue Holy War Marth by PMDT, Snoe
+- 
+- Purple Holy War Marth by Nanobuds, Efisio
 
 
 MR. GAME & WATCH
