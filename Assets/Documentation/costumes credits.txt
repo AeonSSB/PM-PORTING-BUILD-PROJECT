@@ -275,6 +275,7 @@ XX - Yellow Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistat
 
 
 ZELDA
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Default Zelda from Brawl
 - Red Zelda from Brawl
 - Blue Zelda from Brawl
@@ -296,6 +297,7 @@ ZELDA
 
 
 SHEIK
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Default Sheik from Brawl
 - Red Sheik from Brawl
 - Blue Sheik from Brawl
@@ -339,24 +341,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, OoT Link pose by tryp
 
 
 TOON LINK
-XX - Default Toon Link from Brawl
-XX - Red Toon Link from Brawl
-XX - Blue Toon Link from Brawl
-XX - Purple Toon Link from Brawl
-XX - Brown Toon Link from Brawl
-XX - Black Toon Link from Brawl
-XX - Yellow Toon Link by tyleto, Efisio
-XX - Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
-XX - Green Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
-XX - Red Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
-XX - Yellow Outset Toon Link by Moe with credit to Efisio, PMDT, Moblin, SJS, StarWaffle
-XX - Purple Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJS, StarWaffle
-XX - Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-XX - Green Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-XX - Red Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-XX - Yellow Linebeck Toon Link by Efisio with credit to EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub, DemonBoy, PMDT, SJS, StarWaffle
-XX - Black Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-XX - Conductor Toon Link by SJS, DemonBoy with credit to PMDT
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Outset Toon Link pose by the PMHD Team
+- Default Toon Link from Brawl
+- Red Toon Link from Brawl
+- Blue Toon Link from Brawl
+- Purple Toon Link from Brawl
+- Brown Toon Link from Brawl
+- Black Toon Link from Brawl
+- Yellow Toon Link by tyleto, Efisio
+- Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
+- Green Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
+- Red Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
+- Yellow Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJS, StarWaffle
+- Purple Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJS, StarWaffle
+- Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+- Green Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+- Red Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+- Yellow Linebeck Toon Link by Efisio with credit to EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub, DemonBoy, PMDT, SJS, StarWaffle
+- Black Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
+- Conductor Toon Link by SJS, DemonBoy with credit to PMDT
 
 
 MEWTWO
