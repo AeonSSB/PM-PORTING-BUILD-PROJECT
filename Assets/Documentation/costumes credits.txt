@@ -11,12 +11,12 @@ XX - Blue Biker Wario from Brawl
 XX - Green Biker Wario from Brawl
 XX - Yellow Biker Wario from Brawl
 XX - Black Biker Wario from Brawl
-XX - Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-XX - Red Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-XX - Blue Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-XX - Green Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-XX - Yellow Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-XX - Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
+XX - Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+XX - Red Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+XX - Blue Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+XX - Green Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+XX - Yellow Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+XX - Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
 
 
 MARIO
@@ -135,18 +135,19 @@ XX - Blue Yoshi from Brawl
 XX - Yellow Yoshi from Brawl
 XX - Pink Yoshi from Brawl
 XX - Cyan Yoshi from Brawl
-XX - Black Yoshi by SJS
-XX - White Yoshi by SJS
+XX - Black Yoshi by SJ
+XX - White Yoshi by SJ
 XX - Purple Yoshi by PMDT
 XX - Orange Yoshi by PMDT
 XX - Brown Yoshi by mawwwk
 XX - Yoshi Cookie by MetalLegacy
-XX - Dorrie Yoshi by EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
-XX - Plessie-Red Dorrie Yoshi by mawwwk with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
-XX - Cave-Green Dorrie Yoshi by mawwwk with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJS
-XX - Yellow Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
-XX - Purple Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
-XX - Magenta Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJS
+[These credits are outdated]
+XX - Dorrie Yoshi by EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
+XX - Plessie-Red Dorrie Yoshi by mawwwk with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ
+XX - Cave-Green Dorrie Yoshi by mawwwk with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ
+XX - Yellow Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
+XX - Purple Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
+XX - Magenta Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
 
 
 DONKEY KONG
@@ -156,18 +157,18 @@ XX - Red Donkey Kong from Brawl
 XX - Blue Donkey Kong from Brawl
 XX - Green Donkey Kong from Brawl
 XX - White Donkey Kong by PMDT
-XX - Yellow Donkey Kong by Ale64 with credit to SJS, ASF1ink, StarWaffle
-XX - Purple Donkey Kong by Ale64 with credit to SJS, ASF1ink, StarWaffle
+XX - Yellow Donkey Kong by Ale64 with credit to SJ, ASF1ink, StarWaffle
+XX - Purple Donkey Kong by Ale64 with credit to SJ, ASF1ink, StarWaffle
 XX - Red Mango Donkey Kong by mawwwk
 XX - Light Blue Donkey Kong by PrincessRosalina, Apples
 XX - Tan Donkey Kong by mawwwk
 XX - Manky Donkey Kong by Ale64
-XX - Boxer Donkey Kong by Art+, SJS, Kirbeast, tyleto with credit to PMDT
-XX - Blue Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT
-XX - Green Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT
-XX - Gold Boxer DK by Art+, SJS, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
-XX - Pink Boxer DK by Art+, SJS, Kirbeast, tyleto with credit to PMDT, MetalLegacy, davidvkimball
-XX - Melee Green Boxer DK by Ale64 with credit to Art+, SJS, Kirbeast, tyleto, PMDT
+XX - Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+XX - Blue Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+XX - Green Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+XX - Gold Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
+XX - Pink Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, davidvkimball
+XX - Melee Green Boxer DK by Ale64 with credit to Art+, SJ, Kirbeast, tyleto, PMDT
 
 
 DIDDY KONG
@@ -285,15 +286,15 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Yellow Zelda by Ale64 with credit to Efisio
 - Boss Zelda by UnbuiltThunder, Efisio
 - White Zelda by Moe
-- OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-- Red OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-- Blue OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-- Classic OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-- Green OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
-- Yellow OoT Zelda by Ale64 with credit to Efisio, jetfantastic, Layell, SJS, tyleto, Art+, PMDT
-- Royal Red OoT Zelda by Efisio, Ale64 with credit to Maxwell, SJS, tyleto, Layell, Art+, PMDT
+- OoT Zelda by SJ, tyleto, Layell, Art+ with credit to PMDT
+- Red OoT Zelda by SJ, tyleto, Layell, Art+ with credit to PMDT
+- Blue OoT Zelda by SJ, tyleto, Layell, Art+ with credit to PMDT
+- Classic OoT Zelda by SJ, tyleto, Layell, Art+ with credit to PMDT
+- Green OoT Zelda by SJ, tyleto, Layell, Art+ with credit to PMDT
+- Yellow OoT Zelda by Ale64 with credit to Efisio, jetfantastic, Layell, SJ, tyleto, Art+, PMDT
+- Royal Red OoT Zelda by Efisio, Ale64 with credit to Maxwell, SJ, tyleto, Layell, Art+, PMDT
 - Orange OoT Zelda by Ale64 with credit to Efisio
-- Hilda OoT Zelda by SJS, tyleto, Layell, Art+ with credit to PMDT
+- Hilda OoT Zelda by SJ, tyleto, Layell, Art+ with credit to PMDT
 
 
 SHEIK
@@ -307,15 +308,15 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Yellow Sheik by Efisio
 - Master Quest Sheik by UnbuiltThunder, Efisio
 - White Sheik by Moe
-- OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Red OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Blue OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Purple OoT Sheik by Efisio with credit to SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Green OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Yellow Sheik by Efisio with credit to jetfantastic, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Royal Red OoT Sheik by Efisio with credit to Maxwell, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Orange OoT Sheik by Efisio with credit to Viny, SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
-- Lorule OoT Sheik by SJS, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- OoT Sheik by SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Red OoT Sheik by SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Blue OoT Sheik by SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Purple OoT Sheik by Efisio with credit to SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Green OoT Sheik by SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Yellow Sheik by Efisio with credit to jetfantastic, SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Royal Red OoT Sheik by Efisio with credit to Maxwell, SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Orange OoT Sheik by Efisio with credit to Viny, SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
+- Lorule OoT Sheik by SJ, Xenthos, tryptech, Fireball, tyleto, Layell, Art+
 
 
 LINK
@@ -329,15 +330,15 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, OoT Link pose by tryp
 - Purple Link by Cahalan
 - Brown Link by Cahalan
 - Ordon Link by Cahalan, Malicious Bugman
-- OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Red OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Blue OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Black OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Lavender OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+, Efisio with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Yellow OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Pink OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Orange OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Fierce Deity Link by Moe, AlGeorgeRomo, Bird of Light, Skilar, SJS, fireball, tyleto, Xenthos, SatoshiKura, Crixler, ledgerewskie, Layell, Aghanim, PizzaDog, Jigglypoof21, Draco, Mach 7, Nanobuds, Theytah with credit to PMDT
+- OoT Link by Skilar, SJ, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Red OoT Link by Skilar, SJ, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Blue OoT Link by Skilar, SJ, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Black OoT Link by Skilar, SJ, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Lavender OoT Link by Skilar, SJ, fireball, tyleto, Xenthos, Art+, Efisio with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Yellow OoT Link by Efisio with credit to N!ck, Skilar, SJ, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Pink OoT Link by Efisio with credit to N!ck, Skilar, SJ, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Orange OoT Link by Efisio with credit to N!ck, Skilar, SJ, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Fierce Deity Link by Moe, AlGeorgeRomo, Bird of Light, Skilar, SJ, fireball, tyleto, Xenthos, SatoshiKura, Crixler, ledgerewskie, Layell, Aghanim, PizzaDog, Jigglypoof21, Draco, Mach 7, Nanobuds, Theytah with credit to PMDT
 
 
 TOON LINK
@@ -349,17 +350,17 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Outset Toon Link pose
 - Brown Toon Link from Brawl
 - Black Toon Link from Brawl
 - Yellow Toon Link by tyleto, Efisio
-- Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
-- Green Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
-- Red Outset Toon Link by PMDT, Moblin, SJS, StarWaffle
-- Yellow Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJS, StarWaffle
-- Purple Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJS, StarWaffle
-- Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-- Green Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-- Red Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-- Yellow Linebeck Toon Link by Efisio with credit to EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub, DemonBoy, PMDT, SJS, StarWaffle
-- Black Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJS, StarWaffle
-- Conductor Toon Link by SJS, DemonBoy with credit to PMDT
+- Outset Toon Link by PMDT, Moblin, SJ, StarWaffle
+- Green Outset Toon Link by PMDT, Moblin, SJ, StarWaffle
+- Red Outset Toon Link by PMDT, Moblin, SJ, StarWaffle
+- Yellow Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJ, StarWaffle
+- Purple Outset Toon Link by LnktheWolf, HyperLink with credit to PMDT, Moblin, SJ, StarWaffle
+- Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJ, StarWaffle
+- Green Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJ, StarWaffle
+- Red Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJ, StarWaffle
+- Yellow Linebeck Toon Link by Efisio with credit to EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub, DemonBoy, PMDT, SJ, StarWaffle
+- Black Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15, Shranux, davidvkimball, MarioDox, Layell, Sub with credit to DemonBoy, PMDT, SJ, StarWaffle
+- Conductor Toon Link by SJ, DemonBoy with credit to PMDT
 
 
 GANONDORF
@@ -472,24 +473,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Armored Charizard pos
 
 
 ZERO SUIT SAMUS
-XX - SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Brawl Blue SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Brawl Pink SJS ZSS Rebuild by Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Purple SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Green SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Blue SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Black SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Red SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Forest Green SJS ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Gold SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
-XX - Mirage SJS ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin
+[Outdated]
+XX - SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Brawl Blue SJ ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Brawl Pink SJ ZSS Rebuild by Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Purple SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Green SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Blue SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Black SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Red SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Forest Green SJ ZSS Rebuild by Ale64, Efisio with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Gold SJ ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
+XX - Mirage SJ ZSS Rebuild by LCJ, Ale64 with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin
 XX - Brawl ZSS Definitive Edition by Cahalan
-XX - Super Metroid SJS ZSS by Layell, Shranux with credit to Program, DarkMysteryMan, Moe, PMDT, Windhunter, Ryztiq, jiang, Pik, davidvkimball, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin, Shranux, Snoe
-XX - White Ending SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin
-XX - Fusion SJS ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, Moblin
+XX - Super Metroid SJ ZSS by Layell, Shranux with credit to Program, DarkMysteryMan, Moe, PMDT, Windhunter, Ryztiq, jiang, Pik, davidvkimball, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, Moblin, Shranux, Snoe
+XX - White Ending SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, Moblin
+XX - Fusion SJ ZSS Rebuild by Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, Moblin
 XX - Zero Suit Samus Bailey by TheDarkMysteryMan, Moblin with credit to the PMDT
-XX - Zero Mission Outfit ZSS by davidvkimball, MarioDox, Ca$inoWolf, Shranux with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall, moblin, Snoe
-XX - Cadet Zero Suit Samus by Ryztiq, Art+, SJS, Nanobuds, Spex130, Shranux
+XX - Zero Mission Outfit ZSS by davidvkimball, MarioDox, Ca$inoWolf, Shranux with credit to Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, SJ, Nanobuds, Spex130, TOCK, Sandfall, moblin, Snoe
+XX - Cadet Zero Suit Samus by Ryztiq, Art+, SJ, Nanobuds, Spex130, Shranux
 
 
 PIT
@@ -506,12 +508,12 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Viridi Pit by Efisio with credit to Layell
 - Rainbow Pit by Cahalan
 - Angel Gray Pit by Cahalan
-- Classic Pit by SJS, KingJigglypuff, Art+ with credit to PMDT
-- Classic Dark Pit by Ale64, Efisio with credit to SJS, KingJigglypuff, Art+, PMDT, metanite64
-- Red Classic Pit by SJS, KingJigglypuff, Art+ with credit to PMDT
-- Green Classic Pit by SJS, KingJigglypuff, Art+, Efisio with credit to PMDT
-- Blue Classic Pit by SJS, KingJigglypuff, Art+ with credit to PMDT
-- Yellow Classic Pit by SJS, KingJigglypuff, Art+ with credit to PMDT
+- Classic Pit by SJ, KingJigglypuff, Art+ with credit to PMDT
+- Classic Dark Pit by Ale64, Efisio with credit to SJ, KingJigglypuff, Art+, PMDT, metanite64
+- Red Classic Pit by SJ, KingJigglypuff, Art+ with credit to PMDT
+- Green Classic Pit by SJ, KingJigglypuff, Art+, Efisio with credit to PMDT
+- Blue Classic Pit by SJ, KingJigglypuff, Art+ with credit to PMDT
+- Yellow Classic Pit by SJ, KingJigglypuff, Art+ with credit to PMDT
 
 
 KIRBY
@@ -523,16 +525,16 @@ XX - Green Kirby from Brawl
 XX - White Kirby from Brawl
 XX - Black Kirby by PMDT
 XX - Purple Kirby by PMDT
-XX - Fighter Kirby by Nanobuds, SJS with credit to PMDT, Reserved, Snoe, T+DT
-XX - Yellow Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
-XX - Sapphire Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
-XX - Air Ride Red Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
-XX - Melee Green Fighter Kirby by Ale64 with credit to Nanobuds, SJS, PMDT, Reserved, Snoe, Efisio
-XX - Cowboy Kirby by SJS, Xenthos, Art+
-XX - Sepia Cowboy Kirby by SJS, Xenthos, Art+
-XX - Lavender Cowboy Kirby by SJS, Xenthos, Art+
-XX - Snow Cowboy Kirby by SJS, Xenthos, Art+
-XX - Emerald Cowboy Kirby by SJS, Xenthos, Art+
+XX - Fighter Kirby by Nanobuds, SJ with credit to PMDT, Reserved, Snoe, T+DT
+XX - Yellow Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+XX - Sapphire Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+XX - Air Ride Red Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+XX - Melee Green Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+XX - Cowboy Kirby by SJ, Xenthos, Art+
+XX - Sepia Cowboy Kirby by SJ, Xenthos, Art+
+XX - Lavender Cowboy Kirby by SJ, Xenthos, Art+
+XX - Snow Cowboy Kirby by SJ, Xenthos, Art+
+XX - Emerald Cowboy Kirby by SJ, Xenthos, Art+
 
 
 META KNIGHT
@@ -544,16 +546,16 @@ XX - Blue Meta Knight from Brawl
 XX - Pink Meta Knight from Brawl
 XX - Kirby's Adventure Meta Knight by tyleto, Efisio
 XX - Parallel Meta Knight by Efisio with credit to Layell
-XX - Dark Meta Knight by SJS, tyleto, KingJigglypuff with credit to PMDT
-XX - Galacta Meta Knight by SJS
-XX - Beta Galacta Meta Knight by Efisio with credit to SJS
-XX - Samurai Meta Knight by Art+, Dapperman, SJS, tyleto
-XX - Morpho Knight by Art+, SJS, tryptech, KingJigglypuff with credit to PMDT
-XX - Morpho Knight EX by Art+, SJS, tryptech, KingJigglypuff, Efisio with credit to PMDT
-XX - Golden Morpho Knight by Efisio, jetfantastic with credit to PMDT, Art+, SJS, tryptech, KingJigglypuff
-XX - Blue Morpho Knight by Art+, SJS, tryptech, KingJigglypuff, Efisio with credit to PMDT
-XX - Green Morpho Knight by Efisio, LnktheWolf with credit to PMDT, Art+, SJS, tryptech, KingJigglypuff
-XX - Violet Morpho Knight by Efisio, Layell with credit to PMDT, Art+, SJS, tryptech, KingJigglypuff
+XX - Dark Meta Knight by SJ, tyleto, KingJigglypuff with credit to PMDT
+XX - Galacta Meta Knight by SJ
+XX - Beta Galacta Meta Knight by Efisio with credit to SJ
+XX - Samurai Meta Knight by Art+, Dapperman, SJ, tyleto
+XX - Morpho Knight by Art+, SJ, tryptech, KingJigglypuff with credit to PMDT
+XX - Morpho Knight EX by Art+, SJ, tryptech, KingJigglypuff, Efisio with credit to PMDT
+XX - Golden Morpho Knight by Efisio, jetfantastic with credit to PMDT, Art+, SJ, tryptech, KingJigglypuff
+XX - Blue Morpho Knight by Art+, SJ, tryptech, KingJigglypuff, Efisio with credit to PMDT
+XX - Green Morpho Knight by Efisio, LnktheWolf with credit to PMDT, Art+, SJ, tryptech, KingJigglypuff
+XX - Violet Morpho Knight by Efisio, Layell with credit to PMDT, Art+, SJ, tryptech, KingJigglypuff
 
 
 IKE
@@ -617,7 +619,7 @@ XX - Brown Mr. Game & Watch by Legacy TE Team
 XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
 XX - Prismo Mr. Game & Watch by Eiji
 XX - Purple Mr. Game & Watch by Shy
-XX - Mint Mr. Game & Watch by SJS
+XX - Mint Mr. Game & Watch by SJ
 
 
 SNAKE
