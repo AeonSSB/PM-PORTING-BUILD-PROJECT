@@ -108,7 +108,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 GIGA BOWSER
 Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
-- Giga Bowser from Brawl
+- Default Giga Bowser from Brawl
 - Black Giga Bowser by PMDT
 - Brawl Red Giga Bowser by PMDT
 - Brawl Blue Giga Bowser by PMDT
@@ -151,24 +151,25 @@ XX - Magenta Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soo
 
 
 DONKEY KONG
-XX - Default Donkey Kong from Brawl
-XX - Black Donkey Kong from Brawl
-XX - Red Donkey Kong from Brawl
-XX - Blue Donkey Kong from Brawl
-XX - Green Donkey Kong from Brawl
-XX - White Donkey Kong by PMDT
-XX - Yellow Donkey Kong by Ale64 with credit to SJ, ASF1ink, StarWaffle
-XX - Purple Donkey Kong by Ale64 with credit to SJ, ASF1ink, StarWaffle
-XX - Red Mango Donkey Kong by mawwwk
-XX - Light Blue Donkey Kong by PrincessRosalina, Apples
-XX - Tan Donkey Kong by mawwwk
-XX - Manky Donkey Kong by Ale64
-XX - Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto with credit to PMDT
-XX - Blue Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
-XX - Green Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
-XX - Gold Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
-XX - Pink Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, davidvkimball
-XX - Melee Green Boxer DK by Ale64 with credit to Art+, SJ, Kirbeast, tyleto, PMDT
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Donkey Kong from Brawl
+- Black Donkey Kong from Brawl
+- Red Donkey Kong from Brawl
+- Blue Donkey Kong from Brawl
+- Green Donkey Kong from Brawl
+- White Donkey Kong by PMDT
+- Yellow Donkey Kong by Ale64 with credit to SJ, ASF1ink, StarWaffle
+- Purple Donkey Kong by Ale64 with credit to SJ, ASF1ink, StarWaffle
+- Red Mango Donkey Kong by mawwwk
+- Light Blue Donkey Kong by Ale64 with credit to PrincessRosalina, Apples
+- Gray Donkey Kong by Efisio
+- Manky Donkey Kong by Ale64
+- Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+- Blue Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+- Green Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+- Gold Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
+- Pink Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, davidvkimball
+- Melee Green Boxer DK by Ale64 with credit to Art+, SJ, Kirbeast, tyleto, PMDT
 
 
 DIDDY KONG
@@ -391,7 +392,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Default Mewtwo pose b
 - Shiny Mewtwo by PMDT
 - Red Mewtwo by PMDT
 - Blue Mewtwo by PMDT
-- Grey Mewtwo by PMDT
+- Gray Mewtwo by PMDT
 - Yellow Mewtwo by Efisio with credit to Moe, PMDT
 - Brown Mewtwo by Efisio with credit to N!ck, PMDT
 - Cyan Mewtwo with credit to N!ck, PMDT
