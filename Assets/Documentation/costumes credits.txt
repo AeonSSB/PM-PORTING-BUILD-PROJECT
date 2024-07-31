@@ -173,24 +173,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 DIDDY KONG
-XX - Default Diddy Kong from Brawl
-XX - Yellow Diddy Kong from Brawl
-XX - Pink Diddy Kong from Brawl
-XX - Purple Diddy Kong from Brawl
-XX - Green Diddy Kong from Brawl
-XX - Blue Diddy Kong from Brawl
-XX - Brown Diddy Kong by PMDT
-XX - Nintendo 64 Diddy Kong by Dapperman
-XX - Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Red Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Green Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Yellow Hooded Diddy Kong by Art+, SJ, tyle, Efisio with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Black Hooded Diddy Kong by Art+, SJ, tyle with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-XX - Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-XX - Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-XX - Dalton Green Cowboy Diddy Kong by Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-XX - Lucky Luke Yellow Cowboy Diddy Kong by Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-XX - Purple Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Diddy Kong from Brawl
+- Yellow Diddy Kong from Brawl
+- Pink Diddy Kong from Brawl
+- Purple Diddy Kong from Brawl
+- Green Diddy Kong from Brawl
+- Blue Diddy Kong from Brawl
+- Brown Diddy Kong by PMDT
+- Black Diddy Kong by Ale64
+- Hooded Diddy Kong by Art+, SJ, tyleto with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+- Red Hooded Diddy Kong by Art+, SJ, tyleto with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+- Green Hooded Diddy Kong by Art+, SJ, tyleto with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+- Yellow Hooded Diddy Kong by Art+, SJ, tyleto, Efisio with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+- Black Hooded Diddy Kong by Art+, SJ, tyleto with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+- Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Green Cowboy Diddy Kong by Ale64, Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Yellow Cowboy Diddy Kong by Ale64, Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Purple Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 
 
 WOLF
