@@ -519,24 +519,24 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 KIRBY
-XX - Default Kirby from Brawl
-XX - Yellow Kirby from Brawl
-XX - Blue Kirby from Brawl
-XX - Red Kirby from Brawl
-XX - Green Kirby from Brawl
-XX - White Kirby from Brawl
-XX - Black Kirby by PMDT
-XX - Purple Kirby by PMDT
-XX - Fighter Kirby by Nanobuds, SJ with credit to PMDT, Reserved, Snoe, T+DT
-XX - Yellow Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
-XX - Sapphire Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
-XX - Air Ride Red Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
-XX - Melee Green Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
-XX - Cowboy Kirby by SJ, Xenthos, Art+
-XX - Sepia Cowboy Kirby by SJ, Xenthos, Art+
-XX - Lavender Cowboy Kirby by SJ, Xenthos, Art+
-XX - Snow Cowboy Kirby by SJ, Xenthos, Art+
-XX - Emerald Cowboy Kirby by SJ, Xenthos, Art+
+- Default Kirby from Brawl
+- Yellow Kirby from Brawl
+- Blue Kirby from Brawl
+- Red Kirby from Brawl
+- Green Kirby from Brawl
+- White Kirby from Brawl
+- Black Kirby by PMDT
+- Purple Kirby by PMDT
+- Fighter Kirby by MetalLegacy with credit to Nanobuds, SJ, PMDT, Reserved, Snoe
+- Yellow Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+- Sapphire Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+- Red Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+- Green Fighter Kirby by Ale64 with credit to Nanobuds, SJ, PMDT, Reserved, Snoe, Efisio
+- Cowboy Kirby by SJ, Xenthos, Art+
+- Ivory Cowboy Kirby by SJ, Xenthos, Art+
+- Lavender Cowboy Kirby by SJ, Xenthos, Art+
+- Snow Cowboy Kirby by SJ, Xenthos, Art+
+- Emerald Cowboy Kirby by SJ, Xenthos, Art+
 
 
 META KNIGHT
