@@ -42,24 +42,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 LUIGI
-XX - Default Luigi from Brawl
-XX - Orange Luigi from Brawl
-XX - Red Luigi from Brawl
-XX - Blue Luigi from Brawl
-XX - Fire Luigi from Brawl
-XX - Purple Luigi from Brawl
-XX - Choco Banana Luigi by N!ck with credit to Smash 2 Team
-XX - Anime Luigi by Moe
-XX - Mr. L by PMDT, Snoe, SJ, tyleto
-XX - Red Mr. L by Ale64, Efisio with credit to PMDT, Snoe, SJ, tyleto
-XX - Blue Mr. L by Ale64, Efisio with credit to PMDT, Snoe, SJ, tyleto
-XX - White Mr. L by PMDT, optimizations by Snoe, revamp by SJ, tyleto
-XX - Yellow Mr. L by Ale64 with credit to tyleto, Snoe, SJ
-XX - Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
-XX - Red Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
-XX - Blue Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
-XX - Yellow Casino Luigi by Moe with credit to Sub, Layell, Kazoomageddon, MetalLegacy, Snoe, Ryztiq, KTH, Wumb0, Pyro, MetalLegacy, SJ, Xenthos, StarWaffle
-XX - Purple Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Luigi from Brawl
+- Orange Luigi from Brawl
+- Red Luigi from Brawl
+- Blue Luigi from Brawl
+- Fire Luigi from Brawl
+- Purple Luigi from Brawl
+- Yellow Luigi by Efisio
+- Anime Luigi by Moe
+- Wrecking Crew Luigi by Efisio with credit to TheFoxGamer073
+- Glacier Luigi by Snoozy Layla!!, Efisio
+- Flying Luigi by Efisio
+- Casino Luigi by Sub, Layell, Kazoomageddon, Snoe, Ryztiq, KTH, Wumb0, Pyro, SJ, Xenthos, StarWaffle
+- Mr. L by PMDT, Snoe, SJ, tyleto
+- Red Mr. L by SJ, Efisio, Ale64 with credit to PMDT, Snoe, tyleto
+- Blue Mr. L by SJ, Efisio, Ale64 with credit to PMDT, Snoe, tyleto
+- White Mr. L by PMDT, Snoe, SJ, tyleto
+- Yellow Mr. L by Ale64 with credit to tyleto, Snoe, SJ
+- Purple Mr. L by SJ, Efisio with credit to PMDT, Snoe, tyleto
 
 
 PEACH
