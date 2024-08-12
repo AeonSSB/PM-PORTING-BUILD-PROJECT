@@ -1,22 +1,23 @@
 WARIO
-XX - Plumber Wario from Brawl
-XX - Red Plumber Wario from Brawl
-XX - Brown Plumber Wario from Brawl
-XX - Green Plumber Wario from Brawl
-XX - White Plumber Wario from Brawl
-XX - Blue Plumber Wario from Brawl
-XX - Biker Wario from Brawl
-XX - Red Biker Wario from Brawl
-XX - Blue Biker Wario from Brawl
-XX - Green Biker Wario from Brawl
-XX - Yellow Biker Wario from Brawl
-XX - Black Biker Wario from Brawl
-XX - Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
-XX - Red Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
-XX - Blue Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
-XX - Green Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
-XX - Yellow Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
-XX - Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Tycoon Wario pose by tyleto
+- Plumber Wario from Brawl
+- Red Plumber Wario from Brawl
+- Brown Plumber Wario from Brawl
+- Green Plumber Wario from Brawl
+- White Plumber Wario from Brawl
+- Blue Plumber Wario from Brawl
+- Biker Wario from Brawl
+- Red Biker Wario from Brawl
+- Blue Biker Wario from Brawl
+- Green Biker Wario from Brawl
+- Yellow Biker Wario from Brawl
+- Black Biker Wario from Brawl
+- Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+- Red Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+- Blue Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+- Green Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+- Yellow Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
+- Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJ with credit to malistaticy, davidvkimball, Layell
 
 
 MARIO
