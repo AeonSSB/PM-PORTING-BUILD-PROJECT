@@ -131,25 +131,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 YOSHI
-XX - Default Yoshi from Brawl
-XX - Red Yoshi from Brawl
-XX - Blue Yoshi from Brawl
-XX - Yellow Yoshi from Brawl
-XX - Pink Yoshi from Brawl
-XX - Cyan Yoshi from Brawl
-XX - Black Yoshi by SJ
-XX - White Yoshi by SJ
-XX - Purple Yoshi by PMDT
-XX - Orange Yoshi by PMDT
-XX - Brown Yoshi by mawwwk
-XX - Yoshi Cookie by MetalLegacy
-[These credits are outdated]
-XX - Dorrie Yoshi by EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
-XX - Plessie-Red Dorrie Yoshi by mawwwk with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ
-XX - Cave-Green Dorrie Yoshi by mawwwk with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ
-XX - Yellow Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
-XX - Purple Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
-XX - Magenta Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Yoshi from Brawl
+- Red Yoshi from Brawl
+- Blue Yoshi from Brawl
+- Yellow Yoshi from Brawl
+- Pink Yoshi from Brawl
+- Cyan Yoshi from Brawl
+- Black Yoshi by SJ
+- White Yoshi by SJ
+- Purple Yoshi by PMDT
+- Orange Yoshi by PMDT
+- Brown Yoshi by mawwwk
+- Cookie Yoshi by MetalLegacy
+- Dorrie Yoshi by EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ, tyleto, Art+
+- Cave Green Dorrie Yoshi by mawwwk with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ, tyleto, Art+
+- Red Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ, tyleto, Art+
+- Yellow Dorrie Yoshi by Efisio with credit to EggTimer, Ryztiq, mawwwk, soopercool101, MetalLegacy, DukeItOut, SJ, tyleto, Art+
+- Purple Hat Shop Dorrie by mawwwk with credit to EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ, tyleto, Art+
+- Plessie Orange Dorrie Yoshi by mawwwk with credit to DukeItOut, EggTimer, Ryztiq, soopercool101, MetalLegacy, SJ, tyleto, Art+
 
 
 DONKEY KONG
