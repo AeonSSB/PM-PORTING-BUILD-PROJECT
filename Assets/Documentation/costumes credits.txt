@@ -153,7 +153,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 DONKEY KONG
-Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Boxer Donkey Kong pose by Efisio with credit to PMDT
 - Default Donkey Kong from Brawl
 - Black Donkey Kong from Brawl
 - Red Donkey Kong from Brawl
@@ -167,11 +167,11 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Gray Donkey Kong by Efisio
 - Manky Donkey Kong by Ale64
 - Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto with credit to PMDT
-- Blue Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
-- Green Boxer DK by Art+, SJ, Kirbeast, tyleto with credit to PMDT
-- Gold Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
-- Pink Boxer DK by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, davidvkimball
-- Melee Green Boxer DK by Ale64 with credit to Art+, SJ, Kirbeast, tyleto, PMDT
+- Blue Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+- Green Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto with credit to PMDT
+- Gold Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, Efisio
+- Pink Boxer Donkey Kong by Art+, SJ, Kirbeast, tyleto, Ale64 with credit to PMDT, MetalLegacy, davidvkimball
+- Melee Green Boxer Donkey Kong by Ale64 with credit to Art+, SJ, Kirbeast, tyleto, PMDT
 
 
 DIDDY KONG
@@ -197,23 +197,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 WOLF
-XX - Default Wolf from Brawl
-XX - Red Wolf by PMDT
-XX - Black Wolf from Brawl
-XX - Green Wolf by PMDT
-XX - Blue Wolf from Brawl
-XX - White Wolf by PMDT
-XX - Red Wolf from Brawl
-XX - Yellow Wolf by Efisio
-XX - Pirate Wolf by PMDT
-XX - Red Pirate Wolf by PMDT
-XX - Green Pirate Wolf by PMDT
-XX - Blue Pirate Wolf by PMDT
-XX - Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
-XX - Red Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
-XX - Green Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
-XX - Purple Pilot Wolf by Layell with credit to Mr. DapperMan, Joe T.E.
-XX - Yellow Pilot Wolf by Efisio with credit to Layell, Mr. DapperMan, Joe T.E.
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Pirate Wolf pose by Efisio with credit to PMDT
+- Default Wolf from Brawl
+- Red Wolf by PMDT
+- Black Wolf from Brawl
+- Green Wolf by PMDT
+- Blue Wolf from Brawl
+- White Wolf by PMDT
+- Red Wolf from Brawl
+- Yellow Wolf by Efisio
+- Pirate Wolf by PMDT
+- Red Pirate Wolf by PMDT
+- Green Pirate Wolf by PMDT
+- Blue Pirate Wolf by PMDT
+- Yellow Pirate Wolf by Moe with credit to PMDT, Smash 3C team
+- Pilot Wolf by Layell with credit to DapperMan, Joe T.E.
+- Red Pilot Wolf by Layell with credit to DapperMan, Joe T.E.
+- Green Pilot Wolf by Layell with credit to DapperMan, Joe T.E.
+- Blue Pilot Wolf by Layell with credit to DapperMan, Joe T.E.
+- Yellow Pilot Wolf by Efisio with credit to Layell, DapperMan, Joe T.E.
 
 
 FOX
@@ -259,24 +261,25 @@ XX - Black Melee Falco by Ale64 with credit to Smash Remix
 
 
 ICE CLIMBERS
-XX - Default Ice Climbers from Brawl
-XX - Red Ice Climbers by Efisio
-XX - Blue Ice Climbers by Efisio
-XX - Black Ice Climbers from Brawl
-XX - Green Ice Climbers by Efisio
-XX - Yellow Ice Climbers by Efisio
-XX - White Ice Climbers by Efisio
-XX - Purple & Orange Ice Climbers by Efisio with credit to Prim8, FroznHobo
-XX - Bear Suit Climbers by PMDT with credit to soopercool101, Snoe, Efisio
-XX - Red Bear Suit Climbers by MetalLegacy, soopercool101, Snoe, Efisio with credit to PMDT
-XX - Blue Bear Suit Climbers by MetalLegacy, soopercool101, Snoe with credit to PMDT
-XX - Green Bear Suit Climbers by MetalLegacy, soopercool101, Snoe, Efisio with credit to PMDT
-XX - Yellow Bear Suit Climbers by Efisio with credit to MetalLegacy, soopercool101, Snoe, PMDT
-XX - Tundra Climbers by Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Red Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Blue Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Green Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
-XX - Yellow Tundra Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Polar Ice Climbers pose by Efisio with credit to PMDT
+- Default Ice Climbers from Brawl
+- Red Ice Climbers by Efisio
+- Blue Ice Climbers by Efisio
+- Black Ice Climbers from Brawl
+- Green Ice Climbers by Efisio
+- White Ice Climbers by Efisio
+- Yellow Ice Climbers by Efisio
+- Orange & Purple Ice Climbers by Efisio with credit to Franzo, Smarted
+- Polar Ice Climbers by PMDT with credit to soopercool101, Snoe, Efisio
+- Red Polar Ice Climbers by MetalLegacy, soopercool101, Snoe, Efisio with credit to PMDT
+- Blue Polar Ice Climbers by MetalLegacy, soopercool101, Snoe with credit to PMDT
+- Green Polar Ice Climbers by MetalLegacy, soopercool101, Snoe, Efisio with credit to PMDT
+- Yellow Polar Ice Climbers by Efisio with credit to MetalLegacy, soopercool101, Snoe, PMDT
+- Tundra Ice Climbers by Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+- Red Tundra Ice Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+- Blue Tundra Ice Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+- Green Tundra Ice Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
+- Yellow Tundra Ice Climbers by Efisio with credit to Ryztiq, Sub, Pyro, malistaticy, Layell, MetalLegacy
 
 
 ZELDA
@@ -390,7 +393,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 MEWTWO
-Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Default Mewtwo pose by the PMHD Team
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Standard Mewtwo pose by the PMHD Team
 - Default Mewtwo by PMDT
 - Shiny Mewtwo by PMDT
 - Red Mewtwo by PMDT
