@@ -415,24 +415,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Standard Mewtwo pose 
 
 
 SQUIRTLE
-XX - Default Squirtle from Brawl
-XX - Green Squirtle by PMDT
-XX - Red Squirtle by PMDT
-XX - Yellow Squirtle by PMDT
-XX - Pink Squirtle by PMDT
-XX - Purple Squirtle by PMDT
-XX - Brawl Red Squirtle Remake by Ale64 with credit to Efisio
-XX - Brawl Green Squirtle Remake by Ale64 with credit to Efisio
-XX - Brawl Blue Squirtle Remake by Ale64 with credit to Efisio
-XX - Brawl Brown Squirtle Remake by Ale64 with credit to Efisio
-XX - Tyrantrum Squirtle by Ale64 with credit to Efisio
-XX - Lime Squirtle by Ale64 with credit to MetalLegacy, Efisio
-XX - Shinobi Squirtle by PMDT
-XX - White Shinobi Squirtle by PMDT
-XX - Red Shinobi Squirtle by MetalLegacy, Ale64 with credit to LnktheWolf, PMDT
-XX - Green Shinobi Squirtle by MetalLegacy, Ale64 with credit to LnktheWolf, PMDT
-XX - Scorpion Shinobi Squirtle by Ale64 with credit to Efisio, PMDT
-XX - Koga Shinobi Squirtle by Layell, Ale64 with credit to PMDT, Codex-9
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Shinobi Squirtle pose by JeffMii with credit to PMDT
+- Default Squirtle from Brawl
+- Green Squirtle by PMDT
+- Orange Squirtle by PMDT
+- Yellow Squirtle by PMDT
+- Pink Squirtle by PMDT
+- Purple Squirtle by PMDT
+- Brawl Red Squirtle by Ale64, Efisio
+- Brawl Green Squirtle by Ale64, Efisio
+- Brawl Blue Squirtle by Ale64, Efisio
+- Brawl Brown Squirtle by Ale64, Efisio
+- Red Squirtle by Ale64, Efisio
+- Lime Squirtle by Ale64, Efisio with credit to MetalLegacy
+- Shinobi Squirtle by PMDT
+- White Shinobi Squirtle by PMDT
+- Red Shinobi Squirtle by MetalLegacy, Ale64 with credit to LnktheWolf, PMDT
+- Green Shinobi Squirtle by MetalLegacy, Ale64 with credit to LnktheWolf, PMDT
+- Yellow Shinobi Squirtle by Ale64 with credit to Efisio, PMDT
+- Black Shinobi Squirtle by Layell, Ale64 with credit to PMDT, Codex-9
 
 
 IVYSAUR
