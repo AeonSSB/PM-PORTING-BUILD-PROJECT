@@ -612,24 +612,24 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 IKE
-XX - Default Ike from Brawl
-XX - Yellow Ike from Brawl
-XX - Red Ike from Brawl
-XX - Blue Ike from Brawl
-XX - Green Ike from Brawl
-XX - Brown Ike from Brawl
-XX - Lord Ike by Layell
-XX - Resplendent Black Ike by Cahalan
-XX - Armored Ike by PMDT
-XX - Red Armored Ike by PMDT
-XX - Green Armored Ike by PMDT
-XX - Black Armored Ike by PMDT
-XX - Yellow Armored Ike by Efisio with credit to PMDT, joshthecartoonguy
-XX - Greil Ike by AlGeorgeRomo, Mach 7
-XX - Red Greil Ike by AlGeorgeRomo, Mach 7
-XX - Blue Greil Ike by AlGeorgeRomo, Mach 7, Layell
-XX - Green Greil Ike by AlGeorgeRomo, Mach 7, Layell
-XX - Gray Greil Ike by Brawl Minus Team
+- Default Ike from Brawl
+- Yellow Ike from Brawl
+- Red Ike from Brawl
+- Blue Ike from Brawl
+- Green Ike from Brawl
+- Brown Ike from Brawl
+- Lord Ike by Layell
+- Mia Ike by Cahalan with credit to Smash 3C Team
+- Armored Ike by PMDT
+- Red Armored Ike by PMDT
+- Green Armored Ike by PMDT
+- Black Armored Ike by PMDT
+- Yellow Armored Ike by Efisio with credit to PMDT, joshthecartoonguy
+- Greil Ike by AlGeorgeRomo, Mach 7
+- Red Greil Ike by AlGeorgeRomo, Mach 7
+- Blue Greil Ike by AlGeorgeRomo, Mach 7, Layell
+- Green Greil Ike by AlGeorgeRomo, Mach 7, Layell
+- Gray Greil Ike by Brawl Minus Team
 
 
 MARTH
