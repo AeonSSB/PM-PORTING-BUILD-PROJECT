@@ -655,24 +655,24 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Holy War Marth pose b
 
 
 MR. GAME & WATCH
-XX - Default Mr. Game & Watch from Brawl
-XX - Red Mr. Game & Watch by PMDT
-XX - Yellow Mr. Game & Watch by PMDT
-XX - Blue Mr. Game & Watch by PMDT
-XX - Green Mr. Game & Watch by PMDT
-XX - Cyan Mr. Game & Watch by PMDT
-XX - White Mr. Game & Watch by PMDT
-XX - Pink Mr. Game & Watch by PMDT
-XX - Purple Mr. Game & Watch by PMDT
-XX - Console Mr. Game & Watch by Ca$inoWolf
-XX - Orange Mr. Game & Watch by Legacy TE Team
-XX - Olive Mr. Game & Watch by Legacy TE Team
-XX - Magenta Mr. Game & Watch by Legacy TE Team
-XX - Brown Mr. Game & Watch by Legacy TE Team
-XX - Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
-XX - Prismo Mr. Game & Watch by Eiji
-XX - Purple Mr. Game & Watch by Shy
-XX - Mint Mr. Game & Watch by SJS
+- Default Mr. Game & Watch from Brawl
+- Red Mr. Game & Watch by PMDT
+- Yellow Mr. Game & Watch by PMDT
+- Blue Mr. Game & Watch by PMDT
+- Green Mr. Game & Watch by PMDT
+- Light Blue Mr. Game & Watch by PMDT
+- Gray Mr. Game & Watch by PMDT
+- Pink Mr. Game & Watch by PMDT
+- Lavender Mr. Game & Watch by PMDT
+- Orange Mr. Game & Watch by Cahalan
+- Bordeaux Mr. Game & Watch by Legacy TE Team
+- Olive Mr. Game & Watch by Cahalan
+- Purple Mr. Game & Watch by Cahalan
+- Console Mr. Game & Watch by Cahalan
+- Teal Mr. Game & Watch by Ca$inoWolf, MetalLegacy
+- Brown Mr. Game & Watch by Cahalan
+- Magenta Mr. Game & Watch by Cahalan
+- Pastel Blue Mr. Game & Watch by Efisio
 
 
 SNAKE

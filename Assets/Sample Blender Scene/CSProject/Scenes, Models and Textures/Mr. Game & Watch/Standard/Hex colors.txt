@@ -6,17 +6,17 @@ Red:
 #9c0000
 #c65a5a
 
-Green:
-#007300
-#73b573
+Yellow:
+#f4fe04
+#844204
 
 Blue:
 #101884
 #4a52a5
 
-Yellow:
-#f4fe04
-#844204
+Green:
+#007300
+#73b573
 
 Light Blue:
 #63ffff
