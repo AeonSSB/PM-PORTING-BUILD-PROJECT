@@ -226,7 +226,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Pirate Wolf pose by E
 - Green Wolf by PMDT
 - Blue Wolf from Brawl
 - White Wolf by PMDT
-- Red Wolf from Brawl
+- Brawl Red Wolf from Brawl
 - Yellow Wolf by Efisio
 - Pirate Wolf by PMDT
 - Red Pirate Wolf by PMDT
@@ -568,6 +568,28 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, first pose by Efisio 
 - Zero Mission Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
 
 
+LUCAS
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Commander Lucas pose by the PMHD Team
+- Default Lucas from Brawl
+- Claus Lucas from Brawl
+- Red Lucas from Brawl
+- Blue Lucas from Brawl
+- Green Lucas from Brawl
+- Purple Lucas from Brawl
+- Yellow Lucas by Efisio
+- Beatnik Lucas by Efisio
+- EB64 Lucas by SJS, Xenthos, tyleto with credit to SubZero2, AlGeorgeRomo, Smash 2 Team
+- Commander Lucas by SJS with credit to PMDT
+- Claus Commander Lucas by SJS with credit to PMDT
+- Red Commander Lucas by SJS with credit to PMDT
+- Blue Commander Lucas by SJS with credit to PMDT
+- Green Commander Lucas by SJS with credit to PMDT
+- Pink Commander Lucas by Efisio with credit to L17E, SJS, PMDT
+- Yellow Commander Lucas by Efisio with credit to SJS, PMDT
+- Light Blue Commander Lucas by Efisio with credit to SJS, PMDT
+- White Commander Lucas by SJS, Efisio with credit to PMDT
+
+
 PIT
 Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Default Pit from Brawl
@@ -698,21 +720,21 @@ MR. GAME & WATCH
 
 
 SNAKE
-XX - Default Snake from Brawl
-XX - Red Snake from Brawl
-XX - Blue Snake by PMDT
-XX - White Snake from Brawl
-XX - Green Snake from Brawl
-XX - Brown Snake from Brawl
-XX - Blue Snake from Brawl
-XX - Purple Snake by ilikepizza107 with credit to RoboticCyborg
-XX - Big Boss by PMDT
-XX - Red Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
-XX - Blue Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
-XX - Black Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
-XX - Klmk Big Boss by jaystring
-XX - Banana Big Boss by jaystring
-XX - Anubis Big Boss by jaystring
-XX - MGS1 Snake Revamp by VirtualBeef with credit to AlGeorgeRomo, Moe, Smash 2 Team, Brawl Minus Team, Shranux, Models124717, jaystring
-XX - Iroquois Pliskin by King Draco
-XX - Tuxedo MGS3 Snake by jaystring with credit to Layell, mawwwk
+- Default Snake from Brawl
+- Red Snake from Brawl
+- Blue Snake by PMDT
+- White Snake from Brawl
+- Green Snake from Brawl
+- Brown Snake from Brawl
+- Brawl Blue Snake from Brawl
+- Purple Snake by ilikepizza107 with credit to RoboticCyborg
+- Tuxedo Snake by jaystring with credit to Layell, mawwwk
+- Big Boss by PMDT
+- Fire Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
+- Water Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
+- Black Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
+- Klmk Big Boss by jaystring
+- Banana Big Boss by jaystring
+- Anubis Big Boss by jaystring
+- Snow Big Boss by jaystring
+- MGS1 Snake by VirtualBeef with credit to AlGeorgeRomo, Moe, Smash 2 Team, Brawl Minus Team, Shranux, Models124717, jaystring
