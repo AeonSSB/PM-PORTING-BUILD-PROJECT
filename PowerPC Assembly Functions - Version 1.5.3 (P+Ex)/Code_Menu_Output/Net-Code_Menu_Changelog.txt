@@ -1,0 +1,142 @@
+PowerPC Assembly Functions (Code Menu Building Utility v1.5.3)
+Building "dnet.cmnu" for Project+ EX Netplay (Dolphin)
+Note: This code menu was configured for use with Dolphin only, and IS NOT COMPATIBLE with consoles!
+	Attempting to use this code menu on console can (and likely will) damage your system.
+
+Applying Menu Properties block from "EX_Config.xml"...
+Build Base Folder argument detected, applying settings...
+[SUCCESS] Build Base Folder is now "Reload/."!
+Menu header comments block detected! Parsing contents...
+[WARNING] Comment Declaration block parsed, but no valid entries were found!
+
+Applying Line Colors block from "EX_Config.xml"...
+[WARNING] Line Colors Block parsed, but no valid entries found!
+
+Parsing Character List block from "EX_Config.xml"...
+Base Character List argument detected, applying settings...
+[SUCCESS] Base Character list changed to "P+EX (Waluigi)"!
+Final Character List (Base List = "P+EX (Waluigi)")
+	"Bowser" (Slot ID = 0x0C)
+	"Captain Falcon" (Slot ID = 0x0A)
+	"Charizard" (Slot ID = 0x1E)
+	"Dedede" (Slot ID = 0x23)
+	"Diddy Kong" (Slot ID = 0x1C)
+	"Donkey Kong" (Slot ID = 0x01)
+	"Falco" (Slot ID = 0x15)
+	"Fox" (Slot ID = 0x07)
+	"Ganondorf" (Slot ID = 0x16)
+	"Giga Bowser" (Slot ID = 0x2C)
+	"Ice Climbers" (Slot ID = 0x10)
+	"Ike" (Slot ID = 0x25)
+	"Ivysaur" (Slot ID = 0x22)
+	"Jigglypuff" (Slot ID = 0x27)
+	"Kirby" (Slot ID = 0x06)
+	"Knuckles" (Slot ID = 0x35)
+	"Link" (Slot ID = 0x02)
+	"Lucario" (Slot ID = 0x24)
+	"Lucas" (Slot ID = 0x1B)
+	"Luigi" (Slot ID = 0x09)
+	"Mario" (Slot ID = 0x00)
+	"Marth" (Slot ID = 0x13)
+	"Meta Knight" (Slot ID = 0x18)
+	"Mewtwo" (Slot ID = 0x33)
+	"Mr. Game and Watch" (Slot ID = 0x14)
+	"Ness" (Slot ID = 0x0B)
+	"Olimar" (Slot ID = 0x1A)
+	"Peach" (Slot ID = 0x0D)
+	"Pikachu" (Slot ID = 0x08)
+	"Pit" (Slot ID = 0x19)
+	"R.O.B." (Slot ID = 0x26)
+	"Ridley" (Slot ID = 0x38)
+	"Roy" (Slot ID = 0x32)
+	"Samus" (Slot ID = 0x03)
+	"Sheik" (Slot ID = 0x0F)
+	"Snake" (Slot ID = 0x2A)
+	"Sonic" (Slot ID = 0x2B)
+	"Sopo" (Slot ID = 0x11)
+	"Squirtle" (Slot ID = 0x20)
+	"Toon Link" (Slot ID = 0x28)
+	"Waluigi" (Slot ID = 0x39)
+	"Wario" (Slot ID = 0x17)
+	"Warioman" (Slot ID = 0x2D)
+	"Wolf" (Slot ID = 0x29)
+	"Yoshi" (Slot ID = 0x05)
+	"Zelda" (Slot ID = 0x0E)
+	"Zero Suit Samus" (Slot ID = 0x04)
+
+Parsing Addon Includes block from "EX_Config.xml"...
+[NOTE] Auto-Detect Mode enabled! Collecting Addons from "./Addons/"...
+[WARNING] Searched Addons directory, but found no potential Addons.
+
+Adding Rosters to Code Menu from "EX_Config.xml"...
+[WARNING] Roster Declaration block parsed, but no valid entries were found!
+Final Roster List:
+	"Default" (Filename: CSSRoster.dat)
+
+Adding Themes to Code Menu from "EX_Config.xml"...
+[WARNING] Theme Declaration block parsed, but no valid entries were found!
+Final Theme List:
+	"Default", Replacement Prefixes Are:
+		"mu_menumain.pac": "mu_"
+		"sc_selcharacter.pac": "sc_"
+		"sc_selcharacter2.pac": "sc_"
+		"sc_selmap.pac": "sc_"
+		"sc_sel_event.pac": "sc_"
+		"sc_title.pac": "sc_"
+
+Setting Dash Attack Item Grab Toggle status...
+[SET] Feature is now included!
+
+Setting Jumpsquat Modifier status...
+[SET] Feature is now included!
+
+Setting Player Slot Color Changer status... 
+[SET] Feature is now included!
+Parsing Color Definitions... 
+[ADDED] "Pink"!
+[ADDED] "Purple"!
+	Flags: DisableHueMod
+[ADDED] "Orange"!
+[ADDED] "Cyan"!
+[ADDED] "Gray"!
+	Flags: DisableSatModUp | DisableSatModDown
+[ADDED] "Light Gray"!
+	Flags: DisableSatModUp | DisableSatModDown
+[ADDED] "Black"!
+	Flags: DisableSatModUp | DisableSatModDown | DisableLumModUp | DisableLumModDown
+[ADDED] "Black_IG"!
+	Flags: DisableSatModUp | DisableSatModDown | DisableLumModUp | DisableLumModDown
+[ADDED] "White"!
+	Flags: DisableSatModUp | DisableSatModDown
+Parsing Color Scheme Definitions... 
+[ADDED] "Pink"!
+[ADDED] "Purple"!
+[ADDED] "Orange"!
+[ADDED] "Cyan"!
+[ADDED] "Gray"!
+[ADDED] "Black"!
+[ADDED] "White"!
+[ADDED] "RGB"!
+[ADDED] "DarkRGB"!
+Final Color Scheme List:
+           "P1" [P1 + Red Team]
+           "P2" [P2 + Blue Team]
+           "P3" [P3]
+           "P4" [P4 + Green Team]
+         "Pink" 
+       "Purple" 
+       "Orange" 
+         "Cyan" 
+         "Gray" 
+        "Black" 
+        "White" 
+          "RGB" 
+      "DarkRGB" 
+
+
+Parsing Options XML from "./Code_Menu_Output/Net-Code_Menu_Options.xml"...
+[SUCCESS] Applying settings...
+[CHANGED] "Gameplay Modifiers > Hitlag Multiplier"
+	- Default Value is now 0.38
+
+Writing ASM file... Success!
