@@ -332,7 +332,7 @@
 		</codeMenuFloat>
 		<codeMenuFloat name="Hitlag Multiplier">
 			<minValue value="0.000000" />
-			<defaultValue value="0.385000" editable="true" />
+			<defaultValue value="0.333333" editable="true" />
 			<maxValue value="999.000000" />
 			<speed value="0.020000" />
 		</codeMenuFloat>

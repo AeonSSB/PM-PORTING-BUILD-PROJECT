@@ -134,7 +134,6 @@ Final Color Scheme List:
 
 Parsing Options XML from "./Code_Menu_Output/Code_Menu_Options.xml"...
 [SUCCESS] Applying settings...
-[CHANGED] "Gameplay Modifiers > Hitlag Multiplier"
-	- Default Value is now 0.38
+[NOTE] XML parsed successfully, no changes detected!
 
 Writing ASM file... Success!
