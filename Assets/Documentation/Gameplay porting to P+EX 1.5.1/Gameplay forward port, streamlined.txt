@@ -1,0 +1,48 @@
+Forward port:
+
+- the 4 files from the code menu builder
+
+- fighter files except costumes
+
+- Project+/PSA
+- Project+/ScreenKO
+- Project+/LedgeGrab
+
+- ProjectM/Constants EDITED FOR WIIMOTE SUPPORT (in later builds inside Community/Injects/fighter)
+- ProjectM/Elements
+- ProjectM/Knockback
+- ProjectM/Ledge
+
+- Grab
+- Grabs
+- Hitstun
+- ProjectM/PSA/Misc (in later builds inside Community/Injects/fighter)
+
+- FilePatchCode (for the edited folder name from P+EX to Reload)
+- ReplacementSoundbankEngine (for the edited folder name from P+EX to Reload)
+- .elf launchers (for the edited folder name from P+EX to Reload)
+
+	- rebuilt GCTs
+
+---------------------------------------------
+
+Relevant codes for the future porting of 3.6R features to the SSS (P+ rewrote the SSS):
+SSSPageAdvance, SSS, the code inside More that disables D-pad in the SSS, as well as the new SSSbuttons and Random
+
+Relevant codes for the future addition of Yellow Team (the old dev build replaced green team instead of adding a 4th):
+YellowTeam, TagsControls and UnboundedTeamEngine
+
+Relevant codes for the future removal of R and Z costumes (remember to ensure Subspace related issues don't arise again):
+AltCostume, LoadFlags, Subspace, HiddenAltSets
+
+Relevant codes for the future stage arrangement
+StageFiles, StageTable
+
+Discarding DuplicateCostume
+
+Relevant codes for the future removal of Knuckles and EX characters:
+ThrowRelease, CloneEngine, AllStarVs, ResultsMusic, VictoryCamera
+
+---------------------------------------------
+
+Triprate changes, but doesn't seem to affect gameplay

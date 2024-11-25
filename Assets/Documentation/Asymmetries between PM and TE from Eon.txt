@@ -1,0 +1,8 @@
+- Hitbox interpolation
+- Hitlag except if with the latest code menu
+
+TE broke sonic upb causing it to eat kirbys jumps if the kirby is 2 ports higher than sonic
+
+o wait no
+TE caused you to be unable to trip for a huge time
+and then P+ moved memory around and that bug changed what it did

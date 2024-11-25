@@ -1,0 +1,46 @@
+3.6R codes for a forward port (the ones that are different from P+EX 1.26.1)
+
+0. QuickLava's Kirby hat program
+- IKHM_v1.1.0 folder with two files
+
+1. From Source/3.6R...
+- DuplicateCostume had been added, but could be scrapped
+- SSSPageAdvance's feature, making the R button switch stage pages, is essential; I wonder if it can be added to Source/Extras/More.asm to lighten RSBE01
+- YellowTeam is also necessary, but it's unfinished: it currently replaces green team instead of adding a 4th team
+
+2. From Source/Extras...
+- More has a code we need that disables DPad on the SSS
+
+3. From Source/LegacyTE...
+- AltCostume, which has been edited from P+ to disable alt costumes
+- LoadFlags, also to disable alt costumes
+- TagsControls has been edited in 3.6R, but I'm not sure on what this one change does; seems related to teams
+- UnboundedTeamEngine also seems to have been edited in the past for teams
+
+4. From Source/P+Ex...
+- KirbyHatEX, recent code ported and edited the other day by KJP to make Kirby hats function properly
+- Subspace is different, with "Stamina Behaviour is Defined Individually Per Fighter v1.1" added
+
+5. From Source/Project+...
+- CodeMenu has various line differences and I cannot tell what they do from the file alone; the same file has been there unedited in the repo since Pyro's first gameplay porting attempt
+- FilePatchCode changes a "Project+" path to "P+EX" in three lines
+- PSA reverts Project+ gameplay codes
+- ScreenKO reverts other Project+ codes
+- StageFiles accounts for the Mario Bros. stage's placement in 3.6R
+- StageTable has been edited entirely to rearrange stages
+
+6. From Source/ProjectM...
+- CloneEngine has been edited to remove lines related to P+EX characters
+- Constants has been edited for DK Cargo Hold Time, I suppose it matches vanilla 3.6 but I haven't checked
+- Elements has been edited for Cape behavior
+- SSS has been edited to change the default cursor position
+
+-----------------------------------
+
+Side notes
+- Source/Extras/ShorthopMacro is present (but unused?) in both P+EX 1.26.1 and current 3.6R, and should be removed
+- Let's remove Source/P+Ex/BigHeadMode
+
+-----------------------------------
+
+Gameplay-related code work by PyroPM, other changes first by ilikepizza107 and QuickLava, then also by KJP

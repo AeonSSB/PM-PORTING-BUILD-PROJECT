@@ -1,0 +1,139 @@
+- CodeMenu/CodeMenu is significantly different again and I don't know how to handle it, except for one thing: changing port color is not a feature to keep. On a side note, what do the lines about "character buffer" refer to?
+    - It overwrites some of the game's constants with the values defined on the "Gameplay Modifiers" page. Check that they line up with what you'd expect in PM 3.6, and adjust the default values for anything that's different via the Code_Menu_Options.xml. Can see the current default values here: https://github.com/QuickLava/PowerPC-Assembly-Functions/blob/d175293d65b8ea77fdfecaf2d9f297df47bbd606/PowerPC%20Assembly%20Functions/Code%20Menu.cpp#L1041
+
+- Community/Subspace changes again from 3.6R to P+EX 1.5.1, with P+EX having an extra section; assuming the two files from the builds need to be combined into a new one
+
+- Community/TrailEffects from P+EX 1.5.1 should not be kept, it was deliberately tried and left out when it was first made
+
+- Community/PSA/Angle is very different between the two builds and I don't know what P+EX 1.5.1's one does. If gameplay differences are involved, we should not use the new one
+    - SAFE, it's just for Flipper
+- Community/PSA/PSA changes again, and I suppose it does gameplay changes 3.6R wants to avoid
+    - SAFE
+
+- Community/Injects/fighter/Constants has more changes; while one on Kirby Inhale Star is likely a gameplay change a.k.a something to avoid, there is a section about D-Pad inputs on Wiimotes that we should port over our own Constants file
+- Community/Injects/fighter/Effects has a difference in two lines; from the little I can tell from them it seems something to keep, but what does it do?
+    - SAFE, but may change how effects look on hit. Test this
+- Community/Injects/fighter/Grabs is different in P+EX 1.5.1, I suppose it's gameplay related so something to avoid in favor of the 3.6R file
+    - Doesn't seem safe
+- Community/Injects/fighter/Hitstun changes gameplay, so the 3.6R file is preferred here
+- Community/Injects/fighter/Misc also seems to change gameplay in P+EX, to revert
+- Community/Injects/fighter/PlatformIgnore has one line changed, what does it do? As usual, if it's gameplay it's something to revert
+    - SAFE
+
+- Source/Extras/Console seems to have a formatting change that doesn't have in-game implications, so it's harmless
+
+- LegacyTE/AltCostume has changed for expanded controller support, it's something we should use as well while still disabling the feature itself, so that anyone wanting to reactivate alt costumes in 3.6R can do so swiftly
+- LegacyTE/ASLHelper has changed, seemingly again for expanded controller support
+- LegacyTE/CSSCustomControls also has been rewritten for the same reason
+- LegacyTE/Masquerade has been updated; not sure on what it does other than 50CC support in the SSS, which is a feature wanted in 3.6R too
+- LegacyTE/Replays has been rewritten, assuming it's all about replays we can and should update
+- LegacyTE/TagsControls has been rewritten; do note that I assumed this code has seen changes from P+EX 1.26.1 to 1.5.1 for yellow team necessities, so it's not an immediate replacement as it is but needs to account for it
+- LegacyTE/UnboundedTeamEngine also has few changes, related to teams; since green team is planned to be restored in 3.6R in favor of having yellow as a 4th team option, it's not necessary to account for any green cosmetic assets immediately, but let's take note of teams related files to work on them when finally implementing the 4th team
+
+- P+Ex/Misc is quite different; is anything related to gameplay changes?
+- P+Ex/SoundbankFix has a difference, not sure on its effect
+
+- ProjectM/Modifier/Physics has a one line difference, revert it if it's about gameplay changes
+    - SAFE
+- ProjectM/Modifier/Reflect also seems to have a difference
+    - SAFE
+- ProjectM/Modifier/ThrowRelease has few lines related to EX characters; do remember that base 3.6R doesn't have Knuckles or EX characters, so edit this if necessary to shorten the roster; if unnecessary, keep the code like this to make readding EX characters smooth whenever wanted
+
+- ProjectM/SpecialModes/AllStarVs is a bit different (did we forget to remove Knuckles from All Star Versus...?)
+- ProjectM/SpecialModes/BombRain is a bit different too
+- ProjectM/SpecialModes/Rules looks vastly different
+- ProjectM/SpecialModes/Stamina has been changed as well (let's discuss any potential change or "fix" in casual modes like stamina if there are any here; only gameplay in a tournament setting should match vanilla 3.6)
+- ProjectM/SpecialModes/Turbo has an extra section, what's this about?
+- ProjectM/SpecialModes/War has been renamed from WarMode and tweaked
+- ProjectM/SpecialModes/Zero2Death has two lines changed, what do they do?
+
+- ProjectM/ButtonPresses has changed a lot, seems to be mainly about controller support but it's worth making sure as it mentions Popo and Nana
+    - SAFE, Popo and Nana are mentioned in the code at times but shouldn't be affected gameplay-wise
+- ProjectM/CloneEngine has changed, I assume it's fine to keep like this
+- ProjectM/CustomAI has improvements for Level 9 CPUs, if they don't affect Nana let's keep them
+    - According to Fudgepop Nana shouldn't be affected by this
+- ProjectM/Elements seems to be like in P+EX 1.26.1 and not like the file in current 3.6R that we should keep
+- ProjectM/Events has some changes; events themselves have been changed in P+ and 3.6R's own take on events is planned, for now we can keep anything that makes the P+ events function properly
+- ProjectM/Grab has an extra code to make grabbed characters not shake; for now, it's not a change to have in 3.6R, only in the future it may be considered
+- ProjectM/Handicap has one section LESS in P+EX, what does it cause in practice?
+    - SAFE
+- ProjectM/Knockback has a slight change, does it have gameplay implications or only prevent memory leaks?
+    - REVERT
+- ProjectM/Ledge changes how invincibility works from ledges in P+EX, it's an unwanted P+ change
+- ProjectM/SSSbuttons is a lot smaller in P+EX, why?
+    - SAFE, however the "Stage Striking & Page Switch" code was totally rewritten for P+ v3.0 and moved to "Source/Project+/Random.asm", so keep this in mind when porting SSS features from old 3.6R
+
+- Project+/Articles has some changes, what do they do?
+    - SAFE
+- Project+/Boss is also quite different
+- Project+/CompressPAC has edits, seems optimizations about loading costumes so something to keep
+- Project+/CSE has few different lines, I assume we can keep it like this
+- Project+/CSSRender improves the CSS' storage capabilities
+- Project+/CStick has an extra code; note on 3.6R: while it preserves gameplay, the way controllers are read is not to be preserved; 3.6 scenes have already been relying on updated UCF for years
+    - SAFE
+- Project+/FilePatchCode has some differences
+    - SAFE
+- Project+/Items changes a bit (changes to casual play like items behavior is allowed in 3.6R, but ensure it doesn't apply to items that can appear in tournaments like Peach's)
+    - SAFE
+- Project+/L-Cancel has few differences that don't seem to affect gameplay, though I don't know what the added section about "damage gauge" does
+    - SAFE
+- Project+/LedgeGrab changes something, but what?
+    - REVERT
+- Project+/Memory changes a bit, too
+- Project+/MyMusic is shorter in P+EX compared to 3.6R, why?
+- Project+/PokeTrainer has a couple of changes
+- Project+/PSA seems to be the same between P+EX 1.5.1 and 1.26.1, so not to be used in that case
+- Project+/Random is vastly different, what's this about?
+    - SAFE
+- Project+/ResultsMusic is different, but seemingly only about extra characters
+- Project+/ScreenKO seems to be the same between P+EX 1.5.1 and 1.26.1, so not to be used in that case
+- Project+/SFXExpand is quite different
+- Project+/Shake has a new section about the screen shake intensity on Dream Land to keep
+- Project+/StageFiles seems to have been reworked, unrelated to the stage arrangement between builds
+- Project+/StageTable is, of course, different between P+EX 1.5.1 and 3.6R and that's normal for now
+- Project+/TrainingMode seems to have some improvements
+- Project+/UCF is slightly different, what does it do?
+- Project+/VictoryCamera is a bit different, I suppose it's all about EX characters
+
+
+Any NEW code that's absent in 3.6R and present in P+EX 1.5.1 that also changes gameplay should not be used.
+The new codes in P+EX 1.5.1 are:
+- All the files inside CM_Addons
+    - SAFE
+- Community/PSA/CreateAndThrowItem
+    - SAFE
+- Community/PSA/IC-Basics
+    - SAFE
+- Extras/QuickStart (to be removed due to it breaking replays)
+- P+Ex/HiddenAltSets
+    - SAFE, but it's the hidden alts code rewritten and has to be disabled without side effects on subspace and whatnot
+- P+Ex/ReplacementSoundbankEngine
+    - SAFE
+- P+Ex/SlotEx
+    - SAFE
+- P+Ex/WaveIDIntercept
+    - SAFE
+- ProjectM/IdleAudioFade
+- Project+/AnimatedCSS
+- Project+/EffectCommands
+- Project+/EffectsEX
+    - SAFE
+- Project+/Hurtbox (seems only to allow new types of mods and not alter vanilla cast gameplay)
+- Project+/MemoryLayout (also seemingly only to allow new possibilities and not affect the base game)
+- Project+/ResultsSkip
+- Project+/TexFlags
+- Project+/TripRate
+    - Seems safe, only question is "Only Trip Rate 1.0 Can Trip Foes"; not sure if PM 3.6's chars use any Trip Rates other than 1.0 with an intention of tripping? May want to remove just that code potentially, the others sound safe.
+- Project+/Unlocks
+- Project+/YoshiEggs (cosmetic customization possibility to use in 3.6R too)
+
+
+KirbyHatEX is identical between the tests in 3.6R from the other day and P+EX 1.5.1, not needing any change to account for the 3.6 hat moves
+
+
+Workflow:
+- port the files mentioned in the other txt to P+EX 1.5.1 except for the codes for stages' table and Mario Bros. functioning with a different location, as they're not needed for initial gameplay testing and on their own also require to change a lot of stage related files
+- address the other files mentioned above here
+- remove ShorthopMacro and BigHeadMode after making sure everything else is working
+
+Note: anything that could be considered an easy QoL to keep should be discussed as it may go against the project plan, e.g. anything that changes the Ice Climbers' Nana CPU.
