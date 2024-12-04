@@ -2843,8 +2843,6 @@ HOOK @ $80AABBA0
 
   cmplwi r3, 0x26		# \ Mewtwo's ID
   beq- ShadowBall		# /
-  cmplwi r3, 0x2A		# \ Ridley's ID
-  beq- ShadowBall		# /
   cmplwi r3, 0x21		# \ Lucario's ID
   beq+ AuraSphere		# /
   cmplwi r3, 0x05		# \ Kirby's ID
@@ -2872,8 +2870,6 @@ Kirb:
   bctrl 
   
   cmplwi r3, 0x26		# \ Mewtwo's ID
-  beq- ShadowBall		# /
-  cmplwi r3, 0x2A		# \ Ridley's ID
   beq- ShadowBall		# /
   cmplwi r3, 0x21		# \ Lucario's ID
   beq+ AuraSphere		# /

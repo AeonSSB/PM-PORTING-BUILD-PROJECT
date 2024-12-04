@@ -27,10 +27,7 @@ START:
 	beq-  EXIT  	#Skip if instance IDs match
 
 #Insert Manual Unload Fixes here.
-	ManualUnloadFix(0x6A, 0x09)		#Red Alloy Ex/Captain Falcon
-	ManualUnloadFix(0x6B, 0x0D)		#Blue Alloy Ex/Zelda
-	ManualUnloadFix(0x6C, 0x00)		#Yellow Alloy Ex/Mario
-	ManualUnloadFix(0x6D, 0x05)		#Green Alloy Ex/Kirby
+	#ManualUnloadFix(0x6A, 0x09)		#Red Alloy Ex/Captain Falcon. Disabled, but left in for demonstration purposes.
 
 
     b EXIT
@@ -53,10 +50,7 @@ START:
 	beq-  EXIT  	#Skip if instance IDs match
 
 #Insert Manual Unload Fixes here.
-	ManualUnloadFix(0x6A, 0x09)		#Red Alloy Ex/Captain Falcon
-	ManualUnloadFix(0x6B, 0x0D)		#Blue Alloy Ex/Zelda
-	ManualUnloadFix(0x6C, 0x00)		#Yellow Alloy Ex/Mario
-	ManualUnloadFix(0x6D, 0x05)		#Green Alloy Ex/Kirby
+	#ManualUnloadFix(0x6A, 0x09)		#Red Alloy Ex/Captain Falcon. Disabled, but left in for demonstration purposes.
 
     b EXIT
 
