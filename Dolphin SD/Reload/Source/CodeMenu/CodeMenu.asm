@@ -462,7 +462,7 @@ loc_0x037:
 	li r3, 0x0
 	stb r3, 0x0(r31)
 	lis r3, 0x804e
-	ori r3, r3, 0x13b4
+	ori r3, r3, 0x13b8
 	subi r4, r25, 0x1
 	stw r4, 0x0(r3)
 	addi r25, r25, 0x18
@@ -509,7 +509,7 @@ loc_0x062:
 	li r3, 0x0
 	stb r3, 0x0(r31)
 	lis r3, 0x804e
-	ori r3, r3, 0x1618
+	ori r3, r3, 0x161c
 	subi r4, r25, 0x1
 	stw r4, 0x0(r3)
 	addi r25, r25, 0x18
@@ -556,7 +556,7 @@ loc_0x08D:
 	li r3, 0x0
 	stb r3, 0x0(r31)
 	lis r3, 0x804e
-	ori r3, r3, 0x187c
+	ori r3, r3, 0x1880
 	subi r4, r25, 0x1
 	stw r4, 0x0(r3)
 	addi r25, r25, 0x18
@@ -603,7 +603,7 @@ loc_0x0B8:
 	li r3, 0x0
 	stb r3, 0x0(r31)
 	lis r3, 0x804e
-	ori r3, r3, 0x1ae0
+	ori r3, r3, 0x1ae4
 	subi r4, r25, 0x1
 	stw r4, 0x0(r3)
 	addi r25, r25, 0x18
@@ -2221,35 +2221,35 @@ loc_0x09E:
 HOOK @ $80023D60                # Address = $(ba + 0x00023D60)
 {
 	lis r11, 0x804e
-	lwz r10, 0x1ee0(r11)
+	lwz r10, 0x1ffc(r11)
 	lis r12, 0x80b8
 	stw r10, 0x7aa8(r12)
-	lwz r10, 0x1f1c(r11)
+	lwz r10, 0x2038(r11)
 	stw r10, 0x7aec(r12)
-	lwz r10, 0x1f58(r11)
+	lwz r10, 0x2074(r11)
 	stw r10, 0x7ae8(r12)
-	lwz r10, 0x1f90(r11)
+	lwz r10, 0x20ac(r11)
 	stw r10, 0x7b10(r12)
-	lwz r10, 0x1fd4(r11)
+	lwz r10, 0x20f0(r11)
 	lis r12, 0x80b9
 	stw r10, -0x7cac(r12)
-	lwz r10, 0x2008(r11)
+	lwz r10, 0x2124(r11)
 	stw r10, -0x7ca8(r12)
-	lwz r10, 0x2040(r11)
+	lwz r10, 0x215c(r11)
 	stw r10, -0x7be0(r12)
-	lwz r10, 0x2088(r11)
+	lwz r10, 0x21a4(r11)
 	stw r10, -0x7bbc(r12)
-	lwz r10, 0x20cc(r11)
+	lwz r10, 0x21e8(r11)
 	stw r10, -0x7ba4(r12)
-	lwz r10, 0x210c(r11)
+	lwz r10, 0x2228(r11)
 	stw r10, -0x7ba0(r12)
-	lwz r10, 0x2148(r11)
+	lwz r10, 0x2264(r11)
 	stw r10, -0x7b88(r12)
-	lwz r10, 0x2188(r11)
+	lwz r10, 0x22a4(r11)
 	stw r10, -0x7b7c(r12)
-	lwz r10, 0x21c8(r11)
+	lwz r10, 0x22e4(r11)
 	stw r10, -0x7af0(r12)
-	lwz r10, 0x2210(r11)
+	lwz r10, 0x232c(r11)
 	stw r10, -0x7acc(r12)
 	lwz r12, 0x4(r11)
 	addi r10, r11, 0x7d8
@@ -2302,7 +2302,7 @@ HOOK @ $807C1A20                # Address = $(ba + 0x007C1A20)
 	stwu r1, -0x9c(r1)
 	stmw r3, 0x8(r1)
 	lis r31, 0x804e
-	lwz r31, 0x2474(r31)
+	lwz r31, 0x2590(r31)
 	cmpwi r31, 0x1
 	bne loc_0x038
 	lwz r27, 0xd8(r27)
@@ -2315,12 +2315,12 @@ HOOK @ $807C1A20                # Address = $(ba + 0x007C1A20)
 	lwz r31, 0x64(r26)
 	lfs f2, 0x8(r31)
 	lis r30, 0x804e
-	ori r30, r30, 0x2550
+	ori r30, r30, 0x266c
 	lfs f0, 0x8(r30)
 	fmuls f1, f1, f0
 	fadds f1, f1, f2
 	lis r30, 0x804e
-	ori r30, r30, 0x249c
+	ori r30, r30, 0x25b8
 	lfs f2, 0x8(r30)
 	fneg f0, f2
 	fcmpu cr0, f1, f0
@@ -2336,12 +2336,12 @@ loc_0x024:
 	lwz r31, 0x58(r26)
 	lfs f2, 0xc(r31)
 	lis r30, 0x804e
-	ori r30, r30, 0x2590
+	ori r30, r30, 0x26ac
 	lfs f0, 0x8(r30)
 	fmuls f1, f1, f0
 	fadds f1, f1, f2
 	lis r30, 0x804e
-	ori r30, r30, 0x24d8
+	ori r30, r30, 0x25f4
 	lfs f2, 0x8(r30)
 	fneg f0, f2
 	fcmpu cr0, f1, f0
@@ -2371,7 +2371,7 @@ loc_0x038:
 HOOK @ $8083ADE0                # Address = $(ba + 0x0083ADE0)
 {
 	lis r4, 0x804e
-	lwz r4, 0x2474(r4)
+	lwz r4, 0x2590(r4)
 	cmpwi r4, 0x1
 	bne loc_0x01C
 	cmpwi r3, -0x1
@@ -2528,7 +2528,7 @@ loc_0x014:
 HOOK @ $808E00A4                # Address = $(ba + 0x008E00A4)
 {
 	lis r6, 0x804e
-	lwz r6, 0x224c(r6)
+	lwz r6, 0x2368(r6)
 	cmpwi r6, 0x1
 	bne loc_0x005
 	li r0, 0x8
@@ -3623,7 +3623,7 @@ loc_0x028:
 	addi r26, r3, 0x1f
 	li r28, 0x0
 	lbz r27, 0x0(r26)
-	cmpwi r28, 0x2f
+	cmpwi r28, 0x2c
 	bge loc_0x055
 loc_0x04E:
 	cmpw r27, r30
@@ -3632,7 +3632,7 @@ loc_0x04E:
 loc_0x051:
 	lbzu r27, 0x4(r26)
 	addi r28, r28, 0x1
-	cmpwi r28, 0x2f
+	cmpwi r28, 0x2c
 	blt+ loc_0x04E
 loc_0x055:
 	lis r28, 0xffff
@@ -4944,7 +4944,7 @@ HOOK @ $808E0094                # Address = $(ba + 0x008E0094)
 	word 0x00000000                 # ....
 data_0x00D:
 	lis r30, 0x804e
-	lwz r30, 0x2298(r30)
+	lwz r30, 0x23b4(r30)
 	cmplwi r30, 0x0
 	lis r11, 0x2
 	li r12, 0x0
@@ -4971,11 +4971,11 @@ loc_0x018:
 HOOK @ $808734F8                # Address = $(ba + 0x008734F8)
 {
 	lis r11, 0x804e
-	lwz r12, 0x22e0(r11)
+	lwz r12, 0x23fc(r11)
 	cmplwi r12, 0x0
 	beq loc_0x022
 	mtctr r12
-	lwz r11, 0x2390(r11)
+	lwz r11, 0x24ac(r11)
 	mr r0, r11
 	bdz loc_0x018
 	add r0, r11, r3
@@ -4997,12 +4997,12 @@ loc_0x013:
 	subf r0, r0, r3
 loc_0x018:
 	lis r11, 0x804e
-	lwz r12, 0x23d0(r11)
+	lwz r12, 0x24ec(r11)
 	cmpw r0, r12
 	bge loc_0x01D
 	mr r0, r12
 loc_0x01D:
-	lwz r12, 0x2418(r11)
+	lwz r12, 0x2534(r11)
 	cmpw r0, r12
 	ble loc_0x021
 	mr r0, r12
@@ -5012,3 +5012,11 @@ loc_0x022:
 	xoris r3, r3, 0x8000
 }
 
+####################################
+[CM_Addons] Code Menu Addon Includes
+####################################
+.include "Source/CM_Addons/WIPMHTFL/Source.asm"
+.include "Source/CM_Addons/MLEEFREZ/Source.asm"
+.include "Source/CM_Addons/RAYDEBUG/Source.asm"
+.include "Source/CM_Addons/PRYTAUNT/Source.asm"
+.include "Source/CM_Addons/UNVWLJMP/Source.asm"
