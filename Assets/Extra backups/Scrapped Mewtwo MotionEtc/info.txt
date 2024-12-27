@@ -1,0 +1,7 @@
+Attempt at lowering the filesize through removing the Lucario boneset.
+
+Found that Mewtwo uses one of the Lucario ear bones in the misc section of his PSA file,
+so maybe the fact that that goes unanimated in the optimizations makes it mess up somehow.
+(referring to a t-pose grab release)
+
+Saw desyncs happen when hitting airborne Mewtwo with Up Air from behind and Nair.
