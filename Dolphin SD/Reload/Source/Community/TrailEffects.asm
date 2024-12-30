@@ -1,5 +1,5 @@
 ###############################################
-Sword Trail Hitlag fix V2 [MarioDox,DukeItOut]
+!Sword Trail Hitlag fix V2 [MarioDox,DukeItOut]
 ###############################################
 # Makes it so trail effects will stop
 # alongside the object that created them
@@ -10,6 +10,7 @@ Sword Trail Hitlag fix V2 [MarioDox,DukeItOut]
 #
 # R.O.B.'s laser is the only example where this 
 # is currently desired to have an exception.
+# Disabled to retain PM-era visuals for Reload.
 ###############################################
 HOOK @ $800656A8
 {
@@ -57,7 +58,6 @@ HOOK @ $8006131c
     %trailIsSolid(0x174)        		# Dark Pit
     %trailIsSolid(0x175)        		# Classic Pit
 	%trailIsSolidRange(0x1ED, 0x1EE)	# Virtual Boy ROB normal, max laser
-	%trailIsSolidRange(0x462, 0x463)	# Sceptile Seed trails
     b %END%
 ForceSolid:
     li        r6, 0x1           # Tells the game this trail won't be see through
