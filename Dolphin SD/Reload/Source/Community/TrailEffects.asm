@@ -1,5 +1,5 @@
 ###############################################
-!Sword Trail Hitlag fix V2 [MarioDox,DukeItOut]
+Sword Trail Hitlag fix V2 [MarioDox,DukeItOut]
 ###############################################
 # Makes it so trail effects will stop
 # alongside the object that created them
@@ -10,7 +10,6 @@
 #
 # R.O.B.'s laser is the only example where this 
 # is currently desired to have an exception.
-# Disabled to retain PM-era visuals for Reload.
 ###############################################
 HOOK @ $800656A8
 {
