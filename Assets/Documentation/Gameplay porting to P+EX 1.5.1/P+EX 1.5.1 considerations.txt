@@ -3,7 +3,7 @@
 
 - Community/Subspace changes again from 3.6R to P+EX 1.5.1, with P+EX having an extra section; assuming the two files from the builds need to be combined into a new one
 
-- Community/TrailEffects from P+EX 1.5.1 should not be kept, it was deliberately tried and left out when it was first made
+- Community/TrailEffects from P+EX 1.5.1 was initially not one to keep, but after testing I decided not to disable it
 
 - Community/PSA/Angle is very different between the two builds and I don't know what P+EX 1.5.1's one does. If gameplay differences are involved, we should not use the new one
     - SAFE, it's just for Flipper

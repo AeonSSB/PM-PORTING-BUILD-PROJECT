@@ -26,6 +26,10 @@ Forward port:
 
 ---------------------------------------------
 
+AdvEx00, AdvEx01 and AdvEx02.sav have been updated to integrate stage interaction and heavy item changes onto Giga Bowser
+
+---------------------------------------------
+
 Relevant codes for the future porting of 3.6R features to the SSS (P+ rewrote the SSS):
 SSSPageAdvance, SSS, the code inside More that disables D-pad in the SSS, as well as the new SSSbuttons and Random
 
