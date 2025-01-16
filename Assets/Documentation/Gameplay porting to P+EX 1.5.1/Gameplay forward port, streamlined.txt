@@ -23,6 +23,7 @@ Forward port:
 - .elf launchers (for the edited folder name from P+EX to Reload)
 
 - Misc.GCT (for dash back shield behavior)
+- Removing Physics.rel (to revert the physics delay change in P+ and fixing Sonic's Dair slowfall)
 
 	- rebuilt GCTs
 
