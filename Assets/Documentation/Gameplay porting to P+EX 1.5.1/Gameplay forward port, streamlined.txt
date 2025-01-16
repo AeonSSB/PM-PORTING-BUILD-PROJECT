@@ -22,6 +22,8 @@ Forward port:
 - ReplacementSoundbankEngine (for the edited folder name from P+EX to Reload)
 - .elf launchers (for the edited folder name from P+EX to Reload)
 
+- Misc.GCT (for dash back shield behavior)
+
 	- rebuilt GCTs
 
 ---------------------------------------------
