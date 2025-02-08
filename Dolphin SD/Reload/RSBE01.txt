@@ -1754,43 +1754,6 @@ HOOK @ $8076CEB0
 #ECB-Model split at Edge Fix for stationary plats
 op ble 0x280 @ $80125430 
 
-#########################################################
-[Project+] Faux Super Armour Port Priority Fix v1.1 [Eon]
-#########################################################
-HOOK @ $80710840
-{
-
-	lwz r4, 0x70(r3)
-	lwz r4, 0x38(r4)
-
-	cmpwi r4, 0x40
-	beq getHit
-	cmpwi r4, 0x3b
-	beq getHit
-
-armour: #grab armour/what faux super armour did
-	li r4, 1
-	b %end%
-getHit:
-#clear release damage 
-	lwz r3, 0x38(r3)
-	lwz r3, 0x40(r3)
-	li r4, 0
-	lwz r12, 0(r3)
-	lwz r12, 0xC(r12)
-	mtctr r12
-	bctrl
-	li r4, 0
-	stw r4, 0x94(r3)
-
-	lwz r3, 0xD8(r31)
-
-	li r4, 0
-}
-op mr r0, r5 @ $80772238 #in hitlag bit toggle removed
-op nop @ $807722a4 #hitlag frames removal removed
-
-
 #######################################################################
 [Project+] Zair Requires Z press instead of A press while holding shield [Eon]
 #######################################################################
