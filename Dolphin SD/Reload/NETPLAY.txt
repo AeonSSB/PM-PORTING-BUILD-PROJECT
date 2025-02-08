@@ -1183,7 +1183,7 @@ HOOK @ $80769EA0
  }
  
 ##########################################################
-[Project+] Can Grab Characters Slightly Behind [DukeItOut]
+![Project+] Can Grab Characters Slightly Behind [DukeItOut]
 ##########################################################
 HOOK @ $80756984
 {
@@ -1382,22 +1382,22 @@ Triple Jump Glitch Fix [Phantom Wings, spunit262]
 op addi	r4, r3, 3 @ $80858DCC
 
 ######################################################################
-[Project+] Wiggle out of Tumble Window extended to 2 frames [Fracture]
+![Project+] Wiggle out of Tumble Window extended to 2 frames [Fracture]
 ######################################################################
 int 2 @ $80B88F64
 
 #######################################################
-[Project+] Left-Facing Crawl Momentum Fix [Sammi Husky]
+![Project+] Left-Facing Crawl Momentum Fix [Sammi Husky]
 #######################################################
 op fdivs f1, f0, f31 @ $80873B54
 
 #######################################################
-[Project+] Glancing Blow Threshold is Zero [Magus, Eon]
+![Project+] Glancing Blow Threshold is Zero [Magus, Eon]
 #######################################################
 float 0.0 @ $80AD7204
 
 ######################################################
-Don't drop fighter generated items when hit [Kapedani]
+!Don't drop fighter generated items when hit [Kapedani]
 ######################################################
 .alias BaseItem__getCreaterItem             = 0x8099302c
 .alias g_ftEntryManager                     = 0x80B87c48
@@ -1462,18 +1462,18 @@ dropItem:
 }
 
 ##################################################
-[Project+] Rolls Don't Cancel Knockback [Fracture]
+![Project+] Rolls Don't Cancel Knockback [Fracture]
 ##################################################
 op NOP @ $80885020 
 
 ################################################
-[Project+] Character Ledge Unsnap fix [Fracture]
+![Project+] Character Ledge Unsnap fix [Fracture]
 ################################################
 int 0x20000 @ $80FC2AB0
 int 0x20000 @ $80FC2AB8
 
 ##########################################################
-[Project+] Angle 365 negative y speed capped at -0.5 [Eon]
+![Project+] Angle 365 negative y speed capped at -0.5 [Eon]
 ##########################################################
 HOOK @ $80869AB0
 {
@@ -1518,7 +1518,7 @@ forceStarKO:
 }
 
 ######################################
-[Project+] Melee Tech Rolls [Fracture]
+![Project+] Melee Tech Rolls [Fracture]
 ######################################
 
 float 1.0 @ $80B883B8 #tech roll knockback multiplier (default of 0.1)
@@ -1552,7 +1552,7 @@ dontSlideoff:
 }
 
 #############################################################
-[Project+] Player Can Drift if Hitstun Ends Prematurely [Eon]
+![Project+] Player Can Drift if Hitstun Ends Prematurely [Eon]
 #############################################################
 HOOK @ $808674f4
 {
@@ -1613,7 +1613,7 @@ NoHitlag:
 }
 
 ############################################################
-Defender Electric Hitlag disabled by 2.0x trip chance [Eon]
+!Defender Electric Hitlag disabled by 2.0x trip chance [Eon]
 ############################################################
 HOOK @ $8076E410
 {
@@ -1629,7 +1629,7 @@ _end:
 }
 
 #########################################################
-Knockback during Timer Slo-mo is also slowed down v2.0 [Eon]
+!Knockback during Timer Slo-mo is also slowed down v2.0 [Eon]
 #########################################################
 #Multiply Knockback Decay Rate by current Timer-speed
 HOOK @ $80869c10
@@ -1676,7 +1676,7 @@ cont:
 }
 
 ##############################################
-Slow-mo timer Continues even when Linked [Eon]
+!Slow-mo timer Continues even when Linked [Eon]
 ##############################################
 HOOK @ $80766B80 
 {
@@ -1696,7 +1696,7 @@ skip:
 
 
 ##############################################################
-[Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
+![Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
 ##############################################################
 HOOK @ $8089156c
 {
@@ -1706,7 +1706,7 @@ HOOK @ $8089156c
 }
 
 ###################################################################
-[Project+] Grabbed Opponents face opposite way from grabber [Eon]
+![Project+] Grabbed Opponents face opposite way from grabber [Eon]
 ###################################################################
 HOOK @ $8077161c
 {
@@ -1733,7 +1733,7 @@ HOOK @ $8077161c
 }
 
 #########################################################
-[Project+] Throws Don't Trip on Grounded Banana 2.0 [Eon]
+![Project+] Throws Don't Trip on Grounded Banana 2.0 [Eon]
 #########################################################
 HOOK @ $8076CEB0
 {
@@ -1749,13 +1749,13 @@ HOOK @ $8076CEB0
 }
 
 ##################################################################################
-[Project+] Floating Point Imprecision compensation for Collision tests v1.1 [Eon]
+![Project+] Floating Point Imprecision compensation for Collision tests v1.1 [Eon]
 ##################################################################################
 #ECB-Model split at Edge Fix for stationary plats
 op ble 0x280 @ $80125430 
 
 #########################################################
-[Project+] Faux Super Armour Port Priority Fix v1.1 [Eon]
+![Project+] Faux Super Armour Port Priority Fix v1.1 [Eon]
 #########################################################
 HOOK @ $80710840
 {
@@ -1792,12 +1792,12 @@ op nop @ $807722a4 #hitlag frames removal removed
 
 
 #######################################################################
-[Project+] Zair Requires Z press instead of A press while holding shield [Eon]
+![Project+] Zair Requires Z press instead of A press while holding shield [Eon]
 #######################################################################
 word 0x30 @ $80faa730
 
 ################################################
-[Project+] Moving Platform Landing Fixes [Eon]
+![Project+] Moving Platform Landing Fixes [Eon]
 ################################################
 HOOK @ $80129A34
 {
@@ -1860,7 +1860,7 @@ op addi r15, r1, 0xA0 @ $806E0F5C
 op addi r5, r1, 0xA0 @ $806E0FCC
 
 #############################################
-Spring Props don't set X position [DukeitOut]
+!Spring Props don't set X position [DukeitOut]
 #############################################
 CODE @ $80882AC8
 {
@@ -2648,7 +2648,7 @@ op li r4, 20 @ $8085B814
 .include Source/Project+/YoshiEggs.asm
 
 ###############################################################
-[Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko]
+![Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko]
 ###############################################################
 float Infinite @ $80B88738
 
@@ -2658,7 +2658,7 @@ Spacies Up-B Air Friction Fix [Magus]
 op fneg	f0,f1 @ $80A1B848
 
 ###########################
-Falco Low Laser Fix [Eon]
+!Falco Low Laser Fix [Eon]
 ###########################
 HOOK @ $80a5d1b4
 {
@@ -2699,7 +2699,7 @@ orig:
 }
 
 #########################
-Fox Low Lasers Fix [Eon]
+!Fox Low Lasers Fix [Eon]
 #########################
 HOOK @ $80A297B4
 {
@@ -2825,7 +2825,7 @@ Aura Sphere Cancel [ds22]
 * 04AA6590 40820040
 
 #######################################################################
-[Project+] Aura Sphere Only Pulsates Horizontally v1.2 [DukeItOut, Eon]
+![Project+] Aura Sphere Only Pulsates Horizontally v1.2 [DukeItOut, Eon]
 #
 # 1.1: Fixes issue where Kirby's Shadow Ball wouldn't match Mewtwo's
 # 1.2: Improves Kirby check to no longer require LA-Basic[8] to be set
@@ -2886,7 +2886,7 @@ finish:
 }
 
 ########################################
-[Project+] Lucario Charge Glow Fix [Eon]
+![Project+] Lucario Charge Glow Fix [Eon]
 ########################################
 op cmpwi r26, 0x112 @ $80aa66c0
 op blt 0x20 @ $80aa66c4
@@ -2915,24 +2915,24 @@ op li r23, 0x17 @ $80985F44 //0x17 is ZSS ID, instead of the normal 0x3 for Samu
 op li r30, 0x17 @ $8098652C 
 
 ########################################################
-[Project+] Kirby Momentum isnt reset by Peanut Gun [Eon]
+![Project+] Kirby Momentum isnt reset by Peanut Gun [Eon]
 ########################################################
 #port of a module edit in ft_diddy
 op b 0x90 @ $80A6F11C
 
 ####################################################
-[Project+] Mach Tornado Doesn't Ricochet [DukeItOut]
+![Project+] Mach Tornado Doesn't Ricochet [DukeItOut]
 ####################################################
 op NOP @ $80A6467C
 op NOP @ $80A64614
 
 ##############################################################
-[Project+] Dedede's Inhale Base Timer Reduction [Boiko]
+![Project+] Dedede's Inhale Base Timer Reduction [Boiko]
 ##############################################################
 float 200.0 @ $80B88708
 
 #################################
-[Project+] Roy Counter Fix [ds22] 
+![Project+] Roy Counter Fix [ds22] 
 #################################
 HOOK @ $808A1058
 {
@@ -3068,7 +3068,7 @@ loc_0x12C:
 }
 
 ##############################################################################
-[Project+] All ground types but HRC act as basic for Pikmin pull chances [Eon]
+![Project+] All ground types but HRC act as basic for Pikmin pull chances [Eon]
 ##############################################################################
 HOOK @ $80a6bbdc
 {
@@ -3089,7 +3089,7 @@ Snake's U-Smash can Have Horizontal Velocity [Magus]
 * 60000000 00000000
 
 ##########################################################
-[Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon]
+![Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon]
 ##########################################################
 op nop @ $80ac7d2c
 
