@@ -25,6 +25,8 @@ Forward port:
 - Misc.GCT (for dash back shield behavior)
 - Removing Physics.rel (to revert the physics delay change in P+ and fixing Sonic's Dair slowfall)
 
+- Disable most P+ specific codes, except QoL like memory expansions for the CSS
+  (keeping the removal of Screen KOs in doubles!)
 	- rebuilt GCTs
 
 ---------------------------------------------
