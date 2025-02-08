@@ -1,5 +1,5 @@
 ###################################################################
-[Project+] Normal Ledge Getup Eliminates Ledge Cooldown [DukeItOut]
+![Project+] Normal Ledge Getup Eliminates Ledge Cooldown [DukeItOut]
 ###################################################################
 HOOK @ $8087B078
 {
@@ -12,7 +12,7 @@ HOOK @ $8087B078
 }
 
 ###########################################
-[Project+] Ledgedash Stabilizer [DukeItOut]
+![Project+] Ledgedash Stabilizer [DukeItOut]
 ###########################################
 HOOK @ $808386E0
 {
@@ -90,7 +90,7 @@ _end:
 }
 
 ###############################################
-[Project+] Tether Displacement Glitch Fix [Eon]
+![Project+] Tether Displacement Glitch Fix [Eon]
 ###############################################
 
 #on exit by getting hit from a tether

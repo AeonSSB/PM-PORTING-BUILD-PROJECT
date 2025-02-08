@@ -27,6 +27,9 @@ Forward port:
 
 - Disable most P+ specific codes from RSBE01 and NETPLAY, except QoL like memory expansions for the CSS
   (keeping the removal of Screen KOs in doubles!)
+
+- Edited LedgeGrab (to only preserve the tether fix that makes it work if it encounters platforms on the way, relevant on Yoshi's Story)
+
 	- rebuilt GCTs
 
 ---------------------------------------------
