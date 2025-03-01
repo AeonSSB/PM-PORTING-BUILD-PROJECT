@@ -140,7 +140,7 @@ CODE @ $80FC2038
 CODE @ $80FB25FC
 {
 	word 0x00070100; word C_Stick_Off+0x48
-	word 0x02040100; word C_Stick_Off
+	word 0x00020000; word 0					#Restore Gatling Grab for 3.6R. Changes "Additional Action Requirement" to "No Event".
 	word 0x00020000; word 0
 	word 0x12000200; word 0x80FB24CC
 }
