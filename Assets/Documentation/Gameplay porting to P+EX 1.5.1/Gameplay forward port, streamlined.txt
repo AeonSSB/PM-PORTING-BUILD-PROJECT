@@ -30,6 +30,13 @@ Forward port:
 
 - Edited LedgeGrab (to only preserve the tether fix that makes it work if it encounters platforms on the way, relevant on Yoshi's Story)
 
+- YoshiEggs.asm
+
+- ItmCommonParam.pac
+
+- C-Stick.asm
+- C-Stick.GCT
+
 	- rebuilt GCTs
 
 ---------------------------------------------
