@@ -148,7 +148,7 @@ half[110] |	# Stage Count + 2
 0x1915, 0x1C16, 0x1D17, 0x1E18, | # Castle Siege, Wario Land, Distant Planet, Skyworld
 0x1F19, 0x201A, 0x211B, 0x221C, | # Fountain of Dreams, Fourside, Smashville, Shadow Moses Island
 0x231D, 0x241E, 0x4326, 0x2932, | # Green Hill Zone, PictoChat, Sky Sanctuary, Temple
-0x2A33, 0x8371, 0x2C35, 0x2D36, | # Yoshi's Story, Bowser's Castle (PM), Onett, Dream Land
+0x2A33, 0x816F, 0x2C35, 0x2D36, | # Yoshi's Story, Frigate Husk, Onett, Dream Land
 0x2F37, 0x3038, 0x3139, 0x323A, | # Peach's Castle (64), Corneria, Big Blue, Planet Zebes
 0x2E3B, 0xFF64, 0xFF64, 0x373C, | # Pokemon Stadium 2, NOTHING, NOTHING, Training Room
 | # NEW SLOTS
@@ -160,7 +160,7 @@ half[110] |	# Stage Count + 2
 0x5442, 0x5543, 0x5644, 0x5745,	| # Skyloft, Pokemon Stadium 2 (Brawl), New Pork City, 75m
 0x5846,	0x5947, 0x5A48, 0x5B49,	| # Mario Bros., Green Hill Zone (Brawl), Super Happy Tree, Sector Z
 0x5C4A, 0x5D4B, 0x5E4C, 0x5F4D,	| # Pokemon Stadium, Venom, Brinstar, Green Greens
-0x604E, 0x816F, 0x8472, 0x6351, | # Mute City, Frigate Husk, Tiny FD, Rumble Falls
+0x604E, 0x8371, 0x8472, 0x6351, | # Mute City, Bowser's Castle (PM), Tiny FD, Rumble Falls
 0x857A, 0x6553, 0x8270, 0x806E, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Subspace
 0x6755, 0x6856, 0x6957, 0x6A58, | # Bob-Omb Battlefield, Mushroom Gorge, Minecart Madness, Oil Drum Alley
 0x472A, 0x6B59, 0x6C5A, 0x6D5B, | # Golden Temple, Crateria, Yoshi's Cookie, Yoshi's Story (Beta)
