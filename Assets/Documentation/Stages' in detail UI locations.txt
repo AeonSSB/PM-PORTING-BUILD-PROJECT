@@ -1,0 +1,97 @@
+STAGE PREVIEWS/BANNERS
+-- Locations --
+File: pf/menu2/sc_selmap.pac
+Node: Misc Data [80]
+Prefix: MenSelmapPrevbase
+Animation: MenSelmapPreview/basebgM, MenSelmapPreview/basebgMShadow
+
+File: pf/menu2/mu_menumain.pac
+Node: Misc Data [0]
+Prefix: MenSelmapPrevbase
+Animation: MenSelmapPreview/basebgM, MenSelmapPreview/basebgMShadow
+
+FRANCHISE ICONS
+-- Locations --
+File: pf/menu2/sc_selmap.pac
+Node: Misc Data [80]
+Prefix: MenSelchrMark
+Animation: MenSelmapPreview/lambert113
+
+File: pf/menu2/mu_menumain.pac
+Node: Misc Data [0]
+Prefix: MenSelchrMark
+Animation: MenSelmapPreview/lambert113
+
+STAGE ICONS
+-- Locations --
+File: pf/menu2/sc_selcharacter2.pac
+Node: MenuRule_en/Model Data [0]
+Prefix: MenSelmapIcon
+Animation: MenMainSwitch0104_TopN__0/lambert100
+
+File: pf/menu2/mu_menumain.pac
+Node: MenuRule_en/Model Data [0]
+Prefix: MenSelmapIcon
+Animation: MenMainSwitch0104_TopN__0/lambert100
+
+File: pf\menu2\sc_selmap.pac
+Node: Misc Data [80]
+Prefix: MenSelmapIcon
+Animation: MenSelmapIcon/iconM
+Two entries for animation, one is offset by 400
+
+File: pf\menu2\mu_menumain.pac
+Node: Misc Data [0]
+Prefix: MenSelmapIcon
+Animation: MenSelmapIcon/iconM
+Two entries for animation, one is offset by 400
+
+STAGE NAME
+-- Locations --
+File: pf\menu2\sc_selmap.pac
+Node: Misc Data [80]
+Prefix: MenSelmapFrontStname
+Animation: MenSelmapPreview/pasted__stnameM, MenSelmapPreview/pasted__stnameshadowM
+
+File: pf\menu2\mu_menumain.pac
+Node: Misc Data [0]
+Prefix: MenSelmapFrontStname
+Animation: MenSelmapPreview/pasted__stnameM, MenSelmapPreview/pasted__stnameshadowM
+
+GAME LOGO
+-- Locations --
+File: pf\menu2\sc_selmap.pac
+Node: Misc Data [80]
+Prefix: MenSelmapMark
+Animation: MenSelmapPreview/pasted__stnamelogoM
+
+STAGE R-ALT NAMES
+-- Locations --
+File: pf\menu2\sc_selmap.pac
+Node: Misc Data [80]
+Prefix: MenSelmapMark
+Animation: MenSelmapPreview/pasted__stnameM_start, MenSelmapPreview/pasted__stnameshadowM_start
+
+File: pf\menu2\mu_menumain.pac
+Node: Misc Data [0]
+Prefix: MenSelmapMark
+Animation: MenSelmapPreview/pasted__stnameM_start, MenSelmapPreview/pasted__stnameshadowM_start
+
+REPLAY PREVIEWS
+-- Locations --
+File: pf\menu\collection\Replay.brres
+Node: Replay.brres
+Prefix: MenCollReplaySt
+Animation: MenReplayPhoto0_TopN__0
+
+RSS Previews
+-- Locations --
+File: pf/menu2/sc_selcharacter2.pac
+Node: MenuRule_en/Model Data [0]
+Prefix: MenStageSwitch
+Animation: 101_TopN__0, MenMainSwitch0101_TopN__0
+
+File: pf/menu2/mu_menumain.pac
+Node: MenuRule_en/Model Data [0]
+Prefix: MenStageSwitch
+Animation: 101_TopN__0, MenMainSwitch0101_TopN__0
