@@ -1,0 +1,462 @@
+﻿DataSize0xB0
+07C Par00 2A
+080 Par01 F
+084 Par02 3
+088 Par03 1A
+08C Par04 4
+090 Art0 Yoshi Bomb Landing Star
+094 Art1 Egg
+098 Art2 Super Dragon Wings
+09C Art3 Super Dragon Fire Breath
+0A0 Art4 Super Dragon Fireball
+0A4 Par10 3
+0A8 Par11 4
+0AC Par12 3
+X0B 29-02fyoshiCatchSkipFrame__11ftYoshiNode
+X0C 2A-02fyoshiCatchDashSkipFrame__11ftYoshiNode
+X0B 2B-02fyoshiCatchTurnSkipFrame__11ftYoshiNode
+
+Art0 Yoshi Bomb Landing Star
+1-1
+034 Par00-0 5
+
+Art1 Egg
+2-2
+034 Par01-0 5
+
+Art2 Super Dragon Wings
+1-5
+034 Par02-0 1
+030 Par02D3 A
+
+Art3 Super Dragon Fire Breath
+1-1
+034 Par03-0 4
+
+Art4 Super Dragon Fireball
+3-2
+034 Par04-0 2
+
+Par00
+Side B: Egg Roll
+
+*0x0 Max Duration
+Max duration before exiting automatically (frames)
+
+*0x4 Min Duration
+Frame until fastest end by press B
+
+*0x8 Hit Shorten
+When attack hit, duration is shorten by this value.
+
+0xC
+ ?? (Not read on sideB)
+
+0x10
+Unknown
+
+0x14 Startup V Momentum
+startup vertical momentum
+
+0x18
+Affect to rotation at start. Not affect to speed
+
+0x1C First Landing H Momentum
+Horizontal momentum when first landing
+
+0x20
+ ?? (read on aerial startup)
+
+0x24 Gravity
+Gravity
+
+0x28 Bounciness
+Bounciness when hitting ground
+
+0x2C
+Related to speed. If set low value, it will decrease a little, but there is almost no change even if it set to high.
+
+0x30
+If set to 0, a little faster
+
+0x34 Ground Max H Speed 1
+Grounded max horizontal speed. The lower of 0x34 and 0x38 is the actual maximum speed.
+
+0x38 Ground Max H Speed 2
+Grounded max horizontal speed
+
+0x3C
+Unknown
+
+0x40
+Unknown
+
+0x44 Air Max H Speed 1
+Aerial max horizontal speed. Compare the values of 0x44 and 0x48, the smaller value takes precedence.
+
+0x48 Air Max H Speed 2
+Aerial max horizontal speed. Compare the values of 0x44 and 0x48, the smaller value takes precedence.
+
+0x4C
+Unknown
+
+0x50
+Unknown
+
+0x54 Turn Sensitivity
+The strength of the input required to change direction on the ground. If it is 1 or more, Yoshi will not be able to change direction during Action.
+
+0x58 Rotation Speed when Turn
+Rotation speed when changing direction. If set lower the value, the slower the speed. Even if set to 0, it will not stop egg rotation speed.
+
+*0x5C
+Unknown
+
+0x60
+Unknown
+
+0x64 H Recoil at Wall Hit
+Horizontal recoil when hitting a wall
+
+0x68 V Recoil at Wall Hit
+Vertical recoil when hitting a wall
+
+0x6C Bounce V momentum
+Bounce vertical momentum multiplier
+
+0x70 Ground bounce Related
+If set lower value, even if use it on the ground, it will bounce and the start of acceleration will be delayed. If set lower value to 0x6C, it will not bounce. Also, if set to 0, the egg will remain crushed vertically, and if there is no sideway input, the speed will decrease and eventually stop. (At this time, can immediately change direction.)
+
+0x74
+Unknown
+
+0x78 Bonus Damage
+Bonus damage: +3x to fast
+
+0x7C
+Related to damage. (high = more damage)
+
+0x80
+Unknown
+
+0x84
+Unknown
+
+0x88 H Preservation at end
+Horizontal momentum preservation at end
+
+0x8C V Preservation at end
+Vertical momentum preservation at end
+
+0x90 Ground Roll Speed
+Grounded rolling speed
+
+*0x94
+Unknown
+
+0x98 Air H Acceleration
+Aerial horizontal acceleration
+
+0x9C
+(45 degrees)
+
+0xA0 Landing Lag
+Landing lag
+
+*0xA4
+Unknown
+
+Par01
+Up B: Egg Throw
+
+0x0 V Momentum
+Vertical momentum when aerial throw (Yoshi)
+
+0x4 Gravity
+Gravity (Yoshi)
+
+0x8 Max Fall Speed
+Max fall speed (Yoshi)
+
+0xC Vertical Momentum Multiplier
+Vertical momentum multiplier after throwing 2+ times in air (Yoshi)
+
+0x10 Rise Count
+Number of times Yoshi hops from Egg Toss in the air until landing
+
+0x14
+If set to 0, the thrown egg will teleport somewhere. affects angle of thrown egg backward and forward? (radians)
+
+0x18 Changeable Angle
+Affects to angle of thrown egg when input backward and forward (radians, normal = 32 degrees)
+
+0x1C
+affects angle of thrown egg backward and forward? (4 degrees)
+
+0x20 Basic Angle
+angle of throwing (58 degrees affects all throws)
+
+0x24 
+Horizontal egg momentum when side throw
+
+0x28
+Horizontal egg momentum when side throw
+
+0x2C X Offset
+Egg X offset on toss
+
+0x30 Y Offset
+Egg Y offset on toss
+
+0x34 Egg Rotation Speed (Short Press)
+Rotation speed of thrown egg. The shorter B button is held down, the closer it will be to this rotation speed. If 0x34 and 0x38 are 0, the thrown egg will not rotate at all.
+
+0x38 Egg Rotation Speed (Long Press)
+Rotation speed of thrown egg. The longer B button is held down, the closer it will be to this rotation speed.
+
+Par02
+Down B: Yoshi Bomb
+
+0x0 Fall Speed
+Fall speed
+
+0x4 X Offset
+X offset of landing star (applies equally in both directions)
+
+0x8 Y Offset
+Y offset of landing star
+
+Par03
+Final Smash: Super Dragon
+
+0x0 Auto Forward Momentum
+Momentum to move forward automatically
+
+0x4 H Acceleration
+Horizontal acceleration
+
+0x8 Max H Speed
+Maximum horizontal speed
+
+0xC H Deceleration
+Horizontal deceleration
+
+0x10 V Acceleration
+Vertical acceleration
+
+0x14 Max V Speed
+Maximum vertical speed
+
+0x18 V Deceleration
+Vertical deceleration
+
+0x1C
+Unknown
+
+0x20 Max Auto Fall Speed
+Maximum descent speed by automatic descent
+
+0x24 Rising Animation Speed
+Max Animation speed when rising
+
+0x28 Descending Animation Speed
+Max Animation speed when descending
+
+0x2C Fire Breath Timing
+Frame until fire breath comes out when no attack input
+
+0x30 Fire Breath Interval
+Frames interval until the flame reoccurs when during fire breath
+
+0x34 Fire Breath Initial Angle
+Angle of the first shot of the fire breath
+
+0x38 Fire Breath Max Angle
+Maximum changeable angle when during fire breath
+
+0x3C Fire Breath Randomness
+Flame spread angle randomness when during fire breath
+
+0x40 Fire Breath X Offset
+Flame occur X Offset when during fire breath
+
+0x44 Fire Breath Y Offset
+Flame occur Y Offset when during fire breath
+
+0x48 Fire Breath Duration
+Fire breath duration
+
+0x4C Fireball Angle
+Flying angle of the fireball
+
+0x50 Fireball X Offset
+Fireball X offset
+
+0x54 Fireball Y Offset
+Fireball Y offset
+
+0x58 Fireball Interval
+Minimum interval until fire the fireball again
+
+0x5C FS Duration
+Final Smash Duration (Seconds?)
+
+0x60
+Unknown
+
+0x64
+Unknown
+
+Par04
+Flutter Jump
+
+*0x0 Turning Time
+Number of frames to turn around during Double Jump
+
+0x4 Sensitivity
+Joystick sensitivity to turn around during Double Jump
+
+0x8 Knockback Armor
+The minimum knockback that will cause flinch during Double Jump
+
+*0xC
+Unknown
+
+Par10
+yoshiCatchData__11ftYoshiNode
+
+0x0
+Starting frame for the table above- equal to the starting frame of Yoshi's standing grab hitbox.
+
+0x4
+Ending frame for the table above- equal to the ending frame of Yoshi's standing grab hitbox minus one.
+
+Offset
+Animation frame set. Upon successfully grabbing, the grab animation is set to this frame to show Yoshi pulling his foe in. The frame to switch to depends on the frame Yoshi grabbed his foe. By default, a successful grab on the first frame of the grab sets the animation frame to 46 (tongue just returning to Yoshi's mouth) and a successful grab on the last frame of the grab, where Yoshi's tongue is extended to its max distance, sets the animation to frame 29, where Yoshi's tongue is just starting to return to his mouth from max distance.
+
+Par11
+yoshiCatchDashData__11ftYoshiNode
+
+0x0
+Starting frame for the table above- equal to the starting frame of Yoshi's dash grab hitbox.
+
+0x4
+Ending frame for the table above- equal to the ending frame of Yoshi's dash grab hitbox minus one.
+
+Offset
+Animation frame set. Upon successfully grabbing, the grab animation is set to this frame to show Yoshi pulling his foe in. The frame to switch to depends on the frame Yoshi grabbed his foe. By default, a successful grab on the first frame of the grab sets the animation frame to 34 (tongue just returning to Yoshi's mouth) and a successful grab on the last frame of the grab, where Yoshi's tongue is extended to its max distance, sets the animation to frame 22, where Yoshi's tongue is just starting to return to his mouth from max distance.
+
+*0xC?
+Garbage Data?
+
+Par12
+yoshiCatchTurnData__11ftYoshiNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Offset
+Animation frame set. Upon successfully grabbing, the grab animation is set to this frame to show Yoshi pulling his foe in. The frame to switch to depends on the frame Yoshi grabbed his foe. By default, a successful grab on the first frame of the grab sets the animation frame to 26 (tongue just returning to Yoshi's mouth) and a successful grab on the last frame of the grab, where Yoshi's tongue is extended to its max distance, sets the animation to frame 20, where Yoshi's tongue is just starting to return to his mouth from max distance.
+
+Par00-0
+Yoshi Bomb Landing Star Article
+
+0x0 Initial H Movement
+Initial horizontal movement of stars
+
+0x4 H Deceleration
+Horizontal acceleration seen from initial movement direction. Normally, the value is set to a negative value to make it a deceleration. There is no minimum speed setting, so there are cases where the article travels in the opposite direction to the direction it initially traveled.
+
+0x8 Initial Vertical Movement
+Initial vertical movement of stars
+
+0xC Max Vertical Speed
+Maximum vertical speed.
+
+0x10 Gravity
+Star gravity
+
+Par01-0
+Egg Throw Article
+
+*0x0 Duration
+How long until thrown egg explodes automatically (frames)
+
+*0x4 Duration after Exploded
+The time it takes for an exploded egg to completely disappear from the stage.
+
+0x8 Spin Speed
+Spin Speed Multiplier
+
+0xC Gravity
+Egg gravity
+
+0x10 Max V Speed
+Max vertical speed
+
+Par02-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par02D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Par03-0
+Super Dragon Fire Breath Article
+
+0x0 Initial Speed
+Initial Speed
+
+0x4 Deceleration
+Deceleration
+
+0x8 Duration
+Duration (Frames)
+
+*0xC
+Unknown
+
+Par04-0
+Super Dragon Fireball Article
+
+0x0 Speed
+Speed
+
+0x4 Duration
+Hitbox duration (Frames)
+

@@ -1,0 +1,271 @@
+﻿DataSize0xA4
+07C Par00 4
+080 Par01 8
+084 Par02 E
+088 Par03 6
+08C Par04 7
+090 Par05 A
+094 Art0 Din's Fire
+098 Art1 Din's Fire Explosion
+09C Art2 Light Arrow Bow
+0A0 Art3 Light Arrow
+
+Art0 Din's Fire
+2-2
+034 Par00-0 C
+
+Art1 Din's Fire Explosion
+1-1
+034 Par01-0 6
+
+Art2 Light Arrow Bow
+1-2
+034 Par02-0 1
+
+Art3 Light Arrow
+1-1
+034 Par03-0 3
+
+Par00
+Neutral B: Nayru's Love
+
+0x0
+Unknown
+
+*0x4 Fall Timing
+Fall start timing on startup
+
+0x8 H Preservation
+Horizontal momentum preservation (less = more)
+
+0xC Gravity
+Gravity
+
+Par01
+Side B: Din's Fire
+
+*0x0
+Unknown
+
+*0x4 Fall Timing
+Fall start timing on startup
+
+*0x8 Fastest Ignite Time
+Minimum frames it takes to ignite after Fire appears
+
+0xC X Offset
+X offset
+
+0x10 Y Offset
+Y offset
+
+0x14 Gravity
+Gravity
+
+0x18 Landing Lag
+Landing lag (frames)
+
+*0x1C
+ ?? (not read)
+
+Par02
+Up B: Farore's Wind
+
+0x0 H Preservation
+Horizontal momentum preservation (less = more)
+
+0x4 V Preservation
+Vertical momentum preservation (less = more)
+
+0x8 Startup Gravity
+Startup gravity
+
+0xC Startup Max Fall Speed
+Startup max fall speed
+
+*0x10 Travel Time
+Frame of travel
+
+0x14
+Unknown
+
+0x18 Sensitivity
+Joystick sensitivity. If over 1, can't change travel angle.
+
+0x1C Travel speed 1
+Travel speed
+
+0x20 Travel speed 2
+Travel speed
+
+0x24 H Preservation at End
+Horizontal preservation after travel. If set to 0, there will be no movement after horizontal movement. If set value greater than 1, it will be same as 1.
+
+*0x28
+Unknown
+
+0x2C H Preservation at End
+Horizontal preservation after travel. Compared to 0x24, the effect is only for a short time. If set to 0, there will be no movement after horizontal movement. It can be made faster than during travel, but it does not exceed the limit horizontal speed.
+
+0x30 Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x34 Landing Lag
+Landing lag (frames)
+
+Par03
+Down B: Transform
+
+0x0 H Preservation
+Horizontal momentum preservation (less = more)
+
+0x4 V Preservation
+Vertical momentum preservation (less = more)
+
+0x8 Gravity
+Gravity
+
+0xC Max Fall Speed
+Max fall speed
+
+*0x10
+Unknown
+
+*0x14
+Unknown
+
+Par04
+Final Smash: Light Arrow
+
+0x0 H Camera Movement at Hit
+Horizontal Camera Movement at Hit. If set to 0, there will be no horizontal movement of the camera.
+
+0x4 V Camera Movement at Hit
+Vertical Camera Movement at Hit. If set to 0, there will be no vertical movement of the camera in most cases.
+
+0x8 Camera Initial V Position at Hit
+It seems to be this value related to the initial vertical position of the camera at the time at hit. For example, if set to 50, the camera will more often rotate from under the floor and approach when attack hit. However, there are also cases where it comes around from above. On the other hand, if set to -50, the zoom will end with the camera showing from above, and will not show from below.
+
+0xC H Camera Rotation at Hit
+This value is related to the horizontal angle that the camera moves rotate at hit. The higher this value is, camera more turn the rotation, but there is an upper limit. Normally don't go around to the back of the stage. If set to 0, there will be no horizontal movement of the camera, but there is a case that zooms horizontally and from a diagonal angle.
+
+0x10 Camera Rotation at Hit
+This value is related to the angle that the camera moves rotate at hit. The higher this value is, camera more turn the rotation, but there is an upper limit. Normally don't go around to the back of the stage. If set to 0, there will be no vertical movement of the camera, but there is a case that zooms vertically and from a diagonal angle.
+
+0x14 Zoom Time at Hit
+Zoom time at hit (frames)
+
+0x18 Multi-Hit Damage Multiplier
+Damage multiplier on secondary target hit
+
+Par05
+Nayru's Love Reflect
+
+*0x0 Bone
+Focus Bone
+
+0x4 Damage Threshold
+Damage threshold
+
+0x8 X Offset
+Reflection bubble X offset
+
+0xC Y Offset
+Reflection bubble Y offset
+
+0x10 Z Offset
+Reflection bubble Z offset
+
+0x14 Size
+Reflection bubble size
+
+0x18 Damage Multiplier
+Reflected damage multiplier
+
+0x1C Speed Multiplier
+Reflected speed multiplier
+
+0x20 Duration Multiplier
+Reflected duration multiplier
+
+*0x24
+Unknown
+
+Par00-0
+Din's Fire (Article 0)
+
+0x0 Duration
+Maximum time to ignite flame (frames)
+
+0x4 Max Charge Time
+Frames to fully charge
+
+0x8 Initial Size
+Initial size (+ GFX Size)
+
+0xC Terminal Size
+Terminal size (+ GFX Size)
+
+0x10 Initial Angle
+Initial angle
+
+0x14 Initial Speed
+Initial speed
+
+0x18 Acceleration
+Acceleration
+
+0x1C Max Speed
+Max speed
+
+0x20 Sensitivity
+Joystick sensitivity. If over 1, can't change angle.
+
+0x24 V Acceleration
+Vertical acceleration
+
+0x28 Max V Speed
+Max vertical speed
+
+0x2C Detonation Timer
+The frame it takes from ignite to explode
+
+Par01-0
+Din's Fire Explosion
+
+0x0 Size Inverse Ratio
+A value that affects size that changes in proportion to charge time. If set to 300 or higher will small the hitbox size by nearly half, and decreasing this value will increase the hitbox size.
+
+0x4 Initial Hitbox Size Multiplier
+Initial hitbox size multiplier (Closer to fully charged size when more charged)
+
+0x8 Terminal Hitbox Size Multiplier
+Terminal hitbox size multiplier (Not affect explosion GFX size)
+
+0xC Initial Damage
+Initial damage
+
+0x10 Damage Growth Rate
+Damage growth rate
+
+*0x14
+Unknown
+
+Par02-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par03-0
+Light Arrow Attribute
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+

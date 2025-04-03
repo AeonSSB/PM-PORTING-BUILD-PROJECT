@@ -1,0 +1,321 @@
+﻿DataSize0xB0
+07C Par00 A
+080 Par01 4
+084 Par02 E
+088 Par03 4
+08C Par04 1C
+094 Art0 Peanut Popgun
+09C Art1 Flying Rocketbarrel
+0A4 Art2 Peanut Popgun Bullet when Final Smash
+0AC Art3 Explosion at End Final Smash
+
+Art0 Peanut Popgun
+3-3
+
+Art1 Flying Rocketbarrel
+3-3
+034 Par01-0 10
+038 Par01-1 8
+
+Art2 Peanut Popgun Bullet when Final Smash
+2-2
+034 Par02-0 4
+
+Art3 Explosion at End Final Smash
+1-1
+034 Par03-0 1
+
+Par00
+Neutral B: Peanut Popgun
+
+0x0 Start Angle
+Start angle (Angle when no charge. Closer to 0x4 angle when more charged)
+
+0x4 Charged Angle
+Angle at which peanut fly when charged for 1 second or more
+
+0x8 Start Speed
+Start speed (Speed when no charge. Closer to 0xC speed when more charged)
+
+0xC Charged Speed
+Speed at which peanut fly when charged for 1 second or more
+
+0x10 H Momentum
+Momentum backward from charged firing
+
+0x14 Add Damage
+Damage added when shooting before explosion (charge to limit)
+
+0x18
+Unknown
+
+*0x1C
+Unknown
+
+0x20 X Offset
+X Offset
+
+0x24 Y Offset
+Y Offset
+
+Par01
+Side B: Monkey Flip
+
+0x0 Initial H Momentum
+Initial horizontal momentum
+
+0x4 Initial V Momentum
+Initial vertical momentum
+
+0x8 Smash H Momentum
+Initial horizontal momentum when Smash input (Not Multiplier)
+
+*0xC
+Unknown
+
+Par02
+Up B: Rocketbarrel Boost
+
+0x0 Pre Fly Turning Speed
+Pre fly turning speed
+
+0x4 Launch Arc Curvature
+Launch arc curvature (higher number allows for steeper curves)
+
+*0x8
+Unknown
+
+0xC Knockback Armor
+Knockback Armor Strength when charging
+
+0x10
+Unknown
+
+0x14 Base V Momentum
+Base vertical momentum (affects charge as well)
+
+0x18 Vertical Growth Rate
+Vertical growth rate
+
+0x1C
+Related to uncharged height
+
+0x20
+Unknown
+
+0x24
+Unknown
+
+0x28
+Unknown
+
+0x2C Recoil Damage
+Damage taken when hitting a wall or ceiling
+
+0x30 Recoil V momentum
+Initial vertical momentum when hitting a wall or ceiling
+
+0x34 Recoil H momentum
+Initial horizontal momentum when hitting a wall or ceiling
+
+Par03
+Down B: Banana Peel
+
+0x0 Throw Angle
+Angle of banana toss in degrees
+
+0x4 Throw Strength
+The speed at which a banana when thrown
+
+0x8 Jump Throw Strength
+A value that is affected if the character has upward momentum when throwing a banana peel (Higher = fast and strong)
+
+*0xC Max Bananas
+Max bananas out at once
+
+Par04
+Final Smash: Rocketbarrel Barrage
+
+0x0 Gravity
+The speed at which accelerates downward
+
+0x4 Max Fall Speed
+The maximum fall speed
+
+0x8 Max Rising Speed
+The maximum rising speed
+
+0xC Naturally rising speed
+The speed at which naturally accelerates upward
+
+0x10 Rising Speed by Side Input
+The speed at which accelerates upward when input left or right
+
+0x14 Rising Speed
+The speed at which accelerates upward when input upward
+
+0x18
+Unknown
+
+0x1C Rising Animation Speed
+Rising animation speed multiplier
+
+0x20
+Unknown
+
+0x24
+Angle that changes when input horizontal. It also affects to horizontal movement.
+
+0x28
+Angle that changes when input horizontal.
+
+0x2C
+Angle that changes when input horizontal.
+
+0x30 Side Turning Speed
+Speed to change the direction of travel sideways
+
+0x34 Side Return Speed
+The speed at which the left or right tilt returns
+
+0x38 H deceleration
+Horizontal deceleration
+
+0x3C Max H Speed
+The maximum horizontal velocity
+
+0x40
+Unknown
+
+0x44 Peanut Speed
+The speed at which the Peanut Popgun bullet fly (Angle variable is RA-Float[7])
+
+*0x48 FS Duration
+Final Smash duration. (seconds) Counting starts after it becomes possible to attack.
+
+*0x4C Flashing Time
+The frame when the character starts flashing, counting from the end time
+
+0x50 Ending V Momentum
+Vertical momentum at the end
+
+0x54 2nd X Offset
+X offset where the second bullet comes out
+
+0x58 2nd Y Offset
+Y offset where the second bullet comes out
+
+0x5C 1st X Offset
+X offset where the first bullet comes out
+
+0x60 1st Y Offset
+Y offset where the first bullet comes out
+
+0x64 H Explosion
+Horizontal explosion place at the end
+
+0x68 V Explosion
+Vertical explosion place at the end
+
+*0x6C
+Unknown
+
+Par01-0
+Flying Rocketbarrel (paramDiddyBarrel__20wnDiddyBarrelJetNode)
+
+*0x0
+Unknown, read once on stage collision
+
+0x4 Speed
+Projectile Rocket Barrel flight speed
+
+0x8 Speed Growth Rate
+Projectile Rocket Barrel flight speed growth rate (Value that affects charge time RA-Basic[0])
+
+*0xC
+Unknown, projectile rocket barrel reads every few frames
+
+*0x10
+Unknown, projectile rocket barrel reads every few frames
+
+*0x14
+Unknown, projectile rocket barrel reads frame, sometimes twice
+
+0x18
+Maximum angle that changes between 1 frame
+
+0x1C
+Maximum angle that changes between 1 frame
+
+0x20
+Ease of flying to the down
+
+0x24 Max Fall Speed
+Max Fall Speed
+
+0x28
+Value related to damage (Close to 0 = higher damage)
+
+0x2C
+If the value of 0x28 and 0x2C are 0, the target hit by the attack will be destroyed.
+
+*0x30
+Unknown, projectile rocket barrel reads frame, sometimes more
+
+0x34
+Unknown, never read?
+
+0x38
+Unknown, never read?
+
+*0x3C
+Unknown
+
+Par01-1
+hitDataBarrel__20wnDiddyBarrelJetNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+Par02-0
+Peanut Article (paramDiddyPeanuts__18wnDiddyPeanutsNode)
+
+0x0 Nuts Ratio
+Odds of final smash spawning nuts (Item)
+
+*0x4 Max Nuts
+Max number of nuts to spawn at once
+
+0x8 Rotation speed
+Peanut rotation speed
+
+*0xC
+Unknown
+
+Par03-0
+Explosion Article (paramDiddyExplosion__20wnDiddyExplosionNode)
+
+*0x0 Duration
+Duration (frames)
+

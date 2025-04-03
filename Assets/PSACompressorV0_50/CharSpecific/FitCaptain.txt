@@ -1,0 +1,184 @@
+﻿DataSize0x9C
+07C Par00 6
+080 Par01 6
+084 Par02 A
+088 Par03 8
+08C Par04 4
+090 Par05 8
+094 Art0 Blue Falcon
+098 Art1
+
+Art0 Blue Falcon
+4-8
+034 Par00-0 1
+030 Par00D3 2
+
+Art1
+1-1
+034 Par01-0 1
+
+Par00
+Neutral B: Falcon Punch (paramFalconPunch__13ftCaptainNode)
+
+0x0
+If 0x0 value is the same as 0x4, the Falcon will break when punching in the air
+
+0x4
+No Description Available.
+
+0x8
+Unknown
+
+0xC Air Momentum 1
+Momentum forward in air punch (Occur when RA-Bit[17] is True)
+
+0x10 Air Momentum 2
+Momentum and fall speed in air punch (Occur when RA-Bit[17]=True and RA-Basic[0]=1)
+
+*0x14
+No Description Available.
+
+Par01
+Side B: Raptor Boost (paramFalconKnuckle__13ftCaptainNode)
+
+0x0 Ground Punch Momentum
+Horizontal momentum after ground punch (If negative, move after action ends)
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+0xC Landing Lag (No Punch)
+Landing lag (when not attack)
+
+0x10 Landing Lag after Punch
+Landing lag after aerial punch
+
+*0x14
+No Description Available.
+
+Par02
+Up B: Falcon Dive (paramSpecialHi__13ftCaptainNode)
+
+0x0 Pre Jump Slide (Ground)
+How much slide on ground when pre jumping
+
+0x4 Pre Jump Slide (Air)
+How much slide in air when pre jumping
+
+0x8 Jump Max H Speed
+Jumping maximum horizontal velocity multiplier
+
+0xC Fall Max H Speed
+Falling maximum horizontal velocity multiplier
+
+0x10
+ ?? (read during upB on ground)
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Par03
+Down B: Falcon Kick (paramFalconKick__13ftCaptainNode)
+
+0x0
+No Description Available.
+
+0x4 H Speed on Hit
+Momentum multiplier on hit when on ground
+
+*0x8
+No Description Available.
+
+0xC Ground to Ground Lag
+Ground to ground ending animation speed multiplier
+
+0x10 Landing Lag
+Air to ground landing animation speed multiplier
+
+0x14
+Unknown
+
+0x18 Landing H Deceleration
+Air to ground landing horizontal momentum decrease
+
+*0x1C
+No Description Available.
+
+Par04
+Final Smash: Blue Falcon (paramBlueFalcon__13ftCaptainNode)
+
+0x0
+Unknown
+
+0x4 Random Angle 1
+Random direction in which a target gets launched. Launch at random angles from 0x4 to 0x8
+
+0x8 Random Angle 2
+Random direction in which a target gets launched. Launch at random angles from 0x4 to 0x8
+
+*0xC
+No Description Available.
+
+Par05
+Blue Falcon Extra (Subspace)
+
+0x0 Dispersion
+Dispersion of the place where the enemy who was thrown in the subspace downs
+
+0x4 Height
+Initial Height on Subspace
+
+0x8 Fall Speed 1
+Fall Speed on Subspace
+
+0xC Fall Speed 2
+Fall Speed on Subspace
+
+0x10 Launch H Speed
+The speed at which the target is launched horizontally on Subspace
+
+0x14 Launch V Speed
+The speed at which the target is launched vertically on Subspace
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Par00-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Par01-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

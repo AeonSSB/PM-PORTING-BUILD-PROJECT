@@ -1,0 +1,554 @@
+﻿0x000 Walk Acceleration A
+The speed of acceleration while walking. Actual acceleration is the sum of A and B.
+
+0x004 Walk Acceleration B
+The speed of acceleration while walking. Actual acceleration is the sum of A and B.
+
+0x008 Walk Maximum Velocity
+The maximum velocity obtainable while walking.
+
+0x00C Ground Stopping Velocity
+The speed which the character's horizontal velocity decreases on its own on the ground.
+
+0x010 Dash & Run Initial Velocity
+The starting velocity obtained the moment the character starts a Dash.
+
+0x014 Dash & Run Acceleration A
+The speed at which the character accelerates during Dash, Run, and Turn Run. Actual acceleration is the sum of A and B.
+
+0x018 Dash & Run Acceleration B
+The speed at which the character accelerates during Dash, Run, and Turn Run. Actual acceleration is the sum of A and B.
+
+0x01C Run Maximum Velocity
+The maximum velocity obtainable while running.
+
+0x020
+Run related? All unedited characters value is 30. (Was thought to be a value related to the time it takes for the character to reach full speed during a run.)
+
+0x024 General Grounded Max Horizontal Velocity
+The maximum horizontal velocity character can have while on the ground. (Note: Not affect running speed. And, all unedited characters value is 3)
+
+*0x028 Turn Run Direction Change Timing
+Frames until the direction change event is read when turning while running. If value is too large, can't change direction normally when turning while running. (All unedited characters value is 1)
+
+0x02C Guard On Max Momentum
+The maximum horizontal momentum character can have when entering shield. Maximum distance to slip when entering shield. (higher = more)
+
+*0x030 Jump Startup Time
+The time in frames it takes for character to lift off of the ground when jumping.
+
+0x034 Ground Jump H Input Momentum
+If input sideways when jumping on the ground, the initial momentum in the input direction. If set 0, there will be no change even if you input horizontally. A negative value moves in the opposite direction.
+
+0x038 Jump V Momentum
+The initial vertical momentum the character obtains when jumping.
+
+0x03C Ground Jump H Preservation
+Horizontal momentum preservation multiplier. (Horizontal Inertia multiplier)
+
+0x040 Ground Jump H Multiplier
+Multiplier for the initial horizontal momentum in the air when jumping on the ground. Affects both 0x34 and 0x3C values as a multiplier.
+
+0x044 Hop V Momentum
+The initial vertical momentum the character obtains when hopping (short jump).
+
+0x048 V Air Jump Multiplier
+The velocity obtained from an air jump proportional to the Jump V Initial Velocity.
+
+0x04C Ground Jump H Input Momentum
+If input sideways when jumping in the air, the initial momentum in the input direction.
+
+0x050 Footstool Jump V Initial Velocity
+The initial vertical momentum the character obtains upon performing a footstool jump.
+
+0x054 Footstool Hop V Initial Velocity
+The initial vertical momentum the character obtains upon performing a footstool hop (quick press).
+
+0x058 Footstool Cancel Window
+The time in frames it takes for cancel a fall after character is footstooled by someone.
+
+0x05C Meteor Canceling Window
+Numbers of frames into meteor knockback before the character can perform a meteor cancel.
+
+*0x060 Jumps
+The number of consecutive jumps the character is able to perform. (Note: If MultiJump data exists, can't be increased by more than 6.)
+
+0x064 Gravity
+The speed at which the character accelerates downward. (Note: When character is metal state, this value will be doubled.)
+
+0x068 Terminal Velocity
+The maximum velocity obtainable due to gravity. (Note: When character is metal state, this value will be doubled.)
+
+0x06C Fall Speed Deceleration
+Deceleration of downward momentum when the downward movement speed is faster than the maximum velocity obtainable due to gravity (0x068). If set 0, normal falls will accelerate, ignoring the 0x068 value. It does not affect to meteor knockback and fastfall speed. 
+
+0x070 Aerial Max Fall Speed
+The limit falling speed that can be obtained by Movement Events. (All unedited characters value is 10)
+
+0x074 Air Mobility A
+The horizontal speed at which the character is able to maneuver in the air. (Acceleration and deceleration when inputting left or right) Actual acceleration is the sum of A and B.
+
+0x078 Air Mobility B
+The horizontal speed at which the character is able to maneuver in the air. (Acceleration and deceleration when inputting left or right) Actual acceleration is the sum of A and B.
+
+0x07C Maximum H Air Speed
+The maximum horizontal speed when the character is in the air, which can be obtained by horizontal input. This basically does not affect movement by Specific action etc.
+
+0x080 H Air Deceleration
+The speed at which the character's horizontal velocity decreases on its own in the air. (Deceleration when not inputting left and right)
+
+0x084 Fastfall Speed
+The fastfalling speed of the character. There is no acceleration value, and the maximum speed is reached immediately. (Note: When character is metal state, this value will be doubled.)
+
+0x088 Aerial H Speed Limit
+The upper limit horizontal speed while in the air. Limits on horizontal movement via input, as well as speed limits on Movement Events and specific actions. (All unedited characters value is 2.5)
+
+*0x08C Glide Frame Window
+The amount of time (in frames) that the character has to begin a glide after jumping. Leave at 0 for no glide.
+
+0x090 Floor Effects Remain in Air
+A value that affects the strength and time that the conveyor and lift terrain effects remain when moving into the air. The closer it is to 1, the quicker the effect disappears, and the closer it is to 0, the longer the effect lasts. Of course, this effect disappears if you stand on a stationary floor. If value exceeds 1, it seems to be the same as 1. Also, Gimmicks such as the flowing river in Jungle Japes are treated as strong stage winds, so they are not affected.
+
+0x094 Jab-2 Validity Time
+From Jab-1, If release a Jab attack within the time (frame) set here, it will become Jab-2. If character do anything other than normal waiting (standing) and walking even once, jab attack will return to the jab-1 within the set frame. But, for characters where Jab-2 does not originally exist, there will be no change even if the value is changed.
+
+0x098 Jab-3 Validity Time
+From Jab-2, If release a Jab attack within the time (frame) set here, it will become Jab-3. If character do anything other than normal waiting (standing) and walking even once, jab attack will return to the jab-1 within the set frame. But, for characters where Jab-3 does not originally exist, there will be no change even if the value is changed.
+
+0x09C Forward Tilt 2 Validity Time
+From f-tilt-1, If release a f-tilt attack within the time (frame) set here, it will become f-tilt-2. If character do anything other than normal waiting (standing) and walking even once, f-tilt attack will return to the f-tilt-1 within the set frame. Even characters without f-tilt-2 can release f-tilt-2 attack, but nothing happens even if "RA-Bit[16]=true" is loaded.
+
+0x0A0 Forward Tilt 3 Validity Time
+From f-tilt-2, If release a f-tilt attack within the time (frame) set here, it will become f-tilt-3. This is also the time until f-tilt-4 (walking instead of attacking) occurs due to a bug. If character do anything other than normal waiting (standing) and walking even once, f-tilt attack will return to the f-tilt-1 within the set frame. Even characters without f-tilt-3 can release f-tilt-3 attack, but nothing happens even if "RA-Bit[16]=true" is loaded.
+
+0x0A4 Forward Smash 2 Validity Time
+From f-smash-1, If input a attack within the time (frame) set here, it will become f-smash-2. For characters without f-smash-2 can only release f-smash-2 by loading Change Action: Action=2C.
+
+0x0A8 Frames to Turn Around?
+
+
+0x0AC Turn Acceleration Multiplier
+The horizontal speed at which to move in input direction during turn action. (All unedited characters value is 0.3)
+
+0x0B0 Weight
+How resistance the character is to knockback. No effect when paralysis knockback. There are cases where this value affects the animation speed multiplier when being thrown by someone. (Below 50 it becomes the fastest 2x speed, and above 200 it becomes the slowest 1/2x speed.) If value exceeds 50000, no matter how much you raise it, it's the same as 50000.
+
+0x0B4 Size
+The scaling of the character from their original model size. 1 = 100%, 0.5 = 50%.
+
+0x0B8 Size on Results Screen
+The scaling of the character on the results screen. 1 = 100%, 0.5 = 50%.
+
+0x0BC
+
+
+0x0C0 Ladder Height Initial Limit
+When the character grabs onto a ladder from the air, if the character is within this value from the top of the ladder, move down to this value position. If setting value is too high, character will move to the bottom of the ladder every time character grab a ladder from the air.
+
+0x0C4 Shield Size
+The size of the character's shield bubble when it is at full strength (50). It does not affect durability.
+
+0x0C8 Shield Break Bounce Momentum
+The momentum at which the character bounces upwards upon having their shield broken. If this value is high, the character may be fall upwards when launched by a shield break.
+
+0x0CC Special Collateral Collision Scale?
+Seems to be related to scale of the "Special Collateral Collision".
+
+0x0D0 Item GFX Size
+The size of the healing circle GFX (Food, Maximum Tomato, and Heart Container), the Starman sparkle GFX, Flower, and the Bunny Hood.
+
+0x0D4 Respawn Platform Size
+The size of the platform the character respawns on after a K.O.
+
+0x0D8
+
+
+0x0DC SSE Shadow Max Size A
+This value affects the maximum shadow size of "The Subspace Emissary" Mode and "Boss Battles" Mode. 0x0DC and 0x0E0 are each multiplied by separate values, and the larger sum is set as the maximum shadow size. 0x0E4 value affects the actual size of the shadow, but the shadow will not be larger than the maximum value setting by 0x0DC or 0x0E0.
+
+0x0E0 SSE Shadow Max Size B
+This value affects the maximum shadow size of "The Subspace Emissary" Mode and "Boss Battles" Mode. Basically the same as 0x0DC, but the multiplier is different. This one needs to be set to a larger value.
+
+0x0E4 SSE Shadow Size
+This value affects the shadow size of "The Subspace Emissary" Mode and "Boss Battles" Mode. If setting value is 0, no shadow will be cast. To make the shadow larger than usual, it is necessary to also increase the value of 0x0DC or 0x0E0. In "Boss Battles" Mode, normal "Attributes" values are used during battle, but "SSE Attributes" values are used at rest areas.
+
+*0x0E8
+
+
+*0x0EC Rebound Speed Multiplier
+Speed multiplier of Rebound animation. The higher the value, the faster the Rebound animation will be, allowing character to move quickly. (All unedited characters value is 16)
+
+*0x0F0
+
+
+0x0F4
+
+
+0x0F8 Edge Jump H Momentum
+The horazontal momentum obtained from an Edge Jump.
+
+0x0FC Edge Jump V Momentum
+The vertical momentum obtained from an Edge Jump.
+
+0x100 Heavy Item Walk Initial Velocity
+The starting velocity obtained the moment the character starts walking with a heavy item (Barrels, Crates, etc).
+
+0x104 Heavy Item Walk Acceleration
+The speed of acceleration while walking with a heavy item (Barrels, Crates, etc).
+
+0x108 Heavy Item Walk Maximum Velocity
+The maximum velocity obtainable while walking with a heavy item (Barrels, Crates, etc).
+
+0x10C Hold Weapon X Offset
+Shift the position of holding weapon item (Fan, Homerun Bat, etc) in the X-axis by this set value.
+
+0x110 Hold Weapon Y Offset
+Shift the position of holding weapon item (Fan, Homerun Bat, etc) in the Y-axis by this set value.
+
+0x114 Hold Weapon Z Offset
+Shift the position of holding weapon item (Fan, Homerun Bat, etc) in the Z-axis by this set value.
+
+0x118 Item Throw Strength
+The speed at which an item is projected when thrown. The higher this value, the higher the speed, distance, and damage, but if it's too fast, it will hardly hit.
+
+0x11C
+
+
+0x120 Projectile Weapon Walk Acceleration A
+The starting velocity obtained the moment the character starts walking with a projectile item (Fire Flower, Ray Gun, etc).
+
+0x124 Projectile Weapon Walk Acceleration B
+The speed of acceleration while walking with a projectile item (Fire Flower, Ray Gun, etc).
+
+0x128 Projectile Weapon Walk Maximum Velocity
+The maximum velocity obtainable while walking with a projectile item (Fire Flower, Ray Gun, etc).
+
+0x12C Projectile Weapon Use F Dash Speed
+The speed at which a character moves during a forward dash while firing a projectile weapon.
+
+0x130 Projectile Weapon Use B Dash Speed
+The speed at which a character moves during a backward dash while firing a projectile weapon.
+
+0x134
+
+
+0x138 Light Landing Lag
+The length of the character's light landing lag in frames.
+
+0x13C Normal Landing Lag
+The length of the character's normal landing lag in frames.
+
+0x140 N-Air Landing Lag
+The length of the character's n-air landing lag animation in frames.
+
+0x144 F-Air Landing Lag
+The length of the character's f-air landing lag animation in frames.
+
+0x148 B-Air Landing Lag
+The length of the character's b-air landing lag animation in frames.
+
+0x14C U-Air Landing Lag
+The length of the character's u-air landing lag animation in frames.
+
+0x150 D-Air Landing Lag
+The length of the character's d-air landing lag animation in frames.
+
+*0x154 Terminal Velocity Frames for Heavy Landing
+How many frames the character must be in terminal velocity for the LandingHeavy animation to play instead of LandingLight. (In PM, the character just goes into LandingHeavy always.)
+
+*0x158 HipN Bone ID
+Index of the HipN bone on the model.
+
+0x15C Tag Height Value
+The height offset that the nametag will be displayed. The higher the value, the higher the tag will be located, and the further away the item selected in Training mode will spawn.
+
+0x160 PassiveWall H Momentum
+The horazontal momentum obtained from a PassiveWall.
+
+0x164 WallJump H Momentum
+The horazontal momentum obtained from a WallJump.
+
+0x168 WallJump V Momentum
+The vertical momentum obtained from a WallJump.
+
+0x16C
+
+
+0x170
+
+
+*0x174 Ladder Reuse Time
+Number of frames after letting go of the ladder before being able to use onto it again. (All unedited characters value is 16)
+
+0x178 Ladder Climb Speed
+The speed of which the character climbs up a ladder.
+
+0x17C Ladder Descend Speed
+The speed of which the character climbs down a ladder.
+
+*0x180 Ladder LHandN Bone ID
+Index of the LHandN bone on the model. If this value is not normal, some problems may occur. For example, if both 0x180 and 0x184 have a value of 0, the character will be able to climb up and down in places where there are no ladders, unless the character lets go of the ladder after holding onto it. Also, if set a bone that does not exist, the game will crash when using a ladder.
+
+*0x184 Ladder RHandN Bone ID
+Index of the RHandN bone on the model. If this value is not normal, some problems may occur. For example, if set a bone that does not exist, the game will crash when using a ladder.
+
+0x188 Strong Wind Resistance
+This value affects how much the character is moved by the strong winds generated from the stage. Both vertical and horizontal directions are affected. The closer this value is to 1, the smaller the initial effect when start accept strong winds, and the longer it takes for the move to reach its maximum speed. If this value exceeds 1, character will be moved in the opposite direction from the strong wind direction.
+
+0x18C Swim V Acceleration
+The speed at which the character accelerates upward while underwater. The higher the value, the faster the character will float up after falling into a swimming area. At around 0.8, even if the character is metal state will float up quickly. (All unedited characters value is 0.08)
+
+0x190 Swim V Max Speed
+Maximum speed at which a character can accelerate upwards while underwater. (All unedited characters value is 1)
+
+0x194 Swim H Acceleration
+Acceleration when swimming forward. (All unedited characters value is 0.05)
+
+0x198 Swim H Max Speed
+Maximum speed when swimming forward. (All unedited characters value is 0.6)
+
+0x19C Swim H Stopping Velocity
+Decreation of forward speed when character stop swimming forward. (All unedited characters value is 0.01)
+
+0x1A0 SwimDrownOut Gravity
+The speed at which the character accelerates downward when drown out. (All unedited characters value is 0.3)
+
+0x1A4 Spit Star Size
+The size of the star bullet used when Kirby or Dedede spits out the character.
+
+*0x1A8 Spit Star Damage
+How much damage is dealt when Kirby or Dedede spits out a character as a star bullet and hits another character.
+
+0x1AC Yoshi Capture Egg Size
+The size of the egg when the character is swallowed by Yoshi's Neutral-B.
+
+0x1B0 Yoshi Capture Egg Hurtbox Z Offset Start
+Start point of Z offset position for hurtbox when in egg state. (Z Offset from the player's perspective. In other words depth position.)
+
+0x1B4 Yoshi Capture Egg Hurtbox Y Offset Start
+Start point of Y offset position for hurtbox when in egg state. (Y Offset from the player's perspective. In other words vertical position.)
+
+0x1B8 Yoshi Capture Egg Hurtbox X Offset Start
+Start point of X offset position for hurtbox when in egg state. (X Offset from the player's perspective. In other words horizontal position.)
+
+0x1BC Yoshi Capture Egg Hurtbox Z Offset End
+End point of Z offset position for hurtbox when in egg state. (Z Offset from the player's perspective. In other words depth position.)
+
+0x1C0 Yoshi Capture Egg Hurtbox Y Offset End
+End point of Y offset position for hurtbox when in egg state. (Y Offset from the player's perspective. In other words vertical position.)
+
+0x1C4 Yoshi Capture Egg Hurtbox X Offset End
+End point of X offset position for hurtbox when in egg state. (X Offset from the player's perspective. In other words horizontal position.)
+
+0x1C8 Yoshi Capture Egg Hurtbox Scale
+The size of the hurtbox when a character is turned into an egg by Yoshi
+
+*0x1CC HipN Bone ID (Again)
+Index of the HipN bone on the model.
+
+*0x1D0
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+*0x1D4
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+*0x1D8
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+0x1DC
+
+
+*0x1E0 Ice Block Focus Bone
+The focus bone of the block of ice block GFX when the character is frozen. Normally, the Bone ID of XRotN is set. If Bone ID is set to TopN or TransN, ice block GFX will form slightly below the character and it will not rotate.
+
+0x1E4 Ice Block Y-Axis
+When frozen state, the position of the ice block GFX will be shifted from the focas bone to the Y-axis by this set value.
+
+0x1E8 Ice Block X-Axis
+When frozen state, the position of the ice block GFX will be shifted from the focas bone to the X-axis by this set value.
+
+0x1EC Ice Block GFX Size
+The size of the ice block GFX when the character is frozen.
+
+0x1F0 Ice Block Break Jump Momentum
+The initial vertical momentum the character obtains when breaking out of being frozen and jumping.
+
+0x1F4
+
+
+0x1F8 Default V Position of Pause Camera
+The default vertical position the camera is at relative to the character when the game is paused.
+
+0x1FC Camera Size Front
+This value is how far in front of the character the normal camera range.
+
+0x200 Camera Size Back
+This value is how far in back of the character the normal camera range.
+
+0x204 Camera Size Top
+This value is how far in upward of the character the normal camera range.
+
+0x208 Camera Size Bottom
+This value is how far in downward of the character the normal camera range.
+
+0x20C Opposite of previous?
+
+
+0x210 Zoom Camera Size Front
+This value is how far in front of the character the zoom camera range when the camera is zooming in on this character.
+
+0x214 Zoom Camera Size Back
+This value is how far in back of the character the zoom camera range when the camera is zooming in on this character.
+
+0x218 Zoom Camera Size Top
+This value is how far in upward of the character the zoom camera range when the camera is zooming in on this character.
+
+0x21C Zoom Camera Size Bottom
+This value is how far in downward of the character the zoom camera range when the camera is zooming in on this character.
+
+*0x220 HeadN Bone ID
+The index of the HeadN bone on the model.
+
+0x224
+
+
+0x228
+
+
+0x22C
+
+
+0x230 Pause Camera Distance
+The default distance position the camera is at relative to the character when the game is paused.
+
+*0x234 Magnifying Glass Focus Bone
+The bone in which the magnifying glass focuses on when the character is out-of-bounds.
+
+0x238 Magnifying Glass X Offset
+This value sets how far the display center position is from the magnifying glass focus bone (0x234) in the X-axis direction when the character is out-of-bounds. Also, this value is affected by the bone rotation.
+
+0x23C Magnifying Glass Y Offset
+This value sets how far the display center position is from the magnifying glass focus bone (0x234) in the Y-axis direction when the character is out-of-bounds. Also, this value is affected by the bone rotation.
+
+0x240 Magnifying Glass Z Offset
+This value sets how far the display center position is from the magnifying glass focus bone (0x234) in the Z-axis direction when the character is out-of-bounds. Also, this value is affected by the bone rotation.
+
+0x244 Magnifying Glass Shrink Ratio
+The size of the character in the magifying glass. The higher the value, the smaller the character will be displayed.
+
+0x248 Footstool Lowest Y Position
+The lowest Y position where footstool is possible for the opponent and spring item jump start Y position. The higher the value, the lower the position.
+
+0x24C Footstool Width
+Footstool width scale and spring item jump width scale.
+
+0x250 Footstool Height
+Footstool height scale and spring item jump start Y position.
+
+0x254 Footstooled Width
+Width scale that the character is footstooled by someone.
+
+0x258 Footstooled Height
+Height scale that the character is footstooled by someone.
+
+0x25C Grounded Item Pick Up X Offset
+The horizontal position that is the center for picking up items when on the ground.
+
+0x260 Grounded Item Pick Up Y Offset
+The vertical position that is the center for picking up items when on the ground.
+
+0x264 Grounded Item Pick Up Width
+Width scale that the character can pick up items when on the ground.
+
+0x268 Grounded Item Pick Up Height
+Height scale that the character can pick up items when on the ground.
+
+0x26C Aerial Item Pick Up X Offset
+The horizontal position that is the center for picking up items when in the air.
+
+0x270 Aerial Item Pick Up Y Offset
+The vertical position that is the center for picking up items when in the air.
+
+0x274 Aerial Item Pick Up Width
+Width scale that the character can pick up items when in the air.
+
+0x278 Aerial Item Pick Up Height
+Height scale that the character can pick up items when in the air.
+
+0x27C Ladder Catch Base V Position
+The basic position for the height to hold onto the ladder. If this value is too high, there are cases where the character ignores nearby ladders and grabs onto the ladder above.
+
+0x280 Ladder Catch Width
+Width scale that can be grabbed onto a ladder. If the value is high, things will go wrong because the character will grab the leftmost ladder instead of the closest one in range.
+
+0x284 Ladder Catch Height
+Vertical scale that can be grabbed onto a ladder. If the value is high, things will go wrong because the character will grab the bottom ladder instead of the closest one in range.
+
+0x288 Stage Speed when Final Smash
+Stage speed multiplier during Final Smash. Basically, this is a setting to slow down the speed of the stage, but if the value exceeds 1, the stage will accelerate. This speed multiplier is also applied after loading the "Slow Stage Speed" Event.
+
+*0x28C
+
+
+*0x290
+
+
+*0x294 2nd KO SFX Probability
+Probability of playing an alternative KO sound. There is a 1 in N chance for the alternate one to play, where N is this value. When 0, it's never played.
+
+0x298 Maximum for Move Body to Match Slope
+When loading the "Slope Contour Stand" Event and setting the parameter to 1, that is, setting moves entire body to match sloped ground, the value that affects how much the angle can change along the slope at maximum. This value has no effect when lying on the ground.
+
+*0x29C
+
+
+0x2A0 Slope Contour Stand Related
+Seems to be related to the "Slope Contour Stand" Event. This values affects the rotation of leg bones.
+
+0x2A4 Slope Contour Stand Related
+Seems to be related to the "Slope Contour Stand" Event. This values affects the rotation of leg bones.
+
+0x2A8
+Unknown. All unedited characters value is 1.
+
+0x2AC
+Unknown. All unedited characters value is 1.
+
+0x2B0 Slope Contour Stand Related
+Seems to be related to the "Slope Contour Stand" Event. This values affects the rotation of leg bones.
+
+0x2B4 Slope Contour Stand Related
+Seems to be related to the "Slope Contour Stand" Event. This values affects FootJ Rotation.
+
+0x2B8
+
+
+0x2BC Slope Contour Stand Related
+Seems to be related to the "Slope Contour Stand" Event. This values affects the rotation of leg bones.
+
+*0x2C0
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+*0x2C4
+Unknown. All unedited characters value is 0 or 1.
+
+*0x2C8
+Unknown. All unedited characters value is 0 or 1. Of these only Link is set to 1, other characters are set to 0.
+
+*0x2CC
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+*0x2D0
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+*0x2D4
+Unknown. All unedited characters value is 0. It is also possible that it is a Float value instead of an Int value.
+
+*0x2D8
+Unknown. All unedited characters value is 0 or 1.
+
+*0x2DC Weight Dependent Throw Speed
+Controls whether the speed for each throw is affected by opponent's weight. If set to 15, throws in all directions will be unaffected. Bit set = Independent (1=ThrowB, 2=ThrowF, 4=ThrowHi, 8=ThrowLw)
+
+*0x2E0 Sub Action when Grounded State
+This values that affect Sub Action when character is buried. (Regular value: 0=Sub Action A0, 1=Sub Action 9D, 2=Sub Action 9A) In the case of plunged action, regardless of this value, the Sub Action will be read as A0, 9D, or 9A depending on the case.

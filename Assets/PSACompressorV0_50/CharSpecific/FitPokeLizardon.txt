@@ -1,0 +1,235 @@
+﻿DataSize0x9C
+07C Par00 A
+080 Par01 14
+084 Par02 1
+088 Par03 5
+08C Par04 3
+090 Art0 Flame
+094 Art1 Rock
+098 Art2 (ID=1) Rock Piece (Appears from Rock)
+
+Art0 Flame
+1-1
+034 Par00-0 6
+
+Art1 Rock
+5-5
+034 Par01-0 8
+038 Par01-1 A
+
+Art2 (ID=1) Rock piece (Appears from Rock)
+2-2
+
+Par00
+Fatigue/Stamina
+
+0x0 Max Stamina
+Max stamina
+
+0x4 Stamina Decrease per Second
+Stamina decrease value per second
+
+0x8 Stamina Decrease per Attack
+Stamina decrease value per attack
+
+0xC Stamina Increase Value
+Stamina increase value per rest second
+
+0x10 KB Multiplier at Weakest
+Knockback multiplier at Weakest Stamina (0x24)
+
+0x14
+Unknown, not affect tired animation
+
+0x18 Stamina Decrease per KO'd
+Stamina decrease value when KO'd
+
+0x1C Weakness KB Multiplier
+Knockback multiplier when taken weakness element attack
+
+0x20 Resistance KB Multiplier
+Knockback multiplier when taken resistance element attack
+
+0x24 Weakest Stamina
+Weakest stamina level
+
+Par01
+Flamethrower
+
+0x0 Initial Angle
+Initial fire angle
+
+0x4 Randomness
+Flame spread randomness
+
+0x8 Max Angle Upwards
+Max angle upwards
+
+0xC Max Angle Downwards
+Max angle downwards (higher is more angled down)
+
+0x10 Turning Speed
+Turning speed
+
+0x14 Head Rotation Speed
+Rotation of head in relation to 0x10
+
+*0x18 Min Continue Frame
+Minimum hold continue frame
+
+0x1C Max Speed Charge
+Max speed charge (Affect to speed of decline)
+
+0x20 Min Speed Charge
+Min speed charge (Affect to speed of decline)
+
+0x24 Max Size Charge
+Max size charge (Affect to size of decline)
+
+0x28 Min Size Charge
+Min size charge (Affect to size of decline)
+
+0x2C Speed Drain
+Speed charge drain rate (per frame)
+
+0x30 Size Drain
+Size charge drain rate (per frame)
+
+0x34 Speed Refuel
+Speed charge refuel rate (per frame)
+
+0x38 Size Refuel
+Size charge refuel rate (per frame)
+
+*0x3C
+Unknown
+
+*0x40 Flames Interval
+Frames interval until the flame reoccurs
+
+0x44 X offset
+X offset
+
+0x48 Y offset
+Y offset
+
+0x4C
+Unknown
+
+Par02
+Rock Smash?
+
+0x0
+No Description Available.
+
+Par03
+Fly (List 3)
+
+0x0 Turn Sensitivity
+The input strength required to change direction the moment "RA-Bit[18] = true" is read. However, even if the value is set to over 1, the direction can be changed at the start and 3 frames after the start.
+
+0x4 Angle Change Sensitivity
+Sideway sensitivity. The input strength required to change angle. If over 1, can't change jumping angle.
+
+0x8 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees forward when forward input.
+
+0xC Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x10
+Unknown
+
+Par04
+Fly (List 4)
+
+0x0 Air H Preservation pre-Fly
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 Air Gravity pre-Fly
+Aerial gravity on startup
+
+0x8 Air Fly Height
+Aerial fly height
+
+Par00-0
+Flamethrower Article
+
+0x0 Landing Detection
+Landing detection
+
+*0x4 Duration
+Flame Duration (Frames)
+
+*0x8 Hitbox Duration
+Flame hitbox duration
+
+0xC Momentum Randomness 1
+Flame momentum randomness. Random momentum from 0xC to 0x10. The higher value is the maximum momentum, and the lower value is the minimum momentum.
+
+0x10 Momentum Randomness 2
+Flame momentum randomness. Random momentum from 0xC to 0x10.
+
+*0x14
+Unknown
+
+Par01-0
+Rock Smash Article
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+*0xC Rock Piece Count
+Number of broken rock piece
+
+*0x10 Interval
+Frame interval of appears rock piece
+
+0x14 Speed
+Rock piece speed
+
+*0x18 Stop Frame
+The frame it takes for rock piece to lose momentum
+
+*0x1C
+Unknown
+
+Par01-1
+ExtraParams1
+
+Data0
+No Description Available.
+
+Data1
+No Description Available.
+
+Data2
+No Description Available.
+
+Data3
+No Description Available.
+
+Data4
+No Description Available.
+
+Data5
+No Description Available.
+
+Data6
+No Description Available.
+
+Flags7
+No Description Available.
+
+*Data8
+No Description Available.
+
+*Data9
+No Description Available.
+

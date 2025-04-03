@@ -1,0 +1,225 @@
+﻿DataSize0x90
+07C Par00 14
+080 Par01 6
+084 Par02 6
+088 Par03 6
+08C Art0 Cape
+
+Art0 Cape
+1-17
+034 Par00-0 1
+030 Par00D3 1A
+
+Par00
+Neutral B: Mach Tornado (paramSpecialN__16ftMetaknightNode)
+
+0x0 Initial V Momentum
+Initial vertical momentum (can't over Max Rise Speed)
+
+0x4 H Preservation
+Horizontal momentum preservation on startup (higher = more, but can't over previous speed)
+
+0x8 Initial Spin Speed
+Initial spin speed
+
+0xC Ground H Acceleration
+Grounded horizontal acceleration
+
+0x10 Ground Max H Speed
+Grounded horizontal max speed
+
+0x14 Air H Acceleration
+Aerial horizontal acceleration
+
+0x18 Air Max H Speed
+Aerial horizontal max speed
+
+0x1C H Deceleration
+Deceleration to horizontal speed
+
+0x20 Gravity
+Gravity
+
+0x24 Max Fall Speed
+Max fall speed
+
+0x28 V Momentum per Tap B
+Vertical velocity added per B button press
+
+*0x2C Interval
+Frames interval at which the rise enable by B button press
+
+0x30 Max Rise Speed
+Max rise speed
+
+0x34 Add Spin Speed per Tap B
+Spin speed added per B button press
+
+0x38 Max Spin Speed
+Max spin speed
+
+0x3C Spin Deceleration 1
+Subtracts this each frame while listening for button input
+
+*0x40 Tap B Effective Time
+Frames to listen for button input
+
+0x44 Spin Deceleration 2
+Subtracts this each frame while not listening for button input
+
+0x48 End Spin Speed
+Spin speed equal to or less than this to end move (If negative, can't end normally)
+
+*0x4C
+Unknown
+
+Par01
+Side B: Drill Rush (paramSpecialS__16ftMetaknightNode)
+
+0x0 Startup H Preservation
+Horizontal momentum preservation on startup
+
+0x4 Startup V Momentum
+Vertical momentum on startup
+
+0x8 Startup Gravity
+Gravity on startup
+
+0xC Turning Speed
+Turning speed
+
+*0x10 Landing Angle
+Angle at the end of landing
+
+*0x14
+Unknown
+
+Par02
+Down B: Dimensional Cape (paramSpecialLw__16ftMetaknightNode)
+
+0x0 H Preservation
+Horizontal momentum preservation on startup
+
+0x4 V Preservation
+Vertical momentum preservation on startup
+
+0x8 H Acceleration
+Horizontal acceleration
+
+0xC Max H speed
+Max horizontal speed
+
+0x10 V Acceleration
+Vertical acceleration
+
+0x14 Max V speed
+Max vertical speed
+
+Par03
+Final Smash: Galaxia Darkness (paramFinal__16ftMetaknightNode)
+
+*0x0 Transition Time
+Frame it takes to darkness
+
+*0x4 Darkness Time
+Darkness frame
+
+*0x8 Attack Interval
+Attack Interval
+
+*0xC
+Unknown
+
+*0x10
+Unknown
+
+*0x14
+Unknown
+
+Par00-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+

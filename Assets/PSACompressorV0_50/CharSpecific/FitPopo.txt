@@ -1,0 +1,519 @@
+﻿DataSize0xC4
+08C Par00 4
+090 Par01 4
+094 Par02 16
+098 Par03 16
+09C Par04 A
+0A0 Par05 1
+0AC Art0 Blizzard
+0B0 Art1 Ice Block
+0B4 Art2 Iceberg
+0B8 Art3 Rope
+0BC Art4 Part of Iceberg (Invisible)
+0C0 Par13 4
+XNS 29xNana Sound Lists
+
+Art0 Blizzard
+1-1
+034 Par00-0 4
+
+Art1 Ice Block
+3-2
+034 Par01-0 12
+038 Par01-1 8
+
+Art2 Iceberg
+4-3
+034 Par02-0 10
+038 Par02-1 10
+X03 2D-10x
+X0A 2D-10-00x
+
+Art3 Rope
+5-1
+034 Par03-0 1
+
+Art4 Part of Iceberg (Invisible)
+1-1
+034 Par04-0 1
+
+Par00
+Neutral B: Ice Shot (paramSpecialN__10ftPopoNode)
+
+0x0 Air V Momentum
+Vertical momentum for 1st aerial usage
+
+0x4 Landing Lag
+Landing lag that occurs only when landing during aerial action
+
+0x8 X Offset
+X offset where generate ice block
+
+0xC Y Offset
+Y offset where generate ice block
+
+Par01
+Down B: Blizzard (paramSpecialLw__10ftPopoNode)
+
+0x0 X Offset
+X offset where generate blizzard
+
+0x4 Y Offset
+Y offset where generate blizzard
+
+0x8 Partner Snap Distance
+Maximum distance from partner where a synchronous action (ground only)
+
+*0xC
+Unknown
+
+Par02
+Side B: Squall Hammer (paramSpecialS__10ftPopoNode)
+
+0x0 Partner Snap Distance
+Maximum distance from partner where a synchronous action
+
+0x4 Slope Acceleration
+Downward acceleration that occurs when the character is on a slope
+
+0x8
+Unknown. It doesn't seem to affect slope acceleration.
+
+0xC Ground Initial H Velocity
+Grounded initial horizontal velocity
+
+0x10 Air Initial H Velocity
+Aerial initial horizontal velocity
+
+0x14 Ground H Acceleration
+Grounded horizontal acceleration
+
+0x18 Air H Acceleration
+Aerial horizontal acceleration
+
+0x1C Sideway Sensitivity
+The input strength required to accelerate horizontally. If the input strength is less than this value, keeps currently horizontal speed when sideway input.
+
+0x20 Ground Max H Speed
+Grounded max horizontal speed
+
+0x24 Air Max H Speed
+Aerial max horizontal speed
+
+0x28 Air Solo Initial V Momentum
+Aerial initial vertical momentum when solo action
+
+0x2C Air Synced Initial V Momentum
+Aerial initial vertical momentum when synced action
+
+0x30 Solo Gravity
+Gravity when solo action
+
+0x34 Synced Gravity
+Gravity when synced action
+
+0x38 Solo Max Fall Speed
+Max fall speed when solo action
+
+0x3C Synced Max Fall Speed
+Max fall speed when synced action
+
+0x40 Solo V Momentum per Tap B
+Vertical momentum added per B button press when solo action
+
+0x44 Synced V Momentum per Tap B
+Vertical momentum added per B button press when synced action
+
+*0x48 Interval
+Frames interval at which the rise enable by B button press
+
+0x4C Wall Bounce H Multiplier
+Wall bounce horizontal momentum multiplier
+
+0x50 Wall Bounce H Distance
+Distance to move backward teleportation when hitting a wall
+
+*0x54
+Unknown
+
+Par03
+Up B: Belay (paramSpecialHi__10ftPopoNode)
+
+0x0 Partner Snap Distance
+Maximum distance from partner where a synchronous action
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+0xC
+Unknown, read on a couple of opening pre-jump frames
+
+0x10 Air H Preservation at pre-Jump
+Pre-Jump horizontal preservation (less = more)
+
+0x14 V Preservation at pre-Jump
+Pre-Jump vertical preservation (less = more)
+
+0x18 Gravity at pre-Jump
+Pre-Jump gravity
+
+0x1C Max V Speed at pre-Jump
+Pre-Jump maximum vertical speed
+
+0x20 Synced Jump Momentum
+Momentum when jump after partner. (higher = more) Note: It affects only the side that jump after partner, there is no affect on the side that jumps first or when solo action. Normally the player jumps after the partner, but if the partner can also load the same event that sets RA-Bit to true, the player jumps first when only the partner start this action.
+
+0x24 Synced Jump Momentum Inverse Ratio
+Momentum when jump after partner (less = more)
+
+0x28 Synced Jump Gravity
+Vertical acceleration when jump after partner (Gravity)
+
+0x2C Synced Jump Max Fall Speed
+Maximum vertical speed when jump after partner
+
+0x30 Synced Jump H Acceleration
+Horizontal acceleration multiplier when jump after partner (multiplier of Attributes 0x74)
+
+0x34 Synced Jump Max H Speed
+Maximum horizontal speed multiplier when jump after partner
+
+0x38 Synced Jump Angle
+Jumping angle when jump after partner (degrees, 0 = Top)
+
+0x3C Pulled Momentum when Synced Jump
+If set more higher value, the character becomes more difficult to gain downward momentum when jumping, even if the partner is lower position than character before the jump. (It also affects initial horizontal momentum when jumping)
+
+0x40 Synced Ledge Jump Speed
+When a partner grabs a ledge, the speed at which character is pulled in the direction of the partner
+
+0x44 Ledge Jump H Adjustment
+Horizontal adjusted value when ledge jump
+
+0x48 Ledge Jump V Adjustment
+Vertical adjusted value when ledge jump
+
+0x4C Solo V Momentum
+Vertical momentum when solo action
+
+0x50 Solo Gravity
+Vertical acceleration when solo action (Gravity)
+
+0x54 Solo Max V Speed
+Maximum vertical speed when solo action (Max Fall Speed)
+
+Par04
+Belay Partner (paramSpecialHiPartner__10ftPopoNode)
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8 Wall Bounce H Momentum
+Wall bounce horizontal momentum when jump first
+
+0xC Jump Momentum
+Momentum when jump first
+
+0x10 Jump Angle
+Jumping angle when jump first (degrees, 0 = Front, 90 = Top)
+
+0x14 Jump Gravity
+Vertical acceleration when jump first (Gravity)
+
+0x18 Jump Max Fall Speed
+Maximum vertical speed when jump first (Max Fall Speed)
+
+0x1C Jump H Acceleration
+Horizontal acceleration multiplier when jump after partner. (multiplier of Attributes 0x74) Note: No change in value is seen unless the player jumps first.
+
+0x20 Jump Max H Speed
+Maximum horizontal speed multiplier when jump after partner. Note: No change in value is seen unless the player jumps first.
+
+0x24 Ledge Jump Speed
+Speed when jumping towards a ledge. (Closer to 0: faster, Closer to 1: slower)
+
+Par05
+Final Smash: Iceberg (paramFinal__10ftPopoNode)
+
+0x0 Partner Snap Distance
+Maximum distance from partner where a synchronous action
+
+Par13
+Partner Z Distance
+
+*0x0
+Unknown
+
+*0x4
+Unknown
+
+0x8 Move Speed
+The speed at which the partner moves on the Z axis
+
+0xC Max Distance
+Maximum distance the partner can travel on the Z axis. If the value is too high, the movement will be abnormal. (negative = towards camera)
+
+Par00-0
+Blizzard Article
+
+0x0 Speed
+Blizzard Speed
+
+0x4 V Acceleration
+Blizzard rising acceleration
+
+0x8 Random Angle 1
+Random angle to based on the bottom. Random angle from 0x8 to 0xC.
+
+0xC Random Angle 2
+Random angle to based on the bottom. Random angle from 0x8 to 0xC.
+
+Par01-0
+Ice Block Article
+
+0x0 Initial H Speed
+Initial horizontal speed when shot Ice block
+
+0x4 Ground Max H Speed
+Grounded maximum horizontal speed
+
+0x8 Initial V Speed
+Initial vertical speed on generate
+
+0xC Gravity
+Ice Block vertical acceleration (Gravity)
+
+0x10 Max Fall Speed
+Maximum vertical speed. However, if set a negative value, it will not function as the maximum vertical speed.
+
+*0x14
+Frame count for something?
+
+*0x18 Durability
+Durability (Ice Block HP)
+
+*0x1C Immutable Time
+Time when size and damage do not change (frame)
+
+0x20 Size Multiplier
+Ice block size multiplier (per frame)
+
+0x24 Damage Multiplier
+Ice block Damage multiplier (per frame)
+
+*0x28 Knockback Duration
+Time until knockback disable (frames) The sum of 0x1C and 0x28 value is duration.
+
+*0x2C Duration
+How many frames before they delete. The sum of 0x1C and 0x2C value is duration.
+
+0x30 Slope Acceleration Related
+Related to acceleration in the going down the slope. The closer the value is to 0, the weaker the acceleration and deceleration on the slope.
+
+0x34 Slope Deceleration
+Deceleration when going up a slope. When the Ice Block speed runs out, it goes down the slope.
+
+0x38 Slope Acceleration
+Acceleration when going down a slope
+
+*0x3C Wall Bounce Reduced
+Duration reduced when hit a wall. Damage and size are not affected, but knockback duration is affected.
+
+*0x40 Wall Delete
+When the total value of 0x3C and 0x40 exceeds the time until Ice Block disappears, it disappears when it hits a wall.
+
+0x44 Right Wall Delete Speed
+If hit the right wall at a speed higher than this value, the Ice Block will disappear.
+
+Par01-1
+hitDataIceShot__17wnPopoIceShotNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+Par02-0
+Iceberg Article
+
+*0x0 Rising Frame
+Frame it takes to rise to a specific position after the iceberg appears
+
+*0x4 Sink Frame
+Time until the iceberg that has begun to sink disappears (frames)
+
+0x8 Sink Multiplier
+Multiplier of the distance that the iceberg sinks when attacked (Does not disappear or shorten time)
+
+*0xC FinalWait Duration
+Waiting time after rise. The wait time is frames obtained by subtracting the value of 0x10 from the value of 0xC.
+
+0x10 FinalWait Shorten
+A value that shortens the waiting frame after rise
+
+0x14 Appear Position
+Position at the time of occurrence. (high = lower) The position at the end of the rise does not change. If set negative value, the iceberg will come down from above, disappear after rise.
+
+*0x18
+ ?? (read on descent)
+
+*0x1C Damage
+Damage to enemies touching the iceberg. It hitbox different from "Offensive Collision" events in sub action. (Element = Normal, Rehit Rate=30)
+
+*0x20 Knockback Growth
+The additional distance the target is launched proportional to its damage. It hitbox same as 0x1C.
+
+*0x24 Weight Knockback
+The distance the target is launched proportional to weight for fixed knockback hits. it enabled only when the value of both the Knockback Growth and Weight Knockback is not 0. It hitbox same as 0x1C.
+
+*0x28 Base Knockback
+The distance the target is launched regardless of its damage. It hitbox same as 0x1C.
+
+*0x2C
+Unknown
+
+*0x30
+Unknown
+
+*0x34
+Unknown
+
+*0x38
+Unknown
+
+*0x3C
+Unknown
+
+Par02-1
+hitDataIceBerg__17wnPopoIceBergNode
+
+HitData0-0
+No Description Available.
+
+HitData0-1
+No Description Available.
+
+HitData0-2
+No Description Available.
+
+HitData0-3
+No Description Available.
+
+HitData0-4
+No Description Available.
+
+HitData0-5
+No Description Available.
+
+HitData0-6
+No Description Available.
+
+Flags(HitData0-7)
+No Description Available.
+
+HitData1-0
+No Description Available.
+
+HitData1-1
+No Description Available.
+
+HitData1-2
+No Description Available.
+
+HitData1-3
+No Description Available.
+
+HitData1-4
+No Description Available.
+
+HitData1-5
+No Description Available.
+
+HitData1-6
+No Description Available.
+
+Flags(HitData1-7)
+No Description Available.
+
+Par03-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par04-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+EXD 2D-10x
+Extra Data3
+
+Offset
+No Description Available.
+
+Offset>Count
+No Description Available.
+
+Flags
+No Description Available.
+
+EXD 2D-10-00x
+Extra Data3>Offset
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data2-0
+No Description Available.
+
+Data2-1
+No Description Available.
+
+Data3-0
+No Description Available.
+
+Data3-1
+No Description Available.
+
+Data4-0
+No Description Available.
+
+Data4-1
+No Description Available.
+

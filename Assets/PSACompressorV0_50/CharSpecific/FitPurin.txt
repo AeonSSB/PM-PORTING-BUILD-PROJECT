@@ -1,0 +1,176 @@
+﻿DataSize0x88
+07C Par00 2A
+080 Par01 8
+084 Par02 4
+
+Par00
+Neutral B: Rollout (paramPurinSpecialN__11ftPurinNode)
+
+*0x0 Roll Around Duration
+How many frames character roll around
+
+*0x4
+ ?? (frame count for something?)
+
+0x8 Gravity
+Gravity
+
+0xC Max Fall speed
+Max Fall speed
+
+0x10
+Unknown
+
+0x14
+Unknown
+
+0x18 Ground Max H Speed 1
+Ground Max Horizontal Speed. The lower of 0x18 and 0x1C is the actual maximum speed.
+
+0x1C Ground Max H Speed 2
+Ground Max Horizontal Speed
+
+0x20
+ ?? (read in air)
+
+0x24 Air H Acceleration
+Aerial horizontal acceleration (read in air, negative = forward, positive = backward)
+
+0x28 Min Air H Speed
+Min Aerial Horizontal speed (momentum forward in air/momentum preservation in air)
+
+0x2C
+ ?? (read in air)
+
+0x30
+Unknown
+
+0x34
+Unknown
+
+0x38 Pivot/Hit Animation Speed
+Rotation animation speed while pivoting or after hit
+
+*0x3C
+Unknown
+
+0x40
+Unknown
+
+0x44
+Unknown
+
+0x48
+Unknown
+
+0x4C Bonus Damage
+Bonus damage: +3x to fast
+
+0x50 Damage Multiplier
+Damage multiplier: 4x - 6x to fast
+
+0x54 H Recoil at Hit
+Horizontal recoil on hit (negative = left, positive = right)
+
+0x58 V Recoil at Hit
+Vertical recoil on hit
+
+0x5C H Slide at End
+Horizontal ending slide speed
+
+0x60
+Unknown
+
+0x64 Max Roll Animation speed
+Max rolling animation speed
+
+*0x68
+Unknown
+
+0x6C Min Roll Power
+Initial roll power (min 40.0--see friction)
+
+0x70 Max Roll Power
+Max roll power (min 40.0--see friction)
+
+0x74 Roll Power Growth Rate
+Roll power growth rate per charge frame
+
+0x78 Initial Animation Speed
+Initial charge animation speed
+
+0x7C
+Unknown
+
+0x80 Deceleration 1
+Increasing it cuts short distance traveled (Deceleration related)
+
+0x84 Deceleration 2
+Deceleration (Subtracted from roll speed)
+
+0x88 Aerial Roll Animation Speed
+Aerial rolling animation speed
+
+0x8C
+Affects roll speed. Affects aerial speed more.
+
+0x90 Pivot Acceleration
+Pivot (Reverse direction) acceleration
+
+0x94 Slope Deceleration
+Deceleration speed when climb a slope. No affect to speed when going down a alope.
+
+0x98 Min Attack Speed
+Minimum speed required for sparkle graphics and attack
+
+0x9C
+Unknown
+
+0xA0 Wall Bounce H Multiplier
+Wall bounce horizontal momentum multiplier
+
+0xA4 Landing Lag
+Landing lag (post-recoil)
+
+Par01
+Side B: Pound (paramPurinSpecialS__11ftPurinNode)
+
+0x0 Angle Change Sensitivity
+Upward/Downward sensitivity. If over 1, can't change angle.
+
+0x4
+Something to do with window to directionalize. When set high or low, can't angle.
+
+0x8 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees upward when upward input.
+
+0xC
+Unknown, it does not seems affect gravity
+
+0x10
+Unknown
+
+0x14 Air Momentum 1
+Momentum forward in air punch (Occur when RA-Bit[17] is True)
+
+0x18 Air Momentum 2
+Momentum and fall speed in air punch (Occur when RA-Bit[17] and RA-Bit[18] are True, and RA-Basic[0] is 1)
+
+*0x1C
+Unknown
+
+Par02
+Final Smash: Puff Up (paramPurinFinal__11ftPurinNode)
+
+0x0 Max Size
+Max Size
+
+0x4 Inflation Animation Frames
+Inflation animation frames
+
+0x8 Max Size Animation Frames
+Max size animation frames
+
+0xC Deflation Frames
+Deflation frames (If longer than animation end frames, it will not return to the normal size)
+

@@ -1,0 +1,2381 @@
+﻿00010100
+Frames
+The number of frames to wait.
+
+00020100
+Frames
+The number of frames to wait.
+
+00040100
+Iterations
+The number of times to loop. Set to FFFFFFFF if you want to make an infinite loop.
+
+00070100
+Offset
+The offset inside the file to jump to. If "External" is displayed, "External" setting is deleted when you edit this Event. (If PSA Compressor version is older than 0.37, the problems may occur without being erased properly.)
+
+00090100
+Offset
+The offset inside the file to jump to. If "External" is displayed, "External" setting is deleted when you edit this Event. (If PSA Compressor version is older than 0.37, the problems may occur without being erased properly.)
+
+000A0100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+000A0400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+000B0100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+000B0400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+000C0100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+000C0400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+000D0100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+000D0400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+00100200
+Status ID?
+Unknown. Appears to often (if not always) be set to 0x2710 (IC-Basic[10000]).
+Variable
+The variable that will be compared against the case values. Can also be a requirement such as "Roll A Die"
+
+02000300
+Status ID
+The status ID of the change action event. Can later be disabled via 02080100 (Disable Action Status ID). It can also be used in the "Current Triggered Status ID" of the requirement.
+Action
+The ID of the action that the character will execute.
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+02000600
+Status ID
+The status ID of the change action event. Can later be disabled via 02080100 (Disable Action Status ID). It can also be used in the "Current Triggered Status ID" of the requirement.
+Action
+The ID of the action that the character will execute.
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+02010200
+Action
+The ID of the action that the character will execute.
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+02010500
+Action
+The ID of the action that the character will execute.
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+02040100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+02040400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+02050300
+Interrupt ID
+Interrupt ID same as used by 020A0100 (Allow Specific Interrupt). 1-Ground Special, 2-Ground Item, 3-Ground Grab, 4-Ground Attack, 5-Ground Dodge, 6-Ground Guard, 7-Ground Jump, 8-Ground (Other), 9-Landing, A-Ledge Grab, B-Air Special, C-Air Item Throw, D-Air Tether, E-Air Dodge, F-Air Attack, 10-Footstool, 11-Wall Jump, 12-Air Jump, 13-Fall Through Platform (Squat Only)
+Status ID
+The Status ID to influence.
+Requirement
+The form of requirement used in evaluation of the event. If true, the status ID will be enabled, else disabled.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+02050600
+Interrupt ID
+Interrupt ID same as used by 020A0100 (Allow Specific Interrupt). 1-Ground Special, 2-Ground Item, 3-Ground Grab, 4-Ground Attack, 5-Ground Dodge, 6-Ground Guard, 7-Ground Jump, 8-Ground (Other), 9-Landing, A-Ledge Grab, B-Air Special, C-Air Item Throw, D-Air Tether, E-Air Dodge, F-Air Attack, 10-Footstool, 11-Wall Jump, 12-Air Jump, 13-Fall Through Platform (Squat Only)
+Status ID
+The Status ID to influence.
+Requirement
+The form of requirement used in evaluation of the event. If true, the status ID will be enabled, else disabled.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+02060100
+Status ID
+The Status ID to enable.
+
+02080100
+Status ID
+The Status ID to disable. After this command, the associated Action will not activate.
+
+02090200
+Interrupt ID
+Appears to be a Interrupt ID as used by 020A0100 (Allow Specific Interrupt). 1-Ground Special, 2-Ground Item Throw, 3-Ground Grab, 4-Ground Attack, 5-Ground Dodge, 6-Ground Guard, 7-Ground Jump, 8-Ground Other, 9-Landing, A-Ledge Grab, B-Air Special, C-Air Item Throw, D-Air Tether, E-Air Dodge, F-Air Attack, 10-Footstool, 11-Wall Jump, 12-Air Jump, 13-Fall Through Platform (Squat Only)
+Status ID
+Appears to be a Status ID.
+
+020A0100
+Interrupt ID
+1-Ground Special, 2-Ground Item Throw, 3-Ground Grab, 4-Ground Attack, 5-Ground Dodge, 6-Ground Guard (Shield), 7-Ground Jump, 8-Ground Other, 9-Landing, A-Ledge Grab, B-Air Special, C-Air Item Throw, D-Air Tether, E-Air Dodge, F-Air Attack, 10-Footstool, 11-Wall Jump, 12-Air Jump (Note: 4 includes Pick up Item and use of items other than throwing. F includes use shooting item. 8 content is walk, dash, turn around, crouching, and taunt.)
+
+020B0100
+Interrupt ID
+1-Ground Special, 2-Ground Item Throw, 3-Ground Grab, 4-Ground Attack, 5-Ground Dodge, 6-Ground Guard (Shield), 7-Ground Jump, 8-Ground Other, 9-Landing, A-Ledge Grab, B-Air Special, C-Air Item Throw, D-Air Tether, E-Air Dodge, F-Air Attack, 10-Footstool, 11-Wall Jump, 12-Air Jump
+
+020C0100
+Interrupt ID
+Possibly the Interrupt ID to unregister. 1-Ground Special, 2-Ground Item Throw, 3-Ground Grab, 4-Ground Attack, 5-Ground Dodge, 6-Ground Guard, 7-Ground Jump, 8-Ground Other, 9-Landing, A-Ledge Grab, B-Air Special, C-Air Item Throw, D-Air Tether, E-Air Dodge, F-Air Attack, 10-Footstool, 11-Wall Jump, 12-Air Jump
+
+020D0100
+Action
+The ID of the action that the character will execute.
+
+03010400
+Bone ID
+Bone to be changed.
+X Rotation
+Amount to rotate bone on X Axis
+Y Rotation
+Amount to rotate bone on Y Axis
+Z Rotation
+Amount to rotate bone on Z Axis
+
+03020200
+Bone ID
+Bone to be changed.
+X Rotation
+Amount to rotate bone on X Axis
+
+03030200
+Bone ID
+Bone to be changed.
+Y Rotation
+Amount to rotate bone on Y Axis
+
+03040200
+Bone ID
+Bone to be changed.
+Z Rotation
+Amount to rotate bone on Z Axis
+
+03060400
+Bone ID
+Bone to be changed.
+X Scale
+X Size
+Y Scale
+Y Size
+Z Scale
+Z Size
+
+03070200
+Bone ID
+Bone to be changed.
+X Scale
+X Size
+
+03080200
+Bone ID
+Bone to be changed.
+Y Scale
+Y Size
+
+03090200
+Bone ID
+Bone to be changed.
+Z Scale
+Z Size
+
+030B0400
+Bone ID
+Bone to be changed.
+X Offset
+X Offset
+Y Offset
+Y Offset
+Z Offset
+Z Offset
+
+030C0200
+Bone ID
+Bone to be changed.
+Z Offset
+Z Offset
+
+030D0200
+Bone ID
+Bone to be changed.
+Z Offset
+Z Offset
+
+030E0200
+Bone ID
+Bone to be changed.
+Z Offset
+Z Offset
+
+04000100
+Sub Action
+The ID of the Sub Action that the character will execute.
+Pass Frame
+Whether to pass the current frame of the current animation onto the new animation.
+Sub Action Frame Speed
+How many times faster the frames are.
+
+04010200
+Status ID
+The status ID of the event. Can later be disabled via 04050100 (Disable Set Requirement Status ID)
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+04010500
+Status ID
+The status ID of the event. Can later be disabled via 04050100 (Disable Set Requirement Status ID)
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+04020100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+04020400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+04030100
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The variable applied to the requirement.
+Variable
+The second variable applied to the requirement.
+
+04030400
+Requirement
+The form of requirement used in evaluation of the event.
+Variable
+The first variable in the comparison requirement.
+Comparison Method
+The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
+Variable
+The second variable in the comparison requirement.
+
+04060100
+Frame
+Changes the current frame of the animation. Does not change the frame of the Sub Action.
+
+04070100
+Multiplier
+How many times faster the frames are.
+
+04080300
+Command ID
+If reloaded this event with the same Command ID, the Sub Action specified from the beginning will be loaded. The IDs that can be used are 0-3 for Donkey and Yoshi, 0-2 for Charizard and R.O.B., and 0 and 1 for other characters. If set a value that exceeds the available ID, it will not work properly if it exceeds 2, and otherwise it will cause the game crash.
+Sub Action ID
+The ID of the Sub Action that the character will execute. It will not be ended even after the motion end. (Note: It is not affected such as speed adjustment by "Frame Speed Modifier", and requirements such as "Animation End" cannot be used)
+Bone ID
+This bone and all subsequent bones change to the motion of the specified sub action.
+
+040C0100
+Sub Action
+The ID of the Sub Action that the Character will execute.
+Pass Frame
+Whether to pass the current frame of the current animation onto the new Animation.
+Sub Action Frame Speed
+How many times faster the frames are.
+
+040D0100
+Command ID
+End when set the same value as the Command ID of "Set Bone Motion Override".
+
+040E0200
+Command ID
+Change when set the same value as the Command ID of "Set Bone Motion Override".
+Frame
+Changes the current frame of the Animation. Does not change the frame of the Sub Action.
+
+040F0200
+Command ID
+Change when set the same value as the Command ID of "Set Bone Motion Override".
+Multiplier
+How many times faster the frames are.
+
+04100200
+Command ID?
+It seems to Command ID. Set a value other than 0 or 1 will cause the Game crash.
+Sub Action ID
+The ID of the Sub Action that the character will execute. It will not be ended even after the motion end. (Note: It is not affected such as speed adjustment by "Frame Speed Modifier", and requirements such as "Animation End" cannot be used)
+
+04110100
+Command ID?
+It seems to Command ID. It seems best to set the same value as the value set in "Set Texture Animation Override".
+
+04120200
+Command ID?
+It seems to Command ID. It seems best to set the same value as the value set in "Set Texture Animation Override".
+Frame
+Changes the current frame of the animation.
+
+04130200
+Command ID?
+It seems to Command ID. It seems best to set the same value as the value set in "Set Texture Animation Override".
+Multiplier
+How many times faster the frames are.
+
+04150200
+Command ID
+Change when set the same value as the Command ID of "Set Bone Motion Override".
+Frame
+Changes the current frame of the Animation and Timers.
+
+05050100
+Model Size
+Character size after changed
+
+05060300
+X Rotation
+Amount to rotate model on X Axis
+Y Rotation
+Amount to rotate model on Y Axis
+Z Rotation
+Amount to rotate model on Z Axis
+
+05090300
+X Offset
+Horizontal position. 0 is not always the center of the stage. Can surely go to the center of the stage by getting the left and right boundaries. (Snake's FS Exit = Center position / Dragoon Exit = Revival platform position) However, when using in Subspace, these variables may not be available.
+Y Offset
+Vertical position. On most stages, 0 is closer to below the center. When go to the top of the stage, IC-Basic[30] (CameraLimit-Top) or IC-Basic[34] (DeadLine-Top) is useful. (Snake's FS Exit = IC-Basic[30] / Dragoon Exit = IC-Basic[34]) However, when using in Subspace, these variables may not be available.
+Z Offset
+It is a depth position, Normally set to 0. You can check the operation only when Set Air/Ground: Stop (0x32) was pre-loaded.
+
+050A0300
+X Offset
+Horizontal position.
+Y Offset
+Vertical position.
+Z Offset
+It is a depth position, Normally set to 0. You can check the operation only when Set Air/Ground: Stop (0x32) was pre-loaded.
+
+050B0300
+X Offset
+Horizontal position.
+Y Offset
+Vertical position.
+Z Offset
+It is a depth position, Normally set to 0. You can check the operation only when Set Air/Ground: Stop (0x32) was pre-loaded.
+
+06000D00
+Bone ID/Hitbox ID
+The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone ID, Y=Hitbox ID. To generate multiple hitboxes, need to change the ID. If generate a hitbox with the same ID as an existing hitbox, it will be overwritten. If hit multiple hitboxes, Only the lowest ID is valid. Also, if add 0x100 to ID, increases Segment value by 1. Even if the target has already been hit by hitbox, target is a possibility of hitting more higher segment value hitbox. If overwrite the existing hitbox by increasing the segment value, allows hitbox to hit multiple times without "Terminate Collisions" Event.	200*OC_ID:3
+Damage
+The amount of damage inflicted to the target upon collision.
+Trajectory
+The direction in which a target gets launched. Regular Angle: 0=Front, 0x5A=Upward, etc. Special Angle:Increases as knockback increases (The minimum is equal to 0 and the maximum is about 37 degrees). 0x16B=Toward the direction in which the attacker is moving (same as 0x169 if the attacker is not moving), 0x16D=No direction (Only Flinch the target)
+Weight Knockback/Knockback Growth
+The momentum the target is launched regardless of target's damage/The momentum the target is launched is the higher the target's damage, the greater the momentum. Where XXXXYYYY is X=Weight Knockback, Y=Knockback Growth. Whichever is valid, the higher thr hitbox's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. Also, the actual knockback adds "Base Knockback" value to this. Note: Weight Knockback is enabled only when the value of both the Knockback Growth and Weight Knockback is not 0.	200*OC_WK:4
+Shield Damage/Base Knockback
+The amount of additional damage dealt to the target's shield if it is up/The momentum the target is launched regardless of target's weight and damage. Where XXXXYYYY is X=Shield Damage, Y=Base Knockback. Also, the actual knockback adds Base Knockback to either Knockback Growth or Weight Knockback, whichever is valid. Note: If "Shield Damage" is over 0x100, it will not work properly.	200*OC_SB:4
+Size
+The size of the collision bubble.
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+Tripping Rate
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+Directional Influence Multiplier
+A multiplier of the distance that the attacked character can move during the hitlag caused by this collision bubble.
+Flags
+Flags for various parameters. Can set: Direct/Indirect, Clank, Type (head, sword, etc.), Air/Ground, Hit Sound Effects, Element	200*OCFLG:F
+
+06010200
+Hitbox ID
+ID of the hitbox to be changed.
+Damage
+New damage of the hitbox.
+
+06020200
+Hitbox ID
+ID of the hitbox to be changed.
+New Size
+New size of the hitbox.
+
+06030100
+Hitbox ID
+ID of the hitbox to be deleted.
+
+06050100
+State
+The state in which the character's body collision are put in. (0=Normal, 1=Invincible, 2=Intangible, 3=Intangible no flash, 4=Intangible quick flashing effect added)
+
+06060100
+State
+Usually 0. However, It seems that can also set the change collision state at the same time. 0-Normal, 1-Same as 0, 2-Intangible (not flashing effect added)
+
+06070200
+HurtBox ID
+HurtBox to be affected.
+State
+State of body collision. 0-Normal, 1-Same as 0, 2-Intangible
+
+06080200
+Bone ID
+Bone to be affected.
+State
+State of body collision. 0-Normal, 1-Same as 0, 2-Intangible
+
+06091E00
+Hitbox ID
+The ID number of the collision bubble. To generate multiple hitboxes, need to change the ID. If generate a hitbox with the same ID as an existing hitbox, it will be overwritten. If hit multiple hitboxes, Only the lowest ID is valid.
+Segment
+Even if the target has already been hit by hitbox, target is a possibility of hitting more higher segment value hitbox. If overwrite the existing hitbox by increasing the segment value, allows hitbox to hit multiple times without "Terminate Collisions" Event.
+Bone ID
+The bone the collision bubble is attached to.
+Damage
+The amount of damage inflicted to the target upon collision. The actual damage is this value + "Damage Add Multiplier" * "Multiplier to Add".
+Damage Add Multiplier
+Damage increase multiplier. The actual damage is "Damage" + this value * "Multiplier to Add".
+Trajectory
+The direction in which a target gets launched. Regular Angle: 0=Front, 0x5A=Upward, etc. Special Angle:Increases as knockback increases (The minimum is equal to 0 and the maximum is about 37 degrees). 0x16B=Toward the direction in which the attacker is moving (same as 0x169 if the attacker is not moving), 0x16D=No direction (Only Flinch the target)
+Knockback Growth
+The momentum the target is launched is the higher the hitbox's damage and target's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. The actual Knockback Growth value is this value + "Knockback Growth Add Multiplier" * "Multiplier to Add". And, the actual knockback adds total Knockback Growth to total Base Knockback.
+Knockback Growth Add Multiplier
+Knockback Growth increase multiplier. The actual Knockback Growth value is "Knockback Growth" + this value * "Multiplier to Add".
+Weight Knockback
+The momentum the target is launched regardless of target's damage. The momentum the target is launched is the higher the hitbox's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. Weight Knockback is enabled only when the value of both the Knockback Growth and Weight Knockback is not 0. The actual Weight Knockback value is this value + "Weight Knockback Add Multiplier" * "Multiplier to Add". And, the actual knockback adds total Weight Knockback to total Base Knockback.
+Weight Knockback Add Multiplier
+Weight Knockback increase multiplier. The actual Weight Knockback value is "Weight Knockback" + this value * "Multiplier to Add".
+Base Knockback
+The momentum the target is launched regardless of target's weight and damage. The actual Base Knockback value is this value + "Base Knockback Add Multiplier" * "Multiplier to Add". Also, the actual knockback adds total Base Knockback to either total Knockback Growth or Weight Knockback, whichever is valid.
+Base Knockback Add Multiplier
+Base Knockback increase multiplier. The actual Base Knockback value is "Base Knockback" + this value * "Multiplier to Add".
+Size
+The size of the collision bubble. The actual size is this value + "Size Add Multiplier" * "Multiplier to Add".
+Size Add Multiplier
+Size increase multiplier. The actual size is "Size" + this value * "Multiplier to Add".
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+Effect
+0=Normal, 1=None, 2=Slash, 3=Electric, 4=Freezing, 5=Flame, 6=Coin, 7=Reverse, 8=Trip, 9=Sleep, B=Bury, C=Stun, E=Flower, 11=Grass, 12=Water, 13=Darkness, 14=Paralyze, 15=Aura, 16=Plunge, 17=Down, 18=Flinchless
+Tripping Rate
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+Directional Influence Multiplier
+A multiplier of the distance that the attacked character can move during the hitlag caused by this collision bubble.
+Clank
+Normally, when the hitboxes of fighters that have this parameter set to true collide with each other, characters with low hitbox's damage or both characters stop moving and switches to Rebound Action. True=Can clank, False=Can't clank.
+Rebound
+Unused Melee leftover
+Shield Damage
+The amount of damage dealt to the target's shield if it is up.
+Sound Level
+0=Small, 1=Medium, 2=Large, 3=Huge
+Sound
+0=None, 1=Punch, 2=Kick, 3=Slash, 4=Coin, 5=Bat, 6=Fan, 7=Electric, 8=Flame, 9=Water, A=Unknown, B=Explosion, C=Unknown, D=Thud (Snake exclusive), E=Slam (Ike exclusive), F=Thwomp (King Dedede exclusive), 10=Magic Zap, 11=Shell, 12=Slap (Peach exclusive), 13=Pan (Peach exclusive), 14=Club (Peach exclusive), 15=Racket(Peach exclusive), 16=Aura(Lucario Exclusive), 17=Treble (Marth exclusive, unused?), 18=Coin (Mario exclusive, unused), 19=Static? (Mario exclusive, unused), 1A=Coin (Luigi exclusive, unused), 1B=Bat (Ness exclusive), 1C=Freezing
+Air/Ground
+1=Ground Only, 2=Aerial Only, 3=Both
+Direct/Indirect
+True=Direct, False=Indirect
+Type
+0=Typeless, 1=Head, 2=Body, 3=Butt, 4=Hand, 5=Elbow, 6=Foot, 7=Knee, 8=Throwing, 9=Weapon, A=Sword, B=Hammer, C=Explosive, D=Spin, E=Bite, F=Magic, 10=PK, 11=Bow, 12=Unknown, 13=Bat, 14=Parasol, 15=Pikmin, 16=Water, 17=Whip, 18=Tail, 19=Energy
+Multiplier to Add
+Add the value obtained by multiplying each "Add Multiplier" value by this value to the base value. Usually variables are used. If set the abnormal value, the hitbox may not work.
+
+060A0800
+ID
+ID of catch collision.
+Bone ID
+The bone the grab is attached to.
+Size
+The size of the catch collision bubble.
+X Offset
+Transition relative to the currently attached bone.
+Y Offset
+Transition relative to the currently attached bone.
+Z Offset
+Transition relative to the currently attached bone.
+Action
+The Action ID that the foe executes if successfully grabbed.
+Air/Ground
+0 = grabs nothing, 1 = grabs grounded only, 2 = grabs aerial only, 3 = grabs aerial and grounded.
+Target
+0 = Normal, 1 = Can't grab Fighter, 2 = Can't grab SSE Enemy, 3 = Can't grab Fighter and SSE Enemy
+Boolean
+False = Normal, True = Changes such as changes in the motion of captured Fighters occur
+
+060B0200
+ID
+ID of the collision bubble to be changed.
+New Size
+The new size of the catch collision bubble.
+
+060C0100
+ID
+ID of the collision to delete
+
+060E1100
+ID
+ID of throw data. Seemingly, a "0" indicates this is the throw data, while a "1" indicates this is used if the opponent escapes during the throw. "2" has also been seen (by Light Arrow).
+Bone?
+Possibly bone used by collision. Usually 0.
+Damage
+The amount of damage inflicted to the target on throw.
+Trajectory
+The direction in which the target gets launched.
+Knockback Growth
+The momentum the target is launched is the higher the hitbox's damage and target's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. And, the actual knockback adds total Knockback Growth to total Base Knockback.
+Weight Knockback
+The momentum the target is launched is the higher the hitbox's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. Target's damage doesn't affect momentum. Weight Knockback is enabled only when the value of both the Knockback Growth and Weight Knockback is not 0. And, the actual knockback adds total Weight Knockback to total Base Knockback.
+Base Knockback
+The momentum the target is launched regardless of target's weight and damage. Also, the actual knockback adds Base Knockback to either Knockback Growth or Weight Knockback, whichever is valid.
+Element
+The "hit type" of the throw. 0=Normal, 2=Slash, 3=Electric, 4=Freezing, 5=Flame, 6=Coin, 8=Trip, 9=Sleep, B=Bury, C=Stun, E=Flower, 13=Darkness, 14=Paralyze, 15=Aura, 17=Knock down, 18=Flinchless. If set to 7 (Reverse), character can't throw the target normally.
+Tripping Rate?
+Usually set to 0.
+Hitlag Multiplier
+Usually set to 1. A multiplier that affects the target pause time.
+Directional Influence Multiplier?
+Usually set to 1.
+Sound Level
+0=Small, 1=Medium, 2=Large, 3=Huge
+Sound
+0=None, 1=Punch, 2=Kick, 3=Slash, 4=Coin, 5=Bat, 6=Fan, 7=Electric, 8=Flame, 9=Water, A=Unknown, B=Explosion, C=Unknown, D=Thud (Snake exclusive), E=Slam (Ike exclusive), F=Thwomp (King Dedede exclusive), 10=Magic Zap, 11=Shell, 12=Slap (Peach exclusive), 13=Pan (Peach exclusive), 14=Club (Peach exclusive), 15=Racket(Peach exclusive), 16=Aura(Lucario Exclusive), 17=Treble (Marth exclusive, unused?), 18=Coin (Mario exclusive, unused), 19=Static? (Mario exclusive, unused), 1A=Coin (Luigi exclusive, unused), 1B=Bat (Ness exclusive), 1C=Freezing
+Base Direction
+Set base horizontal launch direction and the target facing direction. 3: Regular; based on attacker facing direction. 0: Based on sent away from attacker. 4: Backward; based on opposite of attacker facing direction. 6: Target to face the screen. Knockback have no horizontal component. Targets will be unable to walk or run, but they can move through the air normally. Targets will be unable to use f-tilts, and using an air attack in either direction produces a f-air. Special moves tend to act as if the character is facing right. Getting hit by something else, using an f-smash, or using a side special will end the strangeness.
+Hitlag Disable
+Usually set to True. True=Hitlag is disabled, False=Hitlag is enabled
+Hide HitEffect
+Usually set to True. True=No hit graphic effect will occur, False=Hit graphic effect will occur
+Type
+Usually set to 8. This value affects sticker in subspace. If set value 0x20 or higher, the remainder after dividing by 0x20. 0=Typeless, 1=Head, 2=Body, 3=Butt, 4=Hand, 5=Elbow, 6=Foot, 7=Knee, 8=Throwing, 9=Weapon, A=Sword, B=Hammer, C=Explosive, D=Spin, E=Bite, F=Magic, 10=PK, 11=Bow, 12=Unknown, 13=Bat, 14=Parasol, 15=Pikmin, 16=Water, 17=Whip, 18=Tail, 19=Energy
+
+060F0500
+ID?
+Similar to offensive collisions Action ID's can be 1,2, or 3: for example, if you have 1 throw collsion, you will set it to =0, however, if you have 3 throw collisions, you will have them ordered from 1(for the first), 2(for the second), and 3(and for the third collsion code).
+Bone
+Appears to always be the bone the thrown character is attached to.
+Parameter 2
+Usually RA BIT Basic Variable set at a value of 2.
+Parameter 3
+Usually RA BIT Basic Variable set at a value of 3.
+Parameter 4
+Usually RA BIT Basic Variable set at a value of 4.
+
+06101100
+Undefined
+When messed with, seemed to affect the accuracy of the collision detection. Should be set to 0 to be safe.
+ID?
+This seems to be the ID of the collision bubble.
+Bone?
+Possibly the bone that the hitbubble is attached to.
+Size
+The size of the hitbubble.
+X Offset
+Transition relative to the currently attached bone.
+Y Offset
+Transition relative to the currently attached bone.
+Z Offset
+Transition relative to the currently attached bone.
+Flags
+A combination of: 1=Detect hitbox, 2=Detect hurtbox, 4=Detect shield, 8=Can be reflected, 10=Detect absorbsion collision. If set to 0, None.	073*InFLG:F
+Hit Bit1
+0=None, 3FF=ALL (001=Fighter and Pikmin, 002=SSE Enemies, 008=Item such as Box, 040=Pillar, 080=Wall, 100=Item such as Hothead, 200=Floor)	073*HBit1:F
+Air/Ground
+1=Ground Only, 2=Aerial Only, 3=Both
+Boolean
+Unknown
+Hit Bit2
+1=Hit to Item such as Box and Hothead, 2=Hit to Pikmin and Waddle Dee. If set to 0 or 4, it won't even hit to fighters. If set to 8, it only hits to fighters. Only the rightmost 1 digit of the hex value is effective.
+Hit Invincible
+Set whether to detect target hurtbox in invincible state. A combination of: 1=Normal, 2=Invincible, 4=Intangible. If set to 7, All Hit. If set to 0, None. If set value 8 or higher, the remainder after dividing by 8. Intangible No Flashing and Intangible Quick Flashing can't be detected. Such as Kirby's Final Smash is designed so that if the target is invincible state when it hits, it can't be capture in.	073*H_Inv:F
+Boolean
+Unknown
+Rehit Rate?
+The rehit rate of the hitbubble?
+Affects Self
+Set whether to detect teammates. In the case of Article, if set to True, this collision bubble also applies to own too.
+Value
+Unknown
+
+06110200
+ID
+ID of the collision bubble to be changed.
+New Size
+The new size of the collision bubble.
+
+06120100
+ID
+ID of the collision to delete
+
+06140200
+Hitbox ID
+ID of the hitbox to be changed.
+Damage
+Add damage of the hitbox.
+
+06150F00
+Bone ID/Hitbox ID
+The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone ID, Y=Hitbox ID. To generate multiple hitboxes, need to change the ID. If generate a hitbox with the same ID as an existing hitbox, it will be overwritten. If hit multiple hitboxes, Only the lowest ID is valid. Also, if add 0x100 to ID, increases Segment value by 1. Even if the target has already been hit by hitbox, target is a possibility of hitting more higher segment value hitbox. If overwrite the existing hitbox by increasing the segment value, allows hitbox to hit multiple times without "Terminate Collisions" Event.	200*OC_ID:3
+Damage
+The amount of damage inflicted to the target upon collision.
+Trajectory
+The direction in which a target gets launched. Regular Angle: 0=Front, 0x5A=Upward, etc. Special Angle:Increases as knockback increases (The minimum is equal to 0 and the maximum is about 37 degrees). 0x16B=Toward the direction in which the attacker is moving (same as 0x169 if the attacker is not moving), 0x16D=No direction (Only Flinch the target)
+Weight Knockback/Knockback Growth
+The momentum the target is launched regardless of target's damage/The momentum the target is launched is the higher the target's damage, the greater the momentum. Where XXXXYYYY is X=Weight Knockback, Y=Knockback Growth. Whichever is valid, the higher thr hitbox's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. Also, the actual knockback adds "Base Knockback" value to this. Note: Weight Knockback is enabled only when the value of both the Knockback Growth and Weight Knockback is not 0.	200*OC_WK:4
+Shield Damage/Base Knockback
+The amount of additional damage dealt to the target's shield if it is up/The momentum the target is launched regardless of target's weight and damage. Where XXXXYYYY is X=Shield Damage, Y=Base Knockback. Also, the actual knockback adds Base Knockback to either Knockback Growth or Weight Knockback, whichever is valid. Note: If "Shield Damage" is over 0x100, it will not work properly.	200*OC_SB:4
+Size
+The size of the collision bubble.
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+Tripping Rate
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+Directional Influence Multiplier
+A multiplier of the distance that the attacked character can move during the hitlag caused by this collision bubble.
+Flags
+Flags for various parameters. Can set: Direct/Indirect, Clank, Type (head, sword, etc.), Air/Ground, Hit Sound Effects, Element	200*OCFLG:F
+Rehit Rate
+Even if the target has already been hit by hitbox, if this number of frames have passed since the hit, target is a possibility of hitting hitbox. If set 0, the hitbox will only hit once. For example a value of 8 will cause the hitbox to hit every 8 frames. It is not affected by the character's animation speed or slow effects such as item Timer.
+Special Flags
+This Flags that can be set differently from normal Flags that also exist in "Offensive Collision". Can set: Flinchless, Hide HitEffect, Team Damage, Ignores Invincibility, Shieldability, Reflectability, Absorbability, Target (SSE Enemies, Item, etc.), Base Direction, etc. (If set to 004FFFC0, the same setting as "Offensive Collision".)	200*SOFLG:F
+
+06160100
+Multiplier
+Multiplies all damage given by this value.
+
+06170300
+Collision Type
+2=Block, 3=Reflect, 4=Absorb. 2 is basically used to receive attacks while in invincible state. It has no effect on attacks that cannot be blocked by shield or grabs. 4 can only be activated by characters have absorption-type special moves.
+HurtBox ID
+When using the reflection effect of the Franklin Badge, only one of the HurtBox specified here will be in the reflection state. (Franklin Badge's Effect: Add reflection effect to all HurBoxes)
+Type 2
+Set which data to use from the specified Collision Type. Basically, if Collision Type is 2, set to 1, if Collision Type is 3, set to 2.
+
+06180300
+Collision Type
+2=Block, 3=Reflect, 4=Absorb
+HurtBox ID?
+No Description Available.
+Type 2
+Set the same value as when generated a defensive collision bubble.
+
+06192F00
+Hitbox ID
+The ID number of the collision bubble. To generate multiple hitboxes, need to change the ID. If generate a hitbox with the same ID as an existing hitbox, it will be overwritten. If hit multiple hitboxes, Only the lowest ID is valid.
+Segment
+Even if the target has already been hit by hitbox, target is a possibility of hitting more higher segment value hitbox. If overwrite the existing hitbox by increasing the segment value, allows hitbox to hit multiple times without "Terminate Collisions" Event.
+Bone ID
+The bone the collision bubble is attached to.
+Damage
+The amount of damage inflicted to the target upon collision. The actual damage is this value + "Damage Add Multiplier" * "Multiplier to Add".
+Damage Add Multiplier
+Damage increase multiplier. The actual damage is "Damage" + this value * "Multiplier to Add".
+Trajectory
+The direction in which a target gets launched. Regular Angle: 0=Front, 0x5A=Upward, etc. Special Angle:Increases as knockback increases (The minimum is equal to 0 and the maximum is about 37 degrees). 0x16B=Toward the direction in which the attacker is moving (same as 0x169 if the attacker is not moving), 0x16D=No direction (Only Flinch the target)
+Knockback Growth
+The momentum the target is launched is the higher the hitbox's damage and target's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. The actual Knockback Growth value is this value + "Knockback Growth Add Multiplier" * "Multiplier to Add". And, the actual knockback adds total Knockback Growth to total Base Knockback.
+Knockback Growth Add Multiplier
+Knockback Growth increase multiplier. The actual Knockback Growth value is "Knockback Growth" + this value * "Multiplier to Add".
+Weight Knockback
+The momentum the target is launched regardless of target's damage. The momentum the target is launched is the higher the hitbox's damage, the greater the momentum, and the greater the target's weight, the more momentum tends to decrease. Weight Knockback is enabled only when the value of both the Knockback Growth and Weight Knockback is not 0. The actual Weight Knockback value is this value + "Weight Knockback Add Multiplier" * "Multiplier to Add". And, the actual knockback adds total Weight Knockback to total Base Knockback.
+Weight Knockback Add Multiplier
+Weight Knockback increase multiplier. The actual Weight Knockback value is "Weight Knockback" + this value * "Multiplier to Add".
+Base Knockback
+The momentum the target is launched regardless of target's weight and damage. The actual Base Knockback value is this value + "Base Knockback Add Multiplier" * "Multiplier to Add". Also, the actual knockback adds total Base Knockback to either total Knockback Growth or Weight Knockback, whichever is valid.
+Base Knockback Add Multiplier
+Base Knockback increase multiplier. The actual Base Knockback value is "Base Knockback" + this value * "Multiplier to Add".
+Size
+The size of the collision bubble. The actual size is this value + "Size Add Multiplier" * "Multiplier to Add".
+Size Add Multiplier
+Size increase multiplier. The actual size is "Size" + this value * "Multiplier to Add".
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+Effect
+0=Normal, 1=None, 2=Slash, 3=Electric, 4=Freezing, 5=Flame, 6=Coin, 7=Reverse, 8=Trip, 9=Sleep, B=Bury, C=Stun, E=Flower, 11=Grass, 12=Water, 13=Darkness, 14=Paralyze, 15=Aura, 16=Plunge, 17=Down, 18=Flinchless
+Tripping Rate
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+Directional Influence Multiplier
+A multiplier of the distance that the attacked character can move during the hitlag caused by this collision bubble.
+Clank
+Normally, when the hitboxes of fighters that have this parameter set to true collide with each other, characters with low hitbox's damage or both characters stop moving and switches to Rebound Action. True=Can clank, False=Can't clank.
+Rebound
+Unused Melee leftover
+Shield Damage
+The amount of damage dealt to the target's shield if it is up.
+Sound Level
+0=Small, 1=Medium, 2=Large, 3=Huge
+Sound
+0=None, 1=Punch, 2=Kick, 3=Slash, 4=Coin, 5=Bat, 6=Fan, 7=Electric, 8=Flame, 9=Water, A=Unknown, B=Explosion, C=Unknown, D=Thud (Snake exclusive), E=Slam (Ike exclusive), F=Thwomp (King Dedede exclusive), 10=Magic Zap, 11=Shell, 12=Slap (Peach exclusive), 13=Pan (Peach exclusive), 14=Club (Peach exclusive), 15=Racket(Peach exclusive), 16=Aura(Lucario Exclusive), 17=Treble (Marth exclusive, unused?), 18=Coin (Mario exclusive, unused), 19=Static? (Mario exclusive, unused), 1A=Coin (Luigi exclusive, unused), 1B=Bat (Ness exclusive), 1C=Freezing
+Air/Ground
+1=Ground Only, 2=Aerial Only, 3=Both
+Direct/Indirect
+True=Direct, False=Indirect
+Type
+0=Typeless, 1=Head, 2=Body, 3=Butt, 4=Hand, 5=Elbow, 6=Foot, 7=Knee, 8=Throwing, 9=Weapon, A=Sword, B=Hammer, C=Explosive, D=Spin, E=Bite, F=Magic, 10=PK, 11=Bow, 12=Unknown, 13=Bat, 14=Parasol, 15=Pikmin, 16=Water, 17=Whip, 18=Tail, 19=Energy
+Hit Bit1
+Specifies what the collision bubble can hit. 137=Subspace Enemies Regular (Hit=Only Fighter and SSE Enemies), 3FF=Normal (Seems to same as "Offensive Collision")	174*HBit1:F
+Boolean
+Unknown, might be unused.
+Hit Bit2
+1=Hit to Item such as Box and Hothead, 2=Hit to Pikmin and Waddle Dee. If set to 0 or 4, it won't even hit to fighters. If set to 8, it only hits to fighters. Only the rightmost 1 digit of the hex value is effective.
+Boolean
+Unknown, might be unused.
+Shieldability
+True=Blockable, False=Unblockable. Note: If set to False, can't block by shield, and counters from Special move don't work.
+Reflectability
+True=Can be reflected, False=Cannot be reflected
+Absorbability
+True=Can be absorbed, False=Cannot be absorbed
+Rehit Rate
+Even if the target has already been hit by hitbox, if this number of frames have passed since the hit, target is a possibility of hitting hitbox. If set 0, the hitbox will only hit once. For example a value of 8 will cause the hitbox to hit every 8 frames. It is not affected by the character's animation speed or slow effects such as item Timer.
+Piercing
+True=Ignore Invincible state, False=Doesn't ignore invincible state.
+Indodgeable
+True=Ignore Intangible state, False=Doesn't hit Intangible state target.
+Base Direction
+Set base horizontal launch direction and the target facing direction. 0: Based on sent away from attacker. (Regular) 1: Based on the attacker's direction of movement. (Same as 0 if there is no horizontal speed) 2: Based on opposite of target facing direction. (The target direction is not change) 3: Forward; based on attacker facing direction. 4: Backward; based on opposite of attacker facing direction. 5: Based on sent away from the center of hitbox. 6,7: Target to face the screen. Knockback have no horizontal component. Targets will be unable to walk or run, but they can move through the air normally. Targets will be unable to use f-tilts, and using an air attack in either direction produces a f-air. Special moves tend to act as if the character is facing right. Getting hit by something else, using an f-smash, or using a side special will end the strangeness.
+Grabby
+True=Does not break out of Throws, False=Breaks out of Throws
+Team Damager
+True=Can damage teammates, False=Cannot damage teammates
+Hitlag Disable
+True=Hitlag is disabled, False=Hitlag is enabled
+Hide HitEffect
+True=No hit effect will occur, False=Hit effect will occur
+Flinchless
+True=Hitbox does not cause flinching, False=Hitbox causes flinching
+Stretchy
+When set to 1, the hitbox will turn from a sphere into a tube, stretching from its position to the bone it's attached to. Basically, it starts at the bone with an offset of [0,0,0], it ends at the position it's specified at, and it also covers all the space in between.
+Multiplier to Add
+Add the value obtained by multiplying each "Add Multiplier" value by this value to the base value. Usually variables are used. If set the abnormal value, the hitbox may not work.
+
+061B0500
+Hitbox ID
+ID of the hitbox to be changed.
+New Bone ID
+The bone the collision bubble is attached to
+New X Offset
+Transition relative to the currently attached bone.
+New Y Offset
+Transition relative to the currently attached bone.
+New Z Offset
+Transition relative to the currently attached bone.
+
+06200A00
+Collision Type
+2=Block, 3=Reflect
+HurtBox ID
+In the case of rewrite the ability of effects of Franklin Badge, the data on the position and size of the HurtBox specified here is rewritten. If want to restore it, you need to reset size and offset to the same values as "Hurt Boxes" on the [Misc] tab.
+Bone ID
+The bone the bubble is generated from.
+Size
+The size of the bubble.
+X Offset Start
+The starting X Offset of the bubble.
+Y Offset Start
+The starting Y Offset of the bubble.
+Z Offset Start
+The starting Z Offset of the bubble.
+X Offset End
+The ending X Offset of the bubble.
+Y Offset End
+The ending Y Offset of the bubble.
+Z Offset End
+The ending Z Offset of the bubble.
+
+06241000
+Collision Type
+2=Block, 3=Reflect
+HurtBox ID
+In the case of rewrite the ability of effects of Franklin Badge, the data on the position and size of the HurtBox specified here is rewritten. If want to restore it, need to reset size and offset to the same values as "Hurt Boxes" on the [Misc] tab.
+Bone ID
+The bone the bubble is generated from.
+Size
+The size of the bubble.
+X Offset Start
+The starting X Offset of the bubble.
+Y Offset Start
+The starting Y Offset of the bubble.
+Z Offset Start
+The starting Z Offset of the bubble.
+X Offset End
+The ending X Offset of the bubble.
+Y Offset End
+The ending Y Offset of the bubble.
+Z Offset End
+The ending Z Offset of the bubble.
+Power Multiplier
+When a projectile is reflected, its damage is multiplied by this parameter. (Franklin Badge: 1.3)
+Speed Multiplier
+When a projectile is reflected, its speed is multiplied by this parameter. (Franklin Badge: 1.3)
+Damage Threshold
+When a projectile hits this collision bubble, if its damage is higher than this value, it can't be reflected and this collision bubble will disappear. (Franklin Badge: 50)
+Parameter13 (Boolean)
+Unknown, usually false.
+Duration Multiplier
+When a projectile is reflected, its lifetime is multiplied by this parameter and original lifetime. (Franklin Badge: 0.5)
+Type 2
+"Type 2" parameter of "Defensive Collision" Event that overrides the effect. If "Collision Type" is 3 and this value is 1, it will override the effect of Franklin Badge. If set to 0, the size and offset will be overwritten, but "Power Multiplier", "Speed Multiplier", "Damage Threshold", and "Duration Multiplier" will not change.
+
+062B0D00
+Bone ID/Hitbox ID
+The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone, Y=ID.
+Damage
+The amount of damage inflicted to the target upon collision.
+Trajectory
+The direction in which a target gets launched.
+Weight Knockback/Knockback Growth
+The distance the target is launched proportional to weight for fixed knockback hits/The additional distance the target is launched proportional to its damage (launch force for fixed knockback hits). Where XXXXYYYY is X=Weight Knockback, Y=Knockback Growth.
+Shield Damage/Base Knockback
+The amount of damage dealt to the target's shield if it is up/The distance the target is launched regardless of its damage. Where XXXXYYYY is X=Shield Damage, Y=Base Knockback.
+Size
+The size of the collision bubble.
+X Offset
+The offset in the X direction from the attached bone.
+Y Offset
+The offset in the Y direction from the attached bone.
+Z Offset
+The offset in the Z direction from the attached bone.
+Tripping Rate
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+Directional Influence Multiplier
+A multiplier of the distance that the attacked character can move during the hitlag caused by this collision bubble.
+Flags
+Flags for various parameters such as hit effects and sound effects.
+
+062C0F00
+Bone ID/Hitbox ID?
+The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone, Y=ID.
+Damage
+The amount of damage inflicted to the target upon collision.
+Trajectory
+The direction in which a target gets launched.
+Weight Knockback/Knockback Growth?
+The distance the target is launched proportional to weight for fixed knockback hits/The additional distance the target is launched proportional to its damage (launch force for fixed knockback hits). Where XXXXYYYY is X=Weight Knockback, Y=Knockback Growth.
+Shield Damage/Base Knockback?
+The amount of damage dealt to the target's shield if it is up/The distance the target is launched regardless of its damage. Where XXXXYYYY is X=Shield Damage, Y=Base Knockback.
+Size?
+The size of the collision bubble.
+X Offset?
+The offset in the X direction from the attached bone.
+Y Offset?
+The offset in the Y direction from the attached bone.
+Z Offset?
+The offset in the Z direction from the attached bone.
+Tripping Rate?
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier?
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+Directional Influence Multiplier?
+A multiplier of the distance that the attacked character can move during the hitlag caused by this collision bubble.
+Flags 1
+Flags for various parameters such as hit effects and sound effects.
+Undefined
+Undefined.
+Flags 2
+Flags for various parameters such as hit effects and sound effects.
+
+062F0200
+Hitbox ID
+ID of the hitbox to be changed.
+Hit Bit
+New Hit Bit of the hitbox. 000 = None, 3FF = ALL (001=Fighter and Pikmin, 002=SSE Enemies, 008=Item such as Box, 040=Pillar, 080=Wall, 100=Item such as Hothead, 200=Floor)*HBit1:F
+
+07070200
+Size
+The size of the rumble.
+Time
+How long the rumble lasts. (Frames)
+
+070B0200
+Parameter 0
+Unknown, Usually 25.
+Parameter 1
+Unknown, Usually 39.
+
+08000100
+State
+0: In Air, Can pass through stage objects. 1: On Ground, Can drop off side of stage. 2: On Ground, Can't drop off side of stage. 5: In Air. (Can leave stage vertically). 6-In Air, Auto through passable floor. 7-Depends grounded/aerial condition at the time of reading. Other states unknown. (Note: In case of 1, if state is not changed after drop off stage, it may be back to the position of the fallen position after a while.)
+
+0A000100
+Sound Effect
+The ID number for the sound effect called.
+
+0A010100
+Sound Effect
+The ID number for the sound effect called.
+
+0A020100
+Sound Effect
+The ID number for the sound effect called.
+
+0A030100
+Sound Effect
+The ID number for the sound effect to stop.
+
+0A050100
+Sound Effect
+The ID number for the sound effect called.
+
+0A070100
+Sound Effect
+The ID number for the sound effect called.
+
+0A090100
+Sound Effect
+The ID number for the sound effect called.
+
+0A0A0100
+Sound Effect
+The ID number for the sound effect called.
+
+0B000200
+BoneSwitch ID
+The target switch for model changes. (0 = Fighter's yellow eye, Other = Depends on the character)
+BoneGroup ID
+Except for the data of the selected BoneGroup, all the data registered in other BoneGroup in the same BoneSwitch disappears. DefaultVisibility of ModelVisibility is the default setting. It can see it from [Misc] Tab. (BoneSwitch ID is 0 and BoneGroup ID is FFFFFFFF = Fighter's yellow eye is disappears)
+
+0B010200
+BoneSwitch ID
+The target switch for model changes. (0 = Fighter's yellow eye, Other = Depends on the character)
+BoneGroup ID
+Except for the data of the selected BoneGroup, all the data registered in other BoneGroup in the same BoneSwitch disappears. DefaultVisibility of ModelVisibility is the default setting. It can see it from [Misc] Tab. (BoneSwitch ID is 0 and BoneGroup ID is FFFFFFFF = Fighter's yellow eye is disappears)
+
+0B020100
+Visibility
+*
+
+0B030100
+BoneSwitch ID
+The target switch for model changes.
+
+0C090100
+Allow/Disallow
+*
+
+0C1C0200
+Unknown
+Usually set to 2.
+Attack ID
+Set the Attack ID that affects Stale-move negation. If set to 0, damage changes due to Stale-move negation are always the first damage. There is no relation to hitbox ID.
+Recount
+If set to True, the Attack count and Stale-move negation will be affected even when the same Attack ID is read.
+
+0C230200
+Strength
+The larger the value, the slower the enemy's movement. 4=Same as timer item. 1=Return to normal.
+Frames
+Duration time. Value 0x1E = 0.5sec
+
+0C250100
+Tag On/Off
+*
+
+0D000200
+PSA Stack
+The event stack to run the subroutine. (use 4, 6, or 9 or you risk crashes) Usually 9 is used, in the case of Article is 4.
+Offset
+Executes the contents of the Sub Routine specified here once per frame. If "External" is displayed, "External" setting is deleted when you edit this Event. (If PSA Compressor version is older than 0.37, the problems may occur without being erased properly.)
+
+0D010100
+PSA Stack
+Stop at the same value as the start value.
+
+0E000100
+State
+The state of the character's air/ground status. 0: In Air, 1: In Air (+Set Ground Jump Vertical Momentum), 6: On Ground, A:In Air (+Invalid horizontal movement by input of control stick), F: Grounded TransN Movement, 11: Aerial TransN Movement, 32: Stop
+
+0E010200
+Horizontal Velocity
+The speed of the character moving left/right.
+Vertical Velocity
+The speed of the character moving up/down.
+
+0E020100
+Horizontal/Vertical
+When set to 1, reset vertical momentum. When set to 2, reset horizontal momentum. However, in most cases, 1 and 2 don't work in Article, only 0 works. (In this case, the vertical and horizontal speed will be reset.)
+
+0E040100
+State
+0: "Moves Character" movement is re-enable, 1: Vertical speed and gravity is re-enable, 2: Horizontal speed and mobility is re-enable, 4: Knockback speed returns, 5: Re-enable strong wind gimmick, 6: Re-enable conveyor gimmick, 7: Re-enable movement when pushed by other characters
+
+0E050100
+State
+0: "Moves Character" movement is disable, 1: Vertical speed and gravity is invalid, 2: Horizontal speed and mobility is invalid, 4: Knockback temporarily becomes 0, 5: Disable strong wind gimmick, 6: Disable conveyor gimmick, 7: Does not move even if pushed by another character (In case of Nana, disable Z movement)
+
+0E060100
+State
+When set to 1, disables vertical gravity. When set to 2, disable horizontal acceleration and deceleration by such as input of control stick. The speed will not be 0 and will continue to move at the speed it was loaded until it is re-enabled.
+
+0E070100
+State
+When set to 1, re-enables vertical gravity. When set to 2, re-enable horizontal acceleration and deceleration by such as input of control stick.
+
+0E080200
+Horizontal Velocity
+The speed of the character moving left/right.
+Vertical Velocity
+The speed of the character moving up/down.
+Unknown
+Unknown. No relevance to Set/Add.
+Set/Add
+0 = Add, 1 = Set
+
+10000100
+Article ID
+The ID of the prop article to be called.
+Action Exclusive
+Whether or not you want the article to be automatically deleted when the Action ends.
+
+10010100
+Article ID
+ID of the Article to be released or detached
+Action
+This seems to be the ID of the Article's Action.
+
+10020100
+Article ID
+ID of the article to be removed.
+
+10030100
+Article ID
+ID of the article to be removed.
+
+10040200
+Article ID
+ID of Article to switch Sub Action
+Sub Action
+ID of the Sub Action that Article executes
+Sub Action Exclusive?
+Whether or not automatically delete the article when the Sub Action ends?
+
+10050200
+Article ID
+ID of the article to be affected.
+Visibility
+Set Boolean: True = Visible, False = Invisible
+
+10070200
+Article ID
+ID of Article to switch Action
+Action
+ID of the Action that Article executes
+
+10080200
+Article ID
+ID of Article to switch Action
+Action
+ID of the Action that Article executes
+
+10090100
+Article ID
+ID of the Article to be released or detached
+Action
+This seems to be the ID of the Article's Action.
+
+100A0200
+Article ID
+ID of the article to be affected.
+Bone ID
+ID of the bone to attach to.
+Undefined
+Possibly decides which article to attach if multiple copies of a certain article are present.
+
+100C0200
+Article ID
+ID of the article to be affected.
+Multiplier
+How many times faster the frames are.
+
+10130100
+Article ID
+ID of the article to be affected.
+
+11001000
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	143*GFXID:4
+Bone
+This bone is the base location of the graphical effect occurs. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the bone location.
+Y Offset
+Distance in the Y-axis direction from the bone location.
+Z Offset
+Distance in the Z-axis direction from the bone location.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis. However, if "Depends by Bone Rotation" is False, rotation along the Z-axis doesn't work properly.
+Size
+The size of the graphic.
+Random X Offset
+A random value lesser than the specified value and added to the X Offset.
+Random Y Offset
+A random value lesser than the specified value and added to the Y Offset.
+Random Z Offset
+A random value lesser than the specified value and added to the Z Offset.
+Random X Rotation
+A random value lesser than the specified value and added to the X Rotation.
+Random Y Rotation
+A random value lesser than the specified value and added to the Y Rotation.
+Random Z Rotation
+A random value lesser than the specified value and added to the Z Rotation.
+Depends by Bone Rotation
+If true, offset and rotation are subject to bone rotation. (If bone is 0, swap X and Z Offset)
+
+11010A00
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	120*GFXID:4
+Bone
+The bone to attach the graphical effect to. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis.
+Size
+The size of the graphic.
+Terminate With Action
+Sets whether or not this graphic effect terminates when current action is changed. (Same effect as when "Instant" is set to False with "Terminate Graphic Effect" Event loaded)
+Graphic Effect ID to Add
+Usually 0. Add this value to the ID of the Graphic to load. Used to generate different graphic effects for each costume color by setting the Character's costume color variable (LA-Basic [54])
+Extra Graphic Effect ID
+Usually 0. By setting this value, the color of the graphic effect when Shield and KO can be set to a color other than red (Player 1 Color). Used to generate different graphic effects for each Player by setting the Player variable (IC-Basic[21029]) 0=P1 or Red Team, 1=P2 or Blue Team, 2=P3 or Green Team, 3=P4, 4=CPU color.
+
+11020A00
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	120*GFXID:4
+Bone
+The bone to attach the graphical effect to. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis. The rotation will be the same as if read it with an Event that stays at the spot it was spawned and set "Depends by Bone Rotation" to False.
+Y Rotation
+Rotation along the Y-axis. The rotation will be the same as if read it with an Event that stays at the spot it was spawned and set "Depends by Bone Rotation" to False.
+Z Rotation?
+It is thought that the setting is to rotate along the Z-axis, but it doesn't work correctly. The rotation will be the same as if read it with an Event that stays at the spot it was spawned and set "Depends by Bone Rotation" to False.
+Size
+The size of the graphic.
+Terminate With Action
+Sets whether or not this graphic effect terminates when current action is changed. (Same effect as when "Instant" is set to False with "Terminate Graphic Effect" Event loaded)
+Graphic Effect ID to Add
+Usually 0. Add this value to the ID of the Graphic to load. Used to generate different graphic effects for each costume color by setting the Character's costume color variable (LA-Basic [54])
+Extra Graphic Effect ID
+Usually 0. By setting this value, the color of the graphic effect when Shield and KO can be set to a color other than red (Player 1 Color). Used to generate different graphic effects for each Player by setting the Player variable (IC-Basic[21029]) 0=P1 or Red Team, 1=P2 or Blue Team, 2=P3 or Green Team, 3=P4, 4=CPU color.
+
+11031400
+Trace ID
+Color/Type. 6, 7, and 8 are always loaded, so they can be used by all characters. Other than these are exclusive to characters with settings, so they can't be loaded correctly unless that character is present. If the specified color can't be loaded successfully, the displayed color will be pure white.
+Blur Length
+The length of the glow's aftershadow.
+1st Bone
+This bone is the base location of the sword trail occurs. Generate a graphic on the line connecting 1st and 2nd, with the 1st position as the bottom part of the texture and the 2nd position as the top part of the texture.
+1st X Offset
+Distance in the X-axis direction from the attached 1st bone location of 1st position (affected by bone rotation)
+1st Y Offset
+Distance in the Y-axis direction from the attached 1st bone location of 1st position (affected by bone rotation)
+1st Z Offset
+Distance in the Z-axis direction from the attached 1st bone location of 1st position (affected by bone rotation)
+2nd Bone
+This bone is the base location of the sword trail occurs. Usually the same as the 1st bone. If set to a different bone from the 1st bone, the longer the distance from the 1st bone, the longer the graphic will occur.
+2nd X Offset
+Distance in the X-axis direction from the attached 2nd bone location of 2nd position (affected by bone rotation)
+2nd Y Offset
+Distance in the Y-axis direction from the attached 2nd bone location of 2nd position (affected by bone rotation)
+2nd Z Offset
+Distance in the Z-axis direction from the attached 2nd bone location of 2nd position (affected by bone rotation)
+Glow State
+If set to true, glow/trail disappears at current action is changed.
+Graphic ID
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID. It is graphical effect that moves with the bone.	105*GFXID:4
+Bone
+The bone to attach the graphical effect to.
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis.
+Graphic Effect Size
+The size of the graphic.
+
+11041700
+Trace ID
+Color/Type. 6, 7, and 8 are always loaded, so they can be used by all characters. Other than these are exclusive to characters with settings, so they can't be loaded correctly unless that character is present. If the specified color can't be loaded successfully, the displayed color will be pure white.
+Blur Length
+The length of the glow's aftershadow.
+Center Bone
+This bone is the base location of the hammer trail occurs. A polygonal graphic is generated at the edge based on this center position. The further away the edge and center are, the larger the polygon will be.
+Center X Offset
+Distance in the X-axis direction from the attached center bone location of center position (affected by bone rotation)
+Center Y Offset
+Distance in the Y-axis direction from the attached center bone location of center position (affected by bone rotation)
+Center Z Offset
+Distance in the Z-axis direction from the attached center bone location of center position (affected by bone rotation)
+Edge Bone
+This bone is the base location of the sword trail occurs. Usually the same as the center bone. If set to a different bone from the center bone, the longer the distance from the center bone, the larger the graphic will occur.
+Edge X Offset
+Distance in the X-axis direction from the attached edge bone location of edge position (affected by bone rotation)
+Edge Y Offset
+Distance in the Y-axis direction from the attached edge bone location of edge position (affected by bone rotation)
+Edge Z Offset
+Distance in the Z-axis direction from the attached edge bone location of edge position (affected by bone rotation)
+Glow State
+If set to true, glow/trail disappears at current action is changed.
+Graphic ID
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID. It is graphical effect that moves with the bone.	105*GFXID:4
+Bone
+The bone to attach the graphical effect to.
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis.
+Graphic Effect Size
+The size of the graphic.
+Polygon
+The higher the value, the closer to the circle. Only 8 is used in the unedited character. 0 = Same as Sword Glow, 1 = Nothing is displayed, 2 = Line, 3 = Triangle, 4 = quadrangle, 8 = octagon
+Angle
+The angle changes at 0, 1, and 2, respectively. Only 2 is used in the unedited character. 3 or more = Same as 2.
+Texture Loop
+Number of times to loop the texture. Only 8 or 4 is used in the unedited character (Dedede = 8, Other = 4)
+
+11050100
+Fade Time
+The time it takes for the sword glow to fade out.
+
+110B0500
+Unknown
+Unknown. It seems that it will not work unless it is 0.
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	088*GFXID:4
+Bone
+The bone to attach the graphical effect to.
+Distance
+The graphical effect reoccurs every time bone move the distance specified here.
+End With Action
+Sets whether the graphic effect will not reoccur when the current action is changed. When set False, it will permanent until load "End Graphic Effect (Reoccurs When Move)" or this event.
+
+110D0100
+Unknown
+End by set to 0.
+
+110E1200
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	143*GFXID:4
+Bone
+This bone is the base location of the graphical effect occurs. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the bone location.
+Y Offset
+Distance in the Y-axis direction from the bone location.
+Z Offset
+Distance in the Z-axis direction from the bone location.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis. However, if "Depends by Bone Rotation" is False, rotation along the Z-axis doesn't work properly.
+Size
+The size of the graphic. The actual size is this value + "Size Add Multiplier" * "Multiplier to Add".
+Size Add Multiplier
+Size increase multiplier. The actual size is "Size" + this value * "Multiplier to Add".
+Random X Offset
+A random value lesser than the specified value and added to the X Offset.
+Random Y Offset
+A random value lesser than the specified value and added to the Y Offset.
+Random Z Offset
+A random value lesser than the specified value and added to the Z Offset.
+Random X Rotation
+A random value lesser than the specified value and added to the X Rotation.
+Random Y Rotation
+A random value lesser than the specified value and added to the Y Rotation.
+Random Z Rotation
+A random value lesser than the specified value and added to the Z Rotation.
+Depends by Bone Rotation
+If true, offset and rotation are subject to bone rotation. (If bone is 0, swap X and Z Offset)
+Multiplier to Add
+Add the value obtained by multiplying "Size Add Multiplier" value by this value to the base value.
+
+11100C00
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	120*GFXID:4
+Bone
+The bone to attach the graphical effect to. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis.
+Size
+The size of the graphic. The actual size is this value + "Size Add Multiplier" * "Multiplier to Add".
+Size Add Multiplier
+Size increase multiplier. The actual size is "Size" + this value * "Multiplier to Add".
+Terminate With Action
+Sets whether or not this graphic effect terminates when current action is changed. (Same effect as when "Instant" is set to False with "Terminate Graphic Effect" Event loaded)
+Multiplier to Add
+Add the value obtained by multiplying "Size Add Multiplier" value by this value to the base value.
+Graphic Effect ID to Add
+Usually 0. Add this value to the ID of the Graphic to load. Used to generate different graphic effects for each costume color by setting the Character's costume color variable (LA-Basic [54])
+Extra Graphic Effect ID
+Usually 0. By setting this value, the color of the graphic effect when Shield and KO can be set to a color other than red (Player 1 Color). Used to generate different graphic effects for each Player by setting the Player variable (IC-Basic[21029]) 0=P1 or Red Team, 1=P2 or Blue Team, 2=P3 or Green Team, 3=P4, 4=CPU color.
+
+11110C00
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	120*GFXID:4
+Bone
+The bone to attach the graphical effect to. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis. The rotation will be the same as if read it with an Event that stays at the spot it was spawned and set "Depends by Bone Rotation" to False.
+Y Rotation
+Rotation along the Y-axis. The rotation will be the same as if read it with an Event that stays at the spot it was spawned and set "Depends by Bone Rotation" to False.
+Z Rotation?
+It is thought that the setting is to rotate along the Z-axis, but it doesn't work correctly. The rotation will be the same as if read it with an Event that stays at the spot it was spawned and set "Depends by Bone Rotation" to False.
+Size
+The size of the graphic. The actual size is this value + "Size Add Multiplier" * "Multiplier to Add".
+Size Add Multiplier
+Size increase multiplier. The actual size is "Size" + this value * "Multiplier to Add".
+Terminate With Action
+Sets whether or not this graphic effect terminates when current action is changed. (Same effect as when "Instant" is set to False with "Terminate Graphic Effect" Event loaded)
+Multiplier to Add
+Add the value obtained by multiplying "Size Add Multiplier" value by this value to the base value.
+Graphic Effect ID to Add
+Usually 0. Add this value to the ID of the Graphic to load. Used to generate different graphic effects for each costume color by setting the Character's costume color variable (LA-Basic [54])
+Extra Graphic Effect ID
+Usually 0. By setting this value, the color of the graphic effect when Shield and KO can be set to a color other than red (Player 1 Color). Used to generate different graphic effects for each Player by setting the Player variable (IC-Basic[21029]) 0=P1 or Red Team, 1=P2 or Blue Team, 2=P3 or Green Team, 3=P4, 4=CPU color.
+
+11140200
+Target
+Types of graphical effect to terminates. 0: All, 1: Only Generated by "Graphic Effect (Attached)" Event and "Terminate with Action" Parameter is true, 2: Only Generated by "Graphic Effect (Attached)"
+Instant
+If false, each will graphical effect disappear in a unique way, but if true, all graphical effect will disappear completely the moment this event loaded.
+
+11150300
+Graphic ID
+The ID number for the graphical effect to terminates.*GFXID:4
+Instant
+If false, disappear in a unique way, but if true, target will disappear completely the moment this event loaded.
+Boolean
+Unknown, Usually true. However, it seems to the same even set to false.
+
+11170600
+Command ID
+Usually 0. The same value is required when read "End Screen Tint".
+Transition Time
+The time taken to transition from its current color to the specified color. 0: Immediately, 1: Immediately after 1 frame, 2 or more: The color starts changing after 1 frame and becomes the set color after the set frames.
+Red
+The red value. (0-FF)
+Green
+The green value. (0-FF)
+Blue
+The blue value. (0-FF)
+Alpha
+The transperency. (0-FF)
+Target
+The larger the value, the more targets. 0: Stage, 1: +Characters, 2: +Items (Some items, such as Assist Trophy, are eligible from 4 onwards), 4: +Graphical effect (Everything except the display such as icons) , 8:All (Include such as icon), 10: Game Crashes. Note: "Screen Tint (Full)" value is 4.
+
+11180200
+Command ID
+Enter the same value as "Screen Tint" to end.
+Transition Time
+The time it takes for the current color to disappear completely. 0: Immediately, 1: Immediately after 1 frame, 2 or more: The color starts changing after 1 frame and color disappears completely after set frames.
+
+11190A00
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	120*GFXID:4
+Bone
+The bone to attach the graphical effect to. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the X position from the character's point of view, that is, the depth position from the player's point of view.
+Y Offset
+Distance in the Y-axis direction from the attached bone (affected by bone rotation).
+Z Offset
+Distance in the Z-axis direction from the attached bone (affected by bone rotation). Example: If Bone is set to 0, it will be the Z position from the character's point of view, that is, the horizontal position from the player's point of view.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis.
+Size
+The size of the graphic.
+Terminate With Action
+Sets whether or not this graphic effect terminates when current action is changed. (Same effect as when "Instant" is set to False with "Terminate Graphic Effect" Event loaded)
+Graphic Effect ID to Add
+Usually 0. Add this value to the ID of the Graphic to load. Used to generate different graphic effects for each costume color by setting the Character's costume color variable (LA-Basic [54])
+Extra Graphic Effect ID
+Usually 0. By setting this value, the color of the graphic effect when Shield and KO can be set to a color other than red (Player 1 Color). Used to generate different graphic effects for each Player by setting the Player variable (IC-Basic[21029]) 0=P1 or Red Team, 1=P2 or Blue Team, 2=P3 or Green Team, 3=P4, 4=CPU color.
+
+111A1000
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	143*GFXID:4
+Bone
+This bone is the base location of the graphical effect occurs. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the bone location.
+Y Offset
+Distance in the Y-axis direction from the bone location.
+Z Offset
+Distance in the Z-axis direction from the bone location.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis. However, if "Depends by Bone Rotation" is False, rotation along the Z-axis doesn't work properly.
+Size
+The size of the graphic.
+Random X Offset
+A random value lesser than the specified value and added to the X Offset.
+Random Y Offset
+A random value lesser than the specified value and added to the Y Offset.
+Random Z Offset
+A random value lesser than the specified value and added to the Z Offset.
+Random X Rotation
+A random value lesser than the specified value and added to the X Rotation.
+Random Y Rotation
+A random value lesser than the specified value and added to the Y Rotation.
+Random Z Rotation
+A random value lesser than the specified value and added to the Z Rotation.
+Depends by Bone Rotation
+If true, offset and rotation are subject to bone rotation. (If bone is 0, swap X and Z Offset)
+
+111B1000
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	143*GFXID:4
+Bone
+This bone is the base location of the graphical effect occurs. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the bone location.
+Y Offset
+Distance in the Y-axis direction from the bone location.
+Z Offset
+Distance in the Z-axis direction from the bone location.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis. However, if "Depends by Bone Rotation" is False, rotation along the Z-axis doesn't work properly.
+Size
+The size of the graphic.
+Random X Offset
+A random value lesser than the specified value and added to the X Offset.
+Random Y Offset
+A random value lesser than the specified value and added to the Y Offset.
+Random Z Offset
+A random value lesser than the specified value and added to the Z Offset.
+Random X Rotation
+A random value lesser than the specified value and added to the X Rotation.
+Random Y Rotation
+A random value lesser than the specified value and added to the Y Rotation.
+Random Z Rotation
+A random value lesser than the specified value and added to the Z Rotation.
+Depends by Bone Rotation
+If true, offset and rotation are subject to bone rotation. (If bone is 0, swap X and Z Offset)
+
+111C1000
+Graphic
+The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File#, Y=Graphic ID.	143*GFXID:4
+Bone
+This bone is the base location of the graphical effect occurs. If the value is set to FFFFFFFE, each time a "Graphic Effect" Event is loaded, graphical effect occurs one by one from the set location. (Source: Final Smash Aura, but not affected by size settings)
+X Offset
+Distance in the X-axis direction from the bone location.
+Y Offset
+Distance in the Y-axis direction from the bone location.
+Z Offset
+Distance in the Z-axis direction from the bone location.
+X Rotation
+Rotation along the X-axis.
+Y Rotation
+Rotation along the Y-axis.
+Z Rotation
+Rotation along the Z-axis. However, if "Depends by Bone Rotation" is False, rotation along the Z-axis doesn't work properly.
+Size
+The size of the graphic.
+Random X Offset
+A random value lesser than the specified value and added to the X Offset.
+Random Y Offset
+A random value lesser than the specified value and added to the Y Offset.
+Random Z Offset
+A random value lesser than the specified value and added to the Z Offset.
+Random X Rotation
+A random value lesser than the specified value and added to the X Rotation.
+Random Y Rotation
+A random value lesser than the specified value and added to the Y Rotation.
+Random Z Rotation
+A random value lesser than the specified value and added to the Z Rotation.
+Depends by Bone Rotation
+If true, offset and rotation are subject to bone rotation. (If bone is 0, swap X and Z Offset)
+
+111E0100
+Flashing state
+Used in character specific action: 1A-Full Charge state, 25-Flashing before Final Smash end of time, 27-Fully charged Wario Waft. Other:0-Intangible, 1-Invincible, 2=Glows a little, 3 to 6-Fire Damage (higher = long), 7 to A-Electric Damage, B to E-Darkness Damage, F to 12-Aura Damage, 14-Hammer, 15-Golden Hammer, 16-Glows white at regular intervals, 17-Star (Looks different), 18-Fall after special move, 19-Smash charging, 1B-Momentarily glows purple, 1C-Flashing red and black, 1D-Shield break, 1E-Sleep, 1F-Momentarily glows faintly yellow, 20-Flashing white, 21-Respawn, 23-Flashing white and yellow, 28-Stamina KOed
+
+111F0100
+Flashing state
+Used in character specific action: 1A-Full Charge state, 25-Flashing before Final Smash end of time, 27-Fully charged Wario Waft. Other:0-Intangible, 1-Invincible, 2=Glows a little, 3 to 6-Fire Damage (higher = long), 7 to A-Electric Damage, B to E-Darkness Damage, F to 12-Aura Damage, 14-Hammer, 15-Golden Hammer, 16-Glows white at regular intervals, 17-Star, 18-Fall after special move, 19-Smash charging, 1B-Momentarily glows purple, 1C-Flashing red and black, 1D-Shield break, 1E-Sleep, 1F-Momentarily glows faintly yellow, 20-Flashing white, 21-Respawn, 23-Flashing white and yellow, 28-Stamina KOed
+
+12000200
+Value
+the value to place inside the specified variable.
+Variable
+The Basic type variable to access.
+
+12010200
+Value
+the value add to the specified variable.
+Variable
+The Basic type variable to access.
+
+12020200
+Value
+the value to subtract from the specified variable.
+Variable
+The Basic type variable to access.
+
+12030100
+Variable
+The variable to increment.
+
+12040100
+Variable
+The variable to decrement.
+
+12050300
+Value
+The minimum random value to load.
+Value
+The maximum random value to load.
+Variable
+The Basic type variable to access.
+
+12060200
+Value
+The floating point value to place inside the specified variable.
+Variable
+The Float type variable to access.
+
+12070200
+Value
+The floating point value to add to the specified variable.
+Variable
+The Float type variable to access.
+
+12080200
+Value
+The floating point value to subtract from the specified variable.
+Variable
+The Float type variable to access.
+
+12090300
+Value
+The minimum random value to load.
+Value
+The maximum random value to load.
+Variable
+The Float type variable to access.
+
+120A0100
+Variable
+The Bit type variable to set.
+
+120B0100
+Variable
+The Bit type variable to clear.
+
+120D0200
+Value
+The value to multiply the specified variable by.
+Variable
+The Basic type variable to be multiplied.
+
+120E0200
+Value
+The value to divide the specified variable by.
+Variable
+The Basic type variable to be divided.
+
+120F0200
+Value
+The floating point value to multiply with the specified variable.
+Variable
+The Float type variable to be multiplied.
+
+12100200
+Value
+The floating point value to divide with the specified variable.
+Variable
+The Float type variable to be divided.
+
+12110200
+Value
+Sets a Basic type variable to the absolute value of the specified value.
+Variable
+The Basic type variable to be set.
+
+12120200
+Value
+Set a float variable equal to the absolute value of some float.
+Variable
+The Float type variable to be set.
+
+14000100
+State
+0 = Negative zone and some stage gimmicks (Wind, conveyor, catapult, door etc), 2 = Footstooled, 3 = Swim, 4 = Ladder
+Frames
+The time it takes to become invalid. Even if the Action is changed, it will not be invalidated until the set time has elapsed.
+
+14010100
+State
+0 = Negative zone and some stage gimmicks (Wind, conveyor, catapult, door etc), 2 = Footstooled, 3 = Swim, 4 = Ladder
+
+14040100
+Unknown
+If set to other than 0, the game will crash.
+
+14050100
+Boolean
+*
+
+14070A00
+Unknown
+Unknown. It seems that it will not work unless it is 0.
+Strength
+The power of the wind. However, Even if it is 0, a little wind will occur. There is no effect to move the characters
+Angle
+The direction of the wind (Degrees). 0=Front, 90=Upward
+Speed
+The speed of the wind.
+Randomness
+The randomness of the wind.
+X Offset
+Horizontal position where the wind occurs
+Y Offset
+Vertical position where the wind occurs
+Width
+Width where the wind occurs
+Height
+Height where the wind occurs
+Parameter 9
+Unknown
+
+18000100
+Grounded Feet
+Keeps such as feet properly on ground when using move on ground. 0: No feet are on the ground. 1: Moves entire body to match sloped ground, 2: Left foot is on the ground. 4: Right foot is on the ground. 6: Both feet are on the ground. (=2+4) 9: R.O.B. foot to match sloped ground. (=8+1, Exclusive)
+
+18010200
+Grounded Feet
+Keeps such as feet properly on ground when using move on ground. 0: No feet are on the ground. 1: Moves entire body to match sloped ground, 2: Left foot is on the ground. 4: Right foot is on the ground. 6: Both feet are on the ground. (=2+4) 9: R.O.B. foot to match sloped ground. (=8+1, Exclusive)
+Transition Time
+Number of frames to transition to the place.
+Boolean
+Unknown
+
+1A020200
+Front Move
+How far forward the base camera position relative to the character is moved from its current position.
+Upward Move
+How far upward the base camera position relative to the character is moved from its current position.
+
+1A030400
+Camera Size Front
+This value is how far in front of the character the normal camera range.
+Camera Size Back
+This value is how far in back of the character the normal camera range.
+Camera Size Top
+This value is how far in upward of the character the normal camera range.
+Camera Size Bottom
+This value is how far in downward of the character the normal camera range.
+
+1A040500
+Zoom Time
+Number of frames it takes for the camera to move to the specified position.
+Target
+0 or 1: Character. 2 to 5 or 7: Stage. 8 or 9: Camera fixed (stop). 6 or A: Unknown space
+Distance
+Camera distance as seen from the target.
+Y Rotation
+Y rotation of the camera. When X Rotation is 0, If Y Rotation is 90, project the target from below. And if Y Rotation is -90 or 270, project the target from top.
+X Rotation
+X rotation of the camera. When X Rotation is 0, If Y Rotation is 90, project the target from right. And if Y Rotation is -90 or 270, project the target from left.
+
+1A060100
+Detached/Attached
+*
+
+1A070100
+Detached/Attached
+*
+
+1E000200
+Armor State
+0 = None, 1 = Super Armor, 2 = Knockback Based Heavy Armor, 3 = Damage Based Heavy Armor
+Heavy Armor Tolerance
+The minimum damage or KB that will cause the character to flinch when using heavy armor.
+
+1E010100
+Boolean
+*
+
+1E020100
+Damage
+*
+
+1E030100
+Damage/Recover
++ Values = Damage and - Values = Recover.
+
+1E040100
+Recover
++ Values = Recover and - Values = Damage.
+
+1F010300
+Direction
+Direction. Usually IC-Basic[1030]. Can be set directly as a Scalar value. 
+Speed
+Speed. Usually IC-Basic[1029]. Can be set directly as a Scalar value.
+Type
+Type. Usually IC-Basic[1031]. Can be set directly as a Scalar value. If discarded, it becomes 0.5
+
+1F030100
+Consume Item
+*
+
+1F040200
+Transition Time
+Number of frames it takes for the blade to reach the specified size.
+New Size
+Blade size
+
+1F060100
+Value
+Power of the bullet. For Super scope, 0x80 is the maximum power bullet.
+
+1F070100
+Angle
+Can set the shooting angle only when held cracker launcher. (Value is Scalar/60000. 0 = Forward, 0.0015 = Upward. If the set type is "Value", can't fire.)
+
+1F080100
+Item ID
+ID of the item to generate in the character's hand.*ItmID:8
+
+1F090100
+Item Visibility
+True = Visible, False = Invisible
+
+1F0B0100
+New Bone ID
+Bone that has the item after the change.
+
+1F0E0500
+X Offset
+How far horizontally.
+Y Offset
+How far vertical.
+Direction
+Direction. Usually IC-Basic[1030]. Can be set directly as a Scalar value. 
+Speed
+Speed. Usually IC-Basic[1029]. Can be set directly as a Scalar value.
+Type
+Type. Usually IC-Basic[1031]. Can be set directly as a Scalar value. If discarded, it becomes 0.5
+
+1F0F0100
+Item Visibility
+True = Visible, False = Invisible
+
+21010400
+Red
+The red value from 0-FF.
+Green
+The green value from 0-FF.
+Blue
+The blue value from 0-FF.
+Alpha
+The alpha value from 0-FF (0 = fully transparent, FF = fully opaque).
+
+21020500
+Transition Time
+Number of frames to transition to the new color.
+Red
+The red value (0-FF) of the target color.
+Green
+The green value (0-FF) of the target color.
+Blue
+The blue value (0-FF) of the target color.
+Alpha
+The alpha value from 0-FF (0 = fully transparent, FF = fully opaque).
+
+21050600
+Red
+The red value from 0-FF.
+Green
+The green value from 0-FF.
+Blue
+The blue value from 0-FF.
+Alpha
+The alpha value from 0-FF (0 = fully transparent, FF = fully opaque).
+Light Source X
+X rotation of the light source. When Y is 0, If X is 0, light source is back of the screen. And if X is 1, light source is back of character. (2=towards camera, 3=front of character, 4=Loop = Same as 0)
+Light Source Y
+Y rotation of the light source. When X is 0, If Y is 0, light source is back of the screen. And if Y is 90, light source is below of character. (180=towards camera, 270=above of character, 4=Loop = Same as 0)
+
+21070500
+Transition Time
+Number of frames to transition to the new color.
+Red
+The red value (0-FF) of the target color.
+Green
+The green value (0-FF) of the target color.
+Blue
+The blue value (0-FF) of the target color.
+Alpha
+The alpha value from 0-FF (0 = fully transparent, FF = fully opaque).
+
+
+*OC_ID:3
+[059,074,04+]
+Bone ID
+Segment
+Hitbox ID
+
+*OC_WK:4
+[101,074,03+]
+Weight Knockback
+Knockback Growth
+
+*OC_SB:4
+[091,074,03+]
+Shield Damage
+Base Knockback
+
+*OCFLG:F
+*00030000
+[121,253,08+]
+2901:Direct/Indirect
+Indirect
+Direct
+2701:Clank
+.Can't clank
+Can clank
+2800:Rebound (Unused)
+2205:Type (Affect Stickers)
+0 - Typeless
+1 - Head
+2 - Body
+3 - Butt
+4 - Hand
+5 - Elbow
+6 - Foot
+7 - Knee
+8 - Throwing
+9 - Weapon
+A - Sword
+B - Hammer
+C - Explosive
+D - Spin
+E - Bite
+F - Magic
+10 - PK
+11 - Bow
+12 - Unknown
+13 - Bat
+14 - Parasol
+15 - Pikmin
+16 - Water
+17 - Whip
+18 - Tail
+19 - Energy
+*1602:Air/Ground
+No Hit
+Ground Only
+Aerial Only
+Both
+0608:Hit Sound
+0 - None
+8 - Punch (Small)
+9 - Punch (Medium)
+A - Punch (Large)
+10 - Kick (Small)
+11 - Kick (Medium)
+12 - Kick (Large)
+18 - Slash (Small)
+19 - Slash (Medium)
+1A - Slash (Large)
+20 - Coin
+28 - Bat (Small)
+29 - Bat (Medium)
+2A - HomeRun (Bat: Large)
+30 - Fan (Small)
+31 - Fan (Medium)
+32 - Fan (Large)
+38 - Electric (Small)
+39 - Electric (Medium)
+3A - Electric (Large)
+3B - Electric (Huge)
+40 - Flame (Small)
+41 - Flame (Medium)
+42 - Flame (Large)
+48 - Water (Small)
+49 - Water (Medium)
+4A - Water (Large)
+58 - Explosion (Small)
+59 - Explosion (Medium)
+5A - Explosion (Large)
+5B - Explosion (Huge)
+68 - Snake's Blow (Small, Exclusive)
+69 - Snake's Blow (Medium, Exclusive)
+6A - Snake's Blow (Large, Exclusive)
+70 - Ike's Slash (Small, Exclusive)
+71 - Ike's Slash (Medium, Exclusive)
+72 - Ike's Slash (Large, Exclusive)
+73 - Ike's Slash (Huge, Exclusive)
+78 - Dedede's Hammer (Small, Exclusive)
+79 - Dedede's Hammer (Medium, Exclusive)
+7A - Dedede's Hammer (Large, Exclusive)
+7B - Dedede's Hammer (Huge, Exclusive)
+80 - Magic (Small)
+81 - Magic (Medium)
+82 - Magic (Large)
+83 - Magic (Huge)
+88 - Shell (Small)
+89 - Shell (Medium)
+8A - Shell (Large)
+90 - Peach's Slap (Small, Exclusive)
+91 - Peach's Slap (Medium, Exclusive)
+92 - Peach's Slap (Large, Exclusive)
+98 - Peach's Pan (Exclusive)
+A1 - Peach's Club (Medium, Exclusive)
+A2 - Peach's Club (Large, Exclusive)
+A8 - Peach's Racket (Small, Exclusive)
+A9 - Peach's Racket (Large, Exclusive)
+B0 - Lucario's Aura (Small, Exclusive)
+B1 - Lucario's Aura (Medium, Exclusive)
+B2 - Lucario's Aura (Large, Exclusive)
+D8 - Ness's Bat (Exclusive)
+E0 - Freezing (Small)
+E1 - Freezing (Medium)
+E2 - Freezing (Large)
+E3 - Freezing (Huge)
+*0005:Element
+0 - Normal
+1 - None (No hit graphic effect will occur)
+2 - Slash
+3 - Electric
+4 - Freezing
+5 - Flame
+6 - Coin
+7 - Reverse
+8 - Trip
+9 - Sleep
+B - Bury
+C - Stun
+E - Flower
+11 - Grass
+12 - Water
+13 - Darkness
+14 - Paralyze
+15 - Aura
+16 - Plunge
+17 - Down
+18 - Flinchless
+
+*SOFLG:F
+*004FFFC0
+[235,285,24+]
+3100:Flinchless
+3000:Hide HitEffect
+2900:Hitlag Disable
+2800:Team Damager
+2700:Grabby
+2600:Indodgeable
+2500:Ignore Invincible
+2400:Can Absorb
+2300:Can Reflect
+2200:Can block by Shield
+0400:Stretchy
+0003:Base Direction
+0 - Based on sent away from attacker (Regular)
+1 - Based on the attacker's direction of movement (Same as 0 if there is no horizontal speed)
+2 - Based on opposite of target facing direction (The target direction is not change)
+3 - Forward; based on attacker facing direction
+4 - Backward; based on opposite of attacker facing direction
+5 - Based on sent away from the center of hitbox
+6 - Target to face the screen (Knockback have no horizontal component)
+7 - Target to face the screen (Knockback have no horizontal component)
+--Specifies what the collision bubble can hit-	Combination
+0614:Combination Example
+3FFF - Hit All (Regular)
+3C01 - Hit Fighter and Pikmin (Used in Final Smash)
+3401 - Hit only Fighter
+3C02 - Hit only SSE Enemy (Used in grab type Special Move)
+3403 - Hit Fighter and SSE Enemy
+3C03 - Hit Fighter, Pikmin and SSE Enemy
+3DFF - Hit something other than floor (Used in Article)
+3FFE - Hit something other than Fighter
+*1700:Hit Pikmin and Waddle Dee
+1600:Hit Other than Fighter and Pikmin
+1500:Hit Floor
+1400:Hit Item such as Hothead
+1300:Hit Wall
+1200:Hit Pillar
+0900:Hit Item such as Box
+0700:Hit SSE Enemy
+0600:Hit Fighter and Pikmin
+
+*HBit1:F
+*000003FF
+[137,252,09+]
+0010:Combination Example
+1 - Hit only Fighter
+3FF - Hit All (Regular)
+137 - Hit Fighter etc. (SSE Enemy Regular)
+*0000:Hit Fighter and Pikmin
+0100:Hit SSE Enemy
+0300:Hit Item such as Box
+0600:Hit Pillar
+0700:Hit Wall
+0800:Hit Item such as Hothead
+0900:Hit Floor
+
+*InFLG:F
+*00000002
+[196,073,06+]
+0000:Detect Hitbox
+0100:Detect Hurtbox
+0200:Detect Shield
+0300:Can be Reflected (or Detect Reflect)
+0400:Detect Absorb
+
+*H_Inv:F
+*00000001
+[142,073,04+]
+0000:Hit Normal State Target
+0100:Hit Invincible State Target
+0200:Hit Intangible State Target
+
+*GFXID:4
+[059,214,03+]
+>File#
+0 - Common
+104 - Pokemon (Can use in Fighter)
+1 - Mario
+9 - Luigi
+D - Peach
+C - Bowser
+2 - Donkey Kong
+1C - Diddy Kong
+5 - Yoshi
+16 - Wario
+3 - Link
+E - Zelda
+15 - Ganondorf
+2A - Toon Link
+4 - Samus
+19 - Zerosuit Samus
+18 - Pit
+10 - Popo
+24 - Rob
+6 - Kirby
+17 - Meta Knight
+21 - King Dedede
+1A - Olimar
+7 - Fox
+14 - Falco
+2D - Wolf
+A - Captain Falcon
+8 - Pikachu
+1D - Pokemon Trainer
+1E - Charizard
+1F - Squirtle
+20 - Ivysaur
+22 - Lucario
+26 - Jiggly Puff
+12 - Marth
+23 - Ike
+B - Ness
+1B - Lucas
+2F - Snake
+30 - Sonic
+E0 - Mario FS
+E9 - Luigi FS
+ED - Peach FS
+EC - Bowser FS
+E1 - Donkey Kong FS
+F9 - Diddy Kong FS
+E5 - Yoshi FS
+F3 - Wario FS
+E2 - Link FS
+EE - Zelda/Sheik FS
+F2 - Ganondorf FS
+E3 - Toon Link FS
+E4 - Samus FS
+F6 - Zerosuit Samus FS
+F5 - Pit FS
+EF - Ice Climbers FS
+E6 - Kirby FS
+F4 - Meta Knight FS
+F7 - Olimar FS
+E7 - Fox/Falco FS
+100 - Wolf FS
+EA - Captain Falcon FS
+E8 - Pikachu FS
+FA - Pokemon Trainer FS
+FC - Lucario FS
+FF - Jiggly Puff FS
+F0 - Marth FS
+FD - Ike FS
+EB - Ness FS
+F8 - Lucas FS
+F1 - Game Watch FS
+101 - Snake FS
+102 - Sonic FS
+103 - SSE Common
+*Graphic ID
+
+*ItmID:8
+[114,170,03+]
+>Item ID
+0 - Assist Trophy
+1 - Franklin Badge
+2 - Banana Peel
+3 - Barrel
+4 - Beam Sword
+5 - Bill
+6 - Bob-Omb
+7 - Crate
+8 - Bumper
+9 - Capsule
+A - Rolling Crate
+B - CD
+C - Gooey Bomb
+D - Cracker Launcher
+E - Cracker Launcher Shot
+F - Coin
+10 - Superspicy Curry
+11 - Superspicy Curry Shot
+12 - Deku Nut
+13 - Mr.Saturn
+14 - Dragoon Part
+15 - Dragoon Set
+17 - Trophy
+18 - Fire Flower
+19 - Fire Flower Shot
+1A - Freezie
+1B - Golden Hammer
+1C - Green Shell
+1D - Hammer
+1E - Hammer Head
+1F - Fan
+20 - Heart Container
+21 - Homerun Bat
+22 - Party Ball
+24 - Maxim Tomato
+25 - Poison Mushroom
+26 - Super Mushroom
+27 - Metal Box
+28 - Hothead
+29 - Pitfall
+2A - Pokeball
+2B - Blast Box
+2C - Ray Gun
+2D - Ray Gun Shot
+2E - Lipstick
+30 - Lipstick Shot
+31 - Sandbag
+32 - Screw Attack
+33 - Sticker
+34 - Motion Sensor Bomb
+35 - Timer
+36 - Smart Bomb
+37 - Smash Ball
+38 - Smoke Screen
+39 - Spring
+3A - Star Rod
+3B - Star Rod Shot
+3C - Soccer Ball
+3D - Super Scope
+3E - Super Scope Shot
+3F - Starman
+40 - Food
+41 - Team Healer
+42 - Lightning
+43 - Unira
+44 - Bunny Hood
+45 - Warpstar
+47 - Key (SSE Exclusive)
+48 - Trophy Stand (SSE Exclusive)
+49 - Stock Ball (SSE Exclusive)
+**Item ID (Dec Value)

@@ -1,0 +1,2701 @@
+﻿DataSize0x18C
+07C Par00 E
+080 Par01 4
+084 Par02 6
+088 Par03 B
+08C Par04 1A
+090 Par05 6
+094 Par06 6
+098 Par07 14
+09C Par08 18
+0A0 Par09 8
+0A4 Par10 8
+0A8 Par11 8
+0AC Par12 14
+0B0 Par13 6
+0B4 Par14 A
+0B8 Par15 A
+0BC Par16 6
+0C0 Par17 C
+0C4 Par18 A
+0C8 Par19 4
+0CC Par20 6
+0D0 Par21 6
+0D4 Par22 6
+0D8 Par23 4
+0DC Par24 6
+0E0 Par25 6
+0E4 Par26 30
+0E8 Par27 A
+0EC Par28 10
+0F0 Par29 C
+0F4 Par30 2
+0F8 Par31 4
+0FC Par32 6
+100 Par33 4
+104 Par34 4
+108 Par35 8
+10C Par36 4
+110 Par37 14
+114 Par38 4
+118 Par39 2
+11C Par40 2
+124 Art0 Hammer
+128 Art1 Final Cutter
+130 Art2 Star Bullet
+134 Art3 Stone?
+138 Art4 Cook Kirby's hot pot
+13C Art5 Cook Kirby's hat
+150 Art6 (ID=D) Flamethrower (Only while Copying Charizard)
+154 Art7 (ID=D) Bullet Seed (Only while Copying Ivysaur)
+158 Art8 (ID=D) Water Gun (Only while Copying Squirtle)
+15C Par56 8
+168 Art9 (ID=E) Paralyzer (Only while Copying Zero suit Samus)
+16C Par60 A
+170 Art10 (ID=D) Pikmin (Only while Copying Olimar)
+174 Par62 D2
+17C Par64 18
+184 Par66 24
+X3D 50-00-00imodelNodeConvertDataDonkeyToReal__17ftKirbyDonkeyNode
+X3E 50-00-01imodelNodeConvertDataDonkeyToOriginal__17ftKirbyDonkeyNode
+X3D 50-01-00imodelNodeConvertDataGameWatchToReal__20ftKirbyGameWatchNode
+X3F 50-01-01imodelNodeConvertDataGameWatchToOriginal__20ftKirbyGameWatchNode
+X3E 50-02-00imodelNodeConvertDataFalcoToReal__16ftKirbyFalcoNode
+X3E 50-02-01imodelNodeConvertDataFalcoToOriginal__16ftKirbyFalcoNode
+X3E 50-03-00imodelNodeConvertDataPikminToReal__17ftKirbyPikminNode
+X44 50-03-01imodelNodeConvertDataPikminToOriginal__17ftKirbyPikminNode
+X3D 50-04-00imodelNodeConvertDataPurinToReal__16ftKirbyPurinNode
+X45 50-04-01imodelNodeConvertDataPurinToOriginal__16ftKirbyPurinNode
+X3D 50-05-00imodelNodeConvertDataSnakeToReal__16ftKirbySnakeNode
+X44 50-05-01imodelNodeConvertDataSnakeToOriginal__16ftKirbySnakeNode
+X12 52-00iParamList51-0
+X0B 52-01iParamList51-1
+X0B 52-02iParamList51-2
+X0C 52-03iParamList51-3
+X0E 52-04iParamList51-4
+X0C 52-05iParamList51-5
+X02 53-00iParamList52-0
+X06 53-02iParamList52-2
+X03 53-03iParamList52-3
+X04 53-04iParamList52-4
+X06 53-06iParamList52-6
+X06 53-07iParamList52-7
+X02 53-09iParamList52-9
+X03 53-0AiParamList52-10
+X02 53-0BiParamList52-11
+X02 53-0CiParamList52-12
+X04 53-0DiParamList52-13
+X04 53-0EiParamList52-14
+X02 53-0FiParamList52-15
+X02 53-11iParamList52-17
+X02 53-14iParamList52-20
+X03 53-15iParamList52-21
+X03 53-16iParamList52-22
+X08 53-18iParamList52-24
+X02 53-1AiParamList52-26
+X03 53-1BiParamList52-27
+X04 53-1DiParamList52-29
+X05 53-1EiParamList52-30
+X08 53-1FiParamList52-31
+X02 53-20iParamList52-32
+X03 53-21iParamList52-33
+X0A 53-22iParamList52-34
+X02 53-23iParamList52-35
+X06 53-29iParamList52-41
+X03 53-2CiParamList52-44
+X03 53-2FiParamList52-47
+XKV 51xModelVisibilityExtra
+XKA 4D-0ExArticle3-ExtraData1
+XKA 4D-0FxArticle3-ExtraData2
+XKA 4D-10xArticle3-ExtraData3
+XKA 4D-11xArticle3-ExtraData4
+XKA 4D-12xArticle3-ExtraData5
+
+Art0 Hammer
+2-2
+
+Art1 Final Cutter
+1-1
+034 Par01-0 4
+
+Art2 Star Bullet
+2-2
+034 Par02-0 14
+
+Art3 Stone?
+1-1
+034 Par03-0 1
+04C Par03-6 8
+054 Par03-8 5
+
+Art4 Cook Kirby's hot pot
+6-6
+
+Art5 Cook Kirby's hat
+4-6
+
+Art6 (ID=D) Flamethrower (Only while Copying Charizard)
+1-1
+034 Par06-0 6
+
+Art7 (ID=D) Bullet Seed (Only while Copying Ivysaur)
+3-3
+034 Par07-0 2
+
+Art8 (ID=D) Water Gun (Only while Copying Squirtle)
+3-3
+034 Par08-0 8
+
+Art9 (ID=E) Paralyzer (Only while Copying Zero suit Samus)
+2-2
+034 Par09-0 8
+
+Art10 (ID=D) Pikmin (Only while Copying Olimar)
+3-4
+034 SubAction RedMain
+038 SubAction YellowMain
+03C SubAction BlueMain
+040 SubAction WhiteMain
+044 SubAction PurpleMain
+048 SubAction RedGFX
+04C SubAction YellowGFX
+050 SubAction BlueGFX
+054 SubAction WhiteGFX
+058 SubAction PurpleGFX
+05C SubAction RedSFX
+060 SubAction YellowSFX
+064 SubAction BlueSFX
+068 SubAction WhiteSFX
+06C SubAction PurpleSFX
+070 Par10-0 24
+074 Par10-1 1
+
+Par00
+Neutral B (Normal): Inhale
+
+*0x0 Min Hold Frame
+Minimum hold continue frames
+
+0x4 Turn Sensitivity
+Backward sensitivity. In other words, strength of input required to change direction. If set to 0, it will turn when waiting on the ground. If increase the value, the game will crash when the input is less than the set value.
+
+0x8 Copy Sensitivity
+Downward sensitivity. In other words, values that affect the strength of input required for doing copy action by downward input.
+
+0xC Walk Speed
+Inhale walk speed
+
+0x10 Jump Momentum Multiplier
+Inhale jump momentum Multiplier (Multiplier of Attributes 0x38)
+
+0x14 Button Mashing Movement
+When waiting on the ground, if the target who is inhaled it inputs sideways or upwards, the strength to move in that direction.
+
+0x18 X Offset
+X offset of exhale
+
+0x1C Y Offset
+Y offset of exhale
+
+*0x20
+Unknown
+
+0x24
+Unknown
+
+0x28
+full swallow aerial mobility multiplier?
+
+*0x2C
+Odds of losing power when hit?
+
+0x30 Bomb Damage
+Damage taken when eat a bomb
+
+*0x34
+Unknown
+
+Par01
+Side B: Hammer
+
+0x0 V Momentum
+Vertical momentum on startup
+
+*0x4
+Unknown
+
+*0x8 Landing Lag
+Landing lag (frames) (It also affects after exit down B in air)
+
+*0xC
+Unknown
+
+Par02
+Up B: Final Cutter
+
+0x0 Air Rise Multiplier
+Aerial rise multiplier compared to on the ground
+
+0x4
+ ?? (read on upB input and initial rise)
+
+0x8 X Offset
+X offset of cutter
+
+0xC Y Offset
+Y offset of cutter
+
+0x10
+Unknown
+
+*0x14
+Unknown
+
+Par03
+Down B: Stone
+
+*0x0 Max Frame
+Max frames in stone
+
+*0x4 Min Frame
+How many frames after turn into a stone can be exit by B button
+
+0x8 Min Slide Angle
+Minimum angle at which slide occurs (Radians)
+
+0xC
+Does not slide if this value is less than 0x8
+
+0x10 Slope Acceleration
+Acceleration when going down a slope
+
+0x14 Slope Max Speed
+Slope slide maximum velocity
+
+0x18 Gravity
+Gravity
+
+0x1C Durability
+Durability (Stone HP)
+
+0x20
+Unknown
+
+0x24
+Unknown
+
+*0x28
+Unknown
+
+Par04
+Final Smash: Cook Kirby
+
+*0x0 Take Fighter Interval
+Frames to take the next Fighter
+
+*0x4 Take Items Interval
+Frames to take the next article/item
+
+*0x8 Taken Item Speed
+The time it takes for the taken items to enter the pot (frames)
+
+*0xC Item per Fighter
+Number of items to spawn per Fighter (This/2)
+
+*0x10 Item per Items
+Number of items to spawn per article/item (This/2)
+
+*0x14
+Unknown
+
+*0x18
+Unknown
+
+0x1C
+Related to Number of items to spawn per Fighter (If 2.5, 12 items par Fighter)
+
+*0x20
+Unknown
+
+*0x24
+Unknown
+
+0x28 Item H Momentum
+Horizontal momentum of items coming out of the pot (Random)
+
+0x2C
+Unknown
+
+0x30 Item Y Offset
+Y offset where the item comes out
+
+0x34 Item V Momentum
+Vertical Momentum on the items that come out
+
+*0x38 Come out Interval
+Frame interval when items and Fighters come out of the pot
+
+*0x3C End Lag
+Frame from finishing all out to proceeding to the end action
+
+*0x40 Damage Interval
+Damage reoccur interval when cooking (Frames)
+
+*0x44 Damage
+Damage per hit when cooking
+
+*0x48 Max Damage Frames
+Maximum number of frames that can cause damage during cooking
+
+0x4C Item Suck V Position
+Vertical position to pass when sucking items into the pot. The position where the value is added from 0x54.
+
+0x50 Item Take H Position
+Horizontal position where items disappear in the pot
+
+0x54 Item Take V Position
+Vertical position where items disappear in the pot
+
+0x58 H Position 1
+Horizontal position of the pot. (Positive = The pot moves to the right, Negative = Kirby moves to the right when taking out items)
+
+0x5C H Position 2
+If set negative value, the pot will appear on the left and Kirby will also move to the left.
+
+*0x60 Number of Item Import
+It value that affects the number of items that can take. (Example: 49 = 4 Items, 50 = 5 Items)
+
+0x64
+Unknown
+
+Par05
+Captain Falcon: Falcon Punch (paramFalconPunch__11ftKirbyNode)
+
+0x0
+If 0x0 value is the same as 0x4, the Falcon will break when punching in the air
+
+0x4
+No Description Available.
+
+0x8
+Unknown
+
+0xC Air Momentum 1
+Momentum forward in air punch (Occur when RA-Bit[17] is True)
+
+0x10 Air Momentum 2
+Momentum and fall speed in air punch (Occur when RA-Bit[17]=True and RA-Basic[0]=1)
+
+*0x14
+Unknown
+
+Par06
+Pikachu: Thunder Jolt
+
+0x0 X offset (Ground)
+Grounded X offset
+
+0x4 Y offset (Ground)
+Grounded Y offset
+
+0x8 X offset (Air)
+Aerial X offset
+
+0xC Y offset (Air)
+Aerial Y offset
+
+*0x10
+Unknown
+
+*0x14
+Unknown
+
+Par07
+MetaKnight: Mach Tornado (paramMetaknightSpecialN__11ftKirbyNode)
+
+0x0 Initial V Momentum
+Initial vertical momentum (can't over Max Rise Speed)
+
+0x4 H Preservation
+Horizontal momentum preservation on startup (higher = more, but can't over previous speed)
+
+0x8 Initial Spin Speed
+Initial spin speed
+
+0xC Ground H Acceleration
+Grounded horizontal acceleration
+
+0x10 Ground Max H Speed
+Grounded horizontal max speed
+
+0x14 Air H Acceleration
+Aerial horizontal acceleration
+
+0x18 Air Max H Speed
+Aerial horizontal max speed
+
+0x1C H Deceleration
+Deceleration to horizontal speed
+
+0x20 Gravity
+Gravity
+
+0x24 Max Fall Speed
+Max fall speed
+
+0x28 V Momentum per Tap B
+Vertical velocity added per B button press
+
+*0x2C Interval
+Frames interval at which the rise enable by B button press
+
+0x30 Max Rise Speed
+Max rise speed
+
+0x34 Add Spin Speed per Tap B
+Spin speed added per B button press
+
+0x38 Max Spin Speed
+Max spin speed
+
+0x3C Spin Deceleration 1
+Subtracts this each frame while listening for button input
+
+*0x40 Tap B Effective Time
+Frames to listen for button input
+
+0x44 Spin Deceleration 2
+Subtracts this each frame while not listening for button input
+
+0x48 End Spin Speed
+Spin speed equal to or less than this to end move (If negative, can't end normally)
+
+*0x4C
+Unknown
+
+Par08
+Sonic: Homing Attack (paramSonicSpecialN__11ftKirbyNode)
+
+0x0 Ground Initial V Momentum
+Grounded initial Vertical momentum on startup
+
+0x4 Air Initial V Momentum
+Aerial initial Vertical momentum on startup
+
+0x8 Momentum Preservation
+Momentum preservation (Set to 2, it will multiply current momentum by 2. Set to 0.5, current momentum will be halved.)
+
+*0xC Min Hold Frame
+Minimum hold frame on startup
+
+*0x10 Max Hold Frame
+Maximum hold frame on startup
+
+0x14
+Related to curve. Lower number = smaller curves
+
+0x18
+Homing Intensity. Lower number = better homing.
+
+0x1C
+Homing Dash Speed (Higher number = travel slower, and cancel before reach target if too high)
+
+0x20
+Homing Dash Acceleration?
+
+0x24
+Homing Dash Deceleration?
+
+0x28
+ ??
+
+*0x2C
+Homing Dash Duration?
+
+0x30 Bounce H Momentum
+Floor-bounce horizontal momentum (Hit wall = backward)
+
+0x34 Bounce V Momentum 1
+Floor-bounce vertical momentum (Hit wall = downward)
+
+0x38 Bounce V Momentum 2
+Floor-bounce vertical momentum (Hit wall = rise)
+
+0x3C Recoil Mobility
+Person-bounce aerial mobility
+
+0x40 Recoil V Momentum
+Person-bounce vertical momentum
+
+0x44 Recoil Gravity
+Person-bounce Gravity
+
+*0x48
+Person-bounce Height related
+
+0x4C No-Homing Angle
+No-homing dash angle (Degrees)
+
+0x50 No-Homing Speed
+No-homing dash speed
+
+*0x54 No-Homing Duration 1
+No-homing dash duration (deceleration start timing)
+
+0x58 No-Homing Deceleration
+No-homing dash deceleration
+
+*0x5C No-Homing Duration 2
+No-homing dash duration (deceleration start-end)
+
+Par09
+Fox: Blaster
+
+0x0 X Offset (Ground)
+X offset grounded laser
+
+0x4 Y Offset (Ground)
+Y offset grounded laser
+
+0x8 X Offset (Air)
+X offset aerial laser
+
+0xC Y Offset (Air)
+Y offset aerial laser
+
+0x10 Angle
+Firing angle (radians)
+
+0x14 Speed
+Laser speed
+
+*0x18 Landing Lag
+Landing lag (Frames. If 1 or more, it will be Special Fall)
+
+*0x1C
+Unknown
+
+Par10
+Falco: Blaster
+
+0x0 X Offset (Ground)
+X offset grounded laser
+
+0x4 Y Offset (Ground)
+Y offset grounded laser
+
+0x8 X Offset (Air)
+X offset aerial laser
+
+0xC Y Offset (Air)
+Y offset aerial laser
+
+0x10 Angle
+Firing angle (radians)
+
+0x14 Speed
+Laser speed
+
+*0x18 Landing Lag
+Landing lag (Frames. If 1 or more, it will be Special Fall)
+
+*0x1C
+Unknown
+
+Par11
+Wolf: Blaster
+
+0x0 X Offset (Ground)
+X offset grounded laser
+
+0x4 Y Offset (Ground)
+Y offset grounded laser
+
+0x8 X Offset (Air)
+X offset aerial laser
+
+0xC Y Offset (Air)
+Y offset aerial laser
+
+0x10 Angle
+Firing angle (radians)
+
+0x14 Speed
+Laser speed
+
+*0x18
+Unknown
+
+*0x1C
+Unknown
+
+Par12
+Charizard: Flamethrower
+
+0x0 Initial Angle
+Initial fire angle
+
+0x4 Randomness
+Flame spread randomness
+
+0x8 Max Angle Upwards
+Max angle upwards
+
+0xC Max Angle Downwards
+Max angle downwards (higher is more angled down)
+
+0x10 Turning Speed
+Turning speed when input upward or downward
+
+0x14
+Unknown. Related to rotation of head in relation to 0x10? No affect even if the value is changed.
+
+*0x18 Min Continue Frame
+Minimum hold continue frame
+
+0x1C Max Speed Charge
+Max speed charge (Affect to speed of decline)
+
+0x20 Min Speed Charge
+Min speed charge (Affect to speed of decline)
+
+0x24 Max Size Charge
+Max size charge (Affect to size of decline)
+
+0x28 Min Size Charge
+Min size charge (Affect to size of decline)
+
+0x2C Speed Drain
+Speed charge drain rate (per frame)
+
+0x30 Size Drain
+Size charge drain rate (per frame)
+
+0x34 Speed Refuel
+Speed charge refuel rate (per frame)
+
+0x38 Size Refuel
+Size charge refuel rate (per frame)
+
+*0x3C
+Unknown
+
+*0x40 Flames Interval
+Frames interval until the flame reoccurs
+
+0x44 X offset
+X offset
+
+0x48 Y offset
+Y offset
+
+0x4C
+Unknown
+
+Par13
+Ivysaur: Bullet Seed
+
+*0x0 Interval
+Frames between seeds
+
+0x4 Seeds Speed
+Vertical momentum of seeds
+
+0x8 Y Offset
+Seeds starting Y Offset
+
+*0xC Min Continue Frame
+Minimum hold continue frame
+
+*0x10 Max Continue Frame
+Maximum hold continue frame
+
+*0x14
+Unknown
+
+Par14
+Squirtle: Water Gun
+
+*0x0 Max Charge Frame
+Frames to fully charge
+
+0x4 Initial Angle
+Initial angle (degrees)
+
+0x8 Max Upward Angle
+Max upward angle (degrees)
+
+0xC Max Downward Angle
+Max downward angle (degrees, higher is more angled down)
+
+0x10 Turning Speed
+Turning speed when input upward or downward
+
+0x14 Randomness
+Water spread randomness
+
+0x18
+ ?? (read on water gun)
+
+*0x1C Min Water Charge Frame
+How many frames before not getting spray
+
+0x20 Momentum Backwards
+Momentum backwards when grounded firing
+
+*0x24
+?? (read when firing water/spray)
+
+Par15
+Wario: Chomp
+
+*0x0 Min Hold Frame
+Minimum hold continue frame
+
+*0x4 Max Hold Frame
+Maximum hold continue frame
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Bite Speed
+Biting animation speed when attack button pressed
+
+0x14
+If value is low, can't change biting animation speed when attack button pressed
+
+0x18
+Unknown
+
+0x1C Bomb Damage
+Damage taken when eat a bomb
+
+0x20
+Unknown
+
+*0x24 Interval after Throw
+Frame to can't bite after throwing
+
+Par16
+Peach: Toad (paramPeachSpecialN__11ftKirbyNode)
+
+0x0 Air H Preservation
+Aerial Horizontal momentum preservation on startup (less = more)
+
+0x4 Air H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0x8 V Momentum
+Vertical momentum for 1st aerial usage
+
+0xC Gravity
+Gravity
+
+0x10 Max Fall Speed
+Max fall speed
+
+*0x14
+Unknown
+
+Par17
+Ice Climbers: Ice Shot (0x0-paramPopoSpecialN__11ftKirbyNode, 0x10-hitDataIceShot__17wnPopoIceShotNode Offset)
+
+0x0 Air V Momentum
+Vertical momentum for 1st aerial usage
+
+0x4
+Unknown. Related to landing lag? No affect even if the value is changed.
+
+0x8 X Offset
+X offset where generate ice block
+
+0xC Y Offset
+Y offset where generate ice block
+
+HitData 0x0
+No Description Available.
+
+HitData 0x4
+No Description Available.
+
+HitData 0x8
+No Description Available.
+
+HitData 0xC
+No Description Available.
+
+HitData 0x10
+No Description Available.
+
+HitData 0x14
+No Description Available.
+
+HitData 0x18
+No Description Available.
+
+Flags 0x1C (HitData)
+No Description Available.
+
+Par18
+Snake: Grenade
+
+0x0 Forward Sensitivity
+Forward angle input sensitivity. If over 1, can't change.
+
+0x4 Backward Sensitivity
+Back angle input sensitivity
+
+0x8 Forward H Momentum
+Forward angled throw horizontal momentum
+
+0xC Forward V Momentum
+Forward angled throw vertical momentum
+
+0x10 Normal H Momentum
+Unangled throw horizontal momentum
+
+0x14 Normal V Momentum
+Unangled throw vertical momentum
+
+0x18 Backward H Momentum
+Backward angled throw horizontal momentum
+
+0x1C Backward V Momentum
+Backward angled throw vertical momentum
+
+0x20 Duck and Cover Range
+Duck and cover animation range
+
+*0x24
+Unknown
+
+Par19
+Zelda: Nayru's Love
+
+0x0
+Unknown
+
+*0x4 Fall Timing
+Fall start timing on startup
+
+0x8 H Preservation
+Horizontal momentum preservation (less = more)
+
+0xC Gravity
+Gravity
+
+Par20
+Sheik: Needle Storm
+
+0x0 X Offset (Ground)
+X offset grounded needles
+
+0x4 Y Offset (Ground)
+Y offset grounded needles
+
+0x8 X Offset (Air)
+X offset aerial needles
+
+0xC Y Offset (Air)
+Y offset aerial needles
+
+*0x10
+Unknown
+
+*0x14
+Unknown
+
+Par21
+Lucas: PK Freeze
+
+*0x0 Fall Timing
+Number of frames to halt vert momentum before using 0xC as gravity
+
+*0x4 Fastest Detonation Frame
+Minimum frames it takes to ignite after PK Freeze appears
+
+*0x8 Max Hold Frame
+Maximum frames it takes to ignite after PK Freeze appears. It only affects during the action. Not affects disappear timing.
+
+0xC Gravity
+Gravity after initial vertical halt
+
+0x10 Landing Lag
+Landing lag (frames)
+
+*0x14
+Unknown
+
+Par22
+Ness: PK Flash
+
+*0x0 Fall Timing
+Number of frames to halt vert momentum before using 0xC as gravity
+
+*0x4 Fastest Detonation Frame
+Minimum frames it takes to ignite after PK Flash appears
+
+*0x8 Max Hold Frame
+Maximum frames it takes to ignite after PK Flash appears. It only affects during the action. Not affects disappear timing.
+
+0xC Gravity
+Gravity after initial vertical halt
+
+0x10 Landing Lag
+Landing lag (frames)
+
+*0x14
+?? (read on release/PK Flash explosion).
+
+Par23
+Donkey Kong: Giant Punch
+
+*0x0 Max Charge Swing
+How many arm swings to fully charge
+
+*0x4 Damage per Swing
+Damage per arm swing (first arm swing has no effect)
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+Par24
+Ike: Eruption (paramIkeSpecialN__11ftKirbyNode)
+
+*0x0 Max Charge Level
+Max charge level
+
+*0x4 Base Damage
+Base damage
+
+*0x8 Damage Growth Rate
+Damage growth rate (per level)
+
+0xC H Preservation
+Horizontal momentum preservation on startup (higher = more)
+
+0x10 Air H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0x14 Self-Damage
+Fully charged self damage
+
+Par25
+Marth: Shield Breaker (paramMarthSpecialN__11ftKirbyNode)
+
+*0x0 Max Charge Level
+Max charge level
+
+*0x4 Base Damage
+Base damage
+
+*0x8 Damage Growth Rate
+Damage growth rate (per level)
+
+0xC H Preservation
+Horizontal momentum preservation on startup (higher = more)
+
+0x10 Air H Deceleration
+Aerial deceleration to horizontal momentum preservation on startup
+
+*0x14
+Unknown, read once on initial pullback
+
+Par26
+Jigglypuff: Rollout / Dedede: Inhale Extra? (0x0-paramPurinSpecialN__11ftKirbyNode, 0xA8-paramDededeStarmissile__23wnDededeStarMissileNode)
+
+*0x0 Roll Around Duration
+How many frames character roll around
+
+*0x4
+ ?? (frame count for something?)
+
+0x8 Gravity
+Gravity
+
+0xC Max Fall speed
+Max Fall speed
+
+0x10
+Unknown
+
+0x14
+Unknown
+
+0x18 Ground Max H Speed 1
+Ground Max Horizontal Speed. The lower of 0x18 and 0x1C is the actual maximum speed.
+
+0x1C Ground Max H Speed 2
+Ground Max Horizontal Speed
+
+0x20
+ ?? (read in air)
+
+0x24 Air H Acceleration
+Aerial horizontal acceleration (read in air, negative = forward and positive = backward)
+
+0x28 Min Air H Speed
+Min aerial horizontal speed (momentum forward in air/momentum preservation in air)
+
+0x2C
+ ?? (read in air)
+
+0x30
+Unknown
+
+0x34
+Unknown
+
+0x38 Pivot/Hit Animation Speed
+Rotation animation speed while pivoting or after hit
+
+*0x3C
+Unknown
+
+0x40
+Unknown
+
+0x44
+Unknown
+
+0x48
+Unknown
+
+0x4C Bonus Damage
+Bonus damage: +3x to fast
+
+0x50 Damage Multiplier
+Damage multiplier: 4x - 6x to fast
+
+0x54 H Recoil
+Horizontal recoil on hit (negative = left, positive = right)
+
+0x58 V Recoil
+Vertical recoil on hit
+
+0x5C H Slide at End
+Horizontal ending slide speed
+
+0x60
+Unknown
+
+0x64 Max Roll Animation speed
+Max rolling animation speed
+
+*0x68
+Unknown
+
+0x6C Min Roll Power
+Initial roll power (min 40.0--see friction)
+
+0x70 Max Roll Power
+Max roll power (min 40.0--see friction)
+
+0x74 Roll Power Growth Rate
+Roll power growth rate per charge frame
+
+0x78 Initial Animation Speed
+Initial charge animation speed
+
+0x7C
+Unknown
+
+0x80 Deceleration 1
+Increasing it cuts short distance traveled (Deceleration related)
+
+0x84 Deceleration 2
+Deceleration (Subtracted from roll speed)
+
+0x88 Air Roll Speed
+Aerial rolling animation speed
+
+0x8C
+Affects roll speed. Affects aerial speed more.
+
+0x90 Pivot Acceleration
+Pivot (Reverse direction) acceleration
+
+0x94 Slope Deceleration
+Deceleration speed when climb a slope. No affect to speed when going down a alope.
+
+0x98 Min Attack Speed
+Minimum speed required for sparkle graphics
+
+0x9C
+Unknown
+
+0xA0 Wall Bounce H Multiplier
+Wall bounce horizontal momentum multiplier
+
+0xA4 Landing Lag
+Landing lag (post-recoil)
+
+0xA8
+Unknown (Dedede: StarMissile Speed? No affect even if value is changed)
+
+0xAC
+Unknown (Dedede: StarMissile Deceleration? No affect even if value is changed)
+
+0xB0
+Unknown (Dedede: StarMissile Spin Speed? No affect even if value is changed)
+
+0xB4
+Unknown (Dedede: StarMissile Ceiling Detection? No affect even if value is changed)
+
+0xB8
+Unknown (Dedede: StarMissile Floor Detection? No affect even if value is changed)
+
+0xBC
+Unknown (Dedede: StarMissile Wall Detection? No affect even if value is changed)
+
+Par27
+Diddy Kong: Peanut Popgun
+
+0x0 Start Angle
+Start angle (Angle when no charge. Closer to 0x4 angle when more charged)
+
+0x4 Charged Angle
+Angle at which peanut fly when charged for 1 second or more
+
+0x8 Start Speed
+Start speed (Speed when no charge. Closer to 0xC speed when more charged)
+
+0xC Charged Speed
+Speed at which peanut fly when charged for 1 second or more
+
+0x10 H Momentum
+Momentum backward from charged firing
+
+0x14 Add Damage
+Damage added when shooting before explosion (charge to limit)
+
+0x18
+Unknown
+
+*0x1C
+Unknown
+
+0x20 X Offset
+X Offset
+
+0x24 Y Offset
+Y Offset
+
+Par28
+R.O.B.: Robo Beam
+
+0x0 Max Downwards Angle
+Max downwards angle (higher is more angled down)
+
+0x4 Max Upwards Angle
+Max upwards angle
+
+0x8 Turning Speed
+Turning speed when input upward or downward
+
+0xC Angle Return Speed
+Angle return speed when not input upward or downward
+
+0x10
+Unknown
+
+0x14 Recharge Time
+Frames to recharge
+
+0x18 Supercharge Time
+Frames to supercharge
+
+0x1C Ground Beam X Offset
+X offset grounded beam
+
+0x20 Ground Beam Y Offset
+Y offset grounded beam
+
+0x24 Air Beam X Offset
+X offset aerial beam
+
+0x28 Air Beam Y Offset
+Y offset aerial beam
+
+*0x2C Beam Bone
+Beam focus bone
+
+*0x30 Lamp Bone
+Lamp focus bone
+
+0x34 Lamp X Offset
+Lamp X offset
+
+0x38 Lamp Y Offset
+Lamp X offset
+
+0x3C Lamp Z Offset
+Lamp Z offset
+
+Par29
+Dedede: Inhale
+
+*0x0 Min Hold Frame
+Minimum hold continue frames
+
+0x4 Turn Sensitivity
+Backward sensitivity. In other words, strength of input required to change direction. If set to 0, it will turn when waiting on the ground. If set -1, move to spit action if the strength of the input in the opposite direction is less than the maximum input.
+
+0x8
+Unknown
+
+0xC Walk Speed
+Inhale walk speed
+
+0x10 Button Mashing Movement
+When waiting on the ground, if the target who is inhaled it inputs sideways or upwards, the strength to move in that direction.
+
+0x14 Jump Momentum Multiplier
+Inhale jump momentum Multiplier (Multiplier of Attributes 0x38)
+
+0x18 X Offset
+X offset of exhale
+
+0x1C Y Offset
+Y offset of exhale
+
+*0x20 Auto Spit Time
+Frames to automatically move to spit action. No effect on the time it takes for the inhaled target to escape.
+
+0x24
+Unknown
+
+0x28 Bomb Damage
+Damage taken when eat a bomb
+
+*0x2C
+Unknown
+
+Par30
+Olimar: Pikmin Pluck (paramPikminSpecialN__11ftKirbyNode)
+
+0x0 X Offset
+X offset of pluck
+
+0x4 Y Offset
+Y offset of pluck
+
+Par31
+Olimar: Pikmin Toss (paramPikminSpecialS__11ftKirbyNode)
+
+*0x0
+Unknown
+
+0x4 X Offset
+X offset of Side-B toss
+
+0x8 Y Offset
+Y offset of Side-B toss
+
+*0xC
+Unknown
+
+Par32
+Ganondorf: Warlock Punch (paramGanonPunch__11ftKirbyNode)
+
+0x0
+If 0x0 value is the same as 0x4, the Falcon will break when punching in the air
+
+0x4
+No Description Available.
+
+0x8
+Unknown
+
+0xC Air Momentum 1
+Momentum forward in air punch (Occur when RA-Bit[17] is True)
+
+0x10 Air Momentum 2
+Momentum and fall speed in air punch (Occur when RA-Bit[17]=True and RA-Basic[0]=1)
+
+*0x14
+Unknown
+
+Par33
+Link: Arrows
+
+0x0
+More velocity with lower value, only affects charged arrows (no affects max charge arrows)
+
+0x4
+Unknown
+
+*0x8
+Unknown
+
+0xC Angle
+Firing angle (radians)
+
+Par34
+Toon Link: Arrows
+
+0x0
+More velocity with lower value, only affects charged arrows (no affects max charge arrows)
+
+0x4
+Unknown
+
+*0x8
+Unknown
+
+0xC Angle
+Firing angle (radians)
+
+Par35
+Lucario: Aura Sphere
+
+*0x0 Max Charge Level
+Max charge level
+
+0x4 Ground Backward Momentum
+Ground backward momentum from releasing Aura Sphere
+
+0x8 Air Backward Momentum
+Aerial backward momentum from releasing Aura Sphere
+
+0xC
+Unknown
+
+*0x10 Level up Frame
+Frames between change in charge level
+
+0x14 Aura Sphere Damage Multiplier
+Aura Sphere Damage Multiplier
+
+0x18 Aura Sphere Size 1
+Base Aura Sphere size
+
+0x1C Aura Sphere Size 2
+Related to Aura Sphere size. If set high value, the size will not change even if it is charged.
+
+Par36
+Samus: Charge Shot
+
+*0x0 Max Charge Level
+Max charge level
+
+0x4 Recoil
+Aerial horizontal momentum from shooting charged Charge shot (negative = backward, positive = forward)
+
+0x8 Level up Frame
+Frames between change in charge level
+
+*0xC
+Unknown
+
+Par37
+Bowser: Fire Breath
+
+0x0 Initial Angle
+Initial fire angle
+
+0x4 Randomness
+Flame spread randomness
+
+0x8 Max Angle Upwards
+Max angle upwards
+
+0xC Max Angle Downwards
+Max angle downwards (higher is more angled down)
+
+0x10 Turning Speed
+Turning speed when input upward or downward
+
+0x14
+Unknown. Related to rotation of head in relation to 0x10? No affect even if the value is changed.
+
+*0x18 Min Continue Frame
+Minimum hold continue frame
+
+0x1C Max Speed Charge
+Max speed charge (Affect to speed of decline)
+
+0x20 Min Speed Charge
+Min speed charge (Affect to speed of decline)
+
+0x24 Max Size Charge
+Max size charge (Affect to size of decline)
+
+0x28 Min Size Charge
+Min size charge (Affect to size of decline)
+
+0x2C Speed Refuel
+Speed charge refuel rate (per frame)
+
+0x30 Size Refuel
+Size charge refuel rate (per frame)
+
+0x34 Speed Drain
+Speed charge drain rate (per frame)
+
+0x38 Size Drain
+Size charge drain rate (per frame)
+
+*0x3C
+Unknown
+
+*0x40 Flames Interval
+Frames interval until the flame reoccurs
+
+0x44 X offset
+X offset
+
+0x48 Y offset
+Y offset
+
+0x4C
+ ?? 
+
+Par38
+Pit: Palutena's Arrows
+
+0x0
+ ??
+
+*0x4 Max Charge Time
+Max charge time
+
+0x8 Backwards Sensitivity
+Joystick sensitivity backwards
+
+0xC Upwards Sensitivity
+Joystick sensitivity upwards
+
+Par39
+Game and Watch: Chef
+
+0x0
+Unknown
+
+*0x4 Max Fire Count
+Maximum number that can be fire continuously
+
+Par40
+Zero suit Samus: Paralyzer
+
+0x0 X offset
+X offset
+
+0x4 Y offset
+Y offset
+
+Par56
+HitDataList56
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+Par60
+Reflect data
+
+*0x0 Bone
+Focus Bone
+
+0x4 Damage Threshold
+Damage threshold
+
+0x8 X Offset
+Reflection bubble X offset
+
+0xC Y Offset
+Reflection bubble Y offset
+
+0x10 Z Offset
+Reflection bubble Z offset
+
+0x14 Size
+Reflection bubble size
+
+0x18 Damage Multiplier
+Reflected damage multiplier
+
+0x1C Speed Multiplier
+Reflected speed multiplier
+
+0x20 Duration Multiplier
+Reflected duration multiplier
+
+*0x24
+Unknown
+
+Par62
+pikminPullOutParam__11ftKirbyNode
+
+*0x0 Basic Floor ID
+Basic floor ID (Note: OpenSA Name = Basic BrawlBox0.78 Name = Brick)
+
+0x4 Pluck Speed on Basic Floor
+Pluck Speed on Basic floor. Basic floor settings apply even in the air.
+
+0x8 Red Pikmin Ratio on Basic Floor
+Red Pikmin ratio on Basic floor. Basic floor settings apply even in the air. If 0, it will not come out. No matter how high the value is set, the same thing will not appear continuously unless the probability of all other colors appearing is set to 0.
+
+0xC Yellow Pikmin Ratio on Basic Floor
+Yellow Pikmin ratio on Basic floor (Detail: 0x8)
+
+0x10 Blue Pikmin Ratio on Basic Floor
+Blue Pikmin ratio on Basic floor (Detail: 0x8)
+
+0x14 White Pikmin Ratio on Basic Floor
+White Pikmin ratio on Basic floor (Detail: 0x8)
+
+0x18 Purple Pikmin Ratio on Basic Floor
+Purple Pikmin ratio on Basic floor (Detail: 0x8)
+
+*0x1C Rock Floor ID
+Rock floor ID
+
+0x20 Pluck Speed on Rock Floor
+Pluck Speed on Rock floor
+
+0x24 Red Pikmin Ratio on Rock Floor
+Red Pikmin ratio on Rock floor (Detail: 0x8)
+
+0x28 Yellow Pikmin Ratio on Rock Floor
+Yellow Pikmin ratio on Rock floor (Detail: 0x8)
+
+0x2C Blue Pikmin Ratio on Rock Floor
+Blue Pikmin ratio on Rock floor (Detail: 0x8)
+
+0x30 White Pikmin Ratio on Rock Floor
+White Pikmin ratio on Rock floor (Detail: 0x8)
+
+0x34 Purple Pikmin Ratio on Rock Floor
+Purple Pikmin ratio on Rock floor (Detail: 0x8)
+
+*0x38 Grass Floor ID
+Grass floor ID
+
+0x3C Pluck Speed on Grass Floor
+Pluck speed on Grass floor
+
+0x40 Red Pikmin Ratio on Grass Floor
+Red Pikmin ratio on Grass floor (Detail: 0x8)
+
+0x44 Yellow Pikmin Ratio on Grass Floor
+Yellow Pikmin ratio on Grass floor (Detail: 0x8)
+
+0x48 Blue Pikmin Ratio on Grass Floor
+Blue Pikmin ratio on Grass floor (Detail: 0x8)
+
+0x4C White Pikmin Ratio on Grass Floor
+White Pikmin ratio on Grass floor (Detail: 0x8)
+
+0x50 Purple Pikmin Ratio on Grass Floor
+Purple Pikmin ratio on Grass floor (Detail: 0x8)
+
+*0x54 Soil Floor ID
+Soil floor ID
+
+0x58 Pluck Speed on Soil Floor
+Pluck speed on Soil floor
+
+0x5C Red Pikmin Ratio on Soil Floor
+Red Pikmin ratio on Soil floor (Detail: 0x8)
+
+0x60 Yellow Pikmin Ratio on Soil Floor
+Yellow Pikmin ratio on Soil floor (Detail: 0x8)
+
+0x64 Blue Pikmin Ratio on Soil Floor
+Blue Pikmin ratio on Soil floor (Detail: 0x8)
+
+0x68 White Pikmin Ratio on Soil Floor
+White Pikmin ratio on Soil floor (Detail: 0x8)
+
+0x6C Purple Pikmin Ratio on Soil Floor
+Purple Pikmin ratio on Soil floor (Detail: 0x8)
+
+*0x70 Wood Floor ID
+Wood floor ID
+
+0x74 Pluck Speed on Wood Floor
+Pluck speed on Wood floor
+
+0x78 Red Pikmin Ratio on Wood Floor
+Red Pikmin ratio on Wood floor (Detail: 0x8)
+
+0x7C Yellow Pikmin Ratio on Wood Floor
+Yellow Pikmin ratio on Wood floor (Detail: 0x8)
+
+0x80 Blue Pikmin Ratio on Wood Floor
+Blue Pikmin ratio on Wood floor (Detail: 0x8)
+
+0x84 White Pikmin Ratio on Wood Floor
+White Pikmin ratio on Wood floor (Detail: 0x8)
+
+0x88 Purple Pikmin Ratio on Wood Floor
+Purple Pikmin ratio on Wood floor (Detail: 0x8)
+
+*0x8C LightMetal Floor ID
+LightMetal (NibuIron) floor ID
+
+0x90 Pluck Speed on LightMetal Floor
+Pluck speed on LightMetal (NibuIron) floor
+
+0x94 Red Pikmin Ratio on LightMetal Floor
+Red Pikmin ratio on LightMetal (NibuIron) floor (Detail: 0x8)
+
+0x98 Yellow Pikmin Ratio on LightMetal Floor
+Yellow Pikmin ratio on LightMetal (NibuIron) floor (Detail: 0x8)
+
+0x9C Blue Pikmin Ratio on LightMetal Floor
+Blue Pikmin ratio on LightMetal (NibuIron) floor (Detail: 0x8)
+
+0xA0 White Pikmin Ratio on LightMetal Floor
+White Pikmin ratio on LightMetal (NibuIron) floor (Detail: 0x8)
+
+0xA4 Purple Pikmin Ratio on LightMetal Floor
+Purple Pikmin ratio on LightMetal (NibuIron) floor (Detail: 0x8)
+
+*0xA8 HeavyMetal Floor ID
+HeavyMetal (Iron) floor ID
+
+0xAC Pluck Speed on HeavyMetal Floor
+Pluck speed on HeavyMetal (Iron) floor
+
+0xB0 Red Pikmin Ratio on HeavyMetal Floor
+Red Pikmin ratio on HeavyMetal (Iron) floor (Detail: 0x8)
+
+0xB4 Yellow Pikmin Ratio on HeavyMetal Floor
+Yellow Pikmin ratio on HeavyMetal (Iron) floor (Detail: 0x8)
+
+0xB8 Blue Pikmin Ratio on HeavyMetal Floor
+Blue Pikmin ratio on HeavyMetal (Iron) floor (Detail: 0x8)
+
+0xBC White Pikmin Ratio on HeavyMetal Floor
+White Pikmin ratio on HeavyMetal (Iron) floor (Detail: 0x8)
+
+0xC0 Purple Pikmin Ratio on HeavyMetal Floor
+Purple Pikmin ratio on HeavyMetal (Iron) floor (Detail: 0x8)
+
+*0xC4 Cloth Floor ID
+Cloth (Carpet) floor ID
+
+0xC8 Pluck Speed on Cloth Floor
+Pluck speed on Cloth (Carpet) floor
+
+0xCC Red Pikmin Ratio on Cloth Floor
+Red Pikmin ratio on Cloth (Carpet) floor (Detail: 0x8)
+
+0xD0 Yellow Pikmin Ratio on Cloth Floor
+Yellow Pikmin ratio on Cloth (Carpet) floor (Detail: 0x8)
+
+0xD4 Blue Pikmin Ratio on Cloth Floor
+Blue Pikmin ratio on Cloth (Carpet) floor (Detail: 0x8)
+
+0xD8 White Pikmin Ratio on Cloth Floor
+White Pikmin ratio on Cloth (Carpet) floor (Detail: 0x8)
+
+0xDC Purple Pikmin Ratio on Cloth Floor
+Purple Pikmin ratio on Cloth (Carpet) floor (Detail: 0x8)
+
+*0xE0 Alien goop Floor ID
+Alien goop (Fence) floor ID
+
+0xE4 Pluck Speed on Alien goop Floor
+Pluck speed on Alien goop (Fence) floor
+
+0xE8 Red Pikmin Ratio on Alien goop Floor
+Red Pikmin ratio on Alien goop (Fence) floor (Detail: 0x8)
+
+0xEC Yellow Pikmin Ratio on Alien goop Floor
+Yellow Pikmin ratio on Alien goop (Fence) floor (Detail: 0x8)
+
+0xF0 Blue Pikmin Ratio on Alien goop Floor
+Blue Pikmin ratio on Alien goop (Fence) floor (Detail: 0x8)
+
+0xF4 White Pikmin Ratio on Alien goop Floor
+White Pikmin ratio on Alien goop (Fence) floor (Detail: 0x8)
+
+0xF8 Purple Pikmin Ratio on Alien goop Floor
+Purple Pikmin ratio on Alien goop (Fence) floor (Detail: 0x8)
+
+*0xFC Creature Floor ID
+Creature floor ID
+
+0x100 Pluck Speed on Creature Floor
+Pluck speed on Creature floor
+
+0x104 Red Pikmin Ratio on Creature Floor
+Red Pikmin ratio on Creature floor (Detail: 0x8)
+
+0x108 Yellow Pikmin Ratio on Creature Floor
+Yellow Pikmin ratio on Creature floor (Detail: 0x8)
+
+0x10C Blue Pikmin Ratio on Creature Floor
+Blue Pikmin ratio on Creature floor (Detail: 0x8)
+
+0x110 White Pikmin Ratio on Creature Floor
+White Pikmin ratio on Creature floor (Detail: 0x8)
+
+0x114 Purple Pikmin Ratio on Creature Floor
+Purple Pikmin ratio on Creature floor (Detail: 0x8)
+
+*0x118 Water Floor ID
+Water floor ID
+
+0x11C Pluck Speed on Water Floor
+Pluck speed on Water floor
+
+0x120 Red Pikmin Ratio on Water Floor
+Red Pikmin ratio on Water floor (Detail: 0x8)
+
+0x124 Yellow Pikmin Ratio on Water Floor
+Yellow Pikmin ratio on Water floor (Detail: 0x8)
+
+0x128 Blue Pikmin Ratio on Water Floor
+Blue Pikmin ratio on Water floor (Detail: 0x8)
+
+0x12C White Pikmin Ratio on Water Floor
+White Pikmin ratio on Water floor (Detail: 0x8)
+
+0x130 Purple Pikmin Ratio on Water Floor
+Purple Pikmin ratio on Water floor (Detail: 0x8)
+
+*0x134
+Rubber (Bubbles) floor ID
+
+0x138 Pluck Speed on Rubber Floor
+Pluck speed on Rubber (Bubbles) floor
+
+0x13C
+Red Pikmin ratio on Rubber (Bubbles) floor (Detail: 0x8)
+
+0x140
+Yellow Pikmin ratio on Rubber (Bubbles) floor (Detail: 0x8)
+
+0x144
+Blue Pikmin ratio on Rubber (Bubbles) floor (Detail: 0x8)
+
+0x148
+White Pikmin ratio on Rubber (Bubbles) floor (Detail: 0x8)
+
+0x14C
+Purple Pikmin ratio on Rubber (Bubbles) floor (Detail: 0x8)
+
+*0x150
+Ice floor ID
+
+0x154 Pluck Speed on Ice Floor
+Pluck speed on Ice floor
+
+0x158
+Red Pikmin ratio on Ice floor (Detail: 0x8)
+
+0x15C
+Yellow Pikmin ratio on Ice floor (Detail: 0x8)
+
+0x160
+Blue Pikmin ratio on Ice floor (Detail: 0x8)
+
+0x164
+White Pikmin ratio on Ice floor (Detail: 0x8)
+
+0x168
+Purple Pikmin ratio on Ice floor (Detail: 0x8)
+
+*0x16C Snow Floor ID
+Snow floor ID
+
+0x170 Pluck Speed on Snow Floor
+Pluck speed on Snow floor
+
+0x174 Red Pikmin Ratio on Snow Floor
+Red Pikmin ratio on Snow floor (Detail: 0x8)
+
+0x178 Yellow Pikmin Ratio on Snow Floor
+Yellow Pikmin ratio on Snow floor (Detail: 0x8)
+
+0x17C Blue Pikmin Ratio on Snow Floor
+Blue Pikmin ratio on Snow floor (Detail: 0x8)
+
+0x180 White Pikmin Ratio on Snow Floor
+White Pikmin ratio on Snow floor (Detail: 0x8)
+
+0x184 Purple Pikmin Ratio on Snow Floor
+Purple Pikmin ratio on Snow floor (Detail: 0x8)
+
+*0x188 SnowIce Floor ID
+Ice (SnowIce) floor ID
+
+0x18C Pluck Speed on SnowIce Floor
+Pluck speed on SnowIce floor
+
+0x190 Red Pikmin Ratio on SnowIce Floor
+Red Pikmin ratio on SnowIce floor (Detail: 0x8)
+
+0x194 Yellow Pikmin Ratio on SnowIce Floor
+Yellow Pikmin ratio on SnowIce floor (Detail: 0x8)
+
+0x198 Blue Pikmin Ratio on SnowIce Floor
+Blue Pikmin ratio on SnowIce floor (Detail: 0x8)
+
+0x19C White Pikmin Ratio on SnowIce Floor
+White Pikmin ratio on SnowIce floor (Detail: 0x8)
+
+0x1A0 Purple Pikmin Ratio on SnowIce Floor
+Purple Pikmin ratio on SnowIce floor (Detail: 0x8)
+
+*0x1A4
+GameWatch floor ID
+
+0x1A8 Pluck Speed on GameWatch Floor
+Pluck speed on GameWatch floor
+
+0x1AC
+Red Pikmin ratio on GameWatch floor (Detail: 0x8)
+
+0x1B0
+Yellow Pikmin ratio on GameWatch floor (Detail: 0x8)
+
+0x1B4
+Blue Pikmin ratio on GameWatch floor (Detail: 0x8)
+
+0x1B8
+White Pikmin ratio on GameWatch floor (Detail: 0x8)
+
+0x1BC
+Purple Pikmin ratio on GameWatch floor (Detail: 0x8)
+
+*0x1C0
+Ice2 floor ID
+
+0x1C4 Pluck Speed on Ice2 Floor
+Pluck speed on Ice2 floor
+
+0x1C8
+Red Pikmin ratio on Ice2 floor (Detail: 0x8)
+
+0x1CC
+Yellow Pikmin ratio on Ice2 floor (Detail: 0x8)
+
+0x1D0
+Blue Pikmin ratio on Ice2 floor (Detail: 0x8)
+
+0x1D4
+White Pikmin ratio on Ice2 floor (Detail: 0x8)
+
+0x1D8
+Purple Pikmin ratio on Ice2 floor (Detail: 0x8)
+
+*0x1DC Checkered Floor ID
+Checkered (Danbouru) floor ID
+
+0x1E0 Pluck Speed on Checkered Floor
+Pluck speed on Checkered (Danbouru) floor
+
+0x1E4 Red Pikmin Ratio on Checkered Floor
+Red Pikmin ratio on Checkered (Danbouru) floor (Detail: 0x8)
+
+0x1E8 Yellow Pikmin Ratio on Checkered Floor
+Yellow Pikmin ratio on Checkered (Danbouru) floor (Detail: 0x8)
+
+0x1EC Blue Pikmin Ratio on Checkered Floor
+Blue Pikmin ratio on Checkered (Danbouru) floor (Detail: 0x8)
+
+0x1F0 White Pikmin Ratio on Checkered Floor
+White Pikmin ratio on Checkered (Danbouru) floor (Detail: 0x8)
+
+0x1F4 Purple Pikmin Ratio on Checkered Floor
+Purple Pikmin ratio on Checkered (Danbouru) floor (Detail: 0x8)
+
+*0x1F8 Spikes Floor ID
+Spikes (Crash1) floor ID
+
+0x1FC Pluck Speed on Spikes Floor
+Pluck speed on Spikes (Crash1) floor
+
+0x200 Red Pikmin Ratio on Spikes Floor
+Red Pikmin ratio on Spikes (Crash1) floor (Detail: 0x8)
+
+0x204 Yellow Pikmin Ratio on Spikes Floor
+Yellow Pikmin ratio on Spikes (Crash1) floor (Detail: 0x8)
+
+0x208 Blue Pikmin Ratio on Spikes Floor
+Blue Pikmin ratio on Spikes (Crash1) floor (Detail: 0x8)
+
+0x20C White Pikmin Ratio on Spikes Floor
+White Pikmin ratio on Spikes (Crash1) floor (Detail: 0x8)
+
+0x210 Purple Pikmin Ratio on Spikes Floor
+Purple Pikmin ratio on Spikes (Crash1) floor (Detail: 0x8)
+
+*0x214
+Lava (Crash2) floor ID
+
+0x218 Pluck Speed on Lava Floor
+Pluck speed on Lava (Crash2) floor
+
+0x21C
+Red Pikmin ratio on Lava (Crash2) floor (Detail: 0x8)
+
+0x220
+Yellow Pikmin ratio on Lava (Crash2) floor (Detail: 0x8)
+
+0x224
+Blue Pikmin ratio on Lava (Crash2) floor (Detail: 0x8)
+
+0x228
+White Pikmin ratio on Lava (Crash2) floor (Detail: 0x8)
+
+0x22C
+Purple Pikmin ratio on Lava (Crash2) floor (Detail: 0x8)
+
+*0x230
+Frostbite (Crash3) floor ID
+
+0x234 Pluck Speed on Frostbite Floor
+Pluck speed on Frostbite (Crash3) floor
+
+0x238
+Red Pikmin ratio on Frostbite (Crash3) floor (Detail: 0x8)
+
+0x23C
+Yellow Pikmin ratio on Frostbite (Crash3) floor (Detail: 0x8)
+
+0x240
+Blue Pikmin ratio on Frostbite (Crash3) floor (Detail: 0x8)
+
+0x244
+White Pikmin ratio on Frostbite (Crash3) floor (Detail: 0x8)
+
+0x248
+Purple Pikmin ratio on Frostbite (Crash3) floor (Detail: 0x8)
+
+*0x24C Electroplankton Floor ID
+Electroplankton (LargeBubbles) floor ID
+
+0x250 Pluck Speed on Electroplankton Floor
+Pluck speed on Electroplankton (LargeBubbles) floor
+
+0x254 Red Pikmin Ratio on Electroplankton Floor
+Red Pikmin ratio on Electroplankton (LargeBubbles) floor (Detail: 0x8)
+
+0x258 Yellow Pikmin Ratio on Electroplankton Floor
+Yellow Pikmin ratio on Electroplankton (LargeBubbles) floor (Detail: 0x8)
+
+0x25C Blue Pikmin Ratio on Electroplankton Floor
+Blue Pikmin ratio on Electroplankton (LargeBubbles) floor (Detail: 0x8)
+
+0x260 White Pikmin Ratio on Electroplankton Floor
+White Pikmin ratio on Electroplankton (LargeBubbles) floor (Detail: 0x8)
+
+0x264 Purple Pikmin Ratio on Electroplankton Floor
+Purple Pikmin ratio on Electroplankton (LargeBubbles) floor (Detail: 0x8)
+
+*0x268 Cloud Floor ID
+Cloud floor ID
+
+0x26C Pluck Speed on Cloud Floor
+Pluck speed on Cloud floor
+
+0x270 Red Pikmin Ratio on Cloud Floor
+Red Pikmin ratio on Cloud floor (Detail: 0x8)
+
+0x274 Yellow Pikmin Ratio on Cloud Floor
+Yellow Pikmin ratio on Cloud floor (Detail: 0x8)
+
+0x278 Blue Pikmin Ratio on Cloud Floor
+Blue Pikmin ratio on Cloud floor (Detail: 0x8)
+
+0x27C White Pikmin Ratio on Cloud Floor
+White Pikmin ratio on Cloud floor (Detail: 0x8)
+
+0x280 Purple Pikmin Ratio on Cloud Floor
+Purple Pikmin ratio on Cloud floor (Detail: 0x8)
+
+*0x284
+Subspace floor ID
+
+0x288 Pluck Speed on Subspace Floor
+Pluck speed on Subspace floor
+
+0x28C
+Red Pikmin ratio on Subspace floor (Detail: 0x8)
+
+0x290
+Yellow Pikmin ratio on Subspace floor (Detail: 0x8)
+
+0x294
+Blue Pikmin ratio on Subspace floor (Detail: 0x8)
+
+0x298
+White Pikmin ratio on Subspace floor (Detail: 0x8)
+
+0x29C
+Purple Pikmin ratio on Subspace floor (Detail: 0x8)
+
+*0x2A0 Brick Floor ID
+Brick (Stone2) floor ID
+
+0x2A4 Pluck Speed on Brick Floor
+Pluck speed on Brick (Stone2) floor
+
+0x2A8 Red Pikmin Ratio on Brick Floor
+Red Pikmin ratio on Brick (Stone2) floor (Detail: 0x8)
+
+0x2AC Yellow Pikmin Ratio on Brick Floor
+Yellow Pikmin ratio on Brick (Stone2) floor (Detail: 0x8)
+
+0x2B0 Blue Pikmin Ratio on Brick Floor
+Blue Pikmin ratio on Brick (Stone2) floor (Detail: 0x8)
+
+0x2B4 White Pikmin Ratio on Brick Floor
+White Pikmin ratio on Brick (Stone2) floor (Detail: 0x8)
+
+0x2B8 Purple Pikmin Ratio on Brick Floor
+Purple Pikmin ratio on Brick (Stone2) floor (Detail: 0x8)
+
+*0x2BC
+Unknown2 floor ID
+
+0x2C0 Pluck Speed on Unknown2 Floor
+Pluck speed on Unknown2 floor
+
+0x2C4
+Red Pikmin ratio on Unknown2 floor (Detail: 0x8)
+
+0x2C8
+Yellow Pikmin ratio on Unknown2 floor (Detail: 0x8)
+
+0x2CC
+Blue Pikmin ratio on Unknown2 floor (Detail: 0x8)
+
+0x2D0
+White Pikmin ratio on Unknown2 floor (Detail: 0x8)
+
+0x2D4
+Purple Pikmin ratio on Unknown2 floor (Detail: 0x8)
+
+*0x2D8 Mario Bros Floor ID
+Mario Bros (NES8Bit) floor ID
+
+0x2DC Pluck Speed on Mario Bros Floor
+Pluck speed on Mario Bros (NES8Bit) floor
+
+0x2E0 Red Pikmin Ratio on Mario Bros Floor
+Red Pikmin ratio on Mario Bros (NES8Bit) floor (Detail: 0x8)
+
+0x2E4 Yellow Pikmin Ratio on Mario Bros Floor
+Yellow Pikmin ratio on Mario Bros (NES8Bit) floor (Detail: 0x8)
+
+0x2E8 Blue Pikmin Ratio on Mario Bros Floor
+Blue Pikmin ratio on Mario Bros (NES8Bit) floor (Detail: 0x8)
+
+0x2EC White Pikmin Ratio on Mario Bros Floor
+White Pikmin ratio on Mario Bros (NES8Bit) floor (Detail: 0x8)
+
+0x2F0 Purple Pikmin Ratio on Mario Bros Floor
+Purple Pikmin ratio on Mario Bros (NES8Bit) floor (Detail: 0x8)
+
+*0x2F4
+Grate (Metal2) floor ID
+
+0x2F8 Pluck Speed on Grate Floor
+Pluck speed on Grate (Metal2) floor
+
+0x2FC
+Red Pikmin ratio on Grate (Metal2) floor (Detail: 0x8)
+
+0x300
+Yellow Pikmin ratio on Grate (Metal2) floor (Detail: 0x8)
+
+0x304
+Blue Pikmin ratio on Grate (Metal2) floor (Detail: 0x8)
+
+0x308
+White Pikmin ratio on Grate (Metal2) floor (Detail: 0x8)
+
+0x30C
+Purple Pikmin ratio on Grate (Metal2) floor (Detail: 0x8)
+
+*0x310 Sand Floor ID
+Sand floor ID
+
+0x314 Pluck Speed on Sand Floor
+Pluck speed on Sand floor
+
+0x318 Red Pikmin Ratio on Sand Floor
+Red Pikmin ratio on Sand floor (Detail: 0x8)
+
+0x31C Yellow Pikmin Ratio on Sand Floor
+Yellow Pikmin ratio on Sand floor (Detail: 0x8)
+
+0x320 Blue Pikmin Ratio on Sand Floor
+Blue Pikmin ratio on Sand floor (Detail: 0x8)
+
+0x324 White Pikmin Ratio on Sand Floor
+White Pikmin ratio on Sand floor (Detail: 0x8)
+
+0x328 Purple Pikmin Ratio on Sand Floor
+Purple Pikmin ratio on Sand floor (Detail: 0x8)
+
+*0x32C Homerun Floor ID
+Homerun floor ID
+
+0x330 Pluck Speed on Homerun Floor
+Pluck speed on Homerun floor
+
+0x334 Red Pikmin Ratio on Homerun Floor
+Red Pikmin ratio on Homerun floor (Detail: 0x8)
+
+0x338 Yellow Pikmin Ratio on Homerun Floor
+Yellow Pikmin ratio on Homerun floor (Detail: 0x8)
+
+0x33C Blue Pikmin Ratio on Homerun Floor
+Blue Pikmin ratio on Homerun floor (Detail: 0x8)
+
+0x340 White Pikmin Ratio on Homerun Floor
+White Pikmin ratio on Homerun floor (Detail: 0x8)
+
+0x344 Purple Pikmin Ratio on Homerun Floor
+Purple Pikmin ratio on Homerun floor (Detail: 0x8)
+
+Par64
+ExtraParams64
+
+Flags0-0? 0x0
+No Description Available.
+
+Flags0-1? 0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+Flags1-0? 0x20
+No Description Available.
+
+Flags1-1? 0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+Flags2-0? 0x40
+No Description Available.
+
+Flags2-1? 0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+Par66
+ExtraParams66
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+*0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+*0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+*0x88
+No Description Available.
+
+0x8C
+No Description Available.
+
+Par01-0
+Final Cutter Article
+
+0x0 Initial Speed
+Initial horizontal momentum
+
+*0x4
+Unknown
+
+*0x8 Duration
+Duration (Frames)
+
+0xC Deceleration
+Horizontal speed deceleration
+
+Par02-0
+paramKirbyStarmissile__22wnKirbyStarMissileNode
+
+0x0 Exhaled Speed
+Speed of exhaled star shot
+
+0x4 Exhaled Deceleration
+Exhaled star speed deceleration
+
+0x8 Copied Angle
+Angle of copied star
+
+0xC Copied Speed
+Speed of copied star
+
+0x10 Copied Deceleration
+Copied star speed deceleration
+
+0x14 Spin Speed
+Spin speed. Affect to both copied star and exhaled star.
+
+0x18 Ceiling Detection
+Ceiling detection
+
+0x1C Floor Detection
+Landing detection (Vertical detection offset of floor and wall)
+
+0x20 Wall Detection
+Wall detection
+
+0x24 Discard Spin Speed
+Spin speed of discard star
+
+0x28 Discard H Momentum
+Horizontal momentum of discard star
+
+0x2C Discard V Momentum
+Initial vertical momentum of discard star
+
+0x30 Discard Gravity
+Gravity of discard star
+
+0x34
+Unknown
+
+0x38 Discard Size
+Size of discard star
+
+0x3C Discard Ceiling Detection
+Ceiling detection of discard star
+
+0x40 Discard Floor Detection
+Landing detection of discard star
+
+0x44 Discard Wall Detection
+Wall detection of discard star
+
+*0x48 Discard Duration
+Duration of discard star
+
+*0x4C
+No Description Available.
+
+Par03-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par03-6
+ExtraFlags0
+
+Flags0?
+No Description Available.
+
+Flags1?
+No Description Available.
+
+Flags2?
+No Description Available.
+
+Flags3?
+No Description Available.
+
+Flags4?
+No Description Available.
+
+Flags5?
+No Description Available.
+
+Flags6?
+No Description Available.
+
+Flags7?
+No Description Available.
+
+Par03-8
+ExtraFlags1
+
+Flags0?
+No Description Available.
+
+Flags1?
+No Description Available.
+
+Flags2?
+No Description Available.
+
+Flags3?
+No Description Available.
+
+Flags4?
+No Description Available.
+
+Par06-0
+Charizard: FlameThrower Article
+
+0x0 Landing Detection
+Landing detection (Vertical detection offset of floor and wall)
+
+*0x4 Duration
+Flame Duration (Frames)
+
+*0x8 Hitbox Duration
+Flame hitbox duration
+
+0xC Momentum Randomness 1
+Flame momentum randomness. Random momentum from 0xC to 0x10. The higher value is the maximum momentum, and the lower value is the minimum momentum.
+
+0x10 Momentum Randomness 2
+Flame momentum randomness. Random momentum from 0xC to 0x10
+
+*0x14
+Unknown
+
+Par07-0
+Ivysaur: Bullet Seed Article
+
+*0x0 Duration
+Frame duration of article
+
+0x4
+Unknown
+
+Par08-0
+Squirtle: Water Gun Article
+
+0x0 Base Speed
+Base water momentum
+
+0x4 Speed Growth
+Water momentum add when charged
+
+0x8 Gravity
+Water gravity
+
+0xC
+Unknown
+
+*0x10 Duration
+How many frames water stays out
+
+0x14 Random GFX Size 1
+Random water GFX Size 1. Random size from 0x14 to 0x18. The higher value is the maximum size, and the lower value is the minimum size.
+
+0x18 Random GFX Size 2
+Random water GFX Size 2. Random size from 0x14 to 0x18
+
+*0x1C Knockback Growth
+Water knockback add when charged
+
+Par09-0
+Zero suit Samus: Paralyzer Article
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Uncharged Speed
+Uncharged speed
+
+0x14 Charged Speed
+Charged speed
+
+*0x18 Uncharged Duration
+Uncharged duration (frames)
+
+*0x1C Charged Duration
+Charged duration (frames)
+
+Par10-0
+Pikmin Toss Article Params15
+
+0x0 Red Gravity
+Red Pikmin gravity
+
+0x4 Red Max V Speed
+Red Pikmin maximum vertical Speed
+
+0x8 Red H Momentum
+Red Pikmin horizontal momentum
+
+0xC Red Max H Speed
+Red Pikmin maximum horizontal velocity
+
+0x10 Red V Momentum
+Red Pikmin initial vertical momentum
+
+0x14 Red Landing Deceleration
+Red Pikmin horizontal deceleration when landing
+
+0x18 Red Landing H Momentum
+Red Pikmin horizontal momentum when landing
+
+0x1C Yellow Gravity
+Yellow Pikmin gravity
+
+0x20 Yellow Max V Speed
+Yellow Pikmin maximum vertical Speed
+
+0x24 Yellow H Momentum
+Yellow Pikmin horizontal momentum
+
+0x28 Yellow Max H Speed
+Yellow Pikmin maximum horizontal velocity
+
+0x2C Yellow V Momentum
+Yellow Pikmin initial vertical momentum
+
+0x30 Yellow Landing Deceleration
+Yellow Pikmin horizontal deceleration when landing
+
+0x34 Yellow Landing H Momentum
+Yellow Pikmin horizontal momentum when landing
+
+0x38 Blue Gravity
+Blue Pikmin gravity
+
+0x3C Blue Max V Speed
+Blue Pikmin maximum vertical Speed
+
+0x40 Blue H Momentum
+Blue Pikmin horizontal momentum
+
+0x44 Blue Max H Speed
+Blue Pikmin maximum horizontal velocity
+
+0x48 Blue V Momentum
+Blue Pikmin initial vertical momentum
+
+0x4C Blue Landing Deceleration
+Blue Pikmin horizontal deceleration when landing
+
+0x50 Blue Landing H Momentum
+Blue Pikmin horizontal momentum when landing
+
+0x54 White Gravity
+White Pikmin gravity
+
+0x58 White Max V Speed
+White Pikmin maximum vertical Speed
+
+0x5C White H Momentum
+White Pikmin horizontal momentum
+
+0x60 White Max H Speed
+White Pikmin maximum horizontal velocity
+
+0x64 White V Momentum
+White Pikmin initial vertical momentum
+
+0x68 White Landing Deceleration
+White Pikmin horizontal deceleration when landing
+
+0x6C White Landing H Momentum
+White Pikmin horizontal momentum when landing
+
+0x70 Purple Gravity
+Purple Pikmin gravity
+
+0x74 Purple Max V Speed
+Purple Pikmin maximum vertical Speed
+
+0x78 Purple H Momentum
+Purple Pikmin horizontal momentum
+
+0x7C Purple Max H Speed
+Purple Pikmin maximum horizontal velocity
+
+0x80 Purple V Momentum
+Purple Pikmin initial vertical momentum
+
+0x84 Purple Landing Deceleration
+Purple Pikmin horizontal deceleration when landing
+
+0x88 Purple Landing H Momentum
+Purple Pikmin horizontal momentum when landing
+
+*0x8C
+Unknown
+
+Par10-1
+ExtraParams16
+
+0x0
+No Description Available.
+

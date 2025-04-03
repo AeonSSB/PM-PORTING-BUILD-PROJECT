@@ -1,0 +1,250 @@
+﻿DataSize0x9C
+07C Par00 A
+080 Par01 A
+084 Par02 1A
+088 Par03 7
+08C Par04 3
+090 Art0 Water Gun
+094 Par06 8
+
+Art0 Water Gun
+3-3
+034 Par00-0 8
+
+Par00
+Fatigue/Stamina
+
+0x0 Max Stamina
+Max stamina
+
+0x4 Stamina Decrease per Second
+Stamina decrease value per second
+
+0x8 Stamina Decrease per Attack
+Stamina decrease value per attack
+
+0xC Stamina Increase Value
+Stamina increase value per rest second
+
+0x10 KB Multiplier at Weakest
+Knockback multiplier at Weakest Stamina (0x24)
+
+0x14
+Unknown, not affect tired animation
+
+0x18 Stamina Decrease per KO'd
+Stamina decrease value when KO'd
+
+0x1C Weakness KB Multiplier
+Knockback multiplier when taken weakness element attack
+
+0x20 Resistance KB Multiplier
+Knockback multiplier when taken resistance element attack
+
+0x24 Weakest Stamina
+Weakest stamina level
+
+Par01
+Neutral B: Water Gun
+
+*0x0 Max Charge Frame
+Frames to fully charge
+
+0x4 Initial Angle
+Initial angle (degrees)
+
+0x8 Max Upward Angle
+Max upward angle (degrees)
+
+0xC Max Downward Angle
+Max downward angle (degrees, higher is more angled down)
+
+0x10 Turning Speed
+Turning speed (also affects going back to center)
+
+0x14 Randomness
+Water spread randomness (radians)
+
+0x18
+ ?? (read on water gun)
+
+*0x1C Min Water Charge Frame
+How many frames before not getting spray
+
+0x20 Momentum Backwards
+Momentum backwards when grounded firing
+
+*0x24
+ ?? (read when firing water/spray)
+
+Par02
+Side B: Withdraw
+
+0x0
+Unknown
+
+0x4 Tilt Initial Momentum
+Tilt initial horizontal momentum
+
+0x8 Smash Initial Momentum
+Smash initial horizontal momentum
+
+0xC
+Momentum preservation without holding direction?
+
+0x10
+Unknown
+
+0x14 Maximum  Downhill Speed
+Maximum speed for acceleration when going down a slope. If set to 0, the speed will not change on a slope.
+
+0x18 Deceleration
+Horizontal speed deceleration
+
+0x1C Minimum Speed after Deceleration
+Minimum speed after deceleration. Normally, when the speed falls below this speed, it will be accelerated until it reaches this speed. When the speed becomes 0, accelerate to the right.
+
+0x20
+Unknown
+
+0x24
+Unknown
+
+0x28
+Unknown
+
+0x2C
+Value relate to rotation speed
+
+0x30
+Value relate to rotation speed. If 0x34 is 0 and this value is greater than or equal to 0x2C, the rotation speed will be faster when the forward speed is fast, and the rotation speed will be 0 when the forward speed is below a certain speed.　If the value is less than 0x2C, the reverse is true, the rotation speed will be 0 if the forward speed is above a certain speed.
+
+0x34
+Values related to rotation speed. The higher the value, the faster the rotation.
+
+0x38 Rotation Speed Multiplier
+Rotation speed multiplier during Action.
+
+0x3C Wall Bounce H Multiplier
+Wall bounce horizontal momentum multiplier. If set to 0, if hits the left wall, the character will move slowly to the right, and if it hits the right wall, the character will continue straight forward.
+
+0x40 Slope Deceleration
+Deceleration when going up a slope. When the forward speed runs out, it goes down the slope.
+
+0x44 Slope Acceleration
+Acceleration when going down a slope.
+
+0x48 Additional forward damage
+Value that affects the damage added as the speed is faster. Actual damage is Hitbox damage + Current speed * This value.
+
+0x4C Acceleration Multiplier by Damage Taken
+This value is speed multiplier that accelerates when take damage. Actual acceleration speed is Damage * This Value. The direction of acceleration is determined by Hitbox's Angle Flip. (Even if the knockback direction is in the opposite direction, the character accelerates in the reference direction.)
+
+*0x50 Footstooled Cancel
+If this value is shorter than the animation length when the character is footstooled by someone during an action, the flipping animation will be canceled even if the character is footstooled by someone during an action on the ground.
+
+*0x54 Max Continue Frame
+Max continue frame
+
+*0x58 Min Continue Frame
+Min continue frame
+
+0x5C Cancel Sensitivity
+The input strength required to cancel the Action
+
+0x60
+Unknown
+
+0x64
+Unknown
+
+Par03
+Up B: Waterfall (List 3)
+
+0x0 Turn Sensitivity
+The input strength required to change direction the moment "RA-Bit[18] = true" is read. However, even if the value is set to over 1, the direction can be changed at the start and 3 frames after the start.
+
+0x4 Sensitivity
+Forward/backward sensitivity. If over 1, can't change jumping Angle.
+
+0x8 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees forward when forward input.
+
+0xC Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x10
+ ??
+
+0x14
+ ??
+
+0x18
+ ??
+
+Par04
+Up B: Waterfall (List 4)
+
+0x0 Air H Preservation pre-Jump
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 Air Gravity pre-Jump
+Aerial gravity on startup
+
+0x8 Air Jump Height
+Aerial Jump height
+
+Par06
+ExtraParams6
+
+Flags? 0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+Par00-0
+Water Gun Article
+
+0x0 Base Speed
+Base water momentum
+
+0x4 Speed Growth
+Water momentum add when charged
+
+0x8 Gravity
+Water gravity
+
+0xC
+Water spacing?
+
+*0x10 Duration
+How many frames water stays out
+
+0x14 Random GFX Size 1
+Random water GFX Size 1. Random size from 0x14 to 0x18. The higher value is the maximum size, and the lower value is the minimum size.
+
+0x18 Random GFX Size 2
+Random water GFX Size 2. Random size from 0x14 to 0x18
+
+*0x1C Knockback Growth
+Water knockback add when charged
+

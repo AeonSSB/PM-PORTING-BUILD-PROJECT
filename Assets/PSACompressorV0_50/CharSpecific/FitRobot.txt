@@ -1,0 +1,343 @@
+﻿DataSize0xB4
+07C Par00 10
+080 Par01 16
+084 Par02 12
+088 Par03 6
+08C Par04 6
+094 Art0 Charging Gyro
+09C Art1 Robo Beam
+0A4 Art2 Gyro Stand
+0AC Art3 Diffusion Beam
+0B0 Par13 8
+X08 2C-00x
+
+Art0 Charging Gyro
+3-1
+034 Par00-0 2
+
+Art1 Robo Beam
+2-2
+034 Par01-0 8
+
+Art2 Gyro Stand
+3-6
+
+Art3 Diffusion Beam
+4-4
+034 Par03-0 1
+
+Par00
+Neutral B: Robo Beam
+
+0x0 Max Downwards Angle
+Max downwards angle (higher is more angled down)
+
+0x4 Max Upwards Angle
+Max upwards angle
+
+0x8 Turning Speed
+Turning speed when input upward or downward
+
+0xC Angle Return Speed
+Angle return speed when not input upward or downward
+
+0x10
+Unknown
+
+0x14 Recharge Time
+Frames to recharge
+
+0x18 Supercharge Time
+Frames to supercharge
+
+0x1C Ground Beam X Offset
+X offset grounded beam
+
+0x20 Ground Beam Y Offset
+Y offset grounded beam
+
+0x24 Air Beam X Offset
+X offset aerial beam
+
+0x28 Air Beam Y Offset
+Y offset aerial beam
+
+*0x2C Beam Bone
+Beam focus bone
+
+*0x30 Lamp Bone
+Lamp focus bone
+
+0x34 Lamp X Offset
+Lamp X offset
+
+0x38 Lamp Y Offset
+Lamp X offset
+
+0x3C Lamp Z Offset
+Lamp Z offset
+
+Par01
+Side B: Arm Rotor
+
+0x0 Initial Spin Speed
+Initial arm rotation speed. If set low value, character will move, but it will not be possible to attack by turning the arm.
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10
+Unknown
+
+0x14
+Unknown
+
+0x18 Air H Momentum
+Aerial initial horizontal momentum
+
+0x1C Gravity
+Gravity multiplier
+
+*0x20 Change Gravity Time
+Time to enable gravity multiplier
+
+0x24 Max Angle
+Maximum angle that can be tilted back and front
+
+0x28 Angle Change Speed
+Angle change speed when can be tilted back and front
+
+0x2C Initial Deceleration
+This value is rotation deceleration until the frame set in 0x30 elapses
+
+*0x30 Initial Deceleration Valid Frame
+Time during which rotation speed deceleration is valid by 0x2C value (frames)
+
+0x34 Spin Speed Deceleration
+Rotation speed deceleration
+
+0x38
+Unknown
+
+0x3C End Spin Speed
+Spin speed equal to or less than this to end move
+
+0x40 Add Spin Speed per Tap B
+Spin speed added per B button press
+
+*0x44 Interval
+Minimum frames between button presses
+
+*0x48 Max Tap Count
+Maximum number of valid B button inputs
+
+0x4C Angle Return Speed
+Angle return speed when not input sideway
+
+0x50 Max H Speed
+Maximum horizontal speed
+
+*0x54
+Unknown
+
+Par02
+Up B: Robo Burner
+
+0x0 Max Fuel
+Max fuel of rising time
+
+0x4 Initial V Momentum (Ground)
+Grounded initial vertical momentum
+
+0x8 Initial V Momentum (Air)
+Aerial initial vertical momentum
+
+0xC H Preservation
+Horizontal momentum preservation (higher = more, but can't over previous speed)
+
+0x10
+Unknown
+
+0x14 Rise Acceleration
+Rising acceleration
+
+*0x18
+Unknown
+
+0x1C Max Rise Speed
+Maximum Rise Speed. Maximum vertical speed (0x30) cannot be exceeded, but initial vertical momentum can exceed these maximums.
+
+0x20
+Unknown
+
+0x24 H Acceleration
+Horizontal acceleration
+
+0x28 Max H Speed
+Maximum horizontal speed
+
+0x2C Gravity
+Gravity. Affected even during the rise.
+
+0x30 Max V Speed
+Maximum vertical speed
+
+0x34
+Unknown
+
+0x38 Refuel Rate
+Refuel rate
+
+0x3C
+Unknown
+
+0x40 Drain Rate
+Fuel drain rate
+
+*0x44
+Unknown
+
+Par03
+Down B: Gyro
+
+0x0 Max Charge Frame
+Time to fully charge (frames)
+
+0x4 Base Power
+Base speed and damage
+
+0x8 Power Growth Rate
+Speed and damage growth rate (charge-based)
+
+0xC
+If 90, the gyro will move to the front of the screen by one frame just before shooting
+
+0x10 Y Offset
+Gryo firing Y offset
+
+*0x14 Max Gyros
+Max number of gyros at once
+
+Par04
+Final Smash: Diffusion Beam
+
+*0x0
+Unknown
+
+0x4 Take Knockback
+This value affects amount of knockback when attacked during Final Smash. If set to 5, the character will be launched very strongly. If set to 0.01, the character will be very difficult to launch. It seems that Weight is changing instead of knockback Multiplier. 
+
+*0x8 Duration
+FS Duration (Seconds)(If 0, it will last forever)
+
+*0xC Flashing Time
+The time when the character starts flashing, counting from the end time (frames)
+
+*0x10 Attack Pattern Count
+Attack pattern count. If set at 1, only 1 type of attack will occur.
+
+*0x14 Interval
+Frame interval at which the beam pattern changes
+
+Par13
+HitDataList13 (Arm Rotor Reflect1)
+
+Offset
+No Description Available.
+
+Offset>Count
+Count
+
+0x8 Damage Multiplier
+Reflected damage multiplier
+
+0xC Speed Multiplier
+Reflected speed multiplier
+
+0x10 Damage Threshold
+Damage threshold
+
+0x14 Duration Multiplier
+Reflected duration multiplier
+
+0x18
+Unknown
+
+*0x1C
+Unknown
+
+Par00-0
+Gyro Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Par01-0
+Robo Beam Article
+
+0x0 Tolerance
+Floor bounce angle tolerance
+
+0x4
+Unknown
+
+*0x8 Robo Beam Duration
+Normal Robo Beam duration
+
+0xC Robo Beam Speed
+Normal Robo Beam speed
+
+*0x10 Floor Bounce Related
+When bouncing on the floor, if the remaining duration is less than this value, it will disappear and the next robo beam will not come out. When the remaining duration is greater than this value, nothing happens.
+
+*0x14 Super Beam Duration
+Super Robo Beam duration
+
+0x18 Super Beam Speed
+Super Robo Beam speed
+
+0x1C
+Unknown
+
+Par03-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+EXD 2C-00x
+HitDataList13>Offset (Arm Rotor Reflect2)
+
+0x0 X Offset Start
+Reflection bubble X pos Start
+
+0x4 Y Offset Start
+Reflection bubble Y pos Start
+
+0x8 Z Offset Start
+Reflection bubble Z pos Start
+
+0xC X Offset End
+Reflection bubble X pos End
+
+0x10 Y Offset End
+Reflection bubble Y pos End
+
+0x14 Z Offset End
+Reflection bubble Z pos End
+
+0x18 Size
+Reflection bubble size
+
+Flags 0x1C
+Bone (Bit1-9) and Enable?
+

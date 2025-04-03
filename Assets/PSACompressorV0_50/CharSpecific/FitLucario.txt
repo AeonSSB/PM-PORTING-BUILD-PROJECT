@@ -1,0 +1,314 @@
+﻿DataSize0xA8
+07C Par00 8
+080 Par01 4
+084 Par02 8
+088 Par03 6
+08C Par04 10
+090 Par05 8
+094 Par06 4
+098 Par07 8
+0A0 Art0 Aura Sphere
+0A4 Art1 Force Palm
+X08 27-00x
+
+Art0 Aura Sphere
+3-A
+034 Par00-0 12
+
+Art1 Force Palm
+1-1
+
+Par00
+Neutral B: Aura Sphere
+
+*0x0 Max Charge Level
+Max charge level
+
+0x4 Ground Backward Momentum
+Ground backward momentum from releasing Aura Sphere
+
+0x8 Air Backward Momentum
+Aerial backward momentum from releasing Aura Sphere
+
+0xC
+No Description Available.
+
+*0x10 Level up Frame
+Frames between change in charge level
+
+0x14 Aura Sphere Damage Multiplier
+Aura Sphere Damage Multiplier
+
+0x18 Aura Sphere Size 1
+Base Aura Sphere size
+
+0x1C Aura Sphere Size 2
+Related to Aura Sphere size. If set high value, the size will not change even if it is charged.
+
+Par01
+Aura GFX Size
+
+0x0 Low Damage Size
+Aura GFX Size when percentage is low. If only this value is large, the greater the damage, the smaller the GFX will be.
+
+0x4 High Damage Size
+Unknown. If changing this value, the size of Aura GFX may not change normally.
+
+0x8
+Aura GFX Size when percentage is high. If values of 0x0 and 0x8 are 0, the size of GFX will be 0. The size of GFX will also be 0 if all values other than 0x0 are set to 0.
+
+0xC
+Unknown. If changing this value, the size of Aura GFX may not change normally.
+
+Par02
+Aura physics
+
+0x0 Floor Damage Multiplier
+Damage multiplier of aura attacks when percentage is low
+
+0x4 Ceiling Damage Multiplier
+Damage multiplier of aura attacks when percentage is high
+
+0x8 Floor Percentage
+When over this percentage, increases damage of attacks.
+
+0xC Baseline Percentage
+Percentage when the damage multiplier of aura attacks becomes the normal
+
+0x10 Ceiling Percentage
+Percentage when the damage multiplier of aura attacks becomes the maximum
+
+0x14
+Flat aura damage bonus
+
+0x18 Max Aura Multiplier
+Aura maximum multiplier
+
+0x1C Min Aura Multiplier
+Aura minimum multiplier
+
+Par03
+Side B: Force Palm
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8 X Offset (Ground)
+Grounded X offset
+
+0xC Y Offset (Ground)
+Grounded Y offset
+
+0x10 X Offset (Air)
+Aerial X offset
+
+0x14 Y Offset (Air)
+Aerial Y offset
+
+Par04
+Up B: Extreme Speed
+
+0x0 Startup H Preservation
+Horizontal momentum preservation on startup (higher = more)
+
+0x4 Startup H Deceleration
+Momentum deceleration to horizontal preservation on startup
+
+0x8 Startup Gravity
+Gravity on aerial startup
+
+0xC
+ ?? (read on travel)
+
+0x10 Sensitivity
+Joystick sensitivity (If over 1, character cannot move directly below and side)
+
+0x14 Speed
+Speed of travel
+
+0x18 Turning Speed
+Turning speed of travel
+
+0x1C Tolerance
+Bounce angle tolerance
+
+*0x20
+Frame to disable 0x24
+
+0x24 Travel Speed Multiplier
+Travel -> Ending velocity multiplier
+
+0x28 Ending Deceleration
+Ending deceleration
+
+0x2C
+(NOT READ)
+
+0x30
+ ?? (read on end)
+
+*0x34
+ ?? (read on end)
+
+0x38 Slope Bounce H Momentum
+Horizontal momentum on slope landing when travel
+
+*0x3C
+Unknown
+
+Par05
+Down B: Double Team
+
+0x0 Startup H Preservation
+Aerial horizontal momentum preservation on startup
+
+0x4
+ ?? (read on startup)
+
+0x8
+Unknown
+
+*0xC Attack Lag
+Frames duration for dodge before attack action occurs
+
+0x10 Distance
+How far away from start attack occurs (in units)
+
+0x14
+Unknown
+
+*0x18 Duration
+Attack kick duration
+
+*0x1C
+Unknown
+
+Par06
+Final Smash: Aura Storm
+
+0x0 Rising Speed
+Rising speed
+
+0x4 Max Angle
+Max turning angle
+
+0x8 Turning Speed
+Turning speed
+
+*0xC
+Unknown
+
+Par07
+ExtraParams7
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Par00-0
+Aura Sphere Article
+
+*0x0 Duration
+Aura sphere duration
+
+0x4 Angle
+Firing angle (radians)
+
+0x8 Uncharged Speed
+Uncharged speed (Closer to fully charged speed when more charged)
+
+0xC Charged Speed
+Fully charged speed (also added on to slightly charged)
+
+*0x10 Wiggling
+Frames between wiggling (Uncharged)
+
+0x14 Randomness
+Movement added to a random direction each wiggle (Uncharged)
+
+0x18 Wiggle Intensity
+Uncharged Aura Sphere wiggle intensity
+
+0x1C Charged Wiggle Multiplier
+Charged Aura Sphere wiggle intensity multiplier
+
+0x20 Base Size
+Aura Sphere base growth size (lower = bigger)
+
+0x24 Level 1 Size
+Aura Sphere size when charge level is 1
+
+0x28 Level 2 Size
+Aura Sphere size when charge level is 2
+
+0x2C Level 3 Size
+Aura Sphere size when charge level is 3
+
+0x30 Level 4 Size
+Aura Sphere size when charge level is 4
+
+0x34 Level 5 Size
+Aura Sphere size when charge level is 5
+
+0x38 Level 6 Size
+Aura Sphere size when charge level is 6
+
+0x3C Level 7 Size
+Aura Sphere size when charge level is 7
+
+0x40 Level MAX Size
+Aura Sphere size when charge max level
+
+0x44
+Unknown. Probably has something to do with aura sphere damage/stock growth
+
+EXD 27-00x
+HitDataList8
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+

@@ -1,0 +1,374 @@
+﻿DataSize0xD4
+07C Par00 4
+080 Par01 8
+084 Par02 13
+088 Par03 4
+08C Par04 8
+090 Par05 2
+094 Par06 1
+09C Art0 Charge Shot
+0A4 Art1 Bomb
+0AC Art2 Homing Missile
+0B4 Art3 Zero Laser
+0BC Art4 Zero Laser Assistance
+0C4 Art5 Arm
+0CC Art6 Super Missile
+0D0 Art7 Grapple Beam
+
+Art0 Charge Shot
+9-9
+034 Par00-0 8
+
+Art1 Bomb
+2-2
+034 Par01-0 9
+
+Art2 Homing Missile
+2-2
+034 Par02-0 A
+
+Art3 Zero Laser
+2-2
+034 Par03-0 1
+
+Art4 Zero Laser Assistance
+2-2
+034 Par04-0 1
+
+Art5 Arm
+1-8
+034 Par05-0 1
+030 Par05D3 4
+
+Art6 Super Missile
+2-2
+034 Par06-0 6
+
+Art7 Grapple Beam
+9-A
+034 Par07-0 6
+
+Par00
+Neutral B: Charge Shot
+
+*0x0 Max Charge Level
+Max charge level
+
+0x4 Recoil
+Aerial horizontal momentum from shooting charged Charge shot (negative = backward, positive = forward)
+
+0x8 Level up Frame
+Frames between change in charge level
+
+*0xC
+Unknown
+
+Par01
+Up B: Screw Attack
+
+0x0 H Momentum (Ground)
+Horizontal momentum added with no control when ground start
+
+0x4 H Acceleration
+Horizontal acceleration when during attack
+
+0x8 Max H Speed
+Max horizontal speed when during attack
+
+0xC Air Jump Height
+Aerial jump height
+
+0x10 Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x14
+ ?? (read on startup)
+
+0x18 Landing Lag
+Landing lag
+
+*0x1C
+Unknown
+
+Par02
+Down B: Bomb
+
+0x0 V Momentum (Ground)
+Vertical momentum grounded bomb
+
+0x4 V Momentum (Air)
+Vertical momentum aerial bomb
+
+0x8 Max H Speed (Ground)
+Grounded max horizontal speed
+
+0xC Max H Speed (Air)
+Aerial max horizontal speed
+
+0x10 H Acceleration (Ground)
+Grounded horizontal acceleration
+
+0x14 H Acceleration (Air)
+Aerial horizontal acceleration
+
+0x18 H Preservation (Ground)
+Grounded horizontal momentum preservation. Can't accelerate. (smaller = less)
+
+0x1C H Preservation (Air)
+Aerial horizontal momentum preservation. Can't accelerate. (smaller = less)
+
+0x20 X Offset
+X offset
+
+0x24 Y Offset
+Y offset
+
+0x28 Z Offset
+Z offset (positive = towards camera)
+
+0x2C
+ ??
+
+*0x30
+Frame count for something? (read on bomb explosion)
+
+0x34 Bomb Jump Angle
+Angle at bomb explosion from side (radians)
+
+0x38 Bomb Jump V Momentum
+Vertical momentum from bomb explosion
+
+0x3C
+ ??
+
+0x40 Bomb Jump Max H Speed
+Max horizontal speed after bomb jump
+
+0x44
+ ??
+
+0x48
+If set to 0, the character will break if releases the bomb and then let it explode at feet without moving horizontally.
+
+Par03
+Side B: Missile
+
+*0x0
+Unknown, it is not affect to differentiating tilt input from Smash input
+
+0x4 H Preservation
+Aerial horizontal momentum preservation on startup (less = more)
+
+0x8 H Deceleration
+Aerial deceleration to horizontal momentum preservation
+
+0xC X offset
+X-offset of missile launch
+
+Par04
+Final Smash: Zero Laser
+
+0x0 Initial V Momentum
+Aerial initial vertical momentum
+
+0x4 Gravity
+Gravity
+
+0x8 Max Fall Speed
+Max fall speed
+
+0xC Turning Speed
+Turning speed
+
+0x10 Max Angle
+Max Angle (Upward and Downward)
+
+0x14 Length Increase Speed
+Speed of hitbox length increase
+
+*0x18 Hitbox Duration
+Hitbox duration
+
+*0x1C
+Unknown
+
+Par05
+ExtraParams5
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Par06
+ExtraParams6
+
+*0x0
+No Description Available.
+
+Par00-0
+Charge Shot Article
+
+*0x0 Duration
+Charge shot duration (frames)
+
+0x4 Angle
+Firing angle (radians)
+
+0x8 Uncharged Speed
+Base speed (Speed when no charge. Closer to 0xC speed when more charged)
+
+0xC Max Charged Speed
+Max charged speed
+
+0x10
+Unknown
+
+0x14
+Unknown
+
+0x18 Uncharged GFX Size
+Base Charge shot graphic size (Size when no charge. Closer to 0xC size when more charged. Also, not affect hitbox size)
+
+0x1C Max Charged GFX Size
+Max charged Charge shot graphic size (Not affect hitbox size)
+
+Par01-0
+Bomb Article
+
+*0x0 Duration
+How many frames before it explodes
+
+*0x4
+Unknown
+
+*0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Gravity
+Gravity
+
+0x14 Max Fall Speed
+Maximum falling speed
+
+0x18 Initial V Momentum
+Initial vertical momentum
+
+0x1C Bounce V Momentum
+Bounce vertical momentum
+
+0x20
+When set high value, a lag will occur before it bounces.
+
+Par02-0
+Homing Missile Article
+
+*0x0
+Unknown
+
+*0x4 Duration
+Homing missile duration (frames)
+
+*0x8 Deceleration
+Frames to deceleration and stops homing end
+
+0xC Initial Speed
+Homing missile initial speed
+
+0x10 Slower Speed
+Homing missile secondary speed, after it finishes decelerating and stops homing.
+
+0x14
+Unknown, it is not affect deceleration
+
+0x18 Accuracy
+Homing accuracy. Higher = better homing.
+
+0x1C Homing Max Angle
+Homing max changeable angle (radians)
+
+0x20 Homing Turning Speed
+Homing turning speed. Higher = slower.
+
+*0x24
+Unknown
+
+Par03-0
+Zero Laser Article
+
+*0x0 Duration
+Time from release to disappearance (frames)
+
+Par04-0
+Zero Laser Assistance Article
+
+*0x0 Duration
+Time from release to disappearance (frames)
+
+Par05-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par05D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Par06-0
+Super Missile Article
+
+*0x0
+??
+
+*0x4 Duration
+Super Missile duration (Frames)
+
+*0x8 Acceleration Enable Frames
+Super Missile acceleration point(Frames). This is the point where the super missle speeds up.
+
+0xC Initial Speed
+Super Missile initial velocity
+
+0x10 Acceleration
+Super Missile acceleration
+
+0x14
+Unknown. it is not max speed.
+
+Par07-0
+Grapple Beam Article
+
+0x0 Aerial Speed
+Aerial Speed
+
+*0x4
+Unknown
+
+*0x8 Aerial Length
+Aerial Length
+
+0xC Tether Length
+Tether Length
+
+0x10 Tether Speed
+Tether Speed
+
+0x14 Grab Pull Speed
+Speed to pull the grabbed character
+

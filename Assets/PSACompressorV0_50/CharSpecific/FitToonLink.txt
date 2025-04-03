@@ -1,0 +1,287 @@
+﻿DataSize0xCC
+07C Par00 4
+080 Par01 2
+084 Par02 6
+088 Par03 2
+08C Par04 6
+090 Par05 2
+094 Par06 4
+098 Par07 8
+0A8 Art0 (ID=2) Boomerang
+0B0 Art1 (ID=0) Bow
+0B8 Art2 (ID=1) Arrow
+0BC Art3 (ID=4) Hookshot's Chain
+0C0 Art4 (ID=5) Hookshot's Root
+0C4 Art5 (ID=4) Hookshot's Tip (Attached to Chain)
+0C8 Art6 (ID=3) Wind Waker baton
+
+Art0 (ID=2) Boomerang
+4-3
+034 Par00-0 16
+
+Art1 (ID=0) Bow
+0-6
+
+Art2 (ID=1) Arrow
+3-3
+034 Par02-0 A
+
+Art3 (ID=4) Hookshot's Chain
+9-1
+034 Par03-0 6
+
+Art4 (ID=5) Hookshot's Root
+0-2
+
+Art5 (ID=4) Hookshot's Tip (Attached to Chain)
+0-3
+
+Par00
+Neutral B: Arrows
+
+0x0
+More velocity with lower value, only affects charged arrows (no affects max charge arrows)
+
+0x4
+Unknown
+
+*0x8
+Unknown
+
+0xC Angle
+Angle (radians)
+
+Par01
+Up B: Spin Attack (Ground)
+
+*0x0 Charge Time
+Number of frames until the damage multiplier reaches the value of 0x4
+
+0x4 Charged Damage Multiplier
+Full charged damage multiplier
+
+Par02
+Up B: Spin Attack (Air)
+
+0x0 V Momentum
+Vertical momentum
+
+0x4 Gravity
+Gravity
+
+0x8
+Not used in-game
+
+0xC Mobility
+Horizontal acceleration
+
+0x10 Max H speed
+Max horizontal speed
+
+*0x14
+Unknown, it is not landing lag
+
+Par03
+Side B: Boomerang
+
+0x0 Sensitivity
+upward/downward sensitivity (If over 1, can't change angle)
+
+0x4 Angle
+Angle of upward/downward boomerang throw (radians)
+
+Par04
+Final Smash: Triforce Slash
+
+0x0 V Range
+Vertical range
+
+0x4 H Range
+Front range
+
+*0x8 Hit Lag
+Freeze frames after hit
+
+0xC Speed
+travel speed
+
+*0x10 Frame
+Travel frame. If do not approach within the time, will be canceled.
+
+0x14
+Unknown
+
+Par05
+ExtraParams5
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Par06
+ExtraParams6
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Par07
+HitDataList7
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+Par00-0
+Boomerang Article
+
+0x0 Y offset
+Boomerang vertical offset -16=Higher, hits floor sooner than it should
+
+*0x4 Tilt Duration
+Duration of short (Tilt) rang (frames)
+
+*0x8 Smash Duration
+Duration of long (Smash) rang (frames)
+
+0xC Tilt Initial Velocity
+Short (Tilt) rang initial velocity
+
+0x10 Smash Initial Velocity
+Long (Smash) rang initial velocity
+
+0x14 Z Rot on Toss
+Rotation of boomerang on toss (Z axis)
+
+0x18 Z Rot on Return
+Rotation of boomerang on return (Z axis)
+
+0x1C Back Acceleration
+Backward Acceleration
+
+0x20 Max Returning Speed
+Max Returning Speed
+
+0x24
+ ??
+
+0x28
+ ??
+
+0x2C Homing
+Boomerang Homing. Higher value = better homing to link
+
+0x30
+ ??
+
+*0x34 Homing Time
+Homing time (frames)
+
+*0x38
+ ??
+
+0x3C Catchable Range
+Catchable range
+
+0x40
+Unknown
+
+0x44
+Unknown
+
+*0x48
+Unknown
+
+*0x4C
+Unknown
+
+*0x50
+Unknown
+
+*0x54
+Unknown
+
+Par02-0
+Arrows Article
+
+0x0
+ ??
+
+*0x4
+Duration (frames)
+
+0x8 Uncharged Speed
+Uncharged Arrow Velocity (Closer to fully charged speed when more charged)
+
+0xC Charged Speed
+Full Charged Arrow velocity
+
+0x10 Uncharged Damage
+Uncharged Arrow damage (Closer to fully charged damage when more charged)
+
+0x14 Charged Damage
+Full charged Arrow damage
+
+*0x18 Remaining time
+How long an arrow remains after hitting stage objects (frames)
+
+0x1C Gravity
+Arrow gravity
+
+0x20
+Arrow weight
+
+*0x24
+Unknown
+
+Par03-0
+Hookshot Article
+
+0x0 Speed
+Speed that the chain travels (Air/Ground)
+
+*0x4 Ground Length
+Length of grounded chain - Anything higher than 21 glitches.
+
+*0x8 Air Length
+Length of aerial chain - Anything higher than 21 glitches.
+
+0xC Tether Length
+Tether length
+
+0x10 Tether Speed
+Tether speed
+
+*0x14
+Unknown
+

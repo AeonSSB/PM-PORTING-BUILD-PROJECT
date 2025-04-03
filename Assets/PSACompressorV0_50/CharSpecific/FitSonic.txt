@@ -1,0 +1,799 @@
+﻿DataSize0x9C
+07C Par00 18
+080 Par01 20
+084 Par02 8
+088 Par03 C
+08C Par04 4
+090 Par05 1
+094 Art0 Spring
+098 Art1 Super Sonic
+
+Art0 Spring
+4-2
+034 Par00-0 C
+
+Art1 Super Sonic
+4-A
+034 Par01-0 C
+038 Par01-1 68
+040 Par01-3 6
+030 Par01D3 1E
+X02 26-13x
+
+Par00
+Neutral B: Homing Attack (paramSpecialN__11ftSonicNode)
+
+0x0 Ground Initial V Momentum
+Grounded initial vertical momentum on startup
+
+0x4 Air Initial V Momentum
+Aerial initial vertical momentum on startup
+
+0x8 Momentum Preservation
+Momentum preservation (Set to 2, it will multiply current momentum by 2. Set to 0.5, current momentum will be halved.)
+
+*0xC Min Hold Frame
+Minimum hold frame on startup
+
+*0x10 Max Hold Frame
+Maximum hold frame on startup
+
+0x14
+Related to curve. Lower = smaller curves
+
+0x18
+Homing Intensity. Lower = better homing.
+
+0x1C
+Homing Dash Speed (Higher number = travel slower, and cancel before reach target if too high)
+
+0x20
+Homing Dash Acceleration?
+
+0x24
+Homing Dash Deceleration?
+
+0x28
+ ??
+
+*0x2C
+Unknown
+
+0x30 Bounce H Momentum
+Floor-bounce horizontal momentum (Hit wall = backward)
+
+0x34 Bounce V Momentum 1
+Floor-bounce vertical momentum (Hit wall = downward)
+
+0x38 Bounce V Momentum 2
+Floor-bounce vertical momentum (Hit wall = rise)
+
+0x3C Recoil Mobility
+Person-bounce aerial mobility
+
+0x40 Recoil V Momentum
+Person-bounce vertical momentum
+
+0x44 Recoil Gravity
+Person-bounce gravity multiplier
+
+*0x48
+Person-bounce height related
+
+0x4C No-Homing Angle
+No-homing dash angle (Degrees)
+
+0x50 No-Homing Speed
+No-homing dash speed
+
+*0x54 No-Homing Duration 1
+No-homing dash duration (deceleration start timing)
+
+0x58 No-Homing Deceleration
+No-homing dash deceleration
+
+*0x5C No-Homing Duration 2
+No-homing dash duration (deceleration start-end)
+
+Par01
+Side B: Spin Dash (paramSpecialS__11ftSonicNode)
+
+*0x0 Min Charge Frame
+Minimum charge frame
+
+*0x4 Max Charge Frame
+Maximum charge frame. If 0x0 is higher than 0x4, can't dash
+
+0x8
+Momentum during charge on ground
+
+0xC Base Speed
+Base speed
+
+0x10 Speed Growth
+Speed growth rate
+
+0x14 Air Forward Speed Multiplier
+The value that seems to be the speed multiplier of jumping forward with Side B, when use Down B in the air, and when falling off the edge while move forward. There is a change only when the value is less than normal.
+
+0x18
+ ?? (read on jump)
+
+0x1C Dash Jump V Momentum
+Initial dash jump vertical momentum (Not affect jump without dash)
+
+0x20 Dash Deceleration
+Dash deceleration. Speed subtracted every frame. Affects both Side B and Down B.
+
+0x24 Air Deceleration
+Aerial deceleration
+
+0x28 Maximum Move Speed
+Maximum move speed. Affects both Side B and Down B.
+
+0x2C Dash Jump H Momentum
+Initial dash jump horizontal momentum (Not affect jump without dash)
+
+*0x30 Dash Duration
+How many frames character roll around
+
+0x34 Air H Acceleration
+Aerial horizontal acceleration
+
+0x38 Air Vertical Acceleration by Input
+Aerial vertical acceleration by vertical input while during Action. If set to high value, Sonic will be able to rise and fastfall during Action.
+
+0x3C
+If dash speed is less than this value, it will move in parallel when over the edge at Side B, and will not fall off the edge at Down B (Can fall off the edge at the end).
+
+0x40
+ ?? (read on turn/land on ground)
+
+0x44 Low Speed Damage
+The lower the speed, the closer to this damage. (Affect to side B and down B)
+
+0x48 High Speed Damage
+The higher the speed, the closer to this damage. (Affect to side B and down B)
+
+0x4C Ground Deceleration
+Grounded dash deceleration at End
+
+0x50 Air Deceleration
+Aerial dash deceleration at End
+
+0x54
+Unknown
+
+0x58
+Unknown
+
+0x5C Slope Dash Related
+This value affects acceleration on a slope. Lowering the value will slow down the speed going down a slope. If set to 0, when Sonic goes up a slope, it works normally, but when Sonic goes down a slope, it doesn't advance and stops.
+
+0x60
+Unknown
+
+0x64 Additional Slope Up Speed
+Additional backward acceleration speed when going up a slope (deceleration)
+
+0x68 Additional Slope Down Speed
+Additional forward acceleration speed when going down a slope
+
+*0x6C Hit Shorten
+When attack hit, duration is shorten by this value. Affects both Side B and Down B.
+
+0x70 Hit Deceleration
+When attack hit, slow down by this value. Affects both Side B and Down B.
+
+0x74 Turn Cancel Enable Speed
+If the dash speed on the ground is below this value, stop dashing when inputting backwards
+
+0x78 Dash Multiplier after Reverse
+Dash speed multiplier after direction change
+
+0x7C Air Jump H Preservation
+Horizontal momentum preservation when canceling air dash by air jump
+
+Par02
+Up B: Spring Jump (paramSpecialHi__11ftSonicNode)
+
+0x0 Jump Startup Time
+How much time before jump (negative = spring is invisible)
+
+0x4
+ ??
+
+0x8 Ground V Momentum
+Grounded jump vertical momentum
+
+0xC Air V Momentum
+Aerial Jump vertical momentum ratio (relative to grounded)
+
+0x10 Gravity
+Gravity
+
+0x14
+Gravity?
+
+0x18 Max H Speed 1
+Maximum horizontal speed during fall after spring jump. Enable to lower of 0x18 and 0x1C.
+
+0x1C Max H Speed 2
+Maximum horizontal speed during fall after spring jump
+
+Par03
+Down B: Spin Charge (paramSpecialLw__11ftSonicNode)
+
+0x0
+Required interval to button tap
+
+0x4
+Unknown
+
+0x8 Charge Speed
+Charge speed (higher = slow)
+
+0xC Charge Time
+Charge continue time. (less = long)
+
+0x10 Charging Animation Speed
+Animation Speed on charging
+
+0x14 Charging GFX Interval
+The occurrence interval of GFX during charge. Game crashes when value too high.
+
+0x18 Initial Charge Duration
+Initial charge duration. If high, can't attack.
+
+0x1C Add Charge Time
+Additional charge time by button tap
+
+*0x20
+If high, it can't charge for a long time.
+
+0x24
+Unknown
+
+0x28 Speed Growth
+Speed growth rate. If 5 or more, the maximum speed without charge.
+
+*0x2C
+Unknown
+
+Par04
+paramSpinJump__11ftSonicNode
+
+0x0 Jump V Momentum
+Vertical momentum when input a jump during side B or down B
+
+0x4 Jump Deceleration
+Deceleration when input a jump during side B or down B (No affect to fall when no jump)
+
+0x8 Jump Max H Speed 1
+Maximum horizontal speed when input a jump during side B or down B (Can over this maximum speed when jumping during a dash)
+
+0xC Jump Max H Speed 2
+Maximum horizontal speed when input a jump during side B or down B (Can't over this maximum speed when jumping during a dash too)
+
+Par05
+paramDash__11ftSonicNode
+
+0x0
+No Description Available.
+
+Par00-0
+Spring Attribute
+
+0x0
+Unknown
+
+0x4 X Offset
+Sonic X Offset
+
+0x8 Y Offset
+Sonic Y Offset
+
+0xC Duration (Ground)
+Grounded spring duration (Frames)
+
+0x10 V Momentum (Air)
+Aerial spring initial vertical momentum
+
+0x14 Gravity
+Gravity
+
+0x18
+Unknown
+
+0x1C
+ ??
+
+0x20 Spinning
+Aerial spring max spin speed
+
+0x24 Bounce Momentum
+Aerial spring bounced momentum
+
+0x28 Bounce Spinning
+Aerial spring spin speed when bounced
+
+*0x2C
+Unknown
+
+Par01-0
+Super Sonic Attribute
+
+0x0 H acceleration
+Horizontal Acceleration
+
+0x4 Max H Speed
+Max horizontal speed
+
+0x8 V acceleration
+Vertical Acceleration
+
+0xC Max V Speed
+Max vertical speed
+
+0x10 Sensitivity
+Joystick sensitivity. If over 1, can't move.
+
+0x14 Deceleration
+Deceleration
+
+0x18
+Relate to turn
+
+0x1C Fall Speed
+Fall Speed
+
+0x20 Min High-Speed Attack
+The speed required to turn into a high-speed attack movement. If too high, can't change direction too.
+
+0x24
+If too high, can't change direction when moving.
+
+*0x28 Flashing Time
+The time when the character starts flashing, counting from the start time (frames)
+
+*0x2C FS Duration
+FS Duration
+
+Par01-1
+HitDataList
+
+HitData0-0
+No Description Available.
+
+HitData0-1
+No Description Available.
+
+HitData0-2
+No Description Available.
+
+HitData0-3
+No Description Available.
+
+HitData0-4
+No Description Available.
+
+HitData0-5
+No Description Available.
+
+HitData0-6
+No Description Available.
+
+Flags(HitData0-7)
+No Description Available.
+
+HitData1-0
+No Description Available.
+
+HitData1-1
+No Description Available.
+
+HitData1-2
+No Description Available.
+
+HitData1-3
+No Description Available.
+
+HitData1-4
+No Description Available.
+
+HitData1-5
+No Description Available.
+
+HitData1-6
+No Description Available.
+
+Flags(HitData1-7)
+No Description Available.
+
+HitData2-0
+No Description Available.
+
+HitData2-1
+No Description Available.
+
+HitData2-2
+No Description Available.
+
+HitData2-3
+No Description Available.
+
+HitData2-4
+No Description Available.
+
+HitData2-5
+No Description Available.
+
+HitData2-6
+No Description Available.
+
+Flags(HitData2-7)
+No Description Available.
+
+HitData3-0
+No Description Available.
+
+HitData3-1
+No Description Available.
+
+HitData3-2
+No Description Available.
+
+HitData3-3
+No Description Available.
+
+HitData3-4
+No Description Available.
+
+HitData3-5
+No Description Available.
+
+HitData3-6
+No Description Available.
+
+Flags(HitData3-7)
+No Description Available.
+
+HitData4-0
+No Description Available.
+
+HitData4-1
+No Description Available.
+
+HitData4-2
+No Description Available.
+
+HitData4-3
+No Description Available.
+
+HitData4-4
+No Description Available.
+
+HitData4-5
+No Description Available.
+
+HitData4-6
+No Description Available.
+
+Flags(HitData4-7)
+No Description Available.
+
+HitData5-0
+No Description Available.
+
+HitData5-1
+No Description Available.
+
+HitData5-2
+No Description Available.
+
+HitData5-3
+No Description Available.
+
+HitData5-4
+No Description Available.
+
+HitData5-5
+No Description Available.
+
+HitData5-6
+No Description Available.
+
+Flags(HitData5-7)
+No Description Available.
+
+HitData6-0
+No Description Available.
+
+HitData6-1
+No Description Available.
+
+HitData6-2
+No Description Available.
+
+HitData6-3
+No Description Available.
+
+HitData6-4
+No Description Available.
+
+HitData6-5
+No Description Available.
+
+HitData6-6
+No Description Available.
+
+Flags(HitData6-7)
+No Description Available.
+
+HitData7-0
+No Description Available.
+
+HitData7-1
+No Description Available.
+
+HitData7-2
+No Description Available.
+
+HitData7-3
+No Description Available.
+
+HitData7-4
+No Description Available.
+
+HitData7-5
+No Description Available.
+
+HitData7-6
+No Description Available.
+
+Flags(HitData7-7)
+No Description Available.
+
+HitData8-0
+No Description Available.
+
+HitData8-1
+No Description Available.
+
+HitData8-2
+No Description Available.
+
+HitData8-3
+No Description Available.
+
+HitData8-4
+No Description Available.
+
+HitData8-5
+No Description Available.
+
+HitData8-6
+No Description Available.
+
+Flags(HitData8-7)
+No Description Available.
+
+HitData9-0
+No Description Available.
+
+HitData9-1
+No Description Available.
+
+HitData9-2
+No Description Available.
+
+HitData9-3
+No Description Available.
+
+HitData9-4
+No Description Available.
+
+HitData9-5
+No Description Available.
+
+HitData9-6
+No Description Available.
+
+Flags(HitData9-7)
+No Description Available.
+
+HitData10-0
+No Description Available.
+
+HitData10-1
+No Description Available.
+
+HitData10-2
+No Description Available.
+
+HitData10-3
+No Description Available.
+
+HitData10-4
+No Description Available.
+
+HitData10-5
+No Description Available.
+
+HitData10-6
+No Description Available.
+
+Flags(HitData10-7)
+No Description Available.
+
+HitData11-0
+No Description Available.
+
+HitData11-1
+No Description Available.
+
+HitData11-2
+No Description Available.
+
+HitData11-3
+No Description Available.
+
+HitData11-4
+No Description Available.
+
+HitData11-5
+No Description Available.
+
+HitData11-6
+No Description Available.
+
+Flags(HitData11-7)
+No Description Available.
+
+HitData12-0
+No Description Available.
+
+HitData12-1
+No Description Available.
+
+HitData12-2
+No Description Available.
+
+HitData12-3
+No Description Available.
+
+HitData12-4
+No Description Available.
+
+HitData12-5
+No Description Available.
+
+HitData12-6
+No Description Available.
+
+Flags(HitData12-7)
+No Description Available.
+
+Par01-3
+Super Sonic Camera
+
+0x0 Camera V Place
+The basic vertical position the camera is at relative to the Super Sonic.
+
+0x4 Camera Size Front
+This value is how far in front of Super Sonic the normal camera range.
+
+0x8 Camera Size Back
+This value is how far in back of Super Sonic the normal camera range.
+
+0xC Camera Size Top
+This value is how far in upward of Super Sonic the normal camera range.
+
+0x10 Camera Size Bottom
+This value is how far in downward of Super Sonic the normal camera range.
+
+*0x14
+Unknown
+
+Par01D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+EXD 26-13x
+Flash Overlay Effect
+
+Offset(Event)
+Event Data(Flash Overlay Effect)
+
+Flags
+No Description Available.
+

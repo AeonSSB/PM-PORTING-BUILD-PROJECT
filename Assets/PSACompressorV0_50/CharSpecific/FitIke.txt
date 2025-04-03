@@ -1,0 +1,224 @@
+﻿DataSize0x9C
+07C Par00 6
+080 Par01 12
+084 Par02 4
+088 Par03 A
+08C Par04 6
+090 Par05 E
+098 Art0 Ragnell
+
+Art0 Ragnell
+4-4
+034 Par00-0 1
+030 Par00D3 3
+
+Par00
+Neutral B: Eruption (paramIkeSpecialN__9ftIkeNode)
+
+*0x0 Max Charge Level
+Max charge level
+
+*0x4 Base Damage
+Base damage
+
+*0x8 Damage Growth Rate
+Damage growth rate (per level)
+
+0xC H Preservation
+Horizontal momentum preservation on startup (higher = more)
+
+0x10 Air H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0x14 Self-Damage
+Fully charged self damage
+
+Par01
+Side B: Quickdraw (paramIkeSpecialS__9ftIkeNode)
+
+*0x0 Max Damage Charge
+Max charge time for damage (frames)
+
+*0x4 Max Distance Charge
+Max charge time for distance (frames)
+
+0x8 Base Ground Travel Speed
+Base grounded travel speed (affects distance)
+
+0xC Base Air Travel Speed
+Base aerial travel speed (affects distance)
+
+0x10 Ground Speed Growth Rate
+Grounded travel speed growth rate (per charge frame)
+
+0x14 Air Speed Growth Rate
+Aerial travel speed growth rate (per charge frame)
+
+0x18 Ground Travel Deceleration
+Grounded travel deceleration
+
+0x1C Air Travel Deceleration
+Aerial travel deceleration
+
+*0x20 Travel Time
+Travel time (frames)
+
+0x24
+unknown, read once on hit
+
+0x28
+unknown, read once on hit
+
+0x2C Damage Growth Rate
+Damage growth rate (per charge frame)
+
+0x30 Ground H Preservation at End
+Grounded horizontal momentum preservation at end (higher = more)
+
+0x34 Air H Preservation at End
+Aerial horizontal momentum preservation at end (higher = more)
+
+0x38 V Momentum on Start
+Downward momentum on startup
+
+0x3C H Place to Attack
+Horizontal place to start attack
+
+0x40 V Position to Attack
+Height place to start attack
+
+0x44 Scale to Attack
+Range to start attack
+
+Par02
+Up B: Aether (paramIkeSpecialHi__9ftIkeNode)
+
+0x0 Aerial Height Ratio
+Aerial jump height ratio (relative to ground version)
+
+0x4
+unknown, read once on startup and jump
+
+0x8
+unknown, read once on startup and jump
+
+*0xC Max Ledge Grab Count
+Maximum number of times character can grab the ledge before needing to land on stage
+
+Par03
+Down B: Counter (paramIkeSpecialLw__9ftIkeNode)
+
+0x0 Air H Preservation
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 Air H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0x8 Gravity
+Gravity
+
+0xC Max Fall Speed
+Max fall speed
+
+0x10 Damage Multiplier
+Counter attack damage mltiplier
+
+0x14
+unknown, read on activation
+
+*0x18 Block Hitlag
+Freeze frames on hit
+
+0x1C Min Damage
+Counter attack minimum damage
+
+0x20 Max Damage
+Counter attack maximum damage
+
+0x24
+unknown, read on activation
+
+Par04
+Counter Extra (paramIkeSpecialLwShield__9ftIkeNode)
+
+*0x0 Bone
+Focus Bone
+
+0x4 X Offset
+Block bubble X offset (Normal = Depth place)
+
+0x8 Y Offset
+Block bubble Y Offset (Normal = Height place)
+
+0xC Z Offset
+Block bubble Z Offset (Normal = Front place)
+
+0x10 Size
+Block bubble size
+
+*0x14
+Unknown
+
+Par05
+Final Smash: Great Aether (paramIkeFinal__9ftIkeNode)
+
+0x0 Terget H Specing
+Horizontal spacing when first attack was hit multiple tergets
+
+0x4 Get Sword H Offset
+Horizontal position of the sword when taking the thrown sword
+
+0x8 Get Sword V Offset
+Vertical position of the sword when taking the thrown sword
+
+0xC V Momentum when Start
+Vertical momentum when take the thrown sword and start attacks
+
+0x10 Fall Speed
+Ike falling speed (does not affect opponent)
+
+0x14 H Position when Start
+Horizontal position where Ike moves after the first attack hits
+
+*0x18
+Unknown
+
+*0x1C
+The number of frames it takes to take the thrown sword after the first attack hits
+
+0x20 Rising speed
+Move speed after the first attack was hit
+
+0x24
+Unknown
+
+0x28
+Unknown
+
+0x2C
+Unknown
+
+0x30
+Unknown
+
+0x34
+Unknown
+
+Par00-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+

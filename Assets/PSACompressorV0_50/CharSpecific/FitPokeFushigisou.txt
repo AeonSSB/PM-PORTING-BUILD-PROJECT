@@ -1,0 +1,181 @@
+﻿DataSize0x98
+07C Par00 A
+080 Par01 6
+084 Par02 8
+088 Par03 1
+08C Art0 Leaf
+090 Art1 Seed
+094 Art2 Vine Whip
+
+Art0 Leaf
+2-2
+034 Par00-0 8
+
+Art1 Seed
+3-3
+034 Par01-0 2
+
+Art2 Vine Whip
+9-2
+034 Par02-0 2
+030 Par02D3 8
+
+Par00
+Fatigue/Stamina
+
+0x0 Max Stamina
+Max stamina
+
+0x4 Stamina Decrease per Second
+Stamina decrease value per second
+
+0x8 Stamina Decrease per Attack
+Stamina decrease value per attack
+
+0xC Stamina Increase Value
+Stamina increase value per rest second
+
+0x10 KB Multiplier at Weakest
+Knockback multiplier at Weakest Stamina (0x24)
+
+0x14
+Unknown, not affect tired animation
+
+0x18 Stamina Decrease per KO'd
+Stamina decrease value when KO'd
+
+0x1C Weakness KB Multiplier
+Knockback multiplier when taken weakness element attack
+
+0x20 Resistance KB Multiplier
+Knockback multiplier when taken resistance element attack
+
+0x24 Weakest Stamina
+Weakest stamina level
+
+Par01
+Neutral B: Bullet Seed
+
+*0x0 Interval
+Frames between seeds
+
+0x4 Seeds Speed
+Vertical momentum of seeds
+
+0x8 Y Offset
+Seeds starting Y Offset
+
+*0xC Min Continue Frame
+Minimum hold continue frame
+
+*0x10 Max Continue Frame
+Maximum hold continue frame
+
+*0x14
+Unknown
+
+Par02
+Side B: Razor Leaf
+
+0x0 Tilt Speed
+Tilt (Normal) speed
+
+*0x4
+Buffer (in frames) for differentiating tilt input from Smash input
+
+0x8 Smash Speed
+Smash speed
+
+0xC Angle
+Firing angle (degrees)
+
+0x10 X offset (Ground)
+Grounded X offset
+
+0x14 Y offset (Ground)
+Grounded Y offset
+
+0x18 X offset (Air)
+Aerial X offset
+
+0x1C Y offset (Air)
+Aerial Y offset
+
+Par03
+ExtraParams3
+
+*0x0
+No Description Available.
+
+Par00-0
+Razor Leaf Article
+
+*0x0 Duration
+Duration
+
+0x4 H Deceleration
+Horizontal deceleration on tilt leaf
+
+0x8 Random Rotation Speed 1
+Random rotation speed 1. Random speed from 0x8 to 0xC.
+
+0xC Random Rotation Speed 2
+Random rotation speed 2. Random speed from 0x8 to 0xC.
+
+0x10 Random Launch Trajectory
+Random Launch Trajectory upon spawn
+
+*0x14
+Unknown
+
+0x18
+If value is low, what is launched on ground sometimes disappears in the middle
+
+0x1C
+If value is low, what is launched on ground sometimes stops in the middle
+
+Par01-0
+Bullet Seed Article
+
+*0x0 Duration
+Frame duration of article
+
+0x4
+Unknown
+
+Par02-0
+Vine Whip Article
+
+0x0 Tether Length
+Tether Length
+
+0x4 Tether Speed
+Tether Speed
+
+Par02D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+

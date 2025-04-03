@@ -1,0 +1,258 @@
+﻿DataSize0x9C
+07C Par00 5
+080 Par01 3
+084 Par02 18
+088 Par03 6
+08C Par04 2
+090 Par05 2
+094 Art0 Fireball
+098 Art1 Negative Zone
+
+Art0 Fireball
+1-1
+034 Par00-0 8
+
+Art1 Negative Zone
+2-2
+034 Par01-0 16
+
+Par00
+Up B: Super Jump Punch (List 0)
+
+0x0 Turn Sensitivity
+The input strength required to change direction the moment "RA-Bit[18] = true" is read.
+
+0x4 Angle Change Sensitivity
+Sideway sensitivity. The input strength required to change angle. If over 1, can't change jumping angle.
+
+0x8 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees forward when forward input.
+
+0xC Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x10
+Unknown, not affect landing lag
+
+Par01
+Up B: Super Jump Punch (List 1)
+
+0x0 Air H Preservation pre-Jump
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 Air Gravity pre-Jump
+Aerial gravity on startup
+
+0x8 Air Jump Height
+Aerial Jump height
+
+Par02
+Side B: Green Missile
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+*0xC Max Charge Time
+Frames to fully charge
+
+0x10 Base Damage
+Base damage
+
+0x14 Damage Growth Rate
+Damage growth rate (damage = base damage + frames spent charging * this)
+
+0x18 H Preservation
+Horizontal momentum preservation on startup (less = more)
+
+0x1C
+Unknown
+
+0x20
+Unknown
+
+0x24 Base H Momentum
+Base horizontal momentum
+
+0x28 H Momentum Growth Rate
+Horizontal momentum growth rate
+
+0x2C Base V Momentum
+Base vertical momentum
+
+0x30 V Momentum Growth Rate
+Vertical momentum growth rate
+
+0x34 Launch Gravity
+Gravity during launch (affect misfire too)
+
+0x38 Launch Max Fall Speed
+Max fall speed during launch. Even if set 0, start falling at the end of launch.
+
+0x3C
+Unknown
+
+0x40 H Deceleration
+Horizontal deceleration
+
+0x44 Ending Gravity
+Ending gravity
+
+*0x48 Misfire Ratio
+Misfire ratio (i.e. 1 out of this chance of misfiring)
+
+0x4C Misfire H Momentum
+Misfire horizontal momentum
+
+0x50 Misfire V Momentum
+Misfire vertical momentum
+
+0x54 Wall Stuck Related
+This value affects probability of head getting stuck inside the wall. If change this value will make it harder to get stuck on the wall.
+
+0x58 Wall Stuck Probability
+This value affects probability of head getting stuck inside the wall. If set to 0, cannot head getting stuck on the wall.
+
+*0x5C
+No Description Available.
+
+Par03
+Down B: Luigi Cyclone (List 3)
+
+0x0
+Unknown (read on downB ground only)
+
+0x4 Max H Speed (Ground)
+Grounded max horizontal speed
+
+0x8 H Acceleration (Ground)
+Grounded horizontal acceleration. When RA-Bit[17] becomes True, the acceleration is disable and the deceleration is enable.
+
+0xC Deceleration
+Deceleration of horizontal speed after RA-Bit[17] becomes True
+
+0x10 Tab B V Momentum
+Vertical momentum added when tap B. Effective when RA-Bit[18] is True and LA-Bit[61] is False. LA-Bit[61] becomes False when on the ground.
+
+0x14 Max Rising Speed
+Max rising speed
+
+Par04
+Down B: Luigi Cyclone (List 4)
+
+0x0 Max H Speed (Air)
+Aerial max horizontal momentum
+
+0x4 H Acceleration (Air)
+Aerial horizontal acceleration. When RA-Bit[17] becomes True, the acceleration is disable and the deceleration is enable.
+
+Par05
+Final Smash: Negative Zone
+
+0x0 Gravity
+Gravity in action
+
+0x4 Max Fall Speed
+Max fall speed in action
+
+Par00-0
+Fireball Article
+
+0x0 Gravity
+Fireball gravity
+
+0x4
+Unknown
+
+0x8 Bounce
+Fireball bounce velocity multiplier
+
+0xC Initial Speed
+Initial speed
+
+0x10 Initial Angle
+Initial angle (radians)
+
+*0x14 Duration
+Duration (frames)
+
+0x18 Minimum bounce velocity
+Minimum bounce velocity (any lower will delete fireball)
+
+0x1C
+Unknown
+
+Par01-0
+Negative Zone Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+

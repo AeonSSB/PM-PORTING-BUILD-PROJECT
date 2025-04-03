@@ -1,0 +1,1589 @@
+﻿00010100
+Synchronous Timer
+Pause the current flow of events until the set time is reached. Synchronous timers count down when they are reached in the code.
+1
+
+00020000
+No Event
+No Event.
+
+
+00020100
+Asynchronous Timer
+Pause the current flow of events until the set time is reached. Asynchronous Timers start counting from the beginning of the animation.
+1
+
+00040100
+Set Loop
+Set a loop for X iterations. The starting point of the loop. Repeat the events from after this Event to before "Execute Loop".
+
+
+00050000
+Execute Loop
+Execute the the previously set loop. The ending point of the loop.
+
+
+00060000
+Loop Break
+Breaks out of all current loop.
+
+
+00070100
+Sub Routine
+Enter the event routine specified and return after ending.
+2
+
+00090100
+Goto
+Goto the event location specified and execute (does not return afterwards).
+2
+
+00080000
+Return
+Return from a Subroutine.
+
+
+000A0100
+If
+Start an If block until an Else or an End If is reached. Use this If to check for a requirement. Read the contents of the If block only if the requirements are met.
+6
+
+000A0200
+If
+Start an If block until an Else or an End If is reached. Use this If to check for a requirement with a specified value. Read the contents of the If block only if the requirements are met.
+65
+
+000A0400
+If
+Start an If block until an Else or an End If is reached. Use this If to compare values. Read the contents of the If block only if the requirements are met.
+6505
+
+000B0100
+And
+Insert an And statement to an If statement. Use this And to check for a requirement. Read the contents of the If block only if all requirements are met.
+6
+
+000B0200
+And
+Insert an And statement to an If statement. Use this And to check for a requirement with a specified value. Read the contents of the If block only if all requirements are met.
+65
+
+000B0400
+And Comparison
+Insert an And statement to an If statement. Use this And to compare values. Read the contents of the If block only if all requirements are met.
+6505
+
+000C0100
+Or
+Insert an Or statement to an If statement. Use this And to check for a requirement. Read the contents of the If block only if any of the requirements are met.
+6
+
+000C0200
+Or
+Insert an Or statement to an If statement. Use this Or to check for a requirement with a specified value. Read the contents of the If block only if any of the requirements are met.
+65
+
+000C0400
+Or Comparison
+Insert an Or statement to an If statement. Use this Or to compare values. Read the contents of the If block only if any of the requirements are met.
+6505
+
+000D0100
+Else If
+Insert an Else If block inside an If block. Use this Else If to check for a requirement. Reads the contents of the Else If block only if all If series requirements have not been met before this event in the current If block, and this requirement is met.
+6
+
+000D0200
+Else If
+Insert an Else If block inside an If block. Use this Else If to check for a requirement with a specified value. Reads the contents of the Else If block only if all If series requirements have not been met before this event in the current If block, and this requirement is met.
+65
+
+000D0400
+Else If Comparison
+Insert an Else If block inside an If block. Use this Else if to compare values. Reads the contents of the Else If block only if all If series requirements have not been met before this event in the current If block, and this requirement is met.
+6505
+
+000E0000
+Else
+Reads the contents of the Else block only if the requirements of all If series up to this event within the current If block have not been met.
+
+
+000F0000
+End If
+End an If block.
+
+
+00100200
+Switch
+Begin a multiple case Switch block.
+05
+
+00110100
+Case
+Handler for if the variable in the switch block equals the specified value.
+
+
+00120000
+Default Case
+The case chosen if none of the others are executed in a switch block.
+
+
+00130000
+End Switch
+End a Switch block.
+
+
+00180000
+Break
+Appears within Case statements; exits the switch event completely. All code located in the same case block after this event will not be executed.
+
+
+02010200
+Change Action
+Change the current action upon the specified requirement being met. Even if the requirements are not met when this Event is loaded, the requirements are met before changing to another Action, the Action will change at that moment. This Change Action is based on a requirement being met.
+06
+
+02010300
+Change Action
+Change the current action upon the specified requirement being met. Even if the requirements are not met when this Event is loaded, the requirements are met before changing to another Action, the Action will change at that moment. This Change Action is based on a requirement with a specified value being met.
+065
+
+02010500
+Change Action
+Change the current action upon the specified requirement being met. Even if the requirements are not met when this Event is loaded, the requirements are met before changing to another Action, the Action will change at that moment. This Change Action is based on a comparison.
+06505
+
+02000300
+Change Action Status
+Change the current action upon the specified requirement being met. Even if the requirements are not met when this Event is loaded, the requirements are met before changing to another Action, the Action will change at that moment. Status ID is used when such as disabling the Change Action itself by "Disable Action Status ID". This Change Action Status is based on a requirement being met.
+006
+
+02000400
+Change Action Status
+Change the current action upon the specified requirement being met. Even if the requirements are not met when this Event is loaded, the requirements are met before changing to another Action, the Action will change at that moment. Status ID is used when such as disabling the Change Action itself by "Disable Action Status ID". This Change Action Status is based on a requirement with a specified value being met.
+0065
+
+02000600
+Change Action Status
+Change the current action upon the specified requirement being met. Even if the requirements are not met when this Event is loaded, the requirements are met before changing to another Action, the Action will change at that moment. Status ID is used when such as disabling the Change Action itself by "Disable Action Status ID". This Change Action Status is based on a comparison.
+006505
+
+02040100
+Additional Requirement
+Add an additional requirement to the preceding Change Action statement. This Additional Action Requirement is based on a requirement being met.
+6
+
+02040200
+Additional Requirement
+Add an additional requirement to the preceding Change Action statement. This Additional Action Requirement is based on a requirement with a specified value being met.
+65
+
+02040400
+Additional Requirement
+Add an additional requirement to the preceding Change Action statement. This Additional Action Requirement is based on a comparison.
+6505
+
+02080100
+Disable Action Status ID
+Disables the "Change Action Status" associated with the given Status ID. To re-enable, load "Enable Action Status ID".
+
+
+02060100
+Enable Action Status ID
+Enables the "Change Action Status" associated with the given Status ID.
+
+
+64000000
+Allow Interrupt
+Allow the current action to be interrupted by another action.
+
+
+020A0100
+Allow Specific Interrupt
+Allows interruption only by specific commands. See parameters for list of possible interrupts.
+
+
+02090200
+Invert Action Status ID
+Appears to invert (or possibly only disable) a specific Status ID's enabled/disabled status. For example, if a character can crawl, this is used to disable the ability to dash when crouched, even though naturally crouching allows dashing through 020A (Allow Specific Interrupt).
+
+
+64010000
+Disallow Interrupt
+Disable all interrupts on the current action.
+
+
+020B0100
+Prevent Specific Interrupt
+Disable the specific interruption window. Must be set to the same thing as the allow specific interrupt that you wish to cancel.
+
+
+04000100
+Change Sub Action
+Change the current sub action.
+
+
+04000200
+Change Sub Action
+Change the current sub action. Can specify whether or not to pass the current frame or start the animation over.
+03
+
+04060100
+Set Animation Frame
+Changes the current frame of the animation. Does not change the frame of the sub action (i.e. timers and such are unaffected).
+1
+
+04070100
+Frame Speed Modifier
+Change the frame speed of the Sub Action. Example: Setting to 2 makes the animation and timers occur twice as fast.
+1
+
+04140100
+Set Animation & Timer Frame
+Changes the current frame of the animation and timers. Unlike "Set Animation Frame", it affects the timer within the Sub Action. For this reason, can create an infinite loop by this Event within the Sub Action.
+1
+
+040C0100
+Change Sub Action (Reverse Play)
+Change the current sub action (plays in reverse). The reading order of the Events is normal. Not in reverse order.
+
+
+04080300
+Set Bone Motion Override
+Overrides all motions following the specified bone by the motion of the specified sub action. Normally, this effect lasts until the end event "End Bone Motion Override" is loaded (It may be ended by getting, using or discarding of the item). It also loads the event of the sub action specified by this event. So, it can end this effect from the specified subaction. Of course, can also load different motion here, but in this case the event in the subaction cannot be loaded.
+
+
+040D0100
+End Bone Motion Override
+End "Set Bone Motion Override". Nothing happens if the Command ID is different from the set value.
+
+
+040E0200
+Set Bone Animation Frame
+Changes the current frame of the "Set Bone Motion Override" animation. Does not change the frame of the sub action. Nothing happens if the Command ID is different from the set value.
+01
+
+040F0200
+Bone Animation Frame Speed Modifier
+Change the frame speed of the "Set Bone Motion Override" Sub Action. Nothing happens if the Command ID is different from the set value. Example: Setting to 2 makes the animation and timers occur twice as fast.
+01
+
+04150200
+Set Bone Animation & Timer Frame
+Changes the current frame of the "Set Bone Motion Override" animation and timers. Nothing happens if the Command ID is different from the set value. Unlike "Set Bone Animation Frame", it affects the timer within the Sub Action.
+01
+
+04100200
+Set Texture Animation Override
+Override animations other than CHR by the specified Sub Action. (Such as eye movements animation. Target: SRT, SHP, PAT, VIS etc.) This effect remains until a new Sub Action with movement other than CHR is loaded or "End Texture Animation Override" is loaded. Unlike "Set Bone Motion Override", Events in the specified Sub Action by this event is not loaded.
+
+
+04110100
+End Texture Animation Override
+End "Set Texture Animation Override". This effect is valid even if the command ID is different from the set value. Even if end "Set Texture Animation Override" by this Event, the animation other than CHR that were played before not return to their original.
+
+
+04120200
+Set Texture Animation Frame
+Changes the current frame of the "Set Texture Animation Override" animation. This effect is valid even if the command ID is different from the set value.
+01
+
+04130200
+Texture Animation Frame Speed Modifier
+Change the speed of the "Set Bone Motion Override" animation. This effect is valid even if the command ID is different from the set value.
+01
+
+01010000
+Load Rest
+Stops loading subsequent events until any of the requirements set in "Set Requirement" are met. If no "Set Requirement" Events have been loaded, subsequent events cannot be loaded. When loaded in Sub Action, the Event after this cannot be read even if the condition is met.
+
+
+04020100
+Set Requirement
+Set requirement for reading "Load Rest" or later. If multiple "Set Requirement" are loaded, if one of them is achieved, load events that exist after "Load Rest".
+6
+
+04020200
+Set Requirement
+Set requirement for reading "Load Rest" or later. If multiple "Set Requirement" are loaded, if one of them is achieved, load events that exist after "Load Rest".
+65
+
+04020400
+Set Requirement
+Set requirement for reading "Load Rest" or later. If multiple "Set Requirement" are loaded, if one of them is achieved, load events that exist after "Load Rest".
+6505
+
+04030100
+Set Extra Requirement
+Add an additional requirement to the preceding "Set Requirement". When all the requirements set in these are met, load events that exist after "Load Rest".
+6
+
+04030200
+Set Extra Requirement
+Add an additional requirement to the preceding "Set Requirement". When all the requirements set in these are met, load events that exist after "Load Rest".
+65
+
+04030400
+Set Extra Requirement
+Add an additional requirement to the preceding "Set Requirement". When all the requirements set in these are met, load events that exist after "Load Rest".
+6505
+
+04010200
+Set Requirement Status
+Set requirement for reading "Load Rest" or later. This seems to be able to be disabled by "Disable Set Requirement Status ID". However, it seems to be a little unstable, so it is recommended to use "Set Requirement".
+06
+
+04050100
+Disable Set Requirement Status ID
+Disables the "Set Requirement Status" associated with the given Status ID. To re-enable, load "Enable Set Requirement Status ID".
+
+
+04040100
+Enable Set Requirement Status ID
+Enables the "Set Requirement Status" associated with the given Status ID.
+
+
+06000D00
+Offensive Collision
+Generate an offensive collision bubble with the specified parameters. If a hitbox exists, can set multiple hitboxes by setting a different ID from the existing one. Also, if set the same ID as an existing one, it will be replaced with the specified parameters loaded later.
+000001111111*
+
+06150F00
+Special Offensive Collision
+Generate an offensive collision bubble with the specified parameters. Can generate more special collisions than "Offensive Collision". If a hitbox exists, can set multiple hitboxes by setting a different ID from the existing one. Also, if set the same ID as an existing one, it will be replaced with the specified parameters loaded later.
+000001111111*0*
+
+06010200
+Change Hitbox Damage
+Changes an existing hitbox damage to the new value. Only guaranteed to work on Offensive Collisions.
+
+
+06140200
+Add Hitbox Damage
+Adds an existing hitbox damage.
+
+
+06020200
+Change Hitbox Size
+Changes an existing hitbox size to the new Scale. Only guaranteed to work on Offensive Collisions.
+01
+
+061B0500
+Move Hitbox
+Repositions an existing hitbox.
+00111
+
+062F0200
+Change Hitbox Hit Bit
+Changes a an existing hitbox Hit Bit to the new Flags.
+0*
+
+06030100
+Delete Hitbox
+Deletes only one specified hitbox among existing hitboxes. Only guaranteed to work on Offensive Collisions.
+
+
+06040000
+Terminate Collisions
+Remove all currently existing hitboxes. Also, if regenerate the offensive collision bubble after loading this, the hitbox will be hit again.
+
+
+060A0800
+Catch Collision
+Generate a grabbing collision bubble with the specified parameters.
+00111100
+
+060B0200
+Change Catch Collision Size
+Changes an existing grab collision size to the new Scale.
+01
+
+060C0100
+Delete Catch Collision
+Deletes only one specified grab collision among existing grab collisions.
+
+
+060D0000
+Terminate Catch Collisions
+Remove all currently existing grab collision bubbles.
+
+
+060E1100
+Throw Attack Collision
+Specify the properties of the throw to be used when "Throw Collision" (060F0500) is executed. Used for other things as well, such as some Final Smashes.
+00000000111000330
+
+060F0500
+Throw Collision
+Throws an opponent based on data provided by "Throw Attack Collision" (060E1100).
+00555
+
+06050100
+Body Collision
+Change how the character's own collision bubbles act.
+
+
+06080200
+Bone Collision
+Changes body collision type for a specific bone. However, can't be set to Invinsible.
+
+
+06070200
+HurtBox Collision
+Changes body collision type for a specific HurtBox. However, can't be set to Invinsible.
+
+
+06060100
+Undo Bone Collision
+Reset all specific bones collision. Can set to be intangible state by this Event too. If set intangible state by this Event, the character will not flashing.
+
+
+1E000200
+Super/Heavy Armor
+Starts super armor or heavy armor. Set both parameters to 0 to end the armor. Can't prevent sleep and flinchless knockback.
+01
+
+1E010100
+Prevent Damage
+When set to True, prevents increased damage when take a attacked. Can't prevent Flower damage and knockback.
+3
+
+1E020100
+Set Damage
+Set current damage to the specified value. Damage display does not change.
+1
+
+1E030100
+Add/Subtract Damage
+Adds or subtracts the specified amount of damage from the character's current percentage. + Values = Damage and - Values = Recover.
+1
+
+1E040100
+Subtract Damage
+Adds or subtracts the specified amount of damage from the character's current percentage. + Values = Recover and - Values = Damage. If set the value to IC-Basic[2], the damage will be 0.
+1
+
+06170300
+Defensive Collision
+Generate a defensive collision bubble. This event can't set such as size. Only type can be set.
+
+
+06180300
+Delete Defensive Collision
+Removes the specified defensive collisions.
+
+
+06241000
+Generate Defensive Collision Bubble
+Generates a custom Defensive Collision bubble. It used nativey by Subspace enemies, but it can be used by Fighters. However, use by the Fighter will be used by rewriting the ability of effects such as Franklin Badge, so overwrite by the original status is required to work around it.
+0001111111111310
+
+06200A00
+Change Defensive Collision Scale
+Generates a custom Defensive Collision bubble. (Can change only Offset and Size) It used nativey by Subspace enemies, but it can be used by Fighters. However, use by the Fighter will be used by rewriting the ability of effects such as Franklin Badge, so overwrite by the original status is required to work around it.
+0001111111
+
+061E0300
+Defensive Collision Property
+Modify a property of defensive collision.
+030
+
+06160100
+Hitbox Damage Multiplier
+Muliplies the damage of every hitbox spawned from the character by the specified value. Persists until changed.
+1
+
+06101100
+Inert Collision
+Generates a collision only used to detect with other characters, object such as items etc.
+0001111**030*3030
+
+06110200
+Change Inert Collision Size
+Changes existing inert collision size to the new Scale.
+01
+
+06120100
+Delete Inert Collision
+Deletes existing inert collision. This effect is valid even if the ID is different from the set value.
+
+
+06130000
+Terminate Inert Collision
+Remove existing inert collision.
+
+
+06091E00
+Offensive Collision Add Scale (Simple Enemy Hitbox)
+Generate an offensive collision bubble similar to "Offensive Collision". It used nativey by Subspace enemies, but it can be used by Fighters. The difference from "Offensive Collision" is that there are many parameters, with damage, knockback, and size each having additional values. However, the main reason for having many parameters, Flags is not summarized into 1 parameter.
+000010010101111110111330000305
+
+06192F00
+Special Offensive Collision Add Scale (Enemy Hitbox)
+Generate an offensive collision bubble similar to "Special Offensive Collision". It used nativey by Subspace enemies, but it can be used by Fighters. The difference from "Special Offensive Collision" is that there are many parameters, with damage, knockback, and size each having additional values. However, the main reason for having many parameters, Flags is not summarized into 2 parameters.
+00001001010111111011133000030*30333303303333305
+
+06220100
+Disable Offensive Collision
+Configure the effectiveness of hitbox. If set to False, all generated offensive collision bubble will not work. To undo, change the Action or load this event again and set to True.
+3
+
+06250100
+Take Teammates Attacks
+If set to True, the character or object will be hit by attacks from all allies too. All allies here include projectiles and items released by oneself. However, it does not allow the character to attack allies, or block, reflect, or absorb attacks from allies. (It is possible to avoid attacks by Intangible state) To undo, change the Action or load this event again and set to False. If the character is grabbed by an ally, hitboxes with Team Damager flag set to false will not hit, but will be taken by a throw attack that depends on the Throw Attack Collision parameters. It was originally only used to allow his own attacks to destroy the mine placed by the Snake's Down Smash.
+3
+
+062D0000
+Reset Hitbox has Connected
+If the Requirement "Hitbox has Connected" is True, set it to False. It has no effect on "Hitbox Connects" etc.
+
+
+0C1C0200
+Set Attack ID
+Set the Attack ID. There is no relation to hitbox ID. Increases the Attack Count when no attack ID is set or when the current attack ID is changed. And, affects stale-move negation. Only if set the event ID to "0C1C0300" and set the increased parameter to True, even if load the same Attack ID as the one currently loaded, it will affect the stale-move negation and attack count in the same way as when changing it.
+
+
+062B0D00
+Thrown Collision
+Generates a damage collision bubble surrounding the character being thrown.
+0000011111110
+
+062C0F00
+Special Collateral Collision
+Used for the "bump" collisions that occur when a character in knockback collides with another body.
+000001111111000
+
+05000000
+Reverse Direction
+Reverse the direction of the character. The effect occurs when the current Action is changed. To change the direction immediately, requires load "Decide Direction" Event after loading this Event.
+
+
+05010000
+Left Direction
+Set the character direction to the left. The effect occurs when the current Action is changed. To change the direction immediately, requires load "Decide Direction" Event after loading this Event.
+
+
+05020000
+Right Direction
+Set the character direction to the right. The effect occurs when the current Action is changed. To change the direction immediately, requires load "Decide Direction" Event after loading this Event.
+
+
+05030000
+Set Direction
+Set the character direction according to control stick X axis position. The effect occurs when the current Action is changed. To change the direction immediately, requires load "Decide Direction" Event after loading this Event.
+
+
+05040000
+Decide Direction
+Immediately change the direction of the character in the direction set by "Set Direction" etc.
+
+
+050C0000
+Reverse Model Direction (Transient)
+Reverse Model Direction. This effect ends when current action is changed.
+
+
+05050100
+Change Model Size
+Change the character size. Resizing by this event does not change the ability or damage done.Also, when get an item that changes size such as mushrooms, it will change from the base size. (In other words, the size changed by this event will be invalid.)
+1
+
+05060300
+Rotate Character Model
+Rotates character's model by amount specified. Persists until changed.
+111
+
+08000100
+Set Edge Slide
+Determines whether or not the character will slide off the edge. (Set Aerial/Onstage State)
+
+
+0E000100
+Set Air/Ground
+Sets the current physics state. (Set Kinetic State)
+
+
+0E080400
+Set/Add Momentum
+Controls the character's current momentum. It can set whether to add or override the specified parameters to the current speed. (Note: Can't use variables as parameters.)
+1110
+
+0E010200
+Add/Subtract Momentum
+Adds or subtracts speed to the character's current momentum.
+11
+
+0E020100
+Reset Certain Momentum
+When set to 1, reset vertical momentum. When set to 2, reset horizontal momentum.
+
+
+0E060100
+Disallow Certain Movements
+When set to 1, disables vertical gravity. When set to 2, horizontal acceleration and deceleration are disallowed. The speed will not be 0 and will continue to move at the speed it was loaded until it is re-enabled.
+
+
+0E070100
+Reallow Certain Movements
+This must be set to the same value as Disallow Certain Movements to work. (1 = vertical speed, 2 = horizontal speed)
+
+
+0E020000
+Reset Momentum
+Reset vertical and horizontal momentum.
+
+
+0E080200
+Set Momentum
+Controls the character's current momentum. It is only possible override the current speed. (Note: Can't use variables as parameters.)
+11
+
+0E050100
+Disable Specified Movement
+Temporarily disable certain movements related to speed.
+
+
+0E040100
+Enable Specified Movement
+Re-enable certain movements related to speed. In other words, Disable the effect of previously loaded "Disable Specified Movement". The value same as "Disable Specified Movement".
+
+
+0C040000
+Set Aerial State
+Move to aerial state when on the ground.
+
+
+05090300
+Teleportation (Stage Based)
+Teleport to the specified position based on the stage. Normally, unaffected by terrain. However, usually cannot move normally during ground actions. (Even during ground action, if the specified position exceeds the blast line, the character will self-destruct)
+111
+
+050A0300
+Teleportation (Stage Based 2)
+Teleport to the specified position based on the stage. If there are walls, floors, or ceilings before to the specified position, There is a case that stops at that place. And, usually cannot move normally during ground actions. (Even during ground action, if the specified position exceeds the blast line, the character will self-destruct)
+111
+
+050B0300
+Teleportation (Character Based)
+Teleport to the specified position based on the character position. If there are walls, floors, or ceilings before to the specified position, There is a case that stops at that place. And, usually cannot move normally during ground actions. (Even during ground action, if the specified position exceeds the blast line, the character will self-destruct)
+111
+
+0C090100
+Allow/Disallow Ledgegrab
+Allow or disallow grabbing ledges during the current action. 0 is Cannot, 1 is Only in front, 2 or 4 is Always.
+
+
+09000100
+Module09 00
+Setting of Air/ground. 0 is on ground. (When in air, Character is landing) 2 is in air. (When on ground, Character is fall) Setting this to 0 or 1 while in the air, jump count is reset. And, when over upper boundary, character will self-destruct.
+
+
+08070000
+Through Passable Floor
+When on a passable floor, pass through that floor.
+
+
+0A000100
+Sound Effect
+Play a specified sound effect.
+
+
+0A010100
+Stepping Sound Effect
+Play a specified sound effect plus a sound of stepping on the current terrain.
+
+
+0A030100
+Stop Sound Effect
+Stops the specified sound effect immediately. The sound effect occured by "Sound Effect (Transient)" can't be stopped by this Event, but can stop them all at once "Stop Transient Sound Effect".
+
+
+0A020100
+Sound Effect (Transient)
+Play a specified sound effect. The sound effect ends with the action.
+
+
+0A060000
+Stop Transient Sound Effect
+Stops all sound effects occured by "Sound Effect (Transient)".
+
+
+0A070100
+Sound Effect (Occurs When Landing)
+Play a specified sound effect. sound effect occurs when landing. However, it has no effect by most Articles. Also, can call it by "Call Setted Sound Effect".
+
+
+0A080000
+Call Setted Sound Effect
+Plays the sound effect setted by "Sound Effect (Occur Landing)".
+
+
+0A050100
+Victory? Sound Effect
+Appears to play a sound effect. Used during victories as well as other places like taunts.
+
+
+0A090100
+Landing Sound Effect
+Play a specified sound effect plus a sound of landing on the current terrain.
+
+
+0A0A0100
+Impact? Sound Effect
+Play a specified sound effect plus a sound of Impact on the current terrain.
+
+
+0C0B0000
+Low Voice Clip
+Play voice clip selected from low voice clips randomly. (Sound List 2, 0-3)
+
+
+0C190000
+Damage Voice Clip
+Play voice clip selected from damage voice clips randomly. (Sound List 0, 0-1; Sound List 1, 0-1)
+
+
+0C1D0000
+Ottotto Voice Clip
+Plays the voice clip for ottotto (ledge teeter). PM appears to repurpose this for an extra set of random voice clips.
+
+
+0C1E0000
+Voice Clip 1E
+It is used to play voice clip for Attack or Ottotto.
+
+
+0C1F0000
+Eating Voice Clip
+Play voice clip selected from eating voice clips randomly.
+
+
+0C1A0200
+Shooting Item Sound Effect
+If holding item has a bullet, the sound effect of parameter 0 is played, and if there is no bullet, the sound effect of parameter 1 is played. If not hold a item, nothing happens.
+
+
+10000100
+Generate Article
+Generates a character specific Article: a pre-made prop effect from the prop library.
+
+
+10000200
+Generate Article (Action Exclusive)
+Generates a character specific Article: a pre-made prop effect from the prop library. Has option to Article to terminate with Action ends.
+03
+
+10140100
+Generate Available Article
+Generates a character specific Article: a pre-made prop effect from the prop library. Article cannot be generated if the maximum number already exists.
+
+
+10030100
+Remove Article
+Remove all currently existing Articles with the same Article ID as the specified article. However, some articles can't be removed. There are some Articles that can't be removed if after detached.
+
+
+10010100
+Set Detach Article
+Release or detach currently existing Articles with the same Article ID as the specified article. However, it basically has no effect on Articles that have already been released or cannot be released or detached.
+
+
+10010200
+Set Detach Article 02
+Release or detach currently existing Articles with the same Article ID as the specified article. However, it basically has no effect on Articles that have already been released or cannot be released or detached.
+
+
+10090100
+Set Detach Article 09
+Release or detach currently existing Articles with the same Article ID as the specified article. It seems to be the same as "Set Detach Article".
+
+
+10050200
+Article Visibility
+Makes an Article visible or invisible. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+03
+
+100C0200
+Article Frame Speed
+Change the animation speed of the Article. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+01
+
+10040200
+Set Article Sub Action
+Change the Sub Action of the Article. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+
+
+10040300
+Set Anchored Article Sub Action
+Change the Sub Action of the Article. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+003
+
+10070200
+Set Article Action 07
+Change the Action of the Article. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+
+
+10080200
+Set Remote Article Action
+Change the Action of the Article. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+
+
+10020100
+Remove Article 02
+Remove all currently existing Articles with the same Article ID as the specified article. It seems to be the same as "Set Detach Article".
+
+
+100A0200
+Link Article to Bone
+Attach Article to specified bone. Used in Snake's taunts and victory to attach the cardboard box to bone. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+
+
+100A0300
+Link Article to Bone 03
+Attach Article to specified bone. Used in Snake's Neutral B to attach the grenade to his hand. Similar to "Remove Article", there are some case that do nothing even if loads this event.
+
+
+10130100
+Link Character and Article?
+Seems to be used whenever a detached article needs to change its action.
+
+
+0C050000
+Terminate Instance
+If used within an article, causes the acting article instance to terminate (if possible). Has other niche uses as well, such as loading secondary instance if available (i.e. character transformation).
+
+
+0C080000
+Terminate Self
+Used by certain article instances to remove themselves instead of "Terminate Instance". (note: nearly all projectiles in the game will terminate fine with the terminate instance command)
+
+
+0C090000
+Detach Self
+If used within an Article, causes the Article detach from the character. If load this Event in Article, will be unable to confirm its existence with "Article Exists" from the character, or remove it by loading "Remove Article".
+
+
+11001000
+Graphic Effect
+Generate a graphical effect. Stays at the spot it was spawned.
+0011111111111113
+
+11010A00
+Graphic Effect (Attached)
+Generate a graphical effect that moves with the bone.
+0011111113
+
+11020A00
+Graphic Effect (Attached 2)
+Generate a graphical effect that moves with the bone. The rotation and size don't move from the set values. In other words, it will not rotate or change size with the bone.
+0011111113
+
+111A1000
+Graphic Effect (Stepping)
+Generate a graphical effect. Stays at the spot it was spawned. When in shallow water, it switches to a graphic effect of water ripples.
+0011111111111113
+
+111B1000
+Graphic Effect (Landing)
+Generate a graphical effect. Stays at the spot it was spawned. When on ice or shallow water, it switches to a landing graphical effect.
+0011111111111113
+
+111C1000
+Graphic Effect (Tumbling)
+Generate a graphical effect. Stays at the spot it was spawned. When on ice or shallow water, it switches to a landing graphical effect. This is only used when falling lying down.
+0011111111111113
+
+11190A00
+Graphic Effect (Attached 19)
+Generate a graphical effect that moves with the bone. Even if Hitlag occurs, the graphical effect doesn't stop moving.
+0011111113
+
+110E1200
+Graphic Effect Add Scale (Detached 0E)
+Generate a graphical effect. Stays at the spot it was spawned. Additional values can be set for size.
+001111111111111131
+
+11100C00
+Graphic Effect Add Scale (Attached 10)
+Generate a graphical effect that moves with the bone. Additional values can be set for size.
+001111111131
+
+11110C00
+Graphic Effect Add Scale (Attached 11)
+Generate a graphical effect that moves with the bone. Additional values can be set for size. The rotation and size don't move from the set values.
+001111111131
+
+110B0500
+Graphic Effect (Reoccurs When Move)
+Generate a graphical effect. And, regenerates the same graphical effect each time it moves the specified distance. Stay at the spot where everything was spawned.
+00013
+
+110D0100
+End Graphic Effect (Reoccurs When Move)
+Ends the effect generated each time the specified graphic effect moves a specified distance.
+
+
+11140200
+Terminate All Graphic Effect
+Terminate all graphical effect.
+03
+
+11150300
+Terminate Graphic Effect
+Terminate specified graphical effect.
+033
+
+11031400
+Sword Glow
+Creates glow of sword. Graphic effects that move with the bones can be generated together. If the specified color can't be loaded successfully, the displayed color will be pure white.
+00011101113001111111
+
+11041700
+Sword/Hammer Glow
+Creates glow of Hammer. Graphic effects that move with the bones can be generated together. If the specified color can't be loaded successfully, the displayed color will be pure white.
+00011101113001111111001
+
+11050100
+Terminate Sword Glow
+Remove all Glow effects.
+
+
+21010400
+Flash Overlay Effect
+Generate a flash overlay effect over the character with the specified colors and opacity. Replaces any currently active flash effects.
+
+
+21020500
+Change Flash Overlay Color
+Changes the color of the current flash overlay effect.
+
+
+21050600
+Flash Light Effect
+Generate a flash lighting effect over the character with the specified colors, opacity and angle. Replaces any currently active flash effects.
+000011
+
+21070500
+Change Flash Light Color
+Changes the color of the current flash light effect.
+
+
+21000000
+Terminate Flash Effect
+Terminate all currently active flash effects.
+
+
+11170600
+Screen Tint (Full)
+Tint the screen to the specified color.
+
+
+11170700
+Screen Tint
+Tint the screen to the specified color. Mainly used to tint only the entire stage.
+
+
+11180200
+End Screen Tint
+End "Screen Tint" effect.
+
+
+111E0100
+Set Flashing Effect
+Set a flashing effect on the character. Depending on the type of flashing effect have set, the flashing effect will continue even if after change the action.
+
+
+111F0100
+End Flashing Effect
+Ends character's flashing effect. Can turn off the flashing effect such as when invincible, smash charging.
+
+
+11200000
+End All Flashing Effect
+Ends all flashing effects currently set on the character.
+
+
+210B0100
+Lock Shadow Effect
+Fixes the change in character color due to shadows, etc. to the specified value. The corresponding value is unknown. Loading "End Shadow Effect" returns it to normal. If load this without parameters, the value will be 1. It used for Snake's Final Smash, used only to fix the specified shadow.
+
+
+210C0000
+End Lock Shadow Effect
+The fixation of character color changes due to shadows etc. by "Lock Shadow Effect" is returned to normal.
+
+
+12000200
+Basic Variable Set
+Set a basic variable to the specified value.
+05
+
+12010200
+Basic Variable Add
+Add a specified value to a basic variable.
+05
+
+12020200
+Basic Variable Subtract
+Subtract a specified value from a basic variable.
+05
+
+12030100
+Basic Variable Increment
+Variable++ (adds 1)
+5
+
+12040100
+Basic Variable Decrement
+Variable-- (subtracts 1)
+5
+
+12060200
+Float Variable Set
+Set a floating point variable to the specified value.
+15
+
+12070200
+Float Variable Add
+Add a specified value to a float variable.
+15
+
+12080200
+Float Variable Subtract
+Subtract a specified value from a float variable.
+15
+
+120A0100
+Bit Variable Set
+Set a bit variable to true.
+5
+
+120B0100
+Bit Variable Clear
+Set a bit variable to false.
+5
+
+120D0200
+Basic Variable Multiply
+Multiply a basic value by the specified value.
+05
+
+120E0200
+Basic Variable Divide
+Divide a basic value by the specified value.
+05
+
+120F0200
+Float Variable Multiply
+Multiply a specified value with a float variable.
+15
+
+12100200
+Float Variable Divide
+Divide a specified value with a float variable.
+15
+
+12050300
+Basic Variable Random
+Set a basic variable to a random value from the maximum and minimum values
+005
+
+12110200
+Basic Variable Set Absolute
+Sets a Basic type variable to the absolute value of the specified value
+05
+
+12090300
+Float Variable Random
+Set a float variable to a random value from the maximum and minimum values
+115
+
+12120200
+Float Variable Set Absolute
+Set a float variable equal to the absolute value of some float.
+15
+
+0B020100
+Visibility
+Set whether oneself is visible or not. True = Visible, False = Invisible
+3
+
+0B000200
+Model Changer
+Changes the character's model in certain preset ways defined in the Misc section. Will revert back after action ends. (Examples: yellow eye, sheathe sword, retreat into shell, etc.)
+
+
+0B010200
+Model Changer (Permanent)
+Changes the character's model in certain preset ways defined in the Misc section. Will persist even after action ends. (Examples: yellow eye, sheathe sword, retreat into shell, etc.)
+
+
+0B030100
+Undo Model Changer
+Undo the model pattern called by "Model Changer". It has no effect on "Model Changer (Permanent)" because this event is not an event to read return to the default.
+
+
+18000100
+Slope Contour Stand
+Keeps such as feet properly on ground when using on the ground. 0 is none, 1 is entire body, 2 is Left foot, 4 is Right foot. Basically a combination of these.
+
+
+18010200
+Slope Contour Stand 02
+Keeps such as feet properly on ground slowly when using on the ground. The value same as "Slope Contour Stand".
+
+
+18010300
+Slope Contour Stand 03
+Keeps such as feet properly on ground when using on the ground. Difference from "Slope Contour Stand" (18000100) is unknown.
+003
+
+1A000100
+Screenshake
+Shakes the screen. Normal value is 0 to 2. 0 to 2: A little time (Higher = Greater) 3: Endless (Note: Don't use it as it is irreversible) 4: Weaker than 0. 5 or more: No effect
+
+
+1A030400
+Set Camera Boundaries
+Changes the camera boundaries of the character. Doesn't reset the camera boundaries; rather, it adds to them. Reverts to normal when change the Action or load "Reset Camera Boundaries".
+1111
+
+1A020200
+Move Camera Boundaries
+Moves the camera boundaries of the character. Doesn't reset the camera boundaries; rather, it adds to them. Reverts to normal when change the Action or load "Reset Camera Boundaries".
+11
+
+1A010000
+Reset Camera Boundaries
+Reset camera boundaries changed by "Set Camera Boundaries" etc.
+
+
+1A040500
+Camera Closeup
+Move the camera to the specified position based on the position where the character is. When loading continuously, the camera will not return to the normal state unless the "Normal Camera" is sandwiched between them. And, if the setting distance is too far, if don't set the camera to a close distance again using this Event when returning to the normal camera, the camera will become strange.
+00111
+
+1A080000
+Normal Camera
+Return the camera moved by "Camera Closeup" to its normal settings.
+
+
+1A060100
+Detach/Attach Camera (Close)
+Causes the camera to follow or stop following a character. False = Detached, True = Attached (Normal).
+3
+
+1A070100
+Detach/Attach Camera (Far)
+Set whether the camera recognizes characters. False = Deviate, True = Normal.
+3
+
+1A0B0000
+Disable Camera Zoom
+Disable camera zoom such as training mode. (Note: It doesn't affect the "Camera Closeup" Event.)
+
+
+1A0C0000
+Enable Camera Zoom
+Undo the effect of "Disable Camera Zoom". (Note: If read "Disable Camera Zoom" multiple times, you need to read the same or more times to get the effect)
+
+
+1F000100
+Pickup Item
+Pick up the closest item within the range where the character can pick up the item.
+
+
+1F000200
+Pickup Item
+Pick up the closest item within the range where the character can pick up the item.
+
+
+1F010300
+Throw Item
+The character throws currently held item with the specified angle and momentum.
+555
+
+1F0E0500
+Throw Item
+The character throws currently held item with the specified angle and momentum. In addition, the initial position can be set to a position far away from the character.
+11555
+
+1F020000
+Drop Item
+Cause the character to drop any currently held item. Some items disappear when it touches the floor.
+
+
+1F030100
+Consume Item
+Cause the character to consume the currently held item. There seems to be no problem if always specify 0 for the parameter in all cases. Some items, such as food and stickers, can be generated with "Generate Item" and then consumed immediately with "Consume Item: 0x0" (The effect of that item will also occur), but other items will simply disappear.
+
+
+1F0A0000
+Delete Held Item
+Delete the currently held item.
+
+
+1F050000
+Fire Weapon
+Fires a bullet from the currently held item only if it has bullets.
+
+
+1F060100
+Fire Projectile
+Fires a bullet of the specified degree of power from the currently held item only if it has bullets.
+
+
+1F070100
+Rocket Operation
+Fires a bullet from the currently held item only if it has bullets. Can set the shooting angle only when held cracker launcher. (Value is Scalar/60000. 0 = Forward, 0.0015 = Upward. If the set type is "Value", can't fire.)
+5
+
+1F080100
+Generate Item
+Generate the specified item in the character's hand.
+
+
+1F090100
+Held Items Visibility
+Determines visibility of the currently held item. True = Visible, False = Invisible
+3
+
+1F0F0100
+Wearable Items Visibility
+Visibility of wearable items (Bunny Hood, Franklin Badge, Gooey Bomb, etc) True = Visible, False = Invisible
+3
+
+1F0B0100
+Change Item Bone ID
+Change the bone where the character has the item.
+
+
+1F040200
+Change Beam Sword Size
+Modify blade size of held Beam Sword. The value is transition time, Scalar is blade size.
+01
+
+1F0C0100
+Weapon Operation
+Change action of held Fan.
+
+
+1F0D0000
+Release Assist
+Release Assist Trophy or Poke Ball.
+
+
+0C060000
+Enter Final Smash State
+When the character can use Final Smash, set to Final Smash state. When used in certain articles (Mario's Fireball etc), it loads in a value from article floating point parameter table and applies it (Mario's Fireball loads in velocity bounce multiplier, for example).
+
+
+0C070000
+Exit Final Smash State
+Exit Final Smash State.
+
+
+14050100
+Accept Various Gimmicks Effect
+When false, disable various gimmicks (Wind, Ladder, Swim, Catapult, Door etc). There are also effects that are not related to the stage gimmick, such as not being able to pick up items, ignore Negative zone, the spring cannot be used, and cannot Footstool.
+3
+
+14000100
+Enable Specified Effect
+Re-enable the effect disabled by "Enable Specified Effect". If increase 1 the parameter (Set Event ID to 14000200), the number of valid frames can be set. 0 = Negative zone and some stage gimmicks (Wind, Conveyor, Catapult, Door etc), 2 = Footstooled, 3 = Swim, 4 = Ladder.
+
+
+14010100
+Disable Specified Effect
+Disable certain effects until load the "Enable Specified Effect". Even if the action is changed, it does not return. 0 = Negative zone and some stage gimmicks (Wind, Conveyor, Catapult, Door etc), 2 = Footstooled, 3 = Swim, 4 = Ladder.
+
+
+0C160000
+Disable Magifying Glass
+Disable the display and damage of magnifying glass.
+
+
+0C0D0000
+Reset Stage Speed
+Return stage speed to default speed.
+
+
+0C0C0000
+Slow Stage Speed
+Slow down the progress of the stage.
+
+
+0C0E0000
+Stop Stage Speed
+Stop the progress of the stage. (Note: If use it in Subspace, will not be able to proceed.)
+
+
+0C0F0000
+Slow Stage Speed?
+Slow down the progress of the stage?
+
+
+0C230200
+Time Manipulation
+Slow down enemy movement. Mainly used for Final Smash. It is no influence other than fighter.
+
+
+0C250100
+Tag Display
+Disables or enables tag display for the current action. True = ON, False = OFF (Tag is the icon above your player)
+3
+
+01000000
+Go to Loop Rest 01
+Used with "Go to Loop Rest 02" or "Flow 03" to reset the Event List timer when the animation loops.
+
+
+01020000
+Go to Loop Rest 02
+Used with "Go to Loop Rest 01" to reset the Event List timer when the animation loops.
+
+
+00030000
+Flow 03
+Used with "Go to Loop Rest 01" to reset the Event List timer when the animation loops.
+
+
+14070A00
+Aesthetic Wind Effect
+Moves nearby movable model parts (capes, hair, etc) with a wind specified by the parameters.
+0111111110
+
+14040100
+Terminate Wind Effect
+Ends the wind effect spawned by "Aesthetic Wind Effect" Event.
+
+
+0D000200
+Concurrent Infinite Loop
+Runs a subroutine once per frame for the current action in parallel. This subroutine loop will run independently of the code that comes after it in the action.
+02
+
+0D010100
+Terminate Concurrent Infinite Loop
+Stop the execution of a loop created by 0D000200 (Concurrent Infinite Loop).
+
+
+07000000
+Reset Flick X
+Reset IC-Basic[21001] (FramesSinceNeutralStickX) but no effect to IC-Basic[21003].
+
+
+07010000
+Reset Flick Y
+Reset IC-Basic[21002] (FramesSinceNeutralStickY) but no effect to IC-Basic[21004].
+
+
+07020000
+Reset Button Press
+Reset "Requirement: Button Press". No effect to "Requirement: Button Pressed".
+
+
+070C0000
+Clear Buffer
+Clears the controller buffer.
+
+
+07070200
+Rumble
+Controls the rumble on the controller.
+
+
+070B0200
+Rumble Loop
+Creates a rumble loop on the controller.
+
+
+0C140200
+Set Static Article
+Set a "Static Article" (Article not for battle use). Used in victories.
+
+
+0C150100
+Remove Static Article
+Remove Static Article. Used in victories.
+
+
+020D0100
+Change Reading Action
+Only used in Action Pre. Change the Action ID to be read.
+
+
+02050300
+Additional Action Interrupts Requirement
+Only used in Extra Action Interrupts. Add an additional requirement to Change Action by Action Interrupts. In some cases, it be used to prevent switches to the specified Action. (Example: Donkey's Down B)
+006
+
+02050400
+Additional Action Interrupts Requirement
+Only used in Extra Action Interrupts. Add an additional requirement to Change Action by Action Interrupts. In some cases, it be used to prevent switches to the specified Action. (Example: Donkey's Down B)
+0065
+
+02050600
+Additional Action Interrupts Requirement
+Only used in Extra Action Interrupts. Add an additional requirement to Change Action by Action Interrupts. In some cases, it be used to prevent switches to the specified Action. (Example: Donkey's Down B)
+006505
+
+020C0100
+Clear Prevent Interrupt
+Possibly unregisters a previously created interrupt.
+
+
+03010400
+Override Bone Rotate
+Change the rotation of the specified bone to the specified value for only 1 frame. In subactions, it can only be read in "Main" or "Other". Since the effect can only be kept for 1 frame, there is a problem that it can not be used if slow or hitlag is applied even if reading every frame. But, it is useful when used in combination with event of generate a graphical effect that stays at the spot it was spawned.
+0111
+
+03060400
+Override Bone Scale
+Change the scale of the specified bone to the specified value for only 1 frame. In subactions, it can only be read in "Main" or "Other". Since the effect can only be kept for 1 frame, there is a problem that it can not be used if slow or hitlag is applied even if reading every frame. But, it is useful when used in combination with event of generate a graphical effect that stays at the spot it was spawned. (Note: GFX size is not changed, instead each offset spacing is changed)
+0111
+
+030B0400
+Override Bone Offset
+Change the offset of the specified bone to the specified value for only 1 frame. In subactions, it can only be read in "Main" or "Other". Since the effect can only be kept for 1 frame, there is a problem that it can not be used if slow or hitlag is applied even if reading every frame. But, it is useful when used in combination with event of generate a graphical effect that stays at the spot it was spawned.
+0111
+
+03020200
+Override Bone Rotate X
+Change the rotation of the specified bone to the specified value for only 1 frame. Only the X rotation can be specified, and Y and Z rotation will be 0.
+01
+
+03030200
+Override Bone Rotate Y
+Change the rotation of the specified bone to the specified value for only 1 frame. Only the Y rotation can be specified, and X and Z rotation will be 0.
+01
+
+03040200
+Override Bone Rotate Z
+Change the rotation of the specified bone to the specified value for only 1 frame. Only the Z rotation can be specified, and X and Y rotation will be 0.
+01
+
+03070200
+Override Bone Scale X
+Change the scale of the specified bone to the specified value for only 1 frame. Only the X scale can be specified, and Y and Z scale will be 0.
+01
+
+03080200
+Override Bone Scale Y
+Change the scale of the specified bone to the specified value for only 1 frame. Only the Y scale can be specified, and X and Z scale will be 0.
+01
+
+03090200
+Override Bone Scale Z
+Change the scale of the specified bone to the specified value for only 1 frame. Only the Z scale can be specified, and X and Y scale will be 0.
+01
+
+030C0200
+Override Bone Offset Z-0C?
+Change the offset of the specified bone to the specified value for only 1 frame. Only the Z offset can be specified, and X and Y offset will be 0.
+01
+
+030D0200
+Override Bone Offset Z-0D?
+Change the offset of the specified bone to the specified value for only 1 frame. Only the Z offset can be specified, and X and Y offset will be 0.
+01
+
+030E0200
+Override Bone Offset Z-0E?
+Change the offset of the specified bone to the specified value for only 1 frame. Only the Z offset can be specified, and X and Y offset will be 0.
+01
+
+04090100
+Sub Action 09
+It seems to be an event to change the current sub action. It mainly used in Subspace enemies. Unstable and easy to crash the game when used in sub actions.
+
+
+040A0100
+Sub Actions 0A
+Unknown. Set Sub Action ID?
+
+
+040B0100
+Sub Actions 0B
+Unknown. Set Frame Speed?
+1
+
+07060100
+Controller 06
+Unknown.
+3
+
+08010100
+Edge Interaction 01
+Unknown.
+
+
+08020100
+Edge Interaction 02
+Unknown.
+
+
+08040100
+Edge Interaction 04
+Unknown.
+3
+
+0C010000
+Character Specific 01
+Unknown.
+
+
+0C170100
+Character Specific 17
+Unknown. Often appears before 0C25 (Tag Display)
+3
+
+0C170200
+Character Specific 17 Variable
+Unknown. Often appears before 0C25 (Tag Display)
+35
+
+0C270000
+Character Specific 27
+Unknown. Often appears within Switch statements.
+
+
+0C2B0000
+Character Specific 2B
+Unknown
+
+
+0E0B0200
+Graphic Model Specf
+Appears to control posture graphics.
+
+
+0F030200
+Link 03
+Unknown
+
+
+17000000
+Physics Normalize
+Returns to normal physics.
+
+
+17010000
+Physics 01
+Unknown
+
+
+17050000
+Physics 05
+Unknown
+
+
+18030200
+Character Specific 03
+Unknown. Used in Samus.
+01
+
+19010000
+Module19 01
+Unknown
+

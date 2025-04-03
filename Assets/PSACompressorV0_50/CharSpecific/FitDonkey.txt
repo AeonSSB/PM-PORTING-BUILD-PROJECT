@@ -1,0 +1,321 @@
+﻿DataSize0xA0
+07C Par00 4
+080 Par01 4
+084 Par02 8
+088 Par03 4
+08C Par04 16
+090 Art0 Bongos
+094 Art1 Sound Wave
+098 Par07 2C
+
+Art0 Bongos
+1-5
+034 Par00-0 1
+
+Art1 Sound Wave
+2-2
+034 Par01-0 6
+
+Par00
+Neutral B: Giant Punch
+
+*0x0 Max Charge Swing
+How many arm swings to fully charge
+
+*0x4 Damage per Swing
+Damage per arm swing (first arm swing has no effect)
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+Par01
+Side B: Headbutt
+
+0x0 Startup H Peservation
+Startup horizontal momentum preservation (lower = more)
+
+0x4 Startup H Deceleration
+Startup horizontal speed deceleration
+
+0x8 Downward Momentum
+Downward momentum on headbutt (Occur when RA-Bit[17] is True)
+
+*0xC
+Unknown
+
+Par02
+Up B: Spinning Kong
+
+*0x0
+Unknown
+
+0x4 Air V momentum
+Aerial vertical momentum
+
+0x8 Gravity
+Gravity
+
+0xC Max Ground Speed
+Maximum horizontal speed on ground (Can't move backward)
+
+0x10 Max H Air Speed
+Maximum horizontal speed in air
+
+0x14 Ground Acceleration
+Acceleration on ground
+
+0x18 Air H Acceleration
+Horizontal acceleration in air
+
+0x1C Landing Lag
+Landing lag without interrupt
+
+Par03
+Down B: Hand Slap
+
+0x0 X Offset Hitbox 0 & 3
+X offset of hitbox 0 (Left) and hitbox 3 (Right)
+
+0x4 X Offset All Hitbox
+All collision positions move forward by this value
+
+0x8 X Offset Hitbox 1 & 2
+X offset of hitbox 1 (Left) and hitbox 2 (Right)
+
+*0xC
+Unknown
+
+Par04
+Final Smash: Konga Beat
+
+*0x0
+Minimum frames between button presses?
+
+0x4
+If set 0, Donkey may be broken during FS. Return when finished etc.
+
+0x8 Tilt Speed Related
+If 0x8 value is greater than 0xC, tilting speed will not increase even if inputting at the wrong timing.
+
+0xC Tilt Speed on Mistake
+Tilting speed when inputting at the wrong timing. If set 0, will stop on a mistake.
+
+0x10 Return Speed on Mistake
+Return speed when increased tilting speed.
+
+*0x14 Interval
+Sound waves appearance interval (frames)
+
+0x18 Damage Multiplier
+Strong sound wave damage multiplier (Multiplied over time from appearance)
+
+0x1C Max Damage Multiplier
+Strong sound wave maximum damage multiplier
+
+0x20 Speed Multiplier
+Strong sound wave speed multiplier
+
+0x24 Max Speed Multiplier
+Strong sound wave maximum speed multiplier
+
+0x28 Size Multiplier
+Strong sound wave size multiplier
+
+0x2C Max Size Multiplier
+Strong sound wave maximum size multiplier
+
+*0x30 Difficulty Related
+Affect to input timing. If set 0, will make input timing difficult.
+
+*0x34
+Unknown
+
+*0x38 Difficulty Related
+Affect to input timing. If set 0, will make input timing difficult. If increase 0x30 and 0x38 values, only successed GFX will appear more easily.
+
+*0x3C Interval
+Affects to frames that button input is disabled after input. But even if set 0, can't success by button mashing.
+
+*0x40 Success Motion related
+Affects the motion taken on success. If set to 7, the successful motion will start from the 8th time no matter how early it is.
+
+*0x44
+Unknown
+
+*0x48
+Unknown
+
+*0x4C
+Unknown
+
+*0x50
+Unknown
+
+*0x54 FS Duration
+Final Smash duration (frames)
+
+Par07
+ExtraParams7
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+Flags? 0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+Flags? 0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+Flags? 0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+*0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+*0x80
+No Description Available.
+
+*0x84
+No Description Available.
+
+*0x88
+No Description Available.
+
+Flags? 0x8C
+No Description Available.
+
+*0x90
+No Description Available.
+
+*0x94
+No Description Available.
+
+*0x98
+No Description Available.
+
+*0x9C
+No Description Available.
+
+*0xA0
+No Description Available.
+
+*0xA4
+No Description Available.
+
+*0xA8
+No Description Available.
+
+Flags? 0xAC
+No Description Available.
+
+Par00-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par01-0
+Konga Beat (Sound Wave Article)
+
+*0x0 Duration
+Duration (frames)
+
+0x4 Weak Wave Speed
+Speed of weak sound wave
+
+0x8 Strong Wave Speed
+Speed of strong sound wave
+
+0xC Sound Wave Size 1
+Sound wave size. (higher = small)
+
+0x10 Sound Wave Size 2
+Sound wave size. (higher = large)
+
+*0x14
+Unknown
+

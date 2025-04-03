@@ -1,0 +1,451 @@
+﻿DataSize0xA4
+07C Par00 A
+080 Par01 8
+084 Par02 8
+088 Par03 8
+08C Art0 Wario Bike
+090 Art1 Garlic?
+094 Par06 8
+0A0 Par09 10
+X50 27-00iBone Index Replacement Data0
+X3C 27-01iBone Index Replacement Data1
+
+Art0 Wario Bike
+13-16
+034 Par00-0 28
+030 Par00D3 4
+X1E 23-0E-00x
+
+Art1 Garlic?
+1-1
+034 Par01-0 1
+
+Par00
+Neutral B: Chomp
+
+*0x0 Min Hold Frame
+Minimum hold continue frame
+
+*0x4 Max Hold Frame
+Maximum hold continue frame
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Bite Speed
+Biting animation speed when attack button pressed
+
+0x14
+If value is low, can't change biting animation speed when attack button pressed
+
+0x18
+Unknown
+
+0x1C Bomb Damage
+Damage taken when eat a bomb
+
+0x20
+Unknown
+
+*0x24 Interval after Throw
+Frame to can't bite after throwing
+
+Par01
+Side B: Wario Bike
+
+0x0
+Unknown
+
+0x4
+ ?? (read on aerial start)
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Jump H Momentum
+Jumping off bike horizontal momentum
+
+0x14 Jump V Momentum
+Jumping off bike vertical momentum
+
+*0x18 Bike Generate Interval
+How long does it take to get the bike out again after it's gone (Frames)
+
+*0x1C
+Unknown
+
+Par02
+Up B: Corkscrew
+
+0x0 Startup H Preservation
+Startup horizontal momentum preservation
+
+0x4 Startup V Momentum 1
+Startup Vertical Momentum 1
+
+0x8 Startup V Momentum 2
+Startup Vertical Momentum 2
+
+0xC Sensitivity
+Forward/backward sensitivity. If over 1, can't change jumping Angle.
+
+0x10 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees forward when forward input.
+
+0x14 Start Fall H Momentum
+Horizontal momentum added to end of corkscrew
+
+0x18 Start Fall V Momentum
+Vertical momentum added to end of corkscrew (positive = rise)
+
+*0x1C
+Unknown
+
+Par03
+Down B: Wario Waft
+
+*0x0 Full Charge Time
+Seconds to fully charge (SpecialLwFly) If only this value is low, it will suddenly reach fully charge
+
+*0x4 Level 2 Charge Time
+Seconds to reach charge level 2 (SpecialLwM)
+
+*0x8 Level 3 Charge Time
+Seconds to reach charge level 3 (SpecialLwL)
+
+0xC Level 2 Damage Multiplier
+Charge level 2 damage multiplier (power at the point just before level 3 begins)
+
+0x10 Level 3 Damage Multiplier
+Charge level 3 damage multiplier (power at the point justt before max level begins)
+
+0x14 Level 3 V Momentum 1
+Level 3 vertical momentum at the point just after level 3 begins
+
+0x18 Level 3 V Momentum 2
+Level 3 vertical momentum at the point just before max level begins
+
+0x1C Level Max V momentum
+Level Max vertical momentum
+
+Par06
+ExtraParams6
+
+Flags? 0x0
+No Description Available.
+
+Flags? 0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+Par09
+ExtraParams9
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+Par00-0
+Wario Bike Article
+
+0x0 Ground Initial Speed
+Grounded initial speed
+
+0x4 Air Initial Speed
+Aerial initial speed
+
+0x8 Air Inital V Momentum
+Aerial inital vertical momentum
+
+0xC Ground Top Speed
+Grounded maximum horizontal speed
+
+0x10 Ground Deceleration
+Grounded horizontal speed deceleration
+
+0x14 Ground Lowest Speed
+Grounded minimum horizontal speed
+
+0x18 Air Top Speed
+Aerial maximum horizontal speed
+
+0x1C Air Deceleration
+Aerial horizontal speed deceleration
+
+0x20 Air Lowest Speed
+Aerial minimum horizontal speed
+
+0x24 Gravity
+Gravity
+
+0x28 Max Fall Speed
+Aerial max fall speed
+
+*0x2C
+Unknown
+
+0x30 Damage Growth
+Damage Growth Constant (Equation is roughly something like Speed (in Units) x this = damage output. At fullspeed with this set to 100, the hitbox did 699%-744%)
+
+0x34 Min Attack Speed
+Minimum speed at which Hitbox occurs
+
+0x38
+Minimum speed to have a hitbox?
+
+0x3C
+Unknown
+
+0x40 Turn Speed 1
+Turning speed when high-speed (less = slow)
+
+0x44 Turn Speed 2
+Turning speed when low-speed (less = slow)
+
+0x48
+ ?? (read on grounded travel)
+
+0x4C Air Rotation Speed
+Aerial rotation speed
+
+0x50 Tilt Bounce Momentum
+Bounce (vertical) momentum when the bike is tilted and landing
+
+0x54 Ground Acceleration
+Grounded horizontal acceleration
+
+0x58
+Unknown
+
+0x5C Ground Max Rotation
+Max rotation on ground
+
+0x60 Ground Rotation Speed
+Rotation speed on ground
+
+0x64 Ground Rotation Return Speed
+Return rotation speed on ground
+
+0x68
+Unknown
+
+0x6C
+Unknown
+
+*0x70
+Something with how long character have to be at max rotation before falling off at slow speeds?
+
+*0x74
+Something with how long character have to be at max rotation before falling off at fast speeds?
+
+0x78 Turn Brake
+Brake when turning
+
+*0x7C Fall Ratio
+Falling chance on turn (high = hard to fall)
+
+*0x80 Max Turn Count
+Maximum number turn before falling off the bike
+
+0x84 Deceleration after Jump
+Deceleration of bike after jumping off while running on the ground
+
+0x88
+Unknown
+
+0x8C Down after Jump
+If the bike falls below this value after jumping off while running on the ground, it will fell down.
+
+0x90
+Unknown
+
+0x94
+Unknown
+
+0x98
+Unknown
+
+*0x9C
+Unknown
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Par01-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+EXD 23-0E-00x
+ParamList1
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+*Data0-8
+No Description Available.
+
+*Data0-9
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+*Data1-8
+No Description Available.
+
+*Data1-9
+No Description Available.
+
+Data2-0
+No Description Available.
+
+Data2-1
+No Description Available.
+
+Data2-2
+No Description Available.
+
+Data2-3
+No Description Available.
+
+Data2-4
+No Description Available.
+
+Data2-5
+No Description Available.
+
+Data2-6
+No Description Available.
+
+Flags2-7
+No Description Available.
+
+*Data2-8
+No Description Available.
+
+*Data2-9
+No Description Available.
+

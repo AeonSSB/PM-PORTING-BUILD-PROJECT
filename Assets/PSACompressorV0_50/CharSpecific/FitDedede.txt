@@ -1,0 +1,706 @@
+﻿DataSize0xBC
+07C Par00 C
+080 Par01 C
+084 Par02 E
+088 Par03 6
+08C Par04 C
+094 Art0 (ID=3) Waddle Doo Beam
+09C Art1 (ID=0) Super Dedede Jump Landing Star
+0A4 Art2 (ID=1) Jet Hammer
+0AC Art3 (ID=2) Star Bullet
+0B4 Art4 Waddle Dee / Waddle Doo / Gordo
+X10 2E-00x
+
+Art0 (ID=3) Waddle Doo Beam
+1-1
+034 Par00-0 2
+
+Art1 (ID=0) Super Dedede Jump Landing Star
+1-1
+034 Par01-0 1
+
+Art2 (ID=1) Jet Hammer
+A-E
+030 Par02D3 4
+
+Art3 (ID=2) Star Bullet
+1-1
+034 Par03-0 6
+
+Art4 Waddle Dee / Waddle Doo / Gordo
+1A-1C
+034 SubAction DeeMain
+038 SubAction DooMain
+03C SubAction GordoMain
+040 SubAction DeeGFX
+044 SubAction DooGFX
+048 SubAction GordoGFX
+04C SubAction DeeSFX
+050 SubAction DooSFX
+054 SubAction GordoSFX
+058 Par04-0 52
+05C Par04-1 E
+X08 2D-18-00x
+X08 2D-18-02x
+X08 2D-18-04x
+
+Par00
+Neutral B: Inhale
+
+*0x0 Min Hold Frame
+Minimum hold continue frames
+
+0x4 Turn Sensitivity
+Backward sensitivity. If set to 0, it will turn when waiting on the ground. If set -1, move to spit action if the strength of the input in the opposite direction is less than the maximum input.
+
+0x8
+Unknown
+
+0xC Walk Speed
+Inhale walk speed
+
+0x10 Button Mashing Movement
+When waiting on the ground, if the target who is inhaled it inputs sideways or upwards, the strength to move in that direction.
+
+0x14 Jump Height Multiplier
+Inhale jump height Multiplier (Multiplier of Attributes 0x38)
+
+0x18 X Offset
+X offset of exhale
+
+0x1C Y Offset
+Y offset of exhale
+
+*0x20 Auto Spit Time
+Frames to automatically move to spit action. No effect on the time it takes for the inhaled target to escape.
+
+0x24
+Unknown
+
+0x28 Bomb Damage
+Damage taken when eat a bomb
+
+*0x2C
+Unknown
+
+Par01
+Side B: Waddle Dee Toss (paramDededeWdThrow__12ftDededeNode)
+
+0x0 Base Throw Speed
+Base throw speed
+
+0x4 Strong Throw Ratio
+Strong throw ratio (throw speed ratio when smash input) (When smash input, RA-Bit[20] is True)
+
+0x8 Normal Angle
+Default throw angle (Angle variable is RA-Float[4])
+
+0xC Downward Angle
+Downward angle
+
+0x10 Upward Angle
+Upward angle
+
+*0x14 Max Minions
+Max number of minions
+
+0x18 Waddle Dee Ratio
+Relative odds of throwing a Waddle Dee (Because it is recorded by LA-Basic[65], Waddle Dee will come out once every two times. Can Always get it by RA-Basic[0]=0. Also, can Always get it by RA-Basic[0]=0.)
+
+0x1C Waddle Doo Ratio
+Relative odds of throwing a Waddle Doo (Can Always get it by RA-Basic[0]=1)
+
+0x20 Gordo Ratio
+Relative odds of throwing a Gordo (Can Always get it by RA-Basic[0]=2)
+
+0x24 Capsule Ratio
+Relative odds of throwing a Capsule (If Item Switch is set so that the capsule does not come out, it will not come out at all. Also, can Always get it by RA-Basic[0]=3.)
+
+*0x28
+ ?? (read on waddle toss)
+
+0x2C
+ ?? (read on waddle toss)
+
+Par02
+Up B: Super Dedede Jump (paramDededeSuperJump__12ftDededeNode)
+
+0x0 Pre Jump Slide
+How much slide when pre jump
+
+0x4 Pre Jump V Momentum
+Vertical momentum on startup (Positive=Down, Negative=Up)
+
+0x8 Pre Jump V Acceleration
+Vertical acceleration when pre jump
+
+0xC Jump H Momentum
+Horizontal movement when start Jump
+
+0x10 Jump V Momentum 1
+Vertical momentum when Jump
+
+0x14 Movement Gravity
+Gravity applied when there is a horizontal movement
+
+0x18 Jump V Momentum 2
+Vertical momentum when Jump
+
+0x1C Gravity
+Jump gravity
+
+*0x20
+Related to fall start timing (higher = fast)
+
+*0x24
+ ?? (read on upB normal landing)
+
+0x28 X Offset (Right)
+X offset of right star
+
+0x2C Y Offset (Right)
+Y offset of right star
+
+0x30 X Offset (Left)
+X offset of left star
+
+0x34 Y Offset (Left)
+Y offset of left star
+
+Par03
+Down B: Jet Hammer (paramDededeJetHammer__12ftDededeNode)
+
+0x0
+ ?? (read on upB normal landing)
+
+*0x4 Charge Time
+Time to fully charge (frames)
+
+0x8 Damage Growth Rate
+Damage growth rate
+
+*0xC Damage Interval
+Frame interval of self-damage when fully charged
+
+*0x10 Damage Increase Limit
+Maximum amount of damage by self-damage when fully charged
+
+*0x14
+Unknown
+
+Par04
+Final Smash: Waddle Dee Army (paramDededeFinal__12ftDededeNode)
+
+*0x0 Interval
+How long before the next minion comes out (frames)
+
+*0x4 Dedede Base Ratio
+After minions appear based on the stage for the number of times set in 0x4, appears once based on the position of Dedede. Repeat this alternately during Final Smash.
+
+*0x8 Max minions
+Max minions
+
+*0xC FS Duration
+Final Smash dance duration (Seconds)
+
+*0x10 Flashing Time
+The time when the character starts flashing, counting from the end time (frames)
+
+0x14 Waddle Dee Ratio
+Waddle Dee ratio
+
+0x18 Waddle Doo Ratio
+Waddle Doo ratio
+
+0x1C Gordo Ratio
+Gordo ratio
+
+*0x20
+ ?? (read on FS)
+
+0x24
+ ?? (read on FS)
+
+0x28 Dedede Base X Offset
+X offset when minion appears based on the position of Dedede. If set 50, minion will appear 50 right.
+
+0x2C Dedede Base Y Offset
+Y offset when minion appears based on the position of Dedede
+
+Par00-0
+Waddle Doo Beam Article
+
+0x0 Speed
+Beam Speed
+
+*0x4 Duration
+Duration (frames)
+
+Par01-0
+Super Dedede Jump Landing Star Article
+
+*0x0 Duration
+Duration (frames)
+
+Par02D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Par03-0
+Star Bullet Article (paramDededeStarmissile__23wnDededeStarMissileNode)
+
+0x0 Speed
+Speed of star shot
+
+0x4 Deceleration
+Speed deceleration
+
+0x8 Spin Speed
+Spinning speed
+
+0xC Ceiling Detection
+Ceiling detection
+
+0x10 Floor Detection
+Landing detection (Vertical detection offset of floor and wall)
+
+0x14 Wall Detection
+Wall detection
+
+Par04-0
+Waddle Dee / Waddle Doo / Gordo Article Params9
+
+0x0 Dee Walk Speed
+Waddle Dee walk speed
+
+0x4 Dee Knockback Rate
+Waddle Dee Knockback Rate (higher = Launch more)
+
+*0x8 Dee Duration
+Duration of the Waddle Dee. (frames) Counting starts from the start of Side Special.
+
+0xC Dee HP
+Waddle Dee MAX HP (Even if HP becomes 0, Waddle Dee does not disappear immediately)
+
+*0x10 Dee Min Interval
+Waddle Dee Minimum Action Interval (frames)
+
+*0x14 Dee Max Interval
+Waddle Dee Maximum Action Interval (frames) (Note: The real max interval is the sum frames of the Min Interval and Max Interval.)
+
+*0x18 Dee Turn Count
+When Waddle Dee Turn action more than this number of times, it will disappear at the same time as the Turn action is ended.
+
+*0x1C Dee KyoroKyoro Ratio
+The probability that Waddle Dee will do the action "KyoroKyoro". If the value is 0, this action will not be taken.
+
+*0x20 Dee Jump Ratio
+The probability that Waddle Dee will jump. If the value is 0, jump will not be taken.
+
+0x24 Dee Jump H Momentum
+Waddle Dee horizontal momentum when jumping
+
+0x28 Dee Jump V Momentum
+Waddle Dee vertical momentum when jumping (It also affects FS Jump)
+
+0x2C Dee Ground Deceleration
+Waddle Dee ground deceleration
+
+0x30 Dee Air H Deceleration
+Waddle Dee aerial horizontal deceleration
+
+0x34 Dee Air Min H Speed
+Waddle Dee aerial minimum horizontal speed
+
+0x38 Dee Gravity
+Waddle Dee gravity (It also affects FS)
+
+0x3C Dee Max Fall Speed
+Waddle Dee max fall speed
+
+0x40 Dee Hit H Momentum
+Backward momentum when the thrown Waddle Dee hits something
+
+0x44 Dee Hit V Momentum
+Upward momentum when the thrown Waddle Dee hits something
+
+0x48
+Unknown
+
+0x4C Dee FS Walk Speed
+Waddle Dee walk speed when Final Smash
+
+0x50
+If set 0, Waddle Dee at Final Smash will not move to the left in the air.
+
+0x54 Dee FS Turn Speed
+Waddle Dee turning action speed when Final Smash
+
+*0x58 Dee FS Jump Interval
+Waddle Dee jump interval when Final Smash
+
+0x5C Dee FS Jump Ratio
+Waddle Dee jump ratio when Final Smash (Max = 1)
+
+0x60 Dee FS Turn Ratio
+Probability of Waddle Dee turning action after landing with facing the edge when Final Smash.
+
+*0x64 Dee FS Hit Count
+It disappears when Waddle Dee hit floor or wall more than this number of times during the Final Smash.
+
+*0x68 Dee FS Duration
+Duration of the Waddle Dee when Final Smash (frames)
+
+0x6C Doo Walk Speed
+Waddle Doo walk speed
+
+0x70 Doo Knockback Rate
+Waddle Doo Knockback Rate (higher = Launch more)
+
+*0x74 Doo Duration
+Duration of the Waddle Doo. (frames) Counting starts from the start of Side Special.
+
+0x78 Doo HP
+Waddle Doo MAX HP (Even if HP becomes 0, Waddle Doo does not disappear immediately)
+
+*0x7C Doo Min Interval
+Waddle Doo Minimum Action Interval (frames) (Note: If extend min interval, max interval will also increase.)
+
+*0x80 Doo Max Interval
+Waddle Doo Maximum Action Interval (frames)
+
+*0x84 Doo Turn Count
+When Waddle Doo Turn action more than this number of times, it will disappear at the same time as the Turn action is ended.
+
+*0x88 Doo KyoroKyoro Ratio
+The probability that Waddle Doo will do the action "KyoroKyoro". If the value is 0, this action will not be taken.
+
+*0x8C Doo Jump Ratio
+The probability that Waddle Doo will jump. If the value is 0, jump will not be taken.
+
+0x90 Doo Jump H Momentum
+Waddle Doo horizontal momentum when jumping
+
+0x94 Doo Jump V Momentum
+Waddle Doo vertical momentum when jumping (It also affects FS Jump)
+
+0x98 Doo Ground Deceleration
+Waddle Doo ground deceleration
+
+0x9C Doo Air H Deceleration
+Waddle Doo aerial horizontal deceleration
+
+0xA0 Doo Air Min H Speed
+Waddle Doo aerial minimum horizontal speed
+
+0xA4 Doo Gravity
+Waddle Doo gravity (It also affects FS)
+
+0xA8 Doo Max Fall Speed
+Waddle Doo max fall speed
+
+0xAC Doo Hit H Momentum
+Backward momentum when the thrown Waddle Doo hits something
+
+0xB0 Doo Hit V Momentum
+Upward momentum when the thrown Waddle Doo hits something
+
+0xB4
+Unknown
+
+0xB8 Doo FS Walk Speed
+Waddle Doo walk speed when Final Smash
+
+0xBC
+If set 0, Waddle Doo at Final Smash will not move to the left in the air.
+
+0xC0 Doo FS Turn Speed
+Waddle Doo turning action speed when Final Smash
+
+*0xC4 Doo FS Jump Interval
+Waddle Doo jump interval when Final Smash
+
+0xC8 Doo FS Jump Ratio
+Waddle Doo jump ratio when Final Smash (Max = 1)
+
+0xCC Doo FS Turn Ratio
+Probability of Waddle Doo turning action after landing with facing the edge when Final Smash.
+
+*0xD0 Doo FS Hit Count
+It disappears when Waddle Doo hit floor or wall more than this number of times during the Final Smash.
+
+*0xD4 Doo FS Duration
+Duration of the Waddle Doo when Final Smash (frames)
+
+0xD8
+Unknown
+
+0xDC Gordo Knockback Rate
+Gordo knockback rate (higher = Launch more)
+
+0xE0
+Unknown. It is not affect duration.
+
+0xE4
+Unknown
+
+0xE8
+Unknown
+
+0xEC
+Unknown
+
+*0xF0 Gordo Bounce
+The number of times Gordo can bounce (disappears when bounced the number of times specified here)
+
+0xF4
+Unknown
+
+0xF8
+Unknown
+
+0xFC
+Unknown
+
+0x100
+Unknown
+
+0x104
+Gordo ground deceleration
+
+0x108 Gordo Air Deceleration
+Gordo aerial horizontal deceleration
+
+0x10C Gordo Minimum H speed
+Gordo aerial minimum horizontal speed
+
+0x110 Gordo Gravity
+Gordo gravity (It also affects FS)
+
+0x114 Gordo Max Fall Speed
+Gordo max fall speed (It is not affect FS)
+
+0x118
+Unknown
+
+0x11C
+Unknown
+
+0x120
+Unknown
+
+0x124
+Unknown
+
+0x128 Gordo FS H Speed
+Horizontal speed after Gordo first bounce on the floor when Final Smash
+
+0x12C
+Unknown
+
+*0x130
+Unknown
+
+0x134
+Unknown
+
+0x138
+Unknown
+
+*0x13C Gordo FS Hit Count
+It disappears when Gordo bounce more than this number of times during the Final Smash.
+
+*0x140 Gordo FS Duration
+Duration of the Gordo when Final Smash (frames)
+
+0x144
+No Description Available.
+
+Par04-1
+Waddle Dee / Waddle Doo / Gordo Article Params10
+
+*0x0 Dee Roll Ratio
+The probability that Waddle Dee will do the action "Roll". If the value is 0, this action will not be taken.
+
+*0x4 Dee Slip Ratio
+The probability that Waddle Dee will do the action "Slip". If the value is 0, this action will not be taken.
+
+*0x8 Dee Dive Ratio
+The probability that Waddle Dee will dive. If the value is 0, dive will not be taken. But, if set ratio of all actions to 0, will only do this action.
+
+0xC Dee Dive H Momentum
+Waddle Dee horizontal momentum when diving
+
+0x10 Dee Dive V Momentum
+Waddle Dee vertical momentum when diving
+
+0x14 Gordo Bounce H Multiplier
+Multiplier of horizontal momentum when Gordo bounces
+
+0x18 Gordo Bounce V Multiplier
+Multiplier of vertical momentum when Gordo bounces
+
+*0x1C Doo Beam Count
+The number of times Waddle Doo fires beam at one time
+
+*0x20 Doo Beam Interval
+Frames interval until the Waddle Doo Beam reoccurs
+
+0x24 Doo Beam Initial Angle
+Angle of the first shot of the Waddle Doo Beam
+
+0x28 Doo Beam Next Angle
+The angle of the next beam that is added each time Waddle Doo shoots a beam
+
+*0x2C Doo Attack Ratio
+The probability that Waddle Doo will attack. If the value is 0, attack will not be taken. But, if set ratio of all actions to 0, will only do this action.
+
+0x30 Doo Beam X Offset
+Waddle Doo Beam X Offset
+
+0x34 Doo Beam Y Offset
+Waddle Doo Beam Y Offset
+
+EXD 2E-00x
+addAreaDataSet__12ftDededeNode
+
+Flags0-0
+No Description Available.
+
+Flags0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Data0-7
+No Description Available.
+
+Flags1-0
+No Description Available.
+
+Flags1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Data1-7
+No Description Available.
+
+EXD 2D-18-00x
+hitDataWaddledee__21wnDededeWaddleDeeNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+EXD 2D-18-02x
+hitDataWaddledoo__21wnDededeWaddleDooNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+EXD 2D-18-04x
+hitDataGoldo__17wnDededeGoldoNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+

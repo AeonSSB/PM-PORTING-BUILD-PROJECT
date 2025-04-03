@@ -1,0 +1,214 @@
+﻿DataSize0xA4
+07C Par00 5
+080 Par01 3
+084 Par02 6
+088 Par03 5
+08C Par04 A
+090 Art0 Cape
+094 Art1 Fireball
+098 Art2 FLUDD
+09C Art3 (ID=0 in Article2) FLUDD's Water
+0A0 Art4 (ID=3) Mario Finale
+
+Art0 Cape
+0-2
+
+Art1 Fireball
+1-1
+034 Par01-0 8
+
+Art2 FLUDD
+3-6
+034 Par02-0 5
+
+Art3 (ID=0 in Article2) FLUDD's Water
+3-3
+034 Par03-0 8
+
+Art4 (ID=3) Mario Finale
+1-1
+034 Par04-0 2
+
+Par00
+Up B: Super Jump Punch (List 0)
+
+0x0 Turn Sensitivity
+The input strength required to change direction the moment "RA-Bit[18] = true" is read. However, even if the value is set to over 1, the direction can be changed at the start and 3 frames after the start.
+
+0x4 Angle Change Sensitivity
+Sideway sensitivity. The input strength required to change angle. If over 1, can't change jumping angle.
+
+0x8 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees forward when forward input.
+
+0xC Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x10
+Unknown (read on upB)
+
+Par01
+Up B: Super Jump Punch (List 1)
+
+0x0 Air H Preservation pre-Jump
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 Air Gravity pre-Jump
+Aerial gravity on startup
+
+0x8 Air Jump Height
+Aerial Jump height
+
+Par02
+Side B: Cape
+
+0x0 Air H Preservation
+Aerial horizontal momentum preservation on startup (less = more)
+
+0x4 Air H Deceleration
+Aerial deceleration to horizontal momentum preservation on startup
+
+0x8 Air V Momentum
+Vertical momentum for 1st aerial usage
+
+0xC Gravity
+Gravity while RA-Bit [17] is set
+
+0x10 Max Fall Speed
+Max fall speed while RA-Bit [17] is set
+
+*0x14
+Unknown (read on caping in air)
+
+Par03
+Down B: FLUDD
+
+*0x0 Max Charge Time
+Frames to fully charge
+
+0x4
+Unknown (read on firing)
+
+*0x8 Max Back Timing
+Charge time until momentum backward is max (frames)
+
+0xC Backward Momentum
+Momentum backward when firing on ground. When set to 0, occur no backward momentum both grounded and aerial.
+
+*0x10 FLUDD Stay Time
+How many frames FLUDD stays out during after action end (If the value is too low, FLUDD stays out even in the during of fully charge firing)
+
+Par04
+Cape Reflect
+
+*0x0 Bone
+Focus Bone
+
+0x4 Damage Threshold
+Damage threshold
+
+0x8 X Offset
+Reflection bubble X offset
+
+0xC Y Offset
+Reflection bubble Y offset
+
+0x10 Z Offset
+Reflection bubble Z offset
+
+0x14 Size
+Reflection bubble size
+
+0x18 Damage Multiplier
+Reflected damage multiplier
+
+0x1C Speed Multiplier
+Reflected speed multiplier
+
+0x20 Duration Multiplier
+Reflected duration multiplier
+
+*0x24
+No Description Available.
+
+Par01-0
+Fireball Article
+
+0x0 Gravity
+Fireball gravity
+
+0x4
+Unknown
+
+0x8 Bounce
+Fireball bounce velocity multiplier
+
+0xC Initial Speed
+Initial speed
+
+0x10 Initial Angle
+Initial angle (radians)
+
+*0x14 Duration
+Duration (frames)
+
+0x18 Minimum bounce velocity
+Minimum bounce velocity (any lower will delete fireball)
+
+0x1C
+Unknown
+
+Par02-0
+FLUDD Article
+
+0x0 Initial Angle
+Initial angle (degrees)
+
+0x4 Max Upward Angle
+Max upward angle (degrees)
+
+0x8 Max Downward Angle
+Max downward angle (degrees) If 25, can change angle downward to 25
+
+0xC Turning Speed
+Turning speed (also affects going back to center)
+
+0x10 V Randomness
+Water vertical offset randomness
+
+Par03-0
+FLUDD's Water Article
+
+0x0 Base Speed
+Base water momentum
+
+0x4 Speed Growth
+Water momentum add when fully charged
+
+0x8 Gravity
+Water gravity
+
+0xC
+Unknown. (read on firing) Does not affect maximum fall speed.
+
+*0x10 Duration
+How many frames water stays out
+
+0x14 Random GFX Size 1
+Random water GFX Size 1. Random size from 0x14 to 0x18. The higher value is the maximum size, and the lower value is the minimum size.
+
+0x18 Random GFX Size 2
+Random water GFX Size 2. Random size from 0x14 to 0x18
+
+*0x1C Knockback Growth
+Water knockback add when fully charged
+
+Par04-0
+Mario Finale Article
+
+*0x0 Duration
+Duration (frames)
+
+0x4
+Unknown
+

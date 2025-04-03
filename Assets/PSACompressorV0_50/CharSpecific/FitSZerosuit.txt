@@ -1,0 +1,281 @@
+﻿DataSize0xAC
+07C Par00 2
+080 Par01 1
+084 Par02 A
+088 Par03 2
+08C Art0 Gun
+090 Art1 Paralyzer
+094 Art2 Plasma Wire
+098 Art3 Power Suit Piece
+09C Par08 8
+0A4 Par10 20
+
+Art0 Gun
+1-14
+034 Par00-0 1
+030 Par00D3 4
+
+Art1 Paralyzer
+2-2
+034 Par01-0 8
+
+Art2 Plasma Wire
+9-F
+034 Par02-0 4
+
+Art3 Power Suit Piece
+1-1
+034 Par03-0 1
+
+Par00
+Neutral B: Paralyzer
+
+0x0 X Offset
+X offset
+
+0x4 Y Offset
+Y offset
+
+Par01
+ExtraParams1
+
+0x0
+No Description Available.
+
+Par02
+ExtraParams2
+
+0x0
+Unknown
+
+*0x4
+ ?? (read on starting frame)
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10
+Unknown
+
+*0x14
+ ?? (read on starting frame)
+
+0x18
+ ?? (read on starting frame)
+
+0x1C
+ ?? (read on starting frame)
+
+0x20
+ ?? (read on starting frame)
+
+*0x24
+Unknown
+
+Par03
+Power Suit Piece Falling Speed
+
+0x0 Random Fall Speed 1
+Random fall speed from 0x0 to 0x4.
+
+0x4 Random Fall Speed 2
+Random fall speed from 0x0 to 0x4.
+
+Par08
+ExtraParams8
+
+*0x0
+No Description Available.
+
+Flags? 0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Par10
+ExtraParams10
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+Par00-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Par01-0
+Paralyzer Article
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Uncharged Speed
+Uncharged speed
+
+0x14 Charged Speed
+Charged speed
+
+*0x18 Uncharged Duration
+Uncharged duration
+
+*0x1C Charged Duration
+Charged duration
+
+Par02-0
+Plasma Whip / Plasma Wire Article
+
+0x0 Tether Length
+Tether length (Affects both Side B and Up B)
+
+0x4 Tether Speed
+Tether speed (Affects both Side B and Up B)
+
+0x8
+Unknown
+
+*0xC
+Unknown
+
+Par03-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

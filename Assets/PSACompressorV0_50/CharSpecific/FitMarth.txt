@@ -1,0 +1,158 @@
+﻿DataSize0x94
+07C Par00 6
+080 Par01 6
+084 Par02 A
+088 Par03 A
+08C Par04 6
+090 Par05 6
+
+Par00
+Neutral B: Shield Breaker (paramMarthSpecialN__11ftMarthNode)
+
+*0x0 Max Charge Level
+Max charge level
+
+*0x4 Base Damage
+Base damage
+
+*0x8 Damage Growth Rate
+Damage growth rate (per level)
+
+0xC H Preservation
+Horizontal momentum preservation on startup (higher = more)
+
+0x10 Air H Deceleration
+Aerial deceleration to horizontal momentum preservation on startup
+
+*0x14
+unknown, read once on initial pullback
+
+Par01
+Side B: Dancing Blade (paramMarthSpecialS__11ftMarthNode)
+
+0x0 Air H Preservation
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4
+unknown, read once on first aerial startup
+
+0x8 Air V Momentum
+Vertical momentum when perform while rising in the air. Even if perform it for the 1st time in the air, cannot rise if character is not rising.
+
+0xC
+unknown, read once on first aerial startup
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Par02
+Up B: Dolphin Slash (paramMarthSpecialHi__11ftMarthNode)
+
+0x0 Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+0x4 Landing Lag
+Landing lag (frames)
+
+0x8
+unknown, read several times pre-jump
+
+0xC Sensitivity
+Forward/backward sensitivity. If over 1, can't change jumping Angle.
+
+0x10 Changeable Angle
+Changeable Angle (Degrees) Example: If 30, shift 30 degrees forward when forward input.
+
+0x14 Air H Preservation
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x18 Air Jump Height
+Aerial Jump height ratio (relative to ground version)
+
+0x1C Gravity at End
+post-jump gravity
+
+0x20 Max Fall Speed at End
+post jump max fall speed
+
+*0x24
+unknown, read once post-jump
+
+Par03
+Down B: Counter (paramMarthSpecialLw__11ftMarthNode)
+
+0x0 Air H Preservation
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 Air H Deceleration
+Aerial deceleration to horizontal momentum preservation on startup
+
+0x8 Gravity
+Gravity
+
+0xC Max Fall Speed
+Max fall speed
+
+0x10 Damage Multiplier
+Counter attack damage mltiplier
+
+0x14
+unknown, read on activation
+
+*0x18 Block Hitlag
+Freeze frames on hit
+
+0x1C Min Damage
+Counter attack minimum damage
+
+0x20 Max Damage
+Counter attack maximum damage
+
+0x24
+unknown, read on activation
+
+Par04
+Counter Extra (paramMarthSpecialLwShield__11ftMarthNode)
+
+*0x0 Bone
+Focus Bone
+
+0x4 X Offset
+Block bubble X offset (Normal = Depth place)
+
+0x8 X Offset
+Block bubble Y Offset (Normal = Height place)
+
+0xC Z Offset
+Block bubble Z Offset (Normal = Front place)
+
+0x10 Size
+Block bubble size
+
+*0x14
+No Description Available.
+
+Par05
+Final Smash: Critical Hit (paramMarthFinal__11ftMarthNode)
+
+0x0 Travel Speed
+Travel Speed
+
+*0x4 Travel Time
+Max travel time
+
+0x8 GFX Speed
+Hit graphic move speed
+
+*0xC GFX Move Time
+Hit graphic move frames
+
+*0x10 GFX Duration
+Hit graphic duration
+
+*0x14
+No Description Available.
+

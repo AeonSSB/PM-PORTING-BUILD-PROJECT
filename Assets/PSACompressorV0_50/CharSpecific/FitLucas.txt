@@ -1,0 +1,409 @@
+﻿DataSize0xB0
+07C Par00 6
+080 Par01 7
+084 Par02 C
+088 Par03 7
+08C Par04 5
+090 Par05 8
+094 Par06 A
+098 Art0 PK Freeze
+09C Art1 PK Fire
+0A0 Art2 PK Thunder
+0A4 Art3 (ID=2) PK Thunder's Tail (Attached to PK Thunder)
+0A8 Art4 (ID=3) PK Starstorm
+0AC Art5 (ID=4) Rope Snake
+
+Art0 PK Freeze
+4-4
+034 Par00-0 C
+
+Art1 PK Fire
+2-2
+034 Par01-0 7
+X14 27-0E-00x
+
+Art2 PK Thunder
+1-1
+034 Par02-0 6
+
+Art3 (ID=2) PK Thunder's Tail (Attached to PK Thunder)
+1-1
+034 Par03-0 1
+
+Art4 (ID=3) PK Starstorm
+1-1
+034 Par04-0 4
+
+Art5 (ID=4) Rope Snake
+9-7
+034 Par05-0 4
+
+Par00
+Neutral B: PK Freeze
+
+*0x0 Fall Timing
+Number of frames to halt vert momentum before using 0xC as gravity
+
+*0x4 Fastest Detonation Time
+Minimum frames it takes to ignite after PK Freeze appears
+
+*0x8 Max Hold Frame
+Maximum frames it takes to ignite after PK Freeze appears. It only affects during the action. Not affects disappear timing.
+
+0xC Gravity
+Gravity after initial vertical halt
+
+0x10 Landing Lag
+Landing lag after Special Fall (frames)
+
+*0x14
+Unknown
+
+Par01
+Side B: PK Fire
+
+0x0 Angle (Air)
+Aerial PK Fire angle (radians)
+
+0x4 Speed (Air)
+Aerial PK Fire speed
+
+0x8 Angle (Ground)
+Grounded PK Fire angle (radians)
+
+0xC Speed (Ground)
+Grounded PK Fire speed
+
+0x10 X Offset
+X offset of starting point
+
+0x14 Y Offset
+Y offset of starting point
+
+0x18 Landing Lag
+Landing lag (frames)
+
+Par02
+Up B: PK Thunder
+
+0x0
+Unknown
+
+*0x4 Min Hold Time 1
+Minimum hold action frames
+
+*0x8 Min Hold Time 2
+Minimum hold action frames after PK Thunder disappeared (Note: The hold lasts until the number of frames for both the 0x4 and 0x8 values has passed)
+
+*0xC Fall Timing
+Number of frames to halt vert momentum before using 0x14 as gravity
+
+0x10 Air H Preservation
+Aerial horizontal momentum preservation on startup (less = more)
+
+0x14 Gravity
+Gravity after initial vertical halt (It also affects PKT2)
+
+0x18 PKT2 Momentum
+PK Thunder 2 initial momentum
+
+0x1C PKT2 Deceleration
+PK Thunder 2 deceleration
+
+0x20 PKT2 Deceleration on Hit
+PK Thunder 2 deceleration rate after hitting something
+
+0x24 PKT2 Tolerance (Ground)
+PK Thunder 2 angle tolerance on ground
+
+0x28 PKT2 Tolerance (Landing)
+PK Thunder 2 angle tolerance when landing
+
+0x2C Landing Lag
+Landing lag after Special Fall (frames)
+
+Par03
+Down B: PSI Magnet
+
+*0x0 Min Hold Time
+Minimum hold action frames
+
+*0x4 Fall Timing
+Number of frames to halt vert momentum before using 0x10 as gravity
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10 Gravity
+Gravity after initial vertical halt
+
+0x14 Recovery Multiplier
+Damage recovery multiplier
+
+0x18 Max Recovery Damage
+Maximum damage recoverable by one absorption
+
+Par04
+PSI Magnet Extra
+
+0x0
+Bone
+
+0x4 X Offset
+Absorption collision X offset
+
+0x8 Y Offset
+Absorption collision Y offset
+
+0xC Z Offset
+Absorption collision Z offset
+
+0x10 Size
+Absorption collision size
+
+Par05
+Final Smash: PK Starstorm
+
+0x0 Fall Speed
+Fall speed at during action
+
+0x4 Appears Position
+Random horizontal position to generate (Value that the stage width as 1)
+
+0x8 Fall Position
+Random horizontal position to fall (Value that the stage width as 1)
+
+0xC Initial Interval
+Initial generate time interval
+
+0x10 Shorten Interval
+The speed at which the generation time interval becomes shorter
+
+0x14 PK Starstorm Count
+Number of generate PK Starstorm
+
+*0x18 Edge Fall Ratio
+Vertical fall at the right or left edge ratio (i.e. 1 out of this chance of edge fall)
+
+*0x1C
+Unknown
+
+Par06
+Reflect Data (Stick swing)
+
+*0x0 Bone
+Focus Bone
+
+0x4 Damage Threshold
+Damage threshold
+
+0x8 X Offset
+Reflection bubble X offset
+
+0xC Y Offset
+Reflection bubble Y offset
+
+0x10 Z Offset
+Reflection bubble Z offset
+
+0x14 Size
+Reflection bubble size
+
+0x18 Damage Multiplier
+Reflected damage multiplier
+
+0x1C Speed Multiplier
+Reflected speed multiplier
+
+0x20 Duration Multiplier
+Reflected duration multiplier
+
+*0x24
+Unknown
+
+Par00-0
+PK Freeze Article
+
+0x0 Max Charge Time
+Frames to fully charge
+
+0x4 Initial Size
+Starting size
+
+0x8 Max Charged Size
+Full charge size (If this parameter is lower than 0x4 (Initial Size), article size will be gradually lower.)
+
+0xC Angle
+Initial flying angle
+
+0x10 Initial Speed
+Initial flying speed
+
+0x14 Acceleration
+Horizontal acceleration
+
+0x18 Gravity
+Gravity
+
+0x1C Max H Speed
+Max horizontal speed
+
+0x20 Max Fall Speed
+Max fall speed
+
+0x24 Time to Explode
+The frame it takes from ignite to explode. This is also the time from when X touches the stage object to when it disappears.
+
+0x28 Base Damage
+Base Damage
+
+0x2C Damage Growth Rate
+Damage growth rate (per charge frame)
+
+Par01-0
+PK Fire Article
+
+*0x0 Spark Duration
+Spark Duration
+
+*0x4 Pillar Duration
+Fire pillar duration
+
+0x8 Pillar Y Offset
+Pillar start Y offset
+
+0xC Pillar Gravity
+Pillar gravity
+
+0x10 Pillar Max Fall Speed
+Pillar max fall speed
+
+0x14 Shorten by Damage
+Multiplier of Pillar duration that decreases when damage taken. If set 0, not decreases by damage taken.
+
+0x18 Pillar Final Size
+Pillar final size multiplier. (Compare initial size)
+
+Par02-0
+PK Thunder Article
+
+*0x0 Duration
+PK Thunder duration
+
+0x4 Speed
+PK Thunder speed
+
+0x8 Angle
+PK Thunder initial angle
+
+0xC Sensitivity
+Joystick sensitivity. If over 1, can't change angle.
+
+0x10 Turning Speed
+Turning speed
+
+*0x14
+Unknown
+
+Par03-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par04-0
+PK Starstorm Article
+
+0x0 Initial Speed
+Initial fall speed
+
+0x4 Acceleration
+Fall Acceleration
+
+*0x8
+Unknown (Not affect to duration)
+
+*0xC
+Unknown
+
+Par05-0
+Rope Snake Article
+
+0x0 Tether Length
+Tether Length
+
+0x4 Tether Speed
+Tether Speed
+
+0x8 Grab Pull Speed
+Speed to pull the grabbed character
+
+*0xC
+Unknown
+
+EXD 27-0E-00x
+ParamList1
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+*Data0-8
+No Description Available.
+
+*Data0-9
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+*Data1-8
+No Description Available.
+
+*Data1-9
+No Description Available.
+

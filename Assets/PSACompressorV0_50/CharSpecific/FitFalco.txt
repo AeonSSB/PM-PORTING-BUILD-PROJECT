@@ -1,0 +1,834 @@
+﻿DataSize0xA8
+07C Par00 7
+080 Par01 C
+084 Par02 10
+088 Par03 1
+08C Par04 2
+090 Par05 A
+094 Art0 Blaster
+098 Art1 Laser
+09C Art2 Falco Phantasm
+0A0 Art3 Landmaster
+0A4 Art4 (ID=0 in Article3) Landmaster's Laser
+
+Art0 Blaster
+1-3
+034 Par00-1 1
+030 Par00D3 2
+
+Art1 Laser
+2-2
+034 Par01-0 3
+
+Art2 Falco Phantasm
+3-3
+034 Par02-0 2
+
+Art3 Landmaster
+A-B
+034 Par03-0 32
+038 Par03-1 3F
+030 Par03D3 3
+X10 28-0F-00x
+X14 28-10-00x
+X14 28-10-01x
+X02 28-12x
+X03 28-13x
+X0A 28-13-00x
+
+Art4 (ID=0 in Article3) Landmaster's Laser
+1-1
+034 Par04-0 1
+
+Par00
+Neutral B: Blaster
+
+0x0 X Offset (Ground)
+X offset grounded laser
+
+0x4 Y Offset (Ground)
+Y offset grounded laser
+
+0x8 X Offset (Air)
+X offset aerial laser
+
+0xC Y Offset (Air)
+Y offset aerial laser
+
+0x10 Angle
+Firing angle (radians)
+
+0x14 Speed
+Laser speed
+
+*0x18 Landing Lag
+Landing lag (Frames. If 1 or more, it will be Special Fall)
+
+Par01
+Side B: Falco Phantasm
+
+*0x0 Startup Fall Timing
+Fall start timing on startup
+
+0x4 Startup H Preservation
+Horizontal momentum preservation on startup (higher = less. If 0, character will be broken when horizontal and B are inputs at the same time on ground)
+
+0x8 Startup H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0xC Startup Gravity
+Gravity on startup
+
+0x10 Ground H Preservation at End
+Grounded momentum preservation at end (higher = more)
+
+0x14 Ground H Deceleration at End
+Grounded deceleration to horizontal preservation at end
+
+0x18 Air H Preservation at End
+Aerial momentum preservation at end (higher = more)
+
+0x1C Air H Deceleration at End
+Aerial deceleration to horizontal preservation at end
+
+*0x20 Fall Timing at End
+Fall start timing at end (Invalid when shortened)
+
+0x24 Gravity at End
+Gravity at End
+
+0x28 Special Fall Max H Speed
+Special Fall maximum horizontal velocity multiplier
+
+*0x2C Landing Lag
+Landing lag (frames)
+
+Par02
+Up B: Fire Bird
+
+*0x0 Startup Fall Timing
+Fall start timing on startup
+
+0x4 Startup H Preservation
+Horizontal preservation on startup (less = more)
+
+0x8 Startup H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0xC Startup Fall speed
+Fall speed on startup
+
+0x10
+Unknown
+
+0x14 Sensitivity
+Joystick sensitivity (If over 1, character cannot move directly below and side)
+
+*0x18 Stop Timing
+How many frames before character stop traveling (does not affect distance past a certain point)
+
+*0x1C
+Unknown
+
+*0x20 Deceleration Timing
+Frames before decaying speed
+
+0x24 Travel Speed
+Speed of travel
+
+0x28 Travel Deceleration
+Momentum deceleration on travel
+
+0x2C
+ ?? (read on travel)
+
+0x30 Min Bounce Angle
+Angle required when hitting stage to bounce
+
+0x34 Bounce H Momentum
+Horizontal velocity when hitting ground angled
+
+0x38 Special Fall Max H Speed
+Special Fall max horizontal speed multiplier
+
+*0x3C Landing Lag
+Landing lag (frames)
+
+Par03
+ExtraParams3
+
+*0x0
+No Description Available.
+
+Par04
+Final Smash: Landmaster (Startup)
+
+0x0 Rising Speed
+Rising speed
+
+*0x4 Appearance Timing
+How many frames after rising Falco fall with Landmaster (0 makes Falco never come back down)
+
+Par05
+Reflector
+
+*0x0 Bone
+Focus Bone
+
+0x4 Damage Threshold
+Damage threshold
+
+0x8 X Offset
+Reflection bubble X offset
+
+0xC Y Offset
+Reflection bubble Y offset
+
+0x10 Z Offset
+Reflection bubble Z offset
+
+0x14 Size
+Reflection bubble size
+
+0x18 Damage Multiplier
+Reflected damage multiplier
+
+0x1C Speed Multiplier
+Reflected speed multiplier
+
+0x20 Duration Multiplier
+Reflected duration multiplier
+
+*0x24
+Unknown
+
+Par00-1
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Par01-0
+Laser Article
+
+*0x0 Duration
+Laser duration (frames)
+
+0x4 Length
+Laser graphic length
+
+0x8 Growth Speed
+Laser graphic growth speed (higher = slower)
+
+Par02-0
+Falco Phantasm Article
+
+*0x0 Duration 1
+Frames until the afterimage with hitbox disappears
+
+*0x4 Duration 2
+Frames until the afterimage without hitbox disappears
+
+Par03-0
+Landmaster Attribute
+
+0x0 Ground Acceleration
+Ground acceleration
+
+0x4 Ground Max Speed
+Ground max speed
+
+0x8 Ground Deceleration
+Grounded momentum deceleration
+
+0xC Normal Fall H Acceleration
+Horizontal acceleration on normal fall
+
+0x10 Normal Fall Max H Speed
+Horizontal max speed on normal fall
+
+0x14 Aerial H Deceleration
+Aerial deceleration to horizontal speed
+
+0x18 Normal Fall Gravity
+Gravity on normal fall
+
+0x1C Max Fall Speed (Normal)
+Max fall speed on normal fall
+
+*0x20 Turn Timing
+Input backward time required to change direction on the ground
+
+0x24 Run Attack Min Speed
+Minimum driving speed at which hitbox occurs
+
+0x28 Run Damage Growth Rate
+Damage growth rate when driving
+
+0x2C Fall Attack Min Speed
+Minimum falling speed at which hitbox occurs
+
+*0x30
+Unknown
+
+0x34 Laser Speed
+Laser speed
+
+0x38 FS Duration
+Landmaster duration
+
+0x3C FS Shorten
+A value that shortens Landmaster duration
+
+0x40 FS Shorten by Damage
+Multiplier of Landmaster duration that decreases when damage taken
+
+0x44
+Fall angle when over floor edge
+
+0x48
+Unknown
+
+0x4C
+Unknown
+
+*0x50 Flashing Time
+Flashing time before the end
+
+*0x54
+Unknown
+
+0x58 Max Fuel
+Max fuel of rising time
+
+0x5C Ground Rise V Momentum
+Vertical momentum as it rises from the ground
+
+0x60 Air Initial V Momentum
+Vertical momentum as it rises from in air
+
+0x64
+Unknown
+
+0x68
+Unknown
+
+0x6C Hovering V Acceleration
+Hovering vertical acceleration
+
+*0x70 Hovering Min Duration
+Minimum duration for hovering. Hovering ends even if the fuel runs out.
+
+0x74 Hovering Max V Speed
+Maximum rise speed when hovering
+
+0x78
+Rise speed related. (high = soaring)
+
+0x7C
+Unknown
+
+0x80 Hovering Max H Speed
+Maximum horizontal speed during hovering
+
+0x84 Hovering Gravity
+Gravity during hovering
+
+0x88 Hovering Max Fall Speed
+Max fall speed after hovering
+
+0x8C
+Unknown
+
+0x90 Refuel Rate
+Fuel charge rate
+
+0x94
+Unknown
+
+0x98 Fuel Drain Rate
+Fuel drain rate
+
+0x9C
+Unknown
+
+0xA0
+Unknown
+
+0xA4
+Vertical shaking of the body of the Landmaster when moving on ground
+
+0xA8
+Maximum vertical spacing between the body and wheels of the Landmaster when moving on ground
+
+0xAC
+Maximum horizontal spacing between the body and wheels of the Landmaster when moving on ground
+
+0xB0
+The speed at which the body that moved due to the inertia at the start of running returns to running
+
+0xB4
+If the value is low, the body will not move back and forth due to inertia when running and stopping.
+
+0xB8
+Maximum angle of the body
+
+0xBC Landing lag
+Landing lag
+
+0xC0
+Vertical range of the body that sways when landing
+
+0xC4
+Z-axis range and speed of the body that rotates when landing
+
+Par03-1
+Bone Floats
+
+*Data0 Bone
+No Description Available.
+
+Data0 Float0
+No Description Available.
+
+Data0 Float1
+No Description Available.
+
+Data0 Float2
+No Description Available.
+
+Data0 Float3
+No Description Available.
+
+Data0 Float4
+No Description Available.
+
+Data0 Float5
+No Description Available.
+
+*Data1 Bone
+No Description Available.
+
+Data1 Float0
+No Description Available.
+
+Data1 Float1
+No Description Available.
+
+Data1 Float2
+No Description Available.
+
+Data1 Float3
+No Description Available.
+
+Data1 Float4
+No Description Available.
+
+Data1 Float5
+No Description Available.
+
+*Data2 Bone
+No Description Available.
+
+Data2 Float0
+No Description Available.
+
+Data2 Float1
+No Description Available.
+
+Data2 Float2
+No Description Available.
+
+Data2 Float3
+No Description Available.
+
+Data2 Float4
+No Description Available.
+
+Data2 Float5
+No Description Available.
+
+*Data3 Bone
+No Description Available.
+
+Data3 Float0
+No Description Available.
+
+Data3 Float1
+No Description Available.
+
+Data3 Float2
+No Description Available.
+
+Data3 Float3
+No Description Available.
+
+Data3 Float4
+No Description Available.
+
+Data3 Float5
+No Description Available.
+
+*Data4 Bone
+No Description Available.
+
+Data4 Float0
+No Description Available.
+
+Data4 Float1
+No Description Available.
+
+Data4 Float2
+No Description Available.
+
+Data4 Float3
+No Description Available.
+
+Data4 Float4
+No Description Available.
+
+Data4 Float5
+No Description Available.
+
+*Data5 Bone
+No Description Available.
+
+Data5 Float0
+No Description Available.
+
+Data5 Float1
+No Description Available.
+
+Data5 Float2
+No Description Available.
+
+Data5 Float3
+No Description Available.
+
+Data5 Float4
+No Description Available.
+
+Data5 Float5
+No Description Available.
+
+*Data6 Bone
+No Description Available.
+
+Data6 Float0
+No Description Available.
+
+Data6 Float1
+No Description Available.
+
+Data6 Float2
+No Description Available.
+
+Data6 Float3
+No Description Available.
+
+Data6 Float4
+No Description Available.
+
+Data6 Float5
+No Description Available.
+
+*Data7 Bone
+No Description Available.
+
+Data7 Float0
+No Description Available.
+
+Data7 Float1
+No Description Available.
+
+Data7 Float2
+No Description Available.
+
+Data7 Float3
+No Description Available.
+
+Data7 Float4
+No Description Available.
+
+Data7 Float5
+No Description Available.
+
+*Data8 Bone
+No Description Available.
+
+Data8 Float0
+No Description Available.
+
+Data8 Float1
+No Description Available.
+
+Data8 Float2
+No Description Available.
+
+Data8 Float3
+No Description Available.
+
+Data8 Float4
+No Description Available.
+
+Data8 Float5
+No Description Available.
+
+Par03D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+Par04-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+EXD 28-0F-00x
+HitDataList2
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+EXD 28-10-00x
+Extra Data3-0
+
+*Data0-0
+No Description Available.
+
+*Data0-1
+No Description Available.
+
+*Data1-0
+No Description Available.
+
+*Data1-1
+No Description Available.
+
+*Data2-0
+No Description Available.
+
+*Data2-1
+No Description Available.
+
+*Data3-0
+No Description Available.
+
+*Data3-1
+No Description Available.
+
+*Data4-0
+No Description Available.
+
+*Data4-1
+No Description Available.
+
+*Data5-0
+No Description Available.
+
+*Data5-1
+No Description Available.
+
+*Data6-0
+No Description Available.
+
+*Data6-1
+No Description Available.
+
+*Data7-0
+No Description Available.
+
+*Data7-1
+No Description Available.
+
+*Data8-0
+No Description Available.
+
+*Data8-1
+No Description Available.
+
+*Data9-0
+No Description Available.
+
+*Data9-1
+No Description Available.
+
+EXD 28-10-01x
+Extra Data3-1
+
+*Data0-0
+No Description Available.
+
+*Data0-1
+No Description Available.
+
+*Data1-0
+No Description Available.
+
+*Data1-1
+No Description Available.
+
+*Data2-0
+No Description Available.
+
+*Data2-1
+No Description Available.
+
+*Data3-0
+No Description Available.
+
+*Data3-1
+No Description Available.
+
+*Data4-0
+No Description Available.
+
+*Data4-1
+No Description Available.
+
+*Data5-0
+No Description Available.
+
+*Data5-1
+No Description Available.
+
+*Data6-0
+No Description Available.
+
+*Data6-1
+No Description Available.
+
+*Data7-0
+No Description Available.
+
+*Data7-1
+No Description Available.
+
+*Data8-0
+No Description Available.
+
+*Data8-1
+No Description Available.
+
+*Data9-0
+No Description Available.
+
+*Data9-1
+No Description Available.
+
+EXD 28-12x
+Flash Overlay Effect
+
+Offset(Event)
+Event Data(Flash Overlay Effect)
+
+Flags
+No Description Available.
+
+EXD 28-13x
+Extra Data6
+
+Offset
+No Description Available.
+
+Offset>Count
+Parameter Data Count.
+
+Flags
+No Description Available.
+
+EXD 28-13-00x
+Extra Data6>Offset
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data2-0
+No Description Available.
+
+Data2-1
+No Description Available.
+
+Data3-0
+No Description Available.
+
+Data3-1
+No Description Available.
+
+Data4-0
+No Description Available.
+
+Data4-1
+No Description Available.
+

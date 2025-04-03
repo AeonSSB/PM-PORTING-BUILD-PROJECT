@@ -1,0 +1,437 @@
+﻿DataSize0xB0
+07C Par00 4
+080 Par01 8
+084 Par02 12
+088 Par03 A
+08C Par04 8
+098 Par07 8
+09C Par08 A
+0A0 Art0 Bow
+0A4 Art1 Arrow
+0A8 Art2 (ID=0 in Article No.3) Centurion
+0AC Art3 (ID=2) Palutena
+X08 26-00x
+
+Art0 Bow
+0-10
+034 Par00-0 1
+030 Par00D3 4
+
+Art1 Arrow
+3-3
+034 Par01-0 A
+
+Art2 (ID=0 in Article No.3) Centurion
+5-3
+034 Par02-0 E
+038 Par02-1 8
+
+Art3 (ID=2) Palutena
+2-3
+034 Par03-0 A
+
+Par00
+Neutral B: Palutena's Arrow
+
+0x0
+ ??
+
+*0x4 Max Charge Time
+Max charge time
+
+0x8 Backwards Sensitivity
+Joystick sensitivity backwards
+
+0xC Upwards Sensitivity
+Joystick sensitivity upwards
+
+Par01
+Side B: Angel Ring
+
+*0x0
+Something with how long it's out at startup?
+
+0x4 Initial Spin Speed
+Initial spin speed
+
+0x8 Spin Speed Deceleration
+Spin speed deceleration
+
+0xC Max Spin Speed
+Max spin speed
+
+0x10 Add Spin Speed per Tap B
+Spin speed added per B button press
+
+0x14
+ ?? (read on button tap of ring hold)
+
+0x18 End Spin Speed
+Spin speed equal to or less than this to end move
+
+*0x1C
+ ?? (read on startup)
+
+Par02
+Up B: Wings of Icarus
+
+0x0 H Preservation (Air)
+Aerial horizontal momentum preservation on startup (higher = more)
+
+0x4 V Preservation (Air)
+Aerial vertical momentum preservation on startup (higher = more)
+
+*0x8 Fastest Landing Time
+How many frames waiting above ground until landing
+
+0xC H Acceleration
+Horizontal acceleration
+
+0x10 Max H Speed
+Max horizontal speed
+
+0x14 H Deceleration
+Horizontal speed deceleration
+
+0x18 V Acceleration
+Vertical acceleration
+
+0x1C Max V Speed
+Max vertical speed
+
+0x20 V Deceleration
+Vertical speed deceleration
+
+0x24 Gravity
+Gravity multiplier
+
+0x28
+Unknown
+
+0x2C
+Unknown
+
+*0x30 Max Flying Time
+Max flying frames
+
+0x34 Upward Animation Speed
+Wing flap speed going up
+
+0x38 Downward Animation Speed
+wing flap speed going down
+
+0x3C Min Flying Time
+Min flying Time. If value is 2 or more, can always fly for the maximum time.
+
+0x40 Recharge Rate
+Flying frame recovery speed (par frame)
+
+*0x44
+Unknown
+
+Par03
+Down B: Mirror Shield
+
+0x0 Max Angle
+Max upward angle
+
+*0x4 Max Continue Frame
+Maximum continue frame
+
+*0x8 Min Continue Frame
+Minimum continue frame
+
+0xC
+ ?? (higher than 1, jitter when aiming and can possibly freeze)
+
+0x10
+Reflection and block distance
+
+*0x14 Reverse Effect Time
+Effect frame to reverse on hit
+
+0x18 Shield Durability
+Shield maximum durability (HP). When the shield's durability reaches 0, it can't block against subsequeset attacks.
+
+0x1C Recovery Speed
+Durability recovery speed (par frame)
+
+0x20
+Unknown
+
+*0x24
+Unknown
+
+Par04
+HitDataList4 (Mirror Shield Block)
+
+0x0 X Offset Start
+Block bubble X pos Start
+
+0x4 Y Offset Start
+Block bubble Y pos Start
+
+0x8 Z Offset Start
+Block bubble Z pos Start
+
+0xC X Offset End
+Block bubble X pos End
+
+0x10 Y Offset End
+Block bubble Y pos End
+
+0x14 Z Offset End
+Block bubble Z pos End
+
+0x18 Size
+Block bubble size
+
+Flags 0x1C
+Bone (Bit1-9) and Enable?
+
+Par07
+HitDataList7 (Mirror Shield Reflect1)
+
+Offset
+No Description Available.
+
+Offset>Count
+Count
+
+0x8 Damage Multiplier
+Reflected damage multiplier
+
+0xC Speed Multiplier
+Reflected speed multiplier
+
+0x10 Damage Threshold
+Damage threshold
+
+0x14 Duration Multiplier
+Reflected duration multiplier
+
+0x18
+Unknown
+
+*0x1C
+Unknown
+
+Par08
+Angel Ring Reflect
+
+*0x0 Bone
+Focus Bone
+
+0x4 Damage Threshold
+Damage threshold
+
+0x8 X Offset
+Reflection bubble X offset
+
+0xC Y Offset
+Reflection bubble Y offset
+
+0x10 Z Offset
+Reflection bubble Z offset
+
+0x14 Size
+Reflection bubble size
+
+0x18 Damage Multiplier
+Reflected damage multiplier
+
+0x1C Speed Multiplier
+Reflected speed multiplier
+
+0x20 Duration Multiplier
+Reflected duration multiplier
+
+*0x24
+Unknown
+
+Par00-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Par01-0
+Arrows Article
+
+0x0 Angle (Side)
+Angle at which side arrow initially shoots at
+
+0x4 Speed (Side)
+Side arrow speed
+
+0x8 Angle (Up)
+Angle at which the up arrow initially shoots at
+
+0xC Speed (Up)
+Up arrow speed
+
+0x10 Turning Speed
+Arrow turning speed
+
+*0x14
+Unknown
+
+0x18 Base Damage
+Base damage
+
+0x1C Damage Growth Rate
+Damage growth rate (extra damage per charging frame)
+
+0x20 Detection
+Landing detection (Vertical detection offset of floor and wall)
+
+*0x24
+Unknown
+
+Par02-0
+Centurion Article
+
+*0x0 Time to Come
+Frames it takes for centurion to come on stage
+
+0x4 H Position Random
+Randomness of the coming horizontal position (Value that the stage width as 1)
+
+0x8 V Position Random
+Randomness of the coming vertical position (Value that the stage height as 1)
+
+0xC Base V Position
+Base vertical position (Value that the stage height as 1)
+
+*0x10 Turning Time
+Frames it takes for centurion to change direction after come on stage
+
+*0x14 Attack Start Time
+Frames it takes for centurion to start attack after changed direction
+
+0x18 Speed
+Attack Speed
+
+0x1C
+Unknown
+
+0x20 Hit V Momentum
+Vertical Momentum when the attack hits
+
+0x24 Hit Gravity
+Gravity when the attack hits
+
+0x28
+Unknown
+
+0x2C Hit Z Momentum Random 1
+Randomness of Z-axis momentum when attack hits. Random momentum from 0x2C to 0x30. (positive = towards camera)
+
+0x30 Hit Z Momentum Random 2
+Randomness of Z-axis momentum when attack hits. Random momentum from 0x2C to 0x30.
+
+0x34 Durability
+Durability (Centurion HP)
+
+Par02-1
+hitDataIkarus__15wnPitIkarusNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+Par03-0
+Palutena's Army Attribute
+
+0x0
+Unknown
+
+*0x4
+Unknown
+
+*0x8 Duration
+Appearance time of Palutena. If the value is low, it will start to disappear quickly, and if it disappears completely, Centurion will not appear.
+
+*0xC
+If the value is low, Palutena disappears suddenly. No affect when appearing
+
+*0x10
+Unknown
+
+*0x14 Interval 1
+Time from the appearance of the first Centurion to the appearance of the second Centurion
+
+0x18 V Position Random
+Randomness of the vertical appearance position of Centurion (Value that the stage height as 1)
+
+0x1C Distance
+The distance at which Centurion appears (higher = farther)
+
+*0x20 Interval 2
+Time interval when Centurion appears after the second Centurion
+
+*0x24 Centurion Count
+Number of times to make X appear
+
+EXD 26-00x
+HitDataList7>Offset (Mirror Shield Reflect2)
+
+0x0 X Offset Start
+Reflection bubble X pos Start
+
+0x4 Y Offset Start
+Reflection bubble Y pos Start
+
+0x8 Z Offset Start
+Reflection bubble Z pos Start
+
+0xC X Offset End
+Reflection bubble X pos End
+
+0x10 Y Offset End
+Reflection bubble Y pos End
+
+0x14 Z Offset End
+Reflection bubble Z pos End
+
+0x18 Size
+Reflection bubble size
+
+Flags 0x1C
+Bone (Bit1-9) and Enable?
+

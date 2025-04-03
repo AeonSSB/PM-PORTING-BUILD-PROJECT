@@ -1,0 +1,206 @@
+﻿DataSize0x90
+07C Par00 14
+080 Par01 C
+084 Par02 8
+088 Par03 E
+08C Art0 Flame
+
+Art0 Flame
+1-1
+034 Par00-0 6
+
+Par00
+Neutral B: Fire Breath
+
+0x0 Initial Angle
+Initial fire angle
+
+0x4 Randomness
+Flame spread randomness
+
+0x8 Max Angle Upwards
+Max angle upwards
+
+0xC Max Angle Downwards
+Max angle downwards (higher is more angled down)
+
+0x10 Turning Speed
+Turning speed
+
+0x14 Head Rotation Speed
+Rotation of head in relation to 0x10
+
+*0x18 Min Continue Frame
+Minimum hold continue frame
+
+0x1C Max Speed Charge
+Max speed charge (Affect to speed of decline)
+
+0x20 Min Speed Charge
+Min speed charge (Affect to speed of decline)
+
+0x24 Max Size Charge
+Max size charge (Affect to size of decline)
+
+0x28 Min Size Charge
+Min size charge (Affect to size of decline)
+
+0x2C Speed Refuel
+Speed charge refuel rate (per frame)
+
+0x30 Size Refuel
+Size charge refuel rate (per frame)
+
+0x34 Speed Drain
+Speed charge drain rate (per frame)
+
+0x38 Size Drain
+Size charge drain rate (per frame)
+
+*0x3C
+Unknown. There seems to be no connection to the location of the flame.
+
+*0x40 Flames Interval
+Frames interval until the flame reoccurs
+
+0x44 X offset
+X offset
+
+0x48 Y offset
+Y offset
+
+0x4C
+ ?? (read on flame gfx reduction)
+
+Par01
+Up B: Whirling Fortress
+
+*0x0
+Unknown
+
+0x4 Air V Momentum
+Aerial initial vertical momentum
+
+0x8 Gravity
+Gravity
+
+0xC Max Fall Speed
+Max fall speed (Disabled by RA-Bit[16]=True)
+
+0x10 Max H Speed (Ground)
+Grounded max horizontal speed
+
+0x14 Max H Speed (Air)
+Aerial max horizontal speed
+
+0x18 Acceleration (Ground)
+Grounded acceleration
+
+0x1C Acceleration (Air)
+Aerial acceleration
+
+*0x20 Restart Time
+When landing, if it is within this number of frames, the animation will start from the beginning
+
+*0x24
+Unknown, something dealing with 0x20 but affects how long Bowser stay in shell?
+
+*0x28 Return Animation Frame
+Resumes from the number of animation frames minus this value when landing
+
+*0x2C Landing Lag
+Landing lag (frames)
+
+Par02
+Down B: Bowser Bomb
+
+0x0 Air H Preservation
+Horizontal aerial momentum preservation on startup (higher = more)
+
+0x4 Air V Preservation
+Vertical aerial momentum preservation on startup (higher = more)
+
+0x8 Air H Deceleration
+Aerial deceleration to horizontal preservation on startup
+
+0xC
+Unknown (read on aerial downB)
+
+0x10 Startup Max Fall Speed
+Max fall speed on aerial startup
+
+0x14 Fall Speed
+Speed going down (can go upwards too)
+
+0x18
+Unknown
+
+0x1C
+Unknown
+
+Par03
+Side B: Flying Slam
+
+0x0 Default H Momentum
+Momentum to move forward when there is no forward / backward movement
+
+0x4 H Movement 1
+Related to horizontal movement. If 0x4 and 0x20 are 0, can't move horizontal.
+
+0x8 Bowser's Base H Movement
+Bowser's base horizontal movement. If the value from 0x4 to 0x10 is 0, Bowser can't move horizontally.
+
+0xC H Movement for Bowser's Damage
+Bowser's horizontal movement that decreases as the current Bowser's damage increases.
+
+0x10 Bowser's Min H Movement
+Bowser's minimum horizontal movement.
+
+0x14 Target Base H Movement
+Grabbed character's Base horizontal movement. If the value from 0x14 to 0x1C is 0, Bowser can't move horizontally.
+
+0x18 H Movement for Target Damage
+Grabbed character's horizontal movement that decreases as the current grabbed character's damage increases.
+
+0x1C Target Min H Movement
+Grabbed character's minimum horizontal movement.
+
+0x20 H Movement 2
+Related to horizontal movement. If value is low, it becomes difficult to move backwards.
+
+0x24 Max H Speed
+The maximum horizontal speed
+
+0x28 Fall Speed
+Fall speed
+
+0x2C H Momentum after Throwing
+Horizontal momentum after throwing
+
+0x30 V Momentum after Throwing
+Vertical momentum after throwing
+
+*0x34
+Unknown
+
+Par00-0
+Flame Article
+
+0x0 Landing Detection
+Landing detection (Vertical detection offset of floor and wall)
+
+*0x4 Duration
+Flame Duration (Frames)
+
+*0x8 Hitbox Duration
+Flame hitbox duration
+
+0xC Momentum Randomness 1
+Flame momentum randomness. Random momentum from 0xC to 0x10. The higher value is the maximum momentum, and the lower value is the minimum momentum.
+
+0x10 Momentum Randomness 2
+Flame momentum randomness. Random momentum from 0xC to 0x10
+
+*0x14
+Unknown
+

@@ -1,0 +1,579 @@
+﻿DataSize0x94
+07C Par00 6
+080 Par01 8
+084 Par02 8
+088 Par03 6
+08C Art0 Beast Ganon
+090 Art1 Sword
+
+Art0 Beast Ganon
+2-2
+034 Par00-0 3
+038 Par00-1 5
+040 Par00-3 78
+030 Par00D3 17
+
+Art1 Sword
+0-1
+
+Par00
+Neutral B: Warlock Punch (paramGanonPunch__11ftGanonNode)
+
+0x0
+If 0x0 value is the same as 0x4, the Falcon will break when punching in the air
+
+0x4
+No Description Available.
+
+0x8
+Unknown
+
+0xC Air Momentum 1
+Momentum forward in air punch (Occur when RA-Bit[17] is True)
+
+0x10 Air Momentum 2
+Momentum speed in air punch (Occur when RA-Bit[17]=True and RA-Basic[0]=1)
+
+*0x14
+Unknown
+
+Par01
+Side B: Flame Choke (paramGanonExplosion__11ftGanonNode)
+
+0x0 Grab Slide Momentum
+Flame Choke grab slide momentum
+
+0x4 Gravity (No Grab)
+Gravity after aerial grab failed
+
+0x8 Max Fall Speed (No Grab)
+Max fall speed after aerial grab failed
+
+0xC Landing Lag (No Grab)
+Landing lag (Frames)
+
+0x10 Grabbed Fall Speed 1
+First fall speed after grab successed (The lower one is applied compared to 0x14)
+
+0x14 Grabbed Fall Speed 2
+First fall speed after grab successed (The lower one is applied compared to 0x10)
+
+0x18 Grabbed Final Gravity
+Final Gravity after grab successed
+
+0x1C Grabbed Final Max Fall Speed
+Final Max fall speed after grab successed
+
+Par02
+Up B: Dark Dive (paramGanonSpecialHi__11ftGanonNode)
+
+*0x0
+Unknown, but if set a negative value, the character will break at the start of the rise.
+
+0x4
+Horizontal movement at end of rise
+
+0x8 Fall Max H Speed
+Special Fall max horizontal speed Multiplier
+
+0xC
+Unknown, read once on leap
+
+0x10
+Unknown, read once on leap
+
+0x14
+Unknown, read once on leap
+
+0x18
+Unknown, read once on leap
+
+0x1C
+Post-release gravity
+
+Par03
+Down B: Wizard's Foot (paramGanonKick__11ftGanonNode)
+
+0x0 Momentum Multiplier on Hit
+Momentum multiplier on hit when on ground
+
+*0x4
+Unknown; reads on startup and at start of ground-ground ending
+
+0x8 Ground-Ground Lag
+Ground to ground ending animation speed multiplier
+
+0xC Landing Lag
+Air to ground landing animation speed multiplier
+
+0x10
+Unknown, aerial-landing related
+
+0x14
+Unknown
+
+Par00-0
+Beast Ganon Article
+
+0x0 Camera X Pos
+Camera Horizontal position
+
+0x4 Camera Y Pos
+Camera Vertical position
+
+0x8 Speed
+Beast Ganon forward speed
+
+Par00-1
+Beast Ganon Camera
+
+0x0 Camera Size Top 1
+This value is how far in upward of the character the normal camera range. (The higher value of 0x0 and 0xC is applied)
+
+0x4 Camera Size Front
+This value is how far in front of the character the normal camera range.
+
+0x8 Camera Size Back
+This value is how far in back of the character the normal camera range.
+
+0xC Camera Size Top 2
+This value is how far in upward of the character the normal camera range.
+
+0x10 Camera Size Bottom
+This value is how far in downward of the character the normal camera range.
+
+Par00-3
+HitDataList
+
+HitData0-0
+No Description Available.
+
+HitData0-1
+No Description Available.
+
+HitData0-2
+No Description Available.
+
+HitData0-3
+No Description Available.
+
+HitData0-4
+No Description Available.
+
+HitData0-5
+No Description Available.
+
+HitData0-6
+No Description Available.
+
+Flags(HitData0-7)
+No Description Available.
+
+HitData1-0
+No Description Available.
+
+HitData1-1
+No Description Available.
+
+HitData1-2
+No Description Available.
+
+HitData1-3
+No Description Available.
+
+HitData1-4
+No Description Available.
+
+HitData1-5
+No Description Available.
+
+HitData1-6
+No Description Available.
+
+Flags(HitData1-7)
+No Description Available.
+
+HitData2-0
+No Description Available.
+
+HitData2-1
+No Description Available.
+
+HitData2-2
+No Description Available.
+
+HitData2-3
+No Description Available.
+
+HitData2-4
+No Description Available.
+
+HitData2-5
+No Description Available.
+
+HitData2-6
+No Description Available.
+
+Flags(HitData2-7)
+No Description Available.
+
+HitData3-0
+No Description Available.
+
+HitData3-1
+No Description Available.
+
+HitData3-2
+No Description Available.
+
+HitData3-3
+No Description Available.
+
+HitData3-4
+No Description Available.
+
+HitData3-5
+No Description Available.
+
+HitData3-6
+No Description Available.
+
+Flags(HitData3-7)
+No Description Available.
+
+HitData4-0
+No Description Available.
+
+HitData4-1
+No Description Available.
+
+HitData4-2
+No Description Available.
+
+HitData4-3
+No Description Available.
+
+HitData4-4
+No Description Available.
+
+HitData4-5
+No Description Available.
+
+HitData4-6
+No Description Available.
+
+Flags(HitData4-7)
+No Description Available.
+
+HitData5-0
+No Description Available.
+
+HitData5-1
+No Description Available.
+
+HitData5-2
+No Description Available.
+
+HitData5-3
+No Description Available.
+
+HitData5-4
+No Description Available.
+
+HitData5-5
+No Description Available.
+
+HitData5-6
+No Description Available.
+
+Flags(HitData5-7)
+No Description Available.
+
+HitData6-0
+No Description Available.
+
+HitData6-1
+No Description Available.
+
+HitData6-2
+No Description Available.
+
+HitData6-3
+No Description Available.
+
+HitData6-4
+No Description Available.
+
+HitData6-5
+No Description Available.
+
+HitData6-6
+No Description Available.
+
+Flags(HitData6-7)
+No Description Available.
+
+HitData7-0
+No Description Available.
+
+HitData7-1
+No Description Available.
+
+HitData7-2
+No Description Available.
+
+HitData7-3
+No Description Available.
+
+HitData7-4
+No Description Available.
+
+HitData7-5
+No Description Available.
+
+HitData7-6
+No Description Available.
+
+Flags(HitData7-7)
+No Description Available.
+
+HitData8-0
+No Description Available.
+
+HitData8-1
+No Description Available.
+
+HitData8-2
+No Description Available.
+
+HitData8-3
+No Description Available.
+
+HitData8-4
+No Description Available.
+
+HitData8-5
+No Description Available.
+
+HitData8-6
+No Description Available.
+
+Flags(HitData8-7)
+No Description Available.
+
+HitData9-0
+No Description Available.
+
+HitData9-1
+No Description Available.
+
+HitData9-2
+No Description Available.
+
+HitData9-3
+No Description Available.
+
+HitData9-4
+No Description Available.
+
+HitData9-5
+No Description Available.
+
+HitData9-6
+No Description Available.
+
+Flags(HitData9-7)
+No Description Available.
+
+HitData10-0
+No Description Available.
+
+HitData10-1
+No Description Available.
+
+HitData10-2
+No Description Available.
+
+HitData10-3
+No Description Available.
+
+HitData10-4
+No Description Available.
+
+HitData10-5
+No Description Available.
+
+HitData10-6
+No Description Available.
+
+Flags(HitData10-7)
+No Description Available.
+
+HitData11-0
+No Description Available.
+
+HitData11-1
+No Description Available.
+
+HitData11-2
+No Description Available.
+
+HitData11-3
+No Description Available.
+
+HitData11-4
+No Description Available.
+
+HitData11-5
+No Description Available.
+
+HitData11-6
+No Description Available.
+
+Flags(HitData11-7)
+No Description Available.
+
+HitData12-0
+No Description Available.
+
+HitData12-1
+No Description Available.
+
+HitData12-2
+No Description Available.
+
+HitData12-3
+No Description Available.
+
+HitData12-4
+No Description Available.
+
+HitData12-5
+No Description Available.
+
+HitData12-6
+No Description Available.
+
+Flags(HitData12-7)
+No Description Available.
+
+HitData13-0
+No Description Available.
+
+HitData13-1
+No Description Available.
+
+HitData13-2
+No Description Available.
+
+HitData13-3
+No Description Available.
+
+HitData13-4
+No Description Available.
+
+HitData13-5
+No Description Available.
+
+HitData13-6
+No Description Available.
+
+Flags(HitData13-7)
+No Description Available.
+
+HitData14-0
+No Description Available.
+
+HitData14-1
+No Description Available.
+
+HitData14-2
+No Description Available.
+
+HitData14-3
+No Description Available.
+
+HitData14-4
+No Description Available.
+
+HitData14-5
+No Description Available.
+
+HitData14-6
+No Description Available.
+
+Flags(HitData14-7)
+No Description Available.
+
+Par00D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
