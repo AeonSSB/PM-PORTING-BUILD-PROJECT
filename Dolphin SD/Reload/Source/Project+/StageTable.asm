@@ -112,20 +112,20 @@ TABLE_4:
 0x55, | # Mushroom Gorge
 0x56, | # Minecart Madness
 0x57, | # Oil Drum Alley
-0x59, | # Crateria
 0x5A, | # Yoshi's Cookie
 0x5B, | # Yoshi's Story (Beta)
 0x5C, | # Cookie Country
 0x5D, | # White Wafers
 0x5E, | # Sky Islands
-0x5F, | # Sky Temple
-0x60, | # Another Dimension
+0x5F, | # Sky Tower
 0x61, | # Planet Papetoon
 0x62, | # Sprout Tower
-0x63, | # Poke Floats 2
 0x64, | # Aeropolis
 0x65, | # Wario's Castle
 0x66, | # Waluigi Land
+0x59, | # Gyromite
+0x63, | # Dr. Wily's Castle
+0x60, | # Chemical Plant
 0x68, | # Radical Highway
 0x69, | # Dracula's Castle
 0x6A, | # Spiral Mountain
@@ -163,9 +163,9 @@ half[110] |	# Stage Count + 2
 0x604E, 0x8371, 0x8472, 0x6351, | # Mute City, Bowser's Castle (PM), Tiny FD, Rumble Falls
 0x857A, 0x6553, 0x8270, 0x806E, | # Temple of Time, Metal Cavern (64), Kingdom Adventure, Subspace
 0x6755, 0x6856, 0x6957, 0x6A58, | # Bob-Omb Battlefield, Mushroom Gorge, Minecart Madness, Oil Drum Alley
-0x472A, 0x6B59, 0x6C5A, 0x6D5B, | # Golden Temple, Crateria, Yoshi's Cookie, Yoshi's Story (Beta)
-0x6E5C, 0x6F5D, 0x705E, 0x715F, | # Cookie Country, White Wafers, Sky Islands, Sky Temple
-0x7260, 0x7361, 0x7462, 0x7563, | # Another Dimension, Planet Papetoon, Sprout Tower, Poke Floats 2
+0x472A, 0x6B59, 0x6C5A, 0x6D5B, | # Golden Temple, Gyromite, Yoshi's Cookie, Yoshi's Story (Beta)
+0x6E5C, 0x6F5D, 0x705E, 0x715F, | # Cookie Country, White Wafers, Sky Islands, Sky Tower
+0x7260, 0x7361, 0x7462, 0x7563, | # Chemical Plant, Planet Papetoon, Sprout Tower, Dr. Wily's Castle
 0x7664, 0x7765, 0x7866, 0x7967, | # Aeropolis, Wario's Castle, Waluigi Land, Dead Line
 0x7A68, 0x7B69, 0x7C6A, 0x7D6B, | # Radical Highway, Dracula's Castle, Spiral Mountain, Clanker's Cavern
 0x7E6C, 0x7F6D			  		| # Venus Lighthouse, Lunar Horizon

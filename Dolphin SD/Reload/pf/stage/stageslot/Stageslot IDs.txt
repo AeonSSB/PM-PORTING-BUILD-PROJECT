@@ -86,19 +86,20 @@
 68 - Mushroom Gorge
 69 - Minecart Madness
 6A - Oil Drum Alley
-6B - Crateria
+6B - Gyromite
 6C - Yoshi's Cookie
 6D - Yoshi's Story (Beta)
 6E - Cookie Country
 6F - White Wafers
 70 - Sky Islands
-71 - Sky Temple
-72 - Another Dimension
+71 - Sky Tower
+72 - Chemical Plant
 73 - Planet Papetoon
 74 - Sprout Tower
-75 - Poké Floats 2
+75 - Dr. Wily's Castle
 76 - Aeropolis
 77 - Wario's Castle
+78 - Waluigi Land
 79 - Dead Line
 7A - Radical Highway
 7B - Dracula's Castle
