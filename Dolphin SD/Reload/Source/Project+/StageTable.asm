@@ -104,7 +104,7 @@ TABLE_3:
 0x38  | # Mushroom Kingdom (64)
 
 TABLE_4:
-	byte[28] |
+	byte[30] |
 0x51, | # Metal Cavern (64)
 0x52, | # Kingdom Adventure
 0x53, | # Subspace
@@ -112,7 +112,6 @@ TABLE_4:
 0x55, | # Mushroom Gorge
 0x56, | # Minecart Madness
 0x57, | # Oil Drum Alley
-0x5A, | # Yoshi's Cookie
 0x5B, | # Yoshi's Story (Beta)
 0x5C, | # Cookie Country
 0x5D, | # White Wafers
@@ -131,14 +130,17 @@ TABLE_4:
 0x6A, | # Spiral Mountain
 0x6B, | # Clanker's Cavern
 0x6C, | # Venus Lighthouse
+0x6E, | # Polar Dimension
 0x6D, | # Lunar Horizon
+0x6F, | # Gemacube's Dynamo
+0x5A, | # Ruins
 0x2B  | # Training Room
 
 TABLE_5:	# Unused
 
 TABLE_STAGES:
 # Table of icon<->stage slot associations
-half[110] |	# Stage Count + 2
+half[112] |	# Stage Count + 2
 | # OLD SLOTS
 0x0101, 0x0202, 0x0303, 0x0404, | # Battlefield, Final Destination, Delfino's Secret, Luigi's Mansion
 0x0505, 0x0606, 0x0707, 0x0808, | # Metal Cavern, Bowser's Castle, Kongo Jungle, Rumble Falls (Brawl)
@@ -168,7 +170,7 @@ half[110] |	# Stage Count + 2
 0x7260, 0x7361, 0x7462, 0x7563, | # Chemical Plant, Planet Papetoon, Sprout Tower, Dr. Wily's Castle
 0x7664, 0x7765, 0x7866, 0x7967, | # Aeropolis, Wario's Castle, Waluigi Land, Dead Line
 0x7A68, 0x7B69, 0x7C6A, 0x7D6B, | # Radical Highway, Dracula's Castle, Spiral Mountain, Clanker's Cavern
-0x7E6C, 0x7F6D			  		| # Venus Lighthouse, Lunar Horizon
+0x7E6C, 0x7F6D, 0x867B, 0x877C	| # Venus Lighthouse, Lunar Horizon, Polar Dimension, Gemacube's Dynamo
 
 
 SkipStageTables:
@@ -177,6 +179,6 @@ SkipStageTables:
 byte 20 @ $806B929C # Page 1
 byte 30 @ $806B92A4 # Page 2
 byte 30 @ $80496002 # Page 3
-byte 28 @ $80496003 # Page 4
+byte 30 @ $80496003 # Page 4
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 108 @ $800AF673 # Stage Count
+byte 110 @ $800AF673 # Stage Count

@@ -1,50 +1,65 @@
 PAGE 1
 
 
-BATTLEFIELD by PMDT, DukeItOut, Mawwwk
-L - Battlefield (Melee) by PMDT, sporksparks, DukeItOut
-
-DELFINO'S SECRET by PMDT
-
-DREAM LAND by PMDT with credit to Jkl72
-L - Autumn Dream Land by MetalLegacy, Ryztiq, mawwwk with credit to XtremeDragon, Yohan1044, Jkl72, Yorch, Efisio
-
-FINAL DESTINATION by PMDT
-L - Melee-Brawl Final Destination by MarioDox, Xerom, Mewtwo2000, PMDT
-
-FOUNTAIN OF DREAMS by PMDT with credit to Mewtwo2000
-L - Crystal Cave of Dreams by Moblin, Dranakar, Scout, WorseDoughnut, DukeItOut, mawwwk with credit to Mewtwo2000
-
 FRIGATE HUSK by Art+, Yorch, GRAND AZEL, SJ, mawwwk, Motobug
+L - Drowned Frigate by Art+, Yorch, Motobug
 
-GREEN HILL ZONE by PMDT, DukeItOut, mawwwk, WorseDoughnut, soopercool101, Snoe, Efisio with credit to Yorch, GRAND AZEL
-L - Green Hill Zone Generations by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto with credit to PMDT
+CERES SPACE COLONY by ???
+L - ???
 
-METAL CAVERN by P+DT, DukeItOut, Ryztiq
-L - Mushroomy Cavern by Motobug, davidvkimball, Scout, Wyld with credit to Skeleton, LlamaJuice, jlclpepe, PMDT
-
-POKEMON STADIUM 2 by PMDT with credit to Mewtwo2000, mawwwk, Layell, Kirbeast
-L - Ho-Oh Stadium 2 by Yohan1044 with credit to Scout, davidvkimball, LazyRed, Mewtwo2000, mawwwk, LenSho, Kirbeast, Layell
-
-RUMBLE FALLS by PMDT
-L - Clanker's Falls by Nezha, Survivian, WTails (wario358), Starwaffle, Mewtwo2000, Demonslayerx8, soopercool101, fudgepop01, MarioDox, Eon with credit to Yorch2296, davidvkimball, Dranakar, PMEX Remix Team
-
-SKY SANCTUARY ZONE by nnebf, GRAND AZEL, Yorch with credit to Burrotis/SoN1c2001, Noserus
-L - Chaos Angel by Nezha, Layell, Kirbeast, GRAND AZEL
-
-SMASHVILLE from Brawl (Y -> K.K. Concert)
-L - Sakuraville by t_Mistico_t with credit to rihuganon, davidvkimball, DukeItOut (Y -> K.K. Concert)
+TINY FD by Santieur52, Melody with credit to MarioDox, Xerom, Mewtwo2000, PMDT
+L - ???
 
 TEMPLE OF TIME by Yorch, GRAND AZEL, mawwwk, Link Tahuterasu Spirit, Skilar the Creative Caveman, SJ, nnebf, Kirbeast, DukeItOut, Motobug
 L - OoT Temple of Time by Art+, GRAND AZEL, Motobug, Kapedani, SJ, Yorch with credit to Dranakar, davidvkimball, Yohan1044
 
-TINY FD by Santieur52, Melody with credit to MarioDox, Xerom, Mewtwo2000, PMDT
+RUMBLE FALLS by PMDT
+L - Clanker's Falls by Nezha, Survivian, WTails (wario358), Starwaffle, Mewtwo2000, Demonslayerx8, soopercool101, fudgepop01, MarioDox, Eon with credit to Yorch2296, davidvkimball, Dranakar, PMEX Remix Team
 
 WARIO LAND by PMDT with credit to Kirbeast
 L - Wario's Castleware by MarioDox with credit to HeroTechne, AlGeorgeRomo, Smash 2 Team, WorseDoughnut, Nezha the Scout, PMDT, Kirbeast
 
+FOUNTAIN OF DREAMS by PMDT with credit to Mewtwo2000
+L - Crystal Cave of Dreams by Moblin, Dranakar, Scout, WorseDoughnut, DukeItOut, mawwwk with credit to Mewtwo2000
+
+FINAL DESTINATION by PMDT
+L - Melee-Brawl Final Destination by MarioDox, Xerom, Mewtwo2000, PMDT
+
+METAL CAVERN by P+DT, DukeItOut, Ryztiq
+L - Mushroomy Cavern by Motobug, davidvkimball, Scout, Wyld with credit to Skeleton, LlamaJuice, jlclpepe, PMDT
+
+DREAM LAND by PMDT with credit to Jkl72
+L - Autumn Dream Land by MetalLegacy, Ryztiq, mawwwk with credit to XtremeDragon, Yohan1044, Jkl72, Yorch, Efisio
+
+GREEN HILL ZONE by PMDT, DukeItOut, mawwwk, WorseDoughnut, soopercool101, Snoe, Efisio with credit to Yorch, GRAND AZEL
+L - Green Hill Zone Generations by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto with credit to PMDT
+
+SMASHVILLE from Brawl (Y -> K.K. Concert)
+L - Sakuraville by t_Mistico_t with credit to rihuganon, davidvkimball, DukeItOut (Y -> K.K. Concert)
+
+BATTLEFIELD by PMDT, DukeItOut, mawwwk
+L - Melee Battlefield by PMDT, sporksparks, DukeItOut
+
+POKEMON STADIUM 2 by PMDT with credit to Mewtwo2000, mawwwk, Layell, Kirbeast
+L - Ho-Oh Stadium 2 by Yohan1044 with credit to Scout, davidvkimball, LazyRed, Mewtwo2000, mawwwk, LenSho, Kirbeast, Layell
+
+DELFINO'S SECRET by PMDT
+L - ???
+
+SKY SANCTUARY ZONE by nnebf, GRAND AZEL, Yorch with credit to Burrotis/SoN1c2001, Noserus
+L - Chaos Angel by Nezha, Layell, Kirbeast, GRAND AZEL
+
 YOSHI'S STORY by Mewtwo2000 with credit to Oshtoby
 L - Yoshi's Fortune by Ryztiq with credit to Dranakar, Wingedkoopa67, ALM5252
+
+BOWSER'S CASTLE by Art+, Yorch, Fireball, Kirbeast, Motobug, tyleto, GRAND AZEL, nnebf, PMDT, Efisio
+L - Dry Bowser's Castle by Art+, Yorch, Fireball, Kirbeast, Motobug, tyleto, GRAND AZEL, nnebf, PMDT, Efisio
+
+DEAD LINE by Nezha the Scout with credit to Segtendo, DukeitOut, Pyro, N!ck, Snoe
+L - ???
+
+GOLDEN TEMPLE by Dranakar, Kuro, MarioDox, DukeItOut, mawwwk
+L - ???
 
 
 
@@ -60,26 +75,26 @@ L - Spookyland by MarioDox
 MUSHROOMY KINGDOM from Brawl
 L - Mushroomy Kingdom 1-2 from Brawl
 
-BOWSER'S CASTLE by PMDT with credit to soopercool101, Cahalan
-L - Bowser's Castle (Twomps) by PMDT with credit to soopercool101, Cahalan
+BOWSER'S CASTLE (PM) by Art+, Yorch, Kirbeast, tyleto, GRAND AZEL, mawwwk, PMDT
+L - ???
 
 MARIO CIRCUIT from Brawl
 L - Mario Circuit Light by Cahalan, CaliburZx, MarioDox
 
 RUMBLE FALLS from Brawl
-L - PM Rumble Falls by PMDT
+L - Rumble Plane by MarioDox
 
 BRIDGE OF ELDIN from Brawl
 L - Twilight Platforms by Yorch with credit to Edwguard Flows, plotlineplus, MarioDox
 
 PIRATE SHIP from Brawl
-L - Ganon's Tower by LegacyWolf with credit to NotZac, RARWRzilla22, mawwwk, Cynapse, Kurukato, Modding Workshop, Smash 3C, Smash 3, Brawl Vault Vigilantes, KCMM's Discord
+L - Ballad of Gales Cruise Ship by MarioDox
 
 SKYLOFT by PMDT
 L - Skyloft M by soopercool101 with credit to DSX8, PMDT
 
 NORFAIR from Brawl
-L - PM 3.0 Norfair by PMDT
+L - Norfair (PM 3.0) by PMDT
 
 FRIGATE ORPHEON from Brawl
 L - Morphing Orpheon by MarioDox
@@ -94,50 +109,52 @@ LYLAT CRUISE from Brawl
 L - Flatlat Cruise by WorseDoughnut, soopercool101 with credit to Syvkal, SuperGuzzi
 
 POKÉMON STADIUM 2 from Brawl
-L - Pokémon Stadium 2 Transformations by Yorch
+L - Literally Frozen Stadium 2 by Brawl Minus Team
 
 SPEAR PILLAR from Brawl
+L - Spear Pillar- by Tybis, Brawl Minus Team
 
 PORT TOWN AERO DIVE from Brawl
 L - Port Town: X by MarioDox with credit to Xerom, Mewtwo2000, Yohan1044
 
 CASTLE SIEGE from Brawl
-L - PM Castle Siege by PMDT
+L - Castle Siege (PM) by PMDT
 
 WARIOWARE, INC. from Brawl with credit to DukeItOut (Y -> Frequent Minigames)
 L - WarioWare Minus by MarioDox with credit to Brawl Minus Team, P+DT
 
 DISTANT PLANET from Brawl
-L - PM Distant Planet by PMDT
+L - Distant Planet (PM) by PMDT
 
 NEW PORK CITY from Brawl
-L - PM New Pork City by PMDT
+L - New Pork City- by Tybis
 
 SUMMIT from Brawl
 L - Infinite Glacier by PMDT with credit to DukeItOut, malistaticy
 
 SKYWORLD from Brawl
-L - PM Skyworld by PMDT
+L - Skyworld (PM) by PMDT
 
 75M from Brawl
-L - Donkey Kong Mini by MarioDox
+L - 75m- by Brawl Minus Team
 
 MARIO BROS. from Brawl
-L - Mario Bros. Mini by MarioDox
+L - Mario Bros.- by Tybis
 
 FLAT ZONE 2 from Brawl
 L - Parachute by Frof
 
 PICTOCHAT from Brawl
-L - PM Pictochat by PMDT with credit to DukeItOut
+L - PictoChat- by Tybis
 
 HANENBOW from Brawl
-L - PM Hanenbow by PMDT
+L - Hanenbow (PM) by PMDT
 
 SHADOW MOSES ISLAND from Brawl
-L - "PM" Shadow Moses by Olimario 1892
+L - PM Shadow Moses by Olimario 1892
 
 GREEN HILL ZONE from Brawl
+- Green Hill Zone (Generations) by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto, PMDT
 
 
 
@@ -223,12 +240,6 @@ MINECART MADNESS by Nezha the Scout, Llamajuice
 
 OIL DRUM ALLEY by Nezha the Scout, BustedSoda with credit to Mattress87, Tonberry2k, MarioDox, soopercool101, Umbravivens, Peardian, Russmars2, FancyEX, mawwwk
 
-GOLDEN TEMPLE by Dranakar, Kuro, MarioDox, DukeItOut, mawwwk
-
-CRATERIA by MarioDox with credit to PMDT
-
-YOSHI'S COOKIE by MarioDox, Layell
-
 YOSHI'S STORY (BETA) by Captain Pancakes, Burrotis Man/SoN1c2001 with credit to Mewtwo2000, Barry Barrows
 
 COOKIE COUNTRY by Nezha the Scout, Angelglory, Codex-9, soopercool101
@@ -237,21 +248,23 @@ WHITE WAFERS by MarioDox
 
 SKY ISLANDS by GRAND AZEL
 
-SKY TEMPLE by GRAND AZEL
-
-ANOTHER DIMENSION by GRAND AZEL
+SKY TOWER by GRAND AZEL, Kapedani
 
 PLANET PAPETOON by MarioDox with credit to Layell, Ryztiq, Dranakar, Wingedkoopa67, ALM5252, Mewtwo2000, PMDT, P+DT
 
 SPROUT TOWER by Puffy, mawwwk with credit to LenSho, Skeleton
 
-POKÉ FLOATS 2 by Eternal Yoshi with credit to Mewtwo2000, Link Tahuterasu Spirit, Mochisaurus
-
 AEROPOLIS by MarioDox, Eon, Electropolitan
 
 WARIO'S CASTLE by MarioDox, soopercool101 with credit to HeroTechne, AlGeorgeRomo, Smash 2 Team
 
-DEAD LINE by Nezha the Scout with credit to Segtendo, DukeitOut, Pyro, N!ck, Snoe
+WALUIGI LAND by Chuckles with credit to PMDT, P+DT, lemurboy12, Random Talking Bush, GeraRReal
+
+GYROMITE by Fruiter, Kapedani, Yorch, RedipstheCooler
+
+DR. WILY'S CASTLE by soopercool101 with credit to Dan Fornace, libertyernie, Brawl Minus Team
+
+CHEMICAL PLANT by Puzzled, KTH, Nezha with credit to PegasusKnt, Mewtwo2000, LegacyWolf, TheBen, TheUltimateKoopa, Smash 2 Team
 
 RADICAL HIGHWAY by nnebf with credit to PMDT, SEGA
 
@@ -263,9 +276,17 @@ CLANKER'S CAVERN by Nezha, Survivian, WTails (wario358), Starwaffle, Mewtwo2000,
 
 VENUS LIGHTHOUSE by LlamaJuice, Mewtwo2000, Grand Azel with credit to Mewtwo2000, Syvkal, Segtendo, Eternal Yoshi, Shin F., Ryztiq
 
+POLAR DIMENSION by Nezha with credit to Stef, SoN1c2001
+
+RUINS by Nezha, Lensho, DSX8, Jkl72, ~Sylv~, Yahtzeh, StefBoyardee, Erdann, Sad_Potato, NickirixXY
+
+LUNAR HORIZON by Nezha, Kapedani with credit to Legacy TE Team, P+DT, Puzzled, Layell, soopercool101, DukeItOut, PMDT
+
+GEMACUBE'S DYNAMO by Nezha, soopercool101, Skyvkal
+
 TRAINING ROOM by mawwwk, soopercool101 with credit to PMDT, DukeItOut, KingJigglypuff
 L - Smashville plat-height Training Room (Dark) by mawwwk with credit to PMDT, soopercool101, DukeItOut, KingJigglypuff
-R - Green screen FD by PWNage_PWR
+L+Start - Green screen FD by PWNage_PWR
 
 
 

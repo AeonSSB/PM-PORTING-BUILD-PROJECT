@@ -87,7 +87,7 @@
 69 - Minecart Madness
 6A - Oil Drum Alley
 6B - Gyromite
-6C - Yoshi's Cookie
+6C - Ruins
 6D - Yoshi's Story (Beta)
 6E - Cookie Country
 6F - White Wafers
@@ -106,10 +106,12 @@
 7C - Spiral Mountain
 7D - Clanker's Cavern
 7E - Venus Lighthouse
+7F - Lunar Horizon
 80 - Subspace
 81 - Frigate Husk
 82 - Kingdom Adventure
 83 - Bowser's Castle (PM)
 84 - Tiny FD
 85 - Temple of Time
-88 - Lunar Horizon
+86 - Polar Dimension
+87 - Gemacube's Dynamo
