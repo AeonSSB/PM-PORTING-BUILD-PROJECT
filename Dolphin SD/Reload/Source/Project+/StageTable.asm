@@ -42,8 +42,8 @@ TABLE_2:
 0x3D, | # Delfino Plaza
 0x03, | # Luigi's Mansion
 0x3E, | # Mushroomy Kingdom
-0x4D, | # Bowser's Castle (PM)
 0x2D, | # Mario Circuit
+0x4D, | # Bowser's Castle (PM)
 0x07, | # Rumble Falls (Brawl)
 0x3F, | # Bridge of Eldin
 0x08, | # Pirate Ship
@@ -105,9 +105,9 @@ TABLE_3:
 
 TABLE_4:
 	byte[30] |
+0x53, | # Subspace
 0x51, | # Metal Cavern (64)
 0x52, | # Kingdom Adventure
-0x53, | # Subspace
 0x54, | # Bob-Omb Battlefield
 0x55, | # Mushroom Gorge
 0x56, | # Minecart Madness
@@ -124,16 +124,16 @@ TABLE_4:
 0x66, | # Waluigi Land
 0x59, | # Gyromite
 0x63, | # Dr. Wily's Castle
-0x60, | # Chemical Plant
-0x68, | # Radical Highway
 0x69, | # Dracula's Castle
 0x6A, | # Spiral Mountain
 0x6B, | # Clanker's Cavern
 0x6C, | # Venus Lighthouse
 0x6E, | # Polar Dimension
+0x5A, | # Ruins
 0x6D, | # Lunar Horizon
 0x6F, | # Gemacube's Dynamo
-0x5A, | # Ruins
+0x60, | # Chemical Plant
+0x68, | # Radical Highway
 0x2B  | # Training Room
 
 TABLE_5:	# Unused
