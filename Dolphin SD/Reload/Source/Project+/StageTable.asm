@@ -16,26 +16,26 @@ Stage Select Screen Table Data
 
 TABLE_1:
 	byte[20] |
-0x0A, | # Metroid Lab
-0x15, | # Wario Land
-0x02, | # Delfino's Secret
-0x05, | # Bowser's Castle
-0x58, | # Golden Temple
-0x67, | # Dead Line
-0x04, | # Metal Cavern
-0x1C, | # Green Hill Zone
-0x23, | # Dream Land
-0x00, | # Battlefield
-0x1A, | # Smashville
-0x28, | # Pokemon Stadium 2
-0x01, | # Final Destination
-0x4E, | # Tiny FD
 0x1E, | # Sky Sanctuary Zone
-0x20, | # Yoshi's Story
-0x4F, | # Rumble Falls
 0x50, | # Temple of Time
+0x04, | # Metal Cavern
+0x05, | # Bowser's Castle
+0x4E, | # Tiny FD
+0x58, | # Golden Temple
+0x4F, | # Rumble Falls
+0x67, | # Dead Line
+0x15, | # Wario Land
 0x18, | # Fountain of Dreams
-0x21  | # Frigate Husk
+0x01, | # Final Destination
+0x21, | # Frigate Husk
+0x0A, | # Metroid Lab
+0x20, | # Yoshi's Story
+0x1C, | # Green Hill Zone
+0x1A, | # Smashville
+0x00, | # Battlefield
+0x28, | # Pokemon Stadium 2
+0x02, | # Delfino's Secret
+0x23  | # Dream Land
 
 TABLE_2:
 	byte[30] |
