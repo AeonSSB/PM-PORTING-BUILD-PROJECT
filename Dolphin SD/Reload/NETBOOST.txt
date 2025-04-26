@@ -119,6 +119,7 @@ true:
 .include Source/Community/MusicSelect.asm
 .include Source/Community/Subspace.asm
 .include Source/Community/SubspaceSwap.asm
+.include Source/Community/WallAttach.asm
 
 .include Source/Community/PSA/Angle.asm
 .include Source/Community/PSA/IC-Basics.asm
