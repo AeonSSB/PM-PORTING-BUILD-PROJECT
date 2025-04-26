@@ -46,6 +46,7 @@ done:
 .include Source/Project+/UCF.asm
 .include Source/Project+/PSA.asm
 .include Source/Project+/AnimatedCSS.asm
+.include Source/Project+/Camera.asm
 .include Source/Project+/Hurtbox.asm
 .include Source/Project+/Slippery.asm
 
