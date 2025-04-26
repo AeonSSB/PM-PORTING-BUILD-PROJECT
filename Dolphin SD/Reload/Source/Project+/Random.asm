@@ -45,7 +45,7 @@ RSS Page Switch [DukeItOut, Kapedani]
 
 .alias MAX_PAGES 					= 0x5
 .alias DEFAULT_RSS_INDEX			= 0x00	# Index of main .rss to load/save, Netplay - 0xFF
-.alias NUM_PRESETS					= 0x7	# Change for more presets
+.alias NUM_PRESETS					= 0x1	# Change for more presets
 
 .alias LAST_PRESET = NUM_PRESETS - 1
 
