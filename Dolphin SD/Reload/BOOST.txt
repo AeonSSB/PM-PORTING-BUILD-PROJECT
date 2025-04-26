@@ -47,6 +47,7 @@ done:
 .include Source/Project+/PSA.asm
 .include Source/Project+/AnimatedCSS.asm
 .include Source/Project+/Hurtbox.asm
+.include Source/Project+/Slippery.asm
 
 .include Source/ProjectM/IdleAudioFade.asm
 
@@ -117,6 +118,7 @@ true:
 
 .include Source/Community/MusicSelect.asm
 .include Source/Community/Subspace.asm
+.include Source/Community/SubspaceSwap.asm
 
 .include Source/Community/PSA/Angle.asm
 .include Source/Community/PSA/IC-Basics.asm
@@ -124,6 +126,7 @@ true:
 .include Source/Community/PSA/PointerWizardry.asm
 .include Source/Community/PSA/PSA.asm
 .include Source/Community/PSA/VariableParameter.asm
+.include Source/Community/PSA/NewCommands.asm
 
 #.include Source/Project+/TexFlags.asm	# This code is currently having issues interacting with the Code Menu. Included 
 					# to allow an understanding of how it will mechanically work in the future.
