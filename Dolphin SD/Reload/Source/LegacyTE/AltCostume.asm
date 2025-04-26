@@ -13,7 +13,7 @@ HOOK @ $8068480C
 int 0x80000 @ $806A080C	# Make Nunchucks use (-) instead of C
 
 #######################################################################################################################
-[Legacy TE] Hold Z for AltZ Characters, R/C for AltR Characters V3.1 [PyotrLuzhin, codes, ASF1nk, Yohan1044, DukeItOut]
+[Legacy TE] Hold Z for AltZ Characters, R/C for AltR Characters V3.2 [PyotrLuzhin, codes, ASF1nk, Yohan1044, DukeItOut]
 #######################################################################################################################
 .macro sqAdvCheck()
 {
@@ -62,8 +62,8 @@ loc_0x74:
 setAltR:
   li r3, 0x2;  b loc_0x8C	# Set AltR
 Nunchuk:
-  andi. r0, r3, 0x2000; bne- setAltZ		# Check for Z
-  andi. r0, r3, 0x4000; bne- setAltR		# Check for C
+  andi. r0, r3, 0x0010; bne- setAltZ	# Check for Z
+  andi. r0, r3, 0x0400; bne- setAltR	# Check for C
 
 loc_0x88:
   li r3, 0x0
