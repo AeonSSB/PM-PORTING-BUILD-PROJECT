@@ -2350,9 +2350,9 @@
     ],
     "AsmPaths": [
       {
-        "Label": "TABLE_STAGES:",
+        "Label": "",
         "FileType": 16,
-        "Path": "Source\\Project+\\StageTable.asm"
+        "Path": "pf\\stage\\switch\\Switch00.rss"
       },
       {
         "Label": "ClassicResultsTable:",
