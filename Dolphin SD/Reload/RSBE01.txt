@@ -347,22 +347,6 @@ Default Settings Modifier [Igglyboo, Brkirch, and FMK]
 * 0417F36C 00000000
 * E0000000 80008000
 
-###################################
-Usage Storage Engine [Dantarion]
-###################################
-* 060AF160 0000000C
-* 3C808058 38000012
-* 388457F0 00000000
-* 060AF180 0000000C
-* 3C608058 54A0083C
-* 386357F0 00000000
-* 065857F0 00000024
-* 04030F0D 110E120E
-* 1D1B1F1B 211B1E1B
-* 201B221B 2C0B2D11
-* 321D331C 34133522
-* 37203800 00000000
-
 #################################################
 [Legacy TE] Disable Challenger Approaches [ds22]
 #################################################
@@ -1599,12 +1583,13 @@ _end:
 }
 
 ###############################################################################################################
-[Project+] Customizable Attacker Hitlag Modifier [DukeItOut]
+[Project+] Customizable Attacker Hitlag Modifier 1.1 [DukeItOut]
 #
 # Place value 48495421 into RA-Basic[10] to eliminate hitlag for the attacker
 # Place value 48495478 into RA-Basic[10] to make the scalar in RA-Basic[12] be an additional multiplier
 # 	for the attacker's hitlag
 # Place value 6869743A into RA-Basic[10] to make the value in RA-Basic[12] be the attacker's hitlag
+#	If this is negative, instead subtracts that frame amount from the existing lag.
 ###############################################################################################################
 HOOK @ $8083FFBC
 {
@@ -1614,24 +1599,29 @@ HOOK @ $8083FFBC
 	lwz r6, 0xC(r6)			# / 
 	lwz r5, 40(r6)			# We want RA-Basic[10] 	(10*4 = 40)
 	lis r12, 0x4849			# \ "HIT!" (48495421)
-	ori r12, r12, 0x5421		# /
+	ori r12, r12, 0x5421	# /
 	cmpw r5, r12			# If that's what the ASCII in RA-Basic[10] says . . . .
 	beq- NoHitlag			# Then there will be no hitlag!
 	lis r12, 0x4849			# \ "HITx" (48495478)
-	ori r12, r12, 0x5478		# /
+	ori r12, r12, 0x5478	# /
 	cmpw r5, r12
 	beq- MultiplyHitlag
 	lis r12, 0x6869			# \ "hit:" (6869743A)
-	ori r12, r12, 0x743A		# /
+	ori r12, r12, 0x743A	# /
 	cmpw r5, r12
 	bne+ %END%
 SetHitlag:
-	lwz r4, 48(r6)			# Access RA-Basic[12] (12*4 = 48)
+	lwz r5, 48(r6)			# Access RA-Basic[12] (12*4 = 48)
+	cmpwi r5, 0
+	bge+ setFrames
+	add r5, r4, r5			# Frames of hitlag + RA-Basic[12] if RA-Basic[12] < 0, else hitlag = RA-Basic[12]
+setFrames:
+	mr r4, r5
 	b ModifiedHitlag
 MultiplyHitlag:
 	lwz r5, 48(r6)			# \ Access RA-Basic[12] (12*4 = 48)
 	mullw r4, r4, r5		# / and multiply the current hitlag by it
-	li r5, 0			# \
+	li r5, 0				# \
 	ori r5, r5, 60000		# | Scalars are really just ints * 60000			
 	divw r4, r4, r5			# / Convert back into an int!
 ModifiedHitlag:
@@ -2532,10 +2522,6 @@ teams:
     stfs f1, 0x110(r31)    # Original operation. Sets distance needed to see player indicators.
 }
 
-###############################################################
-[Legacy TE] Peach costumes no longer use a FitEntry [DukeItOut]
-###############################################################
-uint8_t 0x0 @ $80AD803C
 
 .include Source/Project+/CSE.asm
 .include Source/Project+/ResultsMusic.asm
@@ -2836,13 +2822,6 @@ op NOP @ $80A64614
 ##############################################################
 float 200.0 @ $80B88708
 
-################################
-DDD Result Name Modifier [ds22]
-################################
-* 064564D0 0000000C
-* 44656465 64650000
-* 00000000 00000000
-
 #################################
 ![Project+] Roy Counter Fix [ds22] 
 #################################
@@ -3005,29 +2984,6 @@ Snake's U-Smash can Have Horizontal Velocity [Magus]
 ##########################################################
 op nop @ $80ac7d2c
 
-################################
-Wario-Man has no FitResult [ds22]
-################################
-int 0 @ $80AD8098
-
-############################
-Wario-Man Cosmetics [ds22]
-############################
-* 04455818 250117FF
-* 04455A28 42012DFF
-* 04455A2C 0B000000
-* 04455A30 00002016
-
-##############################
-Giga Bowser Cosmetics [ds22]
-##############################
-* 04408AF4 00002039
-* 04455788 0B010CFF
-* 0445578C 14000000
-* 044559D8 2C012CFF
-* 044559DC 14000000
-* 044559E0 00002039
-
 #############################################
 Alloys Can Shield, Dodge & Grab Ledges [ds22]
 #############################################
@@ -3042,6 +2998,6 @@ op b 0x38	@ $808A087C
 .include Source/Project+/Items.asm
 .include Source/Project+/Co-OpSave.asm
 .include Source/Community/ItemEx.asm
-.include Source/Community/Syringe.asm		# Move out of Extras when more fully tested
+.include Source/Community/Syringe.asm
 
 .include Source/Project+/MultiGCT.asm		# MAKE SURE THIS IS AT THE VERY BOTTOM OF THIS CODESET!!!

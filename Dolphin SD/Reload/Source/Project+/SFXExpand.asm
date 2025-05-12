@@ -97,12 +97,12 @@ SFX_Table:		# Table size should be (sound effect count edited + 1) * 2 (i.e. 0 S
 	| #
 	0x414D, 90, | # Knuckles "HYAH!" used for Forward Smash, Side B and Neutral B
 	| #
-	0xB95B, 85, | # Fountain of Dreams Tangible Star 
-	0xB95C, 85, | # Fountain of Dreams Tangible Star 
-	0xB95D, 120,| # Fountain of Dreams Ambiance 
-	0xB95E, 50, | # Fountain of Dreams Left Pillar Ring  
-	0xB95F, 54, | # Fountain of Dreams Right Pillar Ring 
-	0xB960, 80, | # Fountain of Dreams Platform Fountain 
+	0xB95B, 82, | # Fountain of Dreams Tangible Star 
+	0xB95C, 82, | # Fountain of Dreams Tangible Star 
+	0xB95D, 79, | # Fountain of Dreams Ambiance 
+	0xB95E, 24, | # Fountain of Dreams Left Pillar Ring  
+	0xB95F, 25, | # Fountain of Dreams Right Pillar Ring 
+	0xB960, 39, | # Fountain of Dreams Platform Fountain 
 	| #
 	0xBA00, 48, | # Thwomp Appearance
 	0xBA01, 110,| # Thwomp Shaking
@@ -110,14 +110,14 @@ SFX_Table:		# Table size should be (sound effect count edited + 1) * 2 (i.e. 0 S
 	0xBA03, 50, | # Thwomp Woosh
 	0xBA04, 60, | # Bricks Breaking
 	0xBA05, 107,| # Bricks Reappearing
-	0xBA06, 73, | # Lava Ambiance
+	0xBA06, 62, | # Lava Ambiance
 	0xBA07, 108,| # Bowser Laugh
-	0xBA08, 106,| # Podoboo Appearance 1
-	0xBA09, 106,| # Podoboo Appearance 2
-	0xBA0A, 106,| # Podoboo Appearance 3
-	0xBA0B, 80, | # Podoboo Splash 1
-	0xBA0C, 80, | # Podoboo Splash 2
-	0xBA0D, 80, | # Podoboo Splash 3	
+	0xBA08, 79, | # Podoboo Appearance 1
+	0xBA09, 79, | # Podoboo Appearance 2
+	0xBA0A, 79, | # Podoboo Appearance 3
+	0xBA0B, 72, | # Podoboo Splash 1
+	0xBA0C, 72, | # Podoboo Splash 2
+	0xBA0D, 72, | # Podoboo Splash 3	
 	| #
 	0xFFFF, 0  	  # Make sure the table ends with this as a terminator!
 
