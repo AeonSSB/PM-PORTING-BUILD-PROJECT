@@ -42,6 +42,8 @@ Source/Project+/Shake.asm
 	[Project+] Disable stun shake in certain actions [DukeItOut]
 	[Project+] Custom Shake Vibration Table [DukeItOut]
 	[Project+] Screen Shake Type 2 Intensity Multiplier 0.5 -> 0.2 [DukeItOut]
+Source/Project+/Slippery.asm
+	Slippery Walk Animation Speed Change [DukeItOut]
 Source/Project+/LedgeGrab.asm
 	Tether LedgeGrab fix 2.0 [Eon]
 	[Project+] Tethers can connect to ledge through passable floors [Eon]
@@ -65,11 +67,10 @@ Source/Project+/AnimatedCSS.asm
 	Extra Rules Frozen animation Bug fix [Eon,DukeItOut]
 Source/Project+/Hurtbox.asm
 	Skip Attacker On-Hit Functions if it hits a Custom Hurtbox kind 1.1 [MarioDox, DukeItOut]
-Source/Project+/Slippery.asm
-	Slippery Walk Animation Speed Change [DukeItOut]
+Source/Project+/Camera.asm
+	Camera Refocus Refinement [DukeItOut]
 Source/ProjectM/IdleAudioFade.asm
 	Idle Audio Fade v2.05 [InternetExplorer, mawwwk, DukeItOut]
-Sleep doesn't pierce armour in air [Eon]
 Source/ProjectM/SpecialModes/AllStarVs.asm
 	[Legacy TE] All Star Versus 1.32 LTE [wiiztec] (Knuckles added in [Eon])
 	All star VS proper respawn 1.0d [wiiztec,Magus]
@@ -194,6 +195,8 @@ Source/Community/MusicSelect.asm
 	Select music for match on SSS v2 [Squidgy, mawwwk]
 	CSS Selections Preserved in Special Versus [Squidgy]
 	Only Reset Team Setting Upon Entering Training [Squidgy, Kapedani]
+Source/Community/PassiveAnim.asm
+	Force "PassiveAnim" Texture Animations To Play Indefinitely 1.2 [DukeItOut, QuickLava]
 Source/Community/Subspace.asm
 	BrawlEx Clone Engine v2.0.0.0 Subspace Fix (RSBE.Ver) [JOJI]
 	SSEEx Levels [Kapedani]
@@ -212,6 +215,8 @@ Source/Community/PSA/IC-Basics.asm
 Source/Community/PSA/Maths.asm
 	New Work Module Command Table [Eon]
 	Sin, Cos, aSin, aCos and aTan2 on Work Module 50, 51, 52, 53 and 54 [Eon]
+Source/Community/PSA/NewCommands.asm
+	New Motion Animation Commands [DukeItOut]
 Source/Community/PSA/PointerWizardry.asm
 	Pointer Wizardry v1.1 [Eon]
 Source/Community/PSA/PSA.asm
@@ -228,11 +233,6 @@ Source/Community/PSA/PSA.asm
 		CreateThrowItem follows attack staling [MarioDox]
 	Store hit Task in LA/RA-Basic 6 [MarioDox]
 	Raycast Requirement (0x19) Supports Variables for x,y,z [Eon]
-Source/Community/PSA/VariableParameter.asm
-	Move Hitbox And Hitbox Decleration allow Size and position to be specified with a variable [Eon]
-	Graphic effects accept variable arguments for rotation and rand elements [Eon]
-Source/Community/PSA/NewCommands.asm
-	New Motion Animation Commands [DukeItOut]
 Source/P+Ex/AllStar.asm
 	All-Star Rest Area Stock Display Cap[Desi]
 Source/P+Ex/CustomEnding.asm
@@ -243,16 +243,18 @@ Source/P+Ex/CustomEnding.asm
 Source/P+Ex/Misc.asm
 	Grabboxes work out of any action [Eon]
 	Falco can use his own final smash files [DukeItOut]
+	Individual Costume Final Smash Works for All Costume IDs [Kapedani]
+	Individual Costume Result Works for All Costume IDs [Kapedani]
 	Mario Fireballs are Costume Based [codes, ds22]
 	Main Send Param Values Above 127 Increase Sound Volume v1.1.0 [QuickLava]
 	WDSK FFFF = Weight Independant KB (MarioDox)
 	Source/P+Ex/SlotEx.asm
 		[P+Ex] SlotsEX Rewrite v1.0.2 [MarioDox, GerraRReal, QuickLava]
 	Additional Item Search Target Modes [Kapedani]                                     
+	Total Trophy/Sticker Count Modifier [RedipsTheCooler]
+	EX Trophy IDs Unlocked Automatically [Squidgy]
 Source/P+Ex/SoundbankFix.asm
 	Manual Clone Soundbank Unload Fix + Macro [codes, ds22, Desi]
-Source/Community/PassiveAnim.asm
-	Force "PassiveAnim" Texture Animations To Play Indefinitely 1.2 [DukeItOut, QuickLava]
 Source/Community/lavaInjectLoader.asm
 	[lavaInjectLoader] Inject Load Bootstrap v1.0.0 [QuickLava]
 Source/Extras/Netplay.asm
