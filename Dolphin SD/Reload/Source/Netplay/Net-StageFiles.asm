@@ -1741,7 +1741,8 @@ changeRandomClr:
 	mtctr r12			# |
 	bctrl 				# /
 notCustomPage:
-	li r4, 0x24                 # play scroll sound
+#	li r4, 0x24                 # original line in P+, to enable the sound to play delete the line below and un-comment this line
+	li r4, 0x15					# play nothing when z is pressed
     %lwd (r3, g_sndSystem)      # \
     li r5, -0x1                 # |
     li r6, 0x0                  # | g_sndSystem->playSE(0x24, -0x1, 0x0, 0x0, -0x1);
