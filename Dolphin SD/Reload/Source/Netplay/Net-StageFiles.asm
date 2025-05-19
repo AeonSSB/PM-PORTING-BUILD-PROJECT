@@ -4,7 +4,8 @@
 # -it points to Netplay/Net-MyMusic.asm instead of Project+/MyMusic.asm
 # -string "/sound/tracklist/" -> "sound/netplaylist/"
 #
-#################################
+###
+##############################################
 Stage File System Neo v2 [DukeItOut, Kapedani]
 ##############################################
 	.BA<-FileFormatSetup
@@ -499,8 +500,6 @@ Custom Stage SD File Loader [DukeItOut, Kapedani]
 .alias ASL_DATA						= 0x8053F000
 .alias TRACKLIST_DATA				= 0x8053F200
 .alias CODEMENU_ASL_LOC				= 0x804E00E8
-.alias BRAWLEX_FIGHTER_IDS       	= 0x80AD8258 #0x817C8680
-.alias BRAWLEX_FIGHTER_NAMES        = 0x80B511A0 #0x817CD820
 
 .macro lbd(<reg>, <addr>)
 {

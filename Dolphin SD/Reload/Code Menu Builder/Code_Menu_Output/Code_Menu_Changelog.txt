@@ -1,7 +1,5 @@
 PowerPC Assembly Functions (Code Menu Building Utility v1.5.3)
-Building "dnet.cmnu" for Project+ EX Netplay (Dolphin)
-Note: This code menu was configured for use with Dolphin only, and IS NOT COMPATIBLE with consoles!
-	Attempting to use this code menu on console can (and likely will) damage your system.
+Building "data.cmnu" for Project+ EX (Offline)
 
 Applying Menu Properties block from "EX_Config.xml"...
 Build Base Folder argument detected, applying settings...
@@ -155,16 +153,13 @@ Installing "Parry Taunts v1.1.0"...
 Installing "Universal Walljumps v1.0.1 [Dantarion, QuickLava]"...
 	Page Target "_SPECIAL"... Success!
 
-Parsing Options XML from "./Code_Menu_Output/Net-Code_Menu_Options.xml"...
+Parsing Options XML from "./Code_Menu_Output/Code_Menu_Options.xml"...
 [SUCCESS] Applying settings...
 [NOTE] XML parsed successfully, no changes detected!
-Note: Backed up ".././pf/menu3/dnet.cmnu" and overwrote it with the newly built Code Menu.
+Note: Backed up ".././pf/menu3/data.cmnu" and overwrote it with the newly built Code Menu.
 
 Writing ASM file... Success!
-Note: Backed up ".././Source/Netplay/Net-CodeMenu.asm" and overwrote it with the newly built ASM.
+Note: Backed up ".././Source/CodeMenu/CodeMenu.asm" and overwrote it with the newly built ASM.
 Note: Additionally copied over Addons folder!
-Note: Backed up and rebuilt ".././NETPLAY.GCT".
-Note: Backed up and rebuilt ".././NETBOOST.GCT".
-Note: The built GCTs are configured for use in Dolphin Netplay only, and ARE NOT COMPATIBLE with consoles!
-Attempting to use them on console can (and likely will) damage your system.
-
+Note: Backed up and rebuilt ".././RSBE01.GCT".
+Note: Backed up and rebuilt ".././BOOST.GCT".
