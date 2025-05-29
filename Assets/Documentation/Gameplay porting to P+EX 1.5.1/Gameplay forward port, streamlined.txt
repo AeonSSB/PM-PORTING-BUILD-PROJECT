@@ -34,6 +34,8 @@ Forward port:
 
 - ItmCommonParam.pac
 
+- Fighters' REL files in pf/module except Bowser, Link, Toon Link and Kirby
+
 - C-Stick.asm
 - C-Stick.GCT
 
