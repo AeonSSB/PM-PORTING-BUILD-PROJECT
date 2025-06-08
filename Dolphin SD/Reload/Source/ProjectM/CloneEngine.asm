@@ -75,30 +75,34 @@ CODE @ $80AAA76C
   lwz r12, 0x98(r12)
 }
 
-############################################################
-Lucario Clone Aura Sphere GFX Fix [Dantarion, ds22, DesiacX]
-############################################################
-.macro GFXFix(<FighterID>,<Effect.pacID>)
+############################################################################
+Lucario Clone Aura Sphere GFX Fix [Dantarion, ds22, DesiacX, KingJigglypuff]
+############################################################################
+.macro GFXFix(<FighterID>,<Effect.pacID>,<EFLSID>)
 {
     cmpwi r30, <FighterID>
-    bne- 0x0C
+    bne- 0x10
     lis r3, <Effect.pacID>
+	addi r4, r3, <EFLSID>
     b %END%
 }
 HOOK @ $80AA95B8    #Uses Fighter ID followed by Effect.pac ID
 {
-    %GFXFix (0x26, 0x27)    #Mewtwo
-    lis r3, 0x22            #If no fix is specified, use Lucario's
+    %GFXFix (0x26, 0x27, 0x7)    #Mewtwo
+    lis r3, 0x22            #\If no fix is specified, use Lucario's
+	addi r4, r3, 0x7		#/
 }
+op nop @ $80AA95BC
 
-############################################################
-Kirby Lucario Clone Aura Sphere GFX Fix [ds22, DesiacX, Eon]
-############################################################
-.macro GFXFix(<FighterID>,<Effect.pacID>)
+############################################################################
+Kirby Lucario Clone Aura Sphere GFX Fix [ds22, DesiacX, Eon, KingJigglypuff]
+############################################################################
+.macro GFXFix(<FighterID>,<Effect.pacID>,<EFLSID>)
 {
     cmpwi r3, <FighterID>
-    bne- 0xC
+    bne- 0x10
     lis r3, <Effect.pacID>
+	addi r4, r3, <EFLSID>
     b end
 }
 HOOK @ $80AA95AC
@@ -110,15 +114,84 @@ HOOK @ $80AA95AC
   lwz r3, 0x20(r3) #get LA's
   lwz r3, 0xC(r3) #get Basic's
   lwz r3, 0x120(r3) #get LA-Basic[72] (*0x4 = 0x120)
-  %GFXFix(0x26, 0x96) #MewtwoHat
+  %GFXFix(0x26, 0x96, 0x1) #MewtwoHat
 lucarioHat:
 notKirby:
   lis r3, 0x123
-
+  addi r4, r3, 0x1
 end:
   cmpwi r30, 0x5
-
 }
+op nop @ $80AA95B0
+
+#########################################################################
+Lucario Clone Aura Sphere Full-Charge GFX Fix [KingJigglypuff, QuickLava]
+#########################################################################
+.macro GFXFix(<FighterID>,<Effect.pacID>,<BoneID1>,<EFLSID1>,<EFLSID2>,<BoneID2>)
+{
+	cmpwi r11, <FighterID>
+	bne- 0x1C
+	lis r4, <Effect.pacID>
+	li r25, <BoneID1>
+	addi r27, r4, <EFLSID1>
+	addi r26, r4, <EFLSID2>
+	li r31, <BoneID2>
+	b %END%
+}
+HOOK @ $80AA5FBC
+{
+	lwz r11, 0x110 (r3)
+	#%GFXFix(0x2A, 0x00, 0x00, 0x00, 0x00, 0x00) # Ridley. Disabled, as Ridley isn't in Reload. This line is simply an example of how entries to this code are set up.
+	lis r4, 0x22								# \
+	li r25, 0x1D								# |
+	addi r27, r4, 0x8							# | If undefined, use Lucario.
+	addi r26, r4, 0x9							# |
+	li r31, 0x31								# /
+	
+}
+op nop @ $80AA5FC0
+op nop @ $80AA5FC8
+op nop @ $80AA5FCC
+op nop @ $80AA5FD0
+
+####################################################################
+Kirby Lucario Clone Aura Sphere Full-Charge GFX Fix [KingJigglypuff]
+####################################################################
+.macro GFXFix(<FighterID>,<Effect.pacID>,<BoneID1>,<EFLSID1>,<EFLSID2>,<BoneID2>)
+{
+	cmpwi r3, <FighterID>
+	bne- 0x1C
+	lis r3, <Effect.pacID>
+	li r25, <BoneID1>
+	addi r27, r3, <EFLSID1>
+	li r31, <BoneID2>
+	addi r26, r3, <EFLSID2>
+	b %END%
+}
+HOOK @ $80AA5FE8
+{
+												# Check Kirby's LA-Basic[72] (Hat ID)
+    lwz r3, 0xD8(r30)               			# \
+    lwz r3, 0x64(r3)                			# / Get soWorkManageModuleImpl* via soModuleAccesser* in r30
+    lis r4, 0x1000                  			# \
+    addi r4, r4, 72                 			# / Prepare LA-Basic[72] ID in r4 in preparation for function call.
+    lwz r12, 0x0(r3)                			# \
+    lwz r12, 0x18(r12)              			# |
+    mtctr r12                       			# | Get pointer to and call soWorkManageModuleImpl::getInt
+    bctrl                        				# /
+HatIDCheck:
+    #%GFXFix(0x2A, 0x00, 0x00, 0x00, 0x00, 0x00) # Ridley. Disabled, as Ridley isn't in Reload. This line is simply an example of how entries to this code are set up.
+    lis r3, 0x123								# \
+	li r25, 0x1B1								# |
+	addi r27, r3, 0x2							# | If undefined, use Lucario hat.
+	li r31, 0x1B8								# |
+	addi r26, r3, 0x3							# /
+}
+op nop @ $80AA5FEC
+op nop @ $80AA5FF0
+op nop @ $80AA5FF4
+op nop @ $80AA5FF8
+
 
 #####################################################################################################
 Lucario Clone Aura Sphere Bone ID Fix [Dantarion, ds22, PyotrLuzhin, Yohan1044, KingJigglypuff, Desi]
@@ -672,12 +745,77 @@ Bowser Clone Fire Breath Bone Fix [KingJigglypuff]
 }
 HOOK @ $80A391F8        #Use Register 28, followed by Fighter ID and Bone ID
 {
-    #%BoneIDFix(0x69, 0x21)        #Bowser Clone Test
-    li r5, 0x33                   #If not defined, use Bowser
+	lwz r4, 0xD8(r27)				# Restore original function
+    #%BoneIDFix(0x69, 0x21)       	# Example usage
+    li r5, 0x33                  	# If not defined, use Bowser
 }
-* 06A391FC 0000000C
-* 809B00d8 38610008
-* 38C10020 00000000
+op nop @ $80A39204					# NOP the instruction which would normally set r5, since we took care of it already.
+
+############################################################
+Bowser Clone Fire Breath SFX Fix [KingJigglypuff, QuickLava]
+############################################################
+.macro SFXIDFix(<FighterID>, <SFXID>)
+{
+    cmpwi r11, <FighterID>
+    bne- 0x0C
+    li r4, <SFXID>
+    b %END%
+}
+HOOK @ $80A394B4
+{
+    mr r11, r3             			# Copy ID in r3 into r11 to preserve it for following HOOK.
+    lwz r3, 0xD8(r30)       		# Restore Original Instruction
+    #%SFXIDFix(0x69, 0xEA8)  		# Example usage
+    li r4, 0xEFD            		# If undefined, use Bowser
+}
+op nop @ $80A394BC          		# NOP the instruction which would normally set r4, since we took care of it already.
+
+HOOK @ $80A394D4        #Fire Breath Loop SFX
+{
+    lwz r3, 0xD8(r30)       		# Restore Original Instruction
+    #%SFXIDFix(0x69, 0xE9E)  		# Example usage
+    li r4, 0xEFE            		# If undefined, use Bowser
+}
+op nop @ $80A394DC          		# NOP the instruction which would normally set r4, since we took care of it already.
+
+######################################################################
+Bowser Clone Kirby Hat Fire Breath SFX Fix [KingJigglypuff, QuickLava]
+######################################################################
+.macro SFXIDFix(<FighterID>, <SFXID>)
+{
+    cmpwi r11, <FighterID>
+    bne- 0x0C
+    li r4, <SFXID>
+    b exit
+}
+HOOK @ $80A39450
+{
+                                    # Check Kirby's LA-Basic[72] (Hat ID)
+    lwz r3, 0xD8(r30)               # \
+    lwz r3, 0x64(r3)                # / Get soWorkManageModuleImpl* via soModuleAccesser* in r30
+    lis r4, 0x1000                  # \
+    addi r4, r4, 72                 # / Prepare LA-Basic[72] ID in r4 in preparation for function call.
+    lwz r12, 0x0(r3)                # \
+    lwz r12, 0x18(r12)              # |
+    mtctr r12                       # | Get pointer to and call soWorkManageModuleImpl::getInt
+    bctrl                           # /
+	mr r11, r3             			# Copy ID in r3 into r11 to preserve it for following HOOK.
+HatIDCheck:
+    #%SFXIDFix(0x69, 0xEA8) 		# Example usage
+    li r4, 0x1AD7           		# If undefined, use Bowser hat
+exit:
+    lwz r3, 0xD8(r30)               # Restore Original Instruction
+}
+op nop @ $80A39458					# NOP the instruction which would normally set r4, since we took care of it already.
+
+HOOK @ $80A39470
+{
+	#%SFXIDFix(0x69, 0xE9E) 		# Example Usage
+    li r4, 0x1AD8           		# If undefined, use Bowser hat
+exit:
+    lwz r3, 0xD8(r30)       		# Restore Original Instruction
+}
+op nop @ $80A39478					# NOP the instruction which would normally set r4, since we took care of it already.
 
 ##########################################
 Link Final Smash Clone Pos Fix [DukeItOut]
