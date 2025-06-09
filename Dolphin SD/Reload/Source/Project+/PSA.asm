@@ -139,6 +139,19 @@ CODE @ $80FB3F74
 	word 0x00090100; word PSA_Off+0x10
 }
 
+#############################################################################
+Disable DamageFly Collateral Collision [QuickLava]
+# Eliminates the hitbox normally attached to characters after being launched.
+# Note that this is accomplished in most modern builds as a side effect of
+# Eon's "RCO Airspeed Fix" code (often in "Source/Project+/PSA.asm"); this
+# code isolates just that side effect and nothing else. Lastly, this code
+# is incompatible with the RCO code, as they write to the same RAM location.
+#############################################################################
+CODE @ $80FB3F74
+{
+  word 0x00020000; word 0x00000000    # NOP the subroutine call for spawning the hitbox.
+}
+
 #####################################################################################
 ![Project+] Shield Button while Tripped goes into Get-up [Standardtoaster, Magus, Eon]
 #####################################################################################
