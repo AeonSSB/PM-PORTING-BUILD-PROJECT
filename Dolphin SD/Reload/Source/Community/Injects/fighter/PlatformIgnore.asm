@@ -14,7 +14,7 @@ CODE @ $8054A668
 	word 0; word 9									#Value: 9
 	word 2; word PSA_Offset2+0x78					#Pointer: 0x80546CD8
 	#Sub Routine
-	word 2; word 0x8054C1E0							#Pointer: 0x8054C1E0
+	word 2; word 0x8054C200							#Pointer: 0x8054C200
 	
 	
 	word 0x0D000200; word PSA_Offset+0x08			#(Concurrent Infinite Loop) Param Offset: 0x80546C38
