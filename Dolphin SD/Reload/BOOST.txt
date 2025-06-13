@@ -64,6 +64,7 @@ done:
 
 .include Source/Project+/EffectCommands.asm
 .include Source/Project+/EffectsEX.asm
+.include Source/Project+/Effects.asm
 .include Source/Project+/Attributes.asm
 .include Source/Project+/PokeTrainer.asm
 
