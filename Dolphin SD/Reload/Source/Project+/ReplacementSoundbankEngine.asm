@@ -340,8 +340,8 @@ HOOK @ $801C8370	# [in "LoadGroup/[nw4r3snd6detail18SoundArchiveLoaderFUlPQ34nw]
   stw r26, -0x20(r3)	# place r26 in 805A7CE0 after adding 7 to it. This will be the soundbank.
 
   %lwi(r28, SawndStreamStatusBufferAddr)
-  lis r28, 0x805A       # \ 
-  ori r28, r28, 0x7D40  # / Setup Address to Sawnd Stream Peek/Status Array in r28! ----------------------------> # $805A7D40 is Buffer for Sawnd Stream Status and Info!
+  # lis r28, 0x805A       # \ 
+  # ori r28, r28, 0x7D40  # / Setup Address to Sawnd Stream Peek/Status Array in r28! ----------------------------> # $805A7D40 is Buffer for Sawnd Stream Status and Info!
                                                                                                                   # 0x00 is 16-bit Group ID if Stream Loaded, 0xFFFF if not
   lwz r29, 0x18(r31)    # \                                                                                       # 0x02 is 16-bit Sawnd Header Length
   lwz r29, 0x04(r29)    # |                                                                                       # 0x04 is 32-bit INFO Section Group Object Address
