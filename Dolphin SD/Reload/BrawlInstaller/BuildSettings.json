@@ -191,12 +191,48 @@
       "SeparateFiles": false,
       "CompressionType": 0,
       "FileType": 1,
-      "AlwaysInheritStyle": false,
+      "AlwaysInheritStyle": true,
       "Required": true,
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
       "PaletteCount": 32,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 0,
+      "Style": "P+",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\sc_selcharacter.pac",
+        "NodePath": "Misc Data [70]",
+        "FileExtension": "pac"
+      },
+      "HDImageLocation": "BrawlInstaller\\Character Selection Screen\\Icons\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "MenSelchrChrFace",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 80,
+        "Height": 56
+      },
+      "Format": 14,
+      "FirstOnly": true,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
       "ImportTextures": true
     },
     {
@@ -259,7 +295,7 @@
       "PatSettings": [
         {
           "Path": "AnmTexPat(NW4R)/MenReplayPreview2_TopN__0/lambert78/Texture1",
-          "FramesPerImage": 1,
+          "FramesPerImage": 10,
           "IdType": null,
           "Multiplier": null,
           "Offset": null,
@@ -1165,11 +1201,11 @@
       "PatSettings": [],
       "Prefix": "tex_face",
       "Multiplier": 1,
-      "Offset": 16,
+      "Offset": 1,
       "SuffixDigits": 3,
       "GroupMultiplier": 1,
       "FilePrefix": "",
-      "IdType": 1,
+      "IdType": 4,
       "Size": {
         "Width": 80,
         "Height": 56
@@ -1641,7 +1677,7 @@
       "PatSettings": [
         {
           "Path": "Misc Data [40]/AnmTexPat(NW4R)/MenEvent0000_TopN__0/lambert78/Texture1",
-          "FramesPerImage": 1,
+          "FramesPerImage": 10,
           "IdType": null,
           "Multiplier": null,
           "Offset": null,
@@ -1650,7 +1686,7 @@
         },
         {
           "Path": "Misc Data [40]/AnmTexPat(NW4R)/MenEvent0040_TopN__0/lambert78/Texture1",
-          "FramesPerImage": 1,
+          "FramesPerImage": 10,
           "IdType": null,
           "Multiplier": null,
           "Offset": null,
@@ -1863,7 +1899,7 @@
       "Prefix": "MenSelmapStats",
       "Multiplier": 1,
       "Offset": 0,
-      "SuffixDigits": 3,
+      "SuffixDigits": 2,
       "GroupMultiplier": 1,
       "FilePrefix": "",
       "IdType": 10,
@@ -2073,52 +2109,6 @@
       "AlwaysCreateArchive": false,
       "PaletteCount": 256,
       "ImportTextures": true
-    },
-    {
-      "CosmeticType": 0,
-      "Style": "vBrawl",
-      "InstallLocation": {
-        "FilePath": "pf\\menu2\\sc_selcharacter.pac",
-        "NodePath": "Misc Data [70]",
-        "FileExtension": "pac"
-      },
-      "HDImageLocation": "D:\\BrawlInstaller\\",
-      "CreateHDTextureFolder": false,
-      "ModelPath": null,
-      "PatSettings": [
-        {
-          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceI_TopN__0/Face02/Texture0",
-          "FramesPerImage": 10,
-          "IdType": null,
-          "Multiplier": null,
-          "Offset": null,
-          "AddTerminatorFrame": false,
-          "NormalizeTextureIds": true
-        }
-      ],
-      "Prefix": "MenSelchrChrFace",
-      "Multiplier": 10,
-      "Offset": 0,
-      "SuffixDigits": 3,
-      "GroupMultiplier": 1,
-      "FilePrefix": "",
-      "IdType": 4,
-      "Size": {
-        "Width": 80,
-        "Height": 56
-      },
-      "Format": 14,
-      "FirstOnly": true,
-      "SeparateFiles": false,
-      "CompressionType": 0,
-      "FileType": 1,
-      "AlwaysInheritStyle": false,
-      "Required": true,
-      "Enabled": true,
-      "Selectable": false,
-      "AlwaysCreateArchive": true,
-      "PaletteCount": 256,
-      "ImportTextures": true
     }
   ],
   "SoundSettings": {
@@ -2127,17 +2117,21 @@
   "MiscSettings": {
     "InstallToSse": true,
     "InstallTrophies": false,
-    "UpdateCreditsModule": true,
+    "UpdateCreditsModule": false,
     "SubspaceEx": true,
     "InstallKirbyHats": true,
     "DefaultExConfigVersion": 2,
-    "SyncTracklists": true,
+    "SyncTracklists": false,
     "UpdateCodeMenuNames": true,
-    "CompressBinFiles": false,
+    "CompressBinFiles": true,
     "RGBA8Thumbnails": false,
-    "BinUTF8Encoding": false,
-    "CreditsThemesUseFighterIds": false,
-    "VictoryThemesUseFighterIds": false
+    "BinUTF8Encoding": true,
+    "CreditsThemesUseFighterIds": true,
+    "VictoryThemesUseFighterIds": true,
+    "GctDebugMode": false,
+    "GctTimeoutSeconds": 5,
+    "ColorSmashDebugMode": false,
+    "ColorSmashTimeoutSeconds": 60
   },
   "FilePathSettings": {
     "FilePaths": [
@@ -2175,7 +2169,7 @@
       },
       {
         "FileType": 29,
-        "Path": "pf\\sound\\netplaylist\\"
+        "Path": ""
       },
       {
         "FileType": 8,
@@ -2263,7 +2257,7 @@
       },
       {
         "FileType": 41,
-        "Path": "Source\\Project+\\Random.asm"
+        "Path": ""
       },
       {
         "FileType": 42,
@@ -2277,9 +2271,9 @@
         "Path": "pf\\stage\\switch\\Switch00.rss"
       },
       {
-        "Label": "ClassicResultsTable:",
+        "Label": "",
         "FileType": 17,
-        "Path": "Source\\Project+\\ResultsMusic.asm"
+        "Path": ""
       },
       {
         "Label": "ENDINGTABLE:",
@@ -2326,11 +2320,31 @@
       },
       {
         "FileType": 24,
-        "Path": ""
+        "Path": "pf\\stage\\switch\\Switch01.rss"
       },
       {
         "FileType": 24,
-        "Path": ""
+        "Path": "pf\\stage\\switch\\Switch02.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch03.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch04.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch05.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch06.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\SwitchFF.rss"
       }
     ],
     "RandomStageNamesLocations": [
