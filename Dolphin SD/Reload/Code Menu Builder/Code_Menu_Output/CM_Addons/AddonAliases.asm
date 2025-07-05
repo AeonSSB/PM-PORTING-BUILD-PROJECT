@@ -31,13 +31,9 @@
 .alias UNVWLJMP_SETTING_LOC_HI = 0x804E
 .alias UNVWLJMP_SETTING_LOC_LO = 0x27C0
 
-# Addon "Volume Balance Control v1.0.0 [QuickLava]" Lines
-# Working Memory (0x08 bytes) for "Volume Balance Control v1.0.0 [QuickLava]"
-.alias VOLBLNCE_WORKING_MEM_LOC = 0x804E27C4
-.alias VOLBLNCE_WORKING_MEM_LOC_HI = 0x804E
-.alias VOLBLNCE_WORKING_MEM_LOC_LO = 0x27C4
-# Line "Volume Ratio" in "Volume Balance Control v1.0.0 [QuickLava]"
-.alias VOLBLNCE_VALUE_LOC = 0x804E27CC
+# Addon "Volume Balance Control v1.0.1 [QuickLava]" Lines
+# Line "Volume Ratio" in "Volume Balance Control v1.0.1 [QuickLava]"
+.alias VOLBLNCE_VALUE_LOC = 0x804E27C4
 .alias VOLBLNCE_VALUE_LOC_HI = 0x804E
-.alias VOLBLNCE_VALUE_LOC_LO = 0x27CC
+.alias VOLBLNCE_VALUE_LOC_LO = 0x27C4
 
