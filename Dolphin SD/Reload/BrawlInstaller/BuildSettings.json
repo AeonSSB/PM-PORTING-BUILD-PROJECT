@@ -207,7 +207,7 @@
         "NodePath": "Misc Data [70]",
         "FileExtension": "pac"
       },
-      "HDImageLocation": "BrawlInstaller\\Character Selection Screen\\Icons\\",
+      "HDImageLocation": "",
       "CreateHDTextureFolder": false,
       "ModelPath": null,
       "PatSettings": [],
@@ -243,7 +243,7 @@
         "NodePath": "",
         "FileExtension": "brres"
       },
-      "HDImageLocation": "BrawlInstaller\\Solo\\Subspace Emissary\\Character Icons\\",
+      "HDImageLocation": "",
       "CreateHDTextureFolder": false,
       "ModelPath": null,
       "PatSettings": [
@@ -2109,6 +2109,369 @@
       "AlwaysCreateArchive": false,
       "PaletteCount": 256,
       "ImportTextures": true
+    },
+    {
+      "CosmeticType": 0,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu\\adventure\\selchrcd_common.brres",
+        "NodePath": "",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [
+        {
+          "Path": "AnmTexPat(NW4R)/MenAdvChrCd0001_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": true
+        }
+      ],
+      "Prefix": "MenSelchrChrFace",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 80,
+        "Height": 56
+      },
+      "Format": 14,
+      "FirstOnly": true,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 0,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\sc_selcharacter.pac",
+        "NodePath": "Misc Data [70]",
+        "FileExtension": "pac"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "MenSelchrChrFace",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 80,
+        "Height": 56
+      },
+      "Format": 14,
+      "FirstOnly": true,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 1,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu\\common\\char_bust_tex\\",
+        "NodePath": "",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": true,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "MenSelchrFaceB",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 128,
+        "Height": 160
+      },
+      "Format": 9,
+      "FirstOnly": false,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": true,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 1,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\sc_selcharacter.pac",
+        "NodePath": "char_bust_tex_lz77",
+        "FileExtension": "pac"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": true,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "MenSelchrFaceB",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 128,
+        "Height": 160
+      },
+      "Format": 9,
+      "FirstOnly": false,
+      "SeparateFiles": false,
+      "CompressionType": 257,
+      "FileType": 1,
+      "AlwaysInheritStyle": true,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 2,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\info\\portrite\\",
+        "NodePath": "",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": true,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "InfFace",
+      "Multiplier": 50,
+      "Offset": 0,
+      "SuffixDigits": 4,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 48,
+        "Height": 56
+      },
+      "Format": 9,
+      "FirstOnly": false,
+      "SeparateFiles": true,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 6,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu\\collection\\Replay.brres",
+        "NodePath": "",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [
+        {
+          "Path": "AnmTexPat(NW4R)/MenReplayPreview2_TopN__0/lambert78/Texture1",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        }
+      ],
+      "Prefix": "MenReplayChr",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 64,
+        "Height": 24
+      },
+      "Format": 9,
+      "FirstOnly": true,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 6,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\mu_menumain.pac",
+        "NodePath": "MenuMain_en/Texture Data [11]",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "MenReplayChr",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 64,
+        "Height": 24
+      },
+      "Format": 9,
+      "FirstOnly": true,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 6,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\sc_sel_event.pac",
+        "NodePath": "Misc Data [40]",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [
+        {
+          "Path": "Misc Data [40]/AnmTexPat(NW4R)/MenEvent0000_TopN__0/lambert78/Texture1",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [40]/AnmTexPat(NW4R)/MenEvent0040_TopN__0/lambert78/Texture1",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        }
+      ],
+      "Prefix": "MenReplayChr",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 64,
+        "Height": 24
+      },
+      "Format": 9,
+      "FirstOnly": true,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": false,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
+    },
+    {
+      "CosmeticType": 11,
+      "Style": "3.6R",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\mu_menumain.pac",
+        "NodePath": "MenuMain_en/Texture Data [11]",
+        "FileExtension": "pac"
+      },
+      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [],
+      "Prefix": "MenWifiListIcn",
+      "Multiplier": 1,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 8,
+      "Size": {
+        "Width": 48,
+        "Height": 48
+      },
+      "Format": 9,
+      "FirstOnly": false,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": false,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true,
+      "PaletteCount": 256,
+      "ImportTextures": true
     }
   ],
   "SoundSettings": {
@@ -2129,7 +2492,7 @@
     "CreditsThemesUseFighterIds": true,
     "VictoryThemesUseFighterIds": true,
     "GctDebugMode": false,
-    "GctTimeoutSeconds": 5,
+    "GctTimeoutSeconds": 20,
     "ColorSmashDebugMode": false,
     "ColorSmashTimeoutSeconds": 60
   },
@@ -2299,6 +2662,11 @@
         "Label": "Table:",
         "FileType": 22,
         "Path": "Source\\P+Ex\\SlotEx.asm"
+      },
+      {
+        "Label": "ExtraFighterData:",
+        "FileType": 43,
+        "Path": ""
       }
     ],
     "FileNodePaths": [
