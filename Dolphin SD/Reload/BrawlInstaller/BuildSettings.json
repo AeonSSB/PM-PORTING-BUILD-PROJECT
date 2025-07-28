@@ -2492,7 +2492,7 @@
     "CreditsThemesUseFighterIds": true,
     "VictoryThemesUseFighterIds": true,
     "GctDebugMode": false,
-    "GctTimeoutSeconds": 20,
+    "GctTimeoutSeconds": 60,
     "ColorSmashDebugMode": false,
     "ColorSmashTimeoutSeconds": 60
   },
@@ -2620,7 +2620,7 @@
       },
       {
         "FileType": 41,
-        "Path": ""
+        "Path": "Source\\Project+\\Random.asm"
       },
       {
         "FileType": 42,
