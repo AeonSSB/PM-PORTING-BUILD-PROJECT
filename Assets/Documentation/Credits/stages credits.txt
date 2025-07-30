@@ -43,8 +43,8 @@ L - ???
 YOSHI'S STORY by Mewtwo2000 with credit to Oshtoby
 L - Yoshi's Fortune by Ryztiq with credit to Dranakar, Wingedkoopa67, ALM5252
 
-GREEN HILL ZONE by PMDT, DukeItOut, mawwwk, WorseDoughnut, soopercool101, Snoe, Efisio with credit to Yorch, GRAND AZEL
-L - Green Hill Zone Generations by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto, Efisio with credit to PMDT
+GREEN HILL ZONE by PMDT, DukeItOut, mawwwk, WorseDoughnut, soopercool101, Snoe with credit to Yorch, GRAND AZEL, Efisio
+L - Green Hill Zone Generations by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto with credit to PMDT, Efisio
 
 SMASHVILLE from Brawl (Y -> K.K. Concert)
 L - Sakuraville by t_Mistico_t with credit to rihuganon, davidvkimball, DukeItOut (Y -> K.K. Concert)
@@ -139,7 +139,7 @@ L - Hanenbow (PM) by PMDT
 SHADOW MOSES ISLAND from Brawl
 
 GREEN HILL ZONE from Brawl
-- Green Hill Zone (Generations) by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto, PMDT, Efisio
+- Green Hill Zone (Generations) by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto, PMDT with credit to Efisio
 
 
 
@@ -253,7 +253,7 @@ CHEMICAL PLANT by Puzzled, KTH, Nezha with credit to PegasusKnt, Mewtwo2000, Leg
 
 RADICAL HIGHWAY by nnebf with credit to PMDT, SEGA
 
-DRACULA'S CASTLE by PMDT with credit to mawwwk
+DRACULA'S CASTLE by PMDT with credit to mawwwk, Efisio
 
 SPIRAL MOUNTAIN by Nezha, Azel, Survivian, Layell, Kapedani, Tyleto, Mewtwo2000, Monkazoie, SoN1c2001 with credit to King Bob Gaming, Dranakar, Slapsmash Team
 
