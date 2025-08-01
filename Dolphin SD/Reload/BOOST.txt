@@ -5,36 +5,6 @@
 op cmplwi r0, 0x30 @ $8018CFC4
 op blt- 0x34	   @ $8018CFC8
 
-##############################################################
-Mode Exit Redirect: Hold L for VS/Hold R for Training [glitch]
-##############################################################
-HOOK @ $806CE194
-{
-  stb r3, 2760(r31)
-  lis r16, 0x805B
-  ori r16, r16, 0xB5F8
-  lhz r16, 0(r16)
-  ori r17, r17, 0xFF00
-  ori r18, r18, 0xFF
-  cmpw r16, r17
-  beq- versus
-  cmpw r16, r18
-  beq- training
-  b done
-
-versus:
-  li r19, 0x1
-  b switch
-
-training:
-  li r19, 0xC
-
-switch:
-  stw r19, 2736(r31)
-
-done:
-}
-
 .include Source/LegacyTE/Replays.asm
 
 .include Source/Project+/StageFiles.asm

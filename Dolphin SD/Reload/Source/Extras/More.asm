@@ -9,3 +9,18 @@
 Disable DPad on the SSS [PyotrLuzhin]
 #####################################
 * 046B6058 48000058
+
+#########################################################################
+R Press on SSS Advances Page v1.1 [ilikepizza107, QuickLava]
+# v1.1: Moved Hookpoint to avoid conflicts with other Stage-Related Codes
+#########################################################################
+HOOK @ $806B5860
+{
+    lwz r3, 0x13C(r1)            # Restore Original Instruction
+    rlwinm. r0, r3, 0, 26, 26    # 0x20 (R button pressed)
+    beq %END%                    # if R is not pressed, jump down to noMatch
+    lis r12, 0x806B              # \ 
+    ori r12, r12, 0x58E8         # | load address 806B58E8 into r12
+    mtctr r12                    # /
+    bctrl                        # jump to 806B58E8
+}
