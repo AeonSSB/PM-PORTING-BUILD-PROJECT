@@ -394,15 +394,15 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Outset Toon Link pose
 
 GANONDORF
 Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
-- Default Ganondorf from Brawl
-- Black Ganondorf from Brawl
-- Blue Ganondorf from Brawl
-- Green Ganondorf from Brawl
-- Red Ganondorf from Brawl
-- Brown Ganondorf from Brawl
+- Default Ganondorf by Cahalan with credit to Brawl
+- Black Ganondorf by Cahalan with credit to Brawl
+- Blue Ganondorf by Cahalan with credit to Brawl
+- Green Ganondorf by Cahalan with credit to Brawl
+- Red Ganondorf by Cahalan with credit to Brawl
+- Brown Ganondorf by Cahalan with credit to Brawl
 - Yellow Ganondorf by Moe
 - Purple Ganondorf by Ale64 with credit to Efisio
-- White Ganondorf by Moe
+- White Ganondorf by Dapperman, Cahalan
 - OoT Ganondorf by SJS, tryptech, Layell, Art+ with credit to PMDT
 - Purple OoT Ganondorf by SJS, tryptech, Layell, Art+ with credit to PMDT
 - Blue OoT Ganondorf by SJS, tryptech, Layell, Art+ with credit to PMDT
@@ -423,7 +423,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Standard Mewtwo pose 
 - Gray Mewtwo by PMDT
 - Yellow Mewtwo by Efisio with credit to Moe, PMDT
 - Brown Mewtwo by Efisio with credit to N!ck, PMDT
-- Cyan Mewtwo with credit to N!ck, PMDT
+- Light Blue Mewtwo with credit to N!ck, PMDT
 - Shadow Mewtwo by Moblin, davidvkimball, MetalLegacy, Efisio, Ale64 with credit to Moe, Jaystring, PMDT
 - Armored Mewtwo by PMDT
 - Yellow Armored Mewtwo by PMDT, Ale64, Efisio with credit to N!ck
