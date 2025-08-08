@@ -1711,27 +1711,27 @@ notRandom:
 hazard:
 	stb r11, 0x45(r30) 
 changeClr:
-	%call(MuObject__changeClrAnimN)
-	lwz r10, 0x228(r30)		# \
-	cmpwi r10, 0x2			# | check for custom page
-	bne- notCustomPage 		# /
-	lwz r3, 0x1FC(r30)
-	lbz r12, 0x45(r30)	# get hazard setting
-	lis r8, 0x806B
-	ori r4, r8, 0x93B9	# Random
-	cmpwi r12, 0
-	bne+ changeRandomClr
-	ori r4, r8, 0x93B3	# SelmapRandom
+#	%call(MuObject__changeClrAnimN) # changeClr has been commented out to disable the color animation resetting upon switching the hazard toggle on the SSS
+#	lwz r10, 0x228(r30)		# \
+#	cmpwi r10, 0x2			# | check for custom page
+#	bne- notCustomPage 		# /
+#	lwz r3, 0x1FC(r30)
+#	lbz r12, 0x45(r30)	# get hazard setting
+#	lis r8, 0x806B
+#	ori r4, r8, 0x93B9	# Random
+#	cmpwi r12, 0
+#	bne+ changeRandomClr
+#	ori r4, r8, 0x93B3	# SelmapRandom
 changeRandomClr:
-	%call(MuObject__changeClrAnimN)
-	lfs f1, 0x0(r29)	# \
-	lwz r3, 0x1FC(r30)	# |
-	lwz r3, 0x14(r3)	# |
-	lwz r3, 0x18(r3)	# |
-	lwz r12, 0x0(r3)	# | this->menSelmapRandom->modelAnim->anmObjMatClrRes->setUpdateRate(0.0)
-	lwz r12, 0x28(r12)	# |
-	mtctr r12			# |
-	bctrl 				# /
+#	%call(MuObject__changeClrAnimN) # changeRandomClr has been commented out to disable the color animation resetting upon switching the hazard toggle on the SSS
+#	lfs f1, 0x0(r29)	# \
+#	lwz r3, 0x1FC(r30)	# |
+#	lwz r3, 0x14(r3)	# |
+#	lwz r3, 0x18(r3)	# |
+#	lwz r12, 0x0(r3)	# | this->menSelmapRandom->modelAnim->anmObjMatClrRes->setUpdateRate(0.0)
+#	lwz r12, 0x28(r12)	# |
+#	mtctr r12			# |
+#	bctrl 				# /
 notCustomPage:
 #	li r4, 0x24                 # original line in P+, to enable the sound to play delete the line below and un-comment this line
 	li r4, 0x15					# play nothing when z is pressed
