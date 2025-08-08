@@ -1666,11 +1666,11 @@ setFrame:
 	cmplwi r9, 0x35		# |
 	bge- dontSetHazard	# /
 checkForSetHazard:
-	lwz r12, 0x4C(r1)
-	andi. r0, r12, 0x0010		# 0x0010 # Gamecube Z
-	bne+ setHazard  
-	rlwinm. r0, r12, 0, 10, 10	# 0x00200000	# Classic Controller ZL/ZR
-	beq+ dontSetHazard 
+#	lwz r12, 0x4C(r1)
+#	andi. r0, r12, 0x0010		# 0x0010 # Gamecube Z
+#	bne+ setHazard  
+#	rlwinm. r0, r12, 0, 10, 10	# 0x00200000	# Classic Controller ZL/ZR
+#	beq+ dontSetHazard 
 setHazard:
 	lis r8, 0x806B
 	li r11, 0
