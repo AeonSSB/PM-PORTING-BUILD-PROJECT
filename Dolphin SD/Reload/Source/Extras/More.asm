@@ -24,3 +24,8 @@ HOOK @ $806B5860
     mtctr r12                    # /
     bctrl                        # jump to 806B58E8
 }
+
+##########################################################################################################
+PokeTrio, Zelda/Sheik, Samus/ZSS Don't Force Each Other off of Selected Color on Return to CSS [QuickLava]
+##########################################################################################################
+op li r9, 0x01 @ $80684FC0    # [0x88 bytes into symbol "isSameChar/[muSelCharTask]/mu_selchar.o" @ 0x80684F38]
