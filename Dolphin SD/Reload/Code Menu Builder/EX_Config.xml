@@ -101,10 +101,6 @@
         <scheme name="Orange" menuColor1="Orange" ingameColor1="Orange" />
         <scheme name="Cyan" menuColor1="Cyan" ingameColor1="Cyan" />
         <scheme name="Gray" menuColor1="Gray" menuColor2="Light Gray" ingameColor1="Gray" ingameColor2="Light Gray" />
-        <scheme name="Black" menuColor1="Black" ingameColor1="Black_IG" menuColor2="White" ingameColor2="White" />
-        <scheme name="White" menuColor1="White" ingameColor1="White" />
-        <scheme name="RGB" menuColor1="pd_RGB" ingameColor1="pd_RGB" />
-        <scheme name="DarkRGB" menuColor1="Black" ingameColor1="Black_IG" menuColor2="pd_RGB" ingameColor2="pd_RGB" />
       </schemeDefinitions>
     </slotColorChanger>
   </codeSettings>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--PowerPC Assembly Functions (Code Menu Building Utility)-->
 <!--Important Note: Only change values noted as editable! Changing anything else will not work!-->
-<codeMenu cmnuPath="Reload/./pf/menu3/data.cmnu">
+<codeMenu cmnuPath="Reload/./pf/menu3/dnet.cmnu">
 	<codeMenuPage name="Main">
 		<codeMenuSelection name="Endless Friendlies Mode">
 			<defaultOption index="0" editable="true" />
@@ -26,7 +26,7 @@
 			<defaultValue value="false" editable="true" />
 		</codeMenuToggle>
 		<codeMenuToggle name="Autosave Replays">
-			<defaultValue value="false" editable="true" />
+			<defaultValue value="true" editable="true" />
 		</codeMenuToggle>
 		<codeMenuToggle name="Save Previous Replay">
 			<defaultValue value="false" editable="true" />
