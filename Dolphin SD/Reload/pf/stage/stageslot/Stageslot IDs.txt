@@ -83,15 +83,15 @@
 63 - Rumble Falls
 65 - Metal Cavern (64) (written as Metal Cavern Retro)
 67 - Bob-Omb Battlefield
-68 - Mushroom Gorge
+68 - Saturn Valley
 69 - Minecart Madness
 6A - Oil Drum Alley
 6B - Gyromite
 6C - Ruins
-6D - Yoshi's Story (Beta)
+6D - Cheese Bridge
 6E - Cookie Country
 6F - White Wafers
-70 - Sky Islands
+70 - Oedo Town
 71 - Sky Tower
 72 - Chemical Plant
 73 - Planet Papetoon
