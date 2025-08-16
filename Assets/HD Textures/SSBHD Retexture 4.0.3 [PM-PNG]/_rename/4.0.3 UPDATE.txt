@@ -1,0 +1,197 @@
+4.0.3 (08/24/2015)
+------------------
+
+- Now match with Project M 3.6
+- Dr. Mario CSPs/BPs available (Project M)
+- Kirby CSPs/BPs have been revamped (Brawl/Project M)
+- DDS packs ready to use !
+- Strap Loader (Brawl) - A part of the index finger wasn't colored.
+- New stock icons (Brawl/Project M) : Mario/Dr Mario/Fox/Melee Fox/Kirby/Game & Watch
+- Netplay Build : The netplay logo colors have been adjusted/
+- Smashville retexture is now included (Vanilla & Netplay version). It's still the beta version from July. Some textures are not final and will be corrected in the future.
+
+4.0.2 (06/29/2015)
+------------------
+
+- Star Fox series emblem not showed in battles. Now fixed.
+- Project M 3.6 beta friendly! (ASL/Netplay Builds)
+- Brawl Pack finally updated (works for each region : PAL/US/JAP)
+- GW/Wario alt/Giga Bowser CSPs/BPs for Brawl/PM revamped
+- Brawl menus have been updated to stick to the original design
+- Reworked on Brawl title screen, looks much better. Japanese title screen is finished!
+- Japanese CSS and SSS fresh and clean.
+- PAL : French menus/Css/Sss etc... done. Next updates will include the others languages
+- The quest for fixing all aspect ratio' textures is harsh, but I keep on goin' forward!
+- New Home Menu (fonts need to be corrected!!)
+- Brawl : New strap loader is here!
+- 8bit elements textures from stages/assist trophies like 75m/Excitebike have been upscaled (10 times)
+- A bunch of minor fixes 
+
+4.0.1 (04/06/2015)
+------------------
+
+- Fonts v2 is now included
+- Fonts in descriptions menu/Results screen/Names Entry/ have been updated
+- New fonts textures added
+(WARNING : these fonts textures will surely cause stutters/lag on Dolphin regular revisions!)
+- Characters Selection Icons : Yoshi/Ice Climbers/Kirby/ZSS/R.O.B./Game & Watch/Snake icons have been updated
+- Characters Selection Screen 'Icons Names' : New Font used - King DeDede is now Dedede 8D
+- Corrected several files'aspect/ratios
+- Fixed credits on the title scren
+- SSS : Fixed Pikmin/Smash/Smash 64 logos
+- Moved "4 Ways to play" folder to "Title Screen"
+- All controllers/buttons textures have been moved to the new "Controllers" folder
+- New Gamecube Controller and buttons
+- Fresh Battle UI Textures (Numbers/Game!/GO! ...)
+- Textures with .PNG extension were not loaded on Linux systems. It seems Linux doesn't like capital letters :/ Now fixed
+- Some textures have now alternate colors (Gamecube Controller/Go! textures atm). You can found them in the Bonus section of my Mediafire folder, check them out!
+
+____________________________________________________________________________________________________________________________________
+
+4.0 (March 2015)
+----------------
+
+- All textures have been converted to the new Dolphin Custom Texture format, Yeah !
+Unfortunately, this update concerns only Project M at the moment, Brawl will be updated as soon as possible. 
+Thanks to the new format, the pack is compatible with the numerous versions of PM (Launcher, Iso Builder, Gecko OS, Netplay etc...) 
+No more useless folders on my Dropbox! Yeah !!!
+Just a reminder, you need to rename the main folder (RSBEPM for Iso Builder ver., RSBEC3 for Netplay, 00000000 for Launcher etc...) 
+- Now match with Project M 3.5 perfectly !
+- New fonts for the menus, following the PM design
+- Several files'aspect ratio have been corrected (70%), way to go!
+- Character Selection Screen now matches perfectly with the original design
+- Several textures of the main menus have been remade
+- Peach, Captain Falcon and Zero Suit Samus got new CSPs
+- Various CSPs have been added/corrected
+- Battle Portraits as well
+- New stock icons
+- Thanks Winchester7314 for the Golden Metal Mewtwo (CSP/BP) and the Xbox/PS3 buttons
+- Deleted "3_2_1_GO!" folder, all files have been moved in the "Brawl" folder
+- Removed the "Bonus" folder from the pack and put it in the Dropbox/Mediafire folder instead
+- HD updated strap loaders (put the Wii language in Japanese to actually see them =p). They will be included in the Brawl packs
+- A bunch of new textures I can't remember of, so many changes ... ^^"
+
+Nota : Due to the new custom texture format, it's been obvious that the new updated pack will not work with all revisions before 
+Dolphin v4.0-5234, version which includes the new texture system. An Archives folder has been created for this purpose on my 
+dropbox/mediafire folder, containing all past textures pack of this project.
+Unfortunately, I will not provide support for these versions anymore, but feel free to re-use them.
+
+____________________________________________________________________________________________________________________________________
+
+
+3.6.1 (01/10/13)
+----------------
+
+o Fixed issues with some textures
+o Brawl Packs updated
+o PM : Added Mewtwo and Roy icons in the Replays section
+o Results screen : Minor changes (WINNER, SAVE)
+o Basic Font redrawed (Names Entry, Results screen, Tags...)
+o Character Selection Screen : Added missing textures
+o CSPs/BPs recolors | Brawl/PM:
+- Peach done
+- Falco/Melee Falco done
+- Fox/Melee Fox done
+
+____________________________________________________________________________________________________________________________________
+
+
+3.6 (12/30/13)
+--------------
+
+o Food textures by Lucs (finally added !! I'm so dumb ...)
+o Project M 3.0 now compatible
+o Project M | The pack now comes in 2 versions : for Gecko OS 1.9.3 [UBTS00] & custom ISO made with ISO builder [RSBEPM]
+o CSPs (Character Selection Portraits) recolors | Brawl/PM :
+- Bowser done
+- Charizard (PM) done
+- Ivysaur (PM) done
+- Squirtle (PM) done
+- Lucas done
+- Ness done
+- Luigi done
+- Link done
+- Pokémon Trainer fixed and done
+- Jigglypuff done (alt-textures as well)
+- Marth fixed (for PM)
+- Mewtwo (PM/Normal textures) done
+- Yoshi CSPs fixed and completed (Brawl & PM)
+- Blue Kirby CSP fixed
+- New color template (set by default. If you don't like it, just delete the "Character Selection Portrait - 3.0" folder in "Character Selection Screen", to have back the classic CSPs)
+- Improved some textures
+o New textures for Menus and Sub-menus (Stadium, Classic, All-Star, Rules, Item Switch, Random Stage Switch etc...)
+o Title Screen updated (PM)
+o New boot screen for Gecko OS (PM)
+o Strap Loader updated (PM)
+o During matches : New HUD textures (Coins, Dragoon Parts, Numbers etc...)
+o Results Screen fresh and HD
+o Stage Selection Screen (PM) : New stages/Super Smash Bros. icon changed
+
+____________________________________________________________________________________________________________________________________
+
+
+3.5beta updates (08/27/13)
+--------------------------
+
+o Japanese version available (simple port)
+o Project: M 2.6 compatible
+o Few correctives measures for PM 2.6
+o New Battle portraits (blue Falco, purple Diddy Kong, animal Snake)
+o Main menus partly done
+o Custom textures (by Miraj) > Bonus folder
+[08/27/2013] 
+o Project M 2.6b compatible
+o New textures added and some fixes.
+o Battle Portraits : White Lucario
+
+____________________________________________________________________________________________________________________________________
+
+
+3.1a updates (01/07/13)
+-----------------------
+
+o Character Selection Screen :
+- Portrait : King Dedede recolors done
+- Portrait : Toon Link recolors done
+- Area Portrait : Redrawn  the corner
+
+____________________________________________________________________________________________________________________________________
+
+
+3.1 updates (12/01/12)
+---------------------- 
+
+o 4 Ways to play Screen : 
+- Wiimote image added
+- "4 Ways to Play!" phrase and translations for PAL version added
+o Battle Portraits :
+- Ike : Yellow color added
+- Lucas : Red color added
+- Yoshi : Finished!
+- Meta Knight : Finished!
+- Wario (bike version) : Finished!
+- Ice Climbers : Finished!
+o Pause Screen :
+- Added one texture
+- Buttons updated
+o Character Selection Screen :
+- Yoshi : Finished!
+- Meta Knight : Finished! (with v2)
+- Wario (bike version) : Finished!
+- Ice Climbers : Finished!
+- Game & Watch : Finished!
+- Some textures have been redone
+o Rules > Item Switch Screen (only NTSC-U and English in PAL version are concerned)
+- 33 items textures in High-res
+- New fonts
+o Main Menu screen (english version only) :
+- Project M font style
+- Some textures on the main menu have been redone
+o Vault screen :
+- Trophies, Stage Builder, Album, Replays, Master-Pieces icons
+o Data > Movies > Subspace Emissary :
+- Added the seven first thumbnails
+o Results Screen :
+- Some textures redone
+o Opening
+- Peach texture added
