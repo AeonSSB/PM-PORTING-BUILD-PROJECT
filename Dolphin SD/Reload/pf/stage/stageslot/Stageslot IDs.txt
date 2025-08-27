@@ -106,7 +106,7 @@
 7C - Spiral Mountain
 7D - Clanker's Cavern
 7E - Venus Lighthouse
-7F - Lunar Horizon
+7F - Ice Cream Island
 80 - Subspace
 81 - Phendrana Drifts
 82 - Kingdom Adventure
