@@ -473,10 +473,11 @@ unusual:				//Those two stage types demand hardcoded pointers
   rlwinm r0, r3, 2, 0, 29
 }	
 	
-########################################################
-Custom Stage SD File Loader [DukeItOut, Kapedani]
+###############################################################################################################
+Custom Stage SD File Loader (w/ Code Menu Random From Normal Alts) [DukeItOut, Kapedani, QuickLava]
 # 
-# This version forces stage reloading if a flag is set, as well as uses the flag to determine if it's a replay
+# This version forces stage reloading if a flag is set, as well as uses the flag to determine if it's a replay.
+# It also randomizes among registered normal alts instead of list alts when the Code Menu Random Toggle is on.
 #
 # Requires:
 # CMM SD File Saver
@@ -485,7 +486,7 @@ Custom Stage SD File Loader [DukeItOut, Kapedani]
 # NEW: Random support and character based results/target smash
 #
 # Prerequisite: Stage ID in r3 (retrieves input, itself)
-########################################################
+###############################################################################################################
 
 .alias g_GameGlobal                 = 0x805a00E0
 .alias g_mtRand_net					= 0x805a0420
@@ -658,32 +659,25 @@ skipToCheck:
 	li r31, 0x4
 startRandomLoop:
 	slwi r31, r31, 13	# shift 0x2/0x4 to make 0x4000/0x8000 mask
-	lhz r12, 4(r22)			# \ Get the slot count
-	mtctr r12 				# /
+	lhz r12, 4(r22)		# \ Get the slot count
+	mtctr r12 			# /
 randomLoop:
 	# r29 - start index
 	# r21 - count/end index
 	# NOTE: >=0x4000 alts should be ordered sequentially together (and shouldn't be at the very first entry)
-	lhzx r25, r23, r26	
-	cmpwi r29, 0x0		# \ check if already found start of alts
-	bne+ alreadyStarted	# /
-	cmplwi r25, 0xC000		# \ 
-	bge+ endRandomLoop		# | check to see if start of alts was found
-	and. r11, r31, r25		# |
-	beq+ endRandomLoop		# / 
-	mr r29, r21			# get startIndex of alts
-alreadyStarted:
-	cmplwi r25, 0xC000		# \ 
-	bge+ finishRandomLoop	# |
-	and. r11, r31, r25		# | check to see if end of alts was found
-	beq- finishRandomLoop	# /
-endRandomLoop:
-	addi r21, r21, 0x1
-	addi r26, r26, 0x4
-	bdnz+ randomLoop
+	
+	lhzx r25, r23, r26      # Load current alt's button mask.
+	cmplwi r25, 0xC000		# \
+	bge+ finishRandomLoop	# | We don't randomize from Start+L/R List Alts, so check if this is one of those...
+	and. r11, r31, r25		# | ... and if so, we can stop looking for more alts to random from: exit!
+	bne- finishRandomLoop	# / 
+endRandomLoop:              # Otherwise, if we're looking for more alts still...
+	addi r21, r21, 0x1      # ... increment the number we've found...
+	addi r26, r26, 0x4      # ... and the index to the entry we're loading...
+	bdnz+ randomLoop        # ... then return to loop start.
 finishRandomLoop:
 	li r3, 0			# \
-	cmpwi r29, 0x0 		# | check if any random alts found, default if not
+	cmpwi r21, 0x0 		# | Check if any random alts found, use default if not.
 	beq- noRandomAlts	# /
 	sub r4, r21, r29				# \
 	%lwdu (r12, r3, g_mtRand_net)	# |
@@ -1053,39 +1047,6 @@ forceSkip:
 	
 .include source/Netplay/Net-MyMusic.asm		# Integrated heavily into the above!
 .include source/Netplay/Net-Random.asm			# Custom random code to load expansion and non-striked slots, properly
-
-#####################################################################################################
-[Legacy TE] Hold Y on Smashville to Guarantee a Concert V2 (requires ASL Helper and SFSN) [DukeItOut]
-#####################################################################################################
-HOOK @ $8010FBC4
-{
-  lbz r0, 0(r31)
-  lis r5, 0x800B			# \ Access player input via ASL Helper
-  ori r5, r5, 0x9EA0		# |
-  lhz r12, 2(r5)			# /
-  andi. r12, r12, 0x800		# If holding Y (800)
-  beq- noConcert			# Attempt the code. (Only Smashville reads here.)
-  lis r12, 0x8010			# \
-  ori r12, r12, 0xFCA8		# | Go straight to triggering the concert mode substage ID 5
-  mtctr r12					# |
-  bctr 						# /
-noConcert:
-}
-##########################################################
-KK Concert Music Only Triggers Via TLST File [DukeItOut]
-# 
-# Makes music only trigger KK Concert songs when holding Y
-#
-# 00 = 0  	# Dawn
-# 01 = 1	# Morning
-# 02 = 2	# Day
-# 03 = 3	# Evening, No Concert
-# 03 = 4	# Evening, KK Slider Prepping Guitar
-# 03 = 5 	# Evening, KK Concert
-# 04 = 6	# Midnight, No Concert
-# 04 = 7	# Midnight, KK Concert
-##########################################################
-op b 0x15C @ $8010FCC4
 
 ###########################################################################
 Metal Cavern and Online Training Room Can Use Custom Tracklists [DukeItOut]
