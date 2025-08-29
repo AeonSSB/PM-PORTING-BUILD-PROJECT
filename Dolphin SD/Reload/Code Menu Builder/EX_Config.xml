@@ -43,7 +43,7 @@
   </addonIncludes>
   <codeSettings>
     <!--To declare new rosters, add new entries into this block! Valid for EX builds only!-->
-    <rosterChanger enabled="true">
+    <rosterChanger enabled="false">
       <!--Add rosters in the following format:
             <roster name="YOUR_NAME_HERE" filename="FILENAME_HERE"/>
             -->

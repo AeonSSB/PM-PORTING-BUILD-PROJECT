@@ -46,11 +46,6 @@
 			<option value="PM 3.6" />
 			<option value="OFF" />
 		</codeMenuSelection>
-		<codeMenuSelection name="CSS Roster Version">
-			<defaultOption index="0" editable="true" />
-			<option value="Default" />
-			<option value="Project+" />
-		</codeMenuSelection>
 	</codeMenuPage>
 	<codeMenuPage name="Debug Mode Settings">
 		<codeMenuToggle name="Debug Mode">

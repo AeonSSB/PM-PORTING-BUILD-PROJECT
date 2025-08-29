@@ -1,23 +1,21 @@
 [Legacy TE] Extra null pointer catch [Fracture]
 Source/LegacyTE/Replays.asm
 	PM Replay Fix V2.3 [Fracture, Stage Reload Fix by Kapedani, Recode by DukeItOut]
-Source/Netplay/Net-StageFiles.asm
+Source/Project+/StageFiles.asm
 	Stage File System Neo v2 [DukeItOut, Kapedani]
 	Stage Roster Expansion System v3.2 [Phantom Wings, DukeItOut]
 	[Legacy TE] Stage Modules Are Portable Without Modification V2 [DukeItOut]
-	Custom Stage SD File Loader [DukeItOut, Kapedani]
+	Custom Stage SD File Loader (w/ Code Menu Random From Normal Alts) [DukeItOut, Kapedani, QuickLava]
 	If No Song Titles Are Found, Obtain Them From The TLST File [DukeItOut, Kapedani]
-	source/Netplay/Net-MyMusic.asm
+	source/Project+/MyMusic.asm
 		CMMCustom My Music V2 	 [JOJI, DukeItOut]
 		Enable Hanenbow in My Music [Desi]
 		Salty Runback Expansion Stage Music Fix [DukeItOut]
 		Hanenbow can display song titles, but stage builder stages can't [JOJI, DukeItOut]
 		Miscellaneous Music Customizer [DukeItOut]
 		CMM OptionSpecial Stages [JOJI]
-	source/Netplay/Net-Random.asm
+	source/Project+/Random.asm
 		RSS Page Switch [DukeItOut, Kapedani]
-	[Legacy TE] Hold Y on Smashville to Guarantee a Concert V2 (requires ASL Helper and SFSN) [DukeItOut]
-	KK Concert Music Only Triggers Via TLST File [DukeItOut]
 	Metal Cavern and Online Training Room Can Use Custom Tracklists [DukeItOut]
 	SSSRESStage Selection Screen Roster Expansion System (RSBE.Ver) v1.3 [JOJI, DukeItOut, Kapedani]
 	Expansion Stages in All-Star Fix [DukeItOut]
@@ -257,10 +255,8 @@ Source/P+Ex/SoundbankFix.asm
 	Manual Clone Soundbank Unload Fix + Macro [codes, ds22, Desi]
 Source/Community/lavaInjectLoader.asm
 	[lavaInjectLoader] Inject Load Bootstrap v1.0.0 [QuickLava]
-Source/Extras/Netplay.asm
-	[Project+] Move v-sync call for Brawl/PM [hannesmann, Dan Salvato, Achilles]
-	[Project+] Skip strap screen [PyotrLuzhin]
-	Fixed OSReport Syntax on File Reading [DukeItOut]
+Source/Extras/Console.asm
+	480p Pixel Fix Patch [leseratte, Eon]
 Source/Extras/More.asm
 	Disable DPad on the SSS [PyotrLuzhin]
 	R Press on SSS Advances Page v1.1 [ilikepizza107, QuickLava]
