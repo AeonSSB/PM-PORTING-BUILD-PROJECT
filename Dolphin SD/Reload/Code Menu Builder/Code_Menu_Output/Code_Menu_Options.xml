@@ -323,7 +323,7 @@
 			<maxValue value="3.000000" />
 			<speed value="0.050000" />
 		</codeMenuFloat>
-		<codeMenuSelection name="Big Head Mode">
+		<codeMenuSelection name="Big Head Mode" excluded="true">
 			<defaultOption index="0" editable="true" />
 			<option value="Off" />
 			<option value="On" />

@@ -146,7 +146,8 @@ Installing "Volume Balance Control v1.0.1 [QuickLava]"...
 
 Parsing Options XML from "./Code_Menu_Output/Code_Menu_Options.xml"...
 [SUCCESS] Applying settings...
-[NOTE] XML parsed successfully, no changes detected!
+[CHANGED] "Special Modes > Big Head Mode"
+	- Line is now excluded!
 Note: Backed up ".././pf/menu3/data.cmnu" and overwrote it with the newly built Code Menu.
 
 Writing ASM file... Success!
