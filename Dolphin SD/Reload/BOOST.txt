@@ -84,3 +84,4 @@ op blt- 0x34	   @ $8018CFC8
 #.include Source/Extras/Netplay.asm	# Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!
 
 .include Source/Extras/More.asm
+.include Source/Extras/PersistentSoundTestTracks.asm

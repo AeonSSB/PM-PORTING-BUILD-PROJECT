@@ -7,7 +7,7 @@
     <buildBaseFolder name="Reload/." />
     <!--Specify a replacement for the text that usually sits at the top of the menu.-->
     <!--Leave this blank to leave the original title text in place.-->
-    <menuTitle text="Project+Ex Code Menu" />
+    <menuTitle text="Project M 3.6R Code Menu" />
     <!--Specify additional comment text to add to the top of the menu!-->
     <!--Note: By default, comments specified here are included beneath the usual comments outlining the menu's controls.-->
     <!--To delete those comments on the controls, set the "deleteControlsComments" argument to "true"!-->
