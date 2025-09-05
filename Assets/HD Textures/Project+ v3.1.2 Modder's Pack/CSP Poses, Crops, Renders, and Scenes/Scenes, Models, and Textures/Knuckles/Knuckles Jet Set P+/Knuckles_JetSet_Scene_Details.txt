@@ -1,0 +1,60 @@
+Jet Gem hex colors use the Color0 entry in the Gem material in each pac. For reference those colors are.
+
+20: 008E09
+21: C6DD00
+22: 0012B7
+23: 858585
+24: B80000
+
+
+DISCLAIMER: The PM Knuckles pose is MIRRORED. Importing this pose will be different than normal. 
+
+1. Import your model and import the pose using the .anim scripts. The model will look weird, this is normal.
+2. Scale it to .5, set the X scale to NEGATIVE. The model should look normal but the pose is mirrored.
+3. Apply the armature modifier on every object to "bake" the pose onto the model.
+4. Create a new empty at 0,0,0, select all the Knuckles objects and select the empty. Set it as the parent.
+5. Set the X scale on the Empty to -1.
+6. Apply the normal model and eye transformations down below.
+
+Model scale: 
+-When imported:
+X: 0.500
+Y: 0.500
+Z: -0.500
+
+-When parented to an Empty:
+X: -1.000
+Y: 1.000
+Z: 1.000
+
+Left eye iris location:
+X: 0.967
+Y: 0.360
+Z: 0.000
+
+Left eye iris scale:
+X: 0.790
+Y: 0.810
+Z: 1.000
+
+Left eye iris rotation:
+N/A
+
+Left eye highlight location: 
+*SAME AS IRIS
+
+Right eye iris location:
+X: 0.230
+Y: 0.250
+Z: 0.000
+
+Right eye iris scale:
+X: 0.850
+Y: 0.850
+Z: 1.000
+
+Right eye iris rotation:
+N/A
+
+Right eye highlight location: 
+*SAME AS IRIS

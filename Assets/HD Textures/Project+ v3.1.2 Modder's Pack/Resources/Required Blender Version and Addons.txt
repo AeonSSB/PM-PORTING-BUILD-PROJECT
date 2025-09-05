@@ -1,0 +1,11 @@
+Current characters that require these plugins and this version of blend
+-Kirby
+-Ganondorf
+
+Blender 3.6.7: https://www.blender.org/download/lts/3-6/
+
+Render Button and Camera Manager: https://blenderartists.org/t/render-button-camera-manager-for-blender-3-quick-fix-07-04-2022-v0-3-9/1159414
+
+Brawl Rendering Toolkit: https://github.com/tryptech/Brawl-Rendering-Toolkit
+
+All others require Blender 2.79: https://www.blender.org/download/releases/2-79/

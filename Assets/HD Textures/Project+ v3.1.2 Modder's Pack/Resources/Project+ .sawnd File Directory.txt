@@ -1,0 +1,45 @@
+000 - Menu/Hit SFX
+
+00B - Pikachu
+00C - Luigi
+00E - Ness
+00F - Bowser
+
+0D5 - Misc Announcer Clips 1
+0D6 - Misc Announcer Clips 2
+0D7 - Misc Announcer Clips 3 (also where Knuckles' announcer call is)
+0D8 - Announcer Character Calls
+
+001 - Mario
+01C - Charizard
+01D - Squirtle
+01E - Ivysaur
+002 - Link
+003 - Pit
+007 - Samus/ZSS
+009 - Kirby
+010 - Peach
+011 - Zelda
+013 - Marth
+014 - Mr. Game & Watch
+017 - Wario
+018 - Olimar
+022 - Jigglypuff
+023 - Toon Link
+025 - Snake
+026 - Sonic
+
+027 - Wii Remote Character Selection
+
+029 - Kirby Copy Abilities
+
+047 - ZSS Moves (not voice clips)
+
+065 - Shadow Moses Island 
+
+144 - Mewtwo
+145 - Roy
+176 - Knuckles
+
+
+

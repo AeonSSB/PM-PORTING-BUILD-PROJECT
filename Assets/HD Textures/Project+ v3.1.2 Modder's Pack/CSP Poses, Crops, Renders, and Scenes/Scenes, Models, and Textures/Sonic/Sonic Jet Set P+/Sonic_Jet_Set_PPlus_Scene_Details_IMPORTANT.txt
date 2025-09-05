@@ -1,0 +1,55 @@
+Note: This render has costume specific colors on the fur materials. These are based on the FurEnv materials. 
+
+If you go into LightChannel0, and then AmbientColor, you can see the material color for a specific costume.
+
+For Jet Set those colors are
+
+Default: 7D7DDB
+Yellow Jet Set: F5EFC2
+Red Jet Set: DDC2DB
+Blue Jet Set: DFF4FF
+Purple Jet Set: E7E0FD
+
+The render currently has set the color to: 7D7DDB
+
+Each object material that has fur in the blend has a Soft Light mix that requires the AmbientColor, and you need to use the appropriate color from the pac material. Be sure to check this on both head materials, plus the quill and tail material.
+
+Model scale: 
+X: 0.200
+Y: 0.200
+Z: 0.200
+
+Model rotation: 
+X: 0
+Y: 0
+Z: 0
+
+Left eye iris location:
+X: -0.600
+Y: 0.000
+Z: 0.000
+
+Left eye iris rotation:
+X: 1 
+Y: 0
+Z: 0
+
+Left eye highlight location: 
+X: -0.600
+Y: 0.000
+Z: 0.000
+
+Right eye iris location:
+X: -0.100
+Y: 0.000
+Z: 0.000 
+
+Right eye iris rotation:
+X: 1 
+Y: 0
+Z: 0
+
+Right eye highlight location: 
+X: -0.100
+Y: 0.000
+Z: 0.000

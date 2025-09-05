@@ -1,0 +1,8 @@
+09 - Purple Yoshi by SJS
+10 - Orange Yoshi by SJS
+12 - Yoshi Cookie by MetalLegacy, updated eyes by SJS
+
+35 - Orange Great Gonzales by MetalLegacy, Art+, tyleto, Layell, SJS
+36 - Red Great Gonzales by MetalLegacy, Art+, tyleto, Layell, SJS
+
+The FitYoshi.pac in P+ is prebuilt to support these colors in the exact slots listed here, alongside appropriate egg effects
