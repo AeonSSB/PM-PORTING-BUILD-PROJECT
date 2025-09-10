@@ -84,7 +84,7 @@
 65 - Metal Cavern (64) (written as Metal Cavern Retro)
 67 - Bob-Omb Battlefield
 68 - Saturn Valley
-69 - Minecart Madness
+69 - Mine Cart Madness
 6A - Oil Drum Alley
 6B - Gyromite
 6C - Ruins
