@@ -93,7 +93,7 @@
 6F - White Wafers
 70 - Oedo Town
 71 - Sky Tower
-72 - Chemical Plant
+72 - Chemical Plant Zone
 73 - Planet Papetoon
 74 - Sprout Tower
 75 - Dr. Wily's Castle
