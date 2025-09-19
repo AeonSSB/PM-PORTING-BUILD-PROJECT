@@ -1,0 +1,26 @@
+The Dead0N and Dead1N in Model Data [100]->3DModels->StgPosition->Bones->StgPosition have their X coordinates
+at +-224 instead of +-246 (getting the blastzones closer to the stage to match the shrinking of the stage)
+
+The CamLimit0N and CamLimit1N found in the same place have their X coordinates at +-156,5 instead of +-170
+for the same reason.
+
+PlayerXE/N nodes have their X coordinates adjusted to fit in the new stage.
+  
+0E: -60->-43,8
+0N: -60->-43,8
+1E: 60->43,8
+1N: 60->43,8
+2E: -20->-14,6
+2N: -20->-14,6
+3E: 20->14,6
+3N: 20->14,6
+
+RebirthXE/N nodes have their X coordinates adjusted to fit in the new stage.
+0E/N: 16->11,5
+1E/N: -50-> -36,5
+2E/N: 50->36,5
+3E/N: -16->-11,5
+
+Stage top bone scaled at 0,73.
+
+Collision data ported.
