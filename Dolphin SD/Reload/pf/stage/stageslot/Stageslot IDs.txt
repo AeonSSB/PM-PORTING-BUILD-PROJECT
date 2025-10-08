@@ -109,7 +109,7 @@
 7F - Ice Cream Island
 80 - Subspace
 81 - Phendrana Drifts
-82 - Kingdom Adventure
+82 - Toadstool Tour
 83 - Bowser's Castle (PM)
 84 - Tiny FD
 85 - Temple of Time
