@@ -2311,7 +2311,7 @@ HOOK @ $807C1A20                # Address = $(ba + 0x007C1A20)
 	stmw r3, 0x8(r1)
 	bl 0x1798
 	lis r31, 0x804e
-	lwz r31, 0x2574(r31)
+	lwz r31, 0x25bc(r31)
 	cmpwi r31, 0x1
 	bne loc_0x038
 	lwz r27, 0xd8(r27)
@@ -2324,12 +2324,12 @@ HOOK @ $807C1A20                # Address = $(ba + 0x007C1A20)
 	lwz r31, 0x64(r26)
 	lfs f2, 0x8(r31)
 	lis r30, 0x804e
-	ori r30, r30, 0x2650
+	ori r30, r30, 0x2698
 	lfs f0, 0x8(r30)
 	fmuls f1, f1, f0
 	fadds f1, f1, f2
 	lis r30, 0x804e
-	ori r30, r30, 0x259c
+	ori r30, r30, 0x25e4
 	lfs f2, 0x8(r30)
 	fneg f0, f2
 	fcmpu cr0, f1, f0
@@ -2345,12 +2345,12 @@ loc_0x024:
 	lwz r31, 0x58(r26)
 	lfs f2, 0xc(r31)
 	lis r30, 0x804e
-	ori r30, r30, 0x2690
+	ori r30, r30, 0x26d8
 	lfs f0, 0x8(r30)
 	fmuls f1, f1, f0
 	fadds f1, f1, f2
 	lis r30, 0x804e
-	ori r30, r30, 0x25d8
+	ori r30, r30, 0x2620
 	lfs f2, 0x8(r30)
 	fneg f0, f2
 	fcmpu cr0, f1, f0
@@ -2380,7 +2380,7 @@ loc_0x038:
 HOOK @ $8083ADE0                # Address = $(ba + 0x0083ADE0)
 {
 	lis r4, 0x804e
-	lwz r4, 0x2574(r4)
+	lwz r4, 0x25bc(r4)
 	cmpwi r4, 0x1
 	bne loc_0x01C
 	cmpwi r3, -0x1
@@ -4999,6 +4999,7 @@ loc_0x022:
 [CM_Addons] Code Menu Addon Includes
 ####################################
 .include "Source/CM_Addons/WIPMHTFL/Source.asm"
+.include "Source/CM_Addons/INVROLLS/Source.asm"
 .include "Source/CM_Addons/MLEEFREZ/Source.asm"
 .include "Source/CM_Addons/RAYDEBUG/Source.asm"
 .include "Source/CM_Addons/PRYTAUNT/Source.asm"

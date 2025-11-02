@@ -470,6 +470,11 @@
 			<maxValue value="3600" />
 			<speed value="1" />
 		</codeMenuInt>
+		<codeMenuSelection name="Invisible Tech Rolls">
+			<defaultOption index="0" editable="true" />
+			<option value="OFF" />
+			<option value="ON" />
+		</codeMenuSelection>
 	</codeMenuPage>
 	<codeMenuPage name="Flight Mode Settings">
 		<codeMenuToggle name="Flight Mode">

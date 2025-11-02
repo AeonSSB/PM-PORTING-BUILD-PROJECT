@@ -1,0 +1,9 @@
+<addon name="Invisible Tech Rolls" shortName="INVROLLS">
+	<codeMenuPage shortName="_GMPLMOD">
+		<codeMenuSelection name="Invisible Tech Rolls" shortName="INV_LINE">
+			<defaultOption index="0" />
+			<option value="OFF" />
+			<option value="ON" />
+		</codeMenuSelection>
+	</codeMenuPage>
+</addon>
