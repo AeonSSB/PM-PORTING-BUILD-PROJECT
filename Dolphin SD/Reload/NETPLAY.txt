@@ -1499,34 +1499,36 @@ notTooFast:
   stfs f2, 0x190(r1)		# original operation
 }
 
-##################################################
-[Project+] Disable Screen-KOs in teams [ds22, Eon]
-##################################################
+###############################################################
+[Project+] Disable Screen-KOs in teams v1.1 [ds22, Eon, mawwwk]
+###############################################################
 HOOK @ $8087C310
 {
-  lis r15, 0x80b8
-  lwz r15, 0x7C28(r15)
-  lwz r15, 0x6E(r15)
-  andi. r15, r15, 0x8
-  beq normalCheck
-  #if items enabled = casuals, dont enable
-  lis r15, 0x805A
-  lwz r15, 0xE0(r15)
-  lwz r15, 0x08(r15)
-  lbz r15, 0x16(r15)
-  cmpwi r15, 0
-  bne normalCheck
-
-  lis r15, 0x9018
-  addi r15, r15, 0xB73
-  lbz r15, 0(r15)
-  cmpwi r15, 0x1;  beq- forceStarKO
-normalCheck:
-  cmpw r3, r26;  b %END%
+  lis r15, 0x9018       # \ Check if teams enabled
+  lbz r15, 0xB73(r15)   # | 
+  cmpwi r15, 1          # |
+  blt end               # /
+  
+  lis r15, 0x805A       # \ If any items enabled,
+  lwz r15, 0xE0(r15)    # | leave screen KOs enabled
+  lwz r15, 0x08(r15)    # |
+  lbz r15, 0x16(r15)    # |
+  cmpwi r15, 0          # |
+  bne end               # /
+  
+  lis r15, 0x80B8       # \ ?? Unknown check
+  lwz r15, 0x7C28(r15)  # | 
+  lwz r15, 0x6E(r15)    # | 
+  andi. r15, r15, 0x8   # | 
+  beq end               # /
 
 forceStarKO:
-  li r15, 0x0
-  cmpwi r15, 0x1
+  li r15, 0
+  cmpwi r15, 1
+  b %END%
+
+end:
+  cmpw r3, r26          # Original op
 }
 
 ######################################
