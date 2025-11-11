@@ -195,3 +195,21 @@ Turbo Mode - Curry Special Brawl Doesn't Exclude Nana [Magus]
 
 Super Spicy Curry has no SFX [standardtoaster]
 * 04843540 60000000
+
+###########################################################
+Turbo Boost makes Power Up Noise on Acquisition [DukeItOut]
+###########################################################
+HOOK @ $80845E98
+{
+    lwz r3, 0xD8(r29)
+    li r4, 0x1EFB        # Sound effect to play (Getting something from WiFi spectator mode)
+    li r5, 0
+    li r6, 0
+    lwz r3, 0x50(r3)
+    li r7, 0
+    lwz r12, 0(r3)        # \
+    lwz r12, 0x1C(r12)    # | Play sound!
+    mtctr r12            # |
+    bctrl                # /
+    mr r3, r23            # Original operation
+}
