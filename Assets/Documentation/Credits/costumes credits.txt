@@ -6,18 +6,18 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Green Plumber Wario from Brawl
 - White Plumber Wario from Brawl
 - Blue Plumber Wario from Brawl
+- Pink Plumber Wario by Xaturati0n
+- Orange Plumber Wario by Xaturati0n
+- Light Blue Plumber Wario by Xaturati0n
 - Biker Wario from Brawl
-- Red Biker Wario from Brawl
-- Blue Biker Wario from Brawl
+- Red Biker Wario by Xaturati0n
+- Blue Biker Wario by Efisio
 - Green Biker Wario from Brawl
-- Yellow Biker Wario from Brawl
-- Black Biker Wario from Brawl
+- Yellow Biker Wario by Efisio with credit to Cahalan
+- Black Biker Wario by Xaturati0n
+- Orange Biker Wario by Xaturati0n
+- White Biker Wario by Xaturati0n
 - Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-- Red Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-- Blue Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-- Green Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-- Yellow Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
-- Black Tycoon Wario by Moblin, Xenthos, ColonelBirdstrong, SJS with credit to malistaticy, davidvkimball, Layell
 
 
 MARIO
@@ -75,15 +75,15 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Yellow Peach by Efisio, Moe
 - Fire Peach by PMDT, Art+
 - Sunshine Peach by mawwwk, Art+ with credit to PMDT
-- Red Sunshine Peach by Efisio with credit to N!ck, mawwwk, Art+, PMDT
-- Blue Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
-- Green Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
-- Yellow Sunshine Peach by Efisio with credit to N!ck, Ale64, mawwwk, Art+, PMDT
+- Red Sunshine Peach by Efisio with credit to Xaturati0n, mawwwk, Art+, PMDT
+- Blue Sunshine Peach by Efisio with credit to Xaturati0n, Ale64, mawwwk, Art+, PMDT
+- Green Sunshine Peach by Efisio with credit to Xaturati0n, Ale64, mawwwk, Art+, PMDT
+- Yellow Sunshine Peach by Efisio with credit to Xaturati0n, Ale64, mawwwk, Art+, PMDT
 - Shadow Queen by PMDT, Shranux
-- Red Shadow Queen by Efisio with credit to N!ck, Shranux, PMDT
-- Blue Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-- Green Shadow Queen by Efisio, Ale64 with credit to N!ck, Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
-- Yellow Shadow Queen by Shranux, Efisio with credit to N!ck, PMDT
+- Red Shadow Queen by Efisio with credit to Xaturati0n, Shranux, PMDT
+- Blue Shadow Queen by Shranux, Efisio with credit to Xaturati0n, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+- Green Shadow Queen by Efisio, Ale64 with credit to Xaturati0n, Shranux, PMDT, TheShadowMysteryKing, TheDarkMysteryMan, davidvkimball, Yohan1044, MetalLegacy
+- Yellow Shadow Queen by Shranux, Efisio with credit to Xaturati0n, PMDT
 
 
 BOWSER
@@ -94,10 +94,10 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Brawl Blue Bowser from Brawl
 - White Bowser from Brawl
 - Brown Bowser from Brawl
-- Red Bowser by Efisio with credit to N!ck, Ale64, Ubergruvin
-- Blue Bowser by Efisio with credit to N!ck, Ale64
-- Green Bowser by Efisio with credit to N!ck
-- Yellow Bowser by Efisio with credit to N!ck, Moe
+- Red Bowser by Efisio with credit to Xaturati0n, Ale64, Ubergruvin
+- Blue Bowser by Efisio with credit to Xaturati0n, Ale64
+- Green Bowser by Efisio with credit to Xaturati0n
+- Yellow Bowser by Efisio with credit to Xaturati0n, Moe
 - Albino Bowser by Efisio
 - Reptile Bowser by Efisio
 - Dry Bowser by PMDT, Art+
@@ -116,10 +116,10 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Brawl Blue Giga Bowser by PMDT
 - White Giga Bowser by PMDT
 - Brown Giga Bowser by PMDT
-- Red Giga Bowser by Ale64 with credit to Efisio, N!ck, Ubergruvin
-- Blue Giga Bowser by Ale64 with credit to Efisio, N!ck
-- Green Giga Bowser by Ale64 with credit to Efisio, N!ck
-- Yellow Giga Bowser by Ale64 with credit to Efisio, N!ck, Moe
+- Red Giga Bowser by Ale64 with credit to Efisio, Xaturati0n, Ubergruvin
+- Blue Giga Bowser by Ale64 with credit to Efisio, Xaturati0n
+- Green Giga Bowser by Ale64 with credit to Efisio, Xaturati0n
+- Yellow Giga Bowser by Ale64 with credit to Efisio, Xaturati0n, Moe
 - Albino Giga Bowser by Ale64 with credit to Efisio
 - Reptile Giga Bowser by Ale64 with credit to Efisio
 - Giga Dry Bowser by PMDT, Purpa
@@ -189,11 +189,11 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Green Hooded Diddy Kong by Art+, SJS, tyleto with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
 - Yellow Hooded Diddy Kong by Art+, SJS, tyleto, Efisio with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
 - Black Hooded Diddy Kong by Art+, SJS, tyleto with credit to HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
-- Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-- Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-- Green Cowboy Diddy Kong by Ale64, Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-- Yellow Cowboy Diddy Kong by Ale64, Efisio with credit to Chucklez, NickirixXT, N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
-- Purple Cowboy Diddy Kong by Chucklez, NickirixXT with credit to N!cK, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Cowboy Diddy Kong by Chucklez, NickirixXT with credit to Xaturati0n, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Blue Cowboy Diddy Kong by Chucklez, NickirixXT with credit to Xaturati0n, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Green Cowboy Diddy Kong by Ale64, Efisio with credit to Chucklez, NickirixXT, Xaturati0n, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Yellow Cowboy Diddy Kong by Ale64, Efisio with credit to Chucklez, NickirixXT, Xaturati0n, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
+- Purple Cowboy Diddy Kong by Chucklez, NickirixXT with credit to Xaturati0n, AlGeorgeRomo, Mach 7, Puzzled, Xenthos, Dapperman
 
 
 CAPTAIN FALCON
@@ -364,9 +364,9 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, OoT Link pose by tryp
 - Blue OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
 - Black OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+ with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
 - Lavender OoT Link by Skilar, SJS, fireball, tyleto, Xenthos, Art+, Efisio with credit to PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Yellow OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Pink OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
-- Orange OoT Link by Efisio with credit to N!ck, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Yellow OoT Link by Efisio with credit to Xaturati0n, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Pink OoT Link by Efisio with credit to Xaturati0n, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
+- Orange OoT Link by Efisio with credit to Xaturati0n, Skilar, SJS, fireball, tyleto, Xenthos, Art+, PMDT, Moe, LinkTahuterasuSpirit, AlGeorgeRomo
 - Fierce Deity Link by Moe, AlGeorgeRomo, Bird of Light, Skilar, SJS, fireball, tyleto, Xenthos, SatoshiKura, Crixler, ledgerewskie, Layell, Aghanim, PizzaDog, Jigglypoof21, Draco, Mach 7, Nanobuds, Theytah with credit to PMDT
 
 
@@ -422,18 +422,18 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Standard Mewtwo pose 
 - Blue Mewtwo by PMDT
 - Gray Mewtwo by PMDT
 - Yellow Mewtwo by Efisio with credit to Moe, PMDT
-- Brown Mewtwo by Efisio with credit to N!ck, PMDT
-- Light Blue Mewtwo with credit to N!ck, PMDT
+- Brown Mewtwo by Efisio with credit to Xaturati0n, PMDT
+- Light Blue Mewtwo with credit to Xaturati0n, PMDT
 - Shadow Mewtwo by Moblin, davidvkimball, MetalLegacy, Efisio, Ale64 with credit to Moe, Jaystring, PMDT
 - Armored Mewtwo by PMDT
-- Yellow Armored Mewtwo by PMDT, Ale64, Efisio with credit to N!ck
+- Yellow Armored Mewtwo by PMDT, Ale64, Efisio with credit to Xaturati0n
 - Red Armored Mewtwo by PMDT, Ale64, Efisio
-- Green Armored Mewtwo by Ale64, Efisio with credit to N!ck, PMDT
-- Blue Armored Mewtwo by Ale64, Efisio with credit to LnktheWolf, N!ck, PMDT
-- Pink Armored Mewtwo by Ale64, Efisio with credit to N!ck, PMDT
-- Orange Armored Mewtwo by Efisio, Ale64 with credit to N!ck, PMDT
-- White Armored Mewtwo by Efisio, Ale64 with credit to N!ck, PMDT
-- Black Armored Mewtwo by Efisio, Ale64 with credit to N!ck, PMDT
+- Green Armored Mewtwo by Ale64, Efisio with credit to Xaturati0n, PMDT
+- Blue Armored Mewtwo by Ale64, Efisio with credit to LnktheWolf, Xaturati0n, PMDT
+- Pink Armored Mewtwo by Ale64, Efisio with credit to Xaturati0n, PMDT
+- Orange Armored Mewtwo by Efisio, Ale64 with credit to Xaturati0n, PMDT
+- White Armored Mewtwo by Efisio, Ale64 with credit to Xaturati0n, PMDT
+- Black Armored Mewtwo by Efisio, Ale64 with credit to Xaturati0n, PMDT
 
 
 LUCARIO
@@ -505,22 +505,22 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Substitute Ivysaur po
 CHARIZARD
 Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Armored Charizard pose by Efisio with credit to PMDT
 - Default Charizard from Brawl
-- White Charizard by Efisio with credit to N!ck, PMDT
-- Blue Charizard by Efisio with credit to N!ck, PMDT
-- Green Charizard by Efisio with credit to N!ck, PMDT
-- Shiny Charizard by Efisio with credit to N!ck, PMDT
-- Light Blue Charizard by Efisio with credit to N!ck, PMDT
-- Brawl Red Charizard by Efisio with credit to N!ck, Brawl
-- Brawl Green Charizard by Efisio with credit to N!ck, Ale64, Brawl
-- Brawl Blue Charizard by Efisio with credit to N!ck, Ale64, Brawl
-- Brawl Brown Charizard by Efisio with credit to N!ck, Ale64, Brawl
+- White Charizard by Efisio with credit to Xaturati0n, PMDT
+- Blue Charizard by Efisio with credit to Xaturati0n, PMDT
+- Green Charizard by Efisio with credit to Xaturati0n, PMDT
+- Shiny Charizard by Efisio with credit to Xaturati0n, PMDT
+- Light Blue Charizard by Efisio with credit to Xaturati0n, PMDT
+- Brawl Red Charizard by Efisio with credit to Xaturati0n, Brawl
+- Brawl Green Charizard by Efisio with credit to Xaturati0n, Ale64, Brawl
+- Brawl Blue Charizard by Efisio with credit to Xaturati0n, Ale64, Brawl
+- Brawl Brown Charizard by Efisio with credit to Xaturati0n, Ale64, Brawl
 - GSC Shiny Charizard by Ale64
-- Brown Charizard by Ale64, Efisio with credit to Rexy, Layell, N!ck
+- Brown Charizard by Ale64, Efisio with credit to Rexy, Layell, Xaturati0n
 - Armored Charizard by PMDT
 - White Armored Charizard by PMDT, Layell
 - Blue Armored Charizard by Ale64 with credit to Efisio, Rexy, PMDT
-- Green Armored Charizard by Ale64, Efisio with credit to N!ck, PMDT
-- Red Armored Charizard by Ale64, Efisio with credit to N!ck, PMDT
+- Green Armored Charizard by Ale64, Efisio with credit to Xaturati0n, PMDT
+- Red Armored Charizard by Ale64, Efisio with credit to Xaturati0n, PMDT
 - Yellow Armored Charizard by Ale64, Efisio with credit to PMDT
 
 
