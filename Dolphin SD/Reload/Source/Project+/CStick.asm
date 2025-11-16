@@ -95,7 +95,7 @@ CODE @ $80FC2498
 CODE @ $80541220
 {
 	#Change Action: Requirement: Action=27, Requirement=Character Exists?
-	word 0; word 0x27
+	word 0; word 0x24
 	word 6; word 0x00
 	#And: Comparison Compare: IC-Basic[1012] >= IC-Basic[3151]
 	word 6; word 7 			#Compare
@@ -113,8 +113,8 @@ CODE @ $80541220
 	word 0x000D0400; word C_Stick_Off+0x20	#   ElIf: Comparison Compare: IC-Basic[1018] >= IC-Basic[3158]    #usmash
 	word 0x02010200; word C_Stick_Off+0x10  #      Change Action: Requirement: Action=30, Requirement=True
 	word 0x000D0400; word C_Stick_Off3+0x10	#	ElIf: Comparison Compare: IC-Basic[1012] >= IC-Basic[3151]
-	word 0x05000000; word 0 				#		Reverse Direction
-	word 0x02010200; word C_Stick_Off3 		#		Change Action: Requirement: Action=27, Requirement=Character Exists?
+	// word 0x05000000; word 0 				#		Reverse Direction
+	word 0x02010200; word C_Stick_Off3 		#		Change Action: Requirement: Action=24, Requirement=Character Exists?
 	word 0x000F0000; word 0 				#	endif
 	word 0x000F0000; word 0					#endif
 	
