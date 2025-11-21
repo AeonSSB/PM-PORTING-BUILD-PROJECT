@@ -47,7 +47,6 @@ Source/Project+/ScreenKO.asm
 	Frozen StarScreen KO goes into regular StarSceen KO V1.1 [ds22]
 Source/Project+/Timeout.asm
 	[Project+] Tiebreaker v2.0 - Enforces Sudden Death Clause [Eon]
-	[Project+] RoA Overtime v2.1 - Timer resets to 10 seconds if there is more than 1 assigned winner [Eon]
 Source/Project+/UCF.asm
 	[Project+] UCF with Melee threshold 2.1 [Fracture, Eon]
 Source/Project+/PSA.asm
@@ -88,6 +87,7 @@ Source/ProjectM/SpecialModes/Turbo.asm
 	Turbo Mode - Curry Special Brawl Uses Curry Aura [Magus]
 	Turbo Mode - Curry Special Brawl Doesn't Exclude Nana [Magus]
 	Super Spicy Curry has no SFX [standardtoaster]
+	Turbo Boost makes Power Up Noise on Acquisition [DukeItOut]
 Source/ProjectM/SpecialModes/War.asm
 	War Mode 1.5 [PyotrLuzhin, wiiztec]
 Source/ProjectM/SpecialModes/Wild.asm

@@ -1,0 +1,11 @@
+<addon name="Grab Trade Behavior Switcher v1.0.0 [Eon, mawwwk, QuickLava]" shortName="GRABTRDE">
+	<codeMenuPage shortName="_SPECIAL">
+		<codeMenuSelection name="Grab Trade Behavior" shortName="BEHAVIOR">
+			<defaultOption index="0" editable="true" />
+			<option value="Default" />
+			<option value="Recoil" />
+			<option value="Heart Swap" />
+		</codeMenuSelection>
+	</codeMenuPage>
+</addon>
+

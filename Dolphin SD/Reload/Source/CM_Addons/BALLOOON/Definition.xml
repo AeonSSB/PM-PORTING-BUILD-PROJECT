@@ -1,0 +1,12 @@
+<addon name="Smashville Balloon gives 1 stock to its attacker [Eon]" shortName="BALLOOON">
+	<codeMenuPage shortName="_SPECIAL">
+		<codeMenuSelection name="Balloon Stock" shortName="BALLOOON">
+			<defaultOption index="0" editable="true" />
+			<option value="None" />
+			<option value="Gain Stock" />
+			<option value="Lose Stock" />
+		</codeMenuSelection>
+	</codeMenuPage>
+</addon>
+
+

@@ -2398,22 +2398,6 @@ Frozen StarScreen KO goes into regular StarSceen KO V1.1 [ds22]
 * B0140008 387BFFFF
 * 7C001800 00000000
 
-[Project+] RoA Overtime v2.1 - Timer resets to 10 seconds if there is more than 1 assigned winner [Eon]
-* C2953D54 0000000D
-* 3CA080B8 80A57C28
-* 80A5006E 70A50008
-* 41820050 3CA0805A
-* 80A500E0 80A50008
-* 88A50016 2C050000
-* 40820038 80BF00CC
-* 88050001 2C000001
-* 40820028 88A5000F
-* 2C050001 4182001C
-* 38A00258 90BF00E0
-* 38A0012E 90BF00F0
-* 38C00000 48000008
-* 38C00001 00000000
-
 [Project+] UCF with Melee threshold 2.1 [Fracture, Eon]
 * C283A31C 00000018
 * 807C0068 A0A30028
@@ -3981,6 +3965,15 @@ Turbo Mode - Curry Special Brawl Doesn't Exclude Nana [Magus]
 
 Super Spicy Curry has no SFX [standardtoaster]
 * 04843540 60000000
+
+Turbo Boost makes Power Up Noise on Acquisition [DukeItOut]
+* C2845E98 00000006
+* 807D00D8 38801EFB
+* 38A00000 38C00000
+* 80630050 38E00000
+* 81830000 818C001C
+* 7D8903A6 4E800421
+* 7EE3BB78 00000000
 
 War Mode 1.5 [PyotrLuzhin, wiiztec]
 * C2816508 00000010

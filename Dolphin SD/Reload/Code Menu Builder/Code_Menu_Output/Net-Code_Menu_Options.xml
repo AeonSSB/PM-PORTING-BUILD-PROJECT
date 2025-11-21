@@ -331,6 +331,18 @@
 			<option value="Largest" />
 			<option value="Largerest" />
 		</codeMenuSelection>
+		<codeMenuSelection name="Balloon Stock">
+			<defaultOption index="0" editable="true" />
+			<option value="None" />
+			<option value="Gain Stock" />
+			<option value="Lose Stock" />
+		</codeMenuSelection>
+		<codeMenuSelection name="Grab Trade Behavior">
+			<defaultOption index="0" editable="true" />
+			<option value="Default" />
+			<option value="Recoil" />
+			<option value="Heart Swap" />
+		</codeMenuSelection>
 		<codeMenuToggle name="Hitfalling Toggle">
 			<defaultValue value="false" editable="true" />
 		</codeMenuToggle>
