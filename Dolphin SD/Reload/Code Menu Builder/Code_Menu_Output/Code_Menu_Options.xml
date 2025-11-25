@@ -88,6 +88,20 @@
 			<speed value="1.000000" />
 		</codeMenuFloat>
 	</codeMenuPage>
+	<codeMenuPage name="IASA Overlay Settings">
+		<codeMenuToggle name="Player 1 Enabled">
+			<defaultValue value="false" editable="true" />
+		</codeMenuToggle>
+		<codeMenuToggle name="Player 2 Enabled">
+			<defaultValue value="false" editable="true" />
+		</codeMenuToggle>
+		<codeMenuToggle name="Player 3 Enabled">
+			<defaultValue value="false" editable="true" />
+		</codeMenuToggle>
+		<codeMenuToggle name="Player 4 Enabled">
+			<defaultValue value="false" editable="true" />
+		</codeMenuToggle>
+	</codeMenuPage>
 	<codeMenuPage name="Player 1 Codes">
 		<codeMenuToggle name="Infinite Shield">
 			<defaultValue value="false" editable="true" />

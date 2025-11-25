@@ -1,0 +1,13 @@
+<addon name="IASA Overlay v1.0.0 [QuickLava]" shortName="IASAOVER" makeINDEXFile="true">
+	<codeMenuPage shortName="_DEBUG">
+		<codeMenuSubmenu name="IASA Overlay Settings" shortName="IASAPAGE"/>
+	</codeMenuPage>
+	<codeMenuPage shortName="IASAPAGE">
+		<codeMenuComment text="IASA Overlay Settings: "/>
+		<codeMenuToggle name="Player 1 Enabled" shortName="LINE_000"/>
+		<codeMenuToggle name="Player 2 Enabled" shortName="LINE_001"/>
+		<codeMenuToggle name="Player 3 Enabled" shortName="LINE_002"/>
+		<codeMenuToggle name="Player 4 Enabled" shortName="LINE_003"/>
+	</codeMenuPage>
+</addon>
+
