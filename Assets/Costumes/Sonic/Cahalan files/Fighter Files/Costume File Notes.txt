@@ -1,0 +1,71 @@
+The costume files are uncompressed should you want to use them outside of P+
+or other builds that have costume file compression enabled in their code sets.
+
+If you want to compress the costume files, use Extended LZ77.
+
+Also, each of the costumes here have been further optimized by:
+1. Removing redundant materials
+2. Removing unused Mip-Mapping settings (Final Smash Eyes)
+
+For the Light Speed Shoes + Crystal Ring alt ("Dreamcast"a alt):
+1. The Main Body and Heady textures had mip-map levels removed.
+2. Removing redundant materials
+3. Removing unused Mip-Mapping settings (Final Smash Eyes)
+
+Technical Features:
+1. The Light Blue alt from Smash 4 has glow-in-the-dark accessories.
+2. The Crystal Ring and Gold Bits on the Dreamcast Alt also glow in the dark.
+
+As for Costume specific trails (for Project+), those will have to be
+done by the end-user (you!).
+
+This isn't too hard however, as you need only PSACompressor and some patience.
+================================================================================
+The new etc files were chosen to be largely compatible
+with P+'s current "Ghost Trails" for Sonic.
+
+There are some combinations that might look off or
+need fine tuning, but I'll leave that up to the user.
+
+Here's the current combination of ETC files to
+"Ghost Trails".
+=======================================================
+00 - Default (Blue)		| 00 - Blue
+01 - Brawl Red			| 01 - Red
+02 - Brawl Green		| 02 - Green
+03 - Cobalt Emerald		| 00 - Blue
+04 - Brawl Yellow		| 05 - Yellow
+05 - Brawl Black		| 04 - Grey
+06 - Smash 4 White		| 06 - White
+07 - Smash 4 Light Blue		| 00 - Blue
+08 - Smash 4 "Pink"		| 03 - Purple
+09 - Orange Warmers		| 05 - Yellow
+10 - Hedgehog Brown		| 05 - Yellow
+11 - Title Bracelets		| 03 - Purple
+14 - Darkspine			| 03 - Purple or 05 - Yellow (referential)
+15 - Mirror Match		| 04 - Grey
+16 - Time Stone			| 07 - Lime
+17 - Dreamcast			| 00 - Blue
+
+Ghost Trails
+=============
+0 - Blue
+1 - Red
+2 - Green
+3 - Purple
+4 - Grey
+5 - Yellow
+6 - White
+7 - Lime
+
+I do not know how many more clr animations can be added
+to the PSA before it starts to crash due to filesize;
+But these are the following colors I'd add in order of priority:
+8  - Orange
+9  - Brown
+10 - Pink
+
+
+As for the PSA Editing itself, go to the GFX Section of Subroutine 2E5AC.
+LA-Basic[54] is the costume check command.
+Any alts not listed use the default blue "Ghost Ball" trails.
