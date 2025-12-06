@@ -263,24 +263,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Pirate Wolf pose by E
 
 
 FOX
-XX - Default Fox from Brawl
-XX - Black Fox from Brawl
-XX - Red Fox from Brawl
-XX - Green Fox from Brawl
-XX - Blue Fox from Brawl
-XX - White Fox from Brawl
-XX - Yellow Fox by Moe
-XX - Layton Fox by Efisio
-XX - Lucas Platinum Fox by Efisio
-XX - Melee Fox by PMDT with credit to Snoe
-XX - Melee Red Fox by PMDT with credit to Snoe
-XX - Melee Green Fox by PMDT with credit to Snoe
-XX - 64 Blue Fox by PMDT with credit to Snoe
-XX - Yellow Melee Fox by Efisio with credit to PMDT, Snoe
-XX - Pokémon Ranger Melee Fox by Efisio with credit to PMDT, Snoe
-XX - Purple Melee Fox by Efisio with credit to mawwwk, PMDT, Snoe
-XX - Black Melee Fox by Moe with credit to PMDT
-XX - SNES Melee Fox by Layell with credit to PMDT
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Fox from Brawl
+- Black Fox from Brawl
+- Red Fox from Brawl
+- Green Fox from Brawl
+- Brawl Blue Fox from Brawl
+- White Fox from Brawl
+- Yellow Fox by Moe
+- Brown Fox by Efisio
+- Blue Fox by Efisio
+- N64 Fox by Eiji_Ar, Xaturati0n
+- Red N64 Fox by Eiji_Ar, Xaturati0n
+- Green N64 Fox by Eiji_Ar, Xaturati0n
+- Purple N64 Fox by Eiji_Ar, Xaturati0n
+- Black N64 Fox by Eiji_Ar, Xaturati0n
+- SNES N64 Fox by Eiji_Ar, Xaturati0n
+- Pink N64 Fox by Eiji_Ar, Xaturati0n
+- Yellow N64 Fox by Eiji_Ar, Xaturati0n
+- Blue N64 Fox by Efisio with credit to Eiji_Ar, Xaturati0n
 
 
 FALCO
