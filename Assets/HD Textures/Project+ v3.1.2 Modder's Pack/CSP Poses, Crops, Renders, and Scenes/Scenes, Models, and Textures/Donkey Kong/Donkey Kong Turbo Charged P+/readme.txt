@@ -1,1 +1,0 @@
-FitDonkey_TC_Rendering.pac has a single mesh and UV channel for the suit to make setting up a rendering scene easier. It is not intended for gameplay. The CSP 2.5 scene however is already made.
