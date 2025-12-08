@@ -285,24 +285,25 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 
 
 FALCO
-XX - Default Falco from Brawl
-XX - Orange Falco from Brawl
-XX - Blue Falco from Brawl
-XX - Red Falco from Brawl
-XX - Green Falco from Brawl
-XX - Black Falco from Brawl
-XX - Panther Falco by MetalLegacy, mawwwk
-XX - Saru Falco by Ale64 with credit to Efisio
-XX - Trunks Falco by Ale64 with credit to Efisio
-XX - Melee Falco by PMDT
-XX - Red Melee Falco by PMDT
-XX - Green Melee Falco by PMDT
-XX - Blue Melee Falco by PMDT
-XX - Yellow Melee Falco by Efisio
-XX - Pink Melee Falco by Layell with credit to PMDT
-XX - Purple Melee Falco by Moe
-XX - Emerald Melee Falco by Ale64 with credit to Wesai
-XX - Black Melee Falco by Ale64 with credit to Smash Remix
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
+- Default Falco from Brawl
+- Orange Falco from Brawl
+- Blue Falco from Brawl
+- Red Falco from Brawl
+- Green Falco from Brawl
+- Black Falco from Brawl
+- Purple Falco by MetalLegacy, mawwwk
+- Orange Falco by Ale64 with credit to Efisio
+- Blue Falco by Ale64 with credit to Efisio
+- N64 Falco by Eiji_Ar, Xaturati0n
+- Red N64 Falco by Eiji_Ar, Xaturati0n
+- Green N64 Falco by Eiji_Ar, Xaturati0n
+- Blue N64 Falco by Eiji_Ar, Xaturati0n
+- Brown N64 Falco by Eiji_Ar, Xaturati0n
+- Orange N64 Falco by Eiji_Ar, Xaturati0n
+- Purple N64 Falco by Eiji_Ar, Xaturati0n
+- Cyan N64 Falco by Eiji_Ar, Xaturati0n
+- Yellow N64 Falco by Efisio with credit to Eiji_Ar, Xaturati0n
 
 
 ICE CLIMBERS
