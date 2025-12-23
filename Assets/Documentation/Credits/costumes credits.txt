@@ -229,15 +229,15 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Yellow Captain Falcon by SJS
 - Black Captain Falcon by SJS
 - N64 Captain Falcon by Purpa with credit to Dapperman, Shy, PMDT, Snoe
-- Retro Captain Falcon by PMDT, Snoe
-- Black Retro Captain Falcon by Efisio with credit to PMDT, Snoe
-- Red Retro Captain Falcon by Efisio with credit to PMDT, Snoe
-- Green Retro Captain Falcon by Efisio, Moe with credit to PMDT, Snoe
-- Blue Retro Captain Falcon by Efisio, Moe with credit to PMDT, Snoe, Cherryello
-- White Retro Captain Falcon by Efisio, Moe with credit to PMDT, Snoe
-- Yellow Retro Captain Falcon by Moe with credit to PMDT, Snoe
-- Brown Retro Captain Falcon by Efisio with credit to PMDT, Snoe, SJS
-- Purple Retro Captain Falcon by Layell with credit to PMDT, Snoe
+- Retro Captain Falcon by Art+, tryptech, SJS, tyleto
+- Black Retro Captain Falcon by Ale64, Efisio with credit to Art+, tryptech, SJS, tyleto
+- Red Retro Captain Falcon by Ale64, Efisio with credit to Art+, tryptech, SJS, tyleto
+- Green Retro Captain Falcon by Ale64, Efisio, Moe with credit to Art+, tryptech, SJS, tyleto
+- Blue Retro Captain Falcon by Ale64, Efisio, Moe with credit to Art+, tryptech, SJS, tyleto, Cherryello
+- White Retro Captain Falcon by Ale64, Efisio, Moe with credit to Art+, tryptech, SJS, tyleto
+- Yellow Retro Captain Falcon by Ale64, Moe with credit to Art+, tryptech, SJS, tyleto
+- Brown Retro Captain Falcon by Ale64, Efisio with credit to Art+, tryptech, SJS, tyleto
+- Purple Retro Captain Falcon by Ale64, Layell with credit to Art+, tryptech, SJS, tyleto
 
 
 WOLF
