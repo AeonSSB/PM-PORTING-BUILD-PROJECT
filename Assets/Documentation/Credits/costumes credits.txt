@@ -549,20 +549,20 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Armored Charizard pos
 
 
 SAMUS
-Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, second pose by VirtualBeef with credit to PMDT
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, PM alts pose by VirtualBeef with credit to PMDT
 - Default Samus by SJS, tryptech, Art+, Ryztiq
-- PM Blue Samus by SJS, tryptech, Art+, Ryztiq
-- Brawl Red Samus by SJS, tryptech, Art+, Ryztiq
-- Brawl Purple Samus by SJS, tryptech, Art+, Ryztiq
-- Emerald Green Samus by Ale64 with credit to SJS, tryptech, Art+, Ryztiq, Efisio
 - Blue Samus by SJS, tryptech, Art+, Ryztiq
-- Phazon Samus by SJS, tryptech, Art+, Ryztiq
 - Red Samus by Ale64 with credit to SJS, tryptech, Art+, Ryztiq, Efisio
+- Purple Samus by Ale64 with credit to SJS, tryptech, Art+, Ryztiq, Efisio
 - Green Samus by SJS, tryptech, Art+, Ryztiq
 - Yellow Samus by Ale64 with credit to SJS, tryptech, Art+, Ryztiq, Efisio
-- Purple Samus by Ale64 with credit to SJS, tryptech, Art+, Ryztiq, Efisio
-- White Samus by Efisio with credit to SJS, tryptech, Art+, Ryztiq, Efisio
-- Brawl Samus by Cahalan, Program, Moe with credit to Brawl
+- Brawl Samus from Brawl
+- Dark Samus by PMDT
+- Pink Samus from Brawl
+- Gray Samus by Cahalan
+- Purple Samus from Brawl
+- Green Samus from Brawl
+- Yellow Samus by Cahalan
 - Dark Suit Samus by SJS, Art+, Ryztiq
 - Light Suit Samus by SJS, Art+, Ryztiq
 - Fusion Suit Samus by PMDT
@@ -571,20 +571,20 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, second pose by Virtua
 
 
 ZERO SUIT SAMUS
-Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, first pose by Efisio with credit to SJS
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Default Zero Suit Samus pose by Efisio with credit to SJS
 - Default Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
-- Brawl Blue Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
-- Brawl Red Zero Suit Samus by Ale64, Efisio with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
-- Brawl Purple Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
-- Brawl Green Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
 - Blue Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
-- Black Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL, Ale64
 - Red Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL, Ryztiq, jiang, Pik, Art+, Albafika, KingJigglypuff, Nanobuds, Spex130, TOCK, Sandfall, moblin
+- Purple Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL, LCJ
 - Green Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
 - Yellow Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL, LCJ
-- Purple Zero Suit Samus by Ale64 with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL, LCJ
-- White Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
-- Brawl Light Blue Zero Suit Samus by Efisio with credit to tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
+- Brawl Suit Zero Suit Samus by Moe
+- Blue Brawl Suit Zero Suit Samus by Moe
+- Pink Brawl Suit Zero Suit Samus by Moe
+- Black Brawl Suit Zero Suit Samus by Moe
+- Purple Brawl Suit Zero Suit Samus by Moe
+- Green Brawl Suit Zero Suit Samus by Moe
+- Yellow Brawl Suit Zero Suit Samus by Moe
 - Super Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
 - Training Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
 - Fusion Zero Suit Samus by tryptech, SJS, tyleto, Layell, Kirbeast, GRAND AZEL
