@@ -766,6 +766,7 @@ MR. GAME & WATCH
 
 
 SNAKE
+Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team, Big Boss pose by the PMHD Team
 - Default Snake from Brawl
 - Red Snake from Brawl
 - Blue Snake by PMDT
@@ -774,7 +775,7 @@ SNAKE
 - Brown Snake from Brawl
 - Brawl Blue Snake from Brawl
 - Purple Snake by ilikepizza107 with credit to RoboticCyborg
-- Tuxedo Snake by jaystring with credit to Layell, mawwwk
+- MGS1 Snake by VirtualBeef with credit to AlGeorgeRomo, Moe, Smash 2 Team, Brawl Minus Team, Shranux, Models124717, jaystring
 - Big Boss by PMDT
 - Fire Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
 - Water Big Boss by ledgerewskie, Codex-9, Taiko with credit to PMDT
@@ -783,4 +784,4 @@ SNAKE
 - Banana Big Boss by jaystring
 - Anubis Big Boss by jaystring
 - Snow Big Boss by jaystring
-- MGS1 Snake by VirtualBeef with credit to AlGeorgeRomo, Moe, Smash 2 Team, Brawl Minus Team, Shranux, Models124717, jaystring
+- Tuxedo Snake by jaystring with credit to Layell, mawwwk
