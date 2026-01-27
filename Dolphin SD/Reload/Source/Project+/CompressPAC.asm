@@ -197,3 +197,25 @@ Only New Characters Need a Spy Costume Added [DukeItOut]
 # Disables alt Clear Brawl skins for Pika, Jigglypuff and Sonic
 ###############################################################
 op li r5, 0 @ $8084CB6C
+
+#############################################
+Wario Clear Costume Expansion Fix [DukeItOut]
+#
+# Anything above a given costume ID defaults
+# to the plumber boneset, but that's not how
+# it is always interpreted!
+#
+# Hardcoded limits are configured past Brawl
+# costume numbers that contradict.
+#
+# This was the easier solution than finding
+# where the other flaw is at.
+#############################################
+HOOK @ $8084CC2C
+{
+    cmpwi r0, 12    # 0-11 are in Brawl
+    blt+ normal    
+    li r0, 0        # Force to the Clear Biker model!
+normal:
+    cmpwi r0, 6        # Check if costume 6. Original operation
+}
