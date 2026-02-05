@@ -62,6 +62,7 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/Community/PassiveAnim.asm
 .include Source/Community/Subspace.asm
 .include Source/Community/SubspaceSwap.asm
+.include Source/Community/YellowTeam.asm
 
 .include Source/Community/PSA/Angle.asm
 .include Source/Community/PSA/IC-Basics.asm

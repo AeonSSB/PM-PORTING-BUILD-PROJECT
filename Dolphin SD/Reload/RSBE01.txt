@@ -2388,20 +2388,6 @@ FranklinBadgeSFX:
 
 }
 
-##################################
-Team Coloured Shields V2 [ds22]
-##################################
-HOOK @ $8081DEEC
-{
-  cmpwi r23, 0x2;  beq- loc_0x10
-  mr r4, r23
-  b %END%
-
-loc_0x10:
-  li r4, 0x3	# use 3 instead of 2!
-}
-op mr r4, r23 @ $8081DEF4
-
 #########################################################
 Team Colour Shade Check Fix (BrawlEx) [ds22, Sammi Husky]
 #########################################################
