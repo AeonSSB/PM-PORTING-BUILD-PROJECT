@@ -87,9 +87,6 @@ HOOK @ $80696628
   	stw r28, 0x14(r1);  stw r27, 0x10(r1);  stw r26, 0x0C(r1)
   	lbz r31, 0x1C4(r30)				# get team subcolor
   	mr r26, r0			//r0 has "team color"
-  	cmpwi r26, 0x2; bne- notGreen	//if trying to find green team
-  	li r26, 0x3			//it's 3, not 2
-notGreen:
   	li r27, 0x0; li r28, 0x0; li r29, 0x0; li r30, 0x0
   	lis r5, 0x817D; addi r5, r5, 0x52A0	//access costume data
   	rlwinm r0, r3, 4, 21, 27		//r3 = character instance ID, used as an index
@@ -122,10 +119,6 @@ HOOK @ $800AF524		//team color preservation on SSS
   	lwz r0,  0x1C0(r24)
   	lbz r31, 0x1C4(r24)
   	mr r26, r0
-  	cmpwi r0, 0x2
-  	bne- notGreen
-  	li r26, 0x3
-notGreen:
  	li r27, 0x0; li r28, 0x0; li r29, 0x0; li r30, 0x0
   	lis r5, 0x817D; addi r5, r5, 0x52A0
   	rlwinm r0, r3, 4, 21, 27
@@ -170,9 +163,6 @@ HOOK @ $80685C10 # Retainment of team color upon reentering CSS
   	li r30, 0x0
   	li r28, 0x0
   	li r27, 0x0
-  	cmpwi r26, 0x2; bne- notGreen
-  	li r26, 0x3
-notGreen:
   	b start
 loop:
   	addi r29, r29, 0x2
