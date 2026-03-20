@@ -3,7 +3,7 @@ Teams Options v2 [PyotrLuzhin, Fracture, Yohan1044, Kapedani]
 ##############################################################
 # Increase Vis0 frames and add to pat0 frame for MenSelchRFont in Misc Data[30]
 
-.alias NUM_TEAM_OPTIONS     = 0x4
+.alias NUM_TEAM_OPTIONS     = 0x3
 
 op stw r31, 0x5C8(r30) @ $806829b8  # initialize all bytes from 0x5C8 - 0x5CB to zero
 
@@ -83,147 +83,6 @@ CODE @ $806b2d68    # muSelectStageTask::getRuleDispKind
 } 
 
 
-################################################################################
-[Legacy TE] Team Glow CSS Toggle v2 [PyotrLuzhin, Fracture, Yohan1044, Kapedani]
-################################################################################
-.alias g_GameGlobal                         = 0x805a00E0
-.alias Fighter__getOwner                    = 0x8083ae24
-.alias ftOwner__getPointTeam                = 0x8081bd90
-
-.macro lwd(<reg>, <addr>)
-{
-    .alias  temp_Lo = <addr> & 0xFFFF
-    .alias  temp_Hi_ = <addr> / 0x10000
-    .alias  temp_r = temp_Lo / 0x8000
-    .alias  temp_Hi = temp_Hi_ + temp_r
-    lis     <reg>, temp_Hi
-    lwz     <reg>, temp_Lo(<reg>)
-}
-.macro lwi(<reg>, <val>)
-{
-    .alias  temp_Hi = <val> / 0x10000
-    .alias  temp_Lo = <val> & 0xFFFF
-    lis     <reg>, temp_Hi
-    ori     <reg>, <reg>, temp_Lo
-}
-.macro call(<addr>)
-{
-  	%lwi(r12, <addr>)
-  	mtctr r12
-  	bctrl    
-}
-
-HOOK @ $806895F4    # muSelCharPlayerArea::moveCoin
-{
-loc_0x0:
-  lwz r3, 500(r27)
-  lbz r3, 0x5C8(r3)
-  cmpwi r3, 0x0
-  beq- loc_0x18
-  li r3, 0x0
-  stb r3, 452(r27)
-
-loc_0x18:
-  mr r3, r27
-}
-
-HOOK @ $80689B90    # muSelCharTask::buttonProc
-{
-  li r0, 0x0
-  lbz r12, 0x5CB(r24) # \
-  cmpwi r12, 0x0      # |
-  beq+ %end%          # | check if team glow
-  cmpwi r12, 0x2      # | 
-  beq- %end%          # /
-  li r0, 0x1
-}
-
-HOOK @ $8069A2E0    # muSelCharPlayerArea::incCharColorNo
-{
-  li r27, 0x0
-  lbz r12, 0x5CB(r8)  # \
-  cmpwi r12, 0x0      # |
-  beq+ %end%          # | check if team glow
-  cmpwi r12, 0x2      # | 
-  beq- %end%          # /
-  li r27, 0x1
-}
-
-HOOK @ $8069A3F0    # muSelCharPlayerArea::decCharColorNo
-{
-  li r27, 0x0
-  lbz r12, 0x5CB(r8)  # \
-  cmpwi r12, 0x0      # |
-  beq+ %end%          # | check if team glow
-  cmpwi r12, 0x2      # | 
-  beq- %end%          # /
-  li r27, 0x1
-}
-
-HOOK @ $806974D0    # muSelCharPlayerArea::setCharPic
-{
-loc_0x0:
-  cmpwi r27, 0x0  # Original operation
-  beq- %end%
-  lwz r12, 500(r30)   # \
-  lbz r12, 0x5CB(r12) # | check if team glow
-  cmpwi r12, 0x2      # /
-}
-
-HOOK @ $8068496c    # muSelCharTask::setToGlobal
-{
-  cmpwi r0, 0x0  # Original operation
-  beq- %end%
-  lbz r12, 0x5CB(r26) # \ check if team glow
-  cmpwi r12, 0x2      # /
-}
-
-HOOK @ $80835f7c    # Fighter::start
-{
-  bctrl   # Original operation
-  %lwd(r12, g_GameGlobal) # \
-  lwz r12, 0x10(r12)      # |
-  lbz r12, 0x33(r12)      # | check if g_GameGlobal->selCharData->teamType == 0x2
-  cmpwi r12, 0x2          # |
-  bne+ %end%              # /
-  mr r3, r28
-  %call (Fighter__getOwner)
-  %call (ftOwner__getPointTeam)
-  li r5, 0x10                 # \
-  li r4, 0x88 # base gfx id   # |
-  add r4, r4, r3              # |
-  lwz r3, 0x60(r28)           # |
-  lwz r3, 0xd8(r3)            # | fighter->moduleAccesser->moduleEnumeration->effectModule->reqEmit(team + 0x88, 0x10)
-  lwz r3, 0x88(r3)            # |
-  lwz r12, 0x0(r3)            # |
-  lwz r12, 0x54(r12)          # |
-  mtctr r12                   # |
-  bctrl                       # /
-}
-
-HOOK @ $808364ec  # Fighter::restart
-{
-  bctrl   # Original operation
-  %lwd(r12, g_GameGlobal) # \
-  lwz r12, 0x10(r12)      # |
-  lbz r12, 0x33(r12)      # | check if g_GameGlobal->selCharData->teamType == 0x2
-  cmpwi r12, 0x2          # |
-  bne+ %end%              # /
-  mr r3, r30
-  %call (Fighter__getOwner)
-  %call (ftOwner__getPointTeam)
-  li r5, 0x10                 # \
-  li r4, 0x88 # base gfx id   # |
-  add r4, r4, r3              # |
-  lwz r3, 0x60(r30)           # |
-  lwz r3, 0xd8(r3)            # | fighter->moduleAccesser->moduleEnumeration->effectModule->reqEmit(team + 0x88, 0x10)
-  lwz r3, 0x88(r3)            # |
-  lwz r12, 0x0(r3)            # |
-  lwz r12, 0x54(r12)          # |
-  mtctr r12                   # |
-  bctrl                       # /
-}
-
 #####################################################################
 Reset Teams on re-enter CSS if RandomTeams is Enabled [Eon, Kapedani]
 #####################################################################
@@ -235,7 +94,7 @@ HOOK @ $80683634
   beq+ end 
   #if not third teams option added
   lbz r12, 0x5CB(r30)
-  cmpwi r12, 3
+  cmpwi r12, 2
   bne+ end
   mr r3, r30 #assign random teams
   lis r12, 0x8068
