@@ -2229,42 +2229,6 @@
       "ImportTextures": true
     },
     {
-      "CosmeticType": 1,
-      "Style": "3.6R",
-      "InstallLocation": {
-        "FilePath": "pf\\menu2\\sc_selcharacter.pac",
-        "NodePath": "char_bust_tex_lz77",
-        "FileExtension": "pac"
-      },
-      "HDImageLocation": "D:\\PM-PORTING-BUILD-PROJECT\\Assets\\HD Textures\\BrawlInstaller\\",
-      "CreateHDTextureFolder": true,
-      "ModelPath": null,
-      "PatSettings": [],
-      "Prefix": "MenSelchrFaceB",
-      "Multiplier": 10,
-      "Offset": 0,
-      "SuffixDigits": 3,
-      "GroupMultiplier": 1,
-      "FilePrefix": "",
-      "IdType": 4,
-      "Size": {
-        "Width": 128,
-        "Height": 160
-      },
-      "Format": 9,
-      "FirstOnly": false,
-      "SeparateFiles": false,
-      "CompressionType": 257,
-      "FileType": 1,
-      "AlwaysInheritStyle": true,
-      "Required": true,
-      "Enabled": true,
-      "Selectable": false,
-      "AlwaysCreateArchive": true,
-      "PaletteCount": 256,
-      "ImportTextures": true
-    },
-    {
       "CosmeticType": 2,
       "Style": "3.6R",
       "InstallLocation": {
@@ -2494,7 +2458,8 @@
     "GctDebugMode": false,
     "GctTimeoutSeconds": 60,
     "ColorSmashDebugMode": false,
-    "ColorSmashTimeoutSeconds": 60
+    "ColorSmashTimeoutSeconds": 60,
+    "TrophyCategoryOffset": 23
   },
   "FilePathSettings": {
     "FilePaths": [
@@ -2505,6 +2470,10 @@
       {
         "FileType": 1,
         "Path": "pf\\BrawlEx\\"
+      },
+      {
+        "FileType": 44,
+        "Path": ""
       },
       {
         "FileType": 2,
@@ -2607,6 +2576,10 @@
         "Path": "pf\\toy\\fig\\ty_fig_ext_list.msbin"
       },
       {
+        "FileType": 45,
+        "Path": "pf\\toy\\fig\\ty_fig_category.msbin"
+      },
+      {
         "FileType": 34,
         "Path": "pf\\toy\\fig\\"
       },
@@ -2667,6 +2640,11 @@
         "Label": "ExtraFighterData:",
         "FileType": 43,
         "Path": ""
+      },
+      {
+        "Label": "PHYSICS_DATA:",
+        "FileType": 46,
+        "Path": "Source\\ProjectM\\Modifier\\Physics.asm"
       }
     ],
     "FileNodePaths": [

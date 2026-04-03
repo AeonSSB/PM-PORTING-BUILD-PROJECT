@@ -77,6 +77,7 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/P+Ex/AllStar.asm
 .include Source/P+Ex/CustomEnding.asm
 .include Source/P+Ex/Misc.asm
+.include Source/P+Ex/SlotEx.asm
 .include Source/P+Ex/SoundbankFix.asm
 .include Source/Community/lavaInjectLoader.asm
 #.include Source/Community/Character-CostumeSwapper.asm # Disabled by default, as there's no characters in base P+Ex who utilize this function. This code is simply here for people to make use of for their own builds.

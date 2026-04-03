@@ -99,3 +99,33 @@ byte [128] |
 0x78, 0x79, 0x7A, 0x7B,|
 0x7C, 0x7D, 0x7E, 0x7F
 Table_Skip:
+
+##########################################
+Don't load fighter files on CSS [MarioDox]
+##########################################
+HOOK @ $8094601c    # processBegin/[stLoaderPlayer]
+{
+    lis r12,0x8002        # \
+    ori r12,r12,0xd018  # |
+    mtctr r12            # |
+    bctrl                # / getInstance/[gfSceneManager]
+    lwz r3,0x04(r3)        # gfSceneManager->currentScene
+    lwz r3,0x0(r3)    # get the scene name
+    lwz r0,0x0(r3)    # first half
+    lis r12,0x7363    # sc
+    ori r12,r12,0x5365 # Se
+    cmpw r0,r12
+    bne- end
+    lwz r0,0x4(r3)    # second half
+    lis r12,0x6c63    # lc
+    ori r12,r12,0x7443  # tC
+    cmpw r0,r12
+    bne- end
+    lis r12,0x8094        # \ branch to ending of the function
+    ori r12,r12,0x650c  # |
+    mtctr r12            # |
+    bctr                # /
+end:
+    mr r3,r30
+    lbz r0,0x46(r3)    # original op
+}

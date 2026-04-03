@@ -2633,21 +2633,31 @@ Pokemon Trainer Infinite Stamina [Phantom Wings, spunit262]
 #############################################################
 op nop @ $80A8BDAC
 
-############################################################
-PT Pokemon Have Final Smashes & FS Characters Don't [ds22]
-############################################################
+####################################################################
+PT Pokemon Have Final Smashes & FS Characters Don't v1.1 [ds22, Eon]
+####################################################################
+#minor edit to remove random change in register use and tidy up a little
+
+#set pointers for 4 chars functions
 * 04B060DC 8081DF8C
 * 04B060E4 8081DF8C
 * 04B060EC 8081DF8C
 * 04B06114 8081DF84
+
 * 0481DF14 809D0008
 * 0481DF18 3804FFFD
-* 0481DF84 380000EC
-* 04AD8BB4 17171717
-* C281DF6C 00000003
-* 3800005C 2C04002D
-* 40A20008 3800007C
-* 60000000 00000000
+op li r0, 236 @ $8081DF84
+
+word 0x17171717 @ $80AD8BB4
+
+HOOK @ $8081DF6C
+{
+  li r0, 92
+  lwz r3, 0x8(r29)
+  cmpwi r3, 45
+  bne %end%
+  li r0, 124
+}
 
 #######################################################
 Independent Pokemon Engine HTP, Classic & MMS [ds22]
