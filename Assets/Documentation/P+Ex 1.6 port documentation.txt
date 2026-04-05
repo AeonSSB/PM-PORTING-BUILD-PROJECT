@@ -1,0 +1,134 @@
+To handle separately:
+- "Various stages have Final Smash camera fixes for Lucario and Olimar"
+  (investigate on which changed and how, and check 3.6R stages)
+	- stagePosition, 4 bones named Lucario and Pikmin
+
+
+- For console: (P+ 3.1.5) Wii Launcher Changes
+    Now based on the latest USB Loader GX Enhanced v4.0-r1283
+        Pre-configured to support loading NTSC on other region formats
+		(PAL users no longer have to change settings for the game to load).
+        Codeset path now easily configurable in meta.xml
+        Settings file generated on load in Project+/launcher/settings.cfg
+        Further customize the deflicker filter:
+            deflicker = 0 - DEFAULT
+            deflicker = 1 - OFF
+            deflicker = 2 - OFF EXTENDED
+            deflicker = 3 - LOW
+            deflicker = 4 - MEDIUM
+            deflicker = 5 - HIGH
+    Alternative USB Loader included for if the main launcher doesn't work,
+    based on the latest CFG USB Loader MOD 70r78.13. Please report any loading issues in the Project+ Discord.
+        Settings for Alt USB stored in meta.xml
+    Hackless path is now based on the smashstack exploit name. st_project+.bin loads apps/project+/boot.dol
+- (P+Ex) Updates to the launcher apps (and fixes to P+Ex itself) should now make it possible to launch P+Ex via USB
+
+----------------------------------------------------------------------
+
+P+ 3.1.5:
+
+[DONE] - "Screenshots during Subspace Emissary will function again after memory changes done in v3.1.0"
+
+[DONE] - Dolphin replaced on Windows + macOS build + Flatpak for Linux
+
+[DONE] - CPU Samus AI adjusted to use better recovery habits
+
+[DONE]
+- "Game & Watch’s entry file is no longer loaded, as the background elements for his entry animation have been
+  ported to his fighter file"
+
+[DONE] - Fixed issue which would sometimes cause sticker effects to be applied to character IDs higher than Sonic
+
+[DONE] - Disable Screen-KO functions when using random teams (already had it)
+
+[DONE] - Green Hill Zone (PM & Art+): "Adjust platform model to match collision"
+[DONE] - Training Room Default & Dark: "Fixed collision issues that occurred on this stage"
+[DONE] - Bowser Castle stages have reduced flickering effect at a distance
+[DONE] - Dry Bowsers Castle now has a Dry Bones instead of a normal Koopa Troopa
+
+[done?] - Fixed a crash caused by characters landing on a platform while in hitlag
+
+[done?] - Many fighter file injection codes moved to their own codeset files to free up code space in
+  RSBE01 and BOOST - use the included compile_codeset.bat file to easily compile all codesets in the build!
+  (can 3.6R use these optimizations too without altering gameplay? I suppose so)
+
+- Characters who could eat items will no longer have infinite Screw Attack jumps when eating the Melee Screw Attack
+  (NO DATA, doesn't seem the case in-game either)
+
+----------------------------------------------------------------------
+
+P+Ex 1.6 specific stuff
+
+[Should be already in]
+- common2.pac (P+Ex/pf/system)
+	- Applied changes from P+ v3.1.5 (huh?)
+	- The only change is just to update Syringe to the latest version
+
+[Ignored]
+- FitKirbyPit.pac (P+Ex/pf/fighter/kirby)
+	- Fixed a PSA coding conflict between Kirby’s Pit and Waluigi hats
+
+[Ignored, as it's not a file in 3.6R's SD]
+- 120003.pac (P+Ex/pf/stage/adventure) - The Forest, Stage 3
+	- Fixed a typo on one of the ItmGen tables.
+
+[Done though unused in 3.6R]
+- The lavaGameTweaks Code Menu plugin has been updated to include more gameplay options
+
+[Code unused in 3.6R to begin with]
+- PlatformIgnore.asm (P+Ex/Source/Injects/MoveDef)
+	- Fixed an improper injection offset which resulted in this code not working (does it alter gameplay?)
+
+[DONE]
+- Added a brand new Syringe-based plugin which removes the need of CSPs from inside the sc_selcharacter.pac file,
+  opting instead to use the brres files from inside the menu/common/char_bust_tex folder, aptly named “RSPs”
+  (short for Result Screen Portraits)
+	- Gotta update the BrawlInstaller preset for 3.6R to account for this change in CSPs' locations
+
+[ALREADY IN]
+- The Volume Balance Code Menu plugin has been updated to fix a bug which prevented the game from launching on
+  console (3.6R already has this)
+
+[DONE]
+- HiddenAltSets.asm (P+Ex/Source/P+Ex)
+	- Added “Game and Watch Costume Code [Sammi Husky, Desi] (TE numbering (00-19/20-29/30+) by MarioDox)”
+	  This code is present in P+’s LoadFlags.asm file. However, since P+Ex lacks this asm, the aforementioned
+	  code was placed inside this asm instead.
+
+[DONE]
+- BOOST.txt and NETBOOST (P+Ex)
+	- Other than the P+ 3.1.5 stuff, added reference to SlotEx.asm
+
+[DONE]
+- Misc.asm (P+Ex/Source/P+Ex)
+	- Added “Individual Costume Entry Works for All Costume IDs [Kapedani]”
+	- Removed reference to SlotEx.asm.
+
+[DONE]
+- SlotEx.asm (P+Ex/Source/P+Ex)
+	Updated to support the new RSP loading system.
+
+[DONE]
+- Added “Don't load fighter files on CSS [MarioDox]”.
+	This code is needed for memory-related reasons regarding the RSP loading plugin
+
+[DONE]
+- sc_selcharacter.pac (P+Ex/pf/menu2)
+	- Deleted all character CSP brres archives from the bust_face_text arc archive.
+	- However, to prevent render-specific bugs, a single blank CSP image is placed inside a single brres
+	  archive.
+
+[DONE]
+- Fighter12.dat (P+Ex/pf/BrawlEx/FightertConfig) - Mr. Game and Watch
+	- Entry Load Flag: Single -> None
+
+[DONE]
+- Fighter13.dat (P+Ex/pf/BrawlEx/FightertConfig) - Falco
+	- Final Load Flag: UseFitFoxFinal -> Single
+
+[DONE]
+"FitFalcoFinal.pac (P+Ex/pf/fighter/falco)"
+"FitFalcoFinalSpy.pac (P+Ex/pf/fighter/falco)"
+	- "A unique Final Smash asset file for Falco. This fixes a long-standing P+Ex bug which made Falco
+	  unable to activate his Final Smash."
+	- A Clear Mode variant of the aforementioned file.
