@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.15">
+	<name>Project M Launcher</name>
+	<version>3.6R</version>
+	<coder>PMDT, P+DT, PM 3.6R Team</coder>
+	<release_date>20250609</release_date>
+	<short_description>Project M Launcher</short_description>
+	<long_description>
+Project M is a mod of Brawl, featuring new gameplay, characters, stages and more. Thank you for playing!</long_description>
+	<arguments>
+		<arg>--codespath=sd:/reload</arg>
+	</arguments>
+	<ahb_access/>
+</app>
