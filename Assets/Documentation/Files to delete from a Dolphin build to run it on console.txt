@@ -1,0 +1,7 @@
+- NETPLAY.GCT
+- NETBOOST.GCT
+- Netplay folder inside Source
+- netplaylist folder inside pf/sound
+
+
+Check how P+ handles the v-sync file
