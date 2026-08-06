@@ -31,7 +31,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Donkey Kong",
@@ -65,7 +66,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Link",
@@ -99,7 +101,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Samus",
@@ -133,7 +136,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Yoshi",
@@ -167,7 +171,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Kirby",
@@ -201,7 +206,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Fox",
@@ -235,7 +241,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Pikachu",
@@ -269,7 +276,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Luigi",
@@ -303,7 +311,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Captain Falcon",
@@ -337,7 +346,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Ness",
@@ -371,7 +381,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Bowser",
@@ -405,7 +416,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Peach",
@@ -439,7 +451,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Zelda",
@@ -473,7 +486,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Sheik",
@@ -507,7 +521,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Ice Climbers",
@@ -541,7 +556,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Marth",
@@ -575,7 +591,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Mr. Game & Watch",
@@ -609,7 +626,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Falco",
@@ -643,7 +661,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Ganondorf",
@@ -677,7 +696,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Wario",
@@ -711,7 +731,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Meta Knight",
@@ -745,7 +766,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Pit",
@@ -779,7 +801,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Zero Suit Samus",
@@ -813,7 +836,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Olimar",
@@ -847,7 +871,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Lucas",
@@ -881,7 +906,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Diddy Kong",
@@ -915,7 +941,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Charizard",
@@ -949,7 +976,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Squirtle",
@@ -983,7 +1011,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Ivysaur",
@@ -1017,7 +1046,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "King Dedede",
@@ -1051,7 +1081,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Lucario",
@@ -1085,7 +1116,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Ike",
@@ -1119,7 +1151,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "R.O.B.",
@@ -1153,7 +1186,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Jigglypuff",
@@ -1187,7 +1221,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Toon Link",
@@ -1221,7 +1256,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Wolf",
@@ -1255,7 +1291,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Snake",
@@ -1289,7 +1326,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Sonic",
@@ -1323,7 +1361,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Giga Bowser",
@@ -1357,7 +1396,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Wario-Man",
@@ -1391,7 +1431,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Roy",
@@ -1425,7 +1466,8 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   },
   {
     "EntryName": "Mewtwo",
@@ -1459,6 +1501,7 @@
     "FighterAttributes": null,
     "SlotAttributes": null,
     "CosmeticAttributes": null,
-    "CSSSlotAttributes": null
+    "CSSSlotAttributes": null,
+    "ExportFranchiseIcon": true
   }
 ]
