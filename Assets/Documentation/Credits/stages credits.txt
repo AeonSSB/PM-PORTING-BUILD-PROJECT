@@ -8,7 +8,7 @@ TEMPLE OF TIME by Yorch, GRAND AZEL, mawwwk, Link Tahuterasu Spirit, Skilar the 
 L - OoT Temple of Time by Art+, GRAND AZEL, Motobug, Kapedani, SJ, Yorch with credit to Dranakar, davidvkimball, Yohan1044 with credit to Efisio
 
 METAL CAVERN by P+DT, DukeItOut, Ryztiq
-L - Magma Mine by Electropolitan with credit to P+DT
+L - Meta Crystal by P+DT, DukeItOut, Ryztiq with credit to PMDT
 
 BOWSER'S CASTLE by Art+, Yorch, Fireball, Kirbeast, Motobug, tyleto, GRAND AZEL, nnebf, PMDT, Efisio
 L - Dry Bowser's Castle by Art+, Yorch, Fireball, Kirbeast, Motobug, tyleto, GRAND AZEL, nnebf, PMDT, Efisio
@@ -47,16 +47,16 @@ GREEN HILL ZONE by PMDT, DukeItOut, mawwwk, WorseDoughnut, soopercool101, Snoe w
 L - Green Hill Zone Generations by Art+, nnebf, Kirbeast, GRAND AZEL, mawwwk, tyleto with credit to PMDT, Efisio
 
 SMASHVILLE from Brawl (Z -> K.K. Concert from Brawl with credit to Kapedani, metanite64, Squidgy)
-L - Sakuraville by NNEBF with credit to t_Mistico_t, rihuganon, davidvkimball, DukeItOut (Z -> K.K. Concert by NNEBF with credit to t_Mistico_t, rihuganon, davidvkimball, DukeItOut with credit to Kapedani, metanite64, Squidgy)
+L - Beach Smashville by pharaohfawcett, rihuganon, Moblin (Z -> K.K. Concert by pharaohfawcett, rihuganon, Moblin)
 
 BATTLEFIELD by PMDT, DukeItOut, mawwwk
 L - Melee Battlefield by PMDT, sporksparks, DukeItOut
 
 POKEMON STADIUM 2 by PMDT with credit to Mewtwo2000, mawwwk, Layell, Kirbeast
-L - Ho-Oh Stadium 2 by Yohan1044 with credit to Scout, davidvkimball, LazyRed, Mewtwo2000, mawwwk, LenSho, Kirbeast, Layell
+L - Gateway Colosseum PS2 by nnebf, Kapedani, Kirbeast, Layell, MarioDox, mawwwk, Yorch
 
 DELFINO'S SECRET by PMDT with credit to P+DT, Kenmak
-L - Casino Delfino by Yorch, PMDT, Peardian
+L - Delfino's Secret Plaza by davidvkimball, WorseDoughnut, MarioDox with credit to SOJ, DukeItOut
 
 DREAM LAND by PMDT with credit to Jkl72
 L - Autumn Dream Land by MetalLegacy, Ryztiq, mawwwk with credit to XtremeDragon, Yohan1044, Jkl72, Yorch, Efisio
@@ -211,21 +211,13 @@ MUSHROOM KINGDOM (64) by MarioDox with credit to Mewtwo2000, DukeItOut
 PAGE 4
 
 
-METAL CAVERN (64) by PMDT with credit to DukeItOut, Ryztiq
-
-TOADSTOOL TOUR by MarioDox with credit to HeartlessSeph, Mewtwo2000 - originally named MK Adventure
-
-SUBSPACE by Mr. AI | Sluigi123 with credit to Lakitwo, mawwwk, Mewtwo2000
-
 CHEESE BRIDGE by Peardian, Kapadani, GRAND AZEL
-
-BOB-OMB BATTLEFIELD by Nezha the Scout, Flambo237, MarioDox, Puzzled, Survivian, Electropolitan with credit to Flambo, KingJigglypuff, Kirbeast, Layell, CBM Discord
 
 MINE CART MADNESS by Nezha the Scout, Llamajuice
 
 OIL DRUM ALLEY by Nezha the Scout, BustedSoda with credit to Mattress87, Tonberry2k, MarioDox, soopercool101, Umbravivens, Peardian, Russmars2, FancyEX, mawwwk
 
-ICE CREAM ISLAND by Electropolitan with credit to shyguybuddy11, Efisio
+PHAAZE by Nezha the Scout, Ghost1775005, NickirixXT, GRAND AZEL, Sad_Potato, Rolo Stunning with credit to KingJigglypuff, doctor.rlp
 
 COOKIE COUNTRY by Nezha the Scout, Angelglory, Codex-9, soopercool101
 
@@ -233,41 +225,37 @@ WHITE WAFERS by MarioDox
 
 SKY TOWER by GRAND AZEL, Kapedani
 
+WARIO'S CASTLE by MarioDox, soopercool101 with credit to HeroTechne, AlGeorgeRomo, Smash 2 Team
+
+SATURN VALLEY by NNEBF with credit to Pik, Ploaj, KTH, Barry Barrows, Connor Rentz
+
+CLANKER'S CAVERN by Nezha, Survivian, WTails (wario358), Starwaffle, Mewtwo2000, Demonslayerx8, soopercool101, fudgepop01, MarioDox, Eon with credit to Yorch2296, davidvkimball, Dranakar, PMEX Remix Team
+
+POLAR DIMENSION by Nezha with credit to Stef, SoN1c2001
+
+CHEMICAL PLANT by Puzzled with credit to KTH, TheBen, Mewtwo2000, LegacyWolf, PegasusKnt, Nezha, Segtendo, DukeitOut, Pyro, N!ck, Snoe
+
+SUBSPACE by Mr. AI | Sluigi123 with credit to Lakitwo, mawwwk, Mewtwo2000
+
+METAL CAVERN (64) by PMDT with credit to DukeItOut, Ryztiq
+
+BOB-OMB BATTLEFIELD by Nezha the Scout, Flambo237, MarioDox, Puzzled, Survivian, Electropolitan with credit to Flambo, KingJigglypuff, Kirbeast, Layell, CBM Discord
+
 PLANET PAPETOON by MarioDox with credit to Layell, Ryztiq, Dranakar, Wingedkoopa67, ALM5252, Mewtwo2000, PMDT, P+DT
 
 SPROUT TOWER by Puffy, mawwwk with credit to LenSho, Skeleton
 
 AEROPOLIS by MarioDox, Eon, Electropolitan
 
-WARIO'S CASTLE by MarioDox, soopercool101 with credit to HeroTechne, AlGeorgeRomo, Smash 2 Team
-
-WALUIGI LAND by Chuckles with credit to PMDT, P+DT, lemurboy12, Random Talking Bush, GeraRReal
-
-SATURN VALLEY by NNEBF with credit to Pik, Ploaj, KTH, Barry Barrows, Connor Rentz
-
 GYROMITE by Fruiter, Kapedani, Yorch, RedipstheCooler
-
-DR. WILY'S CASTLE by soopercool101 with credit to Dan Fornace, libertyernie, Brawl Minus Team, Efisio
-
-CHEMICAL PLANT by Puzzled with credit to KTH, TheBen, Mewtwo2000, LegacyWolf, PegasusKnt, Nezha, Segtendo, DukeitOut, Pyro, N!ck, Snoe
-
-RADICAL HIGHWAY by nnebf with credit to PMDT, SEGA
 
 DRACULA'S CASTLE by PMDT with credit to mawwwk, Efisio
 
 SPIRAL MOUNTAIN by Nezha, Azel, Survivian, Layell, Kapedani, Tyleto, Mewtwo2000, Monkazoie, SoN1c2001 with credit to King Bob Gaming, Dranakar, Slapsmash Team
 
-CLANKER'S CAVERN by Nezha, Survivian, WTails (wario358), Starwaffle, Mewtwo2000, Demonslayerx8, soopercool101, fudgepop01, MarioDox, Eon with credit to Yorch2296, davidvkimball, Dranakar, PMEX Remix Team
-
-VENUS LIGHTHOUSE by LlamaJuice, Mewtwo2000, Grand Azel with credit to Mewtwo2000, Syvkal, Segtendo, Eternal Yoshi, Shin F., Ryztiq
-
-OEDO TOWN by NickirixXT, StefBoyardee, Yahtzeh, Nezha, SirGimmick, vistachu, ShaolinSnake96, GRAND AZEL, SoN1c2001
-
-POLAR DIMENSION by Nezha with credit to Stef, SoN1c2001
-
-RUINS by Nezha, Lensho, DSX8, Jkl72, ~Sylv~, Yahtzeh, StefBoyardee, Erdann, Sad_Potato, NickirixXY
-
 GEMACUBE'S DYNAMO by Nezha, soopercool101, Skyvkal
+
+RADICAL HIGHWAY by nnebf with credit to PMDT, SEGA
 
 TRAINING ROOM by mawwwk, soopercool101 with credit to PMDT, DukeItOut, KingJigglypuff
 L - Smashville plat-height Training Room (Dark) by mawwwk with credit to PMDT, soopercool101, DukeItOut, KingJigglypuff
