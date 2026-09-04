@@ -121,30 +121,30 @@ Costume Alternate Soundbank Loader [Squidgy, DukeItOut]
 # 	and ONLY if they sometimes use ones the base character does, too!
 # (Clone banks only used by a single fighter instance ID do not need to be added.)
 #####
-.alias Fighter_Link = 0x02
-.alias Fighter_Zelda = 0x0D
-.alias Fighter_Sheik = 0x0E
-.alias Fighter_Ganondorf = 0x14
+# .alias Fighter_Link = 0x02
+# .alias Fighter_Zelda = 0x0D
+# .alias Fighter_Sheik = 0x0E
+# .alias Fighter_Ganondorf = 0x14
 
-.alias Fighter_Fox = 0x06
-.alias Fighter_Falco = 0x13
+# .alias Fighter_Fox = 0x06
+# .alias Fighter_Falco = 0x13
 
-.alias Fighter_Pit = 0x17
+# .alias Fighter_Pit = 0x17
 
-.alias Fighter_Peach = 0x0C # SEQ-containing sawnd test
-.alias Bank_Peach_Test = 0xFFF # Max bank test
+# .alias Fighter_Peach = 0x0C # SEQ-containing sawnd test
+# .alias Bank_Peach_Test = 0xFFF # Max bank test
 
-.alias Bank_Link_OoT = 1	# Alt bank 1 (0x1002)
-.alias Bank_Zelda_OoT = 1
-.alias Bank_Sheik_OoT = 1
-.alias Bank_Ganondorf_OoT = 1
+# .alias Bank_Link_OoT = 1	# Alt bank 1 (0x1002)
+# .alias Bank_Zelda_OoT = 1
+# .alias Bank_Sheik_OoT = 1
+# .alias Bank_Ganondorf_OoT = 1
 
-.alias Bank_Fox_64 = 1
-.alias Bank_Falco_64 = 1
+# .alias Bank_Fox_64 = 1
+# .alias Bank_Falco_64 = 1
 
-.alias Bank_Pit_KIU = 1
-.alias Bank_Dark_Pit_KIU = 2
-.alias Bank_Pit_SSBB = 0
+# .alias Bank_Pit_KIU = 1
+# .alias Bank_Dark_Pit_KIU = 2
+# .alias Bank_Pit_SSBB = 0
 
 
 .macro altDefault(<ftKind>,<soundbankID>)
@@ -170,10 +170,10 @@ HOOK @ $80003FF8
 	li r0, -1
 	andi r4, r4, 0x7F # Mask away the clear skins (0x80+)
 	
-	%costumeCheck(Fighter_Link,20,29,Bank_Link_OoT) # 0x1002 for 20-29	
-	%costumeCheck(Fighter_Zelda,20,29,Bank_Zelda_OoT) # 0x1011 for 20-29
-	%costumeCheck(Fighter_Sheik,20,29,Bank_Sheik_OoT) # 0x1011 for 20-29
-	%costumeCheck(Fighter_Ganondorf,20,39,Bank_Ganondorf_OoT) # 0x1016 for 20-39
+	# %costumeCheck(Fighter_Link,20,29,Bank_Link_OoT) # 0x1002 for 20-29	
+	# %costumeCheck(Fighter_Zelda,20,29,Bank_Zelda_OoT) # 0x1011 for 20-29
+	# %costumeCheck(Fighter_Sheik,20,29,Bank_Sheik_OoT) # 0x1011 for 20-29
+	# %costumeCheck(Fighter_Ganondorf,20,39,Bank_Ganondorf_OoT) # 0x1016 for 20-39
 	
 	# %costumeCheck(Fighter_Fox,20,29,Bank_Fox_64) # 0x100A for 20-29
 	# %costumeCheck(Fighter_Falco,20,29,Bank_Falco_64) # 0x1015 for 20-29
