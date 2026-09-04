@@ -114,12 +114,12 @@ CODE @ $80541220
 	word 0x02010200; word C_Stick_Off+0x10  #      Change Action: Requirement: Action=30, Requirement=True
 	word 0x000D0400; word C_Stick_Off3+0x10	#	ElIf: Comparison Compare: IC-Basic[1012] >= IC-Basic[3151]
 	// word 0x05000000; word 0 				#		Reverse Direction
-	word 0x02010200; word C_Stick_Off3 		#		Change Action: Requirement: Action=24, Requirement=Character Exists?
+	// word 0x02010200; word C_Stick_Off3 		#		Change Action: Requirement: Action=24, Requirement=Character Exists?
 	word 0x000F0000; word 0 				#	endif
 	word 0x000F0000; word 0					#endif
-	
+
 	word 0x00080000; word 0 				#return
-}
+	}
 CODE @ $80FB203C
 {
 	word 0x00070100; word C_Stick_Off3+0x30
