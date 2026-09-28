@@ -299,7 +299,7 @@ normal:
 	lwz r4, 0x8(r1)		# Restore sound ID
 	b finish
 nullPtr:				# Below assumes r3 = 0 if going through nullPtr above
-	li r3, 0			# Default to normal!
+	b finish			# Default to normal!
 foundSound:
 	lwz r4, 0x8(r1)		# Restore sound ID
 	rlwimi r4, r3, 16, 4, 15
