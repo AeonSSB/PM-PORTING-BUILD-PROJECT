@@ -259,16 +259,16 @@ Source/P+Ex/SlotEx.asm
 Source/P+Ex/SoundbankFix.asm
 	Soundbank Clone Fix [DukeItOut] @ Off 0xe8c8
 	Costume Alternate Soundbank Loader [Squidgy, DukeItOut] @ Off 0xea78
-	[Project+] Sawnd Pop Fix V5c [DukeItOut] @ Off 0xecd0
+	[Project+] Sawnd Pop Fix V5c [DukeItOut] @ Off 0xec60
 Source/Community/lavaInjectLoader.asm
-	[lavaInjectLoader] Inject Load Bootstrap v1.0.1 [QuickLava] @ Off 0xed20
+	[lavaInjectLoader] Inject Load Bootstrap v1.0.1 [QuickLava] @ Off 0xecb0
 Source/Extras/Netplay.asm
-	[Project+] Move v-sync call for Brawl/PM [hannesmann, Dan Salvato, Achilles] @ Off 0xed68
-	[Project+] Skip strap screen [PyotrLuzhin] @ Off 0xed78
-	Fixed OSReport Syntax on File Reading [DukeItOut] @ Off 0xed80
+	[Project+] Move v-sync call for Brawl/PM [hannesmann, Dan Salvato, Achilles] @ Off 0xecf8
+	[Project+] Skip strap screen [PyotrLuzhin] @ Off 0xed08
+	Fixed OSReport Syntax on File Reading [DukeItOut] @ Off 0xed10
 Source/Extras/More.asm
-	Disable DPad on the SSS [PyotrLuzhin] @ Off 0xedd0
-	R Press on SSS Advances Page v1.1 [ilikepizza107, QuickLava] @ Off 0xedd8
-	PokeTrio, Zelda/Sheik, Samus/ZSS Don't Force Each Other off of Selected Color on Return to CSS [QuickLava] @ Off 0xee00
+	Disable DPad on the SSS [PyotrLuzhin] @ Off 0xed60
+	R Press on SSS Advances Page v1.1 [ilikepizza107, QuickLava] @ Off 0xed68
+	PokeTrio, Zelda/Sheik, Samus/ZSS Don't Force Each Other off of Selected Color on Return to CSS [QuickLava] @ Off 0xed90
 Source/Extras/PersistentSoundTestTracks.asm
-	Sound Test and My Music Choices Persist Between Menus (Standalone Ver.) v1.2.0 [QuickLava] @ Off 0xee08
+	Sound Test and My Music Choices Persist Between Menus (Standalone Ver.) v1.2.0 [QuickLava] @ Off 0xed98

@@ -4545,9 +4545,9 @@ Shorthop Footstool Multiplier (0.75x) [Magus]
 * EC210032 D0210024
 * C8020018 00000000
 
-Meteor Cancel Delay Subtractor (-4) [ds22]
+Meteor Cancel Delay Subtractor (-3) [ds22, QuickLava]
 * C2856238 00000003
-* 3D404080 91590070
+* 3D404040 91590070
 * C0390070 EC000828
 * D019006C 00000000
 
@@ -10841,7 +10841,7 @@ C-stick Smash Fixes + functional tilt stick (reverse ftilt included) v1.2 [camel
 * 00080000 00000000
 * 06FC2498 00000008
 * 00070100 80541120
-* 06541220 00000090
+* 06541220 00000088
 * 00000000 00000024
 * 00000006 00000000
 * 00000006 00000007
@@ -10856,7 +10856,6 @@ C-stick Smash Fixes + functional tilt stick (reverse ftilt included) v1.2 [camel
 * 000D0400 805410C0
 * 02010200 805410B0
 * 000D0400 80541230
-* 02010200 80541220
 * 000F0000 00000000
 * 000F0000 00000000
 * 00080000 00000000

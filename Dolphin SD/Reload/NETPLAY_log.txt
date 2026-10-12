@@ -198,7 +198,7 @@ Source/Project+/Memory.asm
 	TopN Y and SCD Bottom Reference Fix v2.1 [Magus, Eon]  @ Off 0x8270
 	Stage Collisions Update TopN Y [Magus] @ Off 0x82d0
 Shorthop Footstool Multiplier (0.75x) [Magus] @ Off 0x8388
-Meteor Cancel Delay Subtractor (-4) [ds22] @ Off 0x83b0
+Meteor Cancel Delay Subtractor (-3) [ds22, QuickLava] @ Off 0x83b0
 Custom Requirements v1.3 (ProjectM) [Magus, Sammi-Husky] @ Off 0x83d0
 Bit Variables Beyond 255 and Negative Offset Variables [Magus] @ Off 0x85b0
 Multiply Frame Speed Modifier Command [Magus] @ Off 0x87e8
@@ -453,37 +453,37 @@ Source/Project+/Debug/modifiedDebug.asm
 	Debug Body Collision State, Armor, and Hitstun Overlays v1.2 [Magus] @ Off 0x137a8
 Source/Project+/CStick.asm
 	C-stick Smash Fixes + functional tilt stick (reverse ftilt included) v1.2 [camelot, Eon] @ Off 0x13930
-	[Project+] C-Stick Debug Mode and Slow Mode fix v4.3 [Fracture, DukeItOut, Eon] @ Off 0x13bc8
-	[Project+] Custom C-stick options [Eon] @ Off 0x13ca0
-	[Project+] C-stick mushing Fix [Eon] @ Off 0x13d70
-	[Project+] C-Stick throws 2.0 [Eon, Dantarion, standardtoaster] @ Off 0x13d78
-	Cstick Neutral range = Cstick input range [Eon] @ Off 0x13f30
-	C-Stick backwards fsmash bug fix [Eon] @ Off 0x13f38
+	[Project+] C-Stick Debug Mode and Slow Mode fix v4.3 [Fracture, DukeItOut, Eon] @ Off 0x13bc0
+	[Project+] Custom C-stick options [Eon] @ Off 0x13c98
+	[Project+] C-stick mushing Fix [Eon] @ Off 0x13d68
+	[Project+] C-Stick throws 2.0 [Eon, Dantarion, standardtoaster] @ Off 0x13d70
+	Cstick Neutral range = Cstick input range [Eon] @ Off 0x13f28
+	C-Stick backwards fsmash bug fix [Eon] @ Off 0x13f30
 Source/Project+/Items.asm
-	Effects spawn on hitting items [DukeItOut] @ Off 0x13f50
-	Max Items Spawnable 8 -> 12 [DukeItOut] @ Off 0x13f60
-	Additional Item Switch Frequency Settings 'VERY HIGH', 'INTENSE', and 'BOMB RAIN' [DukeItOut] @ Off 0x13f80
+	Effects spawn on hitting items [DukeItOut] @ Off 0x13f48
+	Max Items Spawnable 8 -> 12 [DukeItOut] @ Off 0x13f58
+	Additional Item Switch Frequency Settings 'VERY HIGH', 'INTENSE', and 'BOMB RAIN' [DukeItOut] @ Off 0x13f78
 Source/Project+/Co-OpSave.asm
-	2P Co-Op Defaults to First Costume [DukeItOut] @ Off 0x14098
+	2P Co-Op Defaults to First Costume [DukeItOut] @ Off 0x14090
 Source/Community/ItemEx.asm
-	ItemEx Clone Engine v2.52 [Sammi Husky, Kapedani] @ Off 0x14148
+	ItemEx Clone Engine v2.52 [Sammi Husky, Kapedani] @ Off 0x14140
 	Source/Community/DoubleCherry.asm
-		Cherry Double v1.2 [Kapedani] @ Off 0x177a0
-	Dragoon Parts Drops like a Normal Item With Multiplier If Parts Have Dropped [Kapedani]  @ Off 0x184d0
-	Team Healer Always Heals Teammates [Kapedani] @ Off 0x18540
-	Touch Items Notify Outside Event Get Item [Kapedani] @ Off 0x185d0
-	Every Item Can Have Collision v2 [Kapedani] @ Off 0x18610
-	Every Item Can Have Physics [Kapedani] @ Off 0x18638
-	Item Mayhem Mode (Item Switch Edition) + Butterfingers [MarioDox, DukeItOut, Kapedani] @ Off 0x18640
-	Passive Aggressive Mode [Kapedani] @ Off 0x187a0
-	All Assists are Unlocked [Kapedani] @ Off 0x18be8
-	ItemEx Mayhem and Passive Aggression Modes default to Off on Boot [Kapedani] @ Off 0x18bf8
-	utArchivereqLoad 4th Parameter as 2 forces read instead of clone [DukeItOut, Kapedani] @ Off 0x18c30
+		Cherry Double v1.2 [Kapedani] @ Off 0x17798
+	Dragoon Parts Drops like a Normal Item With Multiplier If Parts Have Dropped [Kapedani]  @ Off 0x184c8
+	Team Healer Always Heals Teammates [Kapedani] @ Off 0x18538
+	Touch Items Notify Outside Event Get Item [Kapedani] @ Off 0x185c8
+	Every Item Can Have Collision v2 [Kapedani] @ Off 0x18608
+	Every Item Can Have Physics [Kapedani] @ Off 0x18630
+	Item Mayhem Mode (Item Switch Edition) + Butterfingers [MarioDox, DukeItOut, Kapedani] @ Off 0x18638
+	Passive Aggressive Mode [Kapedani] @ Off 0x18798
+	All Assists are Unlocked [Kapedani] @ Off 0x18be0
+	ItemEx Mayhem and Passive Aggression Modes default to Off on Boot [Kapedani] @ Off 0x18bf0
+	utArchivereqLoad 4th Parameter as 2 forces read instead of clone [DukeItOut, Kapedani] @ Off 0x18c28
 Source/Community/Syringe.asm
-	Reduce InfoInstance in SSE v3 [Sammi Husky, Kapedani, QuickLava] @ Off 0x18c58
-	Don't clear memory on game launch [Sammi Husky] @ Off 0x18c70
-	run codehandler after initializing memory [Sammi Husky] @ Off 0x18c80
-	run codehandler after loading rels [Sammi Husky] @ Off 0x18cb0
-	Syringe Core Loader [Sammi Husky, DukeItOut] @ Off 0x18cf0
+	Reduce InfoInstance in SSE v3 [Sammi Husky, Kapedani, QuickLava] @ Off 0x18c50
+	Don't clear memory on game launch [Sammi Husky] @ Off 0x18c68
+	run codehandler after initializing memory [Sammi Husky] @ Off 0x18c78
+	run codehandler after loading rels [Sammi Husky] @ Off 0x18ca8
+	Syringe Core Loader [Sammi Husky, DukeItOut] @ Off 0x18ce8
 Source/Netplay/Net-MultiGCT.asm
-	Expansion GCT Available [DukeItOut] @ Off 0x18dd0
+	Expansion GCT Available [DukeItOut] @ Off 0x18dc8

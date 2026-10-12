@@ -259,14 +259,14 @@ Source/P+Ex/SlotEx.asm
 Source/P+Ex/SoundbankFix.asm
 	Soundbank Clone Fix [DukeItOut] @ Off 0xe848
 	Costume Alternate Soundbank Loader [Squidgy, DukeItOut] @ Off 0xe9f8
-	[Project+] Sawnd Pop Fix V5c [DukeItOut] @ Off 0xec50
+	[Project+] Sawnd Pop Fix V5c [DukeItOut] @ Off 0xebe0
 Source/Community/lavaInjectLoader.asm
-	[lavaInjectLoader] Inject Load Bootstrap v1.0.1 [QuickLava] @ Off 0xeca0
+	[lavaInjectLoader] Inject Load Bootstrap v1.0.1 [QuickLava] @ Off 0xec30
 Source/Extras/Console.asm
-	480p Pixel Fix Patch [leseratte, Eon] @ Off 0xece8
+	480p Pixel Fix Patch [leseratte, Eon] @ Off 0xec78
 Source/Extras/More.asm
-	Disable DPad on the SSS [PyotrLuzhin] @ Off 0xed00
-	R Press on SSS Advances Page v1.1 [ilikepizza107, QuickLava] @ Off 0xed08
-	PokeTrio, Zelda/Sheik, Samus/ZSS Don't Force Each Other off of Selected Color on Return to CSS [QuickLava] @ Off 0xed30
+	Disable DPad on the SSS [PyotrLuzhin] @ Off 0xec90
+	R Press on SSS Advances Page v1.1 [ilikepizza107, QuickLava] @ Off 0xec98
+	PokeTrio, Zelda/Sheik, Samus/ZSS Don't Force Each Other off of Selected Color on Return to CSS [QuickLava] @ Off 0xecc0
 Source/Extras/PersistentSoundTestTracks.asm
-	Sound Test and My Music Choices Persist Between Menus (Standalone Ver.) v1.2.0 [QuickLava] @ Off 0xed38
+	Sound Test and My Music Choices Persist Between Menus (Standalone Ver.) v1.2.0 [QuickLava] @ Off 0xecc8
