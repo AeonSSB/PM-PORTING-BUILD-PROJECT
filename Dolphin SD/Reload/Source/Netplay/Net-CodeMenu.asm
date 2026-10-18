@@ -297,7 +297,7 @@ loc_0x0E3:
 loc_0x0F6:
 	bla 0x2e844
 	lis r31, 0x804e
-	lwz r31, 0xea4(r31)
+	lwz r31, 0xee8(r31)
 	cmpwi r31, 0x1
 	bne loc_0x14A
 	li r31, 0x0
@@ -422,7 +422,7 @@ HOOK @ $80029574                # Address = $(ba + 0x00029574)
 	cmplw r31, r28
 	bne loc_0x3A1
 	lis r28, 0x804e
-	lwz r28, 0xed4(r28)
+	lwz r28, 0xf18(r28)
 	cmpwi r28, 0x0
 	bne loc_0x024
 	lis r28, 0x804e
@@ -978,27 +978,27 @@ loc_0x1F5:
 	bne+ loc_0x1F5
 loc_0x1FB:
 	lis r31, 0x804e
-	lwz r31, 0xd44(r31)
+	lwz r31, 0xd88(r31)
 	lis r30, 0x8058
 	ori r30, r30, 0x3fff
 	stb r31, 0x0(r30)
 	lis r31, 0x804e
-	lwz r31, 0xd70(r31)
+	lwz r31, 0xdb4(r31)
 	lis r30, 0x8058
 	ori r30, r30, 0x3ffd
 	stb r31, 0x0(r30)
 	lis r31, 0x804e
-	lwz r31, 0xdf4(r31)
+	lwz r31, 0xe38(r31)
 	lis r30, 0x8058
 	ori r30, r30, 0x3ff9
 	stb r31, 0x0(r30)
 	lis r31, 0x804e
-	lwz r31, 0xdc0(r31)
+	lwz r31, 0xe04(r31)
 	lis r30, 0x8058
 	ori r30, r30, 0x3ff7
 	stb r31, 0x0(r30)
 	lis r31, 0x804e
-	lwz r31, 0xe48(r31)
+	lwz r31, 0xe8c(r31)
 	lis r30, 0x8058
 	ori r30, r30, 0x3ffb
 	stb r31, 0x0(r30)
@@ -2080,35 +2080,35 @@ loc_0x09E:
 HOOK @ $80023D60                # Address = $(ba + 0x00023D60)
 {
 	lis r11, 0x804e
-	lwz r10, 0x2058(r11)
+	lwz r10, 0x209c(r11)
 	lis r12, 0x80b8
 	stw r10, 0x7aa8(r12)
-	lwz r10, 0x20d0(r11)
+	lwz r10, 0x2114(r11)
 	stw r10, 0x7ae8(r12)
-	lwz r10, 0x2094(r11)
+	lwz r10, 0x20d8(r11)
 	stw r10, 0x7aec(r12)
-	lwz r10, 0x2108(r11)
-	stw r10, 0x7b10(r12)
 	lwz r10, 0x214c(r11)
+	stw r10, 0x7b10(r12)
+	lwz r10, 0x2190(r11)
 	lis r12, 0x80b9
 	stw r10, -0x7cac(r12)
-	lwz r10, 0x2180(r11)
+	lwz r10, 0x21c4(r11)
 	stw r10, -0x7ca8(r12)
-	lwz r10, 0x21b8(r11)
+	lwz r10, 0x21fc(r11)
 	stw r10, -0x7be0(r12)
-	lwz r10, 0x2200(r11)
-	stw r10, -0x7bbc(r12)
 	lwz r10, 0x2244(r11)
+	stw r10, -0x7bbc(r12)
+	lwz r10, 0x2288(r11)
 	stw r10, -0x7ba4(r12)
-	lwz r10, 0x2284(r11)
+	lwz r10, 0x22c8(r11)
 	stw r10, -0x7ba0(r12)
-	lwz r10, 0x22c0(r11)
+	lwz r10, 0x2304(r11)
 	stw r10, -0x7b88(r12)
-	lwz r10, 0x2300(r11)
+	lwz r10, 0x2344(r11)
 	stw r10, -0x7b7c(r12)
-	lwz r10, 0x2340(r11)
+	lwz r10, 0x2384(r11)
 	stw r10, -0x7af0(r12)
-	lwz r10, 0x2388(r11)
+	lwz r10, 0x23cc(r11)
 	stw r10, -0x7acc(r12)
 	lwz r12, 0x4(r11)
 	addi r10, r11, 0x7e4
@@ -2161,7 +2161,7 @@ HOOK @ $807C1A20                # Address = $(ba + 0x007C1A20)
 	stmw r3, 0x8(r1)
 	bl 0x1830
 	lis r31, 0x804e
-	lwz r31, 0x2634(r31)
+	lwz r31, 0x2678(r31)
 	cmpwi r31, 0x1
 	bne loc_0x038
 	lwz r27, 0xd8(r27)
@@ -2174,12 +2174,12 @@ HOOK @ $807C1A20                # Address = $(ba + 0x007C1A20)
 	lwz r31, 0x64(r26)
 	lfs f2, 0x8(r31)
 	lis r30, 0x804e
-	ori r30, r30, 0x2710
+	ori r30, r30, 0x2754
 	lfs f0, 0x8(r30)
 	fmuls f1, f1, f0
 	fadds f1, f1, f2
 	lis r30, 0x804e
-	ori r30, r30, 0x265c
+	ori r30, r30, 0x26a0
 	lfs f2, 0x8(r30)
 	fneg f0, f2
 	fcmpu cr0, f1, f0
@@ -2195,12 +2195,12 @@ loc_0x024:
 	lwz r31, 0x58(r26)
 	lfs f2, 0xc(r31)
 	lis r30, 0x804e
-	ori r30, r30, 0x2750
+	ori r30, r30, 0x2794
 	lfs f0, 0x8(r30)
 	fmuls f1, f1, f0
 	fadds f1, f1, f2
 	lis r30, 0x804e
-	ori r30, r30, 0x2698
+	ori r30, r30, 0x26dc
 	lfs f2, 0x8(r30)
 	fneg f0, f2
 	fcmpu cr0, f1, f0
@@ -2230,7 +2230,7 @@ loc_0x038:
 HOOK @ $8083ADE0                # Address = $(ba + 0x0083ADE0)
 {
 	lis r4, 0x804e
-	lwz r4, 0x2634(r4)
+	lwz r4, 0x2678(r4)
 	cmpwi r4, 0x1
 	bne loc_0x01C
 	cmpwi r3, -0x1
@@ -2387,7 +2387,7 @@ loc_0x014:
 HOOK @ $808E00A4                # Address = $(ba + 0x008E00A4)
 {
 	lis r6, 0x804e
-	lwz r6, 0x23c4(r6)
+	lwz r6, 0x2408(r6)
 	cmpwi r6, 0x1
 	bne loc_0x005
 	li r0, 0x8
@@ -3191,7 +3191,7 @@ HOOK @ $8000E588                # Address = $(ba + 0x0000E588)
 	cmpwi r31, 0x1
 	bne loc_0x09E
 	lis r31, 0x804e
-	lwz r31, 0xe78(r31)
+	lwz r31, 0xebc(r31)
 	cmpwi r31, 0x1
 	bne loc_0x09E
 	li r31, 0x14
@@ -4186,6 +4186,82 @@ loc_0x014:
 	cmpwi r24, 0x1
 }
 
+##############################################################
+[CM: _ThemeChange] Theme Changer (menumain) v2.0.0 [QuickLava]
+##############################################################
+HOOK @ $806BF030                # Address = $(ba + 0x006BF030)
+{
+	subi r31, r31, 0x4db8
+	lis r12, 0x804e
+	lwz r12, 0xc98(r12)
+	mulli r12, r12, 0x4
+	bl data_0x007
+	word 0x2F6D755F                 # /mu_      | DATA_EMBED (0x8 bytes)
+	word 0x2F6D7A5F                 # /mz_
+data_0x007:
+	mflr r11
+	lwzx r11, r11, r12
+	stw r11, 0x5(r31)
+	nop
+}
+
+#############################################################
+[CM: _ThemeChange] Theme Changer (selchar) v2.0.0 [QuickLava]
+#############################################################
+HOOK @ $806C8728                # Address = $(ba + 0x006C8728)
+{
+	subi r5, r5, 0xd14
+	lis r12, 0x804e
+	lwz r12, 0xc98(r12)
+	mulli r12, r12, 0x4
+	bl data_0x007
+	word 0x2F73635F                 # /sc_      | DATA_EMBED (0x8 bytes)
+	word 0x2F6D7A5F                 # /mz_
+data_0x007:
+	mflr r11
+	lwzx r11, r11, r12
+	stw r11, 0x6(r5)
+	nop
+}
+
+##############################################################
+[CM: _ThemeChange] Theme Changer (selchar2) v2.0.0 [QuickLava]
+##############################################################
+HOOK @ $806C8744                # Address = $(ba + 0x006C8744)
+{
+	subi r5, r5, 0xcf8
+	lis r12, 0x804e
+	lwz r12, 0xc98(r12)
+	mulli r12, r12, 0x4
+	bl data_0x007
+	word 0x2F73635F                 # /sc_      | DATA_EMBED (0x8 bytes)
+	word 0x2F6D7A5F                 # /mz_
+data_0x007:
+	mflr r11
+	lwzx r11, r11, r12
+	stw r11, 0x6(r5)
+	nop
+}
+
+############################################################
+[CM: _ThemeChange] Theme Changer (selmap) v2.0.0 [QuickLava]
+############################################################
+HOOK @ $806C8E14                # Address = $(ba + 0x006C8E14)
+{
+	subi r5, r5, 0xc10
+	lis r12, 0x804e
+	lwz r12, 0xc98(r12)
+	mulli r12, r12, 0x4
+	bl data_0x007
+	word 0x2F73635F                 # /sc_      | DATA_EMBED (0x8 bytes)
+	word 0x2F6D7A5F                 # /mz_
+data_0x007:
+	mflr r11
+	lwzx r11, r11, r12
+	stw r11, 0x6(r5)
+	nop
+}
+
 #######################################################################################################################
 [CM: _PlayerSlotColorChangers v3.1.3] Incr and Decr Slot Color with L/R, Reset with Z on Player Kind Button [QuickLava]
 #######################################################################################################################
@@ -4817,7 +4893,7 @@ HOOK @ $808E0094                # Address = $(ba + 0x008E0094)
 	word 0x00000000                 # ....
 data_0x00D:
 	lis r30, 0x804e
-	lwz r30, 0x2410(r30)
+	lwz r30, 0x2454(r30)
 	cmplwi r30, 0x0
 	lis r11, 0x2
 	li r12, 0x0
@@ -4844,11 +4920,11 @@ loc_0x018:
 HOOK @ $808734F8                # Address = $(ba + 0x008734F8)
 {
 	lis r11, 0x804e
-	lwz r12, 0x2458(r11)
+	lwz r12, 0x249c(r11)
 	cmplwi r12, 0x0
 	beq loc_0x022
 	mtctr r12
-	lwz r11, 0x2508(r11)
+	lwz r11, 0x254c(r11)
 	mr r0, r11
 	bdz loc_0x018
 	add r0, r11, r3
@@ -4870,12 +4946,12 @@ loc_0x013:
 	subf r0, r0, r3
 loc_0x018:
 	lis r11, 0x804e
-	lwz r12, 0x2548(r11)
+	lwz r12, 0x258c(r11)
 	cmpw r0, r12
 	bge loc_0x01D
 	mr r0, r12
 loc_0x01D:
-	lwz r12, 0x2590(r11)
+	lwz r12, 0x25d4(r11)
 	cmpw r0, r12
 	ble loc_0x021
 	mr r0, r12

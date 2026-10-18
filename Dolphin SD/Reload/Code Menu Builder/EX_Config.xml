@@ -53,10 +53,13 @@
     <!--To declare new themes, add new entries into this block!-->
     <themeChanger enabled="true">
       <!--Add new themes in the following format:
-            <menuTheme name="YOUR_NAME_HERE!">
-                <themeFile name="sc_selcharacter.pac" replacementPrefix="ex_"/>
-            </menuTheme>
             -->
+	    <menuTheme name= "White">
+                <themeFile name="sc_selcharacter.pac" replacementPrefix="mz_"/>
+                <themeFile name="sc_selcharacter2.pac" replacementPrefix="mz_"/>
+                <themeFile name="sc_selmap.pac" replacementPrefix="mz_"/>
+                <themeFile name="mu_menumain.pac" replacementPrefix="mz_"/>
+            </menuTheme>
     </themeChanger>
     <!--Adds a toggle for enabling/disabling grabbing items with aerials and dash attacks to the "Gameplay Modifiers" menu!-->
     <vBrawlItemGrab enabled="true" />

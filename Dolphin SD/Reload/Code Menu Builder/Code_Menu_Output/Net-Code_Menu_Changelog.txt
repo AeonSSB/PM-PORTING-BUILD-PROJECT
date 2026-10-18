@@ -90,13 +90,20 @@ Attempting to parse Addon in "./Addons/Volume Balance v1.0.1"...
 [SUCCESS] Successfully parsed and included Addon "Volume Balance Control v1.0.1 [QuickLava]" (ShortName: "VOLBLNCE")!
 
 Adding Themes to Code Menu from "EX_Config.xml"...
-[NOTE] Theme Declaration block parsed, but no valid entries were found!
+[ADDED] "White"
 Final Theme List:
 	"Default", Replacement Prefixes Are:
 		"mu_menumain.pac": "mu_"
 		"sc_selcharacter.pac": "sc_"
 		"sc_selcharacter2.pac": "sc_"
 		"sc_selmap.pac": "sc_"
+		"sc_sel_event.pac": "sc_"
+		"sc_title.pac": "sc_"
+	"White", Replacement Prefixes Are:
+		"mu_menumain.pac": "mz_"
+		"sc_selcharacter.pac": "mz_"
+		"sc_selcharacter2.pac": "mz_"
+		"sc_selmap.pac": "mz_"
 		"sc_sel_event.pac": "sc_"
 		"sc_title.pac": "sc_"
 

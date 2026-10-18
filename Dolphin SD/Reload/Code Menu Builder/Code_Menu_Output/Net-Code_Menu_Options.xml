@@ -46,6 +46,11 @@
 			<option value="PM 3.6" />
 			<option value="OFF" />
 		</codeMenuSelection>
+		<codeMenuSelection name="Active Theme">
+			<defaultOption index="0" editable="true" />
+			<option value="Default" />
+			<option value="White" />
+		</codeMenuSelection>
 	</codeMenuPage>
 	<codeMenuPage name="Debug Mode Settings">
 		<codeMenuToggle name="Debug Mode">
