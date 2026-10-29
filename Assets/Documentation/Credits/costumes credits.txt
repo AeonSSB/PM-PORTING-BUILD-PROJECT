@@ -299,7 +299,7 @@ Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Red N64 Falco by Eiji_Ar, Xaturati0n
 - Green N64 Falco by Eiji_Ar, Xaturati0n
 - Blue N64 Falco by Eiji_Ar, Xaturati0n
-- Brown N64 Falco by Eiji_Ar, Xaturati0n
+- Brown N64 Falco by Eiji_Ar, Xaturati0n, Efisio
 - Orange N64 Falco by Eiji_Ar, Xaturati0n
 - Purple N64 Falco by Eiji_Ar, Xaturati0n, Efisio
 - Cyan N64 Falco by Eiji_Ar, Xaturati0n, Efisio
@@ -464,7 +464,7 @@ LUCARIO
 Scenes by Efisio with credit to Cahalan, Mach7, PMHD Team
 - Default Lucario from Brawl
 - Red Lucario by Xaturati0n
-- Black Lucario by Xaturati0n
+- Black Lucario by Xaturati0n, Efisio
 - White Lucario from Brawl
 - Green Lucario by Xaturati0n
 - Shiny Lucario by Xaturati0n
