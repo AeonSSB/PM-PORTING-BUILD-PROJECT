@@ -77,7 +77,7 @@ Source/ProjectM/SpecialModes/Rules.asm
 	Special modes rules menu change cosmetics REDUX [Kapedani] @ Off 0x57d8
 	Coin and Time Games Have a Target Amount and Stock Time Limit Handles Time Limit for All Rules v1.3 [Kapedani] @ Off 0x58a0
 Source/ProjectM/SpecialModes/Stamina.asm
-	P+ Stamina REDUX v1.3 [wiiztec, DukeItOut, Kapedani] @ Off 0x5da0
+	P+ Stamina REDUX v1.31 [wiiztec, DukeItOut, Kapedani] @ Off 0x5da0
 	Throws Don't Cut Early for Victim Damage in Stamina [codes, DukeItOut] @ Off 0x7580
 Source/ProjectM/SpecialModes/Turbo.asm
 	Turbo Mode - On Hit Interrupts v1.2 [Magus, Dantarion, standardtoaster, DukeItOut] @ Off 0x75a0

@@ -3095,7 +3095,7 @@ Coin and Time Games Have a Target Amount and Stock Time Limit Handles Time Limit
 * 98041378 4E800020
 * 60000000 00000000
 
-P+ Stamina REDUX v1.3 [wiiztec, DukeItOut, Kapedani]
+P+ Stamina REDUX v1.31 [wiiztec, DukeItOut, Kapedani]
 * C2839248 00000086
 * 7F43D378 3C801200
 * 60840018 3D808079
@@ -3126,7 +3126,7 @@ P+ Stamina REDUX v1.3 [wiiztec, DukeItOut, Kapedani]
 * 2C030001 41820330
 * 8061000C 70600003
 * 2C000003 40A2000C
-* 38800005 48000300
+* 38800007 48000300
 * 81590000 894A0018
 * 7D4A0775 40A00240
 * 3D60805A 816B00E0

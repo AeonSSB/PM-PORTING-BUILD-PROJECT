@@ -1,6 +1,6 @@
-####################################################
-P+ Stamina REDUX v1.3 [wiiztec, DukeItOut, Kapedani]
-####################################################
+#####################################################
+P+ Stamina REDUX v1.31 [wiiztec, DukeItOut, Kapedani]
+#####################################################
 
 .alias g_ftDataCommon							= 0x80B88268
 .alias g_ftManager                          	= 0x80B87C28
@@ -148,7 +148,7 @@ HOOK @ $80839248	# Fighter::processFixPosition
 	cmpwi r0, 0x3			# | check if attack + special is pressed
 	bne+ notSelfDestruct	# /
 destructSelf:
-	li r4, 5
+	li r4, 7
 	b selfDestruct
 notSelfDestruct:
 
